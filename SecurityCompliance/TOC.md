@@ -410,6 +410,5 @@
 ### [Отправка почты в Office 365](sending-mail-to-office-365.md)
 ### [Службы для лиц, не являющихся клиентами](services-for-non-customers.md)
 
-# 
-  [Office 365 корпоративный](https://docs.microsoft.com/Office365/Enterprise)
+# [Office 365 корпоративный](https://docs.microsoft.com/Office365/Enterprise)
 # [Office 365 для бизнеса](https://support.office.com/office365admin)
