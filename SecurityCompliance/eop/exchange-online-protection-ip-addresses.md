@@ -11,12 +11,12 @@ ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: eb14f38b-7b55-4a47-84a0-4a56a59e4111
 description: При отправке и получении электронной почты, а также для портала и служб администрирования Microsoft Exchange Online Protection (EOP) используются указанные ниже IP-адреса центров обработки данных Майкрософт. Чтобы отправлять и получать сообщения из службы EOP или использовать службы администрирования, убедитесь, что в вашей сети разрешены подключения с этих IP-адресов.
-ms.openlocfilehash: 1b5dad69fb300f36bc94c9d264492f9c9be8948f
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 853b64410969fcc2f3c9ef238d2e9f4a4bb36e7b
+ms.sourcegitcommit: edf5db9357c0d34573f8cc406314525ef10d1eb9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026326"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23230011"
 ---
 # <a name="exchange-online-protection-ip-addresses"></a>IP-адреса службы Exchange Online Protection
 
@@ -26,8 +26,6 @@ ms.locfileid: "22026326"
 > Корпорация Майкрософт разрабатывает на основе REST веб-службы для IP-адрес и полное доменное имя записи на этой странице. Эта новая служба помогут настроить и обновления устройств сети периметра брандмауэров и прокси-серверов. Вы можете загрузить список конечных точек, текущую версию списка или определенные изменения. Эта служба заменит XML-документа, RSS-канал и IP-адрес и полное доменное имя записи на этой странице. Чтобы ознакомиться с этой новой службы, перейдите на [веб-службы](https://support.office.com/article/managing-office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a#webservice). 
  
 ## <a name="eop-ip-address-ranges"></a>Диапазоны IP-адресов службы EOP
-
-Ниже приведен полный список диапазонов EOP IP-адресов, по состоянию на **7/2/2018**. 
 
 ||||
 |:-----|:-----|:-----|
@@ -91,3 +89,4 @@ Exchange Online Protection направляет почту самым эффек
 | 216.32.180.0/23 |  | |
 | 2a01:111:f400:7 c 00:: / 54 |  | |
 ||||
+
