@@ -147,7 +147,7 @@
 ## [Использование поиска контента](content-search.md)
 ### [Запросы ключевых слов и условия поиска контента](keyword-queries-and-search-conditions.md)
 ### [Просмотр статистики ключевых слов для результатов поиска контента](view-keyword-statistics-for-content-search.md)
-### [Экспорт результатов поиска контента](content-search.md#export-search-results)
+### [Экспорт результатов поиска контента](export-search-results.md)
 ### [Экспорт отчета о поиске контента](export-a-content-search-report.md)
 ### [Поиск и удаление сообщений электронной почты](search-for-and-delete-messagesadmin-help.md)
 ### [Поиск облачных почтовых ящиков локальных пользователей в Office 365](search-cloud-based-mailboxes-for-on-premises-users.md)
@@ -169,11 +169,11 @@
 ### [Отключение отчетов при экспорте результатов поиска контента](disable-reports-when-you-export-content-search-results.md)
 ## Использование сценариев PowerShell поиска контента
 ### [Использование поиска контента для целевых коллекций](use-content-search-for-targeted-collections.md)
-### [Поиск списка пользователей в почтовом ящике и на сайте OneDrive для бизнеса с помощью поиска контента](https://support.office.com/article/5f4f8206-2d6a-4cb2-bbc6-7a0698703cc0)
+### [Поиск списка пользователей в почтовом ящике и на сайте OneDrive для бизнеса с помощью поиска контента](search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md)
 ### [Создание, составление отчета и удаление нескольких поисков контента](create-report-on-and-delete-multiple-content-searches.md)
 ### [Клонирование поиска контента](clone-a-content-search.md)
 
-# Управление расследованиями
+# [Управление расследованиями](manage-legal-investigations.md)
 ## [Создание дел обнаружения электронных данных и управление ими](ediscovery-cases.md)
 ## [Назначение разрешений на обнаружение электронных данных](assign-ediscovery-permissions.md)
 ## [Настройка границ соответствия для расследований дел обнаружения электронных данных в Office 365](set-up-compliance-boundaries.md)
@@ -182,8 +182,9 @@
 ## [Назначение разрешений на обнаружение электронных данных для сайтов OneDrive для бизнеса](assign-permissions-to-onedrive-for-business-sites.md)
 ## [Использование сценария для добавления пользователей в состояние удержания в деле обнаружения электронных данных](use-a-script-to-add-users-to-a-hold-in-ediscovery.md)
 ## [Создание отчета об удержаниях в делах обнаружения электронных данных](create-a-report-on-holds-in-ediscovery-cases.md)
-## Управление удержаниями
-### [Создание судебного удержания](create-a-litigation-hold.md)
+## Управление случаями удержания
+### [Создание запроса на удержание в случае обнаружения электронных данных](ediscovery-cases.md#step-4-place-content-locations-on-hold)
+### [Создание запроса на хранение для судебного разбирательства](create-a-litigation-hold.md)
 ### [Удаление элементов в папке "Элементы с возможностью восстановления" облачных почтовых ящиков на удержании](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md)
 ### [Увеличение квоты для папки "Элементы с возможностью восстановления" для почтовых ящиков на удержании](increase-the-recoverable-quota-for-mailboxes-on-hold.md)
 ### [Как определить тип удержания, примененного для почтового ящика Exchange Online](identify-a-hold-on-an-exchange-online-mailbox.md)
