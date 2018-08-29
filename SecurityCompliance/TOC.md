@@ -10,11 +10,9 @@
 ## [Использование бесплатной подписки на Azure Active Directory](use-your-free-azure-ad-subscription-in-office-365.md)
 ## [Планирование безопасности и соответствия требованиям в Office 365](plan-for-security-and-compliance.md)
 ## [Использование обозревателя в Центре безопасности и соответствия требованиям](use-explorer-in-security-and-compliance.md)
-
 # Защита доступа к данным и службам
 ## [Защита доступа к данным и службам в Office 365](protect-access-to-data-and-services.md)
 ## [Выбор между MDM и Intune](choose-between-mdm-and-intune.md)
-
 # [Защита от потери данных (DLP)](data-loss-prevention-policies.md)
 ## [Расширенный обзор защиты от потери данных](https://go.microsoft.com/fwlink/?linkid=852300)
 ## Настройка защиты от потери данных
@@ -34,7 +32,6 @@
 ### [Настройка встроенных типов конфиденциальных данных](customize-a-built-in-sensitive-information-type.md)
 ### [Создание пользовательского типа конфиденциальных данных](create-a-custom-sensitive-information-type.md)
 ### [Создание словаря ключевых слов](create-a-keyword-dictionary.md)
-
 # Управление данными        
 ## [Импорт данных](importing-pst-files-to-office-365.md)
 ### [Импорт PST-файлов с помощью отправки по сети](use-network-upload-to-import-pst-files.md)
@@ -68,7 +65,6 @@
 ### [Отчеты о контроле](supervision-reports.md)
 ## Дополнительные сведения об управлении данными
 ### [Просмотр видеороликов от группы управления данными Майкрософт](https://go.microsoft.com/fwlink/?linkid=867039)
-
 # [Защита от угроз](protect-against-threats.md)
 ## [Защита от нежелательной почты и вредоносных программ](anti-spam-and-anti-malware-protection.md)
 ### [Защита от фишинга в Office 365](anti-phishing-protection.md)
@@ -141,9 +137,8 @@
 ### [Управление сообщениями и файлами на карантине от имени администратора](manage-quarantined-messages-and-files.md)
 ### [Поиск и освобождение сообщений из карантина от имени пользователя](find-and-release-quarantined-messages-as-a-user.md)
 ### [Вопросы и ответы о карантине для Office 365](quarantine-faq.md)
-### [Использование уведомлений о нежелательной почте пользователей для освобождения сообщений из карантина и создания отчетов о них в Office 365](use-spam-notifications-to-release-and-report-quarantined-messages.md)
-
-# Поиск контента
+### [Использование уведомлений пользователей о спаме для освобождения сообщений из карантина и создания отчетов о них в Office 365](use-spam-notifications-to-release-and-report-quarantined-messages.md)
+# [Поиск контента](search-for-content.md)
 ## [Использование поиска контента](content-search.md)
 ### [Запросы ключевых слов и условия поиска контента](keyword-queries-and-search-conditions.md)
 ### [Просмотр статистики ключевых слов для результатов поиска контента](view-keyword-statistics-for-content-search.md)
@@ -172,7 +167,6 @@
 ### [Поиск списка пользователей в почтовом ящике и на сайте OneDrive для бизнеса с помощью поиска контента](search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md)
 ### [Создание, составление отчета и удаление нескольких поисков контента](create-report-on-and-delete-multiple-content-searches.md)
 ### [Клонирование поиска контента](clone-a-content-search.md)
-
 # [Управление расследованиями](manage-legal-investigations.md)
 ## [Создание дел обнаружения электронных данных и управление ими](ediscovery-cases.md)
 ## [Назначение разрешений на обнаружение электронных данных](assign-ediscovery-permissions.md)
@@ -223,14 +217,12 @@
 ### [Настройка дополнительных параметров анализа в Office 365 Advanced eDiscovery](set-analyze-options-in-advanced-ediscovery.md)
 ### [Сведения об оценке в модуле релевантности в Office 365 Advanced eDiscovery](assessment-in-relevance-in-advanced-ediscovery.md)
 ### [Добавление тегов и поиск](search-and-tagging.md)
-
 # [Поиск в журнале аудита](search-the-audit-log-in-security-and-compliance.md)
 ## [Включение и отключение поиска в журнале аудита](turn-audit-log-search-on-or-off.md)
 ## [Включение аудита почтовых ящиков](enable-mailbox-auditing.md)
 ## [Подробные свойства в журнале аудита](detailed-properties-in-the-office-365-audit-log.md)
 ## [Использование аудита общего доступа в журнале аудита](use-sharing-auditing.md)
 ## [Поиск действий по обнаружению электронных данных в журнале аудита](search-for-ediscovery-activities-in-the-audit-log.md)
-
 # Мониторинг безопасности и соответствия требованиям
 ## [Политики оповещений](alert-policies.md)
 ### [Создание оповещений о действиях](create-activity-alerts.md)
@@ -245,7 +237,6 @@
 #### [Скачивание существующих отчетов](download-existing-reports.md)
 ## [Включение и отключение советов по безопасности в Office 365](enable-or-disable-safety-tips.md)
 ## [Включение надстройки Report Message](enable-the-report-message-add-in.md)
-
 # Решения по обеспечению безопасности
 ## [Руководство по безопасности (Майкрософт) для политических кампаний, некоммерческих и других динамичных организаций](https://docs.microsoft.com/Office365/Enterprise/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o)
 ### [Настройка групп и пользователей в случае среды разработки и тестирования для политической кампании](https://docs.microsoft.com/Office365/Enterprise/configure-groups-and-users-for-a-political-campaign-dev-test-environment)
@@ -264,27 +255,26 @@
 # Решения для соответствия требованиям
 ## [Применение диспетчера соответствия требованиям для соблюдения требований по защите данных и нормативных требований при использовании облачных служб Майкрософт](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
 ## [Управление запросами субъектов данных GDPR с помощью средства для работы с делами DSR](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)
-## [Защита информации в Office 365 в соответствии с GDPR](https://docs.microsoft.com/Office365/Enterprise/office-365-information-protection-for-gdpr)
-### [Обзор защиты в Office 365 в соответствии с GDPR](https://docs.microsoft.com/Office365/Enterprise/office-365-info-protection-for-gdpr-overview)
-### [Поиск персональных данных](https://docs.microsoft.com/Office365/Enterprise/search-for-and-find-personal-data)
-### [Настройка и создание типов конфиденциальной информации для GDPR](https://docs.microsoft.com/Office365/Enterprise/customize-or-create-a-new-sensitive-information-type)
-### [Создание схемы классификации для плана персональных данных](https://docs.microsoft.com/Office365/Enterprise/architect-a-classification-schema-for-personal-data)
-### [Применение меток к персональным данным в Office 365](https://docs.microsoft.com/Office365/Enterprise/apply-labels-to-personal-data-in-office-365)
-### [Применение защиты к персональным данным в Office 365](https://docs.microsoft.com/Office365/Enterprise/apply-protection-to-personal-data-in-office-365)
-### [Отслеживание утечек персональных данных](https://docs.microsoft.com/Office365/Enterprise/monitor-for-leaks-of-personal-data)
-### [Среда разработки и тестирования Office 365 для GDPR](https://docs.microsoft.com/Office365/Enterprise/gdpr-discovery-protection-reporting-in-office365-dev-test-environment)
+## [Защита информации в Office 365 в соответствии с GDPR](office-365-information-protection-for-gdpr.md)
+### [Обзор защиты в Office 365 в соответствии с GDPR](office-365-info-protection-for-gdpr-overview.md)
+### [Поиск персональных данных](search-for-and-find-personal-data.md)
+### [Настройка и создание типов конфиденциальной информации для GDPR](customize-or-create-a-new-sensitive-information-type.md)
+### [Создание схемы классификации для плана персональных данных](architect-a-classification-schema-for-personal-data.md)
+### [Применение меток к персональным данным в Office 365](apply-labels-to-personal-data-in-office-365.md)
+### [Применение защиты к персональным данным в Office 365](apply-protection-to-personal-data-in-office-365.md)
+### [Отслеживание утечек персональных данных](monitor-for-leaks-of-personal-data.md)
+### [Среда разработки и тестирования Office 365 для GDPR](gdpr-discovery-protection-reporting-in-office365-dev-test-environment.md)
 ## GDPR для локальных серверов Office
-### [GDPR для SharePoint Server](https://docs.microsoft.com/Office365/Enterprise/gdpr-for-sharepoint-server)
-### [GDPR для Exchange Server](https://docs.microsoft.com/Office365/Enterprise/gdpr-for-exchange-server)
-### [GDPR для Skype для бизнеса Server и Lync Server](https://docs.microsoft.com/Office365/Enterprise/gdpr-for-skype-for-business-server)
-### [GDPR для Project Server](https://docs.microsoft.com/Office365/Enterprise/gdpr-for-project-server)
-### [GDPR для сервера Office Web Apps и Office Online Server](https://docs.microsoft.com/Office365/Enterprise/gdpr-for-office-online-server)
-### [GDPR для локальных общих папок Windows Server](https://docs.microsoft.com/Office365/Enterprise/gdpr-for-on-premises-file-shares)
+### [GDPR для SharePoint Server](gdpr-for-sharepoint-server.md)
+### [GDPR для Exchange Server](gdpr-for-exchange-server.md)
+### [GDPR для Skype для бизнеса Server и Lync Server](gdpr-for-skype-for-business-server.md)
+### [GDPR для Project Server](gdpr-for-project-server.md)
+### [GDPR для сервера Office Web Apps и Office Online Server](gdpr-for-office-online-server.md)
+### [GDPR для локальных общих папок Windows Server](gdpr-for-on-premises-file-shares.md)
 # Управление инцидентами, связанными с безопасностью
-## [Реагирование на инциденты, связанные с безопасностью, в Office 365](https://docs.microsoft.com/Office365/Enterprise/office365-security-incident-response-overview)
-## [Обнаружение случаев незаконного предоставления разрешений и устранение их последствий в Office 365](https://docs.microsoft.com/Office365/Enterprise/detect-and-remediate-illicit-consent-grants)
-## [Обнаружение атак с внедрением правил и пользовательских форм Outlook и устранение их последствий в Office 365](https://docs.microsoft.com/Office365/Enterprise/detect-and-remediate-outlook-rules-forms-attack)
-
+## [Реагирование на инциденты, связанные с безопасностью, в Office 365](office365-security-incident-response-overview.md)
+## [Обнаружение случаев незаконного предоставления разрешений и устранение их последствий в Office 365](detect-and-remediate-illicit-consent-grants.md)
+## [Обнаружение атак с внедрением правил и пользовательских форм Outlook и устранение их последствий в Office 365](detect-and-remediate-outlook-rules-forms-attack.md)
 # Контроль качества обслуживания
 ## [Контроль качества обслуживания в Центре безопасности и соответствия требованиям Office 365](service-assurance.md)
 ## [Изоляция клиента в Office 365](office-365-tenant-isolation-overview.md)
@@ -331,7 +321,6 @@
 ### [Внутренняя регистрация для инженеров Office 365](office-365-internal-logging.md)
 ### [Перенос почтовых ящиков Office 365](office-365-mailbox-migrations.md)
 ### [API действий управления Office 365](office-365-management-activity-api.md)
-
 # [Exchange Online Protection](eop/exchange-online-protection-overview.md)
 ## [Функции EOP](eop/eop-features.md)
 ## [Разрешения на функции в службе EOP](eop/feature-permissions-in-eop.md)
@@ -410,6 +399,5 @@
 ### [Специальные возможности для людей с ограниченными возможностями](eop/accessibility-for-people-with-disabilities.md)
 ### [Отправка почты в Office 365](sending-mail-to-office-365.md)
 ### [Службы для лиц, не являющихся клиентами](services-for-non-customers.md)
-
 # [Office 365 корпоративный](https://docs.microsoft.com/Office365/Enterprise)
 # [Office 365 для бизнеса](https://support.office.com/office365admin)
