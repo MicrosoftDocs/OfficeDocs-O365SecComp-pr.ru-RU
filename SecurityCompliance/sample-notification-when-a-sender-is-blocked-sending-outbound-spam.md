@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: c33fd406-a4c8-4ac8-ad85-123996c5cded
 description: 'Когда в службе блокируется отправитель за рассылку спама, администратор домена (которого вы указали с помощью действий, описанных в статье Настройка правил защиты от спама для исходящих сообщений) получает по электронной почте уведомление, подобное следующему:'
-ms.openlocfilehash: c9954d3ea16582a66185d574bcb5fc8a1aeebbf9
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: b9fcdf9c2f44a4446a678ca4b22a0a12b24b6fd4
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22027466"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23003248"
 ---
 # <a name="sample-notification-when-a-sender-is-blocked-sending-outbound-spam"></a>Пример уведомления, отправляемого в случае блокирования отправки спама для отправителя
 

@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: ac11edd9-2da3-462d-8ea3-bbf9dbc6f948
 description: Если почтовая система клиента скомпрометирована вредоносной программой или спам-атакой и отправляет спам через размещенную службу фильтрации, IP-адреса серверов центра данных Office 365 могут быть занесены в сторонние списки блокировок.
-ms.openlocfilehash: 856db53b105379ea3e606e39bf3c2612afa803c3
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 69548488f70944a319a449bfc4ac1cb1bffd7b1c
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026626"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23003138"
 ---
 # <a name="high-risk-delivery-pool-for-outbound-messages"></a>Пул доставки сообщений с высоким уровнем опасности
 
