@@ -1,5 +1,5 @@
 ---
-title: Использование правил транспорта для настройки массового фильтрации электронной почты
+title: Настройка фильтрации массовых рассылок с помощью правил транспорта
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -9,16 +9,18 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: 2889c82e-fab0-4e85-87b0-b001b2ccd4f7
 description: Вы можете настроить фильтры содержимого на уровне всей компании для нежелательной почты и массовых сообщений электронной почты, используя политики фильтрации содержимого нежелательной почты по умолчанию. Сведения о настройке политик фильтрации содержимого см. в разделах Настройте политики защиты от спама и Set-HostedContentFilterPolicy.
-ms.openlocfilehash: f72fa5cc50ab6aa5447e3af9fabc365457c82973
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 8fa4ba619b55ae12207f36b7625acfaa9838e696
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22027686"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23002488"
 ---
-# <a name="use-transport-rules-to-configure-bulk-email-filtering"></a>Использование правил транспорта для настройки массового фильтрации электронной почты
+# <a name="use-transport-rules-to-configure-bulk-email-filtering"></a>Настройка фильтрации массовых рассылок с помощью правил транспорта
 
 Вы можете настроить фильтры содержимого на уровне всей компании для нежелательной почты и массовых сообщений электронной почты, используя политики фильтрации содержимого нежелательной почты по умолчанию. Сведения о настройке политик фильтрации содержимого см. в разделах [Настройте политики защиты от спама](configure-your-spam-filter-policies.md) и [Set-HostedContentFilterPolicy](http://technet.microsoft.com/library/f597aa65-baa7-49d0-8832-2a300073f211.aspx). 
   
@@ -34,7 +36,7 @@ ms.locfileid: "22027686"
 
 1. В центре администрирования Exchange перейдите в раздел **Поток обработки почты** \> **Правила**.
     
-2. Нажмите кнопку **Добавить**![Значок добавления](media/ITPro-EAC-AddIcon.png) и выберите **Создать новое правило**.
+2. Нажмите кнопку **Добавить**![Значок добавления](media/ITPro-EAC-AddIcon.gif) и выберите **Создать новое правило**.
     
 3. Укажите имя правила.
     
@@ -89,7 +91,7 @@ ms.locfileid: "22027686"
 
 1. В центре администрирования Exchange перейдите в раздел **Поток обработки почты** \> **Правила**.
     
-2. Нажмите кнопку **Добавить**![Значок добавления](media/ITPro-EAC-AddIcon.png) и выберите **Создать новое правило**.
+2. Нажмите кнопку **Добавить**![Значок добавления](media/ITPro-EAC-AddIcon.gif) и выберите **Создать новое правило**.
     
 3. Укажите имя правила.
     

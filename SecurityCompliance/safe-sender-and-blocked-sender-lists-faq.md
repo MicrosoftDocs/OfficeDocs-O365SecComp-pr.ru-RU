@@ -9,14 +9,16 @@ ms.topic: reference
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: 111ab6b0-2dd2-4a87-a928-4931df6b3c4d
 description: Чтобы пересылаемые через службу сообщения не помечались как спам, администратор Exchange Online или Exchange Online Protection (EOP) может создать списки надежных и заблокированных отправителей для пользователей в вашей организации.
-ms.openlocfilehash: fcb43f990750782788dc6f459dd5c7d296146a38
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: cbf886bdcc40044a31b285b6806aecbc95f0f97c
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22028086"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23003108"
 ---
 # <a name="safe-sender-and-blocked-sender-lists-in-exchange-online"></a>Списки надежных и заблокированных отправителей в Exchange Online
 
@@ -38,7 +40,7 @@ ms.locfileid: "22028086"
   
 Могут возникать ошибки, описанные в КБ 2590466 («ошибка «Ошибка проверки нежелательной электронной почты» в Outlook Web App для Exchange Server 2010»). Чтобы устранить эту проблему, снимите флажок «Доверять от личных контактов по электронной почте». Кроме того сократить адресов электронной почты, которые являются в папке контактов по умолчанию для переноса в максимально допустимое не более 1 024 в Exchange Online, задайте для атрибута «MaxSafeSenders». Дополнительные сведения о этот атрибут и командлет Set-Mailbox seethe следующий раздел:
   
-[Set-Mailbox](https://docs.microsoft.com/en-us/powershell/module/exchange/mailboxes/Set-Mailbox?view=exchange-ps)
+[Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/Set-Mailbox?view=exchange-ps)
   
 ## <a name="see-also"></a>See also
 

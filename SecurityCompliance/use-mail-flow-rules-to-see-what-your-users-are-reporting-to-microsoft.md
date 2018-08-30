@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: 8401f520-8e7c-467b-9e06-4a9fdb2ba548
 description: Можно создать правила транспорта Exchange пользователи не может отправлять сообщения электронной почты в корпорацию Майкрософт для анализа и назначить им процессы безопасности
-ms.openlocfilehash: 6c6af23e6a5f345e26c7dc09c898f2978ea51a5f
-ms.sourcegitcommit: df1e9590a9fa152fa776f16d9b25c180ba7198f3
+ms.openlocfilehash: 92acabe133ef154d880104c20aeed7572ea87d41
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "22122589"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23002629"
 ---
 # <a name="use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft"></a>Просмотр отчетов, передаваемых пользователями в Майкрософт, с помощью правил для потока обработки почты
 
@@ -33,16 +35,16 @@ ms.locfileid: "22122589"
 
 1. В Центре администрирования Exchange последовательно выберите пункты **Поток обработки почты** \> **Правила**.
     
-2. Щелкните ![Значок добавления](media/ITPro-EAC-AddIcon.png) и выберите **Создать новое правило**.
+2. Щелкните ![Значок добавления](media/ITPro-EAC-AddIcon.gif) и выберите **Создать новое правило**.
     
 3. Присвойте правилу имя и нажмите **Дополнительные параметры**.
     
 4. В области **Применить это правило, если** выберите **Получатель**, а затем  **Адрес содержит любое из этих слов**.
     
 5. В поле **Укажите слова или фразы** выполните следующие действия: 
-    - Тип `abuse@messaging.microsoft.com` и нажмите кнопку ![добавить значок](media/ITPro-EAC-AddIcon.png)и затем введите `junk@office365.microsoft.com` и нажмите кнопку ![добавить значок](media/ITPro-EAC-AddIcon.png). Эти адреса электронной почты используются для отправки сообщений с ложным отрицательным в корпорацию Майкрософт.
-    - Тип `phish@office365.microsoft.com` и нажмите кнопку ![добавить значок](media/ITPro-EAC-AddIcon.png). Этот адрес электронной почты используется для отправки сообщений с пропущенных фишинга в корпорацию Майкрософт.
-    - Тип `false_positive@messaging.microsoft.com` и нажмите кнопку ![добавить значок](media/ITPro-EAC-AddIcon.png)и затем введите `not_junk@office365.microsoft.com` и нажмите кнопку ![добавить значок](media/ITPro-EAC-AddIcon.png). Эти адреса электронной почты используются для отправки сообщений с ложным положительным в корпорацию Майкрософт.
+    - Тип `abuse@messaging.microsoft.com` и нажмите кнопку ![добавить значок](media/ITPro-EAC-AddIcon.gif)и затем введите `junk@office365.microsoft.com` и нажмите кнопку ![добавить значок](media/ITPro-EAC-AddIcon.gif). Эти адреса электронной почты используются для отправки сообщений с ложным отрицательным в корпорацию Майкрософт.
+    - Тип `phish@office365.microsoft.com` и нажмите кнопку ![добавить значок](media/ITPro-EAC-AddIcon.gif). Этот адрес электронной почты используется для отправки сообщений с пропущенных фишинга в корпорацию Майкрософт.
+    - Тип `false_positive@messaging.microsoft.com` и нажмите кнопку ![добавить значок](media/ITPro-EAC-AddIcon.gif)и затем введите `not_junk@office365.microsoft.com` и нажмите кнопку ![добавить значок](media/ITPro-EAC-AddIcon.gif). Эти адреса электронной почты используются для отправки сообщений с ложным положительным в корпорацию Майкрософт.
     - Нажмите кнопку **ОК**.
     
 6. В разделе **Выполнить следующие действия** выберите **Отправить скрытую копию сообщения (СК)...** и выберите нужные почтовые ящики. 

@@ -8,15 +8,17 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.custom: TN2DMC
 ms.assetid: 4a05898c-b8e4-4eab-bd70-ee912e349737
 description: 'Протокол Domain-based Message Authentication, Reporting, and Conformance (DMARC) поддерживается инфраструктурой политики отправителей (SPF) и DomainKeys Identified Mail (DKIM) для проверки подлинности отправителей и подтверждения того, что сообщения, отправленные в конечные почтовые системы из вашего домена, являются доверенными. '
-ms.openlocfilehash: a95e41011e802a583ddd053d2ae4699ff46112b9
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 199ab67d17152fc0c4ed6b9f87cde66beaf913d5
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026826"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23003228"
 ---
 # <a name="use-dmarc-to-validate-email-in-office-365"></a>Использование протокола DMARC для проверки электронной почты в Office 365
 
@@ -223,7 +225,8 @@ contoso.com     3600   IN  MX  10 contoso-com.mail.protection.outlook.com
 
 ```
 
-Вся или почти вся электронная почта сначала будет перенаправляться в домен mail.contoso.com, поскольку это основная система обмена электронной почтой, а затем в домен EOP. В некоторых случаях вы можете даже не указать EOP в записи MX и просто воспользоваться соединителями для перенаправления почты. Чтобы проверки DMARC принудительно применялись к вашему домену, в записях MX вашего домена первым следует указать домен EOP.
+Все или большинство, электронной почты будут направляться mail.contoso.com, сначала с момента является основным MX, а затем быть маршрутизированы почты на EOP. В некоторых случаях может не даже на всех список EOP как записи MX и просто подключить соединителей для маршрутизации электронной почты. EOP не для первой записи для проверки DMARC выполняется. Только что гарантирует проверки, как мы не может быть уверенным, что все серверы на локально и не O365 будет выполнять проверку DMARC.  DMARC может быть реализовано для клиента домена (не сервера) при настройке запись DMARC TXT, но это до принимающий сервер выполнить принудительное применение.  Если настройка EOP как принимающий сервер EOP выполняет принудительное применение DMARC.
+
   
 ## <a name="for-more-information"></a>Дополнительные сведения
 <a name="sectionSection8"> </a>
@@ -243,7 +246,7 @@ contoso.com     3600   IN  MX  10 contoso-com.mail.protection.outlook.com
 
 [Как Office 365 использует инфраструктуру политики отправителей (SPF) для предотвращения спуфинга](how-office-365-uses-spf-to-prevent-spoofing.md)
   
-[Настройка инфраструктуры политики отправителей в Office 365 для предотвращения спуфинга](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
+[Настройка SPF в Office 365 для предотвращения спуфинга](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
   
 [Проверка исходящей электронной почты, отправляемой с личного домена в Office 365, с помощью DKIM](use-dkim-to-validate-outbound-email.md)
 

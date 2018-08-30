@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 description: Надстройка сообщения о нежелательной почте корпорации Майкрософт для Microsoft Office Outlook предоставляет несколько способов отправки отчетов о сообщениях нежелательной почты.
-ms.openlocfilehash: 5d5c2fd75af5872176c2bfd73738ee81573337b2
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: c32f66aee48eea6f7536680ba4e165776685f7ae
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22027446"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23002314"
 ---
 # <a name="report-junk-email-messages-to-microsoft"></a>Отправка отчетов о нежелательных сообщениях корпорации Майкрософт
 
@@ -63,7 +65,7 @@ ms.locfileid: "22027446"
   
 ## <a name="for-more-information"></a>Дополнительные сведения
 
-[Включение надстройки сообщения отчета](https://support.office.com/article/4250c4bc-6102-420b-9e0a-a95064837676)
+[Включение надстройки Report Message](https://support.office.com/article/4250c4bc-6102-420b-9e0a-a95064837676)
   
 [Сведения об устранении неполадок и поддержке](troubleshooting-and-support-information.md)
   

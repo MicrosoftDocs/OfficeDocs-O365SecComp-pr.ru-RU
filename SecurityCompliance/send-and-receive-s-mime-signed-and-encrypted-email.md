@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: 1ce37ada-0a80-4b47-8611-d008979589ff
 description: Отправка или ответе на сообщения S/MIME-шифрования в Microsoft Outlook очень похоже на взаимодействие с без шифрования сообщения.
-ms.openlocfilehash: 6451fcac57dd0bcc294082f56d65bf2dbae1e9ba
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: d70625b2c65a021132cf251f35228d279cb4c44a
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22028116"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23003188"
 ---
 # <a name="send-and-receive-smime-signed-and-encrypted-email"></a>Отправка и получение электронной почты, подписанной и зашифрованной с помощью S/MIME
 

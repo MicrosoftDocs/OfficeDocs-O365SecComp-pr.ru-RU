@@ -9,14 +9,16 @@ ms.topic: reference
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: 3aff33c5-1416-4867-a23b-e0c0c5b4d2be
 description: Сводка. В этой статье описано, как Office 365 использует запись TXT инфраструктуры политики отправителей (SPF) в DNS, чтобы гарантировать, что конечные почтовые системы доверяют сообщениям, отправленным из вашего личного домена. Это относится к исходящей почте, отправленной из Office 365. Сообщения, отправленные из Office 365 получателю в Office 365, всегда проходят проверку SPF.
-ms.openlocfilehash: aea7f740a67ce282424efc409d25f3f135546ada
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: b42c2528f7a6a272e11d2434cce1e1735649962a
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026466"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23003288"
 ---
 # <a name="how-office-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Как Office 365 использует инфраструктуру политики отправителей (SPF) для предотвращения спуфинга
 
@@ -124,7 +126,7 @@ v=spf1 include:spf.protection.outlook.com -all
 
 Воспользуйтесь сведениями о синтаксисе, представленными в этой статье, чтобы создать запись SPF TXT для личного домена. Здесь описаны наиболее часто используемые варианты синтаксиса, но существуют и другие. После создания записи необходимо обновить ее у регистратора доменных имен.
   
-Сведения о доменах, которые необходимо включить для Office 365, см. в статье [Внешние записи DNS для Office 365](https://support.office.com/en-us/article/External-Domain-Name-System-records-for-Office-365-c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0?ui=en-US&amp;rs=en-US&amp;ad=US). Следуйте [пошаговому руководству](https://office.microsoft.com/en-us/office365-suite-help/create-dns-records-for-office-365-HA102851099.aspx?CTT=5&amp;origin=HA102818404) по обновлению записей инфраструктуры политики отправителей (TXT) для своего регистратора доменных имен. Если ваш регистратор не указан, вам потребуется связаться с ним в личном порядке, чтобы узнать, как обновить запись. 
+Сведения о доменах, которые необходимо включить для Office 365, см. в статье [Внешние записи DNS для Office 365](https://support.office.com/article/External-Domain-Name-System-records-for-Office-365-c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0?ui=en-US&amp;rs=en-US&amp;ad=US). Следуйте [пошаговому руководству](https://office.microsoft.com/en-us/office365-suite-help/create-dns-records-for-office-365-HA102851099.aspx?CTT=5&amp;origin=HA102818404) по обновлению записей инфраструктуры политики отправителей (TXT) для своего регистратора доменных имен. Если ваш регистратор не указан, вам потребуется связаться с ним в личном порядке, чтобы узнать, как обновить запись. 
   
 ### <a name="spf-txt-record-syntax-for-office-365"></a>Синтаксис записи SPF TXT для Office 365
 <a name="SPFSyntaxO365"> </a>
@@ -149,7 +151,7 @@ v=spf1 ip4:192.168.0.1 ip4:192.168.0.2 include:spf.protection.outlook.com -all
     
 -  _IP address_  это IP-адрес, который требуется добавить к записи SPF TXT. Как правило, это IP-адрес сервера исходящей почты для организации. Вы можете указать несколько серверов исходящей почты. Дополнительные сведения см. в разделе [Пример. Запись SPF TXT для нескольких локальных серверов исходящей почты и Office 365](how-office-365-uses-spf-to-prevent-spoofing.md#ExampleSPFMultipleMailServerO365).
     
--  _domain name_  это домен, который требуется добавить в качестве надежного отправителя. Список доменных имен, которые следует включить для Office 365, см. в статье [Внешние записи DNS для Office 365](https://support.office.com/en-us/article/External-Domain-Name-System-records-for-Office-365-c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0?ui=en-US&amp;rs=en-US&amp;ad=US).
+-  _domain name_  это домен, который требуется добавить в качестве надежного отправителя. Список доменных имен, которые следует включить для Office 365, см. в статье [Внешние записи DNS для Office 365](https://support.office.com/article/External-Domain-Name-System-records-for-Office-365-c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0?ui=en-US&amp;rs=en-US&amp;ad=US).
     
 - Как правило, используется одно из указанных ниже правил принудительного применения.
     

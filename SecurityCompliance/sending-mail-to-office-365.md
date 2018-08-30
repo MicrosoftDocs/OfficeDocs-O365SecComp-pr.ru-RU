@@ -9,14 +9,16 @@ ms.topic: hub-page
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: f9d4b5b6-8f4c-44df-9b06-2f9b3058ca20
 description: В указанных ниже статьях рассказывается, как внешние отправители могут повысить свою репутацию и шансы на доставку своих сообщений пользователям в Office 365. В них также приведены сведения о том, как сообщить о спаме и фишинговых сообщениях, даже если вы не являетесь пользователем Office 365.
-ms.openlocfilehash: 551faf356678e0adecab784b1a473cfaa7e7e088
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 21784ecfd9a4ffe1e70268de6cc1146167d566fe
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22028126"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23002547"
 ---
 # <a name="sending-mail-to-office-365"></a>Отправка почты в Office 365
 
