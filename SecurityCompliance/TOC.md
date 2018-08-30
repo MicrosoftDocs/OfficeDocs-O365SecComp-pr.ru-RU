@@ -264,7 +264,7 @@
 ### [Применение защиты к персональным данным в Office 365](apply-protection-to-personal-data-in-office-365.md)
 ### [Отслеживание утечек персональных данных](monitor-for-leaks-of-personal-data.md)
 ### [Среда разработки и тестирования Office 365 для GDPR](gdpr-discovery-protection-reporting-in-office365-dev-test-environment.md)
-## GDPR для локальных серверов Office
+## [GDPR для локальных серверов Office](gdpr-for-office-servers.md)
 ### [GDPR для SharePoint Server](gdpr-for-sharepoint-server.md)
 ### [GDPR для Exchange Server](gdpr-for-exchange-server.md)
 ### [GDPR для Skype для бизнеса Server и Lync Server](gdpr-for-skype-for-business-server.md)
