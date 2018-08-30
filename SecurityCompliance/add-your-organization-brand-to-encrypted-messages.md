@@ -1,0 +1,76 @@
+---
+title: Добавление фирменного стиля организации в зашифрованные сообщения
+ms.author: krowley
+author: kccross
+manager: laurawi
+ms.date: 11/2/2017
+ms.audience: Admin
+ms.topic: article
+ms.service: o365-administration
+localization_priority: Normal
+search.appverid:
+- MET150
+- MOE150
+ms.assetid: 7a29260d-2959-42aa-8916-feceff6ee51d
+description: 'Как администратор Exchange можно применять вашей организации фирменной символики в вашей организации зашифрованные сообщения электронной почты и содержимое портала шифрования. '
+ms.openlocfilehash: 2f34b5cea3155f587fd7787f1f69270d1373400b
+ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/27/2018
+ms.locfileid: "22534865"
+---
+# <a name="add-your-organizations-brand-to-your-encrypted-messages"></a><span data-ttu-id="74b72-103">Добавление фирменной символики организации в зашифрованные сообщения</span><span class="sxs-lookup"><span data-stu-id="74b72-103">Add your organization's brand to your encrypted messages</span></span>
+
+<span data-ttu-id="74b72-p101">Как администратор Exchange Online или Exchange Online Protection можно применить вашей компании, фирменная символика настраивать внешний вид сообщений электронной почты вашей организации шифрования сообщений Office 365 и содержимое портала шифрования. Командлеты Get-OMEConfiguration и Set-OMEConfiguration Windows PowerShell можно настроить следующие аспекты возможности просмотра для получателей зашифрованные сообщения электронной почты:</span><span class="sxs-lookup"><span data-stu-id="74b72-p101">As an Exchange Online or Exchange Online Protection administrator, you can apply your company branding to customize the look of your organization's Office 365 Message Encryption email messages and the contents of the encryption portal. Using the Get-OMEConfiguration and Set-OMEConfiguration Windows PowerShell cmdlets, you can customize the following aspects of the viewing experience for recipients of encrypted email messages:</span></span>
+  
+- <span data-ttu-id="74b72-106">Вводный текст зашифрованного сообщения электронной почты</span><span class="sxs-lookup"><span data-stu-id="74b72-106">Introductory text of the email that contains the encrypted message</span></span>
+    
+- <span data-ttu-id="74b72-107">Текст заявления об отказе зашифрованного сообщения электронной почты</span><span class="sxs-lookup"><span data-stu-id="74b72-107">Disclaimer text of the email that contains the encrypted message</span></span>
+    
+- <span data-ttu-id="74b72-108">Текст, который отображается на портале OME</span><span class="sxs-lookup"><span data-stu-id="74b72-108">Text that appears in the OME portal</span></span>
+    
+- <span data-ttu-id="74b72-109">Логотип, который отображается в сообщении электронной почты и портала OME</span><span class="sxs-lookup"><span data-stu-id="74b72-109">Logo that appears in the email message and OME portal</span></span>
+    
+- <span data-ttu-id="74b72-110">Цвет фона в сообщение электронной почты и портала OME</span><span class="sxs-lookup"><span data-stu-id="74b72-110">Background color in the email message and OME portal</span></span>
+    
+<span data-ttu-id="74b72-111">Кроме того, в любое время вы можете восстановить интерфейс по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="74b72-111">You can also revert back to the default look and feel at any time.</span></span>
+  
+||
+|:-----|
+|<span data-ttu-id="74b72-p102">В этой статье является частью серии статей о шифровании сообщений Office 365, размер которых. Эта статья предназначена для администраторов и специалистов по ИТ. Если вы только что подробную информацию об отправке или получении зашифрованного сообщения, просматривать список статей в [Шифрования сообщений Office 365 (OME)](ome.md) и найдите статьи, который лучше все соответствует вашим требованиям.</span><span class="sxs-lookup"><span data-stu-id="74b72-p102">This article is part of a larger series of articles about Office 365 Message Encryption. This article is intended for administrators and ITPros. If you're just looking for information on sending or receiving an encrypted message, see the list of articles in [Office 365 Message Encryption (OME)](ome.md) and locate the article that best fits your needs.</span></span> |
+||
+   
+<span data-ttu-id="74b72-115">**Настройка внешнего вида OME сообщений портала и адрес электронной почты, шифруется с OME с марки вашей организации**</span><span class="sxs-lookup"><span data-stu-id="74b72-115">**To customize the look of the OME portal and email messages encrypted by OME with your organization's brand**</span></span>
+  
+1. <span data-ttu-id="74b72-116">Подключение к Exchange Online с помощью удаленной оболочки PowerShell, как описано в разделе [подключение к Exchange Online с помощью удаленной оболочки PowerShell](http://technet.microsoft.com/en-us/library/jj984289%28v=exchg.150%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="74b72-116">Connect to Exchange Online using Remote PowerShell, as described in [Connect to Exchange Online Using Remote PowerShell](http://technet.microsoft.com/en-us/library/jj984289%28v=exchg.150%29.aspx).</span></span>
+    
+2. <span data-ttu-id="74b72-117">Командлет Set-OMEConfiguration, как описано в [Set-OMEConfiguration](http://technet.microsoft.com/en-us/3ef0aec0-ce28-411d-abe8-7236f082af1b) или используйте следующую таблицу для удобства.</span><span class="sxs-lookup"><span data-stu-id="74b72-117">Use the Set-OMEConfiguration cmdlet as described in [Set-OMEConfiguration](http://technet.microsoft.com/en-us/3ef0aec0-ce28-411d-abe8-7236f082af1b) or use the following table for guidance.</span></span> 
+    
+<span data-ttu-id="74b72-118">**Параметры настройки шифрования**</span><span class="sxs-lookup"><span data-stu-id="74b72-118">**Encryption customization options**</span></span>
+
+|<span data-ttu-id="74b72-119">**Настройка этой функции шифрования**</span><span class="sxs-lookup"><span data-stu-id="74b72-119">**To customize this feature of the encryption experience**</span></span>|<span data-ttu-id="74b72-120">**Используйте эти команды**</span><span class="sxs-lookup"><span data-stu-id="74b72-120">**Use these commands**</span></span>|
+|:-----|:-----|
+|<span data-ttu-id="74b72-p103">Текст по умолчанию, сопровождающий зашифрованные сообщения электронной почты. Текст по умолчанию, отображающийся над инструкциями по просмотру зашифрованных сообщений</span><span class="sxs-lookup"><span data-stu-id="74b72-p103">Default text that accompanies encrypted email messages. The default text appears above the instructions for viewing encrypted messages</span></span>  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -EmailText "<String up to 1024 characters>"` <br/> <span data-ttu-id="74b72-123">**Пример:**</span><span class="sxs-lookup"><span data-stu-id="74b72-123">**Example:**</span></span> <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText "Encrypted message from ContosoPharma secure messaging system."`|
+|<span data-ttu-id="74b72-124">Заявление об отказе в зашифрованном сообщении электронной почты.</span><span class="sxs-lookup"><span data-stu-id="74b72-124">Disclaimer statement in the email that contains the encrypted message</span></span>  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -DisclaimerText "<Disclaimer statement. String of up to 1024 characters.>"` <br/> <span data-ttu-id="74b72-125">**Пример:**</span><span class="sxs-lookup"><span data-stu-id="74b72-125">**Example:**</span></span> <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText "This message is confidential for the use of the addressee only."` <br/> |
+|<span data-ttu-id="74b72-126">Текст, отображающийся в верхней части портала просмотра зашифрованных сообщений.</span><span class="sxs-lookup"><span data-stu-id="74b72-126">Text that appears at the top of the encrypted mail viewing portal</span></span><br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -PortalText "<Text for your portal. String of up to 128 characters.>"` <br/> <span data-ttu-id="74b72-127">**Пример:**</span><span class="sxs-lookup"><span data-stu-id="74b72-127">**Example:**</span></span> <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -PortalText "ContosoPharma secure email portal."` <br/> |
+|<span data-ttu-id="74b72-128">Логотип</span><span class="sxs-lookup"><span data-stu-id="74b72-128">Logo</span></span>  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -Image <Byte[]>` <br/> <span data-ttu-id="74b72-129">**Пример:**</span><span class="sxs-lookup"><span data-stu-id="74b72-129">**Example:**</span></span> <br/>  `Set-OMEConfiguration -Identity "OME configuration" -Image (Get-Content "C:\Temp\contosologo.png" -Encoding byte)` <br/> <span data-ttu-id="74b72-130">Поддерживаемые форматы файлов: PNG, JPG, BMP, TIFF</span><span class="sxs-lookup"><span data-stu-id="74b72-130">Supported file formats: .png, .jpg, .bmp, or .tiff</span></span>  <br/> <span data-ttu-id="74b72-131">Оптимальный размер файла логотипа: менее 40 КБ</span><span class="sxs-lookup"><span data-stu-id="74b72-131">Optimal size of logo file: less than 40 KB</span></span>  <br/> <span data-ttu-id="74b72-132">Оптимальный размер изображения логотипа: 170 x 70 пикселей</span><span class="sxs-lookup"><span data-stu-id="74b72-132">Optimal size of logo image: 170x70 pixels</span></span>  <br/> |
+|<span data-ttu-id="74b72-133">Цвет фона</span><span class="sxs-lookup"><span data-stu-id="74b72-133">Background color</span></span>  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -BackgroundColor "<Hexadecimal color code>"` <br/> <span data-ttu-id="74b72-134">**Пример:**</span><span class="sxs-lookup"><span data-stu-id="74b72-134">**Example:**</span></span> <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -BackgroundColor "#ffffff"` <br/> |
+   
+<span data-ttu-id="74b72-135">**Для удаления настроек марки из OME сообщения портала и адрес электронной почты, шифруется с OME**</span><span class="sxs-lookup"><span data-stu-id="74b72-135">**To remove brand customizations from the OME portal and email messages encrypted by OME**</span></span>
+  
+1. <span data-ttu-id="74b72-136">Подключение к Exchange Online с помощью удаленной оболочки PowerShell, как описано в разделе [подключение к Exchange Online с помощью удаленной оболочки PowerShell](http://technet.microsoft.com/library/jj984289%28v=exchg.150%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="74b72-136">Connect to Exchange Online using Remote PowerShell, as described in [Connect to Exchange Online Using Remote PowerShell](http://technet.microsoft.com/library/jj984289%28v=exchg.150%29.aspx).</span></span>
+    
+2. <span data-ttu-id="74b72-p104">Командлет Set-OMEConfiguration, как описано в [Set-OMEConfiguration](http://technet.microsoft.com/3ef0aec0-ce28-411d-abe8-7236f082af1b). Для удаления организации фирменной настройки из DisclaimerText, EmailText, и PortalText значения значение равно пустой строке, `""`. Для всех "изображение" значения, такие как логотип, задайте значение `"$null"`.</span><span class="sxs-lookup"><span data-stu-id="74b72-p104">Use the Set-OMEConfiguration cmdlet as described in [Set-OMEConfiguration](http://technet.microsoft.com/3ef0aec0-ce28-411d-abe8-7236f082af1b). To remove your organization's branded customizations from the DisclaimerText, EmailText, and PortalText values, set the value to an empty string,  `""`. For all image values, such as Logo, set the value to  `"$null"`.</span></span>
+    
+<span data-ttu-id="74b72-140">**Параметры настройки шифрования**</span><span class="sxs-lookup"><span data-stu-id="74b72-140">**Encryption customization options**</span></span>
+
+<span data-ttu-id="74b72-141">**Сброс функции шифрования к тексту и изображению по умолчанию**</span><span class="sxs-lookup"><span data-stu-id="74b72-141">**To revert this feature of the encryption experience back to the default text and image**</span></span>|<span data-ttu-id="74b72-142">**Используйте эти команды**</span><span class="sxs-lookup"><span data-stu-id="74b72-142">**Use these commands**</span></span>|
+|:-----|:-----|
+|<span data-ttu-id="74b72-143">Текст по умолчанию, сопровождающий зашифрованные сообщения электронной почты.</span><span class="sxs-lookup"><span data-stu-id="74b72-143">Default text that accompanies encrypted email messages</span></span>  <br/> <span data-ttu-id="74b72-144">Текст по умолчанию, отображающийся над инструкциями по просмотру зашифрованных сообщений.</span><span class="sxs-lookup"><span data-stu-id="74b72-144">The default text appears above the instructions for viewing encrypted messages</span></span>  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -EmailText "<empty string>"` <br/> <span data-ttu-id="74b72-145">**Пример:**</span><span class="sxs-lookup"><span data-stu-id="74b72-145">**Example:**</span></span> <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText ""` <br/> |
+|<span data-ttu-id="74b72-146">Заявление об отказе в зашифрованном сообщении электронной почты.</span><span class="sxs-lookup"><span data-stu-id="74b72-146">Disclaimer statement in the email that contains the encrypted message</span></span>  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> DisclaimerText "<empty string>"` <br/> <span data-ttu-id="74b72-147">**Пример:**</span><span class="sxs-lookup"><span data-stu-id="74b72-147">**Example:**</span></span> <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText ""` <br/> |
+|<span data-ttu-id="74b72-148">Текст, отображающийся в верхней части портала просмотра зашифрованных сообщений.</span><span class="sxs-lookup"><span data-stu-id="74b72-148">Text that appears at the top of the encrypted mail viewing portal</span></span>  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -PortalText "<empty string>"` <br/> <span data-ttu-id="74b72-149">**Пример возврат к значениям по умолчанию:**</span><span class="sxs-lookup"><span data-stu-id="74b72-149">**Example reverting back to default:**</span></span> <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -PortalText ""` <br/> |
+|<span data-ttu-id="74b72-150">Логотип</span><span class="sxs-lookup"><span data-stu-id="74b72-150">Logo</span></span>  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -Image <"$null">` <br/> <span data-ttu-id="74b72-151">**Пример возврат к значениям по умолчанию:**</span><span class="sxs-lookup"><span data-stu-id="74b72-151">**Example reverting back to default:**</span></span> <br/>  `Set-OMEConfiguration -Identity "OME configuration" -Image $null` <br/> |
+|<span data-ttu-id="74b72-152">Цвет фона</span><span class="sxs-lookup"><span data-stu-id="74b72-152">Background color</span></span>  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -BackgroundColor <"$null">` <br/> <span data-ttu-id="74b72-153">**Пример возврат к значениям по умолчанию:**</span><span class="sxs-lookup"><span data-stu-id="74b72-153">**Example reverting back to default:**</span></span> <br/>  `Set-OMEConfiguration -Identity "OME configuration" -BackgroundColor $null` <br/> |
+   
+
