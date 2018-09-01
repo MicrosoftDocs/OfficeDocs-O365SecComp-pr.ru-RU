@@ -3,7 +3,6 @@ title: Новые возможности в облаке приложения Of
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 8/6/2018
 ms.audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: d674763c-a4c9-4604-8623-68c1836d27f3
 description: Новые в облаке приложения Office 365 безопасности
-ms.openlocfilehash: 484d46e9fef56e76e2f27d27b38a261c4ad19cc1
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: a8bca8cb62681491fb5a6964104b1aa1c626784d
+ms.sourcegitcommit: 31e0d94244c76a9f5118efee8bbc93395d080f91
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534785"
+ms.lasthandoff: 09/01/2018
+ms.locfileid: "23796875"
 ---
 # <a name="what-is-new-in-office-365-cloud-app-security"></a>Новые возможности в облаке приложения Office 365 безопасности
 
@@ -26,11 +25,24 @@ ms.locfileid: "22534785"
   
 В этой статье часто обновляются при добавлении или усовершенствованные функции. Выпуска обновлений безопасности облаке приложения Office 365 примерно две недели после обновления Microsoft Cloud приложения безопасности, а не все обновления безопасности приложения Microsoft Cloud применяются к безопасности Office 365 облаке приложения. Кроме того новые функции может занять неделю и более после их Дата выпуска, отображаемых в среде Office 365 облачных приложений безопасности.
   
+## <a name="office-365-cloud-app-security-release-130"></a>Выпуск Office 365 безопасности приложения облачных 130
+
+*Выпуски 5 сентября 2018*
+
+**Releasing со [130 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-130)**:
+
+- **Новая строка меню** Обеспечивают более стабильную работу администратора в продуктах Microsoft 365 и позволяют упростить сводить между решения по обеспечению безопасности Microsoft строки меню портала безопасности приложения облачных была перемещена в левой части экрана. В этом единообразная Навигация работать поможет сориентироваться самостоятельно при переходе от одной портал безопасности Microsoft.
+
+- **Влияние OAuth приложения счета** Теперь можно отправить отзыв группы безопасности приложения облачных сообщите нам знать, если приложение OAuth, обнаруженных в вашей организации, что сообщение о нежелательном. Данная функция позволяет входить в состав сообщества безопасности и улучшите анализ и оценки риска OAuth приложения. Для получения дополнительных сведений см [приложения](manage-app-permissions-in-ocas.md).
+
+- **Анализаторы новых облачных обнаружения** Анализаторы обнаружения облачных теперь поддерживают iboss безопасного облачных шлюза и Sophos XG.
+
+
 ## <a name="office-365-cloud-app-security-release-128"></a>Выпуск Office 365 безопасности приложения облачных 128
 
- *5 августа 2018 выпусков* 
+*Выпущен 5 августа 2018* 
   
- **Releasing со [128 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-128)**: 
+**Releasing со [128 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-128)**: 
   
 - **Разрешения для приложений между несколькими приложениями** Для приложений, которые были предоставлены разрешения для приложений можно теперь bПричиной уязвимости является или утвердить несколько приложений в одно действие. Например можно просмотреть все приложения, которые имеют разрешения пользователей в вашей организации, выберите все приложения, необходимые для запрета и нажмите кнопку запрещать приложения, чтобы отменить все разрешения предоставлены и больше не позволит пользователям разрешение на эти приложения. 
     
@@ -38,9 +50,9 @@ ms.locfileid: "22534785"
     
 ## <a name="office-365-cloud-app-security-release-126"></a>Выпуск Office 365 безопасности приложения облачных 126
 
- *Выпущен 7 июля 2018* 
+*Выпущен 7 июля 2018* 
   
- **Запущен с [126 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-126)**: 
+**Запущен с [126 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-126)**: 
   
 - **Автоматические исправление для подозрительные действия** Теперь можно задать автоматическое исправление действия для подозрительные сеанса, вызванные политик обнаружения неполадок. Это улучшение позволяет получать уведомления о мгновенной при возникновении сбоя и автоматически применяются управления действия, такие как приостановить пользователя. Для получения дополнительных сведений см [политики обнаружения неполадок в облаке приложения Office 365 безопасности](anomaly-detection-policies-in-ocas.md).
     
@@ -50,9 +62,9 @@ ms.locfileid: "22534785"
     
 ## <a name="office-365-cloud-app-security-release-124"></a>Выпуск Office 365 безопасности приложения облачных 124
 
- *Выпущен 10 июня 2018* 
+*Выпущен 10 июня 2018* 
   
- **Запущен с [124 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-124)**: 
+**Запущен с [124 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-124)**: 
   
 - **Области развертываний** Коммерческим организациям модульного можно определить, какие пользователи для мониторинга и защиты на основе членства в группах. Эта функция позволяет выбрать пользователей, действия не будет отображаться для каких-либо защищенных приложений. Областью видимости мониторинга особенно полезен для соответствия требованиям и лицензирование. Некоторые нормативные требующий не мониторинг пользователей из некоторых странах в связи с местными требованиями. И может отслеживать меньше пользователям всегда оставаться в пределах лицензии приложения облаке Безопасность в Office 365. 
     
@@ -60,9 +72,9 @@ ms.locfileid: "22534785"
     
 ## <a name="office-365-cloud-app-security-release-121"></a>Выпуск Office 365 безопасности приложения облачных 121
 
- *Выпущен 6 мая 2018* 
+*Выпущен 6 мая 2018* 
   
- **Запущен с [121 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-121)**: 
+**Запущен с [121 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-121)**: 
   
 - **Улучшения политики обнаружения неполадок**. Для включения два новых типа обнаружения угроз, постепенно выходить были улучшены политик обнаружения неполадок безопасности для Office 365 облаке приложения: 
     
@@ -74,9 +86,9 @@ ms.locfileid: "22534785"
     
 ## <a name="office-365-cloud-app-security-release-120"></a>Выпуск Office 365 безопасности приложения облачных 120
 
- *Выпущен 22 апреля 2018* 
+*Выпущен 22 апреля 2018* 
   
- **Запущен с [120 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-120)**: 
+**Запущен с [120 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-120)**: 
   
 - **Внутренних приложений как действия пользователя**. Для Office 365 и Azure Active Directory (Azure AD) мы теперь постепенно развертывание возможность обнаружения внутренних приложений как учетная запись пользователя, выполняемых приложений Office 365 и Azure AD (внутренние и внешние). Это позволяет создавать политики, предупреждение, если приложение выполняет непредвиденные и несанкционированного действия. 
     
@@ -84,9 +96,9 @@ ms.locfileid: "22534785"
     
 ## <a name="office-365-cloud-app-security-release-119"></a>Выпуск Office 365 безопасности приложения облачных 119
 
- *Выпущен 1 апреля 2018* 
+*Выпущен 1 апреля 2018* 
   
- **Запущен с [119 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-119)**: 
+**Запущен с [119 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-119)**: 
   
 - **Усовершенствования в облако обнаружения**. Облако обнаружения представлены дополнительные сведения о ведущих пользователях и IP-адреса, облегчая Просмотр сведений об использовании об Office 365 и другие приложения. Для получения дополнительных сведений см [результатов обнаружения приложение проверки безопасности Office 365 облачных приложений](review-app-discovery-findings-in-ocas.md).
     
@@ -94,25 +106,25 @@ ms.locfileid: "22534785"
   
 ## <a name="office-365-cloud-app-security-release-118"></a>Выпуск Office 365 безопасности приложения облачных 118
 
- *Выпущен 18 марта 2018* 
+*Выпущен 18 марта 2018* 
   
- **Запущен с [118 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-118)**: 
+**Запущен с [118 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-118)**: 
   
 - **Поддержка barracuda**. Облако обнаружения теперь поддерживает серии F Barracuda брандмауэров и потоковая передача Barracuda F-серии брандмауэра web журнала. 
     
 ## <a name="office-365-cloud-app-security-release-117"></a>Выпуск Office 365 безопасности приложения облачных 117
 
- *Выпущен 6 марта 2018* 
+*Выпущен 6 марта 2018* 
   
- **Запущен с [117 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-117)**: 
+**Запущен с [117 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-117)**: 
   
 - **поддерживает ли фильтр**. Облако обнаружения теперь поддерживает i ФИЛЬТРА. 
     
 ## <a name="office-365-cloud-app-security-release-116"></a>Выпуск Office 365 безопасности приложения облачных 116
 
- *Выпущен 18 февраля 2018* 
+*Выпущен 18 февраля 2018* 
   
- **Запущен с [116 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-116)**: 
+**Запущен с [116 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-116)**: 
   
 - **Улучшения политики обнаружения неполадок**. Обнаружение неполадок политик в облаке приложения Office 365 безопасности были улучшена благодаря новой сценариям обнаружения, включая невозможно поездки, активности с подозрительные IP-адреса и входа в систему нескольких неудачных попыток ввода. Автоматически включены новые политики, предоставления threat ожидания введите обнаружения для облачной среде. В дополнение к этому новые политики предоставляют дополнительные данные из модуля обнаружения безопасности Office 365 облачных приложений, который может помочь ускорить процесс расследования и содержит существующие угрозы. Для получения дополнительных сведений обратитесь к статье безопасности приложения Microsoft Cloud, [Получение мгновенно поведения аналитики и обнаружение неполадок](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy).
     
@@ -120,9 +132,9 @@ ms.locfileid: "22534785"
     
 ## <a name="office-365-cloud-app-security-release-114"></a>Выпуск Office 365 безопасности приложения облачных 114
 
- *Выпущен 21 января 2018* 
+*Выпущен 21 января 2018* 
   
- **Запущен с [114 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-114)**: 
+**Запущен с [114 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-114)**: 
   
 - **Состояние службы**. Теперь можно проверить текущее состояние службы приложения облаке Безопасность в Office 365, перейдя на **помощь** \> **состояние системы**. 
     
@@ -132,17 +144,17 @@ ms.locfileid: "22534785"
     
 ## <a name="office-365-cloud-app-security-release-113"></a>Выпуск Office 365 безопасности приложения облачных 113
 
- *Выпущен 8 января 2018* 
+*Выпущен 8 января 2018* 
   
- **Запущен с [113 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-113)**: 
+**Запущен с [113 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-113)**: 
   
 - **Поддержка средство синтаксического анализа журналов для универсального форматов**. Анализаторы журнала обнаружения облачных теперь поддерживают следующие форматы универсальный: LEEF, CEF и W3C. 
     
 ## <a name="office-365-cloud-app-security-release-112"></a>Выпуск Office 365 безопасности приложения облачных 112
 
- *Выпущен 24 декабря 2017* 
+*Выпущен 24 декабря 2017* 
   
- **Запущен с [112 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-112)**: 
+**Запущен с [112 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-112)**: 
   
 - **Соответствующие insight ящика**. В журнале активности теперь можно приступить к ящика соответствующих insight, щелкнув имя пользователя или IP-адрес. 
     
@@ -156,9 +168,9 @@ ms.locfileid: "22534785"
     
 ## <a name="office-365-cloud-app-security-release-111"></a>Выпуск Office 365 безопасности приложения облачных 111
 
- *Выпущен 10 декабря 2017* 
+*Выпущен 10 декабря 2017* 
   
- **Запущен с [111 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-111)**: 
+**Запущен с [111 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-111)**: 
   
 - **Улучшения фильтров времени**. Фильтры времени, теперь проще использовать. Для доступа к фильтр времени в представлении, например журнал активности политик, оповещения, в расширенном режиме, выберите **дату** в списке фильтров. Выберите нужный вариант, такие как до, после или между ними применить фильтр времени. 
     
@@ -166,9 +178,9 @@ ms.locfileid: "22534785"
   
 ## <a name="office-365-cloud-app-security-release-110"></a>Выпуск Office 365 безопасности приложения облачных 110
 
- *Выпущен 26 ноября 2017* 
+*Выпущен 26 ноября 2017* 
   
- **Запущен с [110 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-110)**: 
+**Запущен с [110 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-110)**: 
   
 - **Интеграция сервера SIEM обычно теперь доступен**. Подключение сервера SIEM к безопасности Office 365 облаке приложения. Можно теперь отправлять оповещения и действий автоматически на сервер SIEM выбора, настроив SIEM агенты. В разделе [Интеграция SIEM сервера с помощью приложения облаке Безопасность в Office 365](integrate-your-siem-server-with-office-365-cas.md).
     
@@ -178,17 +190,17 @@ ms.locfileid: "22534785"
     
 ## <a name="office-365-cloud-app-security-release-102"></a>Выпуск Office 365 безопасности приложения облачных 102
 
- *Выпущен 13 августа 2017* 
+*Выпущен 13 августа 2017* 
   
- **Запущен с [102 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-102)**: 
+**Запущен с [102 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-102)**: 
   
 - **Новые действия пользователя расследования** включить дополнительный уровень детализации для исследования пользователя. На странице проверить можно наведите указатель мыши на действия, пользователя или учетной записи и применять его как фильтр и из него, можно просмотреть связанных действий или событий. 
     
 ## <a name="office-365-cloud-app-security-release-100"></a>Выпуск Office 365 безопасности приложения облачных 100
 
- *Выпущено 17 июля 2017* 
+*Выпущено 17 июля 2017* 
   
- **Запущен со [100 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-100)**: 
+**Запущен со [100 выпуска системы безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-100)**: 
   
 - **Расширения безопасности** — это новая панель мониторинга, где можно централизованно управлять все модули безопасности для Office 365 облачных приложений безопасности, включая маркеры API и агенты SIEM. Для просмотра панели мониторинга расширения безопасности, выполните следующие действия. 
     
@@ -208,7 +220,7 @@ ms.locfileid: "22534785"
     
 - **Форматы журналов ожидаемого**. Формат ожидаемый журналов для обнаружения облачных журналов теперь предоставляет примеры Syslog формат и формат FTP. 
     
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Смежные темы
 
 [Содержимое справки приложения в облаке Безопасность в Office 365](office-365-cas-help.md)
   

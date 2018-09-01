@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: 'Для администраторов: удаление элементов в папке элементов для восстановления пользователя почтовый ящик Exchange Online, даже в том случае, если этот почтовый ящик размещен на удержания по юридическим причинам. Это эффективный способ удаления данных, который является был случайно распределяются в Office 365.'
-ms.openlocfilehash: 0519e389f05ed9952090fb9b163a05d18e3bd762
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: c984bcaa35a9bc7bc30e11d68ba8f7f0ce75b64d
+ms.sourcegitcommit: 31e0d94244c76a9f5118efee8bbc93395d080f91
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "23014033"
+ms.lasthandoff: 09/01/2018
+ms.locfileid: "23796885"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold---admin-help"></a>Удаление элементов в папке элементов для восстановления облачные почтовые ящики на удержание - Admin справки
 
@@ -110,7 +110,7 @@ ms.locfileid: "23014033"
 
    Если включена архивный почтовый ящик пользователя, выполните следующую команду, чтобы получить размер и общее число элементов в папках и вложенных папок в папке папки в почтовом ящике архива. 
 
-    ```
+    ```s
     Get-MailboxFolderStatistics <username> -FolderScope RecoverableItems -Archive | FL Name,FolderAndSubfolderSize,ItemsInFolderAndSubfolders
     ```
 
