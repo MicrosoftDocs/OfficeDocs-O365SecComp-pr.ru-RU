@@ -12,111 +12,109 @@ search.appverid:
 - MOE150
 ms.assetid: fc4e6ebb-5acc-4bc5-bad8-4f3407d1d3f4
 description: Обзор страниц предупреждения о том, что вы можете увидеть при защиту от угроз для Office 365 расширенного находится на работе.
-ms.openlocfilehash: 9cda3421a394de70dfcb759a20e13aa40f84eb2f
-ms.sourcegitcommit: c35fc431a315ee8e411a95d3da20d2a44c2e6be3
+ms.openlocfilehash: eae893da6bb2692ae4fb9f934bc892d2058beecd
+ms.sourcegitcommit: e7b87fae103a858981bdbcdf7ec55afa4751ad05
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23485979"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "23782136"
 ---
-# <a name="office-365-atp-safe-links-warning-pages"></a><span data-ttu-id="d4d16-103">Office 365 безопасных ссылок анализа предупреждение страниц</span><span class="sxs-lookup"><span data-stu-id="d4d16-103">Office 365 ATP Safe Links warning pages</span></span>
+# <a name="office-365-atp-safe-links-warning-pages"></a><span data-ttu-id="d8e23-103">Office 365 безопасных ссылок анализа предупреждение страниц</span><span class="sxs-lookup"><span data-stu-id="d8e23-103">Office 365 ATP Safe Links warning pages</span></span>
 
-<span data-ttu-id="d4d16-p101">[Office 365 расширенной защитой](office-365-atp.md) (ATP) помогает защитить организацию от попытки и вредоносных программ через функции, например [безопасных ссылок](atp-safe-links.md), [безопасные вложения](atp-safe-attachments.md)и [Защита от фишинга](anti-phishing-protection.md). При защите будет готова, проверяются ссылки (URL-адреса) в сообщения электронной почты и работе с документами Office. Если URL-адрес определяется как подозрительные или намеренного, может быть заблокирован открытия URL-адрес при нажатии кнопки. Вместо перейти непосредственно к сайту, может появиться предупреждение страница вместо этого.</span><span class="sxs-lookup"><span data-stu-id="d4d16-p101">[Office 365 Advanced Threat Protection](office-365-atp.md) (ATP) helps protect your organization from phishing attempts and malware through features, such as [safe links](atp-safe-links.md), [safe attachments](atp-safe-attachments.md), and [anti-phishing protection](anti-phishing-protection.md). When protection is in place, links (URLs) in email messages and Office documents are checked. If a URL is identified as suspicious or malicious, you might be blocked from opening the URL when you click it. Instead of going directly to the site, you might see a warning page instead.</span></span> 
+<span data-ttu-id="d8e23-p101">[Office 365 расширенной защитой](office-365-atp.md) (ATP) помогает защитить организацию от попытки и вредоносных программ через функции, например [ATP безопасных ссылок](atp-safe-links.md), [ATP безопасные вложения](atp-safe-attachments.md)и [Защита от фишинга](anti-phishing-protection.md). При защите будет готова, проверяются ссылки (URL-адреса) в сообщения электронной почты и работе с документами Office. Если URL-адрес определяется как подозрительные или намеренного, может быть заблокирован открытия URL-адрес при нажатии кнопки. Вместо перейти непосредственно к сайту, может появиться предупреждение страница вместо этого.</span><span class="sxs-lookup"><span data-stu-id="d8e23-p101">[Office 365 Advanced Threat Protection](office-365-atp.md) (ATP) helps protect your organization from phishing attempts and malware through features, such as [ATP Safe Links](atp-safe-links.md), [ATP Safe Attachments](atp-safe-attachments.md), and [anti-phishing protection](anti-phishing-protection.md). When protection is in place, links (URLs) in email messages and Office documents are checked. If a URL is identified as suspicious or malicious, you might be blocked from opening the URL when you click it. Instead of going directly to the site, you might see a warning page instead.</span></span> 
   
-<span data-ttu-id="d4d16-108">В этой статье [примеров страниц предупреждение](atp-safe-links-warning-pages.md#examples) , которое может отображаться, а также [последние обновления на страницы, предупреждение](atp-safe-links-warning-pages.md#updates).</span><span class="sxs-lookup"><span data-stu-id="d4d16-108">Read this article to see [Examples of warning pages](atp-safe-links-warning-pages.md#examples) that might appear, along with [Recent updates to warning pages](atp-safe-links-warning-pages.md#updates).</span></span>
+<span data-ttu-id="d8e23-108">В этой статье [примеров страниц предупреждение](atp-safe-links-warning-pages.md#examples) , которое может отображаться, а также [последние обновления на страницы, предупреждение](atp-safe-links-warning-pages.md#updates).</span><span class="sxs-lookup"><span data-stu-id="d8e23-108">Read this article to see [Examples of warning pages](atp-safe-links-warning-pages.md#examples) that might appear, along with [Recent updates to warning pages](atp-safe-links-warning-pages.md#updates).</span></span>
   
-## <a name="examples-of-warning-pages"></a><span data-ttu-id="d4d16-109">Примеры предупреждение страниц</span><span class="sxs-lookup"><span data-stu-id="d4d16-109">Examples of warning pages</span></span>
+## <a name="examples-of-warning-pages"></a><span data-ttu-id="d8e23-109">Примеры предупреждение страниц</span><span class="sxs-lookup"><span data-stu-id="d8e23-109">Examples of warning pages</span></span>
 
-### <a name="atp-is-scanning-the-link"></a><span data-ttu-id="d4d16-110">Пакет анализа проверяет ссылки</span><span class="sxs-lookup"><span data-stu-id="d4d16-110">ATP is scanning the link</span></span>
+### <a name="atp-is-scanning-the-link"></a><span data-ttu-id="d8e23-110">Пакет анализа проверяет ссылки</span><span class="sxs-lookup"><span data-stu-id="d8e23-110">ATP is scanning the link</span></span>
+
+<span data-ttu-id="d8e23-p102">URL-адрес проверяется по сети безопасных анализа. Подождите несколько минут, чтобы повторить попытку ссылку может потребоваться.</span><span class="sxs-lookup"><span data-stu-id="d8e23-p102">A URL is being scanned by ATP Safe Links. You might have to wait a few moments to try the link again.</span></span>
 
 ![Пакет анализа проверяет ссылки](media/ee8dd5ed-6b91-4248-b054-12b719e8d0ed.png)
 
-<span data-ttu-id="d4d16-p102">URL-адрес проверяется по сети безопасных анализа. Подождите несколько минут, чтобы повторить попытку ссылку может потребоваться.</span><span class="sxs-lookup"><span data-stu-id="d4d16-p102">A URL is being scanned by ATP Safe Links. You might have to wait a few moments to try the link again.</span></span>
+### <a name="a-url-is-in-a-suspicious-email-message"></a><span data-ttu-id="d8e23-114">— Это URL-адрес в сообщении электронной почты подозрительные</span><span class="sxs-lookup"><span data-stu-id="d8e23-114">A URL is in a suspicious email message</span></span>
 
-### <a name="a-url-is-in-a-suspicious-email-message"></a><span data-ttu-id="d4d16-114">— Это URL-адрес в сообщении электронной почты подозрительные</span><span class="sxs-lookup"><span data-stu-id="d4d16-114">A URL is in a suspicious email message</span></span>
+<span data-ttu-id="d8e23-p103">— Это URL-адрес в сообщении электронной почты, которая выглядит аналогично на другие, которые считаются подозрительные сообщения электронной почты. Мы рекомендуем еще раз проверьте сообщение электронной почты перед переходом к сайту.</span><span class="sxs-lookup"><span data-stu-id="d8e23-p103">The URL is in an email message that seems similar to other email messages that are considered suspicious. We recommend that you double-check the email message before proceeding to the site.</span></span>
 
 ![Этот URL-адрес имеет подозрительные сообщения](media/33f57923-23e3-4b0f-838b-6ad589ba897b.png)
 
-<span data-ttu-id="d4d16-p103">— Это URL-адрес в сообщении электронной почты, которая выглядит аналогично на другие, которые считаются подозрительные сообщения электронной почты. Мы рекомендуем еще раз проверьте сообщение электронной почты перед переходом к сайту.</span><span class="sxs-lookup"><span data-stu-id="d4d16-p103">The URL is in an email message that seems similar to other email messages that are considered suspicious. We recommend that you double-check the email message before proceeding to the site.</span></span>
+### <a name="a-url-is-in-a-message-identified-as-a-phishing-attempt"></a><span data-ttu-id="d8e23-118">— Это URL-адрес в сообщение, определенное как фишинга</span><span class="sxs-lookup"><span data-stu-id="d8e23-118">A URL is in a message identified as a phishing attempt</span></span>
 
-### <a name="a-url-is-in-a-message-identified-as-a-phishing-attempt"></a><span data-ttu-id="d4d16-118">— Это URL-адрес в сообщение, определенное как фишинга</span><span class="sxs-lookup"><span data-stu-id="d4d16-118">A URL is in a message identified as a phishing attempt</span></span>
+<span data-ttu-id="d8e23-p104">— Это URL-адрес в сообщении электронной почты, который был распознан как фишинга. В результате все URL-адреса в сообщении электронной почты, блокируются. Мы рекомендуем не перейдите на сайт.</span><span class="sxs-lookup"><span data-stu-id="d8e23-p104">The URL is in an email message that has been identified as a phishing attack. As a result, all URLs in the email message are blocked. We recommend that you do not proceed to the site.</span></span>
 
 ![Этот URL-адрес находится в сообщение, определенное как фишинга](media/6e544a28-0604-4821-aba6-d5a57bb917e5.png)
 
-<span data-ttu-id="d4d16-p104">— Это URL-адрес в сообщении электронной почты, который был распознан как фишинга. В результате все URL-адреса в сообщении электронной почты, блокируются. Мы рекомендуем не перейдите на сайт.</span><span class="sxs-lookup"><span data-stu-id="d4d16-p104">The URL is in an email message that has been identified as a phishing attack. As a result, all URLs in the email message are blocked. We recommend that you do not proceed to the site.</span></span>
+### <a name="a-site-has-been-identified-as-malicious"></a><span data-ttu-id="d8e23-123">Сайт определено как вредоносный</span><span class="sxs-lookup"><span data-stu-id="d8e23-123">A site has been identified as malicious</span></span>
 
-### <a name="a-site-has-been-identified-as-malicious"></a><span data-ttu-id="d4d16-123">Сайт определено как вредоносный</span><span class="sxs-lookup"><span data-stu-id="d4d16-123">A site has been identified as malicious</span></span>
+<span data-ttu-id="d8e23-124">Указывает URL-адрес сайта, который был распознан как вредоносный.</span><span class="sxs-lookup"><span data-stu-id="d8e23-124">The URL points to a site that has been identified as malicious.</span></span>  <br/> <span data-ttu-id="d8e23-125">Мы рекомендуем не перейдите на сайт.</span><span class="sxs-lookup"><span data-stu-id="d8e23-125">We recommend that you do not proceed to the site.</span></span>
 
 ![Этот сайт определено как вредоносный](media/058883c8-23f0-4672-9c1c-66b084796177.png)
 
-<span data-ttu-id="d4d16-125">Указывает URL-адрес сайта, который был распознан как вредоносный.</span><span class="sxs-lookup"><span data-stu-id="d4d16-125">The URL points to a site that has been identified as malicious.</span></span>  <br/> <span data-ttu-id="d4d16-126">Мы рекомендуем не перейдите на сайт.</span><span class="sxs-lookup"><span data-stu-id="d4d16-126">We recommend that you do not proceed to the site.</span></span>
+### <a name="a-site-is-blocked"></a><span data-ttu-id="d8e23-127">Заблокировано сайта</span><span class="sxs-lookup"><span data-stu-id="d8e23-127">A site is blocked</span></span>
 
-### <a name="a-site-is-blocked"></a><span data-ttu-id="d4d16-127">Заблокировано сайта</span><span class="sxs-lookup"><span data-stu-id="d4d16-127">A site is blocked</span></span>
+<span data-ttu-id="d8e23-p105">URL-адрес заблокирован для вашей организации. Существует несколько причин может быть блокировки: URL-адрес. Мы рекомендуем Вам связаться с администратором вашей организации Office 365.</span><span class="sxs-lookup"><span data-stu-id="d8e23-p105">The URL is blocked for your organization. There are several reasons why a URL might be blocked. We recommend that you contact your organization's Office 365 administrator.</span></span>
 
 ![Этот сайт будет блокировано](media/6b4bda2d-a1e6-419e-8b10-588e83c3af3f.png)
 
-<span data-ttu-id="d4d16-p105">URL-адрес заблокирован для вашей организации. Существует несколько причин может быть блокировки: URL-адрес. Мы рекомендуем Вам связаться с администратором вашей организации Office 365.</span><span class="sxs-lookup"><span data-stu-id="d4d16-p105">The URL is blocked for your organization. There are several reasons why a URL might be blocked. We recommend that you contact your organization's Office 365 administrator.</span></span>
+### <a name="an-error-has-occurred"></a><span data-ttu-id="d8e23-132">An error has occurred</span><span class="sxs-lookup"><span data-stu-id="d8e23-132">An error has occurred</span></span>
 
-### <a name="an-error-has-occurred"></a><span data-ttu-id="d4d16-132">An error has occurred</span><span class="sxs-lookup"><span data-stu-id="d4d16-132">An error has occurred</span></span>
+<span data-ttu-id="d8e23-133">Произошла ошибка какой-либо, а не удается открыть URL-адрес.</span><span class="sxs-lookup"><span data-stu-id="d8e23-133">Some kind of error has occurred, and the URL cannot be opened.</span></span>
 
 ![An error has occurred](media/2f7465a4-1cf4-4c1c-b7d4-3c07e4b795b4.png)
 
-<span data-ttu-id="d4d16-134">Произошла ошибка какой-либо, а не удается открыть URL-адрес.</span><span class="sxs-lookup"><span data-stu-id="d4d16-134">Some kind of error has occurred, and the URL cannot be opened.</span></span>
+## <a name="recent-updates-to-warning-pages"></a><span data-ttu-id="d8e23-135">Последние обновления на страницы, предупреждение</span><span class="sxs-lookup"><span data-stu-id="d8e23-135">Recent updates to warning pages</span></span>
 
-   
-## <a name="recent-updates-to-warning-pages"></a><span data-ttu-id="d4d16-135">Последние обновления на страницы, предупреждение</span><span class="sxs-lookup"><span data-stu-id="d4d16-135">Recent updates to warning pages</span></span>
+<span data-ttu-id="d8e23-p106">Несколько страниц предупреждение недавно были обновлены для ПАКЕТА Office 365. Если вы еще не видите обновленные страницы, которую будет ближайшее время. Обновления включают новая цветовая схема, более подробные сведения и возможность перейти к сайту несмотря на указанной предупреждения и рекомендации.</span><span class="sxs-lookup"><span data-stu-id="d8e23-p106">Several warning pages were recently updated for Office 365 ATP. If you're not already seeing the updated pages, you will soon. The updates include a new color scheme, more details, and the ability to proceed to a site despite the given warning and recommendations.</span></span>
 
-<span data-ttu-id="d4d16-p106">Несколько страниц предупреждение недавно были обновлены для ПАКЕТА Office 365. Если вы еще не видите обновленные страницы, которую будет ближайшее время. Обновления включают новая цветовая схема, более подробные сведения и возможность перейти к сайту несмотря на указанной предупреждения и рекомендации.</span><span class="sxs-lookup"><span data-stu-id="d4d16-p106">Several warning pages were recently updated for Office 365 ATP. If you're not already seeing the updated pages, you will soon. The updates include a new color scheme, more details, and the ability to proceed to a site despite the given warning and recommendations.</span></span>
+### <a name="url-scan-in-progress"></a><span data-ttu-id="d8e23-139">URL-адрес сканирование</span><span class="sxs-lookup"><span data-stu-id="d8e23-139">URL scan in progress</span></span>
 
-### <a name="url-scan-in-progress"></a><span data-ttu-id="d4d16-139">URL-адрес сканирование</span><span class="sxs-lookup"><span data-stu-id="d4d16-139">URL scan in progress</span></span>
-
-<span data-ttu-id="d4d16-140">Исходная страница предупреждения:</span><span class="sxs-lookup"><span data-stu-id="d4d16-140">Original warning page:</span></span>
+<span data-ttu-id="d8e23-140">Исходная страница предупреждения:</span><span class="sxs-lookup"><span data-stu-id="d8e23-140">Original warning page:</span></span>
 
 ![Исходная страница предупреждение о сканирования URL-адрес в процессе выполнения](media/04368763-763f-43d6-94a4-a48291d36893.png)
 
-<span data-ttu-id="d4d16-142">Обновленная страница предупреждения:</span><span class="sxs-lookup"><span data-stu-id="d4d16-142">Updated warning page:</span></span>
+<span data-ttu-id="d8e23-142">Обновленная страница предупреждения:</span><span class="sxs-lookup"><span data-stu-id="d8e23-142">Updated warning page:</span></span>
 
 ![Пакет анализа проверяет ссылки](media/ee8dd5ed-6b91-4248-b054-12b719e8d0ed.png)
 
-### <a name="malicious-site-warning"></a><span data-ttu-id="d4d16-144">Предупреждение о нежелательном сайта</span><span class="sxs-lookup"><span data-stu-id="d4d16-144">Malicious site warning</span></span>
+### <a name="malicious-site-warning"></a><span data-ttu-id="d8e23-144">Предупреждение о нежелательном сайта</span><span class="sxs-lookup"><span data-stu-id="d8e23-144">Malicious site warning</span></span>
 
-<span data-ttu-id="d4d16-145">Исходная страница предупреждения:</span><span class="sxs-lookup"><span data-stu-id="d4d16-145">Original warning page:</span></span>
+<span data-ttu-id="d8e23-145">Исходная страница предупреждения:</span><span class="sxs-lookup"><span data-stu-id="d8e23-145">Original warning page:</span></span>
 
 ![Исходная страница предупреждение о нежелательном сайта](media/b9efda09-6dd8-46ef-82cb-56e4d538b8f5.png)
 
-<span data-ttu-id="d4d16-147">Обновленная страница предупреждения:</span><span class="sxs-lookup"><span data-stu-id="d4d16-147">Updated warning page:</span></span>
+<span data-ttu-id="d8e23-147">Обновленная страница предупреждения:</span><span class="sxs-lookup"><span data-stu-id="d8e23-147">Updated warning page:</span></span>
 
 ![Этот сайт определено как вредоносный](media/058883c8-23f0-4672-9c1c-66b084796177.png)
 
-### <a name="blocked-url-warning"></a><span data-ttu-id="d4d16-149">Заблокировано предупреждение URL-адрес</span><span class="sxs-lookup"><span data-stu-id="d4d16-149">Blocked URL warning</span></span>
+### <a name="blocked-url-warning"></a><span data-ttu-id="d8e23-149">Заблокировано предупреждение URL-адрес</span><span class="sxs-lookup"><span data-stu-id="d8e23-149">Blocked URL warning</span></span>
 
-<span data-ttu-id="d4d16-150">Исходная страница предупреждения:</span><span class="sxs-lookup"><span data-stu-id="d4d16-150">Original warning page:</span></span>
+<span data-ttu-id="d8e23-150">Исходная страница предупреждения:</span><span class="sxs-lookup"><span data-stu-id="d8e23-150">Original warning page:</span></span>
 
 ![Исходная страница предупреждение о заблокированных URL-адрес](media/3d6ba028-30bf-45fc-958e-d3aad3defc83.png)
 
-<span data-ttu-id="d4d16-152">Обновленная страница предупреждения:</span><span class="sxs-lookup"><span data-stu-id="d4d16-152">Updated warning page:</span></span>
+<span data-ttu-id="d8e23-152">Обновленная страница предупреждения:</span><span class="sxs-lookup"><span data-stu-id="d8e23-152">Updated warning page:</span></span>
 
 ![Этот сайт будет блокировано](media/6b4bda2d-a1e6-419e-8b10-588e83c3af3f.png)
 
-### <a name="error-occurred-warning-page"></a><span data-ttu-id="d4d16-154">«Произошла ошибка» предупреждение страницы</span><span class="sxs-lookup"><span data-stu-id="d4d16-154">"Error occurred" warning page</span></span>
+### <a name="error-occurred-warning-page"></a><span data-ttu-id="d8e23-154">«Произошла ошибка» предупреждение страницы</span><span class="sxs-lookup"><span data-stu-id="d8e23-154">"Error occurred" warning page</span></span>
 
-<span data-ttu-id="d4d16-155">Исходная страница предупреждения:</span><span class="sxs-lookup"><span data-stu-id="d4d16-155">Original warning page:</span></span>
+<span data-ttu-id="d8e23-155">Исходная страница предупреждения:</span><span class="sxs-lookup"><span data-stu-id="d8e23-155">Original warning page:</span></span>
 
 ![Исходный «ошибка» предупреждение страницы](media/9aaa4383-2f23-48be-bdaa-8efbcb2acc70.png)
 
-<span data-ttu-id="d4d16-157">Обновленная страница предупреждения:</span><span class="sxs-lookup"><span data-stu-id="d4d16-157">Updated warning page:</span></span>
+<span data-ttu-id="d8e23-157">Обновленная страница предупреждения:</span><span class="sxs-lookup"><span data-stu-id="d8e23-157">Updated warning page:</span></span>
 
 ![An error has occurred](media/2f7465a4-1cf4-4c1c-b7d4-3c07e4b795b4.png)
-  
    
-## <a name="related-topics"></a><span data-ttu-id="d4d16-159">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="d4d16-159">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="d8e23-159">Смежные темы</span><span class="sxs-lookup"><span data-stu-id="d8e23-159">Related topics</span></span>
 
-[<span data-ttu-id="d4d16-160">Как Office помогает защиты компьютера от фишинга</span><span class="sxs-lookup"><span data-stu-id="d4d16-160">How Office helps protect you from phishing schemes</span></span>](https://support.office.com/article/be0de46a-29cd-4c59-aaaf-136cf177d593)
+[<span data-ttu-id="d8e23-160">Как Office помогает защиты компьютера от фишинга</span><span class="sxs-lookup"><span data-stu-id="d8e23-160">How Office helps protect you from phishing schemes</span></span>](https://support.office.com/article/be0de46a-29cd-4c59-aaaf-136cf177d593)
   
-[<span data-ttu-id="d4d16-161">Office 365 ATP безопасных ссылки</span><span class="sxs-lookup"><span data-stu-id="d4d16-161">Office 365 ATP safe links</span></span>](atp-safe-links.md)
+[<span data-ttu-id="d8e23-161">Office 365 ATP безопасных ссылки</span><span class="sxs-lookup"><span data-stu-id="d8e23-161">Office 365 ATP safe links</span></span>](atp-safe-links.md)
   
-[<span data-ttu-id="d4d16-162">Безопасные вложения ATP Office 365</span><span class="sxs-lookup"><span data-stu-id="d4d16-162">Office 365 ATP safe attachments</span></span>](atp-safe-attachments.md)
+[<span data-ttu-id="d8e23-162">Безопасные вложения ATP Office 365</span><span class="sxs-lookup"><span data-stu-id="d8e23-162">Office 365 ATP safe attachments</span></span>](atp-safe-attachments.md)
   
-[<span data-ttu-id="d4d16-163">Защита от нежелательной почты и вредоносных программ в Office 365</span><span class="sxs-lookup"><span data-stu-id="d4d16-163">Anti-spam and anti-malware protection in Office 365</span></span>](anti-spam-and-anti-malware-protection.md)
+[<span data-ttu-id="d8e23-163">Защита от нежелательной почты и вредоносных программ в Office 365</span><span class="sxs-lookup"><span data-stu-id="d8e23-163">Anti-spam and anti-malware protection in Office 365</span></span>](anti-spam-and-anti-malware-protection.md)
   
 
