@@ -3,7 +3,7 @@ title: Управление сообщений на карантине и фай
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 5/19/2018
+ms.date: 09/05/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 065cc2cf-2f3a-47fd-a434-2a20b8f51d0c
 description: 'Как администратора можно просматривать, выпуск и сообщить о ложных положительных сообщений из карантина в Office 365. Можно настроить политики, чтобы Office 365 фильтрует сообщения и отправляет их в карантин по ряду причин: так, как они были определены как нежелательной почты, массовых, фишинга, вредоносных программ или их соответствия правилу поток почты. '
-ms.openlocfilehash: f30604da185b3455d89ae7c1206bda2149ef7778
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: be6384d8937e25aec55d82d8212c49d25b64b9a1
+ms.sourcegitcommit: d85fc77cba3a17d5ddf215e2f506f61b499e0cda
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534898"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23839103"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-administrator-in-office-365"></a>Управление сообщений на карантине и файлы с правами администратора в Office 365
 
@@ -34,7 +34,7 @@ ms.locfileid: "22534898"
   
 ## <a name="view-your-organizations-quarantined-messages"></a>Просмотр сообщений на карантине вашей организации
 
-1. Использование рабочего или школы учетной записи, имеющей права глобального администратора в вашей 365organization Office, войдите в Office 365 и [перейдите в центр соответствия требованиям и безопасности](go-to-the-securitycompliance-center.md).
+1. Использование рабочего или школы учетной записи, имеющей права глобального администратора в организации Office 365, входа в Office 365 и [перейдите в центр соответствия требованиям и безопасности](go-to-the-securitycompliance-center.md).
     
 2. В списке слева разверните **Threat Management**, нажмите кнопку **Обзор**и выберите **карантина**.
     
