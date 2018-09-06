@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 description: Настройка политик безопасных ссылки для защиты от вредоносных ссылки в файлов Word, Excel, PowerPoint и Visio, а также в сообщениях электронной почты организации.
-ms.openlocfilehash: a0c88a81503555417c16501ec9283cf2316c6d09
-ms.sourcegitcommit: a8884b9675559018e1fddec1c0cc2de0bc3bdde5
+ms.openlocfilehash: 01ba394053e2da137d5adafa4799040507ab4270
+ms.sourcegitcommit: f8cc2c7bad31d04c99a8eca5e0f8fad72494087a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/06/2018
-ms.locfileid: "23839979"
+ms.locfileid: "23848089"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Настройка политик Office 365 ATP безопасных ссылки
 
@@ -49,9 +49,11 @@ ms.locfileid: "23839979"
 
 - Убедитесь в том, что в вашей организации есть [Защиту от угроз для Office 365 расширенный](office-365-atp.md).
     
-- Убедитесь в том, что у вас есть необходимые [разрешений, назначенных безопасности Office 365 &amp; центре соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
+- Убедитесь, что необходимые разрешения для задания или изменения политики анализа. Просмотреть [разрешения безопасности Office 365 &amp; центре соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
     
 - [Дополнительные сведения о параметрах политики безопасных ссылок анализа](#learn-about-atp-safe-links-policy-options) (в этой статье). 
+
+- Убедитесь в том, что клиенты Office настроены на использование [Проверки подлинности на современном](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016).
     
 - Разрешить до 30 минут для новых или обновленных политики для распространения для всех центров обработки данных Office 365.
     
