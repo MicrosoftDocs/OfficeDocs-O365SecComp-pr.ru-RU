@@ -223,7 +223,7 @@
 ## [Подробные свойства в журнале аудита](detailed-properties-in-the-office-365-audit-log.md)
 ## [Использование аудита общего доступа в журнале аудита](use-sharing-auditing.md)
 ## [Поиск действий по обнаружению электронных данных в журнале аудита](search-for-ediscovery-activities-in-the-audit-log.md)
-# Мониторинг безопасности и соответствия требованиям
+# [Мониторинг безопасности и соответствия требованиям](monitor-security-and-compliance.md)
 ## [Политики оповещений](alert-policies.md)
 ### [Создание оповещений о действиях](create-activity-alerts.md)
 ## [Интеллектуальные отчеты и аналитика в Центре безопасности и соответствия требованиям](reports-and-insights-in-security-and-compliance.md)
