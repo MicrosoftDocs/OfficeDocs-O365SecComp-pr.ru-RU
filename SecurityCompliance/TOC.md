@@ -6,7 +6,7 @@
 ## [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md)
 ## [Предоставление пользователям доступа к Центру безопасности и соответствия требованиям](grant-access-to-the-security-and-compliance-center.md)
 ## [Обзор панели мониторинга безопасности](security-dashboard.md)
-## [Установка надстройки контроля для классической версии Outlook](install-the-supervision-add-in-for-outlook-desktop.md)
+## [Установка надстройки "Контроль" для классической версии Outlook](install-the-supervision-add-in-for-outlook-desktop.md)
 ## [Использование бесплатной подписки на Azure Active Directory](use-your-free-azure-ad-subscription-in-office-365.md)
 ## [Планирование безопасности и соответствия требованиям в Office 365](plan-for-security-and-compliance.md)
 ## [Использование обозревателя в Центре безопасности и соответствия требованиям](use-explorer-in-security-and-compliance.md)
@@ -14,7 +14,7 @@
 ## [Защита доступа к данным и службам в Office 365](protect-access-to-data-and-services.md)
 ## [Выбор между MDM и Intune](choose-between-mdm-and-intune.md)
 # [Защита от потери данных (DLP)](data-loss-prevention-policies.md)
-## [Расширенный обзор защиты от потери данных](https://go.microsoft.com/fwlink/?linkid=852300)
+## [Расширенный обзор защиты от потери данных](https://channel9.msdn.com/events/ignite/microsoft-ignite-orlando-2017/brk3111)
 ## Настройка защиты от потери данных
 ### [Начало работы с рекомендациями политик защиты от потери данных](get-started-with-dlp-policy-recommendations.md)
 ### [Начало работы со стандартной политикой защиты от потери данных](get-started-with-the-default-dlp-policy.md)
@@ -32,6 +32,7 @@
 ### [Настройка встроенных типов конфиденциальных данных](customize-a-built-in-sensitive-information-type.md)
 ### [Создание пользовательского типа конфиденциальных данных](create-a-custom-sensitive-information-type.md)
 ### [Создание словаря ключевых слов](create-a-keyword-dictionary.md)
+### [Создание отпечатка документа](document-fingerprinting.md) 
 # Управление данными        
 ## [Импорт данных](importing-pst-files-to-office-365.md)
 ### [Импорт PST-файлов с помощью отправки по сети](use-network-upload-to-import-pst-files.md)
