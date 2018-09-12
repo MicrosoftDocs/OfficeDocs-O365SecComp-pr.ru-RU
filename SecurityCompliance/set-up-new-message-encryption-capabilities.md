@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 7ff0c040-b25c-4378-9904-b1b50210d00e
 description: Новые шифрования сообщений Office 365, можно использовать возможности, построенные Azure Information Protection вашей организации для защиты электронной почты обмена данными с пользователями внутри и за пределами вашей организации. Новые возможности OME работать с другими организациями Office 365, Outlook.com, Gmail и другие службы электронной почты.
-ms.openlocfilehash: e59368f5854c86c04f4f0bdf376537d3f6b02d33
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: c24b2f9b612b863217df8afd951424d1a89295c9
+ms.sourcegitcommit: d89c24258123a3ffde574a391d59afd3aea8470d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22535426"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "23955421"
 ---
 # <a name="set-up-new-office-365-message-encryption-capabilities"></a>Настройка новых возможностей шифрования сообщений Office 365
 
@@ -25,7 +25,7 @@ ms.locfileid: "22535426"
   
 ## <a name="get-started-with-ome-by-activating-azure-rights-management-part-of-azure-information-protection"></a>Начало работы с OME необходимо активировать Azure Rights Management частью защита информации Azure
 
-Теперь можно легко приступить к работе с новыми возможностями OME. По состоянию на 2018 февраля Office 365 автоматически включает новые возможности OME для подходящими организаций в пределах нашего центров обработки данных. Вашей организации имеет право, если нового клиента Office 365 и вашей организации есть соответствующие подписки. ** Если ** ** вы включили Azure Rights Management (службы управления правами Azure), частью защита информации Azure, а затем мы автоматически Включение шифрования сообщений Office 365 для вас. ** Не нужно выполнять дополнительные действия, чтобы включить OME. Служба управления правами Azure, см [Активация службы управления правами Azure](https://docs.microsoft.com/azure/information-protection/deploy-use/activate-service). Сведения о подписках содержатся в разделе «какие подписок необходимо использовать новые capabilities? OME» в [Вопросы и ответы шифрования сообщений Office 365](ome-faq.md). Для получения сведений о приобретении подписка на Azure Information Protection видеть [Защита информации Azure](https://azure.microsoft.com/services/information-protection/).
+Теперь можно легко приступить к работе с новыми возможностями OME. По состоянию на 2018 февраля Office 365 автоматически включает новые возможности OME для подходящими организаций в пределах нашего центров обработки данных. Вашей организации имеет право, если нового клиента Office 365 и вашей организации есть соответствующие подписки. **Если вы включили Azure Rights Management (службы управления правами Azure), частью защита информации Azure, а затем мы автоматически включить шифрования сообщений Office 365 для вас.** У вас нет необходимости выполнять дополнительные действия, чтобы включить OME. Служба управления правами Azure, см [Активация службы управления правами Azure](https://docs.microsoft.com/azure/information-protection/deploy-use/activate-service). Сведения о подписках содержатся в разделе «какие подписок необходимо использовать новые capabilities? OME» в [Вопросы и ответы шифрования сообщений Office 365](ome-faq.md). Для получения сведений о приобретении подписка на Azure Information Protection видеть [Защита информации Azure](https://azure.microsoft.com/services/information-protection/).
   
 При использовании Exchange Online со службой управления правами Active Directory (AD RMS), вы не можете позволить этими новыми возможностями немедленно. Вместо этого необходимо сначала перенести из службы управления правами Azure защита информации. После завершения миграции можно успешно выполнить следующие действия.
   
@@ -62,22 +62,18 @@ ms.locfileid: "22535426"
     
 2. Командлет Test-IRMConfiguration, используя следующий синтаксис:
     
-  ```
-  Test-IRMConfiguration [-Sender <email address >]
-  ```
+    ```Test-IRMConfiguration [-Sender <email address >]```  
 
-    Пример:
+   Пример:
     
-  ```
-  Test-IRMConfiguration -Sender securityadmin@contoso.com
-  ```
+    ```Test-IRMConfiguration -Sender securityadmin@contoso.com```
 
     Где адрес электронной почты — это адрес электронной почты пользователя в организации Office 365. Необязательный, предоставляя адрес электронной почты отправителя принудительно системы для выполнения дополнительных проверок.
     
     Результаты должен выглядеть эти:
     
-  ```
-  Results : Acquiring RMS Templates ...
+    ```
+    Results : Acquiring RMS Templates ...
                 - PASS: RMS Templates acquired.  Templates available: Contoso  - Confidential View Only, Contoso  - Confidential, Do Not 
             Forward.
             Verifying encryption ...
@@ -88,7 +84,7 @@ ms.locfileid: "22535426"
                 - PASS: IRM verified successfully.
             
             OVERALL RESULT: PASS
-  ```
+    ```
 
     Где *Contoso* заменяется именем организации Office 365. 
     
@@ -98,9 +94,7 @@ ms.locfileid: "22535426"
     
 3. Выполните командлет Remove-PSSession, чтобы отключиться от службы управления правами.
     
-  ```
-  Remove-PSSession $session
-  ```
+    ```Remove-PSSession $session```
 
 ## <a name="next-steps-define-new-mail-flow-rules-that-use-the-new-ome-capabilities"></a>Дальнейшие действия: определить новые правила потока обработки почты, используйте новые возможности OME
 <a name="Rules_1"> </a>
