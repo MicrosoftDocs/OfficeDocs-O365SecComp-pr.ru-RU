@@ -3,7 +3,6 @@ title: Динамические доставки и предварительны
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 2/28/2018
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -13,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: f16c9928-8e3d-4219-b994-271dc9a16272
 description: При настройке политик безопасные вложения ATP выберите динамических доставки, чтобы избежать задержек сообщение и включить людей для предварительного просмотра вложений, которые выполняется сканирование.
-ms.openlocfilehash: 23017f4f995dfe6a90479d83af9522531d7bf96b
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 23ef316ed35b89ef1fad5e9639dd10e76036a4f3
+ms.sourcegitcommit: 82fd4c85b952819157fbb13175c7b2dbbdff510f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534252"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965246"
 ---
 # <a name="dynamic-delivery-and-previewing-with-office-365-atp-safe-attachments"></a>Динамические доставки и предварительный просмотр с Office 365 ATP безопасные вложения
 
@@ -65,8 +64,10 @@ ms.locfileid: "22534252"
 - Папки поиска почтового ящика пользователя, который находится в состоянии ошибки
     
 - Среды, в которых администратор Exchange Online включил Exclaimer. (Видеть [сообщения с вложениями не удается доставить при использовании доставки динамического анализа и Exclaimer](https://support.microsoft.com/help/4014438/messages-with-attachments-are-not-delivered-when-atp-dynamic-delivery))
+
+- Сообщения, зашифрованные с безопасные многоцелевые расширения почтового стандарта Интернета ([S/MIME](s-mime-for-message-signing-and-encryption.md))
     
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Смежные темы
 
 [Office 365 Advanced Threat Protection](office-365-atp.md)
   

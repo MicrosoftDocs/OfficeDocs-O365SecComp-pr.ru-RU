@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: f5caf497-5e8d-4b7a-bfff-d02942f38150
 description: Когда больше не требуется сохранить содержимое Office 365 неактивного почтового ящика можно окончательно удалить неактивного почтового ящика, удалив удержания. После удаления удержания, неактивного почтового ящика помеченным для удаления и окончательно удаляется после его обработки.
-ms.openlocfilehash: 91b73fff6ca319735289abe7ea9351b5fba931a0
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: a7284be650d7ec6c89a6fdc43d8614603d6f1e19
+ms.sourcegitcommit: 82fd4c85b952819157fbb13175c7b2dbbdff510f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534319"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965256"
 ---
 # <a name="delete-an-inactive-mailbox-in-office-365"></a>Удаление неактивного почтового ящика в Office 365
 
@@ -104,11 +104,7 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
 
 2. В центре администрирования Exchange перейдите к **разделу Управление соответствием требованиям** \> **In-Place eDiscovery &amp; хранения**.
     
-<<<<<<< HEAD
 3. Выберите хранение на месте, которую требуется удалить и нажмите кнопку **Изменить** ![значок Правка](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif).
-=======
-3. Выберите хранение на месте, которую требуется удалить и нажмите кнопку **Изменить**! [Значок редактирования](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif).
->>>>>>> Преобразование markjjo
     
 4. На **In-Place eDiscovery &amp; хранения** свойства страницы, нажмите кнопку **Хранения на месте**, снимите флажок **месте содержимого, соответствующего запроса поиска в выбранных почтовых ящиков на хранение** и нажмите кнопку **Сохранить**.
     
