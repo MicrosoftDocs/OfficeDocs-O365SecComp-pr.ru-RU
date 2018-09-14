@@ -1,9 +1,8 @@
 ---
-title: Управление исходящей нежелательной почты в Office 365
+title: Контроль над исходящим спамом в Office 365
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 09/13/2018
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -13,14 +12,14 @@ search.appverid:
 - MOE150
 ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 description: Если ваша организация отправляет много Массовая рассылка, помеченный как нежелательная почта, может получить запретом отправляет сообщения электронной почты с помощью Office 365. В этой статье, чтобы узнать больше о почему это происходит и что можно сделать о нем.
-ms.openlocfilehash: 1e416ded5a7d91376a75075e5de1de60bc8a205b
-ms.sourcegitcommit: 82fd4c85b952819157fbb13175c7b2dbbdff510f
+ms.openlocfilehash: 916a062d08e01954e7736b6f22d297aea04baf28
+ms.sourcegitcommit: 17dda7ece5c9e884944a92ac0f842cf1e62ec506
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23968270"
+ms.lasthandoff: 09/14/2018
+ms.locfileid: "23977584"
 ---
-# <a name="controlling-outbound-spam-in-office-365"></a>Управление исходящей нежелательной почты в Office 365
+# <a name="controlling-outbound-spam-in-office-365"></a>Контроль над исходящим спамом в Office 365
 
 Мы принимаем серьезно управление исходящей нежелательной почты, так как наша, общую службу.  Существует множество клиентов за общего пула ресурсов, где Если один клиент отправляет исходящей нежелательной почты, он может привести к снижению исходящих репутации IP-адрес службы и влияет на успешные полезность электронной почты для других пользователей. Это совсем клиента A, если клиент Б spams и различных сторонних производителей IP-адресов списки заблокированных обновлений списка IP-адрес, который используется.
 
