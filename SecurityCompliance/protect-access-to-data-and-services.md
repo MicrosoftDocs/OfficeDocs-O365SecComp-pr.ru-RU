@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
 description: Главная страница для защиты доступа к данным O365 и служб
-ms.openlocfilehash: 6ea617b1a7a7a34492689908d4816a851d58e776
-ms.sourcegitcommit: 0ce722533d72fa8dcc1d8a58d3c649cb345b938d
+ms.openlocfilehash: 652a14c5f1f29187aeac51355e7a924c9378806f
+ms.sourcegitcommit: 15dfa0c83aa88816c18e30a44a49e36e733d952c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/19/2018
-ms.locfileid: "24009105"
+ms.locfileid: "24011281"
 ---
 # <a name="protect-access-to-data-and-services-in-office-365"></a>Защита доступа к данным и службам в Office 365
 
@@ -58,7 +58,7 @@ ms.locfileid: "24009105"
 
 Привилегированный доступ управления позволяет управлять детального доступа задачи правами администратора в Office 365.  Он может помочь защитить организацию от нарушения безопасности, которые могут использовать существующие учетные записи с правами администратора с положение доступа к конфиденциальным данным или доступ к параметрам конфигурации важных.
 
-- [Общие сведения о полномочиями доступ к управлению](privileged-access-managment-overview.md)
+- [Общие сведения о полномочиями доступ к управлению](privileged-access-management-overview.md)
 - [Настройка управления правами доступа](privileged-access-management-configuration.md)
 
 ## <a name="step-5-configure-sharepoint-device-access-policies"></a>Шаг 5: Настройка политик доступа устройства SharePoint
