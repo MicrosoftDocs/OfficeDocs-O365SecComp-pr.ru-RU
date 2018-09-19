@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
 description: Главная страница для защиты доступа к данным O365 и служб
-ms.openlocfilehash: e6e2d8d3ba6482d4b80593bd9e09d49d6120af80
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 6ea617b1a7a7a34492689908d4816a851d58e776
+ms.sourcegitcommit: 0ce722533d72fa8dcc1d8a58d3c649cb345b938d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22535107"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "24009105"
 ---
 # <a name="protect-access-to-data-and-services-in-office-365"></a>Защита доступа к данным и службам в Office 365
 
@@ -54,13 +54,20 @@ ms.locfileid: "22535107"
   
 - [Условное доступа в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal)
     
-## <a name="step-4-configure-sharepoint-device-access-policies"></a>Шаг 4: Настройка политик доступа устройства SharePoint
+## <a name="step-4-configure-privileged-access-management"></a>Шаг 4: Настройка управления правами доступа
+
+Привилегированный доступ управления позволяет управлять детального доступа задачи правами администратора в Office 365.  Он может помочь защитить организацию от нарушения безопасности, которые могут использовать существующие учетные записи с правами администратора с положение доступа к конфиденциальным данным или доступ к параметрам конфигурации важных.
+
+- [Общие сведения о полномочиями доступ к управлению](privileged-access-managment-overview.md)
+- [Настройка управления правами доступа](privileged-access-management-configuration.md)
+
+## <a name="step-5-configure-sharepoint-device-access-policies"></a>Шаг 5: Настройка политик доступа устройства SharePoint
 
 Для защиты конфиденциальных секретная и регулируемого данных рекомендуется использовать политики доступа устройств для SharePoint Online и OneDrive для бизнеса. Готовится к выпуску — это возможность применения политик доступа устройств к сайтам отдельные группы.
   
 - [Управление доступом с неуправляемых устройств](https://support.office.com/article/Control-access-from-unmanaged-devices-5ae550c4-bd20-4257-847b-5c20fb053622?ui=en-US&amp;rs=en-US&amp;ad=US)
     
-## <a name="step-5-configure-app-and-data-protection-for-devices"></a>Шаг 5: Настройте приложения и защиты данных для устройств
+## <a name="step-6-configure-app-and-data-protection-for-devices"></a>Шаг 6: Настройте приложения и защиты данных для устройств
 
 Можно управлять приложениями на мобильных устройствах, независимо от того, ли участвуют устройств для мобильных устройств management. Это обеспечивает защиту от случайного утечки данных в Office 365, включая электронную почту и файлы.
   
@@ -72,13 +79,13 @@ ms.locfileid: "22535107"
     
 - Отмена управляемых устройств: [Создание и развертывание политики защиты от приложения Windows сведения о защите (НЗП) с Intune](https://docs.microsoft.com/intune/windows-information-protection-policy-create)
     
-## <a name="step-6-manage-devices-with-intune"></a>Шаг 6: Управление устройствами с Intune
+## <a name="step-7-manage-devices-with-intune"></a>Шаг 7: Управление устройствами с Intune
 
 Управление устройствами позволяет убедиться в их работоспособности перед тем как разрешить доступ к ресурсам в вашей среде. Устройства на основе правил гарантировать, что злоумышленники не может получить доступ к ресурсам с неуправляемых устройств условного доступа.
   
 - [Регистрация устройств для управления в Intune](https://docs.microsoft.com/intune-classic/deploy-use/enroll-devices-in-microsoft-intune)
     
-## <a name="step-7-configure-additional-intune-policies-and-conditional-access-rules-for-your-environment"></a>Шаг 7: Настройка дополнительных политик Intune и правила условного доступа для вашей среды
+## <a name="step-8-configure-additional-intune-policies-and-conditional-access-rules-for-your-environment"></a>Шаг 8: Настройка дополнительных политик Intune и правила условного доступа для вашей среды
 
 Используйте эти рекомендуемые конфигурации в качестве отправной точки для масштаба предприятия или доступа сложных сценариев обеспечения безопасности.
   
