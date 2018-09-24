@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 description: Узнайте, как включить сообщения отчета надстройки для Outlook и Outlook на веб-сайте, для отдельных пользователей или всей организации.
-ms.openlocfilehash: 2260f8823132d23e0e1f57a421fd223ea3ab14bd
-ms.sourcegitcommit: edf5db9357c0d34573f8cc406314525ef10d1eb9
+ms.openlocfilehash: 68b70cdb138ad38216f188116e576a24304a3769
+ms.sourcegitcommit: 17c7e18d7d00135b1af40cbea117c9a817a41117
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23230001"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24972271"
 ---
 # <a name="enable-the-report-message-add-in"></a>Включение надстройки Report Message
 
@@ -40,8 +40,8 @@ ms.locfileid: "23230001"
     
 После надстройка установлена и включена, вы увидите следующие значки: 
 
-- В программе Outlook значок выглядит следующим образом: </br> ![Добавить в сообщение значок отчета для Outlook](media/OutlookReportMessageIcon.png)</br>
-- В Outlook Web App значок выглядит следующим образом:</br>![Outlook для значка Добавить в сообщение отчета Web](media/d9326d0b-1769-4bc2-ae58-51f0ebc69a17.png)</br>
+- В программе Outlook значок выглядит следующим образом: <br/> ![Добавить в сообщение значок отчета для Outlook](media/OutlookReportMessageIcon.png)<br/>
+- В Outlook Web App значок выглядит следующим образом:<br/>![Outlook для значка Добавить в сообщение отчета Web](media/d9326d0b-1769-4bc2-ae58-51f0ebc69a17.png)<br/>
 
   
 В качестве следующего шага, узнайте, как [использования надстройки сообщения отчета](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
@@ -127,7 +127,7 @@ ms.locfileid: "23230001"
     
 С этим правилом на месте каждый раз, когда кто-то в вашей организации сообщает сообщения электронной почты с помощью сообщения отчета надстройки, глобального администратора, администратора безопасности и чтения безопасности будет получать копию этого сообщения. Эти сведения можно включить для установки и настройки политики, например политики [Office 365 ATP безопасных ссылки](atp-safe-links.md) . 
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Смежные темы
 
 [Использовать надстройки сообщения отчета](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
   

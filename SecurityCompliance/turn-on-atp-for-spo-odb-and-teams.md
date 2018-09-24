@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 07e76024-0c80-40dc-8c48-1dd0d0f863cb
 description: Узнайте, как включить ATP для SharePoint, OneDrive и групп, включая способ настройки оповещения об обнаруженных файлах.
-ms.openlocfilehash: c29ed850257e04ba9b88745157f33a6e16948c2f
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: bb99aee0887f15f065a47d691c59ce47639bdc32
+ms.sourcegitcommit: 17c7e18d7d00135b1af40cbea117c9a817a41117
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22535386"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24972241"
 ---
 # <a name="turn-on-office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Включить ATP Office 365 для SharePoint, OneDrive и группами Майкрософт
 
@@ -45,7 +45,7 @@ ms.locfileid: "22535386"
     
 5. Просмотрите (и, отредактируйте) [политики безопасные вложения](set-up-atp-safe-attachments-policies.md) и [политики безопасных ссылки](set-up-atp-safe-links-policies.md)вашей организации.
     
-6. (Рекомендуется) Как глобальный администратор или администратор SharePoint Online, выполните командлет **[Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant?view=sharepoint-ps)** с параметром **DisallowInfectedFileDownload** установлено значение *true* . </br></br>Установка для параметра в *значение true,* блокирует все действия (за исключением Delete) для обнаруженных файлы. Пользователи не могут открыть, перемещение, копирование или общего доступа к файлам вредоносным.</br></br>Установка для параметра значение *false* блокирует все действия, за исключением Delete и загрузки. Люди могут выбрать для принятия риск и загрузите файл вредоносным.</br></br>Рекомендуется для параметра *значение true*. 
+6. (Рекомендуется) Как глобальный администратор или администратор SharePoint Online, выполните командлет **[Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant?view=sharepoint-ps)** с параметром **DisallowInfectedFileDownload** установлено значение *true* . <br/><br/>Установка для параметра в *значение true,* блокирует все действия (за исключением Delete) для обнаруженных файлы. Пользователи не могут открыть, перемещение, копирование или общего доступа к файлам вредоносным.<br/><br/>Установка для параметра значение *false* блокирует все действия, за исключением Delete и загрузки. Люди могут выбрать для принятия риск и загрузите файл вредоносным.<br/><br/>Рекомендуется для параметра *значение true*. 
    
 7. Разрешить до 30 минут для применения изменений для распространения для всех центров обработки данных Office 365.
     
@@ -85,7 +85,7 @@ ms.locfileid: "22535386"
     
 - [Управление сообщений на карантине и файлы с правами администратора в Office 365](manage-quarantined-messages-and-files.md)
     
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Смежные темы
 
 [Office 365 Advanced Threat Protection](office-365-atp.md)
   

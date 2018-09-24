@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0a322724-08ca-43db-b69a-afbfa20484cd
 description: С помощью Office 365 контента шифрования статических и во время передачи, с помощью надежного шифрования, протоколы и технологиях, доступных. Обзор шифрования в Office 365.
-ms.openlocfilehash: e5c21cf456f9ccca2393b8985dd47e34745902cf
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: a9f37fddf28461ee4912e0b8a1f5b922c59c009f
+ms.sourcegitcommit: 17c7e18d7d00135b1af40cbea117c9a817a41117
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534856"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24972291"
 ---
 # <a name="encryption-in-office-365"></a>Шифрование в Office 365
 
@@ -70,10 +70,10 @@ ms.locfileid: "22534856"
 |Настройка шифрования для организации  <br/> |[Настройка шифрования в Office 365 корпоративный](set-up-encryption.md) <br/> |
 |Просмотр сведений о сертификатах, технологий и наборы шифрования TLS в Office 365  <br/> |[Технические сведения о шифрования в Office 365](technical-reference-details-about-encryption.md) <br/> |
 |Работа с шифрованными сообщениями на мобильном устройстве  <br/> |[Просматривать зашифрованные сообщения на устройстве Android](https://support.office.com/article/83d60f17-2305-407a-a762-7d518401fdeb) <br/> [Просмотр зашифрованных сообщений на iPhone и iPad](https://support.office.com/article/4d631321-0d26-4bcc-a483-d294dd0b1caf) <br/> |
-|Шифрование документа с помощью защиты паролем  <br/></br>  На данный момент защиты паролем не поддерживается в Microsoft Office Online. Использование рабочего стола версий Word, Excel и PowerPoint для защиты паролем.           |[Добавление или изменение защиты в документе, книге или презентации](https://support.office.com/article/05084cc3-300d-4c1a-8416-38d3e37d6826) (Выберите раздел **Защита Add** и попытайтесь **Зашифровать паролем** )  <br/> |
+|Шифрование документа с помощью защиты паролем  <br/><br/>  На данный момент защиты паролем не поддерживается в Microsoft Office Online. Использование рабочего стола версий Word, Excel и PowerPoint для защиты паролем.           |[Добавление или изменение защиты в документе, книге или презентации](https://support.office.com/article/05084cc3-300d-4c1a-8416-38d3e37d6826) (Выберите раздел **Защита Add** и попытайтесь **Зашифровать паролем** )  <br/> |
 |Удалить шифрование из документа  <br/> |[Добавление или изменение защиты в документе, книге или презентации](https://support.office.com/article/05084cc3-300d-4c1a-8416-38d3e37d6826) (Выберите раздел **Снять защиту** и попытайтесь **удалить шифрование пароля** )  <br/> |
    
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Смежные темы
 
 [Планирование возможностей защиты безопасности и данные Office 365](https://support.office.com/article/3d4ac4a1-3920-4ff9-918f-011f3ce60408)
   

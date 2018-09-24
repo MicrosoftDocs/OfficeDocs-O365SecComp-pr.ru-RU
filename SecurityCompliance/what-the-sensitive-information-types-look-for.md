@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: Strat_O365_IP
 ms.assetid: fd505979-76be-4d9f-b459-abef3fc9e86b
 description: Защита от потери данных (DLP) в Office 365 безопасность &amp; центре соответствия требованиям включает в себя 80 типы конфиденциальной информации, готовые к использованию в политиках защиты от потери данных. В этом разделе перечислены все эти типы конфиденциальной информации и показывает, что политики защиты от потери данных выполняет поиск при обнаружении каждого типа.
-ms.openlocfilehash: 064606085363ba9de972511642993277451c8ce3
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 2e59b322730ca7fa828a685ed3a80c48ebdbbfd8
+ms.sourcegitcommit: 17c7e18d7d00135b1af40cbea117c9a817a41117
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22535221"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24972361"
 ---
 # <a name="what-the-sensitive-information-types-look-for"></a>Что позволяют искать типы конфиденциальной информации
 
@@ -3225,7 +3225,7 @@ Passeportn °
 ### <a name="pattern"></a>Шаблон
 
 Должен соответствовать одному из двух шаблонов:
-- 13 цифр, пробел, а затем две цифры</br>
+- 13 цифр, пробел, а затем две цифры<br/>
 или
 - 15 последовательных цифр.
 
@@ -4018,7 +4018,7 @@ IP-כתובת ה
       </Entity>
 ```
 
-Keywords
+Ключевые слова
 
 Любой терминов из словаря Dictionary_icd_10_cm ключевое слово, которого выполняется на основе [International классификации болезней, версия одной десятой, клинических изменения (ICD 10 см)](https://go.microsoft.com/fwlink/?linkid=852604). Этот тип только поиск терминов, не страхования коды.
 
@@ -4050,7 +4050,7 @@ Keywords
       </Entity>
 ```
 
-### <a name="keywords"></a>Keywords
+### <a name="keywords"></a>Ключевые слова
 
 Любой терминов из словаря Dictionary_icd_9_cm ключевое слово, которого выполняется на основе [International классификации болезней, Revision девятая, клинических изменения (ICD 9 см)](https://go.microsoft.com/fwlink/?linkid=852605). Этот тип только поиск терминов, не страхования коды.
    

@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 5602963c-a1f2-4c21-afb9-f66cd7dca1f0
 description: В этой статье показано, как использовать Windows PowerShell для получения сведений об устройствах в вашей организации, которые можно настроить для мобильного устройства управления для Office 365.
-ms.openlocfilehash: 2e406d3583e7892531b7c74bef0db374672956c7
-ms.sourcegitcommit: c31424cafbf1953f2864d7e2ceb95b329a694edb
+ms.openlocfilehash: 90ee59c5afed1cd260e13134299a7cb4f17dc5bc
+ms.sourcegitcommit: 17c7e18d7d00135b1af40cbea117c9a817a41117
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23272534"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24972321"
 ---
 # <a name="get-details-about-devices-managed-by-mobile-device-management-mdm-for-office-365"></a>Получение сведений об устройствах, управляемых Mobile Device Management (MDM) для Office 365
 
@@ -62,12 +62,12 @@ ms.locfileid: "23272534"
     
 ### <a name="step-2-connect-to-your-office-365-subscription"></a>Шаг 2. Подключитесь к своей подписке Office 365
 
-1. В Windows Azure модуль Active Directory для Windows PowerShell выполните следующую команду.</br>  
+1. В Windows Azure модуль Active Directory для Windows PowerShell выполните следующую команду.<br/>  
   `$UserCredential = Get-Credential`
 
 2. В диалоговом окне **Запрос учетных данных Windows PowerShell** введите имя пользователя и пароль для учетной записи глобального администратора Office 365 и нажмите кнопку **ОК**.
     
-3. Выполните следующую команду.</br>
+3. Выполните следующую команду.<br/>
     `
   Connect-MsolService -Credential $UserCredential
   `
@@ -81,7 +81,7 @@ ms.locfileid: "23272534"
   
 1. На рабочем столе Windows нажмите кнопку **Пуск**и затем введите Windows PowerShell. Щелкните правой кнопкой мыши **Windows PowerShell**и выберите команду **Запуск от имени администратора**.
     
-2. Выполните следующую команду.</br>
+2. Выполните следующую команду.<br/>
   `Set-ExecutionPolicy RemoteSigned`
 
 3. При появлении запроса введите `Y` и нажмите клавишу ВВОД. 
@@ -90,7 +90,7 @@ ms.locfileid: "23272534"
 
 1. Откройте модуль Microsoft Azure Active Directory для Windows PowerShell.
     
-2. Выполните следующую команду.</br>
+2. Выполните следующую команду.<br/>
   ```
   Get-MsolDevice -All -ReturnRegisteredOwners | Where-Object {$_.RegisteredOwners.Count -gt 0}
   ```
@@ -101,7 +101,7 @@ ms.locfileid: "23272534"
 
 ### <a name="first-save-the-script-to-your-computer"></a>Во-первых Сохраните скрипт на своем компьютере
 
-1. Скопируйте и вставьте следующий текст в "Блокнот".</br> 
+1. Скопируйте и вставьте следующий текст в "Блокнот".<br/> 
   ```
   param (
       [PSObject[]]$users = @(),
@@ -166,21 +166,21 @@ ms.locfileid: "23272534"
   
   ```
 
-2. Сохраните его как файл сценария Windows PowerShell с помощью файла расширением **.ps1**. </br>Пример.</br> `Get-MsolUserDeviceComplianceStatus.ps1`.
+2. Сохраните его как файл сценария Windows PowerShell с помощью файла расширением **.ps1**. <br/>Пример.<br/> `Get-MsolUserDeviceComplianceStatus.ps1`.
     
 ### <a name="run-the-script-to-get-device-information-for-a-single-user-account"></a>Выполните скрипт, чтобы получить сведения об устройстве для одной учетной записи пользователя
 
 1. Откройте модуль Microsoft Azure Active Directory для Windows PowerShell.
     
-2. Перейдите к папке, в которой вы сохранили скрипт. Например если он был сохранен на C:\PS-Scripts, будет выполните следующую команду.</br>
+2. Перейдите к папке, в которой вы сохранили скрипт. Например если он был сохранен на C:\PS-Scripts, будет выполните следующую команду.<br/>
     `cd C:\PS-Scripts`
 
-3. Выполните следующую команду для идентификации пользователя, для получения сведений об устройстве для. В этом примере выводятся сведения для bar@example.com.</br>
+3. Выполните следующую команду для идентификации пользователя, для получения сведений об устройстве для. В этом примере выводятся сведения для bar@example.com.<br/>
   ```
   $u = Get-MsolUser -UserPrincipalName bar@example.com
   ```
 
-4. Выполните следующую команду, чтобы запустить сценарий.</br>
+4. Выполните следующую команду, чтобы запустить сценарий.<br/>
   ```
   .\Get-MsolUserDeviceComplianceStatus.ps1 -User $u -Export
   ```
@@ -191,15 +191,15 @@ ms.locfileid: "23272534"
 
 1. Откройте модуль Microsoft Azure Active Directory для Windows PowerShell.
     
-2. Перейдите к папке, в которой вы сохранили скрипт. Например если он был сохранен на C:\PS-Scripts, будет выполните следующую команду.</br>
+2. Перейдите к папке, в которой вы сохранили скрипт. Например если он был сохранен на C:\PS-Scripts, будет выполните следующую команду.<br/>
   `cd C:\PS-Scripts`
 
-3. Выполните следующую команду, чтобы указать группу, для получения сведений об устройстве для. В этом примере выводятся сведения для пользователей в группу FinanceStaff.</br>
+3. Выполните следующую команду, чтобы указать группу, для получения сведений об устройстве для. В этом примере выводятся сведения для пользователей в группу FinanceStaff.<br/>
   ```
   $u = Get-MsolGroupMember -SearchString "FinanceStaff" | % { Get-MsolUser -ObjectId $_.ObjectId }
   ```
 
-4. Выполните следующую команду, чтобы запустить сценарий.</br>
+4. Выполните следующую команду, чтобы запустить сценарий.<br/>
   ```
   .\Get-MsolUserDeviceComplianceStatus.ps1 -User $u -Export
   ```

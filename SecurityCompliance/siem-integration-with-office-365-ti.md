@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: eb56b69b-3170-4086-82cf-ba40a530fa1b
 description: Интеграция с анализ угроз Office 365 и расширенный защиту от угроз с API для управления Office 365 активности сервера SIEM вашей организации.
-ms.openlocfilehash: 40c84b9d7b7ec4c9b15383e3ffbbabf839294def
-ms.sourcegitcommit: e7b87fae103a858981bdbcdf7ec55afa4751ad05
+ms.openlocfilehash: 057d8ac101b96f37846ac751645934279d45dc88
+ms.sourcegitcommit: 17c7e18d7d00135b1af40cbea117c9a817a41117
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "23782146"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24972261"
 ---
 # <a name="siem-integration-with-office-365-threat-intelligence-and-advanced-threat-protection"></a>SIEM интеграции с Office 365 Threat аналитики и расширенный защиту от угроз
 
@@ -28,7 +28,7 @@ API для управления Office 365 активности извлекаю
 Сервер SIEM или другие аналогичные системы период опроса **audit.general** нагрузку на события обнаружения доступа. Чтобы узнать больше видеть, [Начало работы с API -интерфейсы управления Office 365](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis). 
 
 > [!IMPORTANT]
-> Необходимо иметь права глобального администратора Office 365 или роль администратора безопасности, назначенные в центр соответствия требованиям и безопасности для настройки SIEM интеграции с Office 365 Threat аналитики и расширенный защиту от угроз.</br>Ведение журнала аудита может быть включена для вашей среды Office 365. Чтобы получить справку, обратитесь к разделу [Включить Office 365 проводить аудит операций поиска журнала включено или отключено](turn-audit-log-search-on-or-off.md).
+> Необходимо иметь права глобального администратора Office 365 или роль администратора безопасности, назначенные в центр соответствия требованиям и безопасности для настройки SIEM интеграции с Office 365 Threat аналитики и расширенный защиту от угроз.<br/>Ведение журнала аудита может быть включена для вашей среды Office 365. Чтобы получить справку, обратитесь к разделу [Включить Office 365 проводить аудит операций поиска журнала включено или отключено](turn-audit-log-search-on-or-off.md).
 
 ## <a name="related-topics"></a>Смежные темы
 
