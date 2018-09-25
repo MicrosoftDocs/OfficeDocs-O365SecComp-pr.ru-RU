@@ -11,12 +11,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Как администратор Office 365 можно отозвать конкретные сообщения, зашифрованные с помощью шифрования сообщений Office 365.
-ms.openlocfilehash: b2fd3e07bec6dfedd783a8a68169fc5f990a80d3
-ms.sourcegitcommit: 2150f49cf4305b75591a238ff649c57684c7632f
+ms.openlocfilehash: 19eb874fa15a21c29a9eb2823829e81ff244a555
+ms.sourcegitcommit: c168410974bc90aaf55f1dcaa9e05c09b2b78d76
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "25004252"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25011825"
 ---
 # <a name="office-365-message-encryption-email-revocation"></a>Office 365 шифрования сообщений электронной почты отзыва
 
@@ -62,7 +62,7 @@ ms.locfileid: "25004252"
 
 Получив идентификатор сообщения электронной почты, которые необходимо отменить можно отозвать сообщение электронной почты с помощью командлета Set-OMEMessageRevocation. 
 
-1. [Подключение к Exchange Online с помощью удаленной оболочки PowerShell](http://technet.microsoft.com/library/jj984289%28v=exchg.150%29.aspx).
+1. [Подключение к Exchange Online с помощью удаленной оболочки PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
     
 2. Используйте командлет Set-OMEMessageRevocation следующим образом:
     

@@ -13,12 +13,12 @@ ms.collection: Strat_O365_IP
 ms.custom: Ent_Solutions
 ms.assetid: ''
 description: Используйте этот раздел для получения дополнительных сведений о полномочиями доступ к управлению в Office 365
-ms.openlocfilehash: 063d291005ec40c21e55188e4ee7c6c8ed6594e8
-ms.sourcegitcommit: d31904e81f81d0fba75309a2bc8bbfb05565a0b4
+ms.openlocfilehash: 07e1f9090418e4261fef188ceb109c1b8083d34c
+ms.sourcegitcommit: c168410974bc90aaf55f1dcaa9e05c09b2b78d76
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2018
-ms.locfileid: "24055264"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25011865"
 ---
 # <a name="privileged-access-management-in-office-365"></a>Правами доступа к управления в Office 365
 
@@ -70,10 +70,14 @@ ms.locfileid: "24055264"
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
 
 ### <a name="what-skus-do-i-need-to-use-privileged-access-in-office-365"></a>Какие номера SKU необходимо использовать привилегированный доступ в Office 365?
-Привилегированный доступ управления в Office 365 в данный момент доступна только для клиентов с E5 и дополнительные номера SKU соответствия требованиям.
+Привилегированный доступ управления в данный момент доступна только для клиентов с Office 365 E5 и дополнительные номера SKU соответствия требованиям.
 
 ### <a name="when-will-privileged-access-be-available-for-office-365-workloads-beyond-exchange"></a>Когда будет доступен для рабочих нагрузок Office 365 за пределы Exchange привилегированный доступ?
 Мы планирование предлагаемых этой функции в других рабочих нагрузок Office 365 в ближайшее время. Когда мы готовы для совместного использования временной шкалы, оно будет доступно через план Office 365.
+
+### <a name="my-organization-needs-more-than-30-privileged-access-polices-will-this-limit-be-increased"></a>Мои потребностей организации с более чем 30 привилегированный доступ политик, это ограничение увеличивается?
+
+Планируется увеличить текущее ограничение 30 политик привилегированной доступа в организации Office 365 в ближайшее время.
 
 ### <a name="do-i-need-to-be-a-global-admin-to-manage-privileged-access-in-office-365"></a>Нужно ли быть глобального администратора для управления правами доступа в Office 365?
 Необходимо иметь привилегии глобального администратора должны иметь возможность управления правами доступа в Office 365. Пользователей, которые включены в группе утверждающих не нужно быть глобального администратора, чтобы проверять и утверждать запросы. 

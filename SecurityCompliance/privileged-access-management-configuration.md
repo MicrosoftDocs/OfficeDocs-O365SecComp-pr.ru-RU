@@ -13,12 +13,12 @@ ms.collection: Strat_O365_IP
 ms.custom: Ent_Solutions
 ms.assetid: ''
 description: Используйте этот раздел для получения дополнительных сведений о настройке управление правами доступа в Office 365
-ms.openlocfilehash: 6494505554a02f005df8f45839c9575094acbf1a
-ms.sourcegitcommit: d31904e81f81d0fba75309a2bc8bbfb05565a0b4
+ms.openlocfilehash: 47cae93a41b0fd60645021f6f299645777a9a2e1
+ms.sourcegitcommit: c168410974bc90aaf55f1dcaa9e05c09b2b78d76
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2018
-ms.locfileid: "24055254"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25011845"
 ---
 # <a name="configuring-privileged-access-management-in-office-365"></a>Настройка управления правами доступа в Office 365
 
@@ -102,6 +102,8 @@ Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com'
 
 ## <a name="step-3---create-an-access-policy"></a>Шаг 3 - Создание политики доступа
 
+Можно создавать и настраивать политики до 30 привилегированный доступ для организации Office 365.
+
 ### <a name="using-the-microsoft-365-admin-center"></a>С помощью центра администрирования Microsoft 365
 
 1. Войдите в [Центр администрирования Microsoft 365](https://portal.office.com) , используя учетные данные для учетной записи администратора в вашей организации.
@@ -144,6 +146,8 @@ New-ElevatedAccessApprovalPolicy -Task 'Exchange\New-MoveRequest' -ApprovalType 
 
 ### <a name="requesting-elevation-authorization-to-execute-privileged-tasks"></a>Разрешения на запрос несанкционированное получение прав авторизации для выполнения привилегированных задач
 
+Запросов на привилегированный доступ действительны в течение более 24 часа после отправки запроса. Если не утверждено, отклоненных запросов срок действия которых истекает и доступа не утверждено.
+
 #### <a name="using-the-microsoft-365-admin-center"></a>С помощью центра администрирования Microsoft 365
 
 1. Войдите в [Центр администрирования Microsoft 365](https://portal.office.com) , используя учетные данные.
@@ -160,7 +164,7 @@ New-ElevatedAccessApprovalPolicy -Task 'Exchange\New-MoveRequest' -ApprovalType 
 
     **Запрос**: выберите из доступных политик
 
-    **Длительность (в часах)**: количество часов, запрашиваемый доступа
+    **Длительность (в часах)**: количество часов, запрашиваемый доступа. Нет ограничений на количество часов, которые можно запросить.
 
     **Комментарии**: текстовое поле для примечаний, связанные с запрос на доступ
 
@@ -235,6 +239,31 @@ Deny-ElevatedAccessRequest -RequestId <request id> -Comment '<denial comment>'
 Пример.
 ```
 Deny-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comment '<denial comment>'
+```
+
+## <a name="delete-a-privileged-access-policy-in-office-365"></a>Удаление политики правами доступа в Office 365
+Можно удалить политики правами доступа, если он больше не нужен в вашей организации.
+
+### <a name="using-the-microsoft-365-admin-center"></a>С помощью центра администрирования Microsoft 365
+
+1. Войдите в [Центр администрирования Microsoft 365](https://portal.office.com) , используя учетные данные для учетной записи администратора в вашей организации.
+
+2. В центре администрирования, перейдите в раздел **Параметры** > **безопасности и конфиденциальности** > **правами доступа**.
+
+3. Выберите **Управление политиками доступа и запросов**.
+
+4. Выберите **Настройка политик**.
+
+5. Выберите политику, которую требуется удалить, а затем выберите **Удалить политику**.
+
+6. Выберите команду **Закрыть**.
+
+### <a name="using-exchange-management-powershell"></a>С помощью PowerShell управления Exchange
+
+Выполните следующую команду в Exchange Online Powershell, чтобы удалить политику правами доступа:
+
+```
+Remove-ElevatedAccessApprovalPolicy -Identity <identity GUID of the policy you want to delete>
 ```
 
 ## <a name="disable-privileged-access-in-office-365"></a>Отключение правами доступа в Office 365
