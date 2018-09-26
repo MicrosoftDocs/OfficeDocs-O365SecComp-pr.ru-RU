@@ -86,6 +86,7 @@
 ### [Настройка новых возможностей шифрования сообщений Office 365](set-up-new-message-encryption-capabilities.md)
 ### [Как Exchange Online защищает секреты вашей электронной почты](exchange-online-secures-email-secrets.md)
 ### [Шифрование сообщений Office 365 (OME)](ome.md)
+### [Отзыв электронных писем, зашифрованных с помощью шифрования сообщений Office 365](revoke-ome-encrypted-mail.md)
 ### [Вопросы и ответы о службе шифрования с помощью ключа клиента для Office 365](service-encryption-with-customer-key-faq.md)
 ### [Настройка шифрования в Office 365 корпоративный](set-up-encryption.md)
 ### [Добавление фирменной символики организации в зашифрованные сообщения](add-your-organization-brand-to-encrypted-messages.md)
