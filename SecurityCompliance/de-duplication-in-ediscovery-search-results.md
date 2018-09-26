@@ -9,17 +9,15 @@ ms.topic: overview
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Strat_O365_IP
-search.appverid:
-- MOE150
-- MET150
+search.appverid: MOE150
 ms.assetid: 5af334b6-a15d-4f73-97f8-1423457d9f6b
 description: У вас есть возможность отзыва дублирующиеся результаты поиска обнаружения электронных данных, которые экспортируются таким образом, несмотря на то, что несколько экземпляров одного сообщения могут обнаружены в разные почтовые ящики экспортируется только одну копию сообщения электронной почты.
-ms.openlocfilehash: 02a4f9f6db0fb8831d5e5cc13adaffbd0c4dcecc
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 5e54f0e5841fdbd29d1ab8b6b9509ff06e827920
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22535389"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038012"
 ---
 # <a name="de-duplication-in-ediscovery-search-results"></a>Дедупликация в результатах обнаружения электронных данных
 

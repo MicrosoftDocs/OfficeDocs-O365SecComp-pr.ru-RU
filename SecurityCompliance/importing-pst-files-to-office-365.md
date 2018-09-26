@@ -11,15 +11,15 @@ f1_keywords:
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Strat_O365_IP
-search.appverid: MOE150
+search.appverid: MET150
 ms.assetid: ba688e0a-0fcb-4bd7-8e57-2b669564ea84
 description: 'Для администраторов: узнать, как использовать службы импорта безопасности Office 365 &amp; центре соответствия требованиям к массовый импорт данных электронной почты (PST-файлы) для пользовательских почтовых ящиков в Exchange Online. В этом разделе приведены вопросы и ответы и объясняется, как работает процесс импорта PST-файлов.'
-ms.openlocfilehash: 1cbe5627ffb906b6a87541f4c4582a2806562ca4
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 2bd58b879d9d4d1ff9d3d2c6c8680a0171d42689
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22535145"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038022"
 ---
 # <a name="overview-of-importing-your-organization-pst-files-to-office-365"></a>Общие сведения о Импорт файлов организации PST-файлов в Office 365
 
@@ -121,7 +121,7 @@ ms.locfileid: "22535145"
   
 - Необходимо назначить роль получателей почты в Exchange Online. По умолчанию эта роль назначается группы ролей управления организацией и управления получателя.
     
-    Второй вариант:
+    Или
     
 - Необходимо быть глобальным администратором в организации Office 365.
     
@@ -190,7 +190,7 @@ ms.locfileid: "22535145"
   
 - Необходимо назначить роль получателей почты в Exchange Online. По умолчанию эта роль назначается группы ролей управления организацией и управления получателя.
     
-    Второй вариант:
+    Или
     
 - Необходимо быть глобальным администратором в организации Office 365.
     

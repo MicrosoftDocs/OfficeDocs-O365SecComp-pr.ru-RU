@@ -8,17 +8,15 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-search.appverid:
-- MOE150
-- MET150
+search.appverid: MOE150
 ms.assetid: bdee24ed-b8cf-4dd0-92ae-b86ec4661e6b
 description: После внесения в неактивного почтового ящика Office 365 можно изменить продолжительность удержания или политики хранения Office 365, назначенный неактивного почтового ящика. Продолжительность удержания определяет продолжительность элементы в папке удерживаются элементов для восстановления.
-ms.openlocfilehash: 22bd9f9294b625a38d243f6235097d1aee437121
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: e3d1d6c7ec0311813dfa1144cc960d2fed9e160d
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534883"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038062"
 ---
 # <a name="change-the-hold-duration-for-an-inactive-mailbox-in-office-365"></a>Изменить продолжительность удержания для неактивного почтового ящика в Office 365
 
@@ -35,7 +33,7 @@ ms.locfileid: "22534883"
     
   - [Подключение к PowerShell Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=396554)
     
-  - [Подключение к Office 365: безопасность &amp; PowerShell центре соответствия требованиям](https://go.microsoft.com/fwlink/?linkid=799771)
+  - [Подключение к PowerShell Центра безопасности и соответствия требованиям Office 365](https://go.microsoft.com/fwlink/?linkid=799771)
     
 - Обратите внимание, что удержания, связанные с делами обнаружения электронных данных, являются бесконечными, то есть их срок изменить нельзя. Элементы хранятся бессрочно или до отмены удержания и удаления неактивного почтового ящика.
     

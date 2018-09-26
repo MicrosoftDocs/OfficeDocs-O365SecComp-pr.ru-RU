@@ -8,17 +8,15 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-search.appverid:
-- MOE150
-- MET150
+search.appverid: MOE150
 ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
 description: Частично индексированных элементов (также вызов неиндексированные элементов) являются элементы почтовых ящиков Exchange и документами в SharePoint и OneDrive сайтов, для какой-либо причине не были полностью индексироваться для поиска контента. В этой статье можно Узнайте, почему элементы не могут быть индексированы для поиска и возвращаются в виде частично индексированных элементов, обнаружения ошибок поиска для частично индексированных элементов и использовать сценарий PowerShell для определения наличия вашей организации в частично индексированных электронной почты элементы.
-ms.openlocfilehash: 4e8e8c31e6c5450a9b84a1240c2ae8d891c1bd6f
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 98f794e80ea8a6016887ff139bc5b546c438f093
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22535394"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038082"
 ---
 # <a name="investigating-partially-indexed-items-in-office-365-ediscovery"></a>Исследование частично индексированных элементов в функции обнаружения электронных данных в Office 365
 
@@ -185,4 +183,4 @@ ms.locfileid: "22535394"
   
 ## <a name="see-also"></a>См. также
 
-[Частично индексированные элементы в Поиске содержимого в Office 365](partially-indexed-items-in-content-search.md)
+[Частично индексированные элементы в средстве "Поиск контента" в Office 365](partially-indexed-items-in-content-search.md)

@@ -9,17 +9,15 @@ ms.topic: overview
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Strat_O365_IP
-search.appverid:
-- MOE150
-- MET150
+search.appverid: MOE150
 ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 description: Администраторы могут импортировать данные сторонних производителей из платформ социальные сети, платформ мгновенного обмена сообщениями и совместной работы платформ документов к почтовым ящикам в организации Office 365. Это позволяет архивировать данные из Facebook, Twitter и источники данных в Office 365. После этого можно appply функции контроля соответствия требованиям Office 365 (например, удержания по юридическим причинам, поиск контента и политик хранения) к данным сторонних производителей.
-ms.openlocfilehash: 7af88338333e90bd208d693fbfd5bb691d44b538
-ms.sourcegitcommit: 4c6c937ec51e8b754332e4c1c8d286e73e197e2c
+ms.openlocfilehash: 5e8fe94e0c3e8b39aec479f4755a263438513d35
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/04/2018
-ms.locfileid: "23827093"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038112"
 ---
 # <a name="archiving-third-party-data-in-office-365"></a>Архивация сторонних данных в Office 365
 

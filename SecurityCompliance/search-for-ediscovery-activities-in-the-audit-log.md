@@ -8,17 +8,15 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-search.appverid:
-- MOE150
-- MET150
+search.appverid: MOE150
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
 description: Узнайте, как поиск в журнале аудита Office 365 для событий, которые регистрируются, когда администраторы соответствия выполнять поиск контента и обнаружения электронных данных вариантов в безопасности &amp; центре соответствия требованиям.
-ms.openlocfilehash: 24bd629f5576fe042e59d5cbbdecf01b3fd59cf0
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: a4cc3a6b5030a6412d739236e4c534f36948d57f
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534951"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038352"
 ---
 # <a name="search-for-ediscovery-activities-in-the-office-365-audit-log"></a>Поиск мероприятий обнаружения электронных данных в журнале аудита Office 365
 
@@ -43,7 +41,7 @@ ms.locfileid: "22534951"
 
 В настоящее время необходимо выполнить некоторые действия определенного для просмотра действий обнаружения электронных данных в журнале аудита Office 365. Вот как.
   
-1. Последовательно выберите пункты [https://protection.office.com](https://protection.office.com).
+1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
     
 2. Войдите в Office 365 с помощью учетной записи рабочего или школы.
     

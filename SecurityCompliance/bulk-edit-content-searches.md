@@ -8,17 +8,15 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-search.appverid:
-- MOE150
-- MET150
+search.appverid: MOE150
 ms.assetid: 39e4654a-9588-41f6-892b-c33ab57bfbe2
 description: В редакторе массового поиска в Office 365 безопасность &amp; центре соответствия требованиям для изменения расположения контента и запросов для поиска содержимого.
-ms.openlocfilehash: 45c9a3fc4bcc5e5d8ce9945d3094bfb4a39d6dcf
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 9d6d48ff42bb3c99a30b9da1020253a5af24679b
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534732"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038182"
 ---
 # <a name="bulk-edit-content-searches-in-the-office-365-security-amp-compliance-center"></a>Массовое изменение контента поиска по безопасности Office 365 &amp; центре соответствия требованиям
 
@@ -46,7 +44,7 @@ ms.locfileid: "22534732"
     
    - Введите новый запрос в ячейке. Обратите внимание на то, что нельзя изменить часть запроса. Необходимо вводить весь запрос.
     
-      Второй вариант:
+      Или
     
     - Вставка нового запроса в ячейке. Предполагается, что копирования текст запроса из файла, например текстового файла или файла Excel.
     

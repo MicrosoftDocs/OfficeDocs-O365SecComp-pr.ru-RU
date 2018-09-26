@@ -8,17 +8,15 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-search.appverid:
-- MOE150
-- MET150
+search.appverid: MOE150
 ms.assetid: 04e9de2d-765b-457b-a98a-d0f60bfb13f2
 description: Вы можете изменить размер по умолчанию PST-файлов, dowloaded к компьютеру при экспортировать результаты поиска обнаружения электронных данных.
-ms.openlocfilehash: d38189c437154dbe27a084230d4d3fd4de418ece
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 1479db72117729d2e5cfa6feec1d9a0d9a60ffb5
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534313"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25037992"
 ---
 # <a name="change-the-size-of-pst-files-when-exporting-ediscovery-search-results"></a>Изменение размера PST-файлов при экспорте результаты поиска обнаружения электронных данных
 
@@ -46,7 +44,7 @@ ms.locfileid: "22534313"
     |**Размер в ГБ (приблизительно до)**|**Размер в байтах**|
     |:-----|:-----|
     |.7 ГБ (700 МБ)  <br/> |751619277  <br/> |
-    |2 ГБ  <br/> |2147483648  <br/> |
+    |2 ГБ  <br/> |2147483648  <br/> |
     |4 ГБ  <br/> |4294967296  <br/> |
     |8 ГБ  <br/> |8589934592  <br/> |
    

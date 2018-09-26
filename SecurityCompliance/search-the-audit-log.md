@@ -8,24 +8,22 @@ ms.audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
 localization_priority: Normal
-search.appverid:
-- MOE150
-- MET150
+search.appverid: MOE150
 ms.assetid: 57ca5138-0ae0-4d34-bd40-240441ef2fb6
 description: 'Журнал аудита Office 365 — это журнала объединенных аудита. Почему журнал объединенных аудита? Так как события из большинство служб Office 365, с которым вы организации подписывается на данные записываются в журнал аудита единого, можно выполнить поиск. Это означает, что можно выполнить поиск пользователей и действия администратора в следующих служб:'
-ms.openlocfilehash: 7a6a552b1d2569c9e21fe20b39d474dafc026172
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 230502f331babeef8f89eacce0d19a7756cb96fc
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534700"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038032"
 ---
 # <a name="search-the-audit-log-for-user-and-admin-activity-in-office-365"></a>Поиск в журнале аудита для действия пользователя и администратора в Office 365
 
 Журнал аудита Office 365 — это журнала объединенных аудита. Почему журнал объединенных аудита? Так как события из большинство служб Office 365, с которым вы организации подписывается на данные записываются в журнал аудита единого, можно выполнить поиск. Это означает, что можно выполнить поиск пользователей и действия администратора в следующих служб: 
   
-- SharePoint
-- OneDrive
+- SharePoint;
+- OneDrive;
 - Exchange
 - Azure Active Directory
 - Microsoft Teams

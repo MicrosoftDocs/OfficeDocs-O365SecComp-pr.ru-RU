@@ -11,15 +11,14 @@ localization_priority: Normal
 search.appverid:
 - SPO160
 - MOE150
-- MET150
 ms.assetid: 143b3ab8-8cb0-4036-a5fc-6536d837bfce
 description: Office 365 предлагает ряд средств различных обнаружения электронных данных, которые можно использовать для поиска и хранения содержимого в разных расположениях, таких как почтовые ящики Exchange, SharePoint и OneDrive для бизнеса сайтов, групп Office 365 и Скайп для бизнеса бесед.
-ms.openlocfilehash: 0e458e5b2ba83861e7b715ec66a30695045b2e57
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: f137454291bcdcdae6f0c61e2639b223a3e310a8
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22535248"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038242"
 ---
 # <a name="ediscovery-in-office-365"></a>Обнаружение электронных данных в Office 365
 
@@ -77,7 +76,7 @@ Office 365 предоставляет следующие средства обн
    
 [Return to top](ediscovery.md#top)
   
-## <a name="office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery
+## <a name="office-365-advanced-ediscovery"></a>Расширенное обнаружение электронных данных для Office 365
 <a name="advancedediscovery"> </a>
 
 В следующей таблице приведены ссылки на разделы, которые помогут узнать о и использовать средство расширенной обнаружения электронных данных в Office 365.

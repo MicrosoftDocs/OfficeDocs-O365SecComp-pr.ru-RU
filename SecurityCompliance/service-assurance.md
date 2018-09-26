@@ -9,17 +9,16 @@ ms.topic: overview
 ms.service: o365-administration
 localization_priority: Normal
 search.appverid:
-- MET150
 - MOE150
 - BCS160
 ms.assetid: 47e8b964-4b09-44f7-a2d7-b8a06e8e389c
 description: Загрузите аудит сторонних производителей, узнайте, как Microsoft customer данные хранятся надежных и знать, как обеспечить соответствие ISO, HIPAA, FINRA и FedRAMP при использовании Office 365.
-ms.openlocfilehash: eeb1ac1c22bfdd0063c5e1dda3515e52c1bc8d80
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 77fdc042639fb30d2c222148f3eea9f0e6470856
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534759"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038152"
 ---
 # <a name="service-assurance-in-the-office-365-security-amp-compliance-center"></a>Службы Software assurance безопасности Office 365 &amp; центре соответствия требованиям
 
@@ -54,7 +53,7 @@ ms.locfileid: "22534759"
   
 Службы Software assurance доступна с помощью безопасности &amp; центре соответствия требованиям. Вот как получить для него.
   
-1. Последовательно выберите пункты [https://protection.office.com](https://protection.office.com).
+1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
     
 2. Войдите в Office 365 с помощью учетной записи рабочего или школы. 
     

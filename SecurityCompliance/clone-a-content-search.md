@@ -11,15 +11,14 @@ localization_priority: Normal
 search.appverid:
 - MOE150
 - MED150
-- MET150
 ms.assetid: 7b40eeaa-544c-4534-b89b-9f79998e374c
 description: Быстро клонирование существующего контента поиска в системы с помощью сценария Windows PowerShell в данной статье &amp; Compliane центр поиска. При клонировании поиска, создается новый поиск (с новым именем), содержащий те же свойства, как исходного поиска. Затем можно изменить нового поиска (с помощью изменения запроса ключевого слова или диапазон дат) и запустите его.
-ms.openlocfilehash: a4f801e3de281e8caf8aeb7d1c2bd48f0facb77c
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: fd2ea0d8fa812d23e7479b664b13c786a62d5a38
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534719"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038052"
 ---
 # <a name="clone-a-content-search-in-the-office-365-security-amp-compliance-center"></a>Клонирование поиска контента безопасности Office 365 &amp; центре соответствия требованиям
 

@@ -8,16 +8,14 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-search.appverid:
-- MET150
 ms.assetid: 55f31488-288a-473a-9b9e-831a11e3711a
 description: 'Использование скрипта PowerShell для создания поискового запроса на локальное обнаружение электронных данных в Exchange Online на основании поиска, созданные в Office 365 безопасность &amp; центре соответствия требованиям. '
-ms.openlocfilehash: d2f4f845e8c819eed67c3a234bff208a11fb571c
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 42af94ce850736dede52e619c240bb9e0a6f7031
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534909"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038072"
 ---
 # <a name="use-content-search-in-your-ediscovery-workflow"></a>Поиск содержимого при обнаружении электронных данных
 

@@ -8,17 +8,15 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-search.appverid:
-- MOE150
-- MET150
+search.appverid: MOE150
 ms.assetid: 88898874-e262-4c5c-b6d2-4e697497fc74
 description: Проверка запроса ключевого слова для поиска контента для ошибки и опечатки, такие как неподдерживаемые символы и строчные логические операторы, прежде чем выполнять поиск. Если мы найти ошибку, будет рекомендуется измененный запрос.
-ms.openlocfilehash: 0d2119ceef4ce3777d3967a56357551e235e426c
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 6ae14edc29bb7f8bab5dd2306282a69443872633
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534837"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038292"
 ---
 # <a name="check-your-content-search-query-for-errors"></a>Проверка запроса на поиск контента на наличие ошибок
 

@@ -10,17 +10,14 @@ f1_keywords:
 - ms.o365.cc.AuditingHelp
 ms.service: o365-administration
 localization_priority: Normal
-search.appverid:
-- SPO160
-- MOE150
 ms.assetid: 7acd33ce-1ec8-49fb-b625-43bac7b58c5a
 description: 'Использование безопасности Office 365 &amp; центре соответствия требованиям для получения различных отчетов для вашей организации SharePoint Online и Exchange Online, а также Azure Active Directory отчетов.  '
-ms.openlocfilehash: 0b633583e14a18c7cf579d10462cf41714397812
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 019ccc49352db1aaf392287f62fa63f66913e293
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534327"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038342"
 ---
 # <a name="reports-in-the-office-365-security-amp-compliance-center"></a>Отчеты о безопасности Office 365 &amp; центре соответствия требованиям
 
@@ -41,7 +38,7 @@ ms.locfileid: "22534327"
   
  **Чтобы открыть страницу представления отчетов в системы &amp; центре соответствия требованиям:**
   
-1. Последовательно выберите пункты [https://protection.office.com/#/viewreports](https://protection.office.com/#/viewreports).
+1. Перейдите по ссылке [https://protection.office.com/#/viewreports](https://protection.office.com/#/viewreports).
     
 2. Войдите в Office 365 с помощью учетных данных для учетной записи пользователя в организации Office 365.
     

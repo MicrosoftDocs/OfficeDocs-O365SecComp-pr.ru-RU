@@ -10,17 +10,14 @@ f1_keywords:
 - ms.o365.cc.ComplianceSearch
 ms.service: o365-administration
 localization_priority: Normal
-search.appverid:
-- MOE150
-- MET150
 ms.assetid: 61852fd9-fe8a-4880-a339-cb19ed3bff4a
 description: 'Использование поиска контента в Office 365 безопасность &amp; центре соответствия требованиям для поиска почтовых ящиков, сайты SharePoint Online и OneDrive для бизнеса расположений. '
-ms.openlocfilehash: 61c6c3933a75567acb04f793cb6815322fb3fada
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: d480579db1c39d51d4fa8b0931106f135c5339d2
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534690"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038322"
 ---
 # <a name="run-a-content-search-in-the-office-365-security-amp-compliance-center"></a>Выполните поиск содержимого безопасности Office 365 &amp; центре соответствия требованиям
 
@@ -77,7 +74,7 @@ ms.locfileid: "22534690"
 ## <a name="create-a-search"></a>Создать поиск
 <a name="create"> </a>
 
-1. Последовательно выберите пункты [https://protection.office.com](https://protection.office.com).
+1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
     
 2. Войдите в Office 365 с помощью учетной записи рабочего или школы.
     
@@ -360,7 +357,7 @@ ms.locfileid: "22534690"
     
   - Необходимо установите флажок **Показать список ключевых слов** и введите каждое ключевое слово в отдельной строке для создания запроса на поиск места ключевые слова (или ключевое слово фразы) в каждой строке подключения, оператор **OR** . Если вы только что вставьте список ключевых слов в поле ключевых слов или нажмите клавишу **Ввод** после ввода ключевого слова, они не будут подключены оператором **или** . Ниже приведены неправильный и правильный пример добавления список ключевых слов. 
     
-    **Неправильно**
+    **Неправильная**
     
     ![Неправильный способ форматирования списка ключевых слов (путем вставки в список в поле ключевых слов)](media/fb54e3df-232a-439a-b3d7-27a60ec76a4c.png)
   

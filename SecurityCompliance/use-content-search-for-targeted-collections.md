@@ -8,17 +8,15 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-search.appverid:
-- MOE150
-- MET150
+search.appverid: MOE150
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 description: Использование поиска контента в Office 365 безопасность &amp; центре соответствия требованиям для выполнения целевого семейства сайтов. Целевой коллекции означает, что уверенности, реагировать на случай или привилегированной элементов, находятся в определенной папке почтового ящика или сайта. Получение идентификатор папки или путь для определенного почтового ящика или сайта папок, которые требуется выполнить поиск с помощью сценария в этой статье.
-ms.openlocfilehash: 3ff0ca00915bce53e9e932316c5ab47884f346b2
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: bb808e38f24ebf09a975b3082ef1dc61bc6344c4
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534370"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038302"
 ---
 # <a name="use-content-search-in-office-365-for-targeted-collections"></a>Использование поиска контента в Office 365 для целевого семейства сайтов
 
@@ -210,7 +208,7 @@ ms.locfileid: "22534370"
 > [!NOTE]
 > С помощью `path` свойство для поиска OneDrive расположения не возвращают файлы мультимедиа, такие как файлы PNG, TIFF. или .wav, в результатах поиска. 
   
-1. Последовательно выберите пункты [https://protection.office.com](https://protection.office.com).
+1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
     
 2. Войдите в Office 365 с помощью учетной записи и учетные данные, используемые для выполнения скрипта на шаге 1.
     
@@ -222,7 +220,7 @@ ms.locfileid: "22534370"
     
     - Нажмите кнопку **выбрать определенных почтовых ящиков для поиска** , а затем добавьте этого почтового ящика, который указан при выполнении скрипта на шаге 1. 
     
-      Второй вариант:
+      Или
     
     - Нажмите кнопку **выбрать определенных сайтов для поиска** для поиска и затем добавьте же URL-адрес сайта, который указан при выполнении скрипта на шаге 1. 
     
