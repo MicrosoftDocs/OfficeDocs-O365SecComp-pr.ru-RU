@@ -3,7 +3,7 @@ title: Вопросы и ответы по шифрованию сообщени
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 8/28/2018
+ms.date: 09/27/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-administration
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Есть вопросы о новых возможностях защиты сообщения в Office 365? Проверьте поищите ответ.
-ms.openlocfilehash: 8fc3fa2378dfc8dba6ed17c042269f726235bc58
-ms.sourcegitcommit: a8884b9675559018e1fddec1c0cc2de0bc3bdde5
+ms.openlocfilehash: c580ef701f6ee98ea2fc71df792256b1792c73cd
+ms.sourcegitcommit: 411713004251ee62d29b550eabea04c08a87e41f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23839959"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "25341434"
 ---
 # <a name="office-365-message-encryption-faq"></a>Вопросы и ответы по шифрованию сообщений Office 365
 
@@ -121,6 +121,10 @@ OME объединяет шифрования электронной почты 
 
 В настоящее время можно только настроить правила для потока обработки почты в Exchange Online. Шифрование в настоящее время не поддерживается в защиты от потери данных через безопасности &amp; центре соответствия требованиям.
   
+## <a name="can-i-open-encrypted-messages-sent-to-a-shared-mailbox"></a>Можно открыть зашифрованных сообщений, отправленных в общий почтовый ящик
+
+В настоящее время зашифрованные сообщения не поддерживается для общий почтовый ящик.
+
 ## <a name="can-i-customize-encrypted-messages-with-my-company-branding"></a>Можно настроить зашифрованные сообщения с фирменной символики организации
 
 Да! Сведения о настройке сообщения электронной почты и портала OME можно добавить марки вашей организации в зашифрованные сообщения. Просмотреть [Добавьте марки вашей организации в зашифрованные сообщения.](add-your-organization-brand-to-encrypted-messages.md)

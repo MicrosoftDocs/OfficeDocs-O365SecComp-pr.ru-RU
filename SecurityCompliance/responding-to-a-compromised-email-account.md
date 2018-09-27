@@ -15,12 +15,12 @@ search.appverid:
 ms.custom: ''
 ms.assetid: ''
 description: Узнайте, как для распознавания и реагировать на запись атаке электронной почты в Office 365
-ms.openlocfilehash: bf3350da88804639356100fb5be2403c76cbcec6
-ms.sourcegitcommit: 17dda7ece5c9e884944a92ac0f842cf1e62ec506
+ms.openlocfilehash: b10bf58aaebc46938e3962494ff30dfb1e226130
+ms.sourcegitcommit: 411713004251ee62d29b550eabea04c08a87e41f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2018
-ms.locfileid: "23977594"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "25341424"
 ---
 # <a name="responding-to-a-compromised-email-account-in-office-365"></a>Реагирование на компрометацию учетной записи электронной почты в Office 365
 
@@ -72,7 +72,7 @@ ms.locfileid: "23977594"
 - Если удостоверения в локальной федеративных с Office 365, необходимо изменить пароль на локальную и сообщите администратору раскрытие.
 
 > [!TIP]
-> Настоятельно рекомендуется включить многофакторной многофакторной проверки подлинности проверкой (Подлинности) во избежание раскрытия, особенно для учетных записей с наличие прав администратора.  Дополнительные сведения можно [здесь](https://support.office.com/en-us/article/Set-up-multi-factor-authentication-for-Office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6).
+> Настоятельно рекомендуется включить многофакторной многофакторной проверки подлинности проверкой (Подлинности) во избежание раскрытия, особенно для учетных записей с правами администратора.  Дополнительные сведения можно [здесь](https://support.office.com/en-us/article/Set-up-multi-factor-authentication-for-Office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6).
 
 ### <a name="step-2-remove-suspicious-email-forwarding-addresses"></a>Шаг 2 адреса переадресации Remove подозрительные электронной почты
 1. Открыть **Центр администрирования Office 365 > Активные пользователи**.
