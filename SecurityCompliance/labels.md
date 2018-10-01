@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: Метки в Office 365 помогут вам выполнять с контентом действия, соответствующие его характеру. Используя метки, вы можете классифицировать данные в организации для системы управления и применять правила хранения на основе этой классификации. Вы также можете использовать метки для управления записями в Office 365.
-ms.openlocfilehash: 6c47f48a773b3b3078a5d4c83b01b5300ce82eda
-ms.sourcegitcommit: ede6230c2df398dc0a633e8f32ee0bfede0d5142
+ms.openlocfilehash: 3a99a3e563913a11da2d9f4a2eb745cb8fa80dd2
+ms.sourcegitcommit: e0f016aca7befc8806233a492ee916cbe646094f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25002682"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "25342817"
 ---
 # <a name="overview-of-labels"></a>Обзор меток
 
@@ -267,22 +267,28 @@ ms.locfileid: "25002682"
     
 ![Параметры определения типов конфиденциальной информации](media/de255881-f596-4c8d-8359-e974e3a0819a.png)
   
-### <a name="auto-apply-labels-to-content-with-specific-keywords-or-searchable-properties"></a>Автоматическое применение меток к контенту с определенными ключевыми словами или доступными для поиска свойствами
+### <a name="auto-apply-labels-to-content-with-keywords-or-searchable-properties"></a>Автоматическое применение меток к контенту с ключевыми словами или доступными для поиска свойствами
 
-Вы можете автоматически применять метки к контенту, соответствующему определенным условиям. Имеющиеся в данный момент условия поддерживают применение метки к контенту, содержащему определенные слова, фразы или доступные для поиска свойства. Вы можете уточнить запрос с помощью таких операторов поиска, как AND, OR и NOT. Дополнительные сведения об операторах и синтаксисе запросов см. в статьях:
+Вы можете автоматически применять метки к контенту, соответствующему определенным условиям. Имеющиеся в данный момент условия поддерживают применение метки к контенту, содержащему определенные слова, фразы или значения доступных для поиска свойств. Вы можете уточнить запрос с помощью таких операторов поиска, как AND, OR и NOT. 
+
+Дополнительные сведения о синтаксисе запросов см. в статье:
+
+- [Руководство по синтаксису языка запросов по ключевым словам (KQL)](https://docs.microsoft.com/ru-RU/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
+
+Метки на основе запросов используют индекс поиска для определения контента. Дополнительные сведения о допустимых свойствах, доступных для поиска, см. в статьях:
 
 - [Запросы ключевых слов и условия поиска контента](keyword-queries-and-search-conditions.md)
-- [Руководство по синтаксису языка запросов по ключевым словам (KQL)](https://docs.microsoft.com/ru-RU/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
+- [Обзор свойств для обхода и управляемых свойств в SharePoint Server](https://docs.microsoft.com/ru-RU/SharePoint/technical-reference/crawled-and-managed-properties-overview)
   
 Примеры запросов:
 
 - Exchange
     - subject:"Квартальное финансирование"
+    - recipients:garthf<!--nolink-->@contoso.com
+
 - SharePoint и OneDrive для бизнеса
     - contenttype:контракт
-    - site:`https://contoso.sharepoint.com/sites/teams/procurement` AND contenttype:контракт
-  
-Обратите внимание, что метки на основе запросов используют индекс поиска для определения контента.
+    - site:https<!--nolink-->://contoso.sharepoint.com/sites/teams/procurement AND contenttype:контракт
   
 ![Редактор запросов](media/ac5b8e5e-7453-4ec7-905c-160df57298d3.png)
   
