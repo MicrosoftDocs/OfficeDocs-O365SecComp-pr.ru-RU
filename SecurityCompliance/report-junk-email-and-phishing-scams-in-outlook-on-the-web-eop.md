@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 description: Microsoft Outlook на веб-пользователей можно сообщить о нежелательной и фишинг-атак с помощью встроенных отчетов параметры электронной почты. Можно предоставить Microsoft знать, если сообщение электронной почты неправильно был распознан как нежелательная почта (нежелательной почты).
-ms.openlocfilehash: 4dab3013f2ca9918dc8529cb67113469ea945015
-ms.sourcegitcommit: 17c7e18d7d00135b1af40cbea117c9a817a41117
+ms.openlocfilehash: d495f5648d4e4ac7ee7335d58a4268bdfecb6109
+ms.sourcegitcommit: 4a7d7717f0da05cf5a3c506df2989a9d02f33dfa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24972301"
+ms.lasthandoff: 10/08/2018
+ms.locfileid: "25450074"
 ---
 # <a name="report-junk-email-and-phishing-scams-in-outlook-on-the-web"></a>Сообщить о нежелательной почты и фишинга мошенничество в Outlook в Интернете 
 
@@ -59,6 +59,8 @@ ms.locfileid: "24972301"
 ## <a name="for-more-information"></a>Дополнительные сведения
 
 [Сведения о нежелательной почте и фишинге](https://go.microsoft.com/fwlink/p/?LinkId=270068)
+
+[Надстройка для создания отчетов о нежелательной почте для Microsoft Outlook](https://docs.microsoft.com/en-us/office365/securitycompliance/junk-email-reporting-add-in-for-microsoft-outlook)
   
   
 
