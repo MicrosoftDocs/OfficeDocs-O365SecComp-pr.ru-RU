@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: 896a7efb-1683-465e-a394-261349e5d866
 description: В этой статье описан процесс настройки списка заблокированных URL-адресов для вашей организации, с помощью защиты расширенного Threat Office 365. Заблокированные URL-адреса будут применяться ко сообщения электронной почты и документов Office в соответствии с политиках безопасных ссылок анализа.
-ms.openlocfilehash: 36d295e6924d2e9972c185657885fa25bd96bf08
-ms.sourcegitcommit: 7032830867eb3fc71760e04b8342aff174c5d757
+ms.openlocfilehash: 0429546e521bf3f6b7144342ab0997e924c2f616
+ms.sourcegitcommit: 099bbfb1d16b251fd5cf18ec6515faaf9a989176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25353255"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454366"
 ---
 # <a name="set-up-a-custom-blocked-urls-list-using-office-365-atp-safe-links"></a>Настроить пользовательский заблокированных список URL-адресов с помощью Office 365 ATP безопасных ссылки
 
@@ -61,7 +61,7 @@ ms.locfileid: "25353255"
    
 5. Завершив добавление URL-адресов, в правом нижнем углу экрана, выберите команду **Сохранить**.
     
-## <a name="what-if-i-want-to-define-exceptions-for-certain-users-in-my-organization"></a>Что делать, если хотите определить исключения для некоторых пользователей в организации?
+## <a name="how-to-define-exceptions-for-certain-users-in-an-organization"></a>Как определить исключения для некоторых пользователей в организации
 
 Если вы хотите определенных групп, чтобы иметь возможность просматривать URL-адресов, которые могут быть заблокированы для других пользователей, можно указать безопасных ссылок анализа политику, применяемую к определенным получателям. В разделе [Настройка настраиваемого «не rewrite» URL-адреса списка с помощью надежных ссылок анализа](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md).
   

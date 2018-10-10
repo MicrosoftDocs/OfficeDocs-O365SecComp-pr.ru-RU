@@ -3,7 +3,6 @@ title: Просмотр сведений о вредоносных файлов,
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 5/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -13,19 +12,18 @@ search.appverid:
 - MOE150
 ms.assetid: 5ed8abf1-c0e9-4e5b-a5b7-2059cea50b61
 description: Узнайте, куда обращаться, чтобы просмотреть сведения о вредоносных файлов, обнаруженных в SharePoint, OneDrive и группам, а также выполнять операции эти файлы.
-ms.openlocfilehash: e9a68c1cee1f2f3fb7fba148365449f0136fe637
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 370e5e3d4d7fd5f35caa8ef993f6245d15ee9999
+ms.sourcegitcommit: 099bbfb1d16b251fd5cf18ec6515faaf9a989176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534830"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454276"
 ---
 # <a name="view-information-about-malicious-files-detected-in-sharepoint-onedrive-or-microsoft-teams"></a>Просмотр сведений о вредоносных файлов, обнаруженных в SharePoint, OneDrive или группами Майкрософт
 
 [Office 365 ATP для SharePoint, OneDrive и группами Майкрософт](atp-for-spo-odb-and-teams.md) защищает вашей организации от вредоносных файлов в библиотеках документов и сайтов групп. При обнаружении вредоносных файлов, этот файл блокируется, чтобы никто можно открыть, скопируйте, перемещение или совместно использовать до дополнительных действий группой безопасности в организации. В этой статье, чтобы узнать, как просматривать сведения об обнаруженных файлов и действия, которые необходимо выполнить. 
-  
-> [!TIP]
-> Для выполнения задач, описанных в этой статье, необходимо иметь необходимые [разрешений, назначенных безопасности Office 365 &amp; центре соответствия требованиям](permissions-in-the-security-and-compliance-center.md). 
+
+Для выполнения задач, описанных в этой статье, необходимо иметь необходимые [разрешений, назначенных безопасности Office 365 &amp; центре соответствия требованиям](permissions-in-the-security-and-compliance-center.md). 
   
 ## <a name="view-reports-with-information-about-detected-files"></a>Просмотр отчетов со сведениями об обнаруженных файлов
 
@@ -40,9 +38,6 @@ ms.locfileid: "22534830"
 4. Выберите элемент в списке, чтобы просмотреть подробные сведения, включая действия, предпринимаемые, имя файла, путь к файлу и другие.
     
 5. Перейдите на вкладку **Дополнительно анализа** для просмотра информации, например наблюдаемой поведение и анализа сведений. 
-    
-> [!TIP]
-> [Просмотр отчетов для защиты от угроз для Office 365 расширенного](view-reports-for-atp.md)Дополнительные сведения о доступных отчетов, см. 
   
 ## <a name="view-and-take-action-on-files-in-quarantine"></a>Просмотр и выполнение действий на файлы на карантине
 
@@ -63,16 +58,15 @@ ms.locfileid: "22534830"
   - Выберите команду **Удалить** для удаления файла из списка элементы, помещенные на карантин. Если выбран этот параметр, необходимо также удалите файл из его соответствующих библиотеки в SharePoint Online, OneDrive для бизнеса, или группами Майкрософт. Этот параметр не разблокировать файл не открывается или общих. 
     
 5. Нажмите кнопку **Закрыть** , чтобы закрыть сведений для выбранного элемента. 
-    
-> [!TIP]
-> Чтобы Дополнительные сведения об управлении из карантина файлы, обратитесь к разделу [Управление в карантин сообщения и файлы с правами администратора в Office 365](manage-quarantined-messages-and-files.md). 
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Смежные темы
 
 [Office 365 Advanced Threat Protection](office-365-atp.md)
   
 [Просмотр отчетов для защиты расширенного Threat Office 365](view-reports-for-atp.md)
   
 [Разрешения безопасности Office 365 &amp; центре соответствия требованиям](permissions-in-the-security-and-compliance-center.md)
+
+[Управление сообщений на карантине и файлы с правами администратора в Office 365](manage-quarantined-messages-and-files.md)
   
 

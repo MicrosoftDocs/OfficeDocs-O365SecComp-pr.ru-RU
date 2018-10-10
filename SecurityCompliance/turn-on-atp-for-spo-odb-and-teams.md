@@ -3,7 +3,6 @@ title: Включить ATP Office 365 для SharePoint, OneDrive и групп
 ms.author: derng
 author: derng
 manager: laurawi
-ms.date: 5/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -13,19 +12,18 @@ search.appverid:
 - MOE150
 ms.assetid: 07e76024-0c80-40dc-8c48-1dd0d0f863cb
 description: Узнайте, как включить ATP для SharePoint, OneDrive и групп, включая способ настройки оповещения об обнаруженных файлах.
-ms.openlocfilehash: bb99aee0887f15f065a47d691c59ce47639bdc32
-ms.sourcegitcommit: 17c7e18d7d00135b1af40cbea117c9a817a41117
+ms.openlocfilehash: eb3687f6afd2e7f9a3698944019bcdb8dcbff5ae
+ms.sourcegitcommit: 099bbfb1d16b251fd5cf18ec6515faaf9a989176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24972241"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454296"
 ---
 # <a name="turn-on-office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Включить ATP Office 365 для SharePoint, OneDrive и группами Майкрософт
 
 [Office 365 ATP для SharePoint, OneDrive и группами Майкрософт](atp-for-spo-odb-and-teams.md) защищает вашей организации от случайно совместное использование вредоносных файлов. При обнаружении вредоносных файлов, этот файл блокируется, чтобы никто можно открыть, скопируйте, перемещение или совместно использовать до дополнительных действий группой безопасности в организации. Ознакомьтесь с этой статьей, чтобы включить ATP для SharePoint, OneDrive и рабочих групп, настроить оповещения для уведомления об обнаруженных файлов и выполните следующие действия. 
   
-> [!TIP]
-> Для выполнения задач, описанных в этой статье, необходимо иметь все необходимые разрешения, назначенные в Office 365 и в системы &amp; центре соответствия требованиям.
+Для выполнения задач, описанных в этой статье, необходимо иметь все необходимые разрешения, назначенные в Office 365 и в системы &amp; центре соответствия требованиям.
   
 ## <a name="turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Включение ATP для SharePoint, OneDrive и Microsoft Teams
 
@@ -45,14 +43,13 @@ ms.locfileid: "24972241"
     
 5. Просмотрите (и, отредактируйте) [политики безопасные вложения](set-up-atp-safe-attachments-policies.md) и [политики безопасных ссылки](set-up-atp-safe-links-policies.md)вашей организации.
     
-6. (Рекомендуется) Как глобальный администратор или администратор SharePoint Online, выполните командлет **[Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant?view=sharepoint-ps)** с параметром **DisallowInfectedFileDownload** установлено значение *true* . <br/><br/>Установка для параметра в *значение true,* блокирует все действия (за исключением Delete) для обнаруженных файлы. Пользователи не могут открыть, перемещение, копирование или общего доступа к файлам вредоносным.<br/><br/>Установка для параметра значение *false* блокирует все действия, за исключением Delete и загрузки. Люди могут выбрать для принятия риск и загрузите файл вредоносным.<br/><br/>Рекомендуется для параметра *значение true*. 
+6. (Рекомендуется) Как глобальный администратор или администратор SharePoint Online, выполните командлет **[Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant?view=sharepoint-ps)** с параметром **DisallowInfectedFileDownload** установлено значение *true* . <br/>Установка для параметра в *значение true,* блокирует все действия (за исключением Delete) для обнаруженных файлы. Пользователи не могут открыть, перемещение, копирование или общего доступа к файлам вредоносным.<br/>Установка для параметра значение *false* блокирует все действия, за исключением Delete и загрузки. Люди могут выбрать для принятия риск и загрузите файл вредоносным.<br/>Рекомендуется для параметра *значение true*. 
    
 7. Разрешить до 30 минут для применения изменений для распространения для всех центров обработки данных Office 365.
     
 8. (Рекомендуется) Перейдите к настройке оповещения об обнаруженных файлах.
     
-> [!TIP]
-> Чтобы подробнее узнать об использовании PowerShell с помощью Office 365, обратитесь к разделу [Управление Office 365 с помощью PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell). > Для получения дополнительных сведений о удобство работы пользователей, при обнаружении файл как вредоносных, видеть [что делать при обнаружении вредоносных файлов в SharePoint Online, OneDrive или группами Майкрософт](https://support.office.com/article/01e902ad-a903-4e0f-b093-1e1ac0c37ad2). 
+Чтобы подробнее узнать об использовании PowerShell с помощью Office 365, обратитесь к разделу [Управление Office 365 с помощью PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell). > Для получения дополнительных сведений о удобство работы пользователей, при обнаружении файл как вредоносных, видеть [что делать при обнаружении вредоносных файлов в SharePoint Online, OneDrive или группами Майкрософт](https://support.office.com/article/01e902ad-a903-4e0f-b093-1e1ac0c37ad2). 
   
 ## <a name="set-up-alerts-for-detected-files"></a>Настройка оповещений для обнаруженных файлов
 
@@ -76,8 +73,7 @@ ms.locfileid: "24972241"
     
 7. Нажмите кнопку **Сохранить**.
     
-> [!TIP]
-> Чтобы узнать больше о оповещения, обратитесь к разделу [Создание оповещений активности безопасности Office 365 &amp; центре соответствия требованиям](create-activity-alerts.md). 
+Чтобы узнать больше о оповещения, обратитесь к разделу [Создание оповещений активности безопасности Office 365 &amp; центре соответствия требованиям](create-activity-alerts.md). 
   
 ## <a name="next-steps"></a>Дальнейшие действия
 
