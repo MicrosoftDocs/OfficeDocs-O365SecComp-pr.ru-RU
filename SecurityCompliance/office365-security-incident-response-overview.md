@@ -16,12 +16,12 @@ search.appverid:
 ms.custom: ''
 ms.assetid: ''
 description: В этом решении сообщает о том, может выглядеть атаки вы какие наиболее распространенные через Интернет безопасности в Office 365 и реагировать на них
-ms.openlocfilehash: 3b72b9bf8c68df2fcc1233b56ee33eaf45695bfe
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: d2caea8cc7ceecb18cd477b8a1ff12352d83c3df
+ms.sourcegitcommit: 87a3ca55b6e9cf7e9ccf73e64013dc78dd7660f5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22535263"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "25494080"
 ---
 # <a name="office-365-security-incident-response"></a>Реагирование на инциденты, связанные с безопасностью, в Office 365
 
@@ -41,9 +41,14 @@ ms.locfileid: "22535263"
 Обратитесь к этому списку ежемесячно будут добавлены дополнительные статьи по времени.
 
 ## <a name="detect-and-remediate-articles"></a>Обнаружение и устранение статьи
+
 - [Обнаружение случаев незаконного предоставления разрешений и устранение их последствий в Office 365](detect-and-remediate-illicit-consent-grants.md)
 - [Обнаружение атак с внедрением правил и пользовательских форм Outlook и устранение их последствий в Office 365](detect-and-remediate-outlook-rules-forms-attack.md)
  
+## <a name="incident-response-articles"></a>Статьи об инциденте ответа
+
+- [Реагирование на компрометацию учетной записи электронной почты в Office 365](responding-to-a-compromised-email-account.md)
+
 ## <a name="secure-office-365-like-a-cybersecurity-pro"></a>Безопасность Office 365 как cybersecurity pro
 Подписки Office 365, поступающие с набором мощные возможности безопасности, которые можно использовать для защиты данных и вашим пользователям.  Использование [план обеспечения безопасности Office 365: наиболее распространенные приоритеты для первого 30 дней, 90 дней и за ее пределами](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352) для реализации Майкрософт, рекомендации по обеспечению безопасности клиента Office 365.
 - Задачи, для выполнения в течение 30 дней.  Эти интерпретации влияют и низкой воздействия на компьютерах пользователей.
