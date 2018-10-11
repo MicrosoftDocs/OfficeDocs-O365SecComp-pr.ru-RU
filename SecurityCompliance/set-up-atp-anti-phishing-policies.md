@@ -1,23 +1,23 @@
 ---
-title: Настройка политик защиты от фишинга Office 365 ATP
+title: Настройка политик ATP для защиты от фишинга в Office 365
 ms.author: krowley
 author: kccross
 manager: laurawi
 ms.audience: ITPro
 ms.topic: article
-ms.date: 9/5/2018
+ms.date: 10/11/2018
 ms.service: o365-administration
 localization_priority: Normal
 ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
 description: ATP защита от фишинга, часть Office 365 расширенного защиту от угроз, помогут защитить организацию от вредоносного на основе олицетворения фишинга и других фишинг-атак. Если вы глобального корпоративного шаблона Office 365 или администратор безопасности, можно настроить политики фишинга анализа. Фишинга атаки поступают в различных формах из товарных-атак для целевого относятся или whaling. С помощью растущий сложности трудно даже обученные глаз для идентификации некоторые из этих атак. К счастью могут помочь защиты расширенного Threat Office 365. Можно настроить политику фишинга ATP, чтобы обеспечить защиту от таких атак вашей организации.
-ms.openlocfilehash: 9ceef88a2d60a10a8911e7559e10850858015977
-ms.sourcegitcommit: d89c24258123a3ffde574a391d59afd3aea8470d
+ms.openlocfilehash: 37a38863296ab87feaade93b7939029b9306ec30
+ms.sourcegitcommit: 176ce86e2b440c079414fe99d4b0b9e89ccebb40
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "23955451"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25496570"
 ---
-# <a name="set-up-office-365-atp-anti-phishing-policies"></a>Настройка политик защиты от фишинга Office 365 ATP
+# <a name="set-up-office-365-atp-anti-phishing-policies"></a>Настройка политик ATP для защиты от фишинга в Office 365
 
 [Защита от фишинга ATP](atp-anti-phishing.md), частью [Защиту от угроз для Office 365 расширенного](office-365-atp.md)может помочь защитить организацию от вредоносного на основе олицетворения фишинга и других фишинг-атак. Если вы глобального корпоративного шаблона Office 365 или администратор безопасности, можно настроить политики фишинга анализа. 
 
@@ -126,7 +126,7 @@ ms.locfileid: "23955451"
   
 [Защита от фишинга в Office 365](anti-phishing-protection.md)
   
-[Возможности защиты от фишинга ATP в Office 365](atp-anti-phishing.md)
+[Возможности ATP для защиты от фишинга в Office 365](atp-anti-phishing.md)
   
 [Настройка политик ATP безопасных ссылок в Office 365](set-up-atp-safe-links-policies.md)
   
