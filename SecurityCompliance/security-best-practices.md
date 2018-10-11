@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 9295e396-e53d-49b9-ae9b-0b5828cdedc3
 description: Снизить риск нарушение данных или атаке учетной записи, выполнив Далее рекомендациям.
-ms.openlocfilehash: 245302af0b08a4ee8183345fc386fe47985c93dd
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 63bda11afdd1e02e9e12e8c505aca7100c4deade
+ms.sourcegitcommit: a36d2692396786f49c8765c65145e5093578e9a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22535409"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25498095"
 ---
 # <a name="security-best-practices-for-office-365"></a>Рекомендации по обеспечению безопасности в Office 365
 
@@ -70,9 +70,9 @@ ms.locfileid: "22535409"
     
 - При использовании настраиваемого домена для своей организации в Office 365, настройте SPF, ПРОВЕРКУ и DMARC для проверки почта, передаваемая вашей организацией и для предотвращения спуфинг:
     
-  - [Настройка инфраструктуры политики Отправителей в Office 365 для предотвращения спуфинг](https://technet.microsoft.com/en-us/library/dn789058%28v=exchg.150%29.aspx).
+  - [Настройка инфраструктуры политики Отправителей в Office 365 для предотвращения спуфинг](https://docs.microsoft.com/office365/SecurityCompliance/set-up-spf-in-office-365-to-help-prevent-spoofing).
     
-  - [Использовать ПРОВЕРКУ для проверки электронной почты, отправленной из настраиваемого домена в Office 365](https://technet.microsoft.com/en-us/library/dn789058%28v=exchg.150%29.aspx).
+  - [Использовать ПРОВЕРКУ для проверки электронной почты, отправленной из настраиваемого домена в Office 365](https://docs.microsoft.com/office365/SecurityCompliance/set-up-spf-in-office-365-to-help-prevent-spoofing).
     
   - [DMARC используется для проверки электронной почты в Office 365](https://technet.microsoft.com/library/mt734386%28v=exchg.150%29.aspx).
     
