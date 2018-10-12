@@ -16,12 +16,12 @@ search.appverid:
 - BCS160
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
 description: Создание политики архивирования и удаления в Office 365, автоматически перемещает элементы в архивный почтовый ящик пользователя.
-ms.openlocfilehash: 807488f9ec7088adccdf1fc111d67b9dab8e0a38
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 740164ee840a32aff20f5c2dc1b1ae433d95cfe5
+ms.sourcegitcommit: 448c5897e44448adfc82e3eaffb774c770c04815
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534924"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25522300"
 ---
 # <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-office-365-organization"></a>Настроить политику архивации и удаления для почтовых ящиков в организации Office 365
 
@@ -60,7 +60,7 @@ ms.locfileid: "22534924"
 > [!NOTE]
 > Можно включить любое время во время этого процесса архивные почтовые ящики, только при условии, что вы включены в определенный момент, до завершения процесса. Если этот параметр не включен архивного почтового ящика, никакие действия не предпринимаются на все элементы, которые имеют назначен политики архивирования. 
   
-1. Последовательно выберите пункты [https://protection.office.com](https://protection.office.com).
+1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
     
 2. Войдите в Office 365 с помощью учетной записи глобального администратора.
     

@@ -13,19 +13,19 @@ ms.collection: Strat_O365_IP
 ms.custom: Ent_Solutions
 ms.assetid: ''
 description: Используйте этот раздел для получения дополнительных сведений о настройке управление правами доступа в Office 365
-ms.openlocfilehash: 47cae93a41b0fd60645021f6f299645777a9a2e1
-ms.sourcegitcommit: c168410974bc90aaf55f1dcaa9e05c09b2b78d76
+ms.openlocfilehash: 13d278c8e8555aa069035c2f03b23db69a475b43
+ms.sourcegitcommit: 448c5897e44448adfc82e3eaffb774c770c04815
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25011845"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25522261"
 ---
 # <a name="configuring-privileged-access-management-in-office-365"></a>Настройка управления правами доступа в Office 365
 
 > [!IMPORTANT]
 > В этом разделе описывается развертывание и конфигурация рекомендации для функций в настоящее время доступны только в Office 365 E5 и дополнительные номера SKU соответствия требованиям.
 
-В этом разделе приведены рекомендации по Включение и настройка управления правами доступа в организации Office 365. Можно использовать либо Центр администрирования Microsoft 365 или управления Exchange PowerShell для управления и использовать привилегированный доступ. 
+В этом разделе приведены рекомендации по Включение и настройка управления правами доступа в организации Office 365. Центр администрирования Microsoft 365 или Exchange PowerShell управления можно использовать для управления и использовать привилегированный доступ. 
 
 ## <a name="enable-and-configure-privileged-access-management"></a>Включение и настройка управления правами доступа
 
