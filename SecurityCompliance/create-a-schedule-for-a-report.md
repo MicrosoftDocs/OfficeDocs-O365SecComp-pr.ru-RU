@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: a74f637b-3710-4c41-b70f-b5a812929a81
 description: Узнайте, как задать расписание для отчета в системы &amp; центре соответствия требованиям.
-ms.openlocfilehash: 38223d670622e602fbb145aed6b4dc0f6ecb36f2
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 411379d0be2d0af3843c3ccfec87ea6184fdb0c8
+ms.sourcegitcommit: e0c6f99d5514d8da8a70d9bd3616d1a1c0851254
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534244"
+ms.lasthandoff: 10/13/2018
+ms.locfileid: "25552357"
 ---
 # <a name="create-a-schedule-for-a-report-in-the-security-amp-compliance-center"></a>Создать расписание для отчета в системы &amp; центре соответствия требованиям
 
@@ -47,7 +47,7 @@ ms.locfileid: "22534244"
     
 После создания расписания для отчета, отчет доставки по электронной почте адреса получателей emali автоматически. 
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Смежные темы
 
 [Отчеты и полезные сведения о безопасности Office 365 &amp; центре соответствия требованиям](reports-and-insights-in-security-and-compliance.md)
   

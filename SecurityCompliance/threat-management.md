@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 0a73d5fa-b2c8-43e7-9ed4-61f0552b1c98
 description: Использование Threat management для справки элемента управления и управление доступом мобильных устройств к данным вашей организации, позволяет защитить организацию от потери данных и защиты входящих и исходящих сообщений от нежелательной почты и вредоносных программ. Вы также использовать угроз управления для защиты репутации для вашего домена и для определения ли отправителей намеренно подмену данных учетных записей из вашего домена.
-ms.openlocfilehash: 88b2727b76fad1e8d700f15717a8aeedea934093
-ms.sourcegitcommit: c168410974bc90aaf55f1dcaa9e05c09b2b78d76
+ms.openlocfilehash: df843ab95920d24af778a9edf31626f4d6b08cff
+ms.sourcegitcommit: e0c6f99d5514d8da8a70d9bd3616d1a1c0851254
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25011835"
+ms.lasthandoff: 10/13/2018
+ms.locfileid: "25552407"
 ---
 # <a name="threat-management-in-the-office-365-security-amp-compliance-center"></a>Угроз управления безопасности Office 365 &amp; центре соответствия требованиям
 
