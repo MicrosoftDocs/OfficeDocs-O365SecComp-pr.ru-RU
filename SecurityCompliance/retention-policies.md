@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 5e377752-700d-4870-9b6d-12bfc12d2423
 description: 'С помощью политики хранения вы можете заблаговременно решить, как поступить с содержимым. Она позволяет следующее: хранить содержимое, удалить или удалить через какое-то время; применить единую политику ко всей организации или только к некоторым расположениям либо пользователям; применить политику ко всему содержимому или только такому, которое удовлетворяет определенным условиям.'
-ms.openlocfilehash: 82def4182607e6dde4f9d6612cdb93f6f8564f2a
-ms.sourcegitcommit: edf5db9357c0d34573f8cc406314525ef10d1eb9
+ms.openlocfilehash: 5b02d57931a47ca86f4da884463cfc0e52476d3c
+ms.sourcegitcommit: 397a5fe594e4cf4bb64c0c6f233d310ef3cbd922
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23230021"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25540405"
 ---
 # <a name="overview-of-retention-policies"></a>Общие сведения о политиках хранения
 
@@ -182,7 +182,7 @@ ms.locfileid: "23230021"
   
 - почта Exchange;
     
-- сайты SharePoint;
+- Сайты SharePoint
     
 - учетные записи OneDrive;
     
@@ -259,7 +259,7 @@ ms.locfileid: "23230021"
 ## <a name="excluding-specific-types-of-exchange-items-from-a-retention-policy"></a>Исключение определенных типов элементов Exchange из политики хранения
 С помощью PowerShell можно исключить определенные типы элементов Exchange из политики хранения. Например, можно исключить голосовые сообщения, мгновенные сообщения и другое содержимое Skype для бизнеса Online в почтовых ящиках. Кроме того, можно исключить календарь, заметки и задачи. Эта возможность доступна только в PowerShell, она недоступна в пользовательском интерфейсе, когда вы создаете политику хранения.
   
-Для этого используйте параметр `ExcludedItemClasses` командлетов `New-RetentionComplianceRule` и `Set-RetentionComplianceRule`. Дополнительные сведения о PowerShell см. далее в разделе [Поиск командлетов PowerShell для политик хранения](retention-policies.md#powershell).
+Для этого используйте параметр `ExcludedItemClasses` командлетов `New-RetentionComplianceRule` и `Set-RetentionComplianceRule`. Дополнительные сведения о PowerShell см. далее в разделе [Поиск командлетов PowerShell для политик хранения](#find-the-powershell-cmdlets-for-retention-policies).
   
 ## <a name="locking-a-retention-policy"></a>Блокировка политики хранения
 От некоторых организаций требуется выполнять требования органов надзора. Например, следовать постановлению 17a-4 Комиссии по ценным бумагам и биржам (США), которое запрещает отключать политику хранения или делать ее менее строгой. Если вы настроите блокировку хранения, никто, в том числе администратор, не сможет отключить политику или сделать ее менее строгой.
@@ -268,7 +268,7 @@ ms.locfileid: "23230021"
   
 Прежде чем блокировать политику хранения, **крайне необходимо** изучить критерии организации в отношении обеспечения соответствия требованиям и **быть уверенным** в результате.
   
-Вы можете заблокировать политику хранения только с помощью PowerShell. Используйте параметр `RestrictiveRetention` командлета `New-RetentionCompliancePolicy` или `Set-RetentionCompliancePolicy`. Дополнительные сведения о PowerShell см. далее в разделе [Поиск командлетов PowerShell для политик хранения](retention-policies.md#powershell).
+Вы можете заблокировать политику хранения только с помощью PowerShell. Используйте параметр `RestrictiveRetention` командлета `New-RetentionCompliancePolicy` или `Set-RetentionCompliancePolicy`. Дополнительные сведения о PowerShell см. далее в разделе [Поиск командлетов PowerShell для политик хранения](#find-the-powershell-cmdlets-for-retention-policies).
   
 ## <a name="the-principles-of-retention-or-what-takes-precedence"></a>Приоритеты и принципы хранения
 
