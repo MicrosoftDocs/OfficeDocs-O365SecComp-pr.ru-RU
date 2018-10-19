@@ -1,5 +1,5 @@
 ---
-title: Общие сведения о Импорт файлов организации PST-файлов в Office 365
+title: Overview of importing your organization PST files to Office 365
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,14 +14,14 @@ ms.collection: Strat_O365_IP
 search.appverid: MET150
 ms.assetid: ba688e0a-0fcb-4bd7-8e57-2b669564ea84
 description: 'Для администраторов: узнать, как использовать службы импорта безопасности Office 365 &amp; центре соответствия требованиям к массовый импорт данных электронной почты (PST-файлы) для пользовательских почтовых ящиков в Exchange Online. В этом разделе приведены вопросы и ответы и объясняется, как работает процесс импорта PST-файлов.'
-ms.openlocfilehash: 2bd58b879d9d4d1ff9d3d2c6c8680a0171d42689
-ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
+ms.openlocfilehash: 3a6c3db966513be5c63588dac75643ffc1962323
+ms.sourcegitcommit: 8294182d4dd124f035a221de0b90159ef7eec4ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25038022"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25639678"
 ---
-# <a name="overview-of-importing-your-organization-pst-files-to-office-365"></a>Общие сведения о Импорт файлов организации PST-файлов в Office 365
+# <a name="overview-of-importing-your-organization-pst-files-to-office-365"></a>Overview of importing your organization PST files to Office 365
 
 > [!NOTE]
 > Эта статья предназначена для администраторов. Вы пытаетесь Импорт PST-файлов для почтового ящика? Просмотреть [импорта электронной почты, контактов и календаря из Outlook PST-файл](https://go.microsoft.com/fwlink/p/?LinkID=785075)
@@ -100,7 +100,15 @@ ms.locfileid: "25038022"
     
 ## <a name="importing-sharepoint-data-to-office-365"></a>Импорт данных SharePoint в Office 365
 
-Также можно импортировать файлы и документы для учетных записей OneDrive и сайты SharePoint в организации Office 365. Дополнительные сведения можно [Отправить локального контента в SharePoint Online с помощью командлетов PowerShell](https://docs.microsoft.com/sharepointmigration/upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets).
+Также можно импортировать файлы и документы для учетных записей OneDrive и сайты SharePoint в организации Office 365. Дополнительные сведения см в следующих статьях:
+
+- [Миграция в SharePoint Online](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online)
+
+- [Знакомство со средством миграции SharePoint](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool)
+
+- [Миграция на SharePoint Online с помощью PowerShell](https://docs.microsoft.com/sharepointmigration/overview-spmt-ps-cmdlets)
+
+- [Перенос содержимого папки файлов в SharePoint Online с помощью поля данных Azure](https://docs.microsoft.com/sharepointmigration/how-to-migrate-file-share-content-to-spo-using-azuredatabox)
 
 
 ## <a name="frequently-asked-questions-about-importing-pst-files-to-office-365"></a>Часто задаваемые вопросы об импорте PST-файлов в Office 365
@@ -288,7 +296,7 @@ ms.locfileid: "25038022"
   
  **Можно использовать настраиваемые courier доставки службы, например FedEx настраиваемых доставки, к выпуску жесткого диска в корпорацию Майкрософт?**
   
-Да.
+Да, вы можете отключить или включить сортировку для всей организации либо для отдельных пользователей.
   
  **Если программа для отгрузки жесткого диска для другой стране, существует ли все действия, которые необходимо сделать?**
   
