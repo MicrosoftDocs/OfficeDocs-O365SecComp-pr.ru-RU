@@ -3,7 +3,7 @@ title: Настройка службы EOP
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 12/9/2016
+ms.date: 10/23/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -11,12 +11,12 @@ ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
 description: В этом разделе описывается настройка службы Microsoft Exchange Online Protection (EOP). Если вы перешли сюда из мастера доменов Office 365 и не хотите использовать Exchange Online Protection, вернитесь в мастер доменов Office 365. Дополнительные сведения о настройке соединителей см. в разделе Configure mail flow using connectors in Office 365.
-ms.openlocfilehash: f1c65164adcaa17c58ae9c4b4b957c477b9e02f3
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 6c9e3becf0f86deeee92ec7cf336bdbd950ac5e2
+ms.sourcegitcommit: f49ab866e21da83a0be6cb23ab7b6b4366a6a7ee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22027116"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25715905"
 ---
 # <a name="set-up-your-eop-service"></a>Настройка службы EOP
 
@@ -49,7 +49,7 @@ ms.locfileid: "22027116"
 2. Выполните указанные ниже действия, чтобы добавить применимые записи DNS на сайте поставщика услуг размещения DNS для подтверждения прав владельца домена.
     
 > [!TIP]
-> Статьи [Добавление домена в Office 365](https://go.microsoft.com/fwlink/p/?LinkId=282303) и [Создание записей DNS для Office 365](https://go.microsoft.com/fwlink/p/?LinkId=304219) содержат полезные справочные материалы по добавлению домена в службу и настройке DNS. 
+> Статьи [Добавление домена в Office 365](https://support.office.com/en-us/article/add-a-domain-to-office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611) и [Создание записей DNS для Office 365](https://support.office.com/en-us/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166) содержат полезные справочные материалы по добавлению домена в службу и настройке DNS. 
   
 ### <a name="step-2-add-recipients-and-optionally-enable-dbeb"></a>Действие 2. Добавление получателей и включение при необходимости пограничной блокировки на основе каталогов (DBEB)
 
