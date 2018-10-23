@@ -12,7 +12,9 @@
 # Защита доступа к данным и службам
 ## [Защита доступа к данным и службам в Office 365](protect-access-to-data-and-services.md)
 ## [Выбор между MDM и Intune](choose-between-mdm-and-intune.md)
-# [Защита от потери данных (DLP)](data-loss-prevention-policies.md)
+# Защита информации
+## [Метки конфиденциальности](sensitivity-labels.md)
+## [Защита от потери данных (DLP)](data-loss-prevention-policies.md)
 ## [Расширенный обзор защиты от потери данных](https://channel9.msdn.com/events/ignite/microsoft-ignite-orlando-2017/brk3111)
 ## Настройка защиты от потери данных
 ### [Начало работы с рекомендациями политик защиты от потери данных](get-started-with-dlp-policy-recommendations.md)
@@ -47,11 +49,11 @@
 ### [Включение неограниченной архивации](enable-unlimited-archiving.md)
 ### [Настройка политики архивации и удаления для почтовых ящиков](set-up-an-archive-and-deletion-policy-for-mailboxes.md)
 ## Хранение данных
-### [Общие сведения о политиках хранения](retention-policies.md)
-### [Общие сведения о метках](labels.md)
-### [Общие сведения о проверках перед ликвидацией](disposition-reviews.md)
-### [Обзор хранения, зависящего от возникновения события](event-driven-retention.md)
-### [Обзор диспетчера плана файлов](file-plan-manager.md)
+### [Политики хранения](retention-policies.md)
+### [Метки хранения](labels.md)
+### [Проверки перед ликвидацией](disposition-reviews.md)
+### [Хранение, зависящее от возникновения события](event-driven-retention.md)
+### [Диспетчер планов хранения](file-plan-manager.md)
 ## [Управление неактивными почтовыми ящиками](inactive-mailboxes-in-office-365.md)
 ### [Создание неактивных почтовых ящиков и управление ими](create-and-manage-inactive-mailboxes.md)
 ### [Изменение срока хранения неактивного почтового ящика](change-the-hold-duration-for-an-inactive-mailbox.md)
@@ -70,7 +72,7 @@
 ## [Защита от нежелательной почты и вредоносных программ](anti-spam-and-anti-malware-protection.md)
 ### [Защита от фишинга в Office 365](anti-phishing-protection.md)
 #### [Возможности ATP для защиты от фишинга в Office 365](atp-anti-phishing.md)
-#### [Настройка политик ATP для защиты от фишинга в Office 365](set-up-atp-anti-phishing-policies.md)
+#### [Настройка защиты от фишинга и политик защиты от фишинга ATP](set-up-anti-phishing-policies.md)
 #### [Как Office 365 проверяет адрес отправителя, чтобы предотвратить фишинг](how-office-365-validates-the-from-address.md)
 ### [Защита от спуфинга в Office 365](anti-spoofing-protection.md)
 #### [Дополнительные сведения об аналитике спуфинга](learn-about-spoof-intelligence.md)
