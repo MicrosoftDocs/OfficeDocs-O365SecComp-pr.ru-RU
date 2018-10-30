@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 3019fbc5-7f15-4972-8d0e-dc182dc7f836
 description: С помощью защита от потери данных (DLP) в SharePoint Online могут обнаруживать документы, которые содержат конфиденциальные данные во всем вашего клиента. После обнаружения документы, может работать с владельцев документов для защиты данных. В этом разделе помогут вам формы запроса для поиска конфиденциальных данных.
-ms.openlocfilehash: 13954a856dd265e3b735d940c7d334d922713637
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: c30cb2e4b93e1a7db90f3e3f922f406285c6f692
+ms.sourcegitcommit: 81e06e09bf5ca8e3f51b164d6251b1c35b3285cf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "23013863"
+ms.lasthandoff: 10/27/2018
+ms.locfileid: "25829190"
 ---
 # <a name="form-a-query-to-find-sensitive-data-stored-on-sites"></a>Формирование запроса для поиска конфиденциальных данных, которые хранятся на сайтах
 
@@ -84,9 +84,7 @@ ms.locfileid: "23013863"
    
 ## <a name="for-more-information"></a>Дополнительные сведения
 
-[Поиск конфиденциальных данных, сохраненных на сайтах SharePoint Online](https://support.office.com/article/ef788d8f-9748-4025-bfe4-40541ca4cfb2)
-  
-[Перечень типов конфиденциальной информации](https://go.microsoft.com/fwlink/?LinkID=509999)
+[Что позволяют искать типы конфиденциальной информации](what-the-sensitive-information-types-look-for.md)
   
 [Выполните поиск содержимого безопасности Office 365 &amp; центре соответствия требованиям](run-a-content-search-in-the-security-and-compliance-center.md)
   
