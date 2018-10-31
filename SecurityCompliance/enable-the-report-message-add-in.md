@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 description: Узнайте, как включить сообщения отчета надстройки для Outlook и Outlook на веб-сайте, для отдельных пользователей или всей организации.
-ms.openlocfilehash: ad07d594a78b8134984b48f08898ad1ba697e03a
-ms.sourcegitcommit: 49b565f6a57febe53f331b2605d6a06d11e2d0be
+ms.openlocfilehash: 8c9853c78a42d6eecd0989475ef8f0a44345f812
+ms.sourcegitcommit: ceb70ea863d8b97afea077a04fc7ec612b870695
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "25638013"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25857267"
 ---
 # <a name="enable-the-report-message-add-in"></a>Включение надстройки Report Message
 
@@ -41,7 +41,7 @@ ms.locfileid: "25638013"
     
 ## <a name="get-the-report-message-add-in-for-yourself"></a>Сообщение отчета надстройки для себя
 
-1. В поле, [хранения Office](https://appsource.microsoft.com/product/office/WA104381180?src=office)сообщение отчета надстройки.
+1. В [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps)поиск [надстройки сообщения отчета](https://appsource.microsoft.com/product/office/wa104381180).
     
 2. Выберите **получить ИТ ТЕПЕРЬ**.<br/>![Сообщение — получить сейчас](media/ReportMessageGETITNOW.png)<br/> 
     
