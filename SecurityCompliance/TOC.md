@@ -14,6 +14,7 @@
 ## [Выбор между MDM и Intune](choose-between-mdm-and-intune.md)
 # Защита информации
 ## [Метки конфиденциальности](sensitivity-labels.md)
+## [Ограничение доступа к контенту с помощью шифрования в метках конфиденциальности](encryption-sensitivity-labels.md)
 ## [Защита от потери данных (DLP)](data-loss-prevention-policies.md)
 ## [Расширенный обзор защиты от потери данных](https://channel9.msdn.com/events/ignite/microsoft-ignite-orlando-2017/brk3111)
 ## Настройка защиты от потери данных
@@ -149,7 +150,7 @@
 ## [Использование поиска контента](content-search.md)
 ### [Запросы ключевых слов и условия поиска контента](keyword-queries-and-search-conditions.md)
 ### [Просмотр статистики ключевых слов для результатов поиска контента](view-keyword-statistics-for-content-search.md)
-### [Экспорт результатов поиска контента](export-search-results.md)
+### [Экспорт результатов поиска контента ](export-search-results.md)
 ### [Экспорт отчета о поиске контента](export-a-content-search-report.md)
 ### [Поиск и удаление сообщений электронной почты](search-for-and-delete-messagesadmin-help.md)
 ### [Поиск облачных почтовых ящиков локальных пользователей в Office 365](search-cloud-based-mailboxes-for-on-premises-users.md)
@@ -258,6 +259,7 @@
 ### [Развертывание изолированного сайта группы SharePoint Online](deploy-an-isolated-sharepoint-online-team-site.md)
 ### [Управление изолированным сайтом группы SharePoint Online](manage-an-isolated-sharepoint-online-team-site.md)
 ### [Среда разработки и тестирования изолированного сайта группы SharePoint Online](isolated-sharepoint-online-team-site-dev-test-environment.md)
+## [Интеграция сервера SIEM](siem-server-integration.md)
 
 # Решения для соответствия требованиям
 ## [Применение диспетчера соответствия требованиям для соблюдения требований по защите данных и нормативных требований при использовании облачных служб Майкрософт](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
