@@ -17,28 +17,28 @@ search.appverid:
 ms.custom: ''
 ms.assetid: ''
 description: Узнайте, как изменить или создать типы конфиденциальной информации в Office 365 для соблюдения регламента GDPR.
-ms.openlocfilehash: e0e217ed44c5206828468b57d778bffa28c95da3
-ms.sourcegitcommit: c31424cafbf1953f2864d7e2ceb95b329a694edb
+ms.openlocfilehash: ed1dca161b5580d67b5a9071ca1d5b32e8b23d80
+ms.sourcegitcommit: ceb70ea863d8b97afea077a04fc7ec612b870695
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23272264"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25857287"
 ---
 # <a name="customize-or-create-a-new-sensitive-information-type"></a>Настройка и создание типа конфиденциальной информации
 
 В этой статье приведены три примера того, как изменить или создать типы конфиденциальной информации в Office 365 для соблюдения регламента GDPR.
 
--   Изменение имеющегося типа конфиденциальной информации — номер банковской карты для ЕС
+- Изменение имеющегося типа конфиденциальной информации — номер банковской карты для ЕС
 
--   Создание типа конфиденциальной информации — адрес электронной почты
+- Создание типа конфиденциальной информации — адрес электронной почты
 
--   Создание типа конфиденциальной информации с примером XML-файла — номер клиента Contoso
+- Создание типа конфиденциальной информации с примером XML-файла — номер клиента Contoso
 
 См. также:
 
--   [Создание пользовательского типа конфиденциальной информации](https://support.office.com/ru-RU/article/Create-a-custom-sensitive-information-type-82c382a5-b6db-44fd-995d-b333b3c7fc30)
+- [Создание пользовательского типа конфиденциальных данных в PowerShell Центра безопасности и соответствия требованиям Office 365](create-a-custom-sensitive-information-type-in-scc-powershell.md)
 
--   [Настройка встроенных типов конфиденциальных данных](https://support.office.com/ru-RU/article/Customize-a-built-in-sensitive-information-type-2164ce3d-4d64-4283-b6b1-b81fbe835e8e)
+- [Настройка встроенных типов конфиденциальных данных](customize-a-built-in-sensitive-information-type.md)
 
 ## <a name="modify-a-sensitive-information-type-to-improve-accuracy"></a>Изменение типа конфиденциальной информации для повышения точности данных
 
@@ -142,7 +142,7 @@ ms.locfileid: "23272264"
 
 -   [Руководство по синтаксису языка запросов по ключевым словам (KQL)](https://docs.microsoft.com/ru-RU/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
 
--   [Поиск контента в Центре безопасности и соответствия требованиям Office 365](https://support.office.com/ru-RU/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a) 
+-   [Поиск контента в Центре безопасности и соответствия требованиям Office 365](https://support.office.com/ru-RU/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a) 
 
 Поиск контента предоставляет еще один ресурс, который помогает создавать запросы KQL и типы конфиденциальной информации, — ключевые слова. Зачем использовать список ключевых слов? Вы можете получить статистические данные о том, сколько элементов соответствуют каждому ключевому слову. Это поможет быстро определить наиболее (и наименее) эффективные ключевые слова. Дополнительные сведения о статистике поиска см. в статье [Просмотр статистики ключевых слов для результатов поиска контента](https://support.office.com/ru-RU/article/View-keyword-statistics-for-Content-Search-results-9701a024-c52e-43f0-b545-9a53478aec04).
 
