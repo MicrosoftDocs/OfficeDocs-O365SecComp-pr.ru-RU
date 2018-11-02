@@ -33,6 +33,7 @@
 ### [Расширенный обзор настройки защиты от потери данных](https://go.microsoft.com/fwlink/?linkid=852306)
 ### [Настройка встроенных типов конфиденциальных данных](customize-a-built-in-sensitive-information-type.md)
 ### [Создание пользовательского типа конфиденциальных данных](create-a-custom-sensitive-information-type.md)
+### [Создание пользовательского типа конфиденциальной информации в PowerShell Центра безопасности и соответствия требованиям Office 365](create-a-custom-sensitive-information-type-in-scc-powershell.md)
 ### [Создание словаря ключевых слов](create-a-keyword-dictionary.md)
 ### [Создание отпечатка документа](document-fingerprinting.md) 
 # Управление данными        
