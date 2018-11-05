@@ -234,7 +234,7 @@
 ## [Поиск действий по обнаружению электронных данных в журнале аудита](search-for-ediscovery-activities-in-the-audit-log.md)
 # [Мониторинг безопасности и соответствия требованиям]()
 ## [Политики оповещений](alert-policies.md)
-### [Создание оповещений о действиях](create-activity-alerts.md)
+## [Оповещения о действиях](create-activity-alerts.md)
 ## [Интеллектуальные отчеты и аналитика в Центре безопасности и соответствия требованиям](reports-and-insights-in-security-and-compliance.md)
 ### [Просмотр отчетов о безопасности почты в Центре безопасности и соответствия требованиям](view-email-security-reports.md)
 #### [Пошаговое руководство. Из подробного отчета к аналитике](from-a-detailed-report-to-an-insight.md)
