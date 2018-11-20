@@ -3,7 +3,7 @@ title: Применение диспетчера соответствия тре
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 6/26/2018
+ms.date: ''
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -13,18 +13,18 @@ search.appverid:
 - MET150
 ms.assetid: 429e686f-d8a6-455e-a2b6-3791d763f000
 description: Диспетчер соответствия требованиям на портале Microsoft Service Trust Portal предоставляет средства для отслеживания и реализации средств контроля, а также управления ими, помогая организации обеспечить соответствие требованиям отраслевых стандартов безопасности и защиты данных (например, GDPR, ISO 27001 и 27018, а также HIPAA) в облачных службах (Майкрософт), таких как Office 365 и Microsoft Azure. Диспетчер соответствия требованиям помогает сотруднику организации, который отвечает за стратегию защиты данных и обеспечения конфиденциальности, управлять процессом оценки рисков и обеспечения соответствия требованиям.
-ms.openlocfilehash: b8493775210be14a44c6d8185c56371b55634329
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: a8d26db2a28d5b022f20408caf418b23edd98167
+ms.sourcegitcommit: 6669b7aae26965145e85d9613d3091bf389f000b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22535023"
+ms.lasthandoff: 11/19/2018
+ms.locfileid: "26618935"
 ---
 # <a name="use-compliance-manager-to-help-meet-data-protection-and-regulatory-requirements-when-using-microsoft-cloud-services"></a>Применение диспетчера соответствия требованиям для соблюдения требований к защите данных и нормативных требований при использовании облачных служб (Майкрософт)
 
  *Диспетчер соответствия требованиям недоступен в планах Office 365 под управлением 21Vianet, Office 365 Germany, Office 365 U.S. Government Community High (GCC High) и Office 365 Department of Defense.* 
   
-Диспетчер соответствия требованиям — основанное на рабочих процессах средство оценки рисков, представленное на портале [Microsoft Service Trust Portal](https://support.office.com/article/f30e2353-0bd6-41ed-8347-eea1fb8d2662), — позволяет отслеживать, назначать и проверять действия, направленные на обеспечение соответствия организации нормативным требованиям в профессиональных и облачных службах (Майкрософт), таких как Microsoft Office 365, Microsoft Dynamics 365 и Microsoft Azure. Диспетчер соответствия требованиям:
+Диспетчер соответствия требованиям — основанное на рабочих процессах средство оценки рисков, представленное на портале Microsoft [Service Trust Portal](https://support.office.com/article/f30e2353-0bd6-41ed-8347-eea1fb8d2662), которое позволяет отслеживать, назначать и проверять действия, направленные на обеспечение соответствия организации нормативным требованиям в профессиональных и облачных службах (Майкрософт), таких как Microsoft Office 365, Microsoft Dynamics 365 и Microsoft Azure. Диспетчер соответствия требованиям:
   
 - совмещает подробные сведения, предоставленные корпорацией Майкрософт аудиторам и управляющим органам в рамках различных независимых проверок облачных служб (Майкрософт) на соответствие различным стандартам (например, ISO 27001, ISO 27018 и NIST), и сведения, собранные корпорацией Майкрософт для собственного использования, чтобы обеспечить соответствие требованиям нормативов (например, HIPAA и Общего регламента ЕС по защите данных, или GDPR), с данными, полученными вами в ходе самостоятельной оценки соответствия вашей организации этим стандартам и нормативам;
     
@@ -831,8 +831,8 @@ ms.locfileid: "22535023"
    
 ## <a name="see-also"></a>См. также
 
-- [Объявление об общедоступном выпуске диспетчера соответствия требованиям](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Announcing-Compliance-Manager-general-availability/ba-p/161922)
-    
-- [Microsoft 365 предоставляет стратегию защиты информации, чтобы помочь обеспечить соблюдение GDPR](https://blogs.office.com/ru-RU/2018/02/22/microsoft-365-provides-an-information-protection-strategy-to-help-with-the-gdpr)
-    
+- [Интерактивное руководство по диспетчеру соответствия требованиям](https://content.cloudguides.com/guides/Compliance%20Manager)
 
+- [Объявление об общедоступном выпуске диспетчера соответствия требованиям](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Announcing-Compliance-Manager-general-availability/ba-p/161922)
+
+- [Microsoft 365 предоставляет стратегию защиты информации, чтобы помочь обеспечить соблюдение GDPR](https://blogs.office.com/ru-RU/2018/02/22/microsoft-365-provides-an-information-protection-strategy-to-help-with-the-gdpr)
