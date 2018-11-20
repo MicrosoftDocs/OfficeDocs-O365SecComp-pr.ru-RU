@@ -21,6 +21,7 @@
 ### [Начало работы с рекомендациями политик защиты от потери данных](get-started-with-dlp-policy-recommendations.md)
 ### [Начало работы со стандартной политикой защиты от потери данных](get-started-with-the-default-dlp-policy.md)
 ### [Создание политики защиты от потери данных на основе шаблона](create-a-dlp-policy-from-a-template.md)
+### [Создание, тестирование и настройка политики защиты от потери данных](create-test-tune-dlp-policy.md)
 ### [Использование уведомлений и подсказок политики в политиках DLP](use-notifications-and-policy-tips.md)
 ### [Что входит в шаблоны политик защиты от потери данных](what-the-dlp-policy-templates-include.md)
 ### [Создание политики защиты от потери данных для защиты документов с помощью FCI или других свойств](protect-documents-that-have-fci-or-other-properties.md)
