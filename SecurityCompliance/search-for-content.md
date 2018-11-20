@@ -11,12 +11,12 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: df2d1e0f-b476-42c9-aade-4a260b24f193
 description: Использовать средство поиска контента обнаружения электронных данных в Office 365 безопасность &amp; центре соответствия требованиям для быстрого поиска электронной почты в почтовые ящики Exchange документов на сайтах SharePoint и расположений OneDrive и обмена мгновенными сообщениями бесед в Скайп для бизнеса.
-ms.openlocfilehash: d7ccdd8e501e38b67cc00ec457622080d6c58001
-ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
+ms.openlocfilehash: 96a30bfe7b7cc5a1398cafa66577f0b7dc681d23
+ms.sourcegitcommit: 147768bbe44c8c98c02fa29ae9d882cee4ec2d6b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25038232"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "26238401"
 ---
 # <a name="search-for-content-in-office-365"></a>Поиск содержимого в Office 365
 
@@ -42,6 +42,8 @@ ms.locfileid: "25038232"
     
 - [Массовое изменение](bulk-edit-content-searches.md) запроса и размещения содержимого для нескольких операций поиска 
     
+- [Получателей скрытой копии, сохранение](https://docs.microsoft.com/exchange/policy-and-compliance/holds/preserve-bcc-recipients-and-group-members) , можно выполнить поиск для них 
+
 ## <a name="perform-actions-on-content-you-find"></a>Выполните действия на содержимое, которое можно найти
 
 После выполнения поиска и уточнить при необходимости дальше нужно сделать что-то с помощью результаты, возвращенные операцией поиска. Можно экспортировать и загрузить результаты на локальном компьютере или в случае атаки электронной почты в вашей организации, можно удалить результаты поиска из почтовых ящиков пользователей.

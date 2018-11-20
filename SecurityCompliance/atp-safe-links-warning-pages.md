@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: fc4e6ebb-5acc-4bc5-bad8-4f3407d1d3f4
 description: Обзор страниц предупреждения о том, что вы можете увидеть при защиту от угроз для Office 365 расширенного находится на работе.
-ms.openlocfilehash: eae893da6bb2692ae4fb9f934bc892d2058beecd
-ms.sourcegitcommit: e7b87fae103a858981bdbcdf7ec55afa4751ad05
+ms.openlocfilehash: ac7fdcd17ad449afd9107ce67ecc89a107eb152b
+ms.sourcegitcommit: 147768bbe44c8c98c02fa29ae9d882cee4ec2d6b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "23782136"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "26238271"
 ---
 # <a name="office-365-atp-safe-links-warning-pages"></a>Office 365 безопасных ссылок анализа предупреждение страниц
 
@@ -107,14 +107,3 @@ URL-адрес заблокирован для вашей организации
 
 ![An error has occurred](media/2f7465a4-1cf4-4c1c-b7d4-3c07e4b795b4.png)
    
-## <a name="related-topics"></a>Смежные темы
-
-[Как Office помогает защиты компьютера от фишинга](https://support.office.com/article/be0de46a-29cd-4c59-aaaf-136cf177d593)
-  
-[Office 365 ATP безопасных ссылки](atp-safe-links.md)
-  
-[Безопасные вложения ATP Office 365](atp-safe-attachments.md)
-  
-[Защита от нежелательной почты и вредоносных программ в Office 365](anti-spam-and-anti-malware-protection.md)
-  
-

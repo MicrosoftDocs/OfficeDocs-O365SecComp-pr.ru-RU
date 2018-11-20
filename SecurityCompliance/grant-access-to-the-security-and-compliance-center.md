@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
 description: Пользователи должны быть назначены разрешения безопасности Office 365 &amp; центре соответствия требованиям, прежде чем они могут управлять его функции безопасности и соответствия требованиям.
-ms.openlocfilehash: e0c8b655b1b3300e4ffa9aba1d94e65a9ef26121
-ms.sourcegitcommit: 2e41cc24ad92005084f2ba432e724bdcc4e295ff
+ms.openlocfilehash: 976c4e21351e352672f3075d0f713e63a634ce42
+ms.sourcegitcommit: da4aa7335b577148ecd61e09bbb11039b817b287
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25450744"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26539111"
 ---
 # <a name="give-users-access-to-the-office-365-security-amp-compliance-center"></a>Предоставление пользователям доступа к Office 365 безопасность &amp; центре соответствия требованиям
 
@@ -53,7 +53,7 @@ ms.locfileid: "25450744"
     
 7. Нажмите кнопку **Сохранить**, чтобы сохранить изменения в группе ролей. 
     
-### <a name="how-do-you-know-this-worked"></a>Как проверить, что все получилось?
+### <a name="how-do-you-know-this-worked"></a>Как убедиться, что все получилось?
 
 1. В разделе Безопасность &amp; центре соответствия требованиям, чтобы перейти на **разрешения**.
     
@@ -63,7 +63,7 @@ ms.locfileid: "25450744"
     
 ## <a name="use-powershell-to-give-another-user-access-to-the-security-amp-compliance-center"></a>С помощью PowerShell можно предоставить другому пользователю доступ к безопасности &amp; центре соответствия требованиям
 
-1. [Подключение к Office 365 безопасность &amp; центре соответствия требованиям, с помощью удаленной оболочки PowerShell](https://go.microsoft.com/fwlink/p/?LinkID=627084).
+1. [Подключение к Office 365 безопасности & PowerShell центре соответствия требованиям](https://docs.microsoft.com/en-us/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
     
 2. Воспользуйтесь командой **Add-RoleGroupMember**, чтобы добавить пользователя в группу ролей Organization Management (Управление организацией), как показано в следующем примере. 
     
@@ -80,7 +80,7 @@ ms.locfileid: "25450744"
     
 Подробные сведения о синтаксисе и параметрах видеть [Add-RoleGroupMember](https://go.microsoft.com/fwlink/p/?LinkId=510859).
   
-### <a name="how-do-you-know-this-worked"></a>Как проверить, что все получилось?
+### <a name="how-do-you-know-this-worked"></a>Как убедиться, что все получилось?
 
 Чтобы убедиться, что пользователи получает доступ к безопасности &amp; центре соответствия требованиям, командлет **Get-RoleGroupMember** для просмотра членов в группы ролей управления организацией, как показано в следующем примере. 
   

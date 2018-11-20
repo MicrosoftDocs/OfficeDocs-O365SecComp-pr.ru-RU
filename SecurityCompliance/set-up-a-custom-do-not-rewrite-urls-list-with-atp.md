@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: 35dbfd99-da5a-422b-9b0e-c6caf3b645fa
 description: При настройке политик безопасных ссылок анализа может включать действие переопределения не "список URL-адресов, чтобы включить некоторые пользователи в вашей организации на сайтах, которые включены в список.
-ms.openlocfilehash: 3ce783a3f783889bdc59ad8d412c80a79e7dd914
-ms.sourcegitcommit: 7032830867eb3fc71760e04b8342aff174c5d757
+ms.openlocfilehash: c954c12785659f9c025046bf3773cfec2d5dd5f9
+ms.sourcegitcommit: 147768bbe44c8c98c02fa29ae9d882cee4ec2d6b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25353265"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "26238391"
 ---
 # <a name="set-up-a-custom-do-not-rewrite-urls-list-using-office-365-atp-safe-links"></a>Настроить пользовательский список not переопределения URL-адресов с помощью Office 365 ATP безопасных ссылки
 
@@ -66,20 +66,4 @@ ms.locfileid: "25353265"
 |`http://contoso.com/a`  <br/> |Позволяет определенным получателям, посетите веб-сайт как `http://contoso.com/a`, но не субконтуров`http://contoso.com/a/b`  <br/> |
 |`http://contoso.com/a*`  <br/> |Позволяет определенным получателям, посетите веб-сайт как `http://contoso.com/a` и субконтуров, например`http://contoso.com/a/b`  <br/> |
    
-  
-
-## <a name="related-topics"></a>Смежные темы
-
-[Office 365 Advanced Threat Protection](office-365-atp.md)
-  
-[Безопасно ATP ссылок в Office 365](atp-safe-links.md)
-  
-[Настройка политик ATP безопасных ссылок в Office 365](set-up-atp-safe-links-policies.md)
-  
-[Настройка пользовательских заблокированных список URL-адресов с помощью безопасных ссылок анализа](set-up-a-custom-blocked-urls-list-wtih-atp.md)
-
-[Просмотр отчетов для защиты расширенного Threat Office 365](view-reports-for-atp.md)
-
-[Разрешения безопасности Office 365 &amp; центре соответствия требованиям](permissions-in-the-security-and-compliance-center.md)
-  
-
+ 

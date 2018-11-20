@@ -4,6 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.audience: Admin
+ms.date: 11/08/2018
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -12,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 26261670-db33-4c53-b125-af0662c34607
 description: Расширение защиту от угроз для Office 365 дополнительные файлы в SharePoint Online, OneDrive для бизнеса и группами Майкрософт для включения более безопасной совместной работы для вашей организации.
-ms.openlocfilehash: ff07d88a150d3f059681556feec9a5e89b5875a8
-ms.sourcegitcommit: 099bbfb1d16b251fd5cf18ec6515faaf9a989176
+ms.openlocfilehash: 6891184b49aa4ea03d5c13672ac9b95fc9e6d162
+ms.sourcegitcommit: 147768bbe44c8c98c02fa29ae9d882cee4ec2d6b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25454326"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "26238451"
 ---
 # <a name="office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Office 365 ATP для SharePoint, OneDrive и Microsoft Teams
 
@@ -25,7 +26,7 @@ ms.locfileid: "25454326"
 
 Регулярно людей файлы совместный доступ и совместная работа с помощью SharePoint, OneDrive и группами Майкрософт. С [Защиту от угроз для Office 365 Advanced](office-365-atp.md) (ATP) организации могут совместно работать более безопасным способом. ATP помогает обнаруживать и блокировать файлы, которые определены как вредоносный в веб-сайтов групп и библиотеки документов.  
   
-### <a name="how-it-works"></a>Как это работает
+## <a name="how-it-works"></a>Как это работает
 
 При создании файла в SharePoint Online, OneDrive для бизнеса и группами Майкрософт определено как вредоносный, ATP непосредственно интегрируется с файловых хранилищ для блокировки файла. Ниже рисунке показан пример вредоносных файлов, обнаруженных в библиотеке.
   
@@ -41,7 +42,7 @@ ms.locfileid: "25454326"
   
 Для получения дополнительных сведений см. [Включение анализа Office 365 для SharePoint, OneDrive и группами Майкрософт](turn-on-atp-for-spo-odb-and-teams.md).
   
-### <a name="keep-the-following-points-in-mind"></a>Помнить следующее
+## <a name="keep-these-points-in-mind"></a>Необходимо помнить следующее
 
 - Пакет анализа не будет выполнять сканирование каждый отдельный файл в SharePoint Online, OneDrive для бизнеса, или группами Майкрософт. Это предусмотрено при проектировании. Файлы проверяются асинхронно, через процесс, который использует общего доступа и гостя события активности наряду с эвристическую и сигналы угрозы для идентификации вредоносных файлов.
 
@@ -69,16 +70,7 @@ ms.locfileid: "25454326"
     
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- [Включить ATP Office 365 для SharePoint, OneDrive и группами Майкрософт](turn-on-atp-for-spo-odb-and-teams.md)
+1. [Включить ATP Office 365 для SharePoint, OneDrive и группами Майкрософт](turn-on-atp-for-spo-odb-and-teams.md)
     
-- [Просмотр сведений о вредоносных файлов, обнаруженных в SharePoint, OneDrive или группами Майкрософт](malicious-files-detected-in-spo-odb-or-teams.md)
+2. [Просмотр сведений о вредоносных файлов, обнаруженных в SharePoint, OneDrive или группами Майкрософт](malicious-files-detected-in-spo-odb-or-teams.md)
     
-## <a name="related-topics"></a>Смежные темы
-
-[Office 365 Advanced Threat Protection](office-365-atp.md)
-  
-[Просмотр отчетов для защиты расширенного Threat Office 365](view-reports-for-atp.md)
-  
-[Разрешения безопасности Office 365 &amp; центре соответствия требованиям](permissions-in-the-security-and-compliance-center.md)
-  
-

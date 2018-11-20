@@ -1,7 +1,7 @@
 ---
 title: Включить ATP Office 365 для SharePoint, OneDrive и группами Майкрософт
-ms.author: derng
-author: derng
+ms.author: deniseb
+author: denisebmsft
 manager: laurawi
 ms.audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: 07e76024-0c80-40dc-8c48-1dd0d0f863cb
 description: Узнайте, как включить ATP для SharePoint, OneDrive и групп, включая способ настройки оповещения об обнаруженных файлах.
-ms.openlocfilehash: eb3687f6afd2e7f9a3698944019bcdb8dcbff5ae
-ms.sourcegitcommit: 099bbfb1d16b251fd5cf18ec6515faaf9a989176
+ms.openlocfilehash: d70c574f002ca7e70ab6f9a4abad3ea5ef21a20f
+ms.sourcegitcommit: 147768bbe44c8c98c02fa29ae9d882cee4ec2d6b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25454296"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "26238421"
 ---
 # <a name="turn-on-office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Включить ATP Office 365 для SharePoint, OneDrive и группами Майкрософт
 
@@ -31,19 +31,17 @@ ms.locfileid: "25454296"
   
 1. Как глобальный администратор или администратор безопасности, перейдите к [https://protection.office.com](https://protection.office.com)и войдите с учетной записи рабочего или школы.
     
-2. В Office 365 безопасность &amp; центре соответствия требованиям в левой области навигации, в разделе **Управление угроз**, выберите **политику** \> **Безопасные вложения**.
-    
-    ![В разделе Безопасность &amp; центре соответствия требованиям, выберите Threat management \> политики](media/08849c91-f043-4cd1-a55e-d440c86442f2.png)
+2. В Office 365 безопасность &amp; центре соответствия требованиям в левой области навигации, в разделе **Управление угроз**, выберите **политику** \> **Безопасные вложения**. <br/>![В разделе Безопасность &amp; центре соответствия требованиям, выберите Threat management \> политики](media/08849c91-f043-4cd1-a55e-d440c86442f2.png)
   
-3. Выберите **Включить ATP для SharePoint, OneDrive и группами Майкрософт**.
-    
-    ![Включение расширенной защитой для SharePoint Online, OneDrive для бизнеса и группами Майкрософт](media/48cfaace-59cc-4e60-bf86-05ff6b99bdbf.png)
+3. Выберите **Включить ATP для SharePoint, OneDrive и группами Майкрософт**.<br/>![Включение расширенной защитой для SharePoint Online, OneDrive для бизнеса и группами Майкрософт](media/48cfaace-59cc-4e60-bf86-05ff6b99bdbf.png)
   
 4. Нажмите кнопку **Сохранить**.
     
 5. Просмотрите (и, отредактируйте) [политики безопасные вложения](set-up-atp-safe-attachments-policies.md) и [политики безопасных ссылки](set-up-atp-safe-links-policies.md)вашей организации.
     
-6. (Рекомендуется) Как глобальный администратор или администратор SharePoint Online, выполните командлет **[Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant?view=sharepoint-ps)** с параметром **DisallowInfectedFileDownload** установлено значение *true* . <br/>Установка для параметра в *значение true,* блокирует все действия (за исключением Delete) для обнаруженных файлы. Пользователи не могут открыть, перемещение, копирование или общего доступа к файлам вредоносным.<br/>Установка для параметра значение *false* блокирует все действия, за исключением Delete и загрузки. Люди могут выбрать для принятия риск и загрузите файл вредоносным.<br/>Рекомендуется для параметра *значение true*. 
+6. (Рекомендуется) Как глобальный администратор или администратор SharePoint Online, выполните командлет **[Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant?view=sharepoint-ps)** с параметром **DisallowInfectedFileDownload** установлено значение *true*. <br/>
+  - Установка для параметра в *значение true,* блокирует все действия (за исключением Delete) для обнаруженных файлы. Пользователи не могут открыть, перемещение, копирование или общего доступа к файлам вредоносным.
+  - Установка для параметра значение *false* блокирует все действия, за исключением Delete и загрузки. Люди могут выбрать для принятия риск и загрузите файл вредоносным.  
    
 7. Разрешить до 30 минут для применения изменений для распространения для всех центров обработки данных Office 365.
     
@@ -77,16 +75,10 @@ ms.locfileid: "25454296"
   
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- [Просмотр сведений о вредоносных файлов, обнаруженных в SharePoint, OneDrive или группами Майкрософт](malicious-files-detected-in-spo-odb-or-teams.md)
+1. [Просмотр сведений о вредоносных файлов, обнаруженных в SharePoint, OneDrive или группами Майкрософт](malicious-files-detected-in-spo-odb-or-teams.md)
     
-- [Управление сообщений на карантине и файлы с правами администратора в Office 365](manage-quarantined-messages-and-files.md)
+2. [Управление сообщений на карантине и файлы с правами администратора в Office 365](manage-quarantined-messages-and-files.md)
     
-## <a name="related-topics"></a>Смежные темы
 
-[Office 365 Advanced Threat Protection](office-365-atp.md)
-  
-[Просмотр отчетов для защиты расширенного Threat Office 365](view-reports-for-atp.md)
-  
-[Разрешения безопасности Office 365 &amp; центре соответствия требованиям](permissions-in-the-security-and-compliance-center.md)
   
 

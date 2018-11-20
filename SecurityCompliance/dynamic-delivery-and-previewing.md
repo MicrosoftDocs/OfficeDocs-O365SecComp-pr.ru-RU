@@ -3,7 +3,7 @@ title: Динамические доставки и предварительны
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: f16c9928-8e3d-4219-b994-271dc9a16272
 description: При настройке политик безопасные вложения ATP выберите динамических доставки, чтобы избежать задержек сообщение и включить людей для предварительного просмотра вложений, которые выполняется сканирование.
-ms.openlocfilehash: b7b5f05170e6f27cbec9e0d5a121b2f71f16f41a
-ms.sourcegitcommit: cda46434094bc2837dba90256d044ba77552df12
+ms.openlocfilehash: a272253594dda7ea720bb1e8b59e38e870f2f036
+ms.sourcegitcommit: 147768bbe44c8c98c02fa29ae9d882cee4ec2d6b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "25850823"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "26238431"
 ---
 # <a name="dynamic-delivery-and-previewing-with-office-365-atp-safe-attachments"></a>Динамические доставки и предварительный просмотр с Office 365 ATP безопасные вложения
 
@@ -72,16 +72,3 @@ ms.locfileid: "25850823"
 
 - Сообщения, зашифрованные с безопасные многоцелевые расширения почтового стандарта Интернета ([S/MIME](s-mime-for-message-signing-and-encryption.md))
     
-## <a name="related-topics"></a>См. также:
-
-[Office 365 Advanced Threat Protection](office-365-atp.md)
-  
-[Безопасно ATP вложений в Office 365](atp-safe-attachments.md)
-  
-[Настройка политик ATP безопасные вложения в Office 365](set-up-atp-safe-attachments-policies.md)
-  
-[Безопасно ATP ссылок в Office 365](atp-safe-links.md)
-
-[Разрешения безопасности Office 365 &amp; центре соответствия требованиям](permissions-in-the-security-and-compliance-center.md)
-  
-

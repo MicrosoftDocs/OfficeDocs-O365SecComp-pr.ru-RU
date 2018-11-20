@@ -3,7 +3,7 @@ title: Поддержка анонимных входящих сообщений
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 10/4/2017
+ms.date: ''
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -12,17 +12,17 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: b68df621-0a5f-4824-8abc-41e0c4fd1398
-description: Exchange Online Protection (EOP) и Exchange Online поддерживает получение анонимных входящих сообщений электронной почты через IPv6 сообщения, которые не следует отправлять сообщения через безопасности TLS (Transport Layer). Вы можете явного согласия пользователя для получения сообщений по протоколу IPv6, направляемого UNRESOLVED_TOKEN_VAL(exMCSS) эту функцию, откройте Центр администрирования Office 365 в https://portal.office.com/adminportal/home, нажав кнопку поддержки и выбрав команду Создать запрос на обслуживание). Если вы не явного согласия пользователя для IPv6 будет продолжать получать сообщения через IPv4.
-ms.openlocfilehash: 93575c57bb6eac5e0f92066dab3e6ed8b5f4b215
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+description: Узнайте, как настроить поддержку анонимных сообщений из источников IPv6 для Exchange Online Protection и Exchange Online.
+ms.openlocfilehash: 0d324ce6e0ff0ff9104ef597176b09a5a319abc7
+ms.sourcegitcommit: 75b985b2574f4be70cf352498ea300b3d99dd338
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23003018"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255814"
 ---
 # <a name="support-for-anonymous-inbound-email-messages-over-ipv6"></a>Поддержка анонимных входящих сообщений электронной почты по протоколу IPv6
 
-Exchange Online Protection (EOP) и Exchange Online поддерживают получение анонимных входящих сообщений электронной почты по протоколу IPv6 от отправителей, которые не отправляют сообщения по протоколу TLS. Вы можете согласиться на получение сообщений по протоколу IPv6, запросив эти функции из UNRESOLVED_TOKEN_VAL(exMCSS) (для этого откройте Центр администрирования Office 365 по адресу [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home), перейдите в раздел **Поддержка** и выберите **Создание запроса на обслуживание**). Если вы не согласитесь на использование протокола IPv6, вы по-прежнему будете получать сообщения по протоколу IPv4.
+Exchange Online Protection (EOP) и Exchange Online поддерживает получение анонимных входящих сообщений электронной почты через IPv6 сообщения, которые не следует отправлять сообщения через безопасности TLS (Transport Layer). Вы можете явного согласия пользователя для получения сообщений по протоколу IPv6, запрашивая этой функциональности от службы поддержки Майкрософт, откройте Центр администрирования Office 365 в [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home), нажав кнопку **поддержки**и выбрав команду **Создать запрос на обслуживание**). Если вы не явного согласия пользователя для IPv6 будет продолжать получать сообщения через IPv4.
   
 Отправители, передающие сообщения в службу по протоколу IPv6, должны выполнить два приведенных ниже требования.
   
