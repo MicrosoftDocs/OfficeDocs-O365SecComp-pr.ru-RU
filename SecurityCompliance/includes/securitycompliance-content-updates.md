@@ -100,7 +100,7 @@
 |------|------------|--------|
 | 10/23/2018 | [Настройка службы EOP](/Office365/SecurityCompliance/eop/set-up-your-eop-service) | изменено |
 | 10/23/2018 | [Дополнительные сведения об аналитике спуфинга](/Office365/SecurityCompliance/learn-about-spoof-intelligence) | изменено |
-| 10/23/2018 | [Управление юридических расследований в Office 365](/Office365/SecurityCompliance/manage-legal-investigations) | изменено |
+| 10/23/2018 | [Управление расследованиями в Office 365](/Office365/SecurityCompliance/manage-legal-investigations) | изменено |
 | 10/24/2018 | [Начало работы с Office 365 Threat Intelligence](/Office365/SecurityCompliance/get-started-with-ti) | изменено |
 | 10/24/2018 | [Обзор меток конфиденциальности](/Office365/SecurityCompliance/sensitivity-labels) | изменено |
 | 10/24/2018 | [Отправлять уведомления по электронной почте и отображение подсказок политики для политики защиты от потери данных](/Office365/SecurityCompliance/use-notifications-and-policy-tips) | изменено |
@@ -152,18 +152,18 @@
 | 11/2/2018 | [Настройка политик Office 365 ATP безопасных ссылки](/Office365/SecurityCompliance/set-up-atp-safe-links-policies) | изменено |
 
 
-## <a name="week-of-november-05-2018"></a>Неделя 05 ноября 2018
+## <a name="week-of-november-05-2018"></a>Неделя с 5 ноября 2018 г.
 
 
 | Дата публикации |Название статьи | Изменение |
 |------|------------|--------|
-| 11/5/2018 | [Office 365: безопасность и соответствие требованиям](/Office365/SecurityCompliance/index) | изменено |
-| 11/5/2018 | [Оценка безопасности Office 365](/Office365/SecurityCompliance/office-365-secure-score) | изменено |
-| 11/5/2018 | [Автоматическая очистка для защиты от нежелательной почты и вредоносных программ](/Office365/SecurityCompliance/zero-hour-auto-purge) | изменено |
+| 5 ноября 2018 г. | [Office 365: безопасность и соответствие требованиям](/Office365/SecurityCompliance/index) | изменено |
+| 5 ноября 2018 г. | [Оценка безопасности Office 365](/Office365/SecurityCompliance/office-365-secure-score) | изменено |
+| 5 ноября 2018 г. | [Автоматическая очистка для защиты от нежелательной почты и вредоносных программ](/Office365/SecurityCompliance/zero-hour-auto-purge) | изменено |
 | 11/6/2018 | [Как определить тип удержания, примененного для почтового ящика Exchange Online](/Office365/SecurityCompliance/identify-a-hold-on-an-exchange-online-mailbox) | изменено |
 | 11/6/2018 | [Технические сведения о шифровании в Office 365](/Office365/SecurityCompliance/technical-reference-details-about-encryption) | изменено |
 | 11/8/2018 | [Определение правил для потока обработки почты для шифрования сообщений электронной почты в Office 365](/Office365/SecurityCompliance/define-mail-flow-rules-to-encrypt-email) | изменено |
-| 11/8/2018 | [Поиск содержимого в Office 365](/Office365/SecurityCompliance/search-for-content) | изменено |
+| 11/8/2018 | [Поиск содержимого в Office 365](/Office365/SecurityCompliance/search-for-content) | изменено |
 | 11/8/2018 | [Office 365 ATP для SharePoint, OneDrive и Microsoft Teams](/Office365/SecurityCompliance/atp-for-spo-odb-and-teams) | изменено |
 | 11/8/2018 | [Office 365 ATP безопасности вложений](/Office365/SecurityCompliance/atp-safe-attachments) | изменено |
 | 11/8/2018 | [Office 365 безопасных ссылок анализа предупреждение страниц](/Office365/SecurityCompliance/atp-safe-links-warning-pages) | изменено |
@@ -215,3 +215,13 @@
 | 11/16/2018 | [Обзор политик хранения](/Office365/SecurityCompliance/retention-policies) | изменено |
 | 11/16/2018 | [Обзор меток конфиденциальности](/Office365/SecurityCompliance/sensitivity-labels) | изменено |
 | 11/16/2018 | [Используйте проводник в системы &amp; центре соответствия требованиям](/Office365/SecurityCompliance/use-explorer-in-security-and-compliance) | изменено |
+
+
+## <a name="week-of-november-19-2018"></a>Недели после 19 ноября 2018
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 11/19/2018 | [Применение диспетчера соответствия требованиям для соблюдения требований по защите данных и нормативных требований при использовании облачных служб Майкрософт](/Office365/SecurityCompliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud) | изменено |
+| 11/19/2018 | [Включение надстройки Report Message](/Office365/SecurityCompliance/enable-the-report-message-add-in) | изменено |
+| 11/20/2018 | [Поиск по журналу аудита в Центре безопасности и соответствия требованиям Office 365](/Office365/SecurityCompliance/search-the-audit-log-in-security-and-compliance) | изменено |
