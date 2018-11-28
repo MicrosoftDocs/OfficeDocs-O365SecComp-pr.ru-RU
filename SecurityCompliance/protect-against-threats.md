@@ -3,7 +3,6 @@ title: Защита от угроз в Office 365
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 5/30/2018
 ms.audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
@@ -13,97 +12,97 @@ search.appverid:
 - MET150
 ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 description: Узнайте, как Office 365 для предприятия может помочь защитить организацию от различных угроз, включая спуфинг, вредоносных программ, нежелательной почты, попытки и несанкционированного доступа к данным.
-ms.openlocfilehash: 18e91b3a27ff9722a285a4c84f810876e1cab462
-ms.sourcegitcommit: ba2175e394d0cb9f8ede9206aabb44b5b677fa0a
+ms.openlocfilehash: e5e14e66617af6a513979d93aa4764c8843b975f
+ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25496853"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26706063"
 ---
-# <a name="protect-against-threats-in-office-365"></a><span data-ttu-id="c0d53-103">Защита от угроз в Office 365</span><span class="sxs-lookup"><span data-stu-id="c0d53-103">Protect against threats in Office 365</span></span>
+# <a name="protect-against-threats-in-office-365"></a><span data-ttu-id="c52b9-103">Защита от угроз в Office 365</span><span class="sxs-lookup"><span data-stu-id="c52b9-103">Protect against threats in Office 365</span></span>
 
-<span data-ttu-id="c0d53-p101">С помощью Office 365 для предприятия можно защитить организацию от различных угроз, включая спуфинг, вредоносных программ, нежелательной почты, попытки и несанкционированного доступа к данным. Используйте ресурсы на данной странице для изучения защиту от угроз и действия, которые нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="c0d53-p101">With Office 365 Enterprise, you can help protect your organization against a variety of threats, including spoofing, malware, spam, phishing attempts, and unauthorized access to data. Use the resources on this page to learn about threat protection and actions you can take.</span></span>
+<span data-ttu-id="c52b9-p101">С помощью Office 365 для предприятия можно защитить организацию от различных угроз, включая спуфинг, вредоносных программ, нежелательной почты, попытки и несанкционированного доступа к данным. Используйте ресурсы на данной странице для изучения защиту от угроз и действия, которые нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="c52b9-p101">With Office 365 Enterprise, you can help protect your organization against a variety of threats, including spoofing, malware, spam, phishing attempts, and unauthorized access to data. Use the resources on this page to learn about threat protection and actions you can take.</span></span>
   
-## <a name="anti-spoofing"></a><span data-ttu-id="c0d53-106">Защита от спуфинг</span><span class="sxs-lookup"><span data-stu-id="c0d53-106">Anti-spoofing</span></span>
+## <a name="anti-spoofing"></a><span data-ttu-id="c52b9-106">Защита от спуфинг</span><span class="sxs-lookup"><span data-stu-id="c52b9-106">Anti-spoofing</span></span>
 
-<span data-ttu-id="c0d53-107">При использовании настраиваемого домена в Office 365, Справка остановить мошенничества отправителей из вашей организации, повысить уровень безопасности электронной почты и защита репутации для вашего домена.</span><span class="sxs-lookup"><span data-stu-id="c0d53-107">If you're using a custom domain in Office 365, help stop sender fraud from your organization, improve email security, and protect your domain's reputation.</span></span>
+<span data-ttu-id="c52b9-107">При использовании настраиваемого домена в Office 365, Справка остановить мошенничества отправителей из вашей организации, повысить уровень безопасности электронной почты и защита репутации для вашего домена.</span><span class="sxs-lookup"><span data-stu-id="c52b9-107">If you're using a custom domain in Office 365, help stop sender fraud from your organization, improve email security, and protect your domain's reputation.</span></span>
   
-- [<span data-ttu-id="c0d53-108">Запретить Спуфинг с SPF</span><span class="sxs-lookup"><span data-stu-id="c0d53-108">Prevent spoofing with SPF</span></span>](https://go.microsoft.com/fwlink/?linkid=851943)
+- <span data-ttu-id="c52b9-108">[Запретить Спуфинг с SPF]([Set up SPF in Office 365 to help prevent spoofing](set-up-spf-in-office-365-to-help-prevent-spoofing.md))</span><span class="sxs-lookup"><span data-stu-id="c52b9-108">[Prevent spoofing with SPF]([Set up SPF in Office 365 to help prevent spoofing](set-up-spf-in-office-365-to-help-prevent-spoofing.md))</span></span>
     
-- [<span data-ttu-id="c0d53-109">Проверки электронной почты с помощью DKIM</span><span class="sxs-lookup"><span data-stu-id="c0d53-109">Validate outbound email with DKIM</span></span>](https://go.microsoft.com/fwlink/?linkid=851944)
+- <span data-ttu-id="c52b9-109">[Проверки электронной почты с помощью DKIM]([Use DKIM to validate outbound email sent from your custom domain in Office 365](use-dkim-to-validate-outbound-email.md))</span><span class="sxs-lookup"><span data-stu-id="c52b9-109">[Validate outbound email with DKIM]([Use DKIM to validate outbound email sent from your custom domain in Office 365](use-dkim-to-validate-outbound-email.md))</span></span>
     
-- [<span data-ttu-id="c0d53-110">Проверьте электронную почту с DMARC</span><span class="sxs-lookup"><span data-stu-id="c0d53-110">Validate email with DMARC</span></span>](https://go.microsoft.com/fwlink/?linkid=832951)
+- <span data-ttu-id="c52b9-110">[Проверьте электронную почту с DMARC]([Use DMARC to validate email in Office 365](use-dmarc-to-validate-email.md))</span><span class="sxs-lookup"><span data-stu-id="c52b9-110">[Validate email with DMARC]([Use DMARC to validate email in Office 365](use-dmarc-to-validate-email.md))</span></span>
     
-## <a name="anti-spam-amp-anti-malware"></a><span data-ttu-id="c0d53-111">Защита от нежелательной почты &amp; вредоносных программ</span><span class="sxs-lookup"><span data-stu-id="c0d53-111">Anti-spam &amp; anti-malware</span></span>
+## <a name="anti-spam-amp-anti-malware"></a><span data-ttu-id="c52b9-111">Защита от нежелательной почты &amp; вредоносных программ</span><span class="sxs-lookup"><span data-stu-id="c52b9-111">Anti-spam &amp; anti-malware</span></span>
 
-<span data-ttu-id="c0d53-112">Узнайте о оценки защиты от нежелательной почты Office 365, фильтрация подключений и запись данных вредоносных программ, включая параметры по умолчанию, а также сообщение о нежелательном электронной почты.</span><span class="sxs-lookup"><span data-stu-id="c0d53-112">Learn about Office 365 anti-spam scoring, connection filtering, and malware capture, including default settings and how to report malicious email.</span></span>
+<span data-ttu-id="c52b9-112">Узнайте о оценки защиты от нежелательной почты Office 365, фильтрация подключений и запись данных вредоносных программ, включая параметры по умолчанию, а также сообщение о нежелательном электронной почты.</span><span class="sxs-lookup"><span data-stu-id="c52b9-112">Learn about Office 365 anti-spam scoring, connection filtering, and malware capture, including default settings and how to report malicious email.</span></span>
   
-- [<span data-ttu-id="c0d53-113">Защита от нежелательной почты &amp; защита от вредоносных программ</span><span class="sxs-lookup"><span data-stu-id="c0d53-113">Anti-spam &amp; anti-malware protection</span></span>](anti-spam-and-anti-malware-protection.md)
+- [<span data-ttu-id="c52b9-113">Защита от нежелательной почты &amp; защита от вредоносных программ</span><span class="sxs-lookup"><span data-stu-id="c52b9-113">Anti-spam &amp; anti-malware protection</span></span>](anti-spam-and-anti-malware-protection.md)
     
-- [<span data-ttu-id="c0d53-114">Включение ведения журнала для электронной почты</span><span class="sxs-lookup"><span data-stu-id="c0d53-114">Turn on logging for email</span></span>](https://technet.microsoft.com/en-us/library/dn879651.aspx)
+- <span data-ttu-id="c52b9-114">[Включение ведения журнала для электронной почты]([Enable mailbox auditing in Office 365](enable-mailbox-auditing.md))</span><span class="sxs-lookup"><span data-stu-id="c52b9-114">[Turn on logging for email]([Enable mailbox auditing in Office 365](enable-mailbox-auditing.md))</span></span>
     
-- [<span data-ttu-id="c0d53-115">Карантин сообщений электронной почты в Office 365</span><span class="sxs-lookup"><span data-stu-id="c0d53-115">Quarantine email messages in Office 365</span></span>](quarantine-email-messages.md)
+- [<span data-ttu-id="c52b9-115">Карантин сообщений электронной почты в Office 365</span><span class="sxs-lookup"><span data-stu-id="c52b9-115">Quarantine email messages in Office 365</span></span>](quarantine-email-messages.md)
     
-- [<span data-ttu-id="c0d53-116">Отправка подозрительных контент в корпорацию Майкрософт</span><span class="sxs-lookup"><span data-stu-id="c0d53-116">Submit suspicious content to Microsoft</span></span>](https://technet.microsoft.com/en-us/library/dn762129%28v=exchg.150%29.aspx)
+- <span data-ttu-id="c52b9-116">[Отправка подозрительных контент в корпорацию Майкрософт]([Submitting malware and non-malware to Microsoft for analysis](submitting-malware-and-non-malware-to-microsoft-for-analysis.md))</span><span class="sxs-lookup"><span data-stu-id="c52b9-116">[Submit suspicious content to Microsoft]([Submitting malware and non-malware to Microsoft for analysis](submitting-malware-and-non-malware-to-microsoft-for-analysis.md))</span></span>
     
-## <a name="advanced-threat-protection"></a><span data-ttu-id="c0d53-117">Расширенная защита от угроз</span><span class="sxs-lookup"><span data-stu-id="c0d53-117">Advanced Threat Protection</span></span>
+## <a name="advanced-threat-protection"></a><span data-ttu-id="c52b9-117">Расширенная защита от угроз</span><span class="sxs-lookup"><span data-stu-id="c52b9-117">Advanced Threat Protection</span></span>
 
-<span data-ttu-id="c0d53-118">Настройка политик для управления спуфинг, обеспечивает защиту от фишинга и захватить вредоносного URL-адреса или файлов в сообщения электронной почты с расширенного угроз защиты анализа.</span><span class="sxs-lookup"><span data-stu-id="c0d53-118">Configure policies to manage spoofing, protect against phishing attacks, and catch malicious URLs or files in email messages with Advanced Threat Protection (ATP).</span></span>
+<span data-ttu-id="c52b9-118">Настройка политик для управления спуфинг, обеспечивает защиту от фишинга и захватить вредоносного URL-адреса или файлов в сообщения электронной почты с расширенного угроз защиты анализа.</span><span class="sxs-lookup"><span data-stu-id="c52b9-118">Configure policies to manage spoofing, protect against phishing attacks, and catch malicious URLs or files in email messages with Advanced Threat Protection (ATP).</span></span>
   
-- [<span data-ttu-id="c0d53-119">Узнайте о ATP Office 365</span><span class="sxs-lookup"><span data-stu-id="c0d53-119">Learn about Office 365 ATP</span></span>](office-365-atp.md)
+- [<span data-ttu-id="c52b9-119">Узнайте о ATP Office 365</span><span class="sxs-lookup"><span data-stu-id="c52b9-119">Learn about Office 365 ATP</span></span>](office-365-atp.md)
     
-- [<span data-ttu-id="c0d53-120">Узнайте о подделка аналитики</span><span class="sxs-lookup"><span data-stu-id="c0d53-120">Learn about spoof intelligence</span></span>](learn-about-spoof-intelligence.md)
+- [<span data-ttu-id="c52b9-120">Узнайте о подделка аналитики</span><span class="sxs-lookup"><span data-stu-id="c52b9-120">Learn about spoof intelligence</span></span>](learn-about-spoof-intelligence.md)
     
-- [<span data-ttu-id="c0d53-121">Настройка политик фишинга</span><span class="sxs-lookup"><span data-stu-id="c0d53-121">Set up anti-phishing policies</span></span>](set-up-anti-phishing-policies.md)
+- [<span data-ttu-id="c52b9-121">Настройка политик фишинга</span><span class="sxs-lookup"><span data-stu-id="c52b9-121">Set up anti-phishing policies</span></span>](set-up-anti-phishing-policies.md)
     
-- [<span data-ttu-id="c0d53-122">Настройка политик безопасных ссылок ATP</span><span class="sxs-lookup"><span data-stu-id="c0d53-122">Set up ATP Safe Links policies</span></span>](set-up-atp-safe-links-policies.md)
+- [<span data-ttu-id="c52b9-122">Настройка политик безопасных ссылок ATP</span><span class="sxs-lookup"><span data-stu-id="c52b9-122">Set up ATP Safe Links policies</span></span>](set-up-atp-safe-links-policies.md)
     
-- [<span data-ttu-id="c0d53-123">Настройка политик безопасных вложений ATP</span><span class="sxs-lookup"><span data-stu-id="c0d53-123">Set up ATP Safe Attachments policies</span></span>](set-up-atp-safe-attachments-policies.md)
+- [<span data-ttu-id="c52b9-123">Настройка политик безопасных вложений ATP</span><span class="sxs-lookup"><span data-stu-id="c52b9-123">Set up ATP Safe Attachments policies</span></span>](set-up-atp-safe-attachments-policies.md)
     
-## <a name="encryption"></a><span data-ttu-id="c0d53-124">Шифрование</span><span class="sxs-lookup"><span data-stu-id="c0d53-124">Encryption</span></span>
+## <a name="encryption"></a><span data-ttu-id="c52b9-124">Шифрование</span><span class="sxs-lookup"><span data-stu-id="c52b9-124">Encryption</span></span>
 
-<span data-ttu-id="c0d53-p102">Получить краткое руководство по шифрования, Настройка политик управления правами и шифрование электронной почты и настроить дополнительные параметры. Получите подробные сведения о корневой сертификат, используемый с наших серверов почты для Office 365.</span><span class="sxs-lookup"><span data-stu-id="c0d53-p102">Get a primer on encryption, set up rights management policies and email encryption, and configure additional encryption settings. Get details about the root certificate used by our mail servers for Office 365.</span></span>
+<span data-ttu-id="c52b9-p102">Получить краткое руководство по шифрования, Настройка политик управления правами и шифрование электронной почты и настроить дополнительные параметры. Получите подробные сведения о корневой сертификат, используемый с наших серверов почты для Office 365.</span><span class="sxs-lookup"><span data-stu-id="c52b9-p102">Get a primer on encryption, set up rights management policies and email encryption, and configure additional encryption settings. Get details about the root certificate used by our mail servers for Office 365.</span></span>
   
-- [<span data-ttu-id="c0d53-127">Сведения о шифровании в Office 365</span><span class="sxs-lookup"><span data-stu-id="c0d53-127">Learn about encryption in Office 365</span></span>](encryption.md)
+- [<span data-ttu-id="c52b9-127">Сведения о шифровании в Office 365</span><span class="sxs-lookup"><span data-stu-id="c52b9-127">Learn about encryption in Office 365</span></span>](encryption.md)
     
-- [<span data-ttu-id="c0d53-128">Настройка шифрования в Office 365 корпоративный</span><span class="sxs-lookup"><span data-stu-id="c0d53-128">Set up encryption in Office 365 Enterprise</span></span>](set-up-encryption.md)
+- [<span data-ttu-id="c52b9-128">Настройка шифрования в Office 365 корпоративный</span><span class="sxs-lookup"><span data-stu-id="c52b9-128">Set up encryption in Office 365 Enterprise</span></span>](set-up-encryption.md)
     
-- [<span data-ttu-id="c0d53-129">Шифрование сообщений Office 365 (OME)</span><span class="sxs-lookup"><span data-stu-id="c0d53-129">Office 365 Message Encryption (OME)</span></span>](ome.md)
+- [<span data-ttu-id="c52b9-129">Шифрование сообщений Office 365 (OME)</span><span class="sxs-lookup"><span data-stu-id="c52b9-129">Office 365 Message Encryption (OME)</span></span>](ome.md)
     
-- [<span data-ttu-id="c0d53-130">Реализация свести свой ключ (BYOK)</span><span class="sxs-lookup"><span data-stu-id="c0d53-130">Implement bring your own key (BYOK)</span></span>](https://docs.microsoft.com/azure/key-vault/key-vault-hsm-protected-keys#implementing-bring-your-own-key-byok-for-azure-key-vault)
+- [<span data-ttu-id="c52b9-130">Реализация свести свой ключ (BYOK)</span><span class="sxs-lookup"><span data-stu-id="c52b9-130">Implement bring your own key (BYOK)</span></span>](https://docs.microsoft.com/azure/key-vault/key-vault-hsm-protected-keys#implementing-bring-your-own-key-byok-for-azure-key-vault)
     
-## <a name="managing-devices-amp-apps"></a><span data-ttu-id="c0d53-131">Управление устройствами &amp; приложений</span><span class="sxs-lookup"><span data-stu-id="c0d53-131">Managing devices &amp; apps</span></span>
+## <a name="managing-devices-amp-apps"></a><span data-ttu-id="c52b9-131">Управление устройствами &amp; приложений</span><span class="sxs-lookup"><span data-stu-id="c52b9-131">Managing devices &amp; apps</span></span>
 
-<span data-ttu-id="c0d53-132">Мониторинг и контроля доступа как мобильных устройств данные Office 365 и bПричиной уязвимости является или утверждение мобильных приложений, используемых в вашей организации.</span><span class="sxs-lookup"><span data-stu-id="c0d53-132">Monitor and control how mobile devices access your Office 365 data, and ban or approve mobile apps in use at your organization.</span></span>
+<span data-ttu-id="c52b9-132">Мониторинг и контроля доступа как мобильных устройств данные Office 365 и bПричиной уязвимости является или утверждение мобильных приложений, используемых в вашей организации.</span><span class="sxs-lookup"><span data-stu-id="c52b9-132">Monitor and control how mobile devices access your Office 365 data, and ban or approve mobile apps in use at your organization.</span></span>
   
-- [<span data-ttu-id="c0d53-133">Создание и развертывание политик безопасности устройств</span><span class="sxs-lookup"><span data-stu-id="c0d53-133">Create and deploy device security policies</span></span>](https://support.office.com/article/d310f556-8bfb-497b-9bd7-fe3c36ea2fd6)
+- [<span data-ttu-id="c52b9-133">Создание и развертывание политик безопасности устройств</span><span class="sxs-lookup"><span data-stu-id="c52b9-133">Create and deploy device security policies</span></span>](https://support.office.com/article/d310f556-8bfb-497b-9bd7-fe3c36ea2fd6)
     
-- [<span data-ttu-id="c0d53-134">Управление разрешениями приложений с помощью Office 365 Cloud App Security</span><span class="sxs-lookup"><span data-stu-id="c0d53-134">Manage app permissions using Office 365 Cloud App Security</span></span>](manage-app-permissions-in-ocas.md)
+- [<span data-ttu-id="c52b9-134">Управление разрешениями приложений с помощью Office 365 Cloud App Security</span><span class="sxs-lookup"><span data-stu-id="c52b9-134">Manage app permissions using Office 365 Cloud App Security</span></span>](manage-app-permissions-in-ocas.md)
     
-## <a name="threat-intelligence"></a><span data-ttu-id="c0d53-135">Анализ угроз</span><span class="sxs-lookup"><span data-stu-id="c0d53-135">Threat intelligence</span></span>
+## <a name="threat-intelligence"></a><span data-ttu-id="c52b9-135">Анализ угроз</span><span class="sxs-lookup"><span data-stu-id="c52b9-135">Threat intelligence</span></span>
 
-<span data-ttu-id="c0d53-136">Определите, отслеживать и понять атак и быстро угрозы, связанные с адреса с помощью обмена мнениями и знания, доступные для предотвращения атак.</span><span class="sxs-lookup"><span data-stu-id="c0d53-136">Identify, monitor, and understand attacks, and quickly address threats by using the insights and knowledge available to prevent attacks.</span></span>
+<span data-ttu-id="c52b9-136">Определите, отслеживать и понять атак и быстро угрозы, связанные с адреса с помощью обмена мнениями и знания, доступные для предотвращения атак.</span><span class="sxs-lookup"><span data-stu-id="c52b9-136">Identify, monitor, and understand attacks, and quickly address threats by using the insights and knowledge available to prevent attacks.</span></span>
   
-- [<span data-ttu-id="c0d53-137">Обзор Office 365 Threat аналитики</span><span class="sxs-lookup"><span data-stu-id="c0d53-137">Get an overview of Office 365 Threat Intelligence</span></span>](office-365-ti.md)
+- [<span data-ttu-id="c52b9-137">Обзор Office 365 Threat аналитики</span><span class="sxs-lookup"><span data-stu-id="c52b9-137">Get an overview of Office 365 Threat Intelligence</span></span>](office-365-ti.md)
     
-- [<span data-ttu-id="c0d53-138">Начало работы с Office 365 Threat Intelligence</span><span class="sxs-lookup"><span data-stu-id="c0d53-138">Get started with Office 365 Threat Intelligence</span></span>](get-started-with-ti.md)
+- [<span data-ttu-id="c52b9-138">Начало работы с Office 365 Threat Intelligence</span><span class="sxs-lookup"><span data-stu-id="c52b9-138">Get started with Office 365 Threat Intelligence</span></span>](get-started-with-ti.md)
     
-## <a name="privileged-access-management"></a><span data-ttu-id="c0d53-139">управление привилегированным доступом;</span><span class="sxs-lookup"><span data-stu-id="c0d53-139">Privileged access management</span></span>
+## <a name="privileged-access-management"></a><span data-ttu-id="c52b9-139">управление привилегированным доступом;</span><span class="sxs-lookup"><span data-stu-id="c52b9-139">Privileged access management</span></span>
 
-<span data-ttu-id="c0d53-p103">Позволяет защитить организацию от нарушения безопасности, которые могут использовать существующие учетные записи с правами администратора с положение доступа к конфиденциальным данным или доступ к параметрам конфигурации важных. После включения управление правами доступа, пользователям потребуется запросить необходимые права доступа в время для выполнения задач с повышенными полномочиями и привилегированных через рабочего процесса утверждения, который является очень областью действия и временные рамки.</span><span class="sxs-lookup"><span data-stu-id="c0d53-p103">Help protect your organization from breaches that may use existing privileged admin accounts with standing access to sensitive data or access to critical configuration settings. After enabling privileged access management, users will need to request just-in-time access to complete elevated and privileged tasks through an approval workflow that is highly scoped and time-bound.</span></span>
+<span data-ttu-id="c52b9-p103">Позволяет защитить организацию от нарушения безопасности, которые могут использовать существующие учетные записи с правами администратора с положение доступа к конфиденциальным данным или доступ к параметрам конфигурации важных. После включения управление правами доступа, пользователям потребуется запросить необходимые права доступа в время для выполнения задач с повышенными полномочиями и привилегированных через рабочего процесса утверждения, который является очень областью действия и временные рамки.</span><span class="sxs-lookup"><span data-stu-id="c52b9-p103">Help protect your organization from breaches that may use existing privileged admin accounts with standing access to sensitive data or access to critical configuration settings. After enabling privileged access management, users will need to request just-in-time access to complete elevated and privileged tasks through an approval workflow that is highly scoped and time-bound.</span></span>
   
-- [<span data-ttu-id="c0d53-142">Узнайте о полномочиями доступ к управлению</span><span class="sxs-lookup"><span data-stu-id="c0d53-142">Get an overview of privileged access management</span></span>](privileged-access-management-overview.md)
+- [<span data-ttu-id="c52b9-142">Узнайте о полномочиями доступ к управлению</span><span class="sxs-lookup"><span data-stu-id="c52b9-142">Get an overview of privileged access management</span></span>](privileged-access-management-overview.md)
     
-- [<span data-ttu-id="c0d53-143">Начало работы с правами доступа к управлению</span><span class="sxs-lookup"><span data-stu-id="c0d53-143">Get started with privileged access management</span></span>](privileged-access-management-configuration.md)
+- [<span data-ttu-id="c52b9-143">Начало работы с правами доступа к управлению</span><span class="sxs-lookup"><span data-stu-id="c52b9-143">Get started with privileged access management</span></span>](privileged-access-management-configuration.md)
 
-## <a name="additional-options"></a><span data-ttu-id="c0d53-144">Дополнительные параметры</span><span class="sxs-lookup"><span data-stu-id="c0d53-144">Additional options</span></span>
+## <a name="additional-options"></a><span data-ttu-id="c52b9-144">Дополнительные параметры</span><span class="sxs-lookup"><span data-stu-id="c52b9-144">Additional options</span></span>
 
-<span data-ttu-id="c0d53-145">Получите дополнительные сведения о связанных технологиях Майкрософт и процессы, которые помогают безопасной Office 365 от угроз.</span><span class="sxs-lookup"><span data-stu-id="c0d53-145">Get more information about related Microsoft technologies and processes that help secure Office 365 against threats.</span></span>
+<span data-ttu-id="c52b9-145">Получите дополнительные сведения о связанных технологиях Майкрософт и процессы, которые помогают безопасной Office 365 от угроз.</span><span class="sxs-lookup"><span data-stu-id="c52b9-145">Get more information about related Microsoft technologies and processes that help secure Office 365 against threats.</span></span>
   
-- [<span data-ttu-id="c0d53-146">Сведения об управлении правами Azure</span><span class="sxs-lookup"><span data-stu-id="c0d53-146">Learn about Azure Rights Management</span></span>](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)
+- [<span data-ttu-id="c52b9-146">Сведения об управлении правами Azure</span><span class="sxs-lookup"><span data-stu-id="c52b9-146">Learn about Azure Rights Management</span></span>](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)
     
-- [<span data-ttu-id="c0d53-147">Сведения о хранилище Azure ключа</span><span class="sxs-lookup"><span data-stu-id="c0d53-147">Learn about Azure Key Vault</span></span>](https://docs.microsoft.com/azure/key-vault/)
+- [<span data-ttu-id="c52b9-147">Сведения о хранилище Azure ключа</span><span class="sxs-lookup"><span data-stu-id="c52b9-147">Learn about Azure Key Vault</span></span>](https://docs.microsoft.com/azure/key-vault/)
     
-- [<span data-ttu-id="c0d53-148">Узнайте о изоляция клиента</span><span class="sxs-lookup"><span data-stu-id="c0d53-148">Learn about tenant isolation</span></span>](http://download.microsoft.com/download/3/F/0/3F0420A2-657B-44B6-B21E-D7BD98A94390/Tenant%20Isolation%20in%20Office%20365.pdf)
+- [<span data-ttu-id="c52b9-148">Узнайте о изоляция клиента</span><span class="sxs-lookup"><span data-stu-id="c52b9-148">Learn about tenant isolation</span></span>](http://download.microsoft.com/download/3/F/0/3F0420A2-657B-44B6-B21E-D7BD98A94390/Tenant%20Isolation%20in%20Office%20365.pdf)
     
 
