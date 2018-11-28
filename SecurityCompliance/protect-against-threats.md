@@ -3,7 +3,6 @@ title: Защита от угроз в Office 365
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 5/30/2018
 ms.audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
@@ -13,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 description: Узнайте, как Office 365 для предприятия может помочь защитить организацию от различных угроз, включая спуфинг, вредоносных программ, нежелательной почты, попытки и несанкционированного доступа к данным.
-ms.openlocfilehash: 18e91b3a27ff9722a285a4c84f810876e1cab462
-ms.sourcegitcommit: ba2175e394d0cb9f8ede9206aabb44b5b677fa0a
+ms.openlocfilehash: e5e14e66617af6a513979d93aa4764c8843b975f
+ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25496853"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26706063"
 ---
 # <a name="protect-against-threats-in-office-365"></a>Защита от угроз в Office 365
 
@@ -28,11 +27,11 @@ ms.locfileid: "25496853"
 
 При использовании настраиваемого домена в Office 365, Справка остановить мошенничества отправителей из вашей организации, повысить уровень безопасности электронной почты и защита репутации для вашего домена.
   
-- [Запретить Спуфинг с SPF](https://go.microsoft.com/fwlink/?linkid=851943)
+- [Запретить Спуфинг с SPF]([Set up SPF in Office 365 to help prevent spoofing](set-up-spf-in-office-365-to-help-prevent-spoofing.md))
     
-- [Проверки электронной почты с помощью DKIM](https://go.microsoft.com/fwlink/?linkid=851944)
+- [Проверки электронной почты с помощью DKIM]([Use DKIM to validate outbound email sent from your custom domain in Office 365](use-dkim-to-validate-outbound-email.md))
     
-- [Проверьте электронную почту с DMARC](https://go.microsoft.com/fwlink/?linkid=832951)
+- [Проверьте электронную почту с DMARC]([Use DMARC to validate email in Office 365](use-dmarc-to-validate-email.md))
     
 ## <a name="anti-spam-amp-anti-malware"></a>Защита от нежелательной почты &amp; вредоносных программ
 
@@ -40,11 +39,11 @@ ms.locfileid: "25496853"
   
 - [Защита от нежелательной почты &amp; защита от вредоносных программ](anti-spam-and-anti-malware-protection.md)
     
-- [Включение ведения журнала для электронной почты](https://technet.microsoft.com/en-us/library/dn879651.aspx)
+- [Включение ведения журнала для электронной почты]([Enable mailbox auditing in Office 365](enable-mailbox-auditing.md))
     
 - [Карантин сообщений электронной почты в Office 365](quarantine-email-messages.md)
     
-- [Отправка подозрительных контент в корпорацию Майкрософт](https://technet.microsoft.com/en-us/library/dn762129%28v=exchg.150%29.aspx)
+- [Отправка подозрительных контент в корпорацию Майкрософт]([Submitting malware and non-malware to Microsoft for analysis](submitting-malware-and-non-malware-to-microsoft-for-analysis.md))
     
 ## <a name="advanced-threat-protection"></a>Расширенная защита от угроз
 

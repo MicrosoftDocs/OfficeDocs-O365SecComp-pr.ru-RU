@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 description: Узнайте, как включить сообщения отчета надстройки для Outlook и Outlook на веб-сайте, для отдельных пользователей или всей организации.
-ms.openlocfilehash: a62e3e6250d2eccd2109a71f994713e2dd1b262e
-ms.sourcegitcommit: 6669b7aae26965145e85d9613d3091bf389f000b
+ms.openlocfilehash: f35899d3f0be9ee07cb6dae5c5fec40395948340
+ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2018
-ms.locfileid: "26618925"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26706373"
 ---
 # <a name="enable-the-report-message-add-in"></a>Включение надстройки Report Message
 
@@ -59,7 +59,7 @@ ms.locfileid: "26618925"
 ## <a name="get-and-enable-the-report-message-add-in-for-your-organization"></a>Получение и включить надстройку сообщения отчета для вашей организации
 
 > [!IMPORTANT]
-> Должен быть глобального администратора Office 365 или администратора Exchange Online для выполнения этой задачи. Кроме того Exchange должен быть настроен для использования проверки подлинности OAuth на дополнительные сведения, в разделе [requirements Exchange (централизованного развертывания надстроек)](https://docs.microsoft.com/en-us/office365/admin/manage/centralized-deployment-of-add-ins&view=o365-worldwide#exchange-requirements). 
+> Должен быть глобального администратора Office 365 или администратора Exchange Online для выполнения этой задачи. Кроме того Exchange должен быть настроен для использования проверки подлинности OAuth на дополнительные сведения, в разделе [requirements Exchange (централизованного развертывания надстроек)](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins&view=o365-worldwide#exchange-requirements). 
 
 1. Перейдите на [службы & страницы надстроек](https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns) в центре администрирования нового Microsoft 365.<br/>![Страница служб и надстройки в центре администрирования нового 365 Microsoft](media/ServicesAddInsPageNewM365AdminCenter.png)<br/> 
     

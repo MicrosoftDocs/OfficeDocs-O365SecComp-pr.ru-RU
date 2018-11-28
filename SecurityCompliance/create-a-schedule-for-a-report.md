@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: a74f637b-3710-4c41-b70f-b5a812929a81
 description: Узнайте, как задать расписание для отчета в системы &amp; центре соответствия требованиям.
-ms.openlocfilehash: 411379d0be2d0af3843c3ccfec87ea6184fdb0c8
-ms.sourcegitcommit: e0c6f99d5514d8da8a70d9bd3616d1a1c0851254
+ms.openlocfilehash: 4251296c75629062ca5cba2e6c2e1cb3972b3f8a
+ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2018
-ms.locfileid: "25552357"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26706023"
 ---
 # <a name="create-a-schedule-for-a-report-in-the-security-amp-compliance-center"></a>Создать расписание для отчета в системы &amp; центре соответствия требованиям
 
@@ -29,7 +29,7 @@ ms.locfileid: "25552357"
 > [!IMPORTANT]
 > Убедитесь, что необходимые разрешения для выполнения этой задачи. В общем случае Office 365 для глобальных администраторов, администраторов безопасности и читатели безопасности можно доступа к отчетам в безопасности &amp; центре соответствия требованиям. Чтобы узнать больше о разрешениях, обратитесь к разделу [разрешения безопасности Office 365 &amp; центре соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
   
-1. В разделе Безопасность &amp; центре соответствия требованиям, чтобы перейти к **отчетам** \> **панели мониторинга**.
+1. В [безопасности &amp; центре соответствия требованиям](https://security.microsoft.com), перейдите к **отчетам** \> **панели мониторинга**.
     
 2. Выберите отчет. В данном примере мы будем выберите отчет о состоянии защиты от угроз.
     
@@ -47,7 +47,7 @@ ms.locfileid: "25552357"
     
 После создания расписания для отчета, отчет доставки по электронной почте адреса получателей emali автоматически. 
   
-## <a name="related-topics"></a>Смежные темы
+## <a name="related-topics"></a>Связанные статьи
 
 [Отчеты и полезные сведения о безопасности Office 365 &amp; центре соответствия требованиям](reports-and-insights-in-security-and-compliance.md)
   
