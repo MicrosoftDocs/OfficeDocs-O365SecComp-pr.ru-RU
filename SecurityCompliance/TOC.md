@@ -265,6 +265,7 @@
 ## [Интеграция сервера SIEM](siem-server-integration.md)
 
 # Решения для соответствия требованиям
+## [Начало работы с Microsoft Service Trust Portal](get-started-with-service-trust-portal.md)
 ## [Применение диспетчера соответствия требованиям для соблюдения требований по защите данных и нормативных требований при использовании облачных служб Майкрософт](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
 ## [Управление запросами субъектов данных GDPR с помощью средства для работы с делами DSR](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)
 ## [Защита информации в Office 365 в соответствии с GDPR](office-365-information-protection-for-gdpr.md)
