@@ -233,6 +233,7 @@
 ## [Включение и отключение поиска в журнале аудита](turn-audit-log-search-on-or-off.md)
 ## [Включение аудита почтовых ящиков](enable-mailbox-auditing.md)
 ## [Подробные свойства в журнале аудита](detailed-properties-in-the-office-365-audit-log.md)
+## [Использование журнала аудита для устранения неполадок в типовых сценариях](auditing-troubleshooting-scenarios.md)
 ## [Использование аудита общего доступа в журнале аудита](use-sharing-auditing.md)
 ## [Поиск действий по обнаружению электронных данных в журнале аудита](search-for-ediscovery-activities-in-the-audit-log.md)
 # [Мониторинг безопасности и соответствия требованиям]()
