@@ -3,7 +3,7 @@ title: Включение и отключение советов по безоп
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 10/6/2017
+ms.date: 12/05/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: f09668bd-fe1a-4c01-89e3-e88c370e66c7
 description: Сведения о Office 365 и EOP "Администраторы" Включить и отключить советы по безопасности в сообщениях электронной почты.
-ms.openlocfilehash: 3a8257f9d34ec5def54e2b9c9e919172366d023f
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 8e5d8bf1d2f831b5d74ca3accd8b434519bfeaab
+ms.sourcegitcommit: 204fb0269b5c10b63941055824e863d77e3e9b02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534949"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27180859"
 ---
 # <a name="enable-or-disable-safety-tips-in-office-365"></a>Включение и отключение советов по безопасности в Office 365
 
@@ -36,9 +36,9 @@ Office 365 включает советы по безопасности по ум
 ## <a name="to-enable-or-disable-safety-tips-by-using-the-office-365-security-amp-compliance-center"></a>Чтобы включить или отключить советы по безопасности с помощью Office 365 безопасность &amp; центре соответствия требованиям
 <a name="SandCCsafetytip"> </a>
 
-1. Последовательно выберите пункты [https://protection.office.com](https://protection.office.com).
+1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
     
-2. Войдите в Office 365 с помощью рабочей или учебной учетной записи.
+2. Войдите в Office 365 с помощью своей рабочей или учебной учетной записи.
     
 3. Выберите **Threat Management** \> **политики**. 
     
@@ -60,7 +60,7 @@ Office 365 включает советы по безопасности по ум
     
 9. Чтобы включить советы по безопасности, в разделе **Советы по безопасности**, установите флажок **на** . Чтобы отключить советы по безопасности, снимите флажок **на** . 
     
-10. Нажмите **Сохранить**.
+10. Нажмите кнопку **Сохранить**.
     
 ## <a name="to-enable-or-disable-safety-tips-by-using-powershell"></a>Чтобы включить или отключить советы по безопасности с помощью PowerShell
 <a name="pshellsafetytip"> </a>
@@ -75,7 +75,7 @@ Office 365 включает советы по безопасности по ум
   Set-HostedContentFilterPolicy -Identity "policy name " -InlineSafetyTipsEnabled <$true|$false>
   ```
 
-    Где:
+Где:
     
   -  *Имя политики* — это имя политики, которую требуется изменить, например **по умолчанию**.
     
@@ -89,9 +89,9 @@ Office 365 включает советы по безопасности по ум
   PS C:\> Set-HostedContentFilterPolicy -Identity "default" -InlineSafetyTipsEnabled $false
   ```
 
-    Дополнительные сведения о этот командлет [Set-HostedContentFilterPolicy](https://technet.microsoft.com/library/jj200781.aspx)см.
+Дополнительные сведения о этот командлет [Set-HostedContentFilterPolicy](https://technet.microsoft.com/library/jj200781.aspx)см.
     
-## <a name="still-need-help"></a>По-прежнему требуется помощь?
+## <a name="still-need-help"></a>Есть дополнительные вопросы?
 <a name="pshellsafetytip"> </a>
 
 Если вы отключены советы по безопасности, но по-прежнему отображается их в сообщениях электронной почты, проверьте следующие моменты:
