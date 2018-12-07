@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: Strat_O365_IP
 ms.assetid: fd505979-76be-4d9f-b459-abef3fc9e86b
 description: Защита от потери данных (DLP) в Office 365 безопасность &amp; центре соответствия требованиям включает в себя 80 типы конфиденциальной информации, готовые к использованию в политиках защиты от потери данных. В этом разделе перечислены все эти типы конфиденциальной информации и показывает, что политики защиты от потери данных выполняет поиск при обнаружении каждого типа.
-ms.openlocfilehash: 5097227d8efa833f255631febde50b937add48ef
-ms.sourcegitcommit: ede6230c2df398dc0a633e8f32ee0bfede0d5142
+ms.openlocfilehash: 4b083f80e02c80053b63ee897b2515a4505c16d9
+ms.sourcegitcommit: 8c5a88433cff23c59b436260808cf3d91b06fdef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25002692"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27194740"
 ---
 # <a name="what-the-sensitive-information-types-look-for"></a>Что позволяют искать типы конфиденциальной информации
 
@@ -285,8 +285,6 @@ iaea
 - international driving permits
 - 
 australian automobile association
-- 
-sydney nsw
 - 
 international driving permit
 - DriverLicence
@@ -2214,13 +2212,13 @@ no. do cartao
 
 ### <a name="format"></a>Формат
 
-10 цифр.
+11 разрядов
 
 ### <a name="pattern"></a>Шаблон
 
-10 цифр:
-- шесть цифр в виде ДДММГГ — дата рождения; 
-- четыре цифры, где последняя цифра — проверочная.
+11 цифр:
+- 10 цифр. 
+- Окончательный цифра — это цифра возврата в целях международных данных exchange, букв отдела Кадров добавляются предыдущих одиннадцать цифр.
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -2261,18 +2259,31 @@ no. do cartao
  
 
    
-## <a name="czech-national-identity-card-number"></a>	Номер внутреннего удостоверения личности для Чехии
+## <a name="czech-personal-identity-number"></a>Чешский личные номер
 
 ### <a name="format"></a>Формат
 
-10 цифр с косой чертой.
+Девяти цифр с необязательным косая черта (старый формат) 10 цифр и необязательные косая черта (новый формат)
 
 ### <a name="pattern"></a>Шаблон
 
-10 цифр:
-- шесть цифр — дата рождения; 
+Девяти цифр (старый формат):
+- девять цифр.
+
+ИЛИ
+
+- Шести цифр, представляющих Дата рождения
+- косая черта;
+- Три цифры
+
+10 цифр (новый формат):
+- 10 цифр.
+
+ИЛИ
+
+- Шести цифр, представляющих Дата рождения
 - косая черта; 
-- четыре цифры, где последняя цифра — проверочная.
+- Четыре цифры, где последнего цифра — это цифра проверки
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -2283,21 +2294,18 @@ no. do cartao
 Политика защиты от потери данных — это 85% уверены в том, что этот тип конфиденциальных данных обнаружил if в рамках близости 300 знаков: Func_czech_id_card поиска контента, который соответствует шаблону. Ключевое слово из Keyword_czech_id_card найти. Контрольная сумма передает.
 
 ```
-<!-- Czech National Identity Card Number -->
-<Entity id="60c0725a-4eb6-455b-9dda-05d8a7396497" recommendedConfidence="85" patternsProximity="300">
-  <Pattern confidenceLevel="85">
-     <IdMatch idRef="Func_czech_id_card"/>
-     <Match idRef="Keyword_czech_id_card"/>
-  </Pattern>
+<!-- Czech Personal Identity Number -->
+<Entity id="60c0725a-4eb6-455b-9dda-05d8a7396497"      patternsProximity="300" recommendedConfidence="85">
+   <Pattern confidenceLevel="85">
+      <IdMatch idRef="Func_czech_id_card" />
+      <Match idRef="Keyword_czech_id_card" />
+   </Pattern>
 </Entity>
 ```
-
-
 ### <a name="keywords"></a>Ключевые слова
 
-- Keyword_czech_id_card
-- Czech national identity card
-- Občanský průka
+- Чешский личные номер
+- Rodné číslo
    
 ## <a name="denmark-personal-identification-number"></a>	Индивидуальный идентификационный номер для Дании
 
@@ -3744,13 +3752,47 @@ bnationalit.t
 
 #### <a name="keywordhongkongidcard"></a>Keyword_hong_kong_id_card
 
-- Hong Kong Identity Card
-- HKID
-- ID card
+- Номер идентификационной карты (Гонконг)
+- HKIDC
+- Карточка
+- identity card
+- hk идентификационной карты
+- идентификатор (Гонконг)
 - 香港身份證
- 
+
 - 香港永久性居民身份證
- 
+
+- 身份證
+
+- 身份証
+- 身分證 
+- 身分証
+- 香港身份証
+- 香港身分證
+- 香港身分証
+- 香港身份證
+
+- 香港居民身份證
+- 香港居民身份証
+- 香港居民身分證
+- 香港居民身分証
+- 香港永久性居民身份証
+- 香港永久性居民身分證
+- 香港永久性居民身分証
+- 香港永久性居民身份證
+
+- 香港非永久性居民身份證
+- 香港非永久性居民身份証
+- 香港非永久性居民身分證
+- 香港非永久性居民身分証
+- 香港特別行政區永久性居民身份證
+- 香港特別行政區永久性居民身份証
+- 香港特別行政區永久性居民身分證
+- 香港特別行政區永久性居民身分証
+- 香港特別行政區非永久性居民身份證
+- 香港特別行政區非永久性居民身份証
+- 香港特別行政區非永久性居民身分證
+- 香港特別行政區非永久性居民身分証
    
 ## <a name="india-permanent-account-number-pan"></a>Идентификационный номер налогоплательщика для Индии (PAN)
 
@@ -4662,6 +4704,48 @@ Otemachi
  
 - 社会保険番号
  
+
+## <a name="japanese-residence-card-number"></a>Номер карты проживания японского языка
+
+### <a name="format"></a>Формат
+
+12 только буквы и цифры
+
+### <a name="pattern"></a>Шаблон
+
+12 только буквы и цифры:
+- две буквы (без учета регистра);
+- восемь цифр. 
+- две буквы (без учета регистра);
+
+### <a name="checksum"></a>Контрольная сумма
+
+Нет
+
+### <a name="definition"></a>Определение
+
+Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
+- Регулярное выражение Regex_jp_residence_card_number находит контент, который соответствует шаблону.
+- Ключевое слово из Keyword_jp_residence_card_number найти.
+
+```
+<!--Japan Residence Card Number-->
+-<Entity id="ac36fef2-a289-4e2c-bb48-b02366e89fc0" recommendedConfidence="75" patternsProximity="300">
+   -<Pattern confidenceLevel="75">
+      <IdMatch idRef="Regex_jp_residence_card_number"/>
+      <Match idRef="Keyword_jp_residence_card_number"/>
+   </Pattern>
+</Entity>
+```
+
+### <a name="keywords"></a>Ключевые слова
+
+#### <a name="keywordjpresidencecardnumber"></a>Keyword_jp_residence_card_number
+
+- Номер карты проживания
+- Проживания карточками нет
+- Проживания карт #
+- 在留カード番号
    
 ## <a name="malaysia-id-card-number"></a>Номер удостоверения личности для Малайзии
 
@@ -4704,16 +4788,30 @@ Otemachi
    
 #### <a name="keywordmalaysiaidcardnumber"></a>Keyword_malaysia_id_card_number
 
-- MyKad 
-- Identity Card 
-- Карточка 
-- Идентификация карточки 
-- Digital Application Card
- 
-- Kad Akuan Diri
- 
-- Kad Aplikasi Digital
- 
+- Карточка цифровой приложения
+- я / c
+- я / c нет
+- IC
+- IC нет
+- Карточка
+- Идентификация карточки
+- identity card
+- k/p
+- k/p не
+- kad akuan diri
+- цифровой aplikasi kad
+- Малайзия pengenalan kad
+- ключевого
+- ключевого нет
+- mykad
+- mykas
+- mykid
+- mypr
+- mytentera
+- Малайзия идентификационной карты
+- малазийскую идентификационной карты
+- nric
+- Личная карточка идентификации
    
 ## <a name="netherlands-citizens-service-bsn-number"></a>Номер гражданской службы для Нидерландов (BSN)
 
@@ -4946,12 +5044,16 @@ Keyword_nz_terms
 
 #### <a name="keywordpolishnationalidpassportnumber"></a>Keyword_polish_national_id_passport_number
 
+- Dowód osobisty
+- Номер dowodu osobistego
+- Nazwa я osobistego dowodu номер
+- Nazwa я nr dowodu osobistego
 - Nazwa i nr dowodu tożsamości
- 
+
 - Dowód Tożsamości
- 
+
 - dow. os.
- 
+
 
    
 ## <a name="poland-national-id-pesel"></a>Национальный идентификатор (PESEL), Польша
@@ -5029,12 +5131,9 @@ Keyword_nz_terms
 
 #### <a name="keywordpolishnationalidpassportnumber"></a>Keyword_polish_national_id_passport_number
 
-- Nazwa i nr dowodu tożsamości
- 
-- Dowód Tożsamości
- 
-- dow. os.
- 
+- Номер paszportu
+- Paszportu nr.
+- Paszport
 
    
 ## <a name="portugal-citizen-card-number"></a>Номер карты гражданина Португалии
@@ -5721,7 +5820,101 @@ Passeport n °
  
 - 台灣地區居留證
  
-   
+
+## <a name="thai-population-identification-code"></a>Тайский совокупности код
+
+### <a name="format"></a>Формат
+
+13 цифр.
+
+### <a name="pattern"></a>Шаблон
+
+13 цифр:
+- Первая цифра не 0 или 9 
+- 12 цифр.
+
+### <a name="checksum"></a>Контрольная сумма
+
+Да
+
+### <a name="definition"></a>Определение
+
+Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
+- Функция Func_Thai_Citizen_Id находит контент, который соответствует шаблону.
+- Ключевое слово из Keyword_Thai_Citizen_Id найти.
+
+Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
+- Функция Func_Thai_Citizen_Id находит контент, который соответствует шаблону.
+
+```
+<!-- Thai Citizen ID -->
+-<Entity id="44ca9e86-ead7-4c5d-884a-e2eaa401515e" recommendedConfidence="75" patternsProximity="300">
+   -<Pattern confidenceLevel="85">
+      <IdMatch idRef="Func_Thai_Citizen_Id"/>
+      <Match idRef="Keyword_Thai_Citizen_Id"/>
+   </Pattern>
+   -<Pattern confidenceLevel="75">
+      <IdMatch idRef="Func_Thai_Citizen_Id"/>
+   </Pattern>
+</Entity>
+```
+
+### <a name="keywords"></a>Ключевые слова
+
+#### <a name="keywordthaicitizenid"></a>Keyword_Thai_Citizen_Id
+
+- ID Number
+- Идентификационный номер
+- บัตรประชาชน
+- รหัสบัตรประชาชน
+- บัตรประชาชน
+- รหัสบัตรประชาชน
+  
+## <a name="turkish-national-identification-number"></a>Турецкий национальный идентификационный номер
+
+### <a name="format"></a>Формат
+
+11 разрядов
+
+### <a name="pattern"></a>Шаблон
+
+11 разрядов
+
+### <a name="checksum"></a>Контрольная сумма
+
+Да
+
+### <a name="definition"></a>Определение
+
+Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
+- Функция Func_Turkish_National_Id находит контент, который соответствует шаблону.
+- Ключевое слово из Keyword_Turkish_National_Id найти.
+
+Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
+- Функция Func_Turkish_National_Id находит контент, который соответствует шаблону.
+
+```
+<!-- Turkish National Identity -->
+-<Entity id="fb621f20-3876-4cfc-acec-8c8e73ca32c7" recommendedConfidence="75" patternsProximity="300">
+   -<Pattern confidenceLevel="85">
+      <IdMatch idRef="Func_Turkish_National_Id"/>
+      <Match idRef="Keyword_Turkish_National_Id"/>
+   </Pattern>
+   -<Pattern confidenceLevel="75">
+      <IdMatch idRef="Func_Turkish_National_Id"/>
+   </Pattern>
+</Entity>
+```
+
+### <a name="keywords"></a>Ключевые слова
+
+#### <a name="keywordturkishnationalid"></a>Keyword_Turkish_National_Id
+
+- No Kimlik ТРАД.
+- Numarası Kimlik ТРАД.
+- Vatandaşlık numarası
+- Vatandaşlık нет
+
 ## <a name="uk-drivers-license-number"></a>Номер водительского удостоверения для Соединенного Королевства
 
 ### <a name="format"></a>Формат
@@ -5930,7 +6123,7 @@ Passeport n °
 - Шесть цифр
 - Либо 'A', 'B', 'C', или имелся "(только для определенных символов в допускаются суффикс; не учитывают регистр, как префикс)
 
-OR
+ИЛИ
 
 - Два букв
 - Пробел или тире

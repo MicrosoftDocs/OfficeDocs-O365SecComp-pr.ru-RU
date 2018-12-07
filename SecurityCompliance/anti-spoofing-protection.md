@@ -3,7 +3,7 @@ title: Защита от спуфинга в Office 365
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 10/11/2018
+ms.date: 12/06/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: d24bb387-c65d-486e-93e7-06a4f1a436c0
 description: В этой статье описывается, как Office 365 устраняет от фишинга, что использует подделан отправителя домены, то есть, которые являются подменены. Оно выполняет анализ сообщения и neithe блокировку из них, которые могут быть проверку подлинности с помощью методов проверки подлинности стандартных электронной почты, а также других методов репутации отправителя. Чтобы сократить количество фишинга организаций в Office 365 представлены в реализуется это изменение.
-ms.openlocfilehash: 231f66b094a98363375a68fbddc8b71077b7baa4
-ms.sourcegitcommit: a36d2692396786f49c8765c65145e5093578e9a1
+ms.openlocfilehash: 95f4995b6447870700bc483f205ca3ff831045f5
+ms.sourcegitcommit: 8c5a88433cff23c59b436260808cf3d91b06fdef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25498115"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27194720"
 ---
 # <a name="anti-spoofing-protection-in-office-365"></a>Защита от спуфинга в Office 365
 
@@ -302,17 +302,17 @@ Set-AntiphishPolicy -Identity $name <fill in rest of parameters>
   
 ![Сведения о политике защиты от фишинга по умолчанию](media/30c21ceb-df52-4c93-aa65-f44a55dc1009.jpg)
   
-Далее в 2018, чтобы настроить в целях безопасности по умолчанию с помощью PowerShell:
+Чтобы настроить в целях безопасности по умолчанию с помощью PowerShell:
   
 ```
-$defaultAntiphishPolicy = Get-AntiphishingPolicy -IsDefault $true
+$defaultAntiphishPolicy = Get-AntiphishPolicy | ? {$_.IsDefault -eq $true}
 Set-AntiphishPolicy -Identity $defaultAntiphishPolicy.Name -EnableAntispoofEnforcement <$true|$false>
 ```
 
 Спуфинг anti защиты только следует отключить, если у вас есть другой почтовый сервер или серверы перед Office 365 (допустимых сценарии для отключения anti спуфинг для получения дополнительных сведений см). 
   
 ```
-$defaultAntiphishPolicy = Get-AntiphishingPolicy -IsDefault $true
+$defaultAntiphishPolicy = Get-AntiphishiPolicy | ? {$_.IsDefault $true}
 Set-AntiphishPolicy -Identity $defaultAntiphishPolicy.Name -EnableAntispoofEnforcement $false 
 
 ```
@@ -412,10 +412,10 @@ Set-PhishFilterPolicy -Identity Default -SpoofAllowBlockList $UpdateSpoofedSende
   
 В общем случае политики, применяемой к сообщению идентифицируется в заголовок X-Forefront-Antispam-Report в свойстве кошка (категории). 
   
-|**Priority**|**Политики**|**Категория**|**Где управляемые?**|**Относится к**|
+|**Priority (Приоритет)**|**Политика**|**Категория**|**Где управляемые?**|**Относится к**|
 |:-----|:-----|:-----|:-----|:-----|
 |1   <br/> |Вредоносная программа  <br/> |MALW  <br/> |[Политики вредоносных программ](https://technet.microsoft.com/en-us/library/jj200745%28v=exchg.150%29.aspx) <br/> |Всей организации  <br/> |
-|2   <br/> |Фишинга  <br/> |PHSH  <br/> |[Политики размещенной фильтрации содержимого](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |Всей организации  <br/> |
+|2   <br/> |Фишинговое  <br/> |PHSH  <br/> |[Политики размещенной фильтрации содержимого](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |Всей организации  <br/> |
 |3   <br/> |Нежелательное сообщение высокого уровня  <br/> |HSPM  <br/> |[Политики размещенной фильтрации содержимого](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |Всей организации  <br/> |
 |4   <br/> |Спуфинг  <br/> |ПОДДЕЛКА  <br/> |[Защита от фишинга политики](https://go.microsoft.com/fwlink/?linkid=864553), [Подделка аналитики](https://support.office.com/article/Learn-more-about-spoof-intelligence-978c3173-3578-4286-aaf4-8a10951978bf) <br/> |Всей организации  <br/> |
 |5   <br/> |Нежелательное сообщение  <br/> |SPM  <br/> |[Политики размещенной фильтрации содержимого](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |Всей организации  <br/> |
@@ -425,7 +425,7 @@ Set-PhishFilterPolicy -Identity Default -SpoofAllowBlockList $UpdateSpoofedSende
    
 При наличии нескольких разных политик фишинга, будет выполняться для одного с наивысшим приоритетом. Например предположим, что у вас есть две политики:
   
-|**Политики**|**Priority**|**Олицетворение пользователя или домена**|**Защита от спуфинг**|
+|**Политика**|**Priority (Приоритет)**|**Олицетворение пользователя или домена**|**Защита от спуфинг**|
 |:-----|:-----|:-----|:-----|
 |A  <br/> |1   <br/> |Вкл.  <br/> |Выкл.  <br/> |
 |B  <br/> |2   <br/> |Выкл.  <br/> |Вкл.  <br/> |
