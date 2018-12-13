@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: f4caa4e1-e414-4b21-8822-31c08064c059
 description: В этой статье приведены сведения об устранении неполадок при отправке почты в почтовые ящики в Office 365 и рекомендации по массовой рассылке почты клиентам Office 365.
-ms.openlocfilehash: 3d8c0a05d096da87b9f686222055d76a6ae96ff2
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+ms.openlocfilehash: 3d90da9ac239971fd888ed3b8637ba9941628fc2
+ms.sourcegitcommit: 031781d0eecf33baabcd03ea53546d41076062b4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23003208"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240562"
 ---
 # <a name="troubleshooting-mail-sent-to-office-365"></a>Устранение неполадок с отправкой почты в Office 365
 
@@ -115,7 +115,7 @@ ms.locfileid: "23003208"
 ### <a name="i-cant-receive-email-from-senders-in-office-365"></a>Я не получаю почту от пользователей Office 365
 <a name="AllowEOPIPs"> </a>
 
- Для получения сообщений из наших пользователей, убедитесь, что сеть используется для подключений из IP-адресов, которые использует EOP в нашем центров обработки данных. Дополнительные сведения см в [Exchange Online Protection IP-адреса](eop/exchange-online-protection-ip-addresses.md). Для записи всех IP-адресов, которые были добавлены, изменены или устаревшие за последний год видеть [уведомления об изменении для IP-адресов EOP](eop/change-notification-for-eop-ip-addresses.md).
+ Для получения сообщений из наших пользователей, убедитесь, что сеть используется для подключений из IP-адресов, которые использует EOP в нашем центров обработки данных. Дополнительные сведения см в [Exchange Online Protection IP-адреса](eop/exchange-online-protection-ip-addresses.md). 
   
 ## <a name="best-practices-for-bulk-emailing-to-office-365-users"></a>Рекомендации по массовой рассылке почты пользователям Office 365
 <a name="BulkMailer"> </a>
