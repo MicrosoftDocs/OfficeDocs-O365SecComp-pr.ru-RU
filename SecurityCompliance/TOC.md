@@ -186,7 +186,6 @@
 ## [Настройка границ соответствия для расследований дел обнаружения электронных данных в Office 365](set-up-compliance-boundaries.md)
 ## [Серия решений для обнаружения электронных данных. Поиск и очистка в сценарии утечки данных](data-spillage-scenariosearch-and-purge.md)
 ## [Подготовка результатов поиска для Advanced eDiscovery](prepare-search-results-for-advanced-ediscovery.md)
-## [Назначение разрешений на обнаружение электронных данных для сайтов OneDrive для бизнеса](assign-permissions-to-onedrive-for-business-sites.md)
 ## [Использование сценария для добавления пользователей в состояние удержания в деле обнаружения электронных данных](use-a-script-to-add-users-to-a-hold-in-ediscovery.md)
 ## [Создание отчета об удержаниях в делах обнаружения электронных данных](create-a-report-on-holds-in-ediscovery-cases.md)
 ## Управление случаями удержания
