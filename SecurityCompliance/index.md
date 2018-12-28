@@ -5,19 +5,18 @@ services: office-365-security-compliance
 author: robmazz
 manager: laurawi
 layout: LandingPage
-ms.assetid: ''
 ms.service: office-365
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
-ms.date: 8/21/2018
+ms.date: 12/27/2018
 ms.author: robmazz
-ms.openlocfilehash: ed61d7995ab4b684f775b58f9fb4cd830222117a
-ms.sourcegitcommit: e5da81dd4c6ca7caa0f884fffff3876e87e2b217
+ms.openlocfilehash: 255bde226f5a284f2ac20d65124d4722e2357385
+ms.sourcegitcommit: 55762890e5129a5240054990ce64e93007ed7a32
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26254556"
+ms.lasthandoff: 12/27/2018
+ms.locfileid: "27449883"
 ---
 # <a name="office-365-security-and-compliance"></a>Office 365: безопасность и соответствие требованиям
 
@@ -52,7 +51,7 @@ ms.locfileid: "26254556"
                     </div>
                     <div class="cardText">
                         <h3>Дальнейшие действия в течение 90 дней</h3>
-                        <p>Эти задачи выполните немного больше времени для планирования и реализации, но значительно повышения уровня безопасности. <br> - <a href="attack-simulator.md">Проведение симуляции атаки</a> <br> - <a href="meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md">Обзор диспетчера соответствия требованиям</a> <br> - <a href="https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure">Настройка инфраструктуры управления удостоверениями Azure привилегированной</a> <br> - <a href="https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks">Включение многофакторной проверки подлинности</a> <br> - <a href="protect-against-threats.md">Просмотр и обновление политик защиты</a> </p>
+                        <p>Эти задачи выполните немного больше времени для планирования и реализации, но значительно повышения уровня безопасности. <br> - <a href="attack-simulator.md">Проведение симуляции атаки</a> <br> - <a href="meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md">Обзор диспетчера соответствия требованиям</a> <br> - <a href="https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure">Настройка инфраструктуры управления удостоверениями Azure привилегированной</a> <br> - <a href="privileged-access-management-configuration.md">Настройка управления правами доступа</a>  <br> - <a href="https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks">Включение многофакторной проверки подлинности</a> <br> - <a href="protect-against-threats.md">Просмотр и обновление политик защиты</a> </p>
                     </div>
                 </div>
             </div>
@@ -70,7 +69,7 @@ ms.locfileid: "26254556"
                     <div class="cardText">
                         <h3>Более 90 дней</h3>
                         <p>Существуют следующие меры безопасности, основанные на предыдущей работы.<br>
-                        - <a href="https://securescore.office.com" target="_blank">Просмотрите безопасный счета</a><br>
+                        - <a href="office-365-secure-score.md" target="_blank">Просмотрите безопасный счета</a><br>
                         - <a href="https://docs.microsoft.com/windows-server/identity/securing-privileged-access/securing-privileged-access">Реализация безопасного привилегированный доступ</a><br>
                         - <a href="https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection">Защита от удостоверения Azure AD</a><br>
                         - <a href="protect-against-threats.md">Уточнение по защите</a><br></p>
@@ -97,8 +96,8 @@ ms.locfileid: "26254556"
                     <div class="cardText">
                         <h3>Обеспечение</h3>
                         <p><a href="security-roadmap.md">Обзор безопасности Office 365</a></p>
-                        <p><a href="https://securescore.microsoft.com" target="_blank">Оценки безопасности Microsoft</a></p>
-                        <p><a href="https://protection.office.com" target="_blank">Центр соответствия требованиям и безопасности Office 365</a></p>
+                        <p><a href="office-365-secure-score.md" target="_blank">Оценки безопасности Microsoft</a></p>
+                        <p><a href="https://protection.office.com" target="_blank">Центр безопасности и соответствия требованиям Office 365</a></p>
                     </div>
                 </div>
             </div>
