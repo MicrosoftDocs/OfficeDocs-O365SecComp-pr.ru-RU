@@ -126,7 +126,7 @@
 ### [Обеспечение безопасности пользователей Office 365 с помощью Office 365 Threat Intelligence](keep-users-safe-with-office-365-ti.md)
 ### [Средства отслеживания новых и заметных угроз](threat-trackers.md)
 ### [Использование обозревателя в Центре безопасности и соответствия требованиям](use-explorer-in-security-and-compliance.md)
-## [Обзор Office 365 Cloud App Security](office-365-cas-overview.md)
+## [Office 365 Cloud App Security](office-365-cas-overview.md)
 ### [Что нового в Office 365 Cloud App Security](new-in-office-365-cas.md)
 #### [Обновления за 2017 г.](new-in-office-365-cas-2017.md)
 ### [Подготовка к использованию Office 365 Cloud App Security](get-ready-for-office-365-cas.md)
