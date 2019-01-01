@@ -92,7 +92,7 @@
 ### [Шифрование электронной почты в Office 365](email-encryption.md)
 ### [Шифрование сообщений Office 365 (OME)](ome.md)
 #### [Настройка новых возможностей шифрования сообщений Office 365](set-up-new-message-encryption-capabilities.md)
-#### [Определение правил потока обработки почты для шифрования сообщений электронной почты в Office 365](https://docs.microsoft.com/ru-RU/office365/securitycompliance/define-mail-flow-rules-to-encrypt-mail.md)
+#### [Определение правил потока обработки почты для шифрования сообщений электронной почты в Office 365](define-mail-flow-rules-to-encrypt-email.md)
 #### [Управление шифрованием сообщений Office 365](manage-office-365-message-encryption.md)
 #### [Вопросы и ответы по шифрованию сообщений Office 365](ome-faq.md)
 #### [Отзыв электронных писем, зашифрованных с помощью шифрования сообщений Office 365](revoke-ome-encrypted-mail.md)
