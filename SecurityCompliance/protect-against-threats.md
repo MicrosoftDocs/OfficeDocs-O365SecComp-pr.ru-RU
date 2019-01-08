@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 description: Узнайте, как Office 365 для предприятия может помочь защитить организацию от различных угроз, включая спуфинг, вредоносных программ, нежелательной почты, попытки и несанкционированного доступа к данным.
-ms.openlocfilehash: e5e14e66617af6a513979d93aa4764c8843b975f
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: 38fc2590b8693989befcf399e32ef378ab89495d
+ms.sourcegitcommit: 30faa3ba91cab4c36e3d8d8ed5858d5269ea8a56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706063"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "27749313"
 ---
 # <a name="protect-against-threats-in-office-365"></a>Защита от угроз в Office 365
 
@@ -27,11 +27,11 @@ ms.locfileid: "26706063"
 
 При использовании настраиваемого домена в Office 365, Справка остановить мошенничества отправителей из вашей организации, повысить уровень безопасности электронной почты и защита репутации для вашего домена.
   
-- [Запретить Спуфинг с SPF]([Set up SPF in Office 365 to help prevent spoofing](set-up-spf-in-office-365-to-help-prevent-spoofing.md))
+- [Настройка SPF в Office 365 для предотвращения спуфинга](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
     
-- [Проверки электронной почты с помощью DKIM]([Use DKIM to validate outbound email sent from your custom domain in Office 365](use-dkim-to-validate-outbound-email.md))
+- [Проверка исходящей электронной почты, отправляемой с личного домена в Office 365, с помощью DKIM](use-dkim-to-validate-outbound-email.md)
     
-- [Проверьте электронную почту с DMARC]([Use DMARC to validate email in Office 365](use-dmarc-to-validate-email.md))
+- [Использование протокола DMARC для проверки электронной почты в Office 365](use-dmarc-to-validate-email.md)
     
 ## <a name="anti-spam-amp-anti-malware"></a>Защита от нежелательной почты &amp; вредоносных программ
 
@@ -39,11 +39,11 @@ ms.locfileid: "26706063"
   
 - [Защита от нежелательной почты &amp; защита от вредоносных программ](anti-spam-and-anti-malware-protection.md)
     
-- [Включение ведения журнала для электронной почты]([Enable mailbox auditing in Office 365](enable-mailbox-auditing.md))
+- [Включение аудита почтовых ящиков в Office 365](enable-mailbox-auditing.md)
     
 - [Карантин сообщений электронной почты в Office 365](quarantine-email-messages.md)
     
-- [Отправка подозрительных контент в корпорацию Майкрософт]([Submitting malware and non-malware to Microsoft for analysis](submitting-malware-and-non-malware-to-microsoft-for-analysis.md))
+- [Отправка обычных и вредоносных программ в корпорацию Майкрософт для анализа](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)
     
 ## <a name="advanced-threat-protection"></a>Расширенная защита от угроз
 
