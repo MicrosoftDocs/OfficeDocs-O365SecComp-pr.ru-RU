@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 description: Если ваша организация отправляет много Массовая рассылка, помеченный как нежелательная почта, может получить запретом отправляет сообщения электронной почты с помощью Office 365. В этой статье, чтобы узнать больше о почему это происходит и что можно сделать о нем.
-ms.openlocfilehash: 947ea4ed7a37b2ba1c5332aa07582fa4c4949eb0
-ms.sourcegitcommit: 17c7e18d7d00135b1af40cbea117c9a817a41117
+ms.openlocfilehash: 2d198bc1b61da429f45f0d1f54c63876d59d890f
+ms.sourcegitcommit: 03e64ead7805f3dfa9149252be8606efe50375df
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24972251"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "27769813"
 ---
 # <a name="controlling-outbound-spam-in-office-365"></a>Контроль над исходящим спамом в Office 365
 
