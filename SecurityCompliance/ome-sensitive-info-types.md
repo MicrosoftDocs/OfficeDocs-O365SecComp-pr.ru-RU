@@ -3,7 +3,7 @@ title: Новая политика шифрования сообщений Offic
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 1/7/2019
+ms.date: 1/9/2019
 ROBOTS: NOINDEX, NOFOLLOW
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
 description: 'Сводка: Автоматически применяется политика шифрования сообщений Office 365 для развертывания для всех клиентов типы конфиденциальной информации.'
-ms.openlocfilehash: f5996707d1cafe8dc1bf90856878de0a4fb7b77b
-ms.sourcegitcommit: 30faa3ba91cab4c36e3d8d8ed5858d5269ea8a56
+ms.openlocfilehash: a8cd132af2b1429698ea92779a3c54559e2b13e2
+ms.sourcegitcommit: b936a2fd4b7f7a7099b96cc29580ed55bdb8bf2b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "27752094"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789457"
 ---
 # <a name="office-365-message-encryption-policy-for-sensitive-information"></a>Политика шифрования сообщений Office 365 для конфиденциальной информации
 
@@ -30,7 +30,7 @@ ms.locfileid: "27752094"
 
 ## <a name="sensitive-information-type-policy-details"></a>Сведения о политике типов конфиденциальной информации
 
-Правило поток почты Exchange будут создаваться в вашей организации, которые будут автоматически шифровать сообщения электронной почты за пределами вашей организации с *Зашифровать-только для* политики, если они содержат следующие типы конфиденциальной информации:
+Правило поток почты Exchange будут создаваться в вашей организации, которые будут автоматически шифровать сообщения электронной почты за пределами вашей организации с *Зашифровать-только для* политики, если по электронной почте или вложения содержат следующие типы конфиденциальной информации:
 
 - Код банка ABA
 - Номер кредитной карты
@@ -70,6 +70,6 @@ ms.locfileid: "27752094"
    Set-IRMConfiguration -AutomaticServiceUpdateEnabled $false
    ```
 
-## <a name="how-do-i-disable-the-automatic-policy"></a>Как отключить автоматическое политики?
+## <a name="how-do-i-disable-or-customize-the-automatic-policy"></a>Как отключить или настроить автоматическую политики?
 
-Если вы не отказаться от этого изменения правила почты Exchange уже создана, можно [отключить правило](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules#enable-or-disable-a-mail-flow-rule) , перейдя на **поток почты** > **правил** в Exchange admin center (EAC) и отключить правило «*шифровать исходящие конфиденциальные сообщения электронной почты (вне поля правила)*«.
+Если вы не отказаться от этого изменения и правила потока обработки почты Exchange уже создана, можно [отключить или изменить правило](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules#enable-or-disable-a-mail-flow-rule) , перейдя на **поток почты** > **правил** в Exchange admin center (EAC) и отключить правило «*зашифровать Исходящие конфиденциальные сообщения электронной почты (вне поля правила)*«.
