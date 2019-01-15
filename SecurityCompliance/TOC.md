@@ -156,7 +156,7 @@
 ### [Просмотр статистики ключевых слов для результатов поиска контента](view-keyword-statistics-for-content-search.md)
 ### [Экспорт результатов поиска контента ](export-search-results.md)
 ### [Экспорт отчета о поиске контента](export-a-content-search-report.md)
-### [Поиск и удаление сообщений электронной почты](search-for-and-delete-messagesadmin-help.md)
+### [Поиск и удаление сообщений электронной почты](search-for-and-delete-messages-in-your-organization.md)
 ### [Поиск облачных почтовых ящиков локальных пользователей в Office 365](search-cloud-based-mailboxes-for-on-premises-users.md)
 ### [Операции массового редактирования нескольких поисков контента](bulk-edit-content-searches.md)
 ### [Подготовка CSV-файла для поиска контента по списку идентификаторов](csv-file-for-an-id-list-content-search.md)
@@ -264,9 +264,9 @@
 ## [Интеграция сервера SIEM](siem-server-integration.md)
 
 # Решения для соответствия требованиям
-## [Начало работы с Microsoft Service Trust Portal](get-started-with-service-trust-portal.md)
-## [Применение диспетчера соответствия требованиям для соблюдения требований по защите данных и нормативных требований при использовании облачных служб Майкрософт](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
-## [Управление запросами субъектов данных GDPR с помощью средства для работы с делами DSR](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)
+## [Microsoft Service Trust Portal](get-started-with-service-trust-portal.md)
+## [Диспетчер соответствия требованиям](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
+## [Средство запросов субъектов данных GDPR](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)
 ## [Защита информации в Office 365 в соответствии с GDPR](office-365-information-protection-for-gdpr.md)
 ### [Обзор защиты в Office 365 в соответствии с GDPR](office-365-info-protection-for-gdpr-overview.md)
 ### [Поиск персональных данных](search-for-and-find-personal-data.md)
