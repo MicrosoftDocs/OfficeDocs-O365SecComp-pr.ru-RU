@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 15fa4545-28b4-4dd4-bf85-88e0926bd5fc
 description: 'Office 365 облачных приложений безопасности можно увидеть, что происходит в вашей среде Office 365, поиск и исследование мероприятий и учетных записей. '
-ms.openlocfilehash: 6b5aca33a73fbfaecf8133368a33956ddc92da7a
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: d988a86c5ceaa2ec46bc27f1aaff540fa3e0b3b4
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706463"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28014901"
 ---
 # <a name="investigate-an-activity-in-office-365-cloud-app-security"></a>Анализ действий в Office 365 Cloud App Security
   
@@ -30,7 +30,7 @@ Office 365 безопасности приложения облачных раб
   
 ## <a name="how-to-get-to-the-activity-log-page"></a>Получение страницы журналов активности
 
-1. Как глобальный администратор или администратор безопасности, перейдите к [https://security.microsoft.com](https://security.microsoft.com) и выполнить вход с помощью учетной записи рабочего или школы. (Увидеть [разрешения безопасности Office 365 &amp; центре соответствия требованиям](permissions-in-the-security-and-compliance-center.md).)
+1. Как глобальный администратор или администратор безопасности, перейдите к [https://protection.office.com](https://protection.office.com) и выполнить вход с помощью учетной записи рабочего или школы. (Увидеть [разрешения безопасности Office 365 &amp; центре соответствия требованиям](permissions-in-the-security-and-compliance-center.md).)
     
 2. В разделе Безопасность &amp; центре соответствия требованиям, выберите **оповещения** \> **Расширенное Управление оповещениями**.
     

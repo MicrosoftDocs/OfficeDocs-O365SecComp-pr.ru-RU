@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: a097f5ca-eac0-44a4-bbce-365f35b79ed1
 description: Узнайте о системы отслеживания дефектов угроз, включая новые значимые системы отслеживания дефектов, Оставайтесь в курсе соображений безопасности организации.
-ms.openlocfilehash: e9dfdde563260ff7969f4749357c130ab98ce386
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: 7729a78d0b18df7d73751f4480ef095bedc5965b
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706383"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015001"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>Средства отслеживания новых и заметных угроз
 
@@ -35,7 +35,7 @@ ms.locfileid: "26706383"
   
 Системы отслеживания дефектов описываются только некоторые из множеством замечательных функций, которые можно получить с помощью [Анализ угроз Office 365](office-365-ti.md). Если доступен новый системы отслеживания дефектов угроз будет включать [значимые системы отслеживания дефектов](threat-trackers.md#notey), [системы отслеживания дефектов тенденций](threat-trackers.md#trending), [отслеживаемых](threat-trackers.md#trackedq)и [запросы Saved](threat-trackers.md#savedq).
   
-Для просмотра и используйте вашей системы отслеживания дефектов угроз, когда они станут доступными для вашей организации, откройте раздел Безопасность &amp; центре соответствия требованиям ([https://security.microsoft.com](https://security.microsoft.com)) и выберите пункт **Threat management** \> **средство отслеживания угроз**.
+Для просмотра и используйте вашей системы отслеживания дефектов угроз, когда они станут доступными для вашей организации, откройте раздел Безопасность &amp; центре соответствия требованиям ([https://protection.office.com](https://protection.office.com)) и выберите пункт **Threat management** \> **средство отслеживания угроз**.
   
 > [!NOTE]
 > Для использования системы отслеживания дефектов угроз, должен быть глобального администратора Office 365, администратор безопасности или безопасности чтения. Просмотреть [разрешения безопасности Office 365 &amp; центре соответствия требованиям](permissions-in-the-security-and-compliance-center.md). 

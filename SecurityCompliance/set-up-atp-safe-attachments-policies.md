@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: 078eb946-819a-4e13-8673-fe0c0ad3a775
 description: Определение политик безопасные вложения для защиты от вредоносных файлов в электронной почты вашей организации.
-ms.openlocfilehash: 7c2bcfd1d9faad48cb8852b066f544abd1fb6ace
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: c5c18e3e8300a5cb8eabb8a099d6757a09170ff7
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706073"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28014881"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Настройка политик Office 365 ATP безопасные вложения
 
@@ -43,7 +43,7 @@ ms.locfileid: "26706073"
     
 ## <a name="step-2-set-up-or-edit-an-atp-safe-attachments-policy"></a>Шаг 2: Настройка (или изменение) политику ATP безопасные вложения
   
-1. Как глобальный администратор или администратор безопасности, перейдите к [https://security.microsoft.com](https://security.microsoft.com) и войдите с учетной записи рабочего или школы. 
+1. Как глобальный администратор или администратор безопасности, перейдите к [https://protection.office.com](https://protection.office.com) и войдите с учетной записи рабочего или школы. 
     
 2. В Office 365 безопасность &amp; центре соответствия требованиям в левой области навигации, в разделе **Управление угроз**, выберите **политику** \> **Безопасные вложения**.
     

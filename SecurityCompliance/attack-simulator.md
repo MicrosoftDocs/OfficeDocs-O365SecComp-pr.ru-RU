@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: da5845db-c578-4a41-b2cb-5a09689a551b
 description: Как глобальный администратор Office 365 имитатора атаки можно использовать для запуска сценариев реалистичной атак в вашей организации. Это может помочь определить и найти уязвимы пользователей перед реальных атаки попадает бизнеса.
-ms.openlocfilehash: 1a1d22b0b36ce8b6a2086296be8f8b5d47d79280
-ms.sourcegitcommit: d512c1df01377e305e8d5c0170c822cf78f09565
+ms.openlocfilehash: 3449e29197aa5a7a0b63a805ad8cc429f8f8f81b
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "27472002"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015041"
 ---
 # <a name="attack-simulator-in-office-365"></a>Эмулятор атак в Office 365
 
@@ -66,7 +66,7 @@ ms.locfileid: "27472002"
   
 Вы можете создавать расширенного редактора HTML непосредственно в поле **текст сообщения электронной почты** , самого или работать с исходного HTML-кода.
   
-1. В [безопасности &amp; центре соответствия требованиям](https://security.microsoft.com), выберите **Threat management** \> **имитатора атаки**.
+1. В [безопасности &amp; центре соответствия требованиям](https://protection.office.com), выберите **Threat management** \> **имитатора атаки**.
     
 2. Укажите имя удобной для восприятия кампании для атаки или выберите шаблон. <br/>![Начальная страница фишинга](media/5e93b3cc-5981-462f-8b45-bdf85d97f1b8.jpg)
   
@@ -96,7 +96,7 @@ ms.locfileid: "27472002"
   
 ### <a name="to-simulate-a-password-spray-attack"></a>Для моделирования атаки распылителя пароль
 
-1. В [безопасности &amp; центре соответствия требованиям](https://security.microsoft.com), выберите **Threat management** \> **имитатора атаки**.
+1. В [безопасности &amp; центре соответствия требованиям](https://protection.office.com), выберите **Threat management** \> **имитатора атаки**.
     
 2. Укажите имя удобной для восприятия кампании для атаки.
     
@@ -112,7 +112,7 @@ ms.locfileid: "27472002"
   
 ### <a name="to-simulate-a-brute-force-password-attack"></a>Для моделирования атаки перебора паролей
 
-1. В [безопасности &amp; центре соответствия требованиям](https://security.microsoft.com), выберите **Threat management** \> **имитатора атаки**.
+1. В [безопасности &amp; центре соответствия требованиям](https://protection.office.com), выберите **Threat management** \> **имитатора атаки**.
     
 2. Укажите имя удобной для восприятия кампании для атаки.
     

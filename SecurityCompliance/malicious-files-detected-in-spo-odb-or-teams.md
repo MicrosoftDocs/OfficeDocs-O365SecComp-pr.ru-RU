@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5ed8abf1-c0e9-4e5b-a5b7-2059cea50b61
 description: Узнайте, куда обращаться, чтобы просмотреть сведения о вредоносных файлов, обнаруженных в SharePoint, OneDrive и группам, а также выполнять операции эти файлы.
-ms.openlocfilehash: c22e57e34cccafa3dd30a77a5a6011f2999f708c
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: 435e1f449003f670f698c4e6813e18f5e83c498d
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706203"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28014801"
 ---
 # <a name="view-information-about-malicious-files-detected-in-sharepoint-onedrive-or-microsoft-teams"></a>Просмотр сведений о вредоносных файлов, обнаруженных в SharePoint, OneDrive или группами Майкрософт
 
@@ -29,7 +29,7 @@ ms.locfileid: "26706203"
 
 Чтобы просмотреть состояние, а также подробные сведения о файлах, обнаруженных с Office 365 ATP, можно использовать отчет о состоянии защиты от угроз.
   
-1. В [безопасности Office 365 &amp; центре соответствия требованиям](https://security.microsoft.com), выберите **отчеты о** \> **панели мониторинга** \> **Состояние защиты от угроз**.
+1. В [безопасности Office 365 &amp; центре соответствия требованиям](https://protection.office.com), выберите **отчеты о** \> **панели мониторинга** \> **Состояние защиты от угроз**.
     
 2. В правом верхнем углу отчета выберите **Таблица сведения о представлении**.
     

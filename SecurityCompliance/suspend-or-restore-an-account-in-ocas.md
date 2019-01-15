@@ -3,7 +3,7 @@ title: Приостановка или восстановление учетно
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 2/26/2018
+ms.date: 12/03/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5f02d20f-b9aa-4b2f-ad2d-506a4a3c4540
 description: 'С Office 365 облачных приложений безопасность управления действия, которые нужно выполнить, приостановить или отменить приостановку учетной записи пользователя. '
-ms.openlocfilehash: a5c75edefc6ddb87b5676c4253aafe04817f6a1d
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 09d6ae870aa1a6b0a619ccf20f8cc19b392e23a8
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534440"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28014851"
 ---
 # <a name="suspend-or-restore-a-user-account-in-office-365-cloud-app-security"></a>Приостановка или восстановление учетной записи пользователя в Office 365 Cloud App Security
 
@@ -44,9 +44,7 @@ ms.locfileid: "22534440"
     
 2. В разделе Безопасность &amp; центре соответствия требованиям, выберите **оповещения** \> **Расширенное Управление оповещениями**.
     
-3. Выберите, **перейдите к безопасности приложения Office 365 облака**.
-    
-    ![В разделе Безопасность &amp; центре соответствия требованиям, выберите дополнительные оповещения для перехода к безопасности Office 365 облаке приложения](media/958632d4-03e3-4ade-8e22-d5509db6fca7.png)
+3. Выберите, **перейдите к безопасности приложения Office 365 облака**.<br>![В разделе Безопасность &amp; центре соответствия требованиям, выберите дополнительные оповещения для перехода к безопасности Office 365 облаке приложения](media/958632d4-03e3-4ade-8e22-d5509db6fca7.png)<br>
   
 4. На панели навигации в верхней части экрана выберите **оповещения**.
     
@@ -62,7 +60,7 @@ ms.locfileid: "22534440"
 
 - [Просмотр оповещений и реагирование на них в Office 365 Cloud App Security](review-office-365-cas-alerts.md)
     
-- [Управление разрешениями приложений с помощью Office 365 Cloud App Security](manage-app-permissions-in-ocas.md)
+- [Управление приложениями OAuth с помощью Office 365 Cloud App Security](manage-app-permissions-in-ocas.md)
     
 - Обзор [использования действий для приложения облаке Безопасность в Office 365](utilization-activities-for-ocas.md)
     

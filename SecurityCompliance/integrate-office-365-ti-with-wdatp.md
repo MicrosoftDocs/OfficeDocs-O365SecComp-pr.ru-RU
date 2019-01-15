@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 414fa693-d7b7-4a1d-a387-ebc3b6a52889
 description: Интеграция с Windows Защитник расширенного защиту от угроз для просмотра более подробные сведения об управлении угроз защиту от угроз для Office 365 расширенный.
-ms.openlocfilehash: 1198f53c47811d69b93106c413e3d3a09d83e736
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: 48e879c1d41b5aa662f5128e234be91eb8225e7b
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706143"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28014771"
 ---
 # <a name="integrate-office-365-threat-intelligence-with-windows-defender-advanced-threat-protection"></a>Интеграция Office 365 Threat Intelligence с Advanced Threat Protection в Защитнике Windows
 
@@ -34,7 +34,7 @@ ms.locfileid: "26706143"
 
 - Вашей организации должны иметь анализ угроз Office 365 и анализа Защитника Windows.
     
-- Необходимо обладать правами глобального администратора Office 365 или роль администратора безопасности, назначенные в [безопасности &amp; центре соответствия требованиям](https://security.microsoft.com). (Увидеть [разрешения безопасности Office 365 &amp; центре соответствия требованиям](permissions-in-the-security-and-compliance-center.md))
+- Необходимо обладать правами глобального администратора Office 365 или роль администратора безопасности, назначенные в [безопасности &amp; центре соответствия требованиям](https://protection.office.com). (Увидеть [разрешения безопасности Office 365 &amp; центре соответствия требованиям](permissions-in-the-security-and-compliance-center.md))
     
 - Необходимо иметь доступ к анализ угроз Office 365 и портала ATP Защитника Windows.
     
@@ -42,7 +42,7 @@ ms.locfileid: "26706143"
 
 Интеграция анализ угроз Office 365 с ATP Защитник Windows настроена в Office 365 и на портале ATP Защитника Windows.
   
-1. Как глобальный Office 365 или администратор безопасности, перейдите к [https://security.microsoft.com](https://security.microsoft.com) и войдите с работы или школы учетную запись на Office 365. 
+1. Как глобальный Office 365 или администратор безопасности, перейдите к [https://protection.office.com](https://protection.office.com) и войдите с работы или школы учетную запись на Office 365. 
     
 2. Выберите **Threat management** \> **explorer угроз**.
     
@@ -52,7 +52,7 @@ ms.locfileid: "26706143"
     
 После изменения параметров в Office 365, необходимо включить подключение от ATP Защитника Windows. Для этого показано [Использование портала защиту от угроз дополнительные Защитника Windows](https://go.microsoft.com/fwlink/?linkid=859690).
   
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Office 365 Threat Intelligence](office-365-ti.md)
   

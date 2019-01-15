@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: dd6d2417-49c4-4de6-9294-67fdabbf8532
 description: Сервер SIEM можно интегрировать с Office 365 облачных приложений безопасности. В этой статье Обзор принцип работы и способы ее настройки.
-ms.openlocfilehash: f0965f822b50a0f06dfb69620a9d64c6ca509864
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: 0e185dec44bed7657bed126f70dfc64ffc135611
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706413"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015031"
 ---
 # <a name="integrate-your-siem-server-with-office-365-cloud-app-security"></a>Интеграция сервера SIEM с Office 365 Cloud App Security
   
@@ -67,7 +67,7 @@ ms.locfileid: "26706413"
  
 ## <a name="step-1-set-it-up-a-siem-agent-in-office-365-cloud-app-security"></a>Шаг 1: Ее настройка агента SIEM в облаке приложения Office 365 безопасности
 
-1. Последовательно выберите пункты [https://security.microsoft.com](https://security.microsoft.com) и выполнить вход с помощью учетной записи рабочего или школы для Office 365. (Вы перейдете к безопасности &amp; центре соответствия требованиям.) 
+1. Последовательно выберите пункты [https://protection.office.com](https://protection.office.com) и выполнить вход с помощью учетной записи рабочего или школы для Office 365. (Вы перейдете к безопасности &amp; центре соответствия требованиям.) 
     
 2. Последовательно выберите пункты **оповещения** \> **Управление расширенного оповещения**.
     

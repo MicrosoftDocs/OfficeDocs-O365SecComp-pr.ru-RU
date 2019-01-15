@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 367f25d3-10a0-4a91-bdae-70ebb7a79c98
 description: Определение активности политик безопасности Office 365 облаке приложения для настройки оповещений для запуска, когда деятельности происходить или происходит слишком часто. Настраивая политики для запуска оповещения, можно получать уведомления о и отслеживать действия.
-ms.openlocfilehash: ff1f0acd3c622f20bff26f6a77cc686193cf76fc
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: a239e2bf453a01bf852a702a66cb2f09c02b8c96
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706473"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28014941"
 ---
 # <a name="activity-policies-and-alerts-in-office-365-cloud-app-security"></a>Политики действий и оповещения в Office 365 Cloud App Security
 
@@ -47,7 +47,7 @@ ms.locfileid: "26706473"
     
 ## <a name="create-a-new-activity-policy"></a>Создать новую политику активности
 
-1. Как глобальный администратор или администратор безопасности, перейдите к [https://security.microsoft.com](https://security.microsoft.com) и выполнить вход с помощью учетной записи рабочего или школы. 
+1. Как глобальный администратор или администратор безопасности, перейдите к [https://protection.office.com](https://protection.office.com) и выполнить вход с помощью учетной записи рабочего или школы. 
     
 2. В разделе Безопасность &amp; центре соответствия требованиям, выберите **оповещения** \> **Расширенное Управление оповещениями**.
     

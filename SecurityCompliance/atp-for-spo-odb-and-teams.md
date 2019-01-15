@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 26261670-db33-4c53-b125-af0662c34607
 description: Расширение защиту от угроз для Office 365 дополнительные файлы в SharePoint Online, OneDrive для бизнеса и группами Майкрософт для включения более безопасной совместной работы для вашей организации.
-ms.openlocfilehash: 6891184b49aa4ea03d5c13672ac9b95fc9e6d162
-ms.sourcegitcommit: 147768bbe44c8c98c02fa29ae9d882cee4ec2d6b
+ms.openlocfilehash: 29676bf7c326adf366cca79a59f5b4c40c672baa
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238451"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28014821"
 ---
 # <a name="office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Office 365 ATP для SharePoint, OneDrive и Microsoft Teams
 
@@ -30,15 +30,15 @@ ms.locfileid: "26238451"
 
 При создании файла в SharePoint Online, OneDrive для бизнеса и группами Майкрософт определено как вредоносный, ATP непосредственно интегрируется с файловых хранилищ для блокировки файла. Ниже рисунке показан пример вредоносных файлов, обнаруженных в библиотеке.
   
-[![Снимок экрана с файлов в OneDrive для бизнеса с одним обнаруженных вредоносных](media/2bba71cc-7ad1-4799-8b9d-d56f923db3a7.png)](https://support.office.com/article/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)
+[![Файлов в OneDrive для бизнеса с одним обнаруженных вредоносных](media/2bba71cc-7ad1-4799-8b9d-d56f923db3a7.png)](https://support.office.com/article/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)
   
 Хотя заблокированных файлов по-прежнему отображается в библиотеки документов и веб-сайта с мобильных устройств или настольных приложений, заблокированных файлов не может быть открыт, скопировать, перемещен или общих. Люди могут тем не менее, удаление заблокированных файлов. Вот пример того, что похожа на мобильном устройстве пользователя:
   
-[![Снимок экрана с Удаление заблокированных файлов из службы OneDrive для бизнеса из OneDrive мобильного приложения](media/cb1c1705-fd0a-45b8-9a26-c22503011d54.png)](https://support.office.com/article/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)
+[![Удаление заблокированных файлов из службы OneDrive для бизнеса из OneDrive мобильного приложения](media/cb1c1705-fd0a-45b8-9a26-c22503011d54.png)](https://support.office.com/article/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)
   
 В зависимости от способа настройки Office 365 пользователи могут или может не иметь возможность загружать заблокированных файлов. Вот что загрузка заблокированных файлов похожа на мобильном устройстве пользователя:
   
-[![Снимок экрана загрузки заблокированных файлов в OneDrive для бизнеса](media/be288a82-bdd8-4371-93d8-1783db3b61bc.png)](https://support.office.com/article/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)
+[![Загрузка заблокированных файлов в OneDrive для бизнеса](media/be288a82-bdd8-4371-93d8-1783db3b61bc.png)](https://support.office.com/article/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)
   
 Для получения дополнительных сведений см. [Включение анализа Office 365 для SharePoint, OneDrive и группами Майкрософт](turn-on-atp-for-spo-odb-and-teams.md).
   

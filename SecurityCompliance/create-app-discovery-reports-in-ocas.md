@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 3e68e691-1fc4-4d3e-a2c0-d3134eb64055
 description: Создание отчетов с помощью приложения Office 365 облачных безопасности, которая позволяет понять, как пользователи в вашей организации с помощью Office 365 и другие приложения.
-ms.openlocfilehash: f801c70e839a62b5bbb5423ff5e7c513dd1f09b4
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: 6842912f42072e21608955bde5250f0774c7bba4
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706303"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28014872"
 ---
 # <a name="create-app-discovery-reports-using-office-365-cloud-app-security"></a>Создание отчетов об обнаружении приложений с помощью Office 365 Cloud App Security
 
@@ -44,7 +44,7 @@ Office 365 облачных приложений помогает глобаль
   
 1. Сбор вашей [веб-трафика журналов и источники данных для приложения облаке Безопасность в Office 365](web-traffic-logs-and-data-sources-for-ocas.md).
     
-2. Последовательно выберите пункты [https://security.microsoft.com](https://security.microsoft.com) и выполнить вход с помощью учетной записи рабочего или школы. 
+2. Последовательно выберите пункты [https://protection.office.com](https://protection.office.com) и выполнить вход с помощью учетной записи рабочего или школы. 
     
 3. В разделе Безопасность &amp; центре соответствия требованиям, выберите **оповещения** \> **Расширенное Управление оповещениями**.
     

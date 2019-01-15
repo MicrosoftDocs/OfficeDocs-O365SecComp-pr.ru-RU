@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: 35dbfd99-da5a-422b-9b0e-c6caf3b645fa
 description: При настройке политик безопасных ссылок анализа может включать действие переопределения не "список URL-адресов, чтобы включить некоторые пользователи в вашей организации на сайтах, которые включены в список.
-ms.openlocfilehash: 89fafd5ff7def491a231bc8bc3eb19ef8db16a59
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: d3883d6aff29b9a061b62e4854e7aad52656769f
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26705983"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015051"
 ---
 # <a name="set-up-a-custom-do-not-rewrite-urls-list-using-office-365-atp-safe-links"></a>Настроить пользовательский список not переопределения URL-адресов с помощью Office 365 ATP безопасных ссылки
 
@@ -29,7 +29,7 @@ ms.locfileid: "26705983"
 
 Защита от безопасных ссылок анализа использует несколько списков, включая черный список URL-адресов вашей организации и списки «не rewrite» для исключения. При наличии необходимых разрешений можно настроить настраиваемых списков «не rewrite». Для этого после добавления или изменения политики безопасных ссылок, которые применяются к определенным получателям в организации. 
   
-1. Последовательно выберите пункты [https://security.microsoft.com](https://security.microsoft.com) и войдите с учетной записи рабочего или школы. 
+1. Последовательно выберите пункты [https://protection.office.com](https://protection.office.com) и войдите с учетной записи рабочего или школы. 
     
 2. В левой панели навигации в разделе **Управление угроз** \> **политики** \> **Безопасных ссылки**.
     
