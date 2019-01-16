@@ -255,6 +255,7 @@
 ### [Создание сайтов групп в среде разработки и тестирования для политической кампании](create-team-sites-in-a-political-campaign-dev-test-environment.md)
 ## [Безопасность сайтов и файлов SharePoint Online](secure-sharepoint-online-sites-and-files.md)
 ### [Развертывание сайтов SharePoint Online с тремя уровнями защиты](deploy-sharepoint-online-sites-for-three-tiers-of-protection.md)
+### [Защита файлов SharePoint Online с помощью меток Office 365 и DLP](protect-sharepoint-online-files-with-office-365-labels-and-dlp.md)
 ### [Защита файлов SharePoint Online с помощью Azure Information Protection](protect-sharepoint-online-files-with-azure-information-protection.md)
 ## [Изолированные сайты групп SharePoint Online](isolated-sharepoint-online-team-sites.md)
 ### [Разработка изолированного сайта группы SharePoint Online](design-an-isolated-sharepoint-online-team-site.md)
