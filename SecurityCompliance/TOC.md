@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: bc1508c3d07e62864ffb156d6e311ace421bc8bc
+ms.sourcegitcommit: a2afa4c06e9b762cf689b0d2a0653076f9b00c49
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328135"
+---
 # [Начало работы]()
 ## [Схема обеспечения безопасности Office 365](security-roadmap.md)
 ## [Настройка вашего клиента Office 365 для улучшения безопасности](tenant-wide-setup-for-increased-security.md)
@@ -249,6 +257,14 @@
 #### [Скачивание существующих отчетов](download-existing-reports.md)
 ## [Включение и отключение советов по безопасности в Office 365](enable-or-disable-safety-tips.md)
 ## [Включение надстройки Report Message](enable-the-report-message-add-in.md)
+# Поток обработки почты
+## [Трассировка сообщений в Центре безопасности и соответствия требованиям](message-trace-scc.md)
+## [Аналитика потока обработки почты в Центре безопасности и соответствия требованиям](mail-flow-insights.md)
+### [Отчет по автоматически пересылаемым сообщениям](mfi-auto-forwarded-messages-report.md)
+### [Аналитика почтового цикла](mfi-mail-loop-insight.md)
+### [Поток обработки исходящей и входящей почты](mfi-outbound-and-inbound-mail-flow.md)
+### [Очереди и оповещения о них](mfi-queue-alerts-and-queues.md)
+### [Отображение аналитики правил потока обработки почты](mfi-slow-mail-flow-rules-insight.md)
 # Решения по обеспечению безопасности
 ## [Руководство по безопасности (Майкрософт) для политических кампаний, некоммерческих и других динамических организаций](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
 ### [Настройка групп и пользователей в случае среды разработки и тестирования для политической кампании](configure-groups-and-users-for-a-political-campaign-dev-test-environment.md)
@@ -263,7 +279,6 @@
 ### [Управление изолированным сайтом группы SharePoint Online](manage-an-isolated-sharepoint-online-team-site.md)
 ### [Среда разработки и тестирования изолированного сайта группы SharePoint Online](isolated-sharepoint-online-team-site-dev-test-environment.md)
 ## [Интеграция сервера SIEM](siem-server-integration.md)
-
 # Решения для соответствия требованиям
 ## [Microsoft Service Trust Portal](get-started-with-service-trust-portal.md)
 ## [Диспетчер соответствия требованиям](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
