@@ -11,12 +11,12 @@ ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 9c2cf227-eff7-48ef-87fb-487186e47363
 description: С помощью правил потока обработки почты (также называемых правилами транспорта) можно определять сообщения, проходящие через организацию Office 365, и выполнять с ними действия.
-ms.openlocfilehash: 841a88f7074ce469643630cf29e0674db8fb88b6
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: b6bd5f0510c8a9e5f5cc4679dce669b6da50f5e8
+ms.sourcegitcommit: b0b0b716718c22779c7c04775b8010d65cd6656b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026616"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28723246"
 ---
 # <a name="mail-flow-rules-transport-rules-in-exchange-online-protection"></a>Правила потока обработки почты (правила транспорта) в Exchange Online Protection
 
@@ -32,7 +32,7 @@ ms.locfileid: "22026616"
   
 - [Проверка вложений с помощью правил потока обработки почты в Office 365](http://technet.microsoft.com/library/874d1c78-a8ec-4938-b388-d3208c2fa971.aspx)
     
-- [Настройка шифрования в Office 365 для предприятия](https://support.office.com/article/e86fc991-0161-4f01-9c1c-d25e87733d06)
+- [Настройка шифрования в Office 365 корпоративный](https://support.office.com/article/e86fc991-0161-4f01-9c1c-d25e87733d06)
     
 - [Organization-wide message disclaimers, signatures, footers, or headers in Office 365](http://technet.microsoft.com/library/29ac61c2-77f1-4071-b14e-8cc64e3e76ba.aspx)
     
@@ -54,7 +54,7 @@ ms.locfileid: "22026616"
   
 - **Условия** указывают, с какими сообщениями должны выполняться действия. Некоторые условия проверяют поля заголовков сообщений (например, поля "Кому", "От" или "Копия"). Другие условия проверяют свойства сообщений (например, тему, текст, вложения, размер или классификацию сообщения). Для большинства условий требуется указать оператор сравнения (например, "равно", "не равно" или "содержит"), а также значение для сравнения. Если условий или исключений нет, правило применяется ко всем сообщениям. 
     
-    Дополнительные сведения о почтовые условия правила поток в Exchange Online Protection, просматривать [почтовые поток правила условий и исключений (предикаты) в Exchange Online Protection](http://technet.microsoft.com/library/04edeaba-afd4-4207-b2cb-51bcc44e483c.aspx).
+    Дополнительные сведения об условиях правил поток почты в Exchange Online Protection можно [почты поток правила условий и исключений (предикаты) в Exchange Online.](https://docs.microsoft.com/en-us/exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions).
     
 - **Исключения** при необходимости указывают сообщения, к которым правило не должно применяться. В исключениях доступны те же идентификаторы сообщений, что и в условиях. Исключения переопределяют условия и запрещают применение действий правила к сообщению, даже если оно соответствует всем настроенным условиям. 
     
