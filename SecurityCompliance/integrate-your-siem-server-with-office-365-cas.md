@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: dd6d2417-49c4-4de6-9294-67fdabbf8532
 description: Сервер SIEM можно интегрировать с Office 365 облачных приложений безопасности. В этой статье Обзор принцип работы и способы ее настройки.
-ms.openlocfilehash: 0e185dec44bed7657bed126f70dfc64ffc135611
-ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
+ms.openlocfilehash: 3cdae0389065b18da090139528eceefb007363fa
+ms.sourcegitcommit: b0b0b716718c22779c7c04775b8010d65cd6656b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015031"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28723266"
 ---
 # <a name="integrate-your-siem-server-with-office-365-cloud-app-security"></a>Интеграция сервера SIEM с Office 365 Cloud App Security
   
@@ -74,8 +74,8 @@ ms.locfileid: "28015031"
 3. Выберите, **перейдите к безопасности приложения Office 365 облака**.<br/>
     ![В разделе Безопасность &amp; центре соответствия требованиям, выберите дополнительные оповещения для перехода к безопасности Office 365 облаке приложения](media/958632d4-03e3-4ade-8e22-d5509db6fca7.png)
   
-4. Щелкните **Параметры** \> **расширения безопасности**.<br/>
-![Выберите параметры > расширения безопасности](media/Settings-SecurityExtensions.png)
+4. Щелкните **Параметры** \> **расширения безопасности**и нажмите кнопку SIEM агенты.<br/>
+![Выбор параметров > расширения безопасности](media/Settings-SecurityExtensions.png)
 
 5. Выберите пункт **Добавить SIEM агента**.<br/>![Выберите пункт Добавить SIEM агента.](media/SIEMAgents.png)
     
@@ -200,7 +200,7 @@ ms.locfileid: "28015031"
 3. Нажмите кнопку с многоточием и затем выберите команду **Удалить**.<br/>![Чтобы удалить SIEM агентов, щелкните многоточие и нажмите кнопку Удалить.](media/540b5bdf-5574-4ecc-a7b0-92a499a387d7.png)
 
   
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 - [Действия, связанные с использованием, после развертывания Office 365 Cloud App Security](utilization-activities-for-ocas.md)
     
