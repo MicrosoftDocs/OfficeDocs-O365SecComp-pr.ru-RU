@@ -3,20 +3,20 @@ title: Подготовиться к работе Microsoft 365 безопасн
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 01/22/2019
+ms.date: 01/23/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 description: Подготовиться к абсолютно новым центр безопасности Microsoft 365 и центре соответствия требованиям
-ms.openlocfilehash: 3bd0dd1d47df252dfdb024e0f90f3437604d8e07
-ms.sourcegitcommit: 5764af937f40731e29f855c568d7a3365a12c913
+ms.openlocfilehash: 35f7e04ca2d51efe69c0f6d4842fe25856b1b3f9
+ms.sourcegitcommit: 0ac3e50150b48b5c633fb3bfc989d5047c160739
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2019
-ms.locfileid: "29383583"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "29436165"
 ---
-# <a name="get-ready-for-the-new-microsoft-365-security-center-and-microsoft-365-compliance-center"></a>Подготовиться к работе новый центр безопасности Microsoft 365 и центре соответствия требованиям Microsoft 365
+# <a name="get-ready-for-the-new-microsoft-365-security-center-and-microsoft-365-compliance-center"></a>Подготовка к новому Центру безопасности Microsoft 365 и Центру соответствия требованиям Microsoft 365
 
 **Мы рады объявить о [центре соответствия требованиям Microsoft 365](#microsoft-365-compliance-center), развертывание начиная с конца января 2019 и через 2019 марта и все новый [Центр безопасности Microsoft 365](#microsoft-365-security-center) **. В этой статье, чтобы получить общие сведения о предстоящих, [чего следует ожидать](#what-to-expect)и [необходимых лицензий и необходимые разрешения](#required-licenses-and-permissions).
 
@@ -48,7 +48,7 @@ ms.locfileid: "29383583"
 
 ## <a name="what-to-expect"></a>Чего следует ожидать
 
-### <a name="coming-soon"></a>Скоро!
+### <a name="coming-soon"></a>Ожидается в ближайшее время
 
 Новый центр безопасности Microsoft 365 и новый центр соответствия требованиям Microsoft 365 ваши масштабирование Приступая к работе с поздней января, а также по 2019 марта. Должен иметь доступ к новый центр безопасности Microsoft 365 и центре соответствия требованиям Microsoft 365 за этот период времени.
 
@@ -70,7 +70,7 @@ ms.locfileid: "29383583"
 
 ## <a name="required-licenses-and-permissions"></a>Необходимые лицензии и разрешения
 
-Вашей организации необходимо иметь Microsoft 365 для предприятий E3 или E5, чтобы получить новый центр безопасности Microsoft 365 и центре соответствия требованиям Microsoft 365.
+Чтобы получить новый центр безопасности Microsoft 365 и центре соответствия требованиям Microsoft 365, вашей организации необходимо иметь подписка на Microsoft 365 E3 или E5 или корпоративного лицензирования эквивалентный (которая состоит из Office 365 для предприятий E3 или E5, мобильности Enterprise + безопасности E3 или E5 и Windows 10 корпоративный E3/E5).
 
 Пользователям необходимо назначить роль глобального администратора, администратора соответствия требованиям, администратор безопасности или безопасности чтения в Azure Active Directory для доступа к новый центр безопасности Microsoft 365 или центре соответствия требованиям Microsoft 365.
 
@@ -87,20 +87,20 @@ ms.locfileid: "29383583"
 
 |Портал  |Глобальное<br/>Администратор  |Безопасность <br/>Администратор<br>или<br>Безопасность<br>Читатель |Соответствие требованиям<br/>Администратор  |
 |---------|---------|---------|---------|
-|[Центр безопасности и соответствия требованиям Office 365](https://protection.office.com) |Да |Да  |Да |
+|[Центр безопасности и соответствия требованиям Office 365](https://protection.office.com) |Да |Да   |Да |
 |[Центр безопасности Microsoft 365](https://security.microsoft.com) |Да  | Да  | Нет        |
 |[Microsoft 365 центре соответствия требованиям](https://compliance.microsoft.com) | Да | Нет | Да |
-|[Диспетчер соответствия требованиям](https://aka.ms/compliancemanager) |Да | Да |Да  |
+|[Диспетчер соответствия требованиям](https://aka.ms/compliancemanager) |Да | Да  |Да  |
 |[Azure Information Protection](https://docs.microsoft.com/azure/information-protection) |Да |Да |Нет |
-|[Центр безопасности Azure](https://docs.microsoft.com/azure/security-center/)  |Да |Да |Нет |
+|Центр безопасности Azure  |Да |Да |Нет |
 |[Azure расширенной защитой](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp)  |Да |Да |Нет |
 |[ATP Защитника Windows](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection?ocid=tia-260153000#windows-defender-atp) и [Определение конечной точки и ответа](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/overview-endpoint-detection-response)     |Да |Да |Нет |
-|[Защита удостоверений](https://docs.microsoft.com/azure/active-directory/identity-protection)     |Да |Да |Нет |
-|[Управление удостоверениями привилегированной](https://docs.microsoft.com/azure/active-directory/privileged-identity-management)     |Да |Да |Нет |
-|[Intune](https://docs.microsoft.com/intune)     |Да |Да |Да |
-|[Защита облачных приложений](https://docs.microsoft.com/cloud-app-security/)     |Да |Да |Да |
+|Защита идентификации     |Да |Да |Нет |
+|управление привилегированными пользователями (PIM);     |Да |Да |Нет |
+|[Intune](https://docs.microsoft.com/intune)     |Да |Да  |Да |
+|[Защита облачных приложений](https://docs.microsoft.com/cloud-app-security/)     |Да |Да  |Да |
 |[Secure счета](https://docs.microsoft.com/office365/securitycompliance/office-365-secure-score)     |Да |Да |Нет |
-|[Exchange](https://docs.microsoft.com/exchange/)     |Да |Да |Да |
+|[Exchange](https://docs.microsoft.com/exchange/)     |Да |Да  |Да |
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
