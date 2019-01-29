@@ -1,4 +1,4 @@
-# Начало работы
+# [Начало работы]
 ## [Схема обеспечения безопасности Office 365](security-roadmap.md)
 ## [Настройка клиента Office 365 для улучшения безопасности](tenant-wide-setup-for-increased-security.md)
 ## [Переход в Центр безопасности и соответствия требованиям Office 365](go-to-the-securitycompliance-center.md)
@@ -7,7 +7,6 @@
 ## [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md)
 ## [Предоставление пользователям доступа к Центру безопасности и соответствия требованиям](grant-access-to-the-security-and-compliance-center.md)
 ## [Обзор панели мониторинга безопасности](security-dashboard.md)
-## [Установка надстройки "Контроль" для классической версии Outlook](install-the-supervision-add-in-for-outlook-desktop.md)
 ## [Использование бесплатной подписки на Azure Active Directory](use-your-free-azure-ad-subscription-in-office-365.md)
 ## [Планирование безопасности и соответствия требованиям в Office 365](plan-for-security-and-compliance.md)
 # Защита доступа к данным и службам
@@ -16,6 +15,7 @@
 # Защита информации
 ## [Метки конфиденциальности](sensitivity-labels.md)
 ### [Ограничение доступа к контенту с помощью шифрования в метках конфиденциальности](encryption-sensitivity-labels.md)
+### [Автоматическое применение метки конфиденциальности к содержимому](apply_sensitivity_label_automatically.md)
 ## [Защита от потери данных (DLP)](data-loss-prevention-policies.md)
 ### [Расширенный обзор защиты от потери данных](https://channel9.msdn.com/events/ignite/microsoft-ignite-orlando-2017/brk3111)
 ## Настройка защиты от потери данных
@@ -38,6 +38,15 @@
 ### [Создание пользовательского типа конфиденциальной информации в PowerShell Центра безопасности и соответствия требованиям Office 365](create-a-custom-sensitive-information-type-in-scc-powershell.md)
 ### [Создание словаря ключевых слов](create-a-keyword-dictionary.md)
 ### [Создание отпечатка документа](document-fingerprinting.md) 
+# Управление записями
+## [Политики хранения](retention-policies.md)
+## [Метки хранения](labels.md)
+## [Соблюдение правила 17a-4 SEC с помощью Exchange Online и Центра безопасности и соответствия требованиям](use-exchange-online-to-comply-with-sec-rule-17a-4.md)
+## [Проверки перед ликвидацией](disposition-reviews.md)
+## [Хранение, зависящее от возникновения события](event-driven-retention.md)
+## [Автоматизация хранения на основе события](automate-event-driven-retention.md)
+## [Диспетчер планов хранения](file-plan-manager.md)
+## [Пакетное создание и публикация меток хранения с помощью PowerShell](https://docs.microsoft.com/ru-RU/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
 # Управление данными        
 ## [Импорт данных](importing-pst-files-to-office-365.md)
 ### [Импорт PST-файлов с помощью отправки по сети](use-network-upload-to-import-pst-files.md)
@@ -55,10 +64,14 @@
 ## Хранение данных
 ### [Политики хранения](retention-policies.md)
 ### [Метки хранения](labels.md)
-### [Пакетное создание и публикация меток хранения с помощью PowerShell](https://docs.microsoft.com/ru-RU/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
+### [Соблюдение правила 17a-4 SEC с помощью Exchange Online и Центра безопасности и соответствия требованиям](use-exchange-online-to-comply-with-sec-rule-17a-4.md)
 ### [Проверки перед ликвидацией](disposition-reviews.md)
 ### [Хранение, зависящее от возникновения события](event-driven-retention.md)
+### [Автоматизация хранения на основе события](automate-event-driven-retention.md)
 ### [Диспетчер планов хранения](file-plan-manager.md)
+### [Пакетное создание и публикация меток хранения с помощью PowerShell](https://docs.microsoft.com/ru-RU/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
+## [Контроль взаимодействия](supervision-policies.md)
+### [Настройка политик контроля для организации](configure-supervision-policies.md)
 ## [Управление неактивными почтовыми ящиками](inactive-mailboxes-in-office-365.md)
 ### [Создание неактивных почтовых ящиков и управление ими](create-and-manage-inactive-mailboxes.md)
 ### [Изменение срока хранения неактивного почтового ящика](change-the-hold-duration-for-an-inactive-mailbox.md)
@@ -68,9 +81,6 @@
 ## Контроль управления данными
 ### [Просмотр отчетов об управлении данными](view-the-data-governance-reports.md)
 ### [Просмотр действий с метками для документов](view-label-activity-for-documents.md)
-### [Настройка политик контроля для организации](configure-supervision-policies.md)
-### [Установка надстройки контроля для классической версии Outlook](install-the-supervision-add-in-for-outlook-desktop.md)
-### [Отчеты о контроле](supervision-reports.md)
 ## Дополнительные сведения об управлении данными
 ### [Просмотр видеороликов от группы управления данными Майкрософт](https://go.microsoft.com/fwlink/?linkid=867039)
 # [Защита от угроз](protect-against-threats.md)
@@ -196,6 +206,67 @@
 ### [Удаление элементов в папке "Элементы с возможностью восстановления" облачных почтовых ящиков на удержании](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md)
 ### [Увеличение квоты для папки "Элементы с возможностью восстановления" для почтовых ящиков на удержании](increase-the-recoverable-quota-for-mailboxes-on-hold.md)
 ### [Как определить тип удержания, примененного для почтового ящика Exchange Online](identify-a-hold-on-an-exchange-online-mailbox.md)
+
+## [Advanced eDiscovery (предварительная версия) в Microsoft 365](compliance20/overview-ediscovery-20.md)
+### [Заметки о выпуске](compliance20/release-notes-ediscovery20.md)
+### [Создание дела](compliance20/create-new-ediscovery-case.md)
+
+### [Работа с хранителями](compliance20/managing-custodians.md)
+#### [Добавление хранителей в дело](compliance20/add-custodians-to-case.md)
+#### [Управление хранителями](compliance20/manage-new-custodians.md)
+#### [Просмотр действий хранителя](compliance20/view-custodian-activity.md)
+
+### [Работа с взаимодействием](compliance20/managing-custodian-communications.md)
+#### [Создание уведомления об удержании](compliance20/create-hold-notification.md)
+#### [Использование редактора взаимодействия](compliance20/using-communications-editor.md)
+#### [Управление уведомлениями об удержании](compliance20/manage-hold-notification.md)
+#### [Изменение уведомления об удержании](compliance20/edit-hold-notification.md)
+#### [Подтверждение уведомлений об удержании](compliance20/acknowledge-hold-notification.md)
+
+### [Управление удержаниями](compliance20/managing-holds.md)
+
+### [Устранение ошибок обработки](compliance20/processing-data-for-case.md)
+#### [Расширенная индексация данных хранителя](compliance20/indexing-custodian-data.md)
+#### [Исправление ошибок при обработке данных](compliance20/error-remediation.md)
+
+### [Сбор данных для дела](compliance20/collecting-data-for-ediscovery.md)
+#### [Создание поискового запроса для сбора данных](compliance20/create-search-to-collect-data.md)
+#### [Создание поисковых запросов](compliance20/building-search-queries.md)
+#### [Статистика поиска](compliance20/search-statistics.md)
+#### [Добавление результатов поиска в рабочий набор](compliance20/add-data-to-working-set.md)
+
+### [Просмотр данных дела](compliance20/reviewing-data-in-working-set.md)
+#### [Управление рабочими наборами](compliance20/managing-working-sets.md)
+#### [Управление наборами загрузки](compliance20/manage-load-sets.md)
+#### [Загрузка не относящихся к Office 365 данных в рабочий набор](compliance20/load-non-office365-data.md)
+#### [Запрос данных в рабочем наборе](compliance20/working-set-search.md)
+#### [Просмотр документов в рабочем наборе](compliance20/annotating-and-redacting-documents.md)
+#### [Добавление тегов к документам в рабочем наборе](compliance20/tagging-documents.md)
+
+### [Анализ данных дела](compliance20/analyzing-data-in-working-set.md)
+#### [Обнаружение схожих документов (почти дубликатов)](compliance20/near-duplicates.md)
+#### [Потоки почты](compliance20/email-threading.md)
+#### [Темы](compliance20/themes.md)
+#### [Использование модуля релевантности для анализа данных](compliance20/using-relevance.md)
+
+### [Экспорт данных дела](compliance20/exporting-data-ediscover20.md)
+#### [Экспорт документов из рабочего набора](compliance20/export-documents-from-working-set.md)
+#### [Скачивание заданий экспорта](compliance20/download-export-jobs.md)
+
+### [Управление заданиями](compliance20/managing-jobs-ediscovery20.md)
+
+### [Настройка параметров дела](compliance20/configuring-case-settings-ediscovery20.md)
+#### [Закрытие и удаление дела](compliance20/close-or-delete-case.md)
+#### [Добавление и удаление участников дела](compliance20/add-remove-members.md)
+#### [Настройка параметров поиска и аналитики](compliance20/configure-search-analytics-settings.md)
+
+### Справочник по Advanced eDiscovery (предварительная версия)
+#### [Ограничения поиска](compliance20/search-limits-ediscovery20.md)
+#### [Ограничения индексирования](compliance20/indexing-limits-ediscovery20.md)
+#### [Ограничения экспорта](compliance20/export-limits-ediscovery20.md)
+#### [Ограничения скачивания](compliance20/download-limits-ediscovery20.md)
+#### [Поддерживаемые типы файлов](compliance20/supported-filetypes-ediscovery20.md)
+#### [Поля метаданных документа](compliance20/document-metadata-fields.md)
 
 ## [Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
 ### [Начало работы в Advanced eDiscovery](quick-setup-for-advanced-ediscovery.md)

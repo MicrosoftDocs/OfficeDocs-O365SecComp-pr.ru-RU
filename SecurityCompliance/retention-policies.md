@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 5e377752-700d-4870-9b6d-12bfc12d2423
 description: 'С помощью политики хранения вы можете заблаговременно решить, как поступить с содержимым. Она позволяет следующее: хранить содержимое, удалить или удалить через какое-то время; применить единую политику ко всей организации или только к некоторым расположениям либо пользователям; применить политику ко всему содержимому или только такому, которое удовлетворяет определенным условиям.'
-ms.openlocfilehash: a6d185484f83ca93c99153d584af6841397dbc2f
-ms.sourcegitcommit: ec465771a846de103a365fcb36cb7a7c0a5744c1
+ms.openlocfilehash: 46b7cd133551d8a0756361fd209e93ab9e721678
+ms.sourcegitcommit: d05a9937780d210b7ad48e721b947397ac5405a2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "27380619"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "29607171"
 ---
 # <a name="overview-of-retention-policies"></a>Общие сведения о политиках хранения
 
@@ -263,10 +263,34 @@ ms.locfileid: "27380619"
 После блокировки политики никто не сможет ее отключить или исключить из нее расположения. В период хранения невозможно изменить или удалить содержимое, в отношении которого действует такая политика. После блокировки можно включать в политику хранения дополнительные расположения и увеличивать срок ее действия. Заблокированную политику можно только дополнить.
   
 Прежде чем блокировать политику хранения, **крайне необходимо** изучить критерии организации в отношении обеспечения соответствия требованиям и **быть уверенным** в результате.
+
+### <a name="lock-a-retention-policy-by-using-powershell"></a>Блокировка политики хранения с помощью PowerShell
   
-Вы можете заблокировать политику хранения только с помощью PowerShell. Используйте параметр `RestrictiveRetention` командлета `New-RetentionCompliancePolicy` или `Set-RetentionCompliancePolicy`. Дополнительные сведения о PowerShell см. далее в разделе [Поиск командлетов PowerShell для политик хранения](#find-the-powershell-cmdlets-for-retention-policies).
+Политику хранения можно заблокировать только с помощью PowerShell.
+
+Во-первых, [подключитесь к PowerShell Центра безопасности и соответствия требованиям Office 365](http://go.microsoft.com/fwlink/p/?LinkID=799771).
+
+Во-вторых, просмотрите список своих политик хранения и найдите имя политики, которую нужно заблокировать. Для этого запустите командлет `Get-RetentionCompliancePolicy`.
+
+![Список политик хранения в PowerShell](media/retention-policy-preservation-lock-get-retentioncompliancepolicy.PNG)
+
+В-третьих, чтобы установить блокировку хранения для политики, запустите командлет `Set-RetentionCompliancePolicy` с присвоением параметру `RestrictiveRetention` значения true. Например:
+
+`Set-RetentionCompliancePolicy -Identity “<Name of Policy>” – RestrictiveRetention $true`
+
+![Параметр RestrictiveRetention в PowerShell](media/retention-policy-preservation-lock-restrictiveretention.PNG)
+
+После запуска этого командлета появится запрос подтверждения. Выберите **Да для всех**.
+
+![Запрос подтверждения блокировки политики хранения в PowerShell](media/retention-policy-preservation-lock-confirmation-prompt.PNG)
+
+После этого для политики хранения установлена блокировка хранения. Если запустить командлет `Get-RetentionCompliancePolicy`, параметр `RestrictiveRetention` будет иметь значение true. Например:
+
+`Get-RetentionCompliancePolicy -Identity “<Name of Policy>” |Fl`
+
+![Заблокированная политика с отображением всех параметров в PowerShell](media/retention-policy-preservation-lock-locked-policy.PNG)
   
-## <a name="the-principles-of-retention-or-what-takes-precedence"></a>Приоритеты и принципы хранения
+## <a name="the-principles-of-retention-or-what-takes-precedence"></a>Принципы хранения и приоритеты
 
 Возможно (и даже вероятно), что к содержимому применено несколько политик хранения с разными действиями (хранением и/или удалением) и периодом хранения. Какая политика имеет приоритет? Во-первых, вы можете быть уверены, что содержимое, сохраняемое одной политикой, не может быть безвозвратно удалено другой.
   
