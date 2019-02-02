@@ -14,13 +14,13 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 1e1f2704042a9f94a91858035c01d201d9412c9f
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: 9ff7cf4a1d66271f2e7aa83ba05fc6997001c724
+ms.sourcegitcommit: e3ea6eb9fab1a66b499458749838fe350d43d0d4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608282"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29694975"
 ---
-# <a name="reviewing-case-data-in-advanced-ediscovery-preview"></a><span data-ttu-id="9c314-102">Просмотр вариантов данных в расширенной обнаружения электронных данных (Предварительная версия)</span><span class="sxs-lookup"><span data-stu-id="9c314-102">Reviewing case data in Advanced eDiscovery (Preview)</span></span>
+# <a name="review-case-data-in-advanced-ediscovery-preview"></a><span data-ttu-id="50bd7-102">Просмотр вариантов данных в расширенной обнаружения электронных данных (Предварительная версия)</span><span class="sxs-lookup"><span data-stu-id="50bd7-102">Review case data in Advanced eDiscovery (Preview)</span></span>
 
-<span data-ttu-id="9c314-103">Содержимое появится в ближайшее время.</span><span class="sxs-lookup"><span data-stu-id="9c314-103">Content coming soon.</span></span>
+<span data-ttu-id="50bd7-103">Содержимое появится в ближайшее время.</span><span class="sxs-lookup"><span data-stu-id="50bd7-103">Content coming soon.</span></span>
