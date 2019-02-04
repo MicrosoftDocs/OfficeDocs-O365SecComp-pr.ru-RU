@@ -131,6 +131,7 @@
 ### [Настройка шифрования в Office 365 корпоративный](set-up-encryption.md)
 ### [Шифрование электронной почты в Office 365](email-encryption.md)
 ### [Шифрование сообщений Office 365 (OME)](ome.md)
+#### [Сравнение версий OME](ome-version-comparison.md)
 #### [Настройка новых возможностей шифрования сообщений Office 365](set-up-new-message-encryption-capabilities.md)
 #### [Определение правил потока обработки почты для шифрования сообщений электронной почты в Office 365](define-mail-flow-rules-to-encrypt-email.md)
 #### [Управление шифрованием сообщений Office 365](manage-office-365-message-encryption.md)
@@ -260,7 +261,7 @@
 
 ## [Advanced eDiscovery (предварительная версия) в Microsoft 365](compliance20/overview-ediscovery-20.md)
 ### [Заметки о выпуске](compliance20/release-notes-ediscovery20.md)
-### [Создание дела](compliance20/create-new-ediscovery-case.md)
+### [Создание нового дела](compliance20/create-new-ediscovery-case.md)
 
 ### [Работа с хранителями](compliance20/managing-custodians.md)
 #### [Добавление хранителей в дело](compliance20/add-custodians-to-case.md)
@@ -272,7 +273,7 @@
 #### [Использование редактора взаимодействия](compliance20/using-communications-editor.md)
 #### [Управление уведомлениями об удержании](compliance20/manage-hold-notification.md)
 #### [Изменение уведомления об удержании](compliance20/edit-hold-notification.md)
-#### [Подтверждение уведомлений об удержании](compliance20/acknowledge-hold-notification.md)
+#### [Подтверждение уведомления об удержании](compliance20/acknowledge-hold-notification.md)
 
 ### [Управление удержаниями](compliance20/managing-holds.md)
 
@@ -291,7 +292,7 @@
 #### [Управление наборами загрузки](compliance20/manage-load-sets.md)
 #### [Загрузка не относящихся к Office 365 данных в рабочий набор](compliance20/load-non-office365-data.md)
 #### [Запрос данных в рабочем наборе](compliance20/working-set-search.md)
-#### [Просмотр документов в рабочем наборе](compliance20/annotating-and-redacting-documents.md)
+#### [Просмотра документов в рабочем наборе](compliance20/annotating-and-redacting-documents.md)
 #### [Добавление тегов к документам в рабочем наборе](compliance20/tagging-documents.md)
 
 ### [Анализ данных дела](compliance20/analyzing-data-in-working-set.md)
@@ -307,7 +308,7 @@
 ### [Управление заданиями](compliance20/managing-jobs-ediscovery20.md)
 
 ### [Настройка параметров дела](compliance20/configuring-case-settings-ediscovery20.md)
-#### [Закрытие и удаление дела](compliance20/close-or-delete-case.md)
+#### [Закрытие или удаление дела](compliance20/close-or-delete-case.md)
 #### [Добавление и удаление участников дела](compliance20/add-remove-members.md)
 #### [Настройка параметров поиска и аналитики](compliance20/configure-search-analytics-settings.md)
 
