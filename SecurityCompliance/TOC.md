@@ -272,7 +272,6 @@
 #### [Создание уведомления об удержании](compliance20/create-hold-notification.md)
 #### [Использование редактора взаимодействия](compliance20/using-communications-editor.md)
 #### [Управление уведомлениями об удержании](compliance20/manage-hold-notification.md)
-#### [Изменение уведомления об удержании](compliance20/edit-hold-notification.md)
 #### [Подтверждение уведомления об удержании](compliance20/acknowledge-hold-notification.md)
 
 ### [Управление удержаниями](compliance20/managing-holds.md)
