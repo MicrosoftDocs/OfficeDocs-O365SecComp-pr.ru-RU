@@ -5,6 +5,7 @@ author: denisebmsft
 manager: laurawi
 ms.audience: ITPro
 ms.topic: article
+ms.date: 02/05/2019
 ms.service: o365-administration
 localization_priority: Normal
 search.appverid:
@@ -12,24 +13,30 @@ search.appverid:
 - MOE150
 ms.assetid: 07e76024-0c80-40dc-8c48-1dd0d0f863cb
 description: Узнайте, как включить ATP для SharePoint, OneDrive и групп, включая способ настройки оповещения об обнаруженных файлах.
-ms.openlocfilehash: 770af7078166857bcb9784112710262b7de788bb
-ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
+ms.openlocfilehash: 23eaa4def0fafdcd0df0ae30f8358104c0f877b6
+ms.sourcegitcommit: a64af0ebd0b03e4a5e60a33e9108c44c7d74f356
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28014891"
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "29741032"
 ---
 # <a name="turn-on-office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Включить ATP Office 365 для SharePoint, OneDrive и группами Майкрософт
 
 [Office 365 ATP для SharePoint, OneDrive и группами Майкрософт](atp-for-spo-odb-and-teams.md) защищает вашей организации от случайно совместное использование вредоносных файлов. При обнаружении вредоносных файлов, этот файл блокируется, чтобы никто можно открыть, скопируйте, перемещение или совместно использовать до дополнительных действий группой безопасности в организации. Ознакомьтесь с этой статьей, чтобы включить ATP для SharePoint, OneDrive и рабочих групп, настроить оповещения для уведомления об обнаруженных файлов и выполните следующие действия. 
   
-Для выполнения задач, описанных в этой статье, необходимо иметь все необходимые разрешения, назначенные в Office 365 и в системы &amp; центре соответствия требованиям.
+(Или изменение) ATP политик, вам должна быть назначена одна из ролей описаны в следующей таблице:
+
+|Роль  |Где и как назначен  |
+|---------|---------|
+|Глобальный администратор Office 365 |Человека, который регистрируется приобрести Office 365 — это глобального администратора по умолчанию. ( [Роли администраторов об Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) для получения дополнительных сведений см.)         |
+|Администратор безопасности Office 365 |Центр администрирования ([https://aka.ms/admincenter](https://aka.ms/admincenter))|
+|Управление Exchange Online организацией |Центр администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
   
 ## <a name="turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Включение ATP для SharePoint, OneDrive и Microsoft Teams
 
- **Перед началом этой процедуры убедитесь в том, что ведение журнала аудита уже включен для вашей среды Office 365**. Обычно это делается пользователем, обладающим журналы аудита роли, назначенные в Exchange Online. Дополнительные сведения можно [Включить Office 365 проводить аудит операций поиска журнала включено или отключено](turn-audit-log-search-on-or-off.md).
+**Перед началом этой процедуры убедитесь в том, что ведение журнала аудита уже включен для вашей среды Office 365**. Обычно это делается пользователем, обладающим журналы аудита роли, назначенные в Exchange Online. Дополнительные сведения можно [Включить Office 365 проводить аудит операций поиска журнала включено или отключено](turn-audit-log-search-on-or-off.md).
   
-1. Как глобальный администратор или администратор безопасности, перейдите к [https://protection.office.com](https://protection.office.com)и войдите с учетной записи рабочего или школы.
+1. Последовательно выберите пункты [https://protection.office.com](https://protection.office.com)и войдите с учетной записи рабочего или школы.
     
 2. В Office 365 безопасность &amp; центре соответствия требованиям в левой области навигации, в разделе **Управление угроз**, выберите **политику** \> **Безопасные вложения**. <br/>![В разделе Безопасность &amp; центре соответствия требованиям, выберите Threat management \> политики](media/08849c91-f043-4cd1-a55e-d440c86442f2.png)
   

@@ -5,7 +5,7 @@ author: denisebmsft
 manager: laurawi
 ms.audience: Admin
 ms.topic: article
-ms.date: 12/11/2018
+ms.date: 02/05/2019
 ms.service: o365-administration
 localization_priority: Normal
 search.appverid:
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 896a7efb-1683-465e-a394-261349e5d866
 description: Узнайте, как настроить список заблокированных URL-адресов для вашей организации, с помощью защиты расширенного Threat Office 365. Заблокированные URL-адреса будут применяться ко сообщения электронной почты и документов Office в соответствии с политиках безопасных ссылок анализа.
-ms.openlocfilehash: 2b2fa78a4dbd6fc8bd0e46d7f23402aff732e096
-ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
+ms.openlocfilehash: 4146424056c9a5b30f51a58fd020df912fa048ef
+ms.sourcegitcommit: a64af0ebd0b03e4a5e60a33e9108c44c7d74f356
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28014961"
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "29741022"
 ---
 # <a name="set-up-a-custom-blocked-urls-list-using-office-365-atp-safe-links"></a>Настроить пользовательский заблокированных список URL-адресов с помощью Office 365 ATP безопасных ссылки
 
@@ -33,6 +33,14 @@ ms.locfileid: "28014961"
 ## <a name="view-or-edit-a-custom-list-of-blocked-urls"></a>Просмотр или изменение настраиваемого списка заблокированных URL-адресов
 
 [ATP безопасных ссылок в Office 365](atp-safe-links.md) использует несколько списков, включая настраиваемые черный список URL-адресов вашей организации. При наличии необходимых разрешений можно настроить пользовательский список вашей организации. Это делается путем редактирования политики безопасных ссылки вашей организации по умолчанию.
+
+Для изменения (или задания) ATP политик, вам должна быть назначена одна из ролей описаны в следующей таблице: 
+
+|Роль  |Где и как назначен  |
+|---------|---------|
+|Глобальный администратор Office 365 |Человека, который регистрируется приобрести Office 365 — это глобального администратора по умолчанию. ( [Роли администраторов об Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) для получения дополнительных сведений см.)         |
+|Администратор безопасности Office 365 |Центр администрирования ([https://aka.ms/admincenter](https://aka.ms/admincenter))|
+|Управление Exchange Online организацией |Центр администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
   
 1. Последовательно выберите пункты [https://protection.office.com](https://protection.office.com) и войдите с учетной записи рабочего или школы. 
     

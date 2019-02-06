@@ -3,7 +3,7 @@ title: Назначение удержания на месте для обрат
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 1/18/2017
+ms.date: ''
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -12,19 +12,19 @@ localization_priority: Normal
 search.appverid: ''
 ms.assetid: 421f72bd-dd43-4be1-82f5-0ae9ac43bd00
 description: Узнайте, как создать запрос удержания на месте для обратимо удаленного почтового ящика, чтобы сделать последний неактивным и сохранить его содержимое. После этого вы сможете использовать средства обнаружения электронных данных для поиска в неактивном почтовом ящике.
-ms.openlocfilehash: b4ef4ee26e98c8234f64d0879391f8fec89ffd3c
-ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
+ms.openlocfilehash: e666ac608ec224bf97caa947be2cb42b742c6fa9
+ms.sourcegitcommit: ca97beff215d154b6ab006ce1222056434fde1a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25038252"
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "29740801"
 ---
 # <a name="put-an-in-place-hold-on-a-soft-deleted-mailbox-in-exchange-online"></a>Назначение удержания на месте для обратимо удаленного почтового ящика в Exchange Online
 
 Узнайте, как создать запрос удержания на месте для обратимо удаленного почтового ящика, чтобы сделать последний неактивным и сохранить его содержимое. После этого вы сможете использовать средства обнаружения электронных данных для поиска в неактивном почтовом ящике.
   
 > [!NOTE]
-> Мы отложено крайний срок 1 июля 2017 по созданию новых удержание на месте в Exchange Online (в отдельных планах Office 365 и Exchange Online). Однако в этом году или первых следующего года, не сможет создать удержание на месте в Exchange Online. В качестве альтернативы, используя удержание на месте, можно использовать [вариантах eDiscovery](https://go.microsoft.com/fwlink/?linkid=780738) и [политики хранения](https://go.microsoft.com/fwlink/?linkid=827811) безопасности Office 365 &amp; центре соответствия требованиям. После мы выводить из эксплуатации создать удержание на месте, по-прежнему сможет изменение существующей удержание на месте и создание новых удержание на месте в Exchange Server 2013 и гибридных развертываний Exchange будет по-прежнему будут поддерживаться. И, по-прежнему смогут помещение почтовых ящиков на хранение для судебного разбирательства. 
+> Мы отложено крайний срок для создания новых удержание на месте в Exchange Online (в отдельных планах Office 365 и Exchange Online). Однако в этом году или первых следующего года, не сможет создать удержание на месте в Exchange Online. В качестве альтернативы, используя удержание на месте, можно использовать [вариантах eDiscovery](https://go.microsoft.com/fwlink/?linkid=780738) и [политики хранения](https://go.microsoft.com/fwlink/?linkid=827811) безопасности Office 365 &amp; центре соответствия требованиям. После мы выводить из эксплуатации создать удержание на месте, по-прежнему сможет изменение существующей удержание на месте и создание новых удержание на месте в Exchange Server 2013 и гибридных развертываний Exchange будет по-прежнему будут поддерживаться. И, по-прежнему смогут помещение почтовых ящиков на хранение для судебного разбирательства. 
   
 Возможно случаев, когда пользователь покинул вашей организации, и их соответствующая учетная запись пользователя и почтовый ящик были удалены. После этого вы понимаем, что сведения в почтовый ящик, который необходимо сохранить. Что можно сделать? Если еще не истек срок хранения удаленных почтовых ящиков, можно перевести хранение на месте на удаленный почтовый ящик, (называемые почтового ящика, удаленные) и сделать его неактивного почтового ящика. *Неактивного почтового ящика* используется для хранения электронной переписки бывший сотрудник, после он или она уволится из вашей организации. Содержимое неактивного почтового ящика, сохраняются для продолжительность удержания на месте, которое было помещается на удаленный почтовый ящик, когда было выполнено неактивных. После внесения в неактивного почтового ящика можно выполнить поиск почтового ящика с помощью электронного обнаружения на месте в Exchange Online поиска контента в Office 365 безопасность &amp; соответствия требованиям, или центра обнаружения электронных данных в SharePoint Online. 
   
@@ -32,7 +32,6 @@ ms.locfileid: "25038252"
 > В Exchange Online обратимо удаленный почтовый ящик  почтовый ящик, который был удален, но может быть восстановлен в течение определенного срока хранения (в Exchange Online он составляет 30 дней). Это значит, что такой почтовый ящик можно восстановить или сделать неактивным в течение 30 дней после удаления. По истечении этого периода обратимо удаленный почтовый ящик помечается для окончательного удаления, и в этом случае его уже невозможно восстановить или сделать неактивным. 
   
 ## <a name="before-you-begin"></a>Перед началом работы
-<a name="sectionSection0"> </a>
 
 - Примените командлет **New-MailboxSearch** в Оболочка Windows PowerShell, чтобы назначить удержание на месте для обратимо удаленного почтового ящика. В SharePoint Online вы не можете использовать Центр администрирования Exchange (EAC) или центр обнаружения электронных данных. 
     
@@ -44,58 +43,52 @@ ms.locfileid: "25038252"
   Get-Mailbox -SoftDeletedMailbox | FL Name,WhenSoftDeleted,DistinguishedName,ExchangeGuid,PrimarySmtpAddress
   ```
 
-- Дополнительные сведения о неактивных почтовых ящиках см. в статье [Неактивные почтовые ящики в Exchange Online](http://technet.microsoft.com/library/2f2948c5-1c5a-4643-865c-b36e4ac1414b.aspx).
+- Дополнительные сведения о неактивные почтовые ящики см [неактивные почтовые ящики в Office 365](inactive-mailboxes-in-office-365.md).
     
 ## <a name="put-an-in-place-hold-on-a-soft-deleted-mailbox-to-make-it-an-inactive-mailbox"></a>Назначение удержания на месте для обратимо удаленного почтового ящика, чтобы сделать последний неактивным
-<a name="sectionSection1"> </a>
 
 С помощью командлета **New-MailboxSearch** сделайте обратимо удаленный почтовый ящик неактивным. Дополнительные сведения см. в статье [New-MailboxSearch](http://technet.microsoft.com/library/74303b47-bb49-407c-a43b-590356eae35c.aspx).
   
 1. Создайте переменную, содержащую свойства обратимо удаленного почтового ящика. 
     
-  ```
-  $SoftDeletedMailbox = Get-Mailbox -SoftDeletedMailbox -Identity <identity of soft-deleted mailbox>
-  ```
+   ```
+   $SoftDeletedMailbox = Get-Mailbox -SoftDeletedMailbox -Identity <identity of soft-deleted mailbox>
+   ```
 
     > [!IMPORTANT]
     > В указанной выше команде используйте значение свойства **DistinguishedName** или **ExchangeGuid** для определения обратимо удаленного почтового ящика. Эти свойства уникальны для каждого почтового ящика в организации, тогда как у активного и обратимо удаленного почтовых ящиков может быть один и тот же основной SMTP-адрес. 
   
 2. Создайте запрос удержания на месте и назначьте его для обратимо удаленного почтового ящика. В этом примере не указан период удержания. Это означает, что элементы будут храниться в течение неограниченного срока или до тех пор, пока для неактивного почтового ящика не будет отменено удержание.
     
-  ```
-  New-MailboxSearch -Name "InactiveMailboxHold" -SourceMailboxes $SoftDeletedMailbox.DistinguishedName -InPlaceHoldEnabled $true
-  
-  ```
-
-    Кроме того, вы можете указать длительность удержания при создании запроса удержания на месте. В этом примере элементы в неактивном почтовом ящике удерживаются около 7 лет.
+   ```
+   New-MailboxSearch -Name "InactiveMailboxHold" -SourceMailboxes $SoftDeletedMailbox.DistinguishedName -InPlaceHoldEnabled $true
+    ```
+   Кроме того, вы можете указать длительность удержания при создании запроса удержания на месте. В этом примере элементы в неактивном почтовом ящике удерживаются около 7 лет.
     
-  ```
-  New-MailboxSearch -Name "InactiveMailboxHold" -SourceMailboxes $SoftDeletedMailbox.DistinguishedName -InPlaceHoldEnabled $true -ItemHoldPeriod 2777
-  ```
+   ```
+   New-MailboxSearch -Name "InactiveMailboxHold" -SourceMailboxes $SoftDeletedMailbox.DistinguishedName -InPlaceHoldEnabled $true -ItemHoldPeriod 2777
+   ```
 
 3. Через пару минут запустите одну из указанных ниже команд, чтобы убедиться в неактивности этого обратимо удаленного почтового ящика.
     
-  ```
-  Get-Mailbox -InactiveMailboxOnly
-  ```
+   ```
+   Get-Mailbox -InactiveMailboxOnly
+   ```
 
     Еще вариант:
     
-  ```
-  Get-Mailbox -InactiveMailboxOnly -Identity $SoftDeletedMailbox.DistinguishedName  | FL IsInactiveMailbox
-  ```
+   ```
+   Get-Mailbox -InactiveMailboxOnly -Identity $SoftDeletedMailbox.DistinguishedName  | FL IsInactiveMailbox
+   ```
 
 ## <a name="more-information"></a>Дополнительные сведения
-<a name="sectionSection2"> </a>
 
 Сделав обратимо удаленный почтовый ящик неактивным, вы сможете управлять им несколькими способами. Дополнительные сведения см. в таких статьях:
   
-- [Изменение срока хранения неактивного почтового ящика в Exchange Online](http://technet.microsoft.com/library/96eb634e-af2f-454e-8014-b698396811c4.aspx) ;
+- [Изменение срока хранения неактивного почтового ящика](change-the-hold-duration-for-an-inactive-mailbox.md)
     
-- [Восстановление неактивного почтового ящика в Exchange Online](http://technet.microsoft.com/library/283838b4-66ba-4c34-b221-e1a3875e1d29.aspx) ;
+- [Возврат неактивного почтового ящика](recover-an-inactive-mailbox.md)
     
-- [Возврат неактивного почтового ящика в Exchange Online](http://technet.microsoft.com/library/1fb02feb-49e5-4485-aec5-9f1537b772b6.aspx) ;
+- [Восстановление неактивного почтового ящика](restore-an-inactive-mailbox.md)
     
-- [Отключение удержания неактивного почтового ящика в Exchange Online](http://technet.microsoft.com/library/930a98c3-cd81-4aaa-8e22-19714cb2b731.aspx) .
-    
-
+- [Удаление неактивного почтового ящика](delete-an-inactive-mailbox.md) (путем удаления удержания)

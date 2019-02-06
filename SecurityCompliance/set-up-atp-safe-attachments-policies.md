@@ -5,6 +5,7 @@ author: denisebmsft
 manager: laurawi
 ms.audience: Admin
 ms.topic: article
+ms.date: 02/05/2019
 ms.service: o365-administration
 localization_priority: Normal
 search.appverid:
@@ -12,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 078eb946-819a-4e13-8673-fe0c0ad3a775
 description: Определение политик безопасные вложения для защиты от вредоносных файлов в электронной почты вашей организации.
-ms.openlocfilehash: c5c18e3e8300a5cb8eabb8a099d6757a09170ff7
-ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
+ms.openlocfilehash: 229f5eb4ec1af4302f724151f599bd33b15055e1
+ms.sourcegitcommit: a64af0ebd0b03e4a5e60a33e9108c44c7d74f356
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28014881"
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "29741122"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Настройка политик Office 365 ATP безопасные вложения
 
@@ -35,7 +36,13 @@ ms.locfileid: "28014881"
 
 - Убедитесь в том, что в вашей организации есть [Защиту от угроз для Office 365 расширенный](office-365-atp.md).
     
-- Убедитесь в том, что у вас есть необходимые [разрешения для системы безопасности Office 365 &amp; центре соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
+- Убедитесь в том, что имеются необходимые разрешения. (Или изменение) ATP политик, вам должна быть назначена одна из ролей описаны в следующей таблице: <br>
+
+    |Роль  |Где и как назначен  |
+    |---------|---------|
+    |Глобальный администратор Office 365 |Человека, который регистрируется приобрести Office 365 — это глобального администратора по умолчанию. ( [Роли администраторов об Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) для получения дополнительных сведений см.)         |
+    |Администратор безопасности Office 365 |Центр администрирования ([https://aka.ms/admincenter](https://aka.ms/admincenter))|
+    |Управление Exchange Online организацией |Центр администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
     
 - [Дополнительные сведения о параметрах политики ATP безопасные вложения](#learn-about-atp-safe-attachments-policy-options) (в этой статье). Некоторые параметры, такие как параметры монитора или заменить, может привести незначительные задержку электронной почты во время вложения, выполняется поиск вирусов. Чтобы избежать задержек сообщение, рекомендуется использовать [динамические доставки и предварительный просмотр](dynamic-delivery-and-previewing.md).
     
@@ -43,7 +50,7 @@ ms.locfileid: "28014881"
     
 ## <a name="step-2-set-up-or-edit-an-atp-safe-attachments-policy"></a>Шаг 2: Настройка (или изменение) политику ATP безопасные вложения
   
-1. Как глобальный администратор или администратор безопасности, перейдите к [https://protection.office.com](https://protection.office.com) и войдите с учетной записи рабочего или школы. 
+1. Последовательно выберите пункты [https://protection.office.com](https://protection.office.com) и войдите с учетной записи рабочего или школы. 
     
 2. В Office 365 безопасность &amp; центре соответствия требованиям в левой области навигации, в разделе **Управление угроз**, выберите **политику** \> **Безопасные вложения**.
     
@@ -85,4 +92,6 @@ ms.locfileid: "28014881"
 После политиках ATP безопасные вложения можно увидеть, как работа ATP для вашей организации при просмотре отчетов. Воспользуйтесь следующими ресурсами для получения дополнительных сведений:
 - [Просмотр отчетов для защиты расширенного Threat Office 365](view-reports-for-atp.md)
 - [Используйте проводник в системы &amp; центре соответствия требованиям](use-explorer-in-security-and-compliance.md)
+
+Будьте в курсе на основе новых функций, готовится к анализа. посетите [365 стратегия Майкрософт](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) и узнайте о [новых функциональных возможностях, которые добавляются для анализа](office-365-atp.md#new-features-are-continually-being-added-to-atp).
  

@@ -5,6 +5,7 @@ author: denisebmsft
 manager: laurawi
 ms.audience: Admin
 ms.topic: article
+ms.date: 02/05/2019
 ms.service: o365-administration
 localization_priority: Normal
 search.appverid:
@@ -12,16 +13,16 @@ search.appverid:
 - MOE150
 ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 description: Настройка политик безопасных ссылки для защиты от вредоносных ссылки в файлов Word, Excel, PowerPoint и Visio, а также в сообщениях электронной почты организации.
-ms.openlocfilehash: 145e8998637756d204171f64021d6ad783b367f3
-ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
+ms.openlocfilehash: 714b3df825272ab182443b31e0b2cf90b64b71b7
+ms.sourcegitcommit: a64af0ebd0b03e4a5e60a33e9108c44c7d74f356
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015061"
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "29741092"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Настройка политик Office 365 ATP безопасных ссылки
 
-[Безопасные ссылок анализа](atp-safe-links.md) , компонента [Защиты расширенного Threat Office 365](office-365-atp.md) (ATP), могут помочь защитить организацию от вредоносного ссылок, используемых в фишинга и другие атаки. Если у вас есть необходимые [разрешения для системы безопасности Office 365 &amp; центре соответствия требованиям](permissions-in-the-security-and-compliance-center.md), можно настроить политики ATP безопасных ссылки помогут вам, когда пользователи щелкают веб-адреса (URL-адреса), защищенных вашей организации. Можно настроить политиках безопасных ссылок анализа для проверки URL-адреса электронной почты и URL-адреса в документах Office.
+[Безопасные ссылок анализа](atp-safe-links.md), компонента [Защиты расширенного Threat Office 365](office-365-atp.md) (ATP), могут помочь защитить организацию от вредоносного ссылок, используемых в фишинга и другие атаки. Если у вас есть необходимые [разрешения для системы безопасности Office 365 &amp; центре соответствия требованиям](permissions-in-the-security-and-compliance-center.md), можно настроить политики ATP безопасных ссылки помогут вам, когда пользователи щелкают веб-адреса (URL-адреса), защищенных вашей организации. Можно настроить политиках безопасных ссылок анализа для проверки URL-адреса электронной почты и URL-адреса в документах Office.
   
 [Новые возможности постоянно добавляются для анализа](office-365-atp.md#new-features-are-continually-being-added-to-atp). При добавлении новых функций, может потребоваться внести изменения в существующих политик безопасных ссылок анализа.
 
@@ -33,13 +34,19 @@ ms.locfileid: "28015061"
     
 3. [Добавление или редактирование политик для конкретных электронной почты получателей](#add-a-policy-for-specific-email-recipients), включая [настройку настраиваемый «Не rewrite» URL-адреса, список для безопасных ссылок анализа](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md).
     
-4. [Дополнительные сведения о параметрах политики безопасных ссылок анализа](#learn-about-atp-safe-links-policy-options) (в этой статье) включая параметры для изменения
+4. [Дополнительные сведения о параметрах политики безопасных ссылок анализа](#learn-about-atp-safe-links-policy-options) (в этой статье) включая параметры для изменения.
     
 ## <a name="step-1-review-the-prerequisites"></a>Шаг 1: Просмотрите необходимого программного обеспечения
 
 - Убедитесь в том, что в вашей организации есть [Защиту от угроз для Office 365 расширенный](office-365-atp.md).
     
-- Убедитесь, что необходимые разрешения для задания или изменения политики анализа. Просмотреть [разрешения безопасности Office 365 &amp; центре соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
+- Убедитесь в том, что имеются необходимые разрешения. (Или изменение) ATP политик, вам должна быть назначена одна из ролей описаны в следующей таблице: <br>
+
+    |Роль  |Где и как назначен  |
+    |---------|---------|
+    |Глобальный администратор Office 365 |Человека, который регистрируется приобрести Office 365 — это глобального администратора по умолчанию. ( [Роли администраторов об Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) для получения дополнительных сведений см.)         |
+    |Администратор безопасности Office 365 |Центр администрирования ([https://aka.ms/admincenter](https://aka.ms/admincenter))|
+    |Управление Exchange Online организацией |Центр администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
 
 - Убедитесь в том, что клиенты Office настроены на использование [Проверки подлинности на современном](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016) (используется для защиты ATP безопасных ссылок в документах Office).
     
@@ -130,4 +137,6 @@ ms.locfileid: "28015061"
 
 - [Просмотр отчетов для защиты расширенного Threat Office 365](view-reports-for-atp.md)
 
-- [Используйте проводник в системы &amp; центре соответствия требованиям](use-explorer-in-security-and-compliance.md) 
+- [Используйте проводник в системы &amp; центре соответствия требованиям](use-explorer-in-security-and-compliance.md)
+
+Будьте в курсе на основе новых функций, готовится к анализа. посетите [365 стратегия Майкрософт](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) и узнайте о [новых функциональных возможностях, которые добавляются для анализа](office-365-atp.md#new-features-are-continually-being-added-to-atp).

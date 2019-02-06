@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.audience: Admin
-ms.date: 01/08/2019
+ms.date: 02/05/2019
 ms.topic: overview
 ms.service: o365-administration
 localization_priority: Normal
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6e13311e-92ae-495e-a619-56d770199170
 description: Функция надежных приложений обеспечивает проверку времени щелкните вложений электронной почты. Использование безопасных вложений для защиты от вредоносных файлов пользователей организации отправлять и получать по электронной почте.
-ms.openlocfilehash: 85c1ec3e0126a155f863b9fef9ddb36b13d0b3fb
-ms.sourcegitcommit: 03e64ead7805f3dfa9149252be8606efe50375df
+ms.openlocfilehash: 3717c0d278aaba4fce25cb196ebef9e277921408
+ms.sourcegitcommit: a64af0ebd0b03e4a5e60a33e9108c44c7d74f356
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "27769843"
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "29741132"
 ---
 # <a name="office-365-atp-safe-attachments"></a>Office 365 ATP безопасности вложений
 
@@ -27,7 +27,7 @@ ms.locfileid: "27769843"
 
 Безопасные вложения ATP (а также [ATP безопасных ссылки](atp-safe-links.md)) является частью [Защиту от угроз для Office 365 Advanced](office-365-atp.md) (ATP). Компонент анализа безопасные вложения проверяет, являются ли вредоносных вложений электронной почты, а затем действие, которое необходимо защитить организацию. Функция безопасные вложения ATP защищает вашей организации в соответствии с [политиками ATP безопасные вложения](set-up-atp-safe-attachments-policies.md) , установленных с Office 365 глобального или администраторов безопасности. 
   
-Недавно защиты ATP была расширена для файлов в SharePoint Online, OneDrive для бизнеса и группами Майкрософт. Для получения дополнительных сведений см [Office 365 расширенного защиту от угроз для SharePoint, OneDrive и группами Майкрософт](atp-for-spo-odb-and-teams.md).
+Защита ATP также может быть расширена для файлов в SharePoint Online, OneDrive для бизнеса и группами Майкрософт. Для получения дополнительных сведений см [Office 365 расширенного защиту от угроз для SharePoint, OneDrive и группами Майкрософт](atp-for-spo-odb-and-teams.md).
        
 ## <a name="how-it-works"></a>Как это работает
 
@@ -45,18 +45,25 @@ ms.locfileid: "27769843"
   
 ## <a name="how-to-get-atp-safe-attachments"></a>Способ получения ATP безопасные вложения
 
-Компонент анализа безопасные вложения является частью [Защиты расширенного Threat Office 365](office-365-atp.md). Безопасные вложения ATP функции применяются при:
+Во-первых убедитесь, что подписка включает [Дополнительные защиту от угроз](office-365-atp.md). Пакет анализа включен в подписки, как [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home), [365 Microsoft Business](https://www.microsoft.com/microsoft-365/business), Office 365 Enterprise E5, Office 365 Education A5, и т.д. Если в вашей организации есть подписка на Office 365, которая не включает Office 365 ATP, вы можете приобрести ATP потенциально как дополнительный компонент. Дополнительные сведения см в [Office 365 расширенного угроз защиты описание службы](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description). 
+
+Затем убедитесь, что определенные политиках ATP безопасные вложения. (См. [Настройка политик Office 365 ATP безопасные вложения](set-up-atp-safe-attachments-policies.md)) Безопасные вложения ATP включены компоненты времени:
   
 - Настройка политик ATP безопасные вложения. (См. [Настройка политик ATP безопасные вложения в Office 365](set-up-atp-safe-attachments-policies.md)).
     
 - Пользователи выполнил вход в Office 365 с помощью своей учетной записи рабочего или школы. (См. [войти в Office или Office 365](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426)).
+
+(Или изменение) ATP политик, вам должна быть назначена одна из ролей описаны в следующей таблице:
+
+|Роль  |Где и как назначен  |
+|---------|---------|
+|Глобальный администратор Office 365 |Человека, который регистрируется приобрести Office 365 — это глобального администратора по умолчанию. ( [Роли администраторов об Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) для получения дополнительных сведений см.)         |
+|Администратор безопасности Office 365 |Центр администрирования ([https://aka.ms/admincenter](https://aka.ms/admincenter))|
+|Управление Exchange Online организацией |Центр администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
     
 ## <a name="how-to-know-if-atp-safe-attachments-protection-is-in-place"></a>Как узнать, если защиты ATP безопасные вложения на месте
 
-Позволяет видеть, как работа службы — отчеты [для расширенного защиту от угроз](view-reports-for-atp.md).
-
-
-[Безопасные вложения ATP политики](set-up-atp-safe-attachments-policies.md) необходимо определить в порядке для защиты ATP безопасные вложения в месте.   
+После того как [определенные (или просмотра) политиках безопасные вложения ATP](set-up-atp-safe-attachments-policies.md)позволяет видеть, как работа службы — отчеты [для расширенного защиту от угроз](view-reports-for-atp.md).
   
 В следующей таблице описываются некоторые примеры сценариев. Во всех этих случаях мы предполагаем, что у организации есть подписка на Office 365, которая включает в себя дополнительные защиту от угроз.
   
