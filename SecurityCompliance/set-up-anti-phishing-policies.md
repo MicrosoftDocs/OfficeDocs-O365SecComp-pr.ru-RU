@@ -5,17 +5,17 @@ author: kccross
 manager: laurawi
 ms.audience: ITPro
 ms.topic: article
-ms.date: 02/04/2019
+ms.date: 02/06/2019
 ms.service: o365-administration
 localization_priority: Normal
 ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
 description: Защита от фишинга защиты как часть защиту расширенного Threat Office 365 и основные в Office 365 Exchange Online Protection, помогает защитить организацию от вредоносного на основе олицетворения фишинга и других фишинг-атак.
-ms.openlocfilehash: 1ef1dc0781cc28e660cbebf8cde59f97d3e65000
-ms.sourcegitcommit: a64af0ebd0b03e4a5e60a33e9108c44c7d74f356
+ms.openlocfilehash: 1ecc76f674b1d64b59b5dec0f92cd06bbe8b55e8
+ms.sourcegitcommit: d6a28c4f6db6a676ca960173e8ff8f17d4aa1c4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "29741152"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29755270"
 ---
 # <a name="set-up-office-365-atp-anti-phishing-and-anti-phishing-policies"></a>Настройка политик фишинга и фишинга Office 365 ATP
 
@@ -43,9 +43,11 @@ ms.locfileid: "29741152"
     |Роль  |Где и как назначен  |
     |---------|---------|
     |Глобальный администратор Office 365 |Человека, который регистрируется приобрести Office 365 — это глобального администратора по умолчанию. ( [Роли администраторов об Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) для получения дополнительных сведений см.)         |
-    |Администратор безопасности Office 365 |Центр администрирования ([https://aka.ms/admincenter](https://aka.ms/admincenter))|
+    |администратор безопасности (Security Administrator). |Центр администрирования Azure Active Directory ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
     |Управление Exchange Online организацией |Центр администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
     
+    Чтобы узнать больше о роли и разрешения, обратитесь к разделу [разрешения безопасности Office 365 &amp; центре соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
+
 - Возможно, будет настроить несколько политик фишинга для вашей организации. Office 365 применяет эти политики, в том порядке, они перечислены на страницах **страницы фишинга** и **фишинга ATP** в системы &amp; центре соответствия требованиям. После проверил по умолчанию [Параметры политики](#learn-about-atp-anti-phishing-policy-options), потратьте некоторое время, чтобы определить, сколько политик, то необходимо и приоритета для каждого из них. 
     
 - Планирование проводят около 5 – 15 минут для настройки первого фишинга политики.

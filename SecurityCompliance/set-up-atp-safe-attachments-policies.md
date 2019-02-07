@@ -5,7 +5,7 @@ author: denisebmsft
 manager: laurawi
 ms.audience: Admin
 ms.topic: article
-ms.date: 02/05/2019
+ms.date: 02/06/2019
 ms.service: o365-administration
 localization_priority: Normal
 search.appverid:
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 078eb946-819a-4e13-8673-fe0c0ad3a775
 description: Определение политик безопасные вложения для защиты от вредоносных файлов в электронной почты вашей организации.
-ms.openlocfilehash: 229f5eb4ec1af4302f724151f599bd33b15055e1
-ms.sourcegitcommit: a64af0ebd0b03e4a5e60a33e9108c44c7d74f356
+ms.openlocfilehash: 2f33114d46778f2f01f5a263a05c320f75fad49e
+ms.sourcegitcommit: d6a28c4f6db6a676ca960173e8ff8f17d4aa1c4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "29741122"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29755220"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Настройка политик Office 365 ATP безопасные вложения
 
@@ -41,9 +41,11 @@ ms.locfileid: "29741122"
     |Роль  |Где и как назначен  |
     |---------|---------|
     |Глобальный администратор Office 365 |Человека, который регистрируется приобрести Office 365 — это глобального администратора по умолчанию. ( [Роли администраторов об Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) для получения дополнительных сведений см.)         |
-    |Администратор безопасности Office 365 |Центр администрирования ([https://aka.ms/admincenter](https://aka.ms/admincenter))|
+    |администратор безопасности (Security Administrator). |Центр администрирования Azure Active Directory ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
     |Управление Exchange Online организацией |Центр администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
     
+    Чтобы узнать больше о роли и разрешения, обратитесь к разделу [разрешения безопасности Office 365 &amp; центре соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
+
 - [Дополнительные сведения о параметрах политики ATP безопасные вложения](#learn-about-atp-safe-attachments-policy-options) (в этой статье). Некоторые параметры, такие как параметры монитора или заменить, может привести незначительные задержку электронной почты во время вложения, выполняется поиск вирусов. Чтобы избежать задержек сообщение, рекомендуется использовать [динамические доставки и предварительный просмотр](dynamic-delivery-and-previewing.md).
     
 - Разрешить до 30 минут для новых или обновленных политики для распространения для всех центров обработки данных Office 365.

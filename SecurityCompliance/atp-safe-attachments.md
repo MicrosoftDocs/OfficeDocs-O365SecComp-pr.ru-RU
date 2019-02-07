@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6e13311e-92ae-495e-a619-56d770199170
 description: Функция надежных приложений обеспечивает проверку времени щелкните вложений электронной почты. Использование безопасных вложений для защиты от вредоносных файлов пользователей организации отправлять и получать по электронной почте.
-ms.openlocfilehash: 3717c0d278aaba4fce25cb196ebef9e277921408
-ms.sourcegitcommit: a64af0ebd0b03e4a5e60a33e9108c44c7d74f356
+ms.openlocfilehash: 936d24e3782e1018e77e24373756e378472f7e7c
+ms.sourcegitcommit: d6a28c4f6db6a676ca960173e8ff8f17d4aa1c4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "29741132"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29755280"
 ---
 # <a name="office-365-atp-safe-attachments"></a>Office 365 ATP безопасности вложений
 
@@ -58,7 +58,7 @@ ms.locfileid: "29741132"
 |Роль  |Где и как назначен  |
 |---------|---------|
 |Глобальный администратор Office 365 |Человека, который регистрируется приобрести Office 365 — это глобального администратора по умолчанию. ( [Роли администраторов об Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) для получения дополнительных сведений см.)         |
-|Администратор безопасности Office 365 |Центр администрирования ([https://aka.ms/admincenter](https://aka.ms/admincenter))|
+|администратор безопасности (Security Administrator). |Центр администрирования Azure Active Directory ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
 |Управление Exchange Online организацией |Центр администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
     
 ## <a name="how-to-know-if-atp-safe-attachments-protection-is-in-place"></a>Как узнать, если защиты ATP безопасные вложения на месте
