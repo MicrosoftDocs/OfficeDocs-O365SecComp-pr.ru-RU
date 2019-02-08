@@ -3,7 +3,7 @@ title: Начало работы с Office 365 Threat Intelligence
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 01/22/2019
+ms.date: 02/07/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -13,18 +13,16 @@ search.appverid:
 - MOE150
 ms.assetid: 38e9b67f-d188-490f-bc91-a1ae4b270441
 description: Сведения о анализ угроз Office 365, а также для начала работы.
-ms.openlocfilehash: d2b3d245a0d3d26e26052468313da8db7df5ea9b
-ms.sourcegitcommit: a1d8174240eb88b51af3a1ba26d715292fe08c53
+ms.openlocfilehash: 141bc0d2ffc2084f56f50333c756507d04a37d44
+ms.sourcegitcommit: c2ec9a4b0279a248b85c2e4a4e91458214b5b31c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "29426044"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29770794"
 ---
 # <a name="get-started-with-office-365-threat-intelligence"></a>Начало работы с Office 365 Threat Intelligence
 
 Если вы являетесь участником группы безопасности вашей организации, можно использовать анализ угроз Office 365, чтобы защитить пользователей от атак. Анализ угроз Office 365 помогает аналитикам безопасности и Администраторы обезопасить с вверх копирование полезные сведения о и определение действия на основе о том, что происходит в их среде Office 365. Эти полезные сведения о основаны на комплексной хранилище данных аналитики угроз и систем для плашечных шаблонов, которые соответствуют атак поведения и подозрительные действия.
-  
-![Анализ угроз помогает понять атаки, предназначенные для вашей организации](media/6ce67cf2-3bbb-4008-9c55-1b4c7af0471f.png)
   
 В этой статье, чтобы узнать больше о включает анализ угроз Office 365, а также для начала работы.
   
@@ -99,7 +97,7 @@ ms.locfileid: "29426044"
    
 Сведения о роли, группы ролей и разрешений в разделе [разрешения безопасности Office 365 &amp; центре соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
     
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - [Узнайте о системы отслеживания дефектов угроз - новости и полезные сведения](threat-trackers.md)
     
