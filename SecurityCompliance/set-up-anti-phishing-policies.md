@@ -10,12 +10,12 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
 description: Защита от фишинга защиты как часть защиту расширенного Threat Office 365 и основные в Office 365 Exchange Online Protection, помогает защитить организацию от вредоносного на основе олицетворения фишинга и других фишинг-атак.
-ms.openlocfilehash: 1ecc76f674b1d64b59b5dec0f92cd06bbe8b55e8
-ms.sourcegitcommit: d6a28c4f6db6a676ca960173e8ff8f17d4aa1c4b
+ms.openlocfilehash: 333176ebef8d6367f5090730386fc820927cf3af
+ms.sourcegitcommit: c1c41744c2de89c9e172f817c8f73bb0ada81a58
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29755270"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "29792284"
 ---
 # <a name="set-up-office-365-atp-anti-phishing-and-anti-phishing-policies"></a>Настройка политик фишинга и фишинга Office 365 ATP
 
@@ -24,7 +24,7 @@ ms.locfileid: "29755270"
 Фишинга атаки поступают в различных формах из товарных-атак для целевого относятся или whaling. С помощью растущий сложности трудно даже обученные глаз для идентификации некоторые из этих атак. К счастью могут помочь защиты расширенного Threat Office 365. Можно настроить политику фишинга ATP, чтобы обеспечить защиту от таких атак вашей организации.
   
 > [!NOTE]
-> ATP фишинга доступна только в расширенное угроз защиты анализа. Пакет анализа включен в подписки, как [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home), [365 Microsoft Business](https://www.microsoft.com/microsoft-365/business), Office 365 Enterprise E5, Office 365 Education A5, и т.д. Если в вашей организации есть подписка на Office 365, которая не включает Office 365 ATP, вы можете приобрести ATP потенциально как дополнительный компонент. Дополнительные сведения см в [Office 365 расширенного угроз защиты описание службы](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description). Убедитесь, что ваша организация использует последнюю версию Office 365 ProPlus на Windows для пользоваться всеми преимуществами ATP защита от фишинга. 
+> ATP фишинга доступна только в расширенное угроз защиты анализа. Пакет анализа включен в подписки, как [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home), [365 Microsoft Business](https://www.microsoft.com/microsoft-365/business), Office 365 Enterprise E5, Office 365 Education A5, и т.д. Если в вашей организации есть подписка на Office 365, которая не включает Office 365 ATP, вы можете приобрести ATP потенциально как дополнительный компонент. Для получения дополнительных сведений см [защиту от угроз для Office 365 Дополнительные планы и ценах](https://products.office.com/exchange/advance-threat-protection) и [Office 365 расширенного угроз защиты описание службы](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description). Убедитесь, что ваша организация использует последнюю версию Office 365 ProPlus на Windows для пользоваться всеми преимуществами ATP защита от фишинга. 
 
 Политику фишинга также доступна для Office 365 Exchange Online Protection, ограниченный набор спуфинг anti защиты, предназначенного для защиты против атак на основе проверки подлинности и описание.
   

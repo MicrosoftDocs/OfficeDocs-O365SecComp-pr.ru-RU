@@ -20,12 +20,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: Функция безопасных ссылки обеспечивает проверку времени щелкните гиперссылок в документах Office и в сообщениях электронной почты. Используйте безопасные ссылки для защиты от фишинга и других атак вашей организации.
-ms.openlocfilehash: 7e610d23534dcd4c9ea20608bab6fca536f877cb
-ms.sourcegitcommit: a64af0ebd0b03e4a5e60a33e9108c44c7d74f356
+ms.openlocfilehash: 8c63de9e62e33dbca6dde5a5bb45a7f7875ab71f
+ms.sourcegitcommit: c1c41744c2de89c9e172f817c8f73bb0ada81a58
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "29741112"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "29792244"
 ---
 # <a name="office-365-atp-safe-links"></a>Безопасные ссылки Office 365 ATP
 
@@ -88,7 +88,7 @@ ms.locfileid: "29741112"
 
 ## <a name="how-to-get-atp-safe-links-protection"></a>Как получить защиты ATP безопасных ссылки
 
-Во-первых убедитесь, что подписка включает [Дополнительные защиту от угроз](office-365-atp.md). Пакет анализа включен в подписки, как [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home), [365 Microsoft Business](https://www.microsoft.com/microsoft-365/business), Office 365 Enterprise E5, Office 365 Education A5, и т.д. Если в вашей организации есть подписка на Office 365, которая не включает Office 365 ATP, вы можете приобрести ATP потенциально как дополнительный компонент. Дополнительные сведения см в [Office 365 расширенного угроз защиты описание службы](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description). 
+Во-первых убедитесь, что подписка включает [Дополнительные защиту от угроз](office-365-atp.md). Пакет анализа включен в подписки, как [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home), [365 Microsoft Business](https://www.microsoft.com/microsoft-365/business), Office 365 Enterprise E5, Office 365 Education A5, и т.д. Если в вашей организации есть подписка на Office 365, которая не включает Office 365 ATP, вы можете приобрести ATP потенциально как дополнительный компонент. Для получения дополнительных сведений см [защиту от угроз для Office 365 Дополнительные планы и ценах](https://products.office.com/exchange/advance-threat-protection) и [Office 365 расширенного угроз защиты описание службы](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description). 
   
 Затем убедитесь, что определенных политик безопасных ссылок анализа. (См. [Настройка политик Office 365 ATP безопасных ссылки](set-up-atp-safe-links-policies.md).) Безопасные ссылки ATP включены компоненты времени:
   
@@ -105,7 +105,7 @@ ms.locfileid: "29741112"
 |Роль  |Где и как назначен  |
 |---------|---------|
 |Глобальный администратор Office 365 |Человека, который регистрируется приобрести Office 365 — это глобального администратора по умолчанию. ( [Роли администраторов об Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) для получения дополнительных сведений см.)         |
-|Администратор безопасности Office 365 |Центр администрирования ([https://aka.ms/admincenter](https://aka.ms/admincenter))|
+|администратор безопасности (Security Administrator). |Центр администрирования Azure Active Directory ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
 |Управление Exchange Online организацией |Центр администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
     
 ## <a name="how-to-make-sure-atp-safe-links-protection-is-in-place"></a>Как сделать что защиты безопасных ссылок анализа — на месте

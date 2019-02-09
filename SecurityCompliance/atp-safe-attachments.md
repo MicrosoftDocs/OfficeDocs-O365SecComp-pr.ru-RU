@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.audience: Admin
-ms.date: 02/05/2019
+ms.date: 02/08/2019
 ms.topic: overview
 ms.service: o365-administration
 localization_priority: Normal
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6e13311e-92ae-495e-a619-56d770199170
 description: Функция надежных приложений обеспечивает проверку времени щелкните вложений электронной почты. Использование безопасных вложений для защиты от вредоносных файлов пользователей организации отправлять и получать по электронной почте.
-ms.openlocfilehash: 936d24e3782e1018e77e24373756e378472f7e7c
-ms.sourcegitcommit: d6a28c4f6db6a676ca960173e8ff8f17d4aa1c4b
+ms.openlocfilehash: 45cd3b74b67d7ff8735da7a703ff14c4c517341f
+ms.sourcegitcommit: c1c41744c2de89c9e172f817c8f73bb0ada81a58
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29755280"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "29792234"
 ---
 # <a name="office-365-atp-safe-attachments"></a>Office 365 ATP безопасности вложений
 
@@ -45,7 +45,7 @@ ms.locfileid: "29755280"
   
 ## <a name="how-to-get-atp-safe-attachments"></a>Способ получения ATP безопасные вложения
 
-Во-первых убедитесь, что подписка включает [Дополнительные защиту от угроз](office-365-atp.md). Пакет анализа включен в подписки, как [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home), [365 Microsoft Business](https://www.microsoft.com/microsoft-365/business), Office 365 Enterprise E5, Office 365 Education A5, и т.д. Если в вашей организации есть подписка на Office 365, которая не включает Office 365 ATP, вы можете приобрести ATP потенциально как дополнительный компонент. Дополнительные сведения см в [Office 365 расширенного угроз защиты описание службы](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description). 
+Во-первых убедитесь, что подписка включает [Дополнительные защиту от угроз](office-365-atp.md). Пакет анализа включен в подписки, как [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home), [365 Microsoft Business](https://www.microsoft.com/microsoft-365/business), Office 365 Enterprise E5, Office 365 Education A5, и т.д. Если в вашей организации есть подписка на Office 365, которая не включает Office 365 ATP, вы можете приобрести ATP потенциально как дополнительный компонент. Для получения дополнительных сведений см [защиту от угроз для Office 365 Дополнительные планы и ценах](https://products.office.com/exchange/advance-threat-protection) и [Office 365 расширенного угроз защиты описание службы](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description). 
 
 Затем убедитесь, что определенные политиках ATP безопасные вложения. (См. [Настройка политик Office 365 ATP безопасные вложения](set-up-atp-safe-attachments-policies.md)) Безопасные вложения ATP включены компоненты времени:
   
