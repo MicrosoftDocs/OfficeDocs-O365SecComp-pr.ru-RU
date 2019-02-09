@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 5e377752-700d-4870-9b6d-12bfc12d2423
 description: 'С помощью политики хранения вы можете заблаговременно решить, как поступить с содержимым. Она позволяет следующее: хранить содержимое, удалить или удалить через какое-то время; применить единую политику ко всей организации или только к некоторым расположениям либо пользователям; применить политику ко всему содержимому или только такому, которое удовлетворяет определенным условиям.'
-ms.openlocfilehash: 61d5a79d46a35cf4a58fb3def8ae124f7025fd6d
-ms.sourcegitcommit: 71922c3e427008d904e5eb6c1a6dc7330e666c8c
+ms.openlocfilehash: 328d63265fdaa311b94c25902e7f380c9b0be89c
+ms.sourcegitcommit: c2ec9a4b0279a248b85c2e4a4e91458214b5b31c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29690420"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29770824"
 ---
 # <a name="overview-of-retention-policies"></a>Общие сведения о политиках хранения
 
@@ -53,8 +53,6 @@ ms.locfileid: "29690420"
   
 ![Страница "Хранение" в Центре безопасности и соответствия требованиям](media/107fc33a-6a29-44d1-85e4-0efef0544147.png)
   
-> [!NOTE]
-> Чтобы включить почтовый ящик Exchange Online в политику хранения, ему необходимо назначить лицензию на Exchange Online (план 2). Если почтовому ящику назначена лицензия на Exchange Online (план 1), необходимо назначить ему отдельную лицензию на Exchange Online Archiving, чтобы включить его в политику хранения. 
   
 ## <a name="how-a-retention-policy-works-with-content-in-place"></a>Что делает политика хранения с содержимым на месте
 
