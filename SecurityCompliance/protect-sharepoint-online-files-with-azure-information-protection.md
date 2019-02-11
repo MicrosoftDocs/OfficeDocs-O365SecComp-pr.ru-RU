@@ -18,11 +18,11 @@ ms.custom:
 ms.assetid: 5b9c8e41-25d2-436d-89bb-9aecb9ec2b80
 description: Сводка. Защита файлов на строго конфиденциальном сайте группы SharePoint Online с помощью службы Azure Information Protection.
 ms.openlocfilehash: 738e64784de20af46050413985fb7932000f864e
-ms.sourcegitcommit: e0f016aca7befc8806233a492ee916cbe646094f
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "25345801"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "28021648"
 ---
 # <a name="protect-sharepoint-online-files-with-azure-information-protection"></a>Защита файлов SharePoint Online с помощью Azure Information Protection
 

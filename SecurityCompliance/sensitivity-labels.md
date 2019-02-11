@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: С помощью меток конфиденциальности в Office 365 вы можете классифицировать и защищать конфиденциальное содержимое, не мешая совместной работе и производительности пользователей. Метки конфиденциальности можно использовать для применения параметров защиты, например шифрования или подложек для содержимого с метками.
-ms.openlocfilehash: 2804785362b504137319f5560287b6b2319e840b
-ms.sourcegitcommit: d05a9937780d210b7ad48e721b947397ac5405a2
+ms.openlocfilehash: 48d66a93c82a7430bc34373975d385ebc7bfbf9a
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29607161"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29706170"
 ---
 # <a name="overview-of-sensitivity-labels"></a>Обзор меток конфиденциальности
 
@@ -124,6 +124,9 @@ ms.locfileid: "29607161"
     ![Запрос, куда пользователи вводят обоснование](media/Sensitivity_label_justification_required.png)
 
 - **Требовать от пользователей применения метки к их почте и документам.** Если нужно помечать все содержимое пользователя, вы можете потребовать обязательное применение меток ко всем сохраняемым документам и отправляемым письмам. Метка может присваиваться вручную пользователем, автоматически в результате применения условия или назначаться по умолчанию (вариант применения метки по умолчанию описан выше). Ниже представлен запрос, отображаемый в Outlook, когда пользователь должен назначить метку.
+
+    > [!NOTE]
+    > Для обязательного применения меток требуется подписка Azure Information Protection. Также для этого необходимо скачать и установить [клиент Azure Information Protection](https://www.microsoft.com/en-us/download/details.aspx?id=53018) или [унифицированный клиент присвоения меток Azure Information Protection](https://docs.microsoft.com/ru-RU/azure/information-protection/rms-client/install-unifiedlabelingclient-app). Мы работаем над встроенной поддержкой этой возможности в приложениях Office, чтобы можно было обойтись без клиента Azure Information Protection. Кроме того, этот клиент работает только в Windows, поэтому такая возможность пока не поддерживается в Mac, iOS и Android.
 
     ![Запрос в Outlook на присвоение пользователем обязательной метки](media/sensitivity_labels_mandatory_prompt_aipv2_outlook.PNG)
 

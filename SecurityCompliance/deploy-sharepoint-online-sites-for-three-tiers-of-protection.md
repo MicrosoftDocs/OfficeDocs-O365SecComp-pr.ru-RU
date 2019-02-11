@@ -3,7 +3,7 @@ title: Развертывание сайтов SharePoint Online с тремя �
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/05/2018
+ms.date: 12/14/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -17,12 +17,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 1e8e3cfd-b878-4088-b941-9940363a5fae
 description: Сводка. Сведения о создании и настройке сайтов группы в SharePoint Online для применения различных уровней защиты информации.
-ms.openlocfilehash: 54392194f7ac5ce90337df3f33e23db595b1aa5c
-ms.sourcegitcommit: e0f016aca7befc8806233a492ee916cbe646094f
+ms.openlocfilehash: 69dc7395e8394694eab9eb6c27f229ea971516b0
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "25345831"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "27281780"
 ---
 # <a name="deploy-sharepoint-online-sites-for-three-tiers-of-protection"></a>Развертывание сайтов SharePoint Online с тремя уровнями защиты
 
@@ -262,15 +262,14 @@ ms.locfileid: "25345831"
   
 Благодаря членству в одной из групп доступа участники сайта теперь могут безопасно работать с ресурсами сайта.
   
-## <a name="next-step"></a>Следующий этап
+## <a name="next-step"></a>Следующий шаг
 
-[Защита файлов SharePoint Online с помощью меток Office 365 и DLP](protect-sharepoint-online-files-with-office-365-labels-and-dlp.md)
-    
+[Защита файлов SharePoint Online с помощью Azure Information Protection](protect-sharepoint-online-files-with-azure-information-protection.md)
+
+
 ## <a name="see-also"></a>См. также
 
 [Безопасность сайтов и файлов SharePoint Online](secure-sharepoint-online-sites-and-files.md)
-  
-[Защита сайтов SharePoint Online в среде разработки и тестирования](secure-sharepoint-online-sites-in-a-dev-test-environment.md)
   
 [Руководство по безопасности (Майкрософт) для политических кампаний, некоммерческих и других динамических организаций](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
   

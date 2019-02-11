@@ -9,12 +9,12 @@ ms.service: o365-solutions
 ms.custom: ''
 localization_priority: Priority
 description: Узнайте, как обеспечить соблюдение требований GDPR в локальном развертывании SharePoint Server.
-ms.openlocfilehash: f6f5e4a1b9309f846d47fda69a76ab4da396b2f5
-ms.sourcegitcommit: c31424cafbf1953f2864d7e2ceb95b329a694edb
+ms.openlocfilehash: 05c64c10c2fea80ed410258433c35efc33c4a9de
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23272394"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29740831"
 ---
 # <a name="gdpr-for-sharepoint-server"></a>GDPR для SharePoint Server
 
@@ -36,7 +36,7 @@ ms.locfileid: "23272394"
 
 Рекомендуемый подход для общих папок, а также сайтов и библиотек SharePoint включает следующие действия:
 
-1.  **Установите и настройте сканер Azure Information Protection.**
+1.  **[Установите и настройте сканер Azure Information Protection.](https://docs.microsoft.com/ru-RU/azure/information-protection/rms-client/client-admin-guide-install#options-to-install-the-azure-information-protection-client-for-users)**
 
     -   Выберите необходимые типы конфиденциальных данных.
 
@@ -116,32 +116,32 @@ ms.locfileid: "23272394"
 
 ```sql
 [In dbo].[LinkStore_<ID>]:
-CREATE PROCEDURE proc_MSS_GetQueryTermsForUser 
-( 
-    @UserName nvarchar(256), 
-    @StartTime datetime 
-) 
-AS 
-BEGIN 
-    SET NOCOUNT ON; 
-    SELECT searchTime, queryString 
-    FROM 
-        dbo.MSSQLogPageImpressionQuery 
-    WITH 
-        (NOLOCK) 
-    WHERE 
-        userName = @UserName AND 
-        searchTime > @StartTime 
-END 
-GO 
+CREATE PROCEDURE proc_MSS_GetQueryTermsForUser 
+( 
+    @UserName nvarchar(256), 
+    @StartTime datetime 
+) 
+AS 
+BEGIN 
+    SET NOCOUNT ON; 
+    SELECT searchTime, queryString 
+    FROM 
+        dbo.MSSQLogPageImpressionQuery 
+    WITH 
+        (NOLOCK) 
+    WHERE 
+        userName = @UserName AND 
+        searchTime > @StartTime 
+END 
+GO 
 ```
 
 #### <a name="export-a-users-queries-from-the-past-100-days"></a>Экспорт запросов пользователя за последние 100 дней
 
 ```sql
-DECLARE @FROMDATE datetime 
-SET @FROMDATE = DATEADD(day, -100, GETUTCDATE()) 
-EXECUTE proc_MSS_GetQueryTermsForUser '0#.w|domain\username', @FROMDATE 
+DECLARE @FROMDATE datetime 
+SET @FROMDATE = DATEADD(day, -100, GETUTCDATE()) 
+EXECUTE proc_MSS_GetQueryTermsForUser '0#.w|domain\username', @FROMDATE 
 ```
 
 #### <a name="export-a-users-favorite-queries"></a>Экспорт избранных запросов пользователя
@@ -150,34 +150,34 @@ EXECUTE proc_MSS_GetQueryTermsForUser '0#.w|domain\username', @FROMDATE
 
 ```sql
 In [dbo].[Search_<ID>]:
-CREATE PROCEDURE proc_MSS_GetPersonalFavoriteQueries 
-( 
-    @UserName nvarchar(256), 
-    @SearchTime datetime 
-) 
-AS 
-BEGIN 
-    SET NOCOUNT ON; 
-    SELECT max(queries.SearchTime) as SearchTime, 
-           max(queries.querystring) as queryString, 
-           max(url.url) as URL 
-    FROM MSSQLogOwner owners WITH(NOLOCK) 
-    JOIN MSSQLogPersonalResults results WITH(NOLOCK) on owners.OwnerId = results.OwnerId 
-    JOIN MSSQLogUrl url WITH(NOLOCK) on results.ClickedUrlId = url.urlId 
-    JOIN MSSQLogPersonalQueries queries WITH(NOLOCK) on results.OwnerId = queries.OwnerId 
-    WHERE queries.SearchTime > @SearchTime 
-        AND queries.UserName = @UserName 
-        GROUP BY queries.QueryString,url.url 
-END 
-GO 
+CREATE PROCEDURE proc_MSS_GetPersonalFavoriteQueries 
+( 
+    @UserName nvarchar(256), 
+    @SearchTime datetime 
+) 
+AS 
+BEGIN 
+    SET NOCOUNT ON; 
+    SELECT max(queries.SearchTime) as SearchTime, 
+           max(queries.querystring) as queryString, 
+           max(url.url) as URL 
+    FROM MSSQLogOwner owners WITH(NOLOCK) 
+    JOIN MSSQLogPersonalResults results WITH(NOLOCK) on owners.OwnerId = results.OwnerId 
+    JOIN MSSQLogUrl url WITH(NOLOCK) on results.ClickedUrlId = url.urlId 
+    JOIN MSSQLogPersonalQueries queries WITH(NOLOCK) on results.OwnerId = queries.OwnerId 
+    WHERE queries.SearchTime > @SearchTime 
+        AND queries.UserName = @UserName 
+        GROUP BY queries.QueryString,url.url 
+END 
+GO 
 ```
 
-#### <a name="export-a-users-favorite-queries-from-the-past-100-days"></a>Экспорт избранных запросов пользователя за последние 100 дней 
+#### <a name="export-a-users-favorite-queries-from-the-past-100-days"></a>Экспорт избранных запросов пользователя за последние 100 дней 
 
 ```sql
-DECLARE @FROMDATE datetime 
-SET @FROMDATE = DATEADD(day, -100, GETUTCDATE()) 
-EXECUTE proc_MSS_GetPersonalFavoriteQueries '0#.w|domain\username', @FROMDATE 
+DECLARE @FROMDATE datetime 
+SET @FROMDATE = DATEADD(day, -100, GETUTCDATE()) 
+EXECUTE proc_MSS_GetPersonalFavoriteQueries '0#.w|domain\username', @FROMDATE 
 ```
 
 #### <a name="remove-references-to-user-names-that-are-more-than-x-days-old"></a>Удаление ссылок на имена пользователей, которые старше X дней
@@ -185,28 +185,28 @@ EXECUTE proc_MSS_GetPersonalFavoriteQueries '0#.w|domain\username', @FROMDATE
 Используйте следующую процедуру, чтобы удалить ссылки на *все* имена пользователей, которые старше @Days, из таблиц журнала запросов Links Store. Процедура удаляет прошлые ссылки, пока не будет достигнуто время @LastCleanupTime.
 
 ```sql
-In [dbo].[LinksStore_<ID>]:  
-CREATE PROCEDURE proc_MSS_QLog_Cleanup_Users 
-( 
-    @LastCleanupTime datetime, 
-    @Days int 
-) 
-AS 
-BEGIN 
-    DECLARE @TooOld datetime 
-    SET @TooOld = DATEADD(day, -@Days, GETUTCDATE()) 
-    DECLARE @FromLast datetime 
-    SET @FromLast = DATEADD(day, -@Days, @LastCleanupTime) 
-    BEGIN TRANSACTION 
-         UPDATE MSSQLogPageImpressionQuery 
-    SET userName = 'NA' 
-    WHERE @FromLast <= searchTime AND searchTime < @TooOld 
-    UPDATE MSSQLogO14PageClick 
-    SET userName = 'NA' 
-    WHERE @FromLast <= searchTime AND searchTime < @TooOld 
-    COMMIT TRANSACTION 
-END 
-GO 
+In [dbo].[LinksStore_<ID>]:  
+CREATE PROCEDURE proc_MSS_QLog_Cleanup_Users 
+( 
+    @LastCleanupTime datetime, 
+    @Days int 
+) 
+AS 
+BEGIN 
+    DECLARE @TooOld datetime 
+    SET @TooOld = DATEADD(day, -@Days, GETUTCDATE()) 
+    DECLARE @FromLast datetime 
+    SET @FromLast = DATEADD(day, -@Days, @LastCleanupTime) 
+    BEGIN TRANSACTION 
+         UPDATE MSSQLogPageImpressionQuery 
+    SET userName = 'NA' 
+    WHERE @FromLast <= searchTime AND searchTime < @TooOld 
+    UPDATE MSSQLogO14PageClick 
+    SET userName = 'NA' 
+    WHERE @FromLast <= searchTime AND searchTime < @TooOld 
+    COMMIT TRANSACTION 
+END 
+GO 
 ```
 
 #### <a name="remove-references-to-a-specific-user-name-thats-more-than-x-days-old"></a>Удаление ссылок на определенное имя пользователя, которые старше X дней
@@ -215,67 +215,69 @@ GO
 
 ```sql
 In [dbo].[LinksStore_<ID>]:
-CREATE PROCEDURE proc_MSS_QLog_Cleanup_Users 
-( 
-    @UserName nvarchar(256),
-    @LastCleanupTime datetime, 
-    @Days int 
-) 
-AS 
-BEGIN 
-    DECLARE @TooOld datetime 
-    SET @TooOld = DATEADD(day, -@Days, GETUTCDATE()) 
-    DECLARE @FromLast datetime 
-    SET @FromLast = DATEADD(day, -@Days, @LastCleanupTime) 
-    BEGIN TRANSACTION 
-         UPDATE MSSQLogPageImpressionQuery 
-    SET userName = 'NA' 
-    WHERE @FromLast <= searchTime AND searchTime < @TooOld AND userName = @UserName
-    UPDATE MSSQLogO14PageClick 
-    SET userName = 'NA' 
-    WHERE @FromLast <= searchTime AND searchTime < @TooOld AND userName = @UserName
-    COMMIT TRANSACTION 
-END 
-GO 
+CREATE PROCEDURE proc_MSS_QLog_Cleanup_Users 
+( 
+    @UserName nvarchar(256),
+    @LastCleanupTime datetime, 
+    @Days int 
+) 
+AS 
+BEGIN 
+    DECLARE @TooOld datetime 
+    SET @TooOld = DATEADD(day, -@Days, GETUTCDATE()) 
+    DECLARE @FromLast datetime 
+    SET @FromLast = DATEADD(day, -@Days, @LastCleanupTime) 
+    BEGIN TRANSACTION 
+         UPDATE MSSQLogPageImpressionQuery 
+    SET userName = 'NA' 
+    WHERE @FromLast <= searchTime AND searchTime < @TooOld AND userName = @UserName
+    UPDATE MSSQLogO14PageClick 
+    SET userName = 'NA' 
+    WHERE @FromLast <= searchTime AND searchTime < @TooOld AND userName = @UserName
+    COMMIT TRANSACTION 
+END 
+GO 
 ```
 
 #### <a name="remove-references-to-all-user-names-in-the-query-history-from-a-date-and-up-to-the-past-30-days"></a>Удаление ссылок на все имена пользователей в журнале запросов за последние несколько (до 30) дней начиная с определенной даты
 
 ```sql
-EXECUTE proc_MSS_QLog_Cleanup_Users '1-1-2017', 30 
+EXECUTE proc_MSS_QLog_Cleanup_Users '1-1-2017', 30 
 ```
 
 ### <a name="delete-usage-records"></a>Удаление записей об использовании
 
 SharePoint Server автоматически удаляет записи об использовании через 3 года. Вы можете вручную удалить такие записи с помощью описанной ниже процедуры:
 
-Чтобы удалить все записи об использовании, связанные с удаленными документами: 
+Чтобы удалить все записи об использовании, связанные с удаленными документами: 
 
-1.  Убедитесь, что у вас установлено последнее обновление SharePoint. 
+1.  Убедитесь, что у вас установлено последнее обновление SharePoint. 
 
 2.  Запустите командную консоль SharePoint.
 
-3.  Остановите аналитику использования и очистите ее данные: 
+3.  Остановите аналитику использования и очистите ее данные: 
 
     ```powershell
-    $tj = Get-SPTimerJob -Type Microsoft.Office.Server.Search.Analytics.UsageAnalyticsJobDefinition 
-    $tj.StopAnalysis() 
-    $tj.ClearAnalysis() 
+    $tj = Get-SPTimerJob -Type Microsoft.Office.Server.Search.Analytics.UsageAnalyticsJobDefinition 
+    $tj.DisableTimerjobSchedule()
+    $tj.StopAnalysis() 
+    $tj.ClearAnalysis() 
+    $tj.EnableTimerjobSchedule()
     ```
 
-4.  Подождите, пока аналитика не запустится снова (может потребоваться до 24 часов). 
+4.  Подождите, пока аналитика не запустится снова (может потребоваться до 24 часов). 
 
 5.  При следующем запуске аналитики все записи из базы данных отчетов аналитики будут записаны в дамп. Выполнение полного дампа большой базы данных с множеством записей может занять некоторое время.
 
-6.  Подождите 10 дней. Аналитика запускается ежедневно, и записи, связанные с удаленными документами, будут удалены после 10-го запуска. Если удаляемых записей очень много, этот запуск может занять больше времени, чем обычно. 
+6.  Подождите 10 дней. Аналитика запускается ежедневно, и записи, связанные с удаленными документами, будут удалены после 10-го запуска. Если удаляемых записей очень много, этот запуск может занять больше времени, чем обычно. 
 
 ### <a name="personal-information-and-search-in-sharepoint-server-2010"></a>Персональные данные и поиск в SharePoint Server 2010
 
-#### <a name="fast-search-server-2010-for-sharepoint"></a>FAST Search Server 2010 для SharePoint 
+#### <a name="fast-search-server-2010-for-sharepoint"></a>FAST Search Server 2010 для SharePoint 
 
 Помимо индекса, надстройка FAST Search Server 2010 также хранит файлы в промежуточном формате, называемом FixML. Файлы FiXML регулярно сжимаются (по умолчанию каждую ночь с 3:00 до 5:00). При сжатии из этих файлов автоматически исключаются удаленные файлы. Чтобы обеспечить своевременное удаление информации, принадлежащей удаленным пользователям или документам, убедитесь, что функция сжатия всегда включена.
 
-### <a name="hybrid-search"></a>Гибридный поиск 
+### <a name="hybrid-search"></a>Гибридный поиск 
 
 Рекомендуемые действия для решений гибридного поиска аналогичны действиям для поиска в SharePoint Server или SharePoint Online. Существует два решения гибридного поиска:
 
@@ -317,7 +319,7 @@ $credentials = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredential
 $clientContext.Credentials = $credentials
 if (!$clientContext.ServerObjectIsNull.Value)
 {
-    Write-Host "Connected to SharePoint Online site: '$Url'" -ForegroundColor Green
+    Write-Host "Connected to SharePoint Online site: '$Url'" -ForegroundColor Green
 }
 
 # Get user
