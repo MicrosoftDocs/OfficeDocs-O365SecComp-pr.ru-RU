@@ -1,5 +1,5 @@
 ---
-title: Экспорт данных обращения в расширенной обнаружения электронных данных (Предварительная версия)
+title: Экспортировать данные вариантов в расширенной обнаружения электронных данных (Предварительная версия)
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,13 +14,13 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 241aa741f3e7c5a982c201aef7596d933522a893
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: 02eccac2ecd1ee50597ddcaa8fcf0c35e724893e
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608260"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29695025"
 ---
-# <a name="exporting-case-data-in-advanced-ediscovery-preview"></a><span data-ttu-id="c9df9-102">Экспорт данных обращения в расширенной обнаружения электронных данных (Предварительная версия)</span><span class="sxs-lookup"><span data-stu-id="c9df9-102">Exporting case data in Advanced eDiscovery (Preview)</span></span>
+# <a name="export-case-data-in-advanced-ediscovery-preview"></a><span data-ttu-id="a47ae-102">Экспортировать данные вариантов в расширенной обнаружения электронных данных (Предварительная версия)</span><span class="sxs-lookup"><span data-stu-id="a47ae-102">Export case data in Advanced eDiscovery (Preview)</span></span>
 
-<span data-ttu-id="c9df9-103">Содержимое появится в ближайшее время.</span><span class="sxs-lookup"><span data-stu-id="c9df9-103">Content coming soon.</span></span>
+<span data-ttu-id="a47ae-103">Содержимое появится в ближайшее время.</span><span class="sxs-lookup"><span data-stu-id="a47ae-103">Content coming soon.</span></span>
