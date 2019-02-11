@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 5f29ef72ed885ab268292667e6e5fd2f53c4d15a
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: 4dd2c44b40b5d458f9b200c249fe2f9bb16f83e0
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608274"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29706020"
 ---
-# <a name="working-with-custodians-in-advanced-ediscovery-preview"></a>Работа с custodians в расширенной обнаружения электронных данных (Предварительная версия)
+# <a name="work-with-custodians-in-advanced-ediscovery-preview"></a>Работа с custodians в расширенной обнаружения электронных данных (Предварительная версия)
 
 Часто при организации реагирование на юридических исследования, рабочий процесс вокруг идентификационные, сохранение и сбор потенциально релевантное содержимое зависит от custodians людей или данных в пределах организации. Возможности обнаружения электронных данных пользователями называются custodians данных и определяются как «лиц наличие административного управления документа или электронный файл». Например custodian данные из сообщения электронной почты может быть владельца почтового ящика, который содержит сообщение.  
 

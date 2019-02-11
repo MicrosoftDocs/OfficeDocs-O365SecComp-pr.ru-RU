@@ -12,14 +12,17 @@ search.appverid:
 - MOE150
 ms.assetid: fc4e6ebb-5acc-4bc5-bad8-4f3407d1d3f4
 description: Обзор страниц предупреждения о том, что вы можете увидеть при защиту от угроз для Office 365 расширенного находится на работе.
-ms.openlocfilehash: ac7fdcd17ad449afd9107ce67ecc89a107eb152b
-ms.sourcegitcommit: 147768bbe44c8c98c02fa29ae9d882cee4ec2d6b
+ms.openlocfilehash: 422bdabf0593dd154461f973f86a4c1ca94e8651
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238271"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29686358"
 ---
 # <a name="office-365-atp-safe-links-warning-pages"></a>Office 365 безопасных ссылок анализа предупреждение страниц
+
+> [!IMPORTANT]
+> Эта статья предназначена для предприятий. Если вы являетесь домашних пользователей, Дополнительные сведения о безопасном ссылки в Outlook, см [Advanced Outlook.com](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 [Office 365 расширенной защитой](office-365-atp.md) (ATP) помогает защитить организацию от попытки и вредоносных программ через функции, например [ATP безопасных ссылок](atp-safe-links.md), [ATP безопасные вложения](atp-safe-attachments.md)и [Защита от фишинга](anti-phishing-protection.md). При защите будет готова, проверяются ссылки (URL-адреса) в сообщения электронной почты и работе с документами Office. Если URL-адрес определяется как подозрительные или намеренного, может быть заблокирован открытия URL-адрес при нажатии кнопки. Вместо перейти непосредственно к сайту, может появиться предупреждение страница вместо этого. 
   

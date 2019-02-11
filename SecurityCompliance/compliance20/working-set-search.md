@@ -1,5 +1,5 @@
 ---
-title: Запрос данных в рабочий набор
+title: Запрос данных в рабочем наборе
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 03c82741b3a4433c43ef709701ab40330ac5fd1f
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: 3a503dd825cf65bef0dde537862561887d908563
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608250"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29694995"
 ---
-# <a name="querying-data-in-a-working-set"></a>Запрос данных в рабочий набор
+# <a name="query-the-data-in-a-working-set"></a>Запрос данных в рабочем наборе
 
 В большинстве случаев оно будет полезно иметь возможность узнать подробнее что есть ли в рабочее множество и разместите их для просмотра более эффективно. Запросов в рабочее множество позволяет выполнять так, позволяя сосредоточиться на подмножество документов, которые соответствуют критериям, определенные пользователем за один раз.
 

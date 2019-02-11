@@ -1,5 +1,5 @@
 ---
-title: Сбор данных для обращения в расширенной обнаружения электронных данных (Предварительная версия)
+title: Собирать данные для обращения в расширенной обнаружения электронных данных (Предварительная версия)
 ms.author: esclee
 author: markjjo
 manager: laurawi
@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 6964cc00d7ae78078aa0729bd5408abd5ed9542a
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: 11e2c336512c91d65bd046c3022d5375ebecde4a
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608264"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29695055"
 ---
-# <a name="collecting-data-for-a-case-in-advanced-ediscovery-preview"></a>Сбор данных для обращения в расширенной обнаружения электронных данных (Предварительная версия)
+# <a name="collect-data-for-a-case-in-advanced-ediscovery-preview"></a>Собирать данные для обращения в расширенной обнаружения электронных данных (Предварительная версия)
 
 После определения custodians и источники данных, которые могут представлять интерес для вашей случая, настало время для идентификации набор документов для изучения. Можно использовать средство поиска в расширенной обнаружения электронных данных (Просмотр) для определения их из наказание и не являющиеся наказание расположений в Office 365.
 

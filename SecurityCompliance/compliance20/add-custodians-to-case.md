@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: d9a7dc6b1c2eeffdcd49be64d1d09d4a2bda782b
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: 88d2e64f4e1fb519955d8970b34e9670fb18d3f8
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608261"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29706110"
 ---
-# <a name="add-custodians-to-an-advanced-ediscovery-preview-case"></a>Добавление custodians в расширенной eDiscovery (Предварительная версия) Case
+# <a name="add-custodians-to-an-advanced-ediscovery-preview-case"></a>Добавление custodians к обращению eDiscovery расширенные (Предварительная версия)
 
 Расширенные обнаружения электронных данных (Предварительная версия) можно использовать средство управления встроенных custodian для координации рабочих процессов, применимую к управлению custodians, а также определение источников данных соответствующих, наказание в случае. При добавлении custodian система может автоматически определить и содержит месте на их основной почтовый ящик Exchange и OneDrive для бизнеса сайта. Как проводить вашей обнаружения, могут также Открывание и сопоставить дополнительные почтовые ящики или сайтов, что custodian доступ в прошлом или группам будут недоступны, что custodian является участником прямо сейчас.
 

@@ -3,7 +3,7 @@ title: Включение архивных почтовых ящиков в Offi
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 6/29/2018
+ms.date: ''
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 268a109e-7843-405b-bb3d-b9393b2342ce
 description: Использование безопасности Office 365 &amp; центре соответствия требованиям для включения архивных почтовых ящиков для поддержки хранения сообщений вашей организации, обнаружения электронных данных и удерживайте требования.
-ms.openlocfilehash: 5ba578ba611f619194ac4f475121bd485b75f9e0
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 1c290cf19b396221dac702efd1395911e8a51631
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534938"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "28327101"
 ---
 # <a name="enable-archive-mailboxes-in-the-office-365-security-amp-compliance-center"></a>Включение архивных почтовых ящиков в Office 365 безопасность &amp; центре соответствия требованиям
   
@@ -36,9 +36,9 @@ ms.locfileid: "22534938"
   
 ## <a name="enable-an-archive-mailbox"></a>Включение архивного почтового ящика
   
-1. Последовательно выберите пункты [https://protection.office.com](https://protection.office.com).
+1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
     
-2. Войдите в Office 365 с помощью учетной записи рабочего или школы.
+2. Войдите в Office 365 с помощью своей рабочей или учебной учетной записи.
     
 3. В левой области безопасности &amp; центре соответствия требованиям, нажмите кнопку **управления данными** \> **архива**.
     
@@ -67,9 +67,9 @@ ms.locfileid: "22534938"
   
 Чтобы отключить архивный почтовый ящик:
   
-1. Последовательно выберите пункты [https://protection.office.com](https://protection.office.com).
+1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
     
-2. Войдите в Office 365 с помощью учетной записи рабочего или школы.
+2. Войдите в Office 365 с помощью своей рабочей или учебной учетной записи.
     
 3. В левой области безопасности &amp; центре соответствия требованиям, нажмите кнопку **управления данными** \> **архива**.
     
@@ -88,6 +88,42 @@ ms.locfileid: "22534938"
 > [!TIP]
 > Вы также можете отключить архивные почтовые ящики сразу для нескольких пользователей, выбрав их с помощью клавиши SHIFT или CTRL. Выбрав несколько почтовых ящиков, нажмите кнопку **Отключить** в области сведений.  
   
+## <a name="use-exchange-online-powershell-to-enable-or-disable-archive-mailboxes"></a>Для включения или отключения архивных почтовых ящиков с помощью Exchange Online PowerShell
+
+Можно также использовать Exchange Online PowerShell для включения архивные почтовые ящики. Главной причиной для использования PowerShell — это, что можно быстро включить архивного почтового ящика для всех пользователей в организации.
+
+Первый шаг — это подключение к Exchange Online PowerShell. Сведения содержатся в разделе [подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+
+После подключения к Exchange Online можно запустить команд в следующих разделах для включения или отключения архивные почтовые ящики.
+
+### <a name="enable-archive-mailboxes"></a>Включение архивных почтовых ящиков
+
+Выполните следующую команду, чтобы включить в архивный почтовый ящик для одного пользователя.
+    
+  ```
+  Enable-Mailbox -Identity <username> -Archive
+  ```
+
+Выполните следующую команду, чтобы включить архивного почтового ящика для всех пользователей в вашей организации (почтовый ящик которого архива в настоящее время не включена).
+    
+  ```
+  Get-Mailbox -Filter {ArchiveStatus -Eq "None" -AND RecipientTypeDetails -eq "UserMailbox"} | Enable-Mailbox -Archive
+  ```
+  
+### <a name="disable-archive-mailboxes"></a>Отключение архивных почтовых ящиков
+
+Выполните следующую команду, чтобы отключить архивный почтовый ящик для одного пользователя.
+    
+  ```
+  Disable-Mailbox -Identity <username> -Archive
+  ```
+
+Выполните следующую команду для отключения архивного почтового ящика для всех пользователей в организации (почтовый ящик которого архива в настоящее время включен).
+    
+  ```
+  Get-Mailbox -Filter {ArchiveStatus -Eq "Active" -AND RecipientTypeDetails -eq "UserMailbox"} | Disable-Mailbox -Archive
+  ```
+
 ## <a name="more-information"></a>Дополнительные сведения
   
 - Архивные почтовые ящики помочь вам и вашим пользователям в соответствии с вашей организации хранения, обнаружения электронных данных и удерживайте требования. К примеру можно использовать политики хранения вашей организации Exchange для переноса содержимого почтовых ящиков на пользователей архивного почтового ящика. При использовании средства поиска содержимого в системы &amp; центре соответствия требованиям для поиска почтового ящика пользователя для определенного содержимого, архивный почтовый ящик пользователя также выполнить поиск. И, при помещении хранение для судебного разбирательства или применение политики хранения к Office 365 для почтового ящика пользователя, также сохраняются элементы в архивный почтовый ящик.
@@ -102,7 +138,6 @@ ms.locfileid: "22534938"
     
 - Дополнительные сведения об архивных почтовых ящиков и политики хранения Exchange можно:
   
-  - [Архивные почтовые ящики в Exchange Online](https://go.microsoft.com/fwlink/?LinkId=404421)
     
   - [Теги хранения и политики хранения](https://go.microsoft.com/fwlink/?LinkId=404424)
     

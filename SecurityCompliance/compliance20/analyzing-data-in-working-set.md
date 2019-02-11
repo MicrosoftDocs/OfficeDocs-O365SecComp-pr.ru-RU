@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: a6284204fd709bcf936688f36f38f6b3283b1f98
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: 68a8b7586700a9bffe78f2b3a4ff419a1f85ba8a
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608221"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29695145"
 ---
-# <a name="analyzing-data-in-a-working-set-in-advanced-ediscovery-preview"></a>Анализ данных в рабочее множество в расширенной обнаружения электронных данных (Предварительная версия)
+# <a name="analyze-data-in-a-working-set-in-advanced-ediscovery-preview"></a>Анализ данных в рабочее множество в расширенной обнаружения электронных данных (Предварительная версия)
 
 Если число документов, собранные имеет большой размер, может быть довольно сложно просмотрите их все. Расширенные обнаружения электронных данных (Предварительная версия) содержит ряд инструментов для анализа документов для уменьшения объема документы, чтобы изучить, не прерывая в информации и для организации документов в виде согласовано. Дополнительные сведения об этих возможностях см.
 

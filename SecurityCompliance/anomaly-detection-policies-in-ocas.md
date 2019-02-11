@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 88935b4e-dcb1-47f1-8aca-1bf8fb069db6
 description: 'Политики обнаружения неполадок в облаке приложения Office 365 безопасности используйте встроенные алгоритмы для выявления возможных проблем. Необходимо иметь хотя бы один неполадок Определение политики, которая (при его создании) можно настроить с помощью фильтров. '
-ms.openlocfilehash: 7a1cb795531df168f0a5c425e7555ae6b1412d2b
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: 5a6cf05b90b69045540bb7913124fe0d9e32f9a1
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29604420"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29612712"
 ---
 # <a name="anomaly-detection-policies-in-office-365-cloud-app-security"></a>Политики обнаружения аномалий в Office 365 Cloud App Security
 
@@ -26,9 +26,9 @@ ms.locfileid: "29604420"
   
 |Оценка **\>**|Планирование **\>**|Развертывание **\>**|Использование ***|
 |:-----|:-----|:-----|:-----|
-|[Начать оценку](office-365-cas-overview.md) <br/> |[Начать планирование](get-ready-for-office-365-cas.md) <br/> |Вы находитесь здесь!  <br/> [Дальнейшие действия](integrate-your-siem-server-with-office-365-cas.md) <br/> |[Начать использование](utilization-activities-for-ocas.md) <br/> |
+|[Начать оценку](office-365-cas-overview.md) <br/> |[Начать планирование](get-ready-for-office-365-cas.md) <br/> |Вы находитесь здесь!  <br/> [Следующий шаг](integrate-your-siem-server-with-office-365-cas.md) <br/> |[Начать использование](utilization-activities-for-ocas.md) <br/> |
    
-Приступая к работе с [безопасности приложения Microsoft Cloud освобождение 116](new-in-office-365-cas-2018.md#office-365-cloud-app-security-release-116-3), облачных приложений Office 365 безопасности включает в себя несколько предопределенных неполадок обнаружения политики («по умолчанию»), которые включают в себя пользователей и поведения analytics сущности (UEBA) и машинного обучения (ML).
+Приступая к работе с [безопасности приложения Microsoft Cloud освобождение 116](new-in-office-365-cas-2018.md#office-365-cloud-app-security-release-116), облачных приложений Office 365 безопасности включает в себя несколько предопределенных неполадок обнаружения политики («по умолчанию»), которые включают в себя пользователей и поведения analytics сущности (UEBA) и машинного обучения (ML).
   
 ![Для просмотра политик обнаружения неполадок нажмите элемент управления \> политик.](media/9663baa5-98bf-45e0-9458-6e572b43ec72.png)
   

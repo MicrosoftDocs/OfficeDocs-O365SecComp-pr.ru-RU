@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2062c312-b1e4-4ce7-8cb2-ea39bc0dfdad
 description: Приложение OAuth в облаке приложения Office 365 безопасности поможет вам управлять приложениями, пользователям для загрузки для использования с Office 365
-ms.openlocfilehash: 2e3c6d9d42b22aa8bb666211431197744471e84f
-ms.sourcegitcommit: 25f72d20e76463c2f0a075dfc0116f00c934bd77
+ms.openlocfilehash: ae32e3c6b15f4ad4794a3dd08c3992adaeba655c
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/27/2018
-ms.locfileid: "27447047"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29603690"
 ---
 # <a name="manage-oauth-apps-using-office-365-cloud-app-security"></a>Управление приложениями OAuth с помощью Office 365 Cloud App Security
 
@@ -35,13 +35,9 @@ ms.locfileid: "27447047"
 > [!NOTE]
 > OAuth приложений осуществляется в портале облачных приложений Office 365 безопасности. Необходимо быть глобальным администратором или администратор безопасности для выполнения следующих задач. Дополнительные сведения см. Дополнительные [разрешения безопасности Office 365 &amp; центре соответствия требованиям](permissions-in-the-security-and-compliance-center.md). 
   
-1. Последовательно выберите пункты [https://protection.office.com](https://protection.office.com) и выполнить вход с помощью учетной записи рабочего или школы для Office 365. (Вы перейдете к безопасности &amp; центре соответствия требованиям.) 
-    
-2. Последовательно выберите пункты **оповещения** \> **Управление расширенного оповещения**.
-    
-3. Щелкните (или коснитесь) **перейдите к безопасности приложения Office 365 облака**.<br/>![В разделе Безопасность &amp; центре соответствия требованиям, выберите дополнительные оповещения для перехода к безопасности Office 365 облаке приложения](media/958632d4-03e3-4ade-8e22-d5509db6fca7.png)<br/>**Примечание**: Если безопасности Office 365 облаке приложения не включен еще, для этого на этой странице. В разделе [подготовиться к работе приложения облаке Безопасность в Office 365](get-ready-for-office-365-cas.md). 
+1. Последовательно выберите пункты портал облачных приложений безопасности ([https://portal.cloudappsecurity.com](https://portal.cloudappsecurity.com)) и выполнить вход.
   
-4. Выберите **исследовать** \> **OAuth приложений**.<br/>![На портале O365 сервера клиентского доступа нажмите кнопку Проверить.](media/OCAS-OAuthApps.png)<br/>
+2. Выберите **исследовать** \> **OAuth приложений**.<br/>![На портале O365 сервера клиентского доступа нажмите кнопку Проверить.](media/OCAS-OAuthApps.png)<br/>
   
 ## <a name="what-youll-see-on-the-manage-oauth-apps-page"></a>Что вы увидите на странице Управление OAuth приложений
 

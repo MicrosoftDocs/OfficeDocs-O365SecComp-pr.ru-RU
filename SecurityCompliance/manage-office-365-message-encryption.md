@@ -3,7 +3,6 @@ title: Управление шифрованием сообщений Office 365
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 6/13/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -12,24 +11,25 @@ search.appverid:
 - MET150
 ms.assetid: 09f6737e-f03f-4bc8-8281-e46d24ee2a74
 description: Закончив параметр копирование шифрования сообщений Office 365 (OME), можно настроить параметры конфигурации развертывания в следующих случаях. Например можно настроить для включения одноразовый проход коды, отображать кнопку Защита в Outlook на веб-сайта и многое другое. Задач, описанных в этой статье описывается способ.
-ms.openlocfilehash: 460ac0bba4d10fe8bef896a23a20f74527f031b2
-ms.sourcegitcommit: bd1762ccf63c7d2ad8b49a936115171c72fb2c0f
+ms.openlocfilehash: 6a9eddae2d3d166d96979d88b15845c3b7379bd9
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "27750058"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29696233"
 ---
 # <a name="manage-office-365-message-encryption"></a>Управление шифрованием сообщений Office 365
 
-Закончив параметр копирование шифрования сообщений Office 365 (OME), можно настроить параметры конфигурации развертывания в следующих случаях. Например можно настроить для включения одноразовый проход коды, отображать кнопку **Защита** в Outlook на веб-сайта и многое другое. Задач, описанных в этой статье описывается способ. 
+Закончив параметр копирование шифрования сообщений Office 365 (OME), можно настроить параметры конфигурации развертывания в следующих случаях. Например можно настроить для включения одноразовый проход коды, отображать кнопку **Защита** в Outlook на веб-сайта и многое другое. Задач, описанных в этой статье описывается способ.
   
 ||
 |:-----|
-|В этой статье является частью серии статей о шифровании сообщений Office 365, размер которых. Эта статья предназначена для администраторов и ИТ-специалистов. Если вы только что подробную информацию об отправке или получении зашифрованного сообщения, просматривать список статей в [Шифрования сообщений Office 365 (OME)](ome.md) и найдите статьи, который лучше все соответствует вашим требованиям. |
+|В этой статье является частью серии статей о шифровании сообщений Office 365, размер которых. Эта статья предназначена для администраторов и специалистов по ИТ. Если вы только что подробную информацию об отправке или получении зашифрованного сообщения, просматривать список статей в [Шифрования сообщений Office 365 (OME)](ome.md) и найдите статьи, который лучше все соответствует вашим требованиям. |
+||
 
 ## <a name="managing-whether-google-yahoo-and-microsoft-account-recipients-can-use-these-accounts-to-sign-in-to-the-office-365-message-encryption-portal"></a>Управление ли получателей Google Yahoo и учетную запись Майкрософт можно использовать эти учетные записи выполнить вход на портал шифрования сообщений Office 365
 
-По умолчанию при создании новых возможностей шифрования сообщений Office 365, пользователи в вашей организации могут отправлять сообщения получателям, которые расположены вне вашей организации Office 365. Если получатель использует *социальных ID* , например Google учетной записи, Yahoo учетной записи или учетной записи Майкрософт, получатель могут выполнить вход на портал OME, с помощью социальных кода. Если вы хотите, вы можете запретить использование получателей для использования социальных идентификаторов для входа в портал OME. 
+По умолчанию при создании новых возможностей шифрования сообщений Office 365, пользователи в вашей организации могут отправлять сообщения получателям, которые расположены вне вашей организации Office 365. Если получатель использует *социальных ID* , например Google учетной записи, Yahoo учетной записи или учетной записи Майкрософт, получатель могут выполнить вход на портал OME, с помощью социальных кода. Если вы хотите, вы можете запретить использование получателей для использования социальных идентификаторов для входа в портал OME.
   
 ### <a name="to-manage-whether-or-not-to-allow-recipients-to-use-social-ids-to-sign-in-to-the-ome-portal"></a>Для управления ли разрешить получателей для использования социальных идентификаторов для входа в портал OME
   
@@ -37,21 +37,21 @@ ms.locfileid: "27750058"
 
 2. Используйте командлет Set-OMEConfiguration с параметром SocialIdSignIn следующим образом:
 
-  ```
-  Set-OMEConfiguration -Identity <"OMEConfigurationIdParameter "> -SocialIdSignIn <$true | $false>
-  ```
+   ```powershell
+   Set-OMEConfiguration -Identity <"OMEConfigurationIdParameter "> -SocialIdSignIn <$true | $false>
+   ```
 
-  Например, чтобы отключить социальных идентификаторы:
-  
-  ```
-  Set-OMEConfiguration -Identity "OME Configuration" -SocialIdSignIn $false
-  ```
+   Например, чтобы отключить социальных идентификаторы:
 
-  Для включения социальных идентификаторы:
+   ```powershell
+   Set-OMEConfiguration -Identity "OME Configuration" -SocialIdSignIn $false
+   ```
 
-  ```
-  Set-OMEConfiguration -Identity "OME Configuration" -SocialIdSignIn $true
-  ```
+   Для включения социальных идентификаторы:
+
+   ```powershell
+   Set-OMEConfiguration -Identity "OME Configuration" -SocialIdSignIn $true
+   ```
 
 ## <a name="managing-the-use-of-one-time-pass-codes-for-signing-in-to-the-office-365-message-encryption-portal"></a>Управление одноразовый проход коды для вход на портал шифрования сообщений Office 365
 
@@ -63,19 +63,25 @@ ms.locfileid: "27750058"
 
 2. Используйте командлет Set-OMEConfiguration с параметром OTPEnabled:
 
-   ```Set-OMEConfiguration -Identity <"OMEConfigurationIdParameter "> -OTPEnabled <$true|$false>```
+   ```powershell
+   Set-OMEConfiguration -Identity <"OMEConfigurationIdParameter "> -OTPEnabled <$true|$false>
+   ```
 
    Например, чтобы отключить коды одноразовый проход:
 
-   ```Set-OMEConfiguration -Identity "OME Configuration" -OTPEnabled $false```
+   ```powershell
+   Set-OMEConfiguration -Identity "OME Configuration" -OTPEnabled $false
+   ```
 
    Чтобы включить одноразовый проход коды:
 
-   ```Set-OMEConfiguration -Identity "OME Configuration" -OTPEnabled $true```
+   ```powershell
+   Set-OMEConfiguration -Identity "OME Configuration" -OTPEnabled $true
+   ```
 
 ## <a name="managing-the-display-of-the-protect-button-in-outlook-on-the-web"></a>Управление отображение кнопки защита в Outlook в Интернете
 
-По умолчанию при установке OME кнопку **Защита** в Outlook в Интернете не включено. Как администратор могут управлять ли отображать эту кнопку для конечных пользователей. 
+По умолчанию при установке OME кнопку **Защита** в Outlook в Интернете не включено. Как администратор могут управлять ли отображать эту кнопку для конечных пользователей.
   
 ### <a name="to-manage-whether-or-not-the-protect-button-appears-in-outlook-on-the-web"></a>Для управления ли "защитить" отображается в Outlook в Интернете
   
@@ -83,15 +89,21 @@ ms.locfileid: "27750058"
 
 2. Используйте командлет Set-IRMConfiguration с параметром - SimplifiedClientAccessEnabled:
 
-   ```Set-IRMConfiguration -SimplifiedClientAccessEnabled <$true|$false>```
+   ```powershell
+   Set-IRMConfiguration -SimplifiedClientAccessEnabled <$true|$false>
+   ```
 
    Например, чтобы отключить " **защитить** ":
 
-   ```Set-IRMConfiguration -SimplifiedClientAccessEnabled $false```
+   ```powershell
+   Set-IRMConfiguration -SimplifiedClientAccessEnabled $false
+   ```
 
    Чтобы активировать кнопку **защитить** :
 
-   ```Set-IRMConfiguration -SimplifiedClientAccessEnabled $true```
+   ```powershell
+   Set-IRMConfiguration -SimplifiedClientAccessEnabled $true
+   ```
 
 ## <a name="enable-service-side-decryption-of-email-messages-for-ios-mail-app-users"></a>Включение расшифровки со стороны службы сообщений электронной почты для пользователей приложения почты операций ввода-вывода
 
@@ -99,7 +111,7 @@ ms.locfileid: "27750058"
   
 Если принято решение не разрешать расшифрованного сообщения для отправки операций ввода-вывода почты пользователей приложения, пользователи получают сообщение о том, что у них нет права на просмотр сообщения. По умолчанию со стороны службы расшифровки сообщений электронной почты не включено.
   
-Для получения дополнительных сведений и для представления с клиентом обратитесь к разделу «[Просмотр зашифрованных сообщений на iPhone и iPad](https://support.office.com/article/4d631321-0d26-4bcc-a483-d294dd0b1caf#iOSEncryptedMail)» в [Просмотр зашифрованных сообщений на iPhone и iPad](https://support.office.com/article/4d631321-0d26-4bcc-a483-d294dd0b1caf).
+Для получения дополнительных сведений и для представления с клиентом увидеть [Просмотр зашифрованных сообщений на iPhone и iPad](https://support.office.com/article/4d631321-0d26-4bcc-a483-d294dd0b1caf).
   
 ### <a name="to-manage-whether-or-not-ios-mail-app-users-can-view-messages-protected-by-office-365-message-encryption"></a>Для управления ли iOS почтовые приложения пользователи могут просматривать шифрования сообщений Office 365 для защиты сообщений
   
@@ -107,19 +119,25 @@ ms.locfileid: "27750058"
 
 2. Используйте командлет Set-ActiveSyncOrganizations с параметром AllowRMSSupportForUnenlightenedApps:
 
-   ```Set-ActiveSyncOrganizationSettings -AllowRMSSupportForUnenlightenedApps <$true|$false>```
+   ```powershell
+   Set-ActiveSyncOrganizationSettings -AllowRMSSupportForUnenlightenedApps <$true|$false>
+   ```
 
    Например для настройки службы для расшифровки сообщения перед отправкой unenlightened приложений таких как iOS почтового приложения:
 
-   ```Set-ActiveSyncOrganizationSettings -AllowRMSSupportForUnenlightenedApps $true```
+   ```powershell
+   Set-ActiveSyncOrganizationSettings -AllowRMSSupportForUnenlightenedApps $true
+   ```
 
    Или, чтобы настроить службу не следует отправлять расшифрованного сообщения unenlightened приложений:
 
-   ```Set-ActiveSyncOrganizationSettings -AllowRMSSupportForUnenlightenedApps $false```
+   ```powershell
+   Set-ActiveSyncOrganizationSettings -AllowRMSSupportForUnenlightenedApps $false
+   ```
 
 ## <a name="enable-service-side-decryption-of-email-attachments-for-web-browser-mail-clients"></a>Включение расшифровки со стороны службы вложений электронной почты для веб-браузера почтовых клиентов
 
-Как правило при использовании шифрования сообщений Office 365, вложения, автоматически шифруются. Как администратор Office 365 можно применить расшифровки со стороны службы для вложений электронной почты, которые пользователи загружать из веб-браузера. 
+Как правило при использовании шифрования сообщений Office 365, вложения, автоматически шифруются. Как администратор Office 365 можно применить расшифровки со стороны службы для вложений электронной почты, которые пользователи загружать из веб-браузера.
   
 При выборе для этого служба отправляет расшифрованного копию файла на устройство. По-прежнему шифруется сообщение. Вложения электронной почты также сохраняет информацию о правах на использование, несмотря на то, что браузер не применяется правах на использование со стороны клиента для пользователя. Это означает, что пользователь может копировать или печатать вложения электронной почты, даже в том случае, если они изначально не имел прав для этого. Тем не менее если пользователь пытается выполнить действие, которое требуется на сервере почты Office 365, например переадресации вложение, сервер не позволяет действие Если пользователь не было изначально право использования для этого.
   
@@ -135,15 +153,21 @@ ms.locfileid: "27750058"
 
 2. Используйте командлет Set-IRMConfiguration с параметром DecryptAttachmentFromPortal:
 
-   ```Set-IRMConfiguration -DecryptAttachmentFromPortal <$true|$false>```
+   ```powershell
+   Set-IRMConfiguration -DecryptAttachmentFromPortal <$true|$false>
+   ```
 
    Например для настройки службы для расшифровки вложений электронной почты, когда пользователь загружает их из веб-браузера:
 
-   ```Set-IRMConfiguration -DecryptAttachmentFromPortal $true```
+   ```powershell
+   Set-IRMConfiguration -DecryptAttachmentFromPortal $true
+   ```
 
    Настройка службы оставить вложения зашифрованное сообщение электронной почты, как и при их загрузке:
 
-   ```Set-IRMConfiguration -DecryptAttachmentFromPortal $false```
+   ```powershell
+   Set-IRMConfiguration -DecryptAttachmentFromPortal $false
+   ```
 
 ## <a name="customizing-the-appearance-of-email-messages-and-the-ome-portal"></a>Настройка внешнего вида сообщений электронной почты и портала OME
 
@@ -159,8 +183,12 @@ ms.locfileid: "27750058"
 
 2. Если этот параметр включен " **защитить** " в Outlook в Интернете, отключите его, выполнив командлет Set-IRMConfiguration с параметром SimplifiedClientAccessEnabled. В противном случае пропустите этот шаг.
 
-   ```Set-IRMConfiguration -SimplifiedClientAccessEnabled $false```
+   ```powershell
+   Set-IRMConfiguration -SimplifiedClientAccessEnabled $false
+   ```
 
 3. Отключение новые возможности для OME с помощью командлета Set-IRMConfiguration с параметром AzureRMSLicensingEnabled задано значение false:
 
-   ```Set-IRMConfiguration -AzureRMSLicensingEnabled $false```
+   ```powershell
+   Set-IRMConfiguration -AzureRMSLicensingEnabled $false
+   ```

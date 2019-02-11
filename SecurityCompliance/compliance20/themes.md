@@ -14,14 +14,15 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: b0d1bcd8ddb1e29853a633a386becfd1688b9cd1
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: d4f6b457880a4c4029e331e5488ea31a61781765
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608215"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29706130"
 ---
 # <a name="themes"></a>Темы
+
 Когда кто-то объединяет документа, они не выбирайте слов случайным образом; пытаетесь передачи некоторые идеи и концепции и соответствующим образом выбранных слов. Модули тем кластеры документы, посвященные аналогичные имеет значение темы, чтобы проверяющие могут быть более эффективный в прохода через документы.
 
 ## <a name="how-does-themes-work"></a>Каков принцип работы тем

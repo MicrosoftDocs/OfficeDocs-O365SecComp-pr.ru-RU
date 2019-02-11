@@ -3,6 +3,7 @@ title: Office 365 безопасности приложения облачных
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
+ms.date: 12/03/2018
 ms.audience: ITPro
 ms.topic: hub-page
 ms.service: o365-administration
@@ -12,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: ade98409-a15e-4de3-8c06-8e748f5b7e96
 description: Поиск содержимого справки для расширенного управления безопасности в Office 365, теперь называются приложения облаке Безопасность в Office 365.
-ms.openlocfilehash: d38b12afe50ac56b3047b24d68c9c00d3bcbf602
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: 45f45812251d17a7a58d8c5f6cbd23d27407daf1
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706273"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "27131839"
 ---
 # <a name="office-365-cloud-app-security-help-and-how-to"></a>Office 365 безопасности приложения облачных Справка и инструкции
   
@@ -35,9 +36,9 @@ ms.locfileid: "26706273"
 |Настройка политик и оповещения для вашей организации  <br/> |[Политики действий и оповещения в Office 365 Cloud App Security](activity-policies-and-alerts.md) <br/> [Политики обнаружения неполадок в облаке приложения Office 365 безопасности](anomaly-detection-policies-in-ocas.md) (Недавно обновлено!)  <br/> [SIEM интеграции с Office 365 облачных приложений безопасности](integrate-your-siem-server-with-office-365-cas.md) <br/> [Безопасность политики справочные сведения о безопасности приложения Office 365 облако](security-policy-reference-information-for-ocas.md) <br/> |
 |Настройка параметров безопасности Office 365 облачных приложений  <br/> |[Группирование IP-адресов для упрощения управления в Office 365 Cloud App Security](group-your-ip-addresses-in-ocas.md) <br/> [Действия, связанные с использованием, после развертывания Office 365 Cloud App Security](utilization-activities-for-ocas.md) <br/> |
 |Изучите мероприятий и выполнение действий  <br/> |[Просмотрите и выполнение действий на оповещение системы безопасности приложения Office 365 облако](review-office-365-cas-alerts.md) <br/> [Анализ действий в Office 365 Cloud App Security](investigate-an-activity-in-office-365-cas.md) <br/> [Приостановка или восстановление учетной записи пользователя в Office 365 Cloud App Security](suspend-or-restore-an-account-in-ocas.md) <br/> |
-|Управлять приложениями сторонних производителей в Office 365  <br/> |[Управление разрешениями приложений с помощью Office 365 Cloud App Security](manage-app-permissions-in-ocas.md) <br/> |
+|Управлять приложениями сторонних производителей в Office 365  <br/> |[Управление приложениями OAuth с помощью Office 365 Cloud App Security](manage-app-permissions-in-ocas.md) <br/> |
 |Создание и просмотр отчетов обнаружения приложения  <br/> |[Журналы веб-трафика и источники данных для Office 365 Cloud App Security](web-traffic-logs-and-data-sources-for-ocas.md) <br/> [Создание отчетов обнаружения приложения в облаке приложения Office 365 безопасности](create-app-discovery-reports-in-ocas.md) <br/> [Обзор выводов обнаружения приложения в облаке приложения Office 365 безопасности](review-app-discovery-findings-in-ocas.md) (Недавно обновлено!)  <br/> |
-|Оставайтесь в цикле на новые возможности в облаке приложения Office 365 безопасности  <br/> |[Что нового в Office 365 Cloud App Security](new-in-office-365-cas.md) <br/> |
+|Оставайтесь в цикле на новые возможности в облаке приложения Office 365 безопасности  <br/> |[Новые возможности Office 365 Cloud App Security](new-in-office-365-cas.md) <br/> |
    
 ## <a name="next-steps"></a>Дальнейшие действия
 

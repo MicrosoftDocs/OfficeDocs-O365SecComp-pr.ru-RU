@@ -12,18 +12,18 @@ search.appverid:
 - MOE150
 ms.assetid: ba919c73-d021-404d-9850-eec57e78678c
 description: В этой статье, чтобы узнать, как включить Office 365 расширенного управления безопасностью, на базе безопасности приложения облака в Microsoft Azure.
-ms.openlocfilehash: 8964a0b413b0350188c7f61638d04032534e5374
-ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
+ms.openlocfilehash: 057a7b3311384901b4c3683c350d1f26c91bf60d
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28014791"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29603780"
 ---
 # <a name="turn-on-office-365-cloud-app-security"></a>Включение Office 365 Cloud App Security
   
 |Оценка **\>**|Планирование **\>**|Развертывание **\>**|Использование ***|
 |:-----|:-----|:-----|:-----|
-|[Начать оценку](office-365-cas-overview.md) <br/> |[Начать планирование](get-ready-for-office-365-cas.md) <br/> |Вы находитесь здесь!  <br/> [Следующее действие](activity-policies-and-alerts.md) <br/> |[Начать использование](utilization-activities-for-ocas.md) <br/> |
+|[Начать оценку](office-365-cas-overview.md) <br/> |[Начать планирование](get-ready-for-office-365-cas.md) <br/> |Вы находитесь здесь!  <br/> [Следующий шаг](activity-policies-and-alerts.md) <br/> |[Начать использование](utilization-activities-for-ocas.md) <br/> |
   
 ## <a name="turn-on-office-365-cloud-app-security"></a>Включение Office 365 Cloud App Security
 
@@ -37,6 +37,8 @@ ms.locfileid: "28014791"
 3. Выберите **Включить безопасности приложения Office 365 облака**.
     
 4. Выберите, **перейдите к безопасности приложения Office 365 облака**.<br/>![В разделе Безопасность &amp; центре соответствия требованиям, выберите дополнительные оповещения для перехода к безопасности Office 365 облаке приложения](media/958632d4-03e3-4ade-8e22-d5509db6fca7.png)<br/>Вы перейдете к порталу безопасности Office 365 облаке приложения, где Просмотр отчетов и создание или изменение политики.
+
+После включения безопасности Office 365 облаке приложения можно перейти на портале облачных безопасности приложения, посетив [https://portal.cloudappsecurity.com](https://portal.cloudappsecurity.com) и выход из системы.
     
 > [!NOTE]
 > При включении безопасности приложения Office 365 облачных [Безопасности приложения Microsoft Cloud](https://aka.ms/whatiscas)переносятся аудита сведения об учетных записей пользователей Office 365 и действий пользователей. Это позволяет Office 365 для предоставления расширенных оповещения, фильтрация и другие функции, чтобы получить сведения, а также выполнять действия о подозрительных действий. 

@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 9949fcc5876e1d0fa2f877333c5a9e5abae8c2a7
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: 8db5a21f60a1d73c11e28bc2765a95c23646115d
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608311"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29706080"
 ---
 # <a name="create-a-legal-hold-notice"></a>Создание удержания по юридическим причинам уведомление
 
@@ -56,7 +56,7 @@ ms.locfileid: "29608311"
 3. Нажмите кнопку **Далее**.
 
   >[!Tip]
-  >Чтобы узнать дополнительные сведения об можно настроить содержимое и формат содержимого портала, обратитесь к разделу [с помощью редактора Communications](using-communications-editor.md).
+  >Чтобы узнать, что Дополнительные сведения об можно настроить содержимое и формат содержимого портала, показано [Использование редактора коммуникаций](using-communications-editor.md).
 
 ## <a name="step-3-set-the-required-notifications"></a>Шаг 3: Задайте необходимые уведомления
 
@@ -78,7 +78,7 @@ ms.locfileid: "29608311"
    
 4. Укажите содержимое или Дополнительные инструкции, которые вы хотите предоставить custodian (обязательно). Обратите внимание на то, что контент портала, которую вы задали на шаге 2 добавляется в конец выдачу уведомления. 
    
-5. Нажмите кнопку **Сохранить**. 
+5. Нажмите кнопку **Сохранить** 
 
 ### <a name="re-issuance-notification"></a>RE выдачу уведомления 
 

@@ -3,7 +3,7 @@ title: Вопросы и ответы по шифрованию сообщени
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 09/27/2018
+ms.date: 10/9/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-administration
@@ -12,16 +12,21 @@ search.appverid:
 - MET150
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Есть вопросы о новых возможностях защиты сообщения в Office 365? Проверьте поищите ответ.
-ms.openlocfilehash: c580ef701f6ee98ea2fc71df792256b1792c73cd
-ms.sourcegitcommit: 411713004251ee62d29b550eabea04c08a87e41f
+ms.openlocfilehash: e35495106b44ccb566f4da743264def8c7d4f96f
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "25341434"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29696273"
 ---
 # <a name="office-365-message-encryption-faq"></a>Вопросы и ответы по шифрованию сообщений Office 365
 
-Есть вопросы о новых возможностях защиты сообщения в Office 365? Проверьте поищите ответ. Кроме того рассмотрим [часто задаваемые вопросы о защите данных в защите информации Azure](https://docs.microsoft.com/information-protection/get-started/faqs-rms) для ответы на вопросы о службе защиты данных Azure Rights Management в Azure защита информации. 
+Есть вопросы о новых возможностях защиты сообщения в Office 365? Проверьте поищите ответ. Кроме того рассмотрим [часто задаваемые вопросы о защите данных в защите информации Azure](https://docs.microsoft.com/information-protection/get-started/faqs-rms) для ответы на вопросы о службе защиты данных Azure Rights Management в Azure защита информации.
+
+||
+|:-----|
+|В этой статье является частью серии статей о шифровании сообщений Office 365, размер которых. Эта статья предназначена для администраторов и специалистов по ИТ. Если вы только что подробную информацию об отправке или получении зашифрованного сообщения, просматривать список статей в [Шифрования сообщений Office 365 (OME)](ome.md) и найдите статьи, который лучше все соответствует вашим требованиям. |
+||
   
 ## <a name="what-is-office-365-message-encryption-ome"></a>Что такое шифрования сообщений Office 365 (OME)
 
@@ -89,7 +94,7 @@ OME объединяет шифрования электронной почты 
   
 ## <a name="my-organization-has-an-exchange-hybrid-deployment-can-i-use-this-feature"></a>В организации есть при развертывании гибридное развертывание Exchange. Можно ли использовать этот компонент?
 
-Локальный пользователи могут отправлять зашифрованные почты с помощью Exchange Online правил поток почты. Для этого необходимо для маршрутизации электронной почты через Exchange Online.
+Локальный пользователи могут отправлять зашифрованные почты с помощью Exchange Online правил поток почты. Для этого необходимо для маршрутизации электронной почты через Exchange Online. Дополнительные сведения можно [часть 2: Настройка почты для потока с сервера электронной почты в Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail#part-2-configure-mail-to-flow-from-your-email-server-to-office-365).
   
 ## <a name="what-email-client-do-i-need-to-use-in-order-to-create-an-ome-encrypted-message-what-applications-are-supported-for-sending-protected-messages"></a>Какие клиента электронной почты необходимо использовать для создания OME зашифрованного сообщения? Поддерживаемые приложения для отправки защищенных сообщений?
 
@@ -119,7 +124,7 @@ OME объединяет шифрования электронной почты 
   
 ## <a name="can-i-automatically-encrypt-messages-by-setting-up-policies-in-data-loss-prevention-dlp-through-the-security-amp-compliance-center"></a>Можно ли автоматически шифрование сообщений, настраивая политики в предотвращения потери данных (DLP) по безопасности &amp; центре соответствия требованиям?
 
-В настоящее время можно только настроить правила для потока обработки почты в Exchange Online. Шифрование в настоящее время не поддерживается в защиты от потери данных через безопасности &amp; центре соответствия требованиям.
+Да! Можно настроить правила для потока почты в Exchange Online или с помощью защиты от потери данных в системы &amp; центре соответствия требованиям.
   
 ## <a name="can-i-open-encrypted-messages-sent-to-a-shared-mailbox"></a>Можно открыть зашифрованных сообщений, отправленных в общий почтовый ящик
 

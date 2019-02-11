@@ -3,7 +3,7 @@ title: Технические сведения о шифровании в Office
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 4/12/2018
+ms.date: 1/15/2019
 ms.audience: ITPro
 ms.topic: reference
 ms.service: o365-administration
@@ -14,20 +14,20 @@ search.appverid:
 - MOE150
 ms.assetid: 862cbe93-4268-4ef9-ba79-277545ecf221
 description: Технические сведения о обязательно просмотра в Office 365.
-ms.openlocfilehash: 69365b66479ab89a9c036fe489b4087d327460eb
-ms.sourcegitcommit: e4ebef6aaf756eefb86c9f3a602cf75f5d344271
+ms.openlocfilehash: bb4629d89d2ed625cc1b817c53d2355484bfdf6c
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026526"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "28326940"
 ---
 # <a name="technical-reference-details-about-encryption-in-office-365"></a>Технические сведения о шифровании в Office 365
 
 Найти в этой статье содержатся общие сведения о сертификатах, технологий и TLS наборы шифрования, используемый для [шифрования в Office 365](encryption.md). В этой статье также представлена информация о запланированных сведения о неподдерживаемых.
   
 - Если вы ищете сведения, см [в Office 365](encryption.md).
-    
 - Если вы ищете сведения об установке, видеть [шифрование в Office 365 для предприятия](set-up-encryption.md).
+- Сведения о наборы шифрования, поддерживаемый определенных версий Windows видеть [Наборы шифрования в TLS/SSL (Schannel поставщика общих СЛУЖБ)](https://docs.microsoft.com/windows/desktop/SecAuthN/cipher-suites-in-schannel).
     
 ## <a name="microsoft-office-365-certificate-ownership-and-management"></a>Владение и управление сертификатами Microsoft Office 365
 
@@ -35,7 +35,10 @@ ms.locfileid: "26026526"
   
 ## <a name="current-encryption-standards-and-planned-deprecations"></a>Текущие стандарты шифрования и сведения о неподдерживаемых запланированных
 
-Для продолжения для предоставления лучшие в своем классе шифрования для Office 365 Майкрософт регулярно дается обзор поддерживаемых шифрования стандартов. В некоторых случаях необходимо отказаться от старого стандартов как только они становятся устаревший и поэтому менее безопасным. В этом разделе описываются наборы в настоящее время поддерживаются шифрования и других стандартов, а также подробные сведения о запланированных сведения о неподдерживаемых.
+Для продолжения для предоставления лучшие в своем классе шифрования для Office 365 Майкрософт регулярно дается обзор поддерживаемых шифрования стандартов. В некоторых случаях необходимо отказаться от старого стандартов как только они становятся устаревший и поэтому менее безопасным. В этом разделе описываются наборы в настоящее время поддерживаются шифрования и других стандартов, а также подробные сведения о запланированных сведения о неподдерживаемых. 
+
+## <a name="fips-compliance-for-office-365"></a>Соответствие требованиям FIPS для Office 365
+Все наборы шифрования, поддерживаются в Office 365 с помощью алгоритмов, допустимых в разделе FIPS 140-2. Office 365 проверки FIPS наследуется от Windows (за счет Schannel). Сведения о Schannel видеть [Наборы шифрования в TLS/SSL (Schannel поставщика общих СЛУЖБ)](https://docs.microsoft.com/windows/desktop/SecAuthN/cipher-suites-in-schannel).
   
 ## <a name="versions-of-tls-supported-by-office-365"></a>Версии протокола TLS, поддерживаемые Office 365
 
@@ -89,6 +92,8 @@ ms.locfileid: "26026526"
   
 |**Протоколы**|**Имя набора шифров**|**Алгоритм/надежность обмена ключами**|**Поддержка безопасной пересылки (PFS)**|**Алгоритм/надежность проверки подлинности**|**Шифр и его надежность**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
+|TLS 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384  <br/> |ECDH/192  <br/> |Да  <br/> |RSA/112  <br/> |AES/256  <br/> |
+|TLS 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256  <br/> |ECDH/128  <br/> |Да  <br/> |RSA/112  <br/> |AES/128  <br/> |
 |TLS 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384  <br/> |ECDH/192  <br/> |Да  <br/> |RSA/112  <br/> |AES/256  <br/> |
 |TLS 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256  <br/> |ECDH/128  <br/> |Да  <br/> |RSA/112  <br/> |AES/128  <br/> |
 |TLS 1.0, 1.1, 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA_P384  <br/> |ECDH/192  <br/> |Да  <br/> |RSA/112  <br/> |AES/256  <br/> |
@@ -97,10 +102,9 @@ ms.locfileid: "26026526"
 |TLS 1.2  <br/> |TLS_RSA_WITH_AES_128_CBC_SHA256  <br/> |RSA/112  <br/> |Нет  <br/> |RSA/112  <br/> |AES/128  <br/> |
 |TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_256_CBC_SHA  <br/> |RSA/112  <br/> |Нет  <br/> |RSA/112  <br/> |AES/256  <br/> |
 |TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_128_CBC_SHA  <br/> |RSA/112  <br/> |Нет  <br/> |RSA/112  <br/> |AES/128  <br/> |
-|TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_3DES_EDE_CBC_SHA  <br/> |RSA/112  <br/> |Нет  <br/> |RSA/112  <br/> |3DES/192  <br/> |
    
-## <a name="related-topics"></a>Связанные статьи
-<a name="TLSCipherSuites"> </a>
+## <a name="related-topics"></a>Статьи по теме
+[Наборы приложений шифрования TLS в v1607 Windows 10](https://docs.microsoft.com/windows/desktop/SecAuthN/tls-cipher-suites-in-windows-10-v1607)
 
 [Шифрование в Office 365](encryption.md)
   

@@ -13,21 +13,21 @@ search.appverid:
 - MET150
 ms.assetid: 60ffd80b-4376-419d-b6e4-a72029b9907c
 description: 'Узнайте, как настроить роли пользователей, создайте случаев и назначение пользователям вариантов в Office 365 расширенного обнаружения электронных данных.  '
-ms.openlocfilehash: 49f76b415d86035cecafc19c23b36c413f7576e5
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 4c0043b7651cc82272492e19faf01041c6f67932
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22535104"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29559062"
 ---
 # <a name="set-up-users-and-cases-in-office-365-advanced-ediscovery"></a>Настройка пользователей и дел в Office 365 Advanced eDiscovery
 
 В этом разделе описывается настройка параметров пользователей и случаи для Office 365 расширенного обнаружения электронных данных.
   
 > [!NOTE]
-> Расширенные обнаружения электронных данных требуется E3 Office 365 с помощью надстройки дополнительные соответствия или подписка на E5 для вашей организации. Если нет этого плана и попытайтесь расширенной обнаружения электронных данных, можно [подписаться на пробную версию Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
-## <a name="prerequisites"></a>Необходимые условия
+## <a name="prerequisites"></a>Требования
 
 Перед настройкой случаев и пользователей в расширенной eDiscovery, следующие является обязательным:
   
@@ -62,6 +62,4 @@ ms.locfileid: "22535104"
 [Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
   
 [Подготовка данных](prepare-data-for-advanced-ediscovery.md)
-  
-[Роли пользователей и доступ](user-roles-and-access-in-advanced-ediscovery.md)
-
+ 

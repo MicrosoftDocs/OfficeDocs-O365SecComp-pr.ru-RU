@@ -1,5 +1,5 @@
 ---
-title: Просмотр документов в рабочем наборе
+title: Просмотра документов в рабочем наборе
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,13 +14,13 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: bed86f17ce8027da85eefc2a4c39ac4e25523016
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: 800bc1f0e8ac9a736ea676519d0e995767a82dcb
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608263"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29695115"
 ---
-# <a name="viewing-documents-in-a-working-set"></a>Просмотр документов в рабочем наборе
+# <a name="view-documents-in-a-working-set"></a>Просмотра документов в рабочем наборе
 
 Содержимое появится в ближайшее время.

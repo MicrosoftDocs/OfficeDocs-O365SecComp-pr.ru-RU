@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: b27d6cca0382b18123cae4106f77ce0dcdf5e525
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: 962bd13f66ec8fe4f3385656f1241dd5fb5c4dcf
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608295"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29695045"
 ---
-# <a name="working-with-communications-in-advanced-ediscovery-preview"></a>Работа с коммуникации в расширенной обнаружения электронных данных (Предварительная версия)
+# <a name="work-with-communications-in-advanced-ediscovery-preview"></a>Работа с коммуникации в расширенной обнаружения электронных данных (Предварительная версия)
 
 Расширенные обнаружения электронных данных (Просмотр) позволяет юридических отделов для упрощения их процессов отслеживания и распространения уведомлений удержания по юридическим причинам. Функция communications custodian позволяет юридических отделов для управления и автоматизации процессы всей удержания по юридическим причинам--из уведомления, напоминаний и эскалации — все в одном месте.
 

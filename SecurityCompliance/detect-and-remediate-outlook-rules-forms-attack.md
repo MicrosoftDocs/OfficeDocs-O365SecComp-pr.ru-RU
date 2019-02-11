@@ -13,15 +13,13 @@ ms.service: o365-solutions
 localization_priority: Normal
 search.appverid:
 - MET150
-ms.custom: ''
-ms.assetid: ''
 description: Узнайте, как выявлять и исправлять правила Outlook и атак injections настраиваемых форм в Office 365
-ms.openlocfilehash: 893ade67976d7e6d1442a23f1f61948cea591dad
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 1067d7c791217c146fedea839754e45f76ef5d8e
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534523"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29603760"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks-in-office-365"></a>Обнаружение атак с внедрением правил и пользовательских форм Outlook и устранение их последствий в Office 365
 
@@ -89,7 +87,7 @@ ms.locfileid: "22534523"
 ### <a name="steps-to-confirm-the-rules-and-forms-attack-using-powershell"></a>Действия, чтобы подтвердить атаки правил и форм, с помощью PowerShell
 Самый простой способ проверка правил или настраиваемые формы атаки — выполнить сценарий PowerShell [Get-AllTenantRulesAndForms.ps1](https://github.com/OfficeDev/O365-InvestigationTooling/blob/master/Get-AllTenantRulesAndForms.ps1) .  Этот скрипт подключается к всех почтовых ящиков в вашего клиента и выводит все правила и форм в двух CSV-файлов.
 
-#### <a name="pre-requisites"></a>Необходимые условия
+#### <a name="pre-requisites"></a>Предварительные действия
 Необходимо иметь права глобального администратора для запуска сценария, так как сценарий подключается к всех почтовых ящиков в аренде, чтобы ознакомиться с правилами и форм.
 
 1. Войдите в компьютер, на котором будет запущен скрипт из с правами локального администратора.

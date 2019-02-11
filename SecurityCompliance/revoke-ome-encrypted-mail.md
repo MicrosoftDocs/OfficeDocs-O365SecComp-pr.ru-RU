@@ -3,7 +3,6 @@ title: Отзыв электронных писем, зашифрованных 
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 1/29/2019
 ms.audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -11,12 +10,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Как администратор Office 365 можно отозвать конкретные сообщения, зашифрованные с помощью шифрования сообщений Office 365.
-ms.openlocfilehash: a3f5c08d2c8660e56c378fc5fa7a850ff2c12eb5
-ms.sourcegitcommit: 03b9221d9885bcde1cdb5df2c2dc5d835802d299
+ms.openlocfilehash: 018f12105e19382372a8a4b3a91248bb60b228be
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29614393"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29696243"
 ---
 # <a name="office-365-message-encryption-email-revocation"></a>Office 365 шифрования сообщений электронной почты отзыва
 
@@ -59,22 +58,41 @@ ms.locfileid: "29614393"
 2. Выберите пункт **Просмотр подробных сведений о** таблицу и определите сообщение, которое необходимо отменить.
 3. Дважды щелкните сообщение, чтобы Просмотр сведений, включая идентификатор сообщения.
 
-### <a name="step-2-revoke-the-mail"></a>Шаг 2. Отзыв по почте  
+### <a name="step-2-verify-that-the-mail-is-revocable"></a>Шаг 2. Убедитесь, что почта, отзыва
 
-Получив идентификатор сообщения электронной почты, которые необходимо отменить можно отозвать сообщение электронной почты с помощью командлета Set-OMEMessageRevocation.
+Чтобы проверить ли можно отозвать сообщение определенного электронной почты, выполните следующие действия.
 
-1. [Подключение к Exchange Online с помощью удаленной оболочки PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
+1. Использование рабочего или школы учетной записи, имеющей права глобального администратора в организации Office 365, начало сеанса Windows PowerShell и подключитесь к Exchange Online. Сведения содержатся в разделе [подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
+
+2. Используйте командлет Set-OMEMessageStatus следующим образом:
+     ```powershell
+     Get-OMEMessageStatus -MessageId "<messagieid>" | ft -a  Subject, IsRevocable
+     ```
+
+   При этом будет получен тему сообщения и является ли сообщение отзыва. Например
+
+     ```text
+     Subject IsRevocable
+     ------- -----------
+     “Test message”  True
+     ```
+
+### <a name="step-3-revoke-the-mail"></a>Шаг 3. Отзыв по почте  
+
+Один раз вы знаете код сообщения электронной почты, которые необходимо отменить и убедитесь, что сообщение отзыва, сообщение электронной почты можно отменить с помощью командлета Set-OMEMessageRevocation.
+
+1. [Подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
 
 2. Используйте командлет Set-OMEMessageRevocation следующим образом:
 
     ```powershell
     Set-OMEMessageRevocation -Revoke $true -MessageId "<messageId>"
-    ```  
+    ```
 
 3. Чтобы проверить, был отозван ли сообщение электронной почты, выполните командлет Get-OMEMessageStatus следующим образом:
 
     ```powershell
-    Get-OMEMessageStatus -MessageId "<messageId>" | fl Revoked
+    Get-OMEMessageStatus -MessageId "<messageId>" | ft -a  Subject, Revoked
     ```  
     В случае успешного отзыва, командлет возвращает следующие результаты:  
 

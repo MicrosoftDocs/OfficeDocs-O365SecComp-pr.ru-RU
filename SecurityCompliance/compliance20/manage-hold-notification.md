@@ -1,5 +1,5 @@
 ---
-title: Управление коммуникаций
+title: Управление уведомлениями об удержании
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 7189680f1ec022ae76e8003c7e6660a8da7c5906
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: 38db73000e84db0bbdcac7710ef71431666a5494
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608317"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29706050"
 ---
-# <a name="manage-communications"></a>Управление коммуникаций
+# <a name="manage-hold-notifications"></a>Управление уведомлениями об удержании
 
 После запуска вашего юридического удержание уведомлений рабочего процесса, вы можете использовать возможности расширенной обнаружения электронных данных (Просмотр) для отслеживания состояния ваши сообщения. На вкладке коммуникаций, демонстрирующий все уведомления удержания в случае расширенные обнаружения электронных данных (Предварительная версия). Вы видите сведений, таких как число custodians, которые были назначены или подтверждено уведомление.
 
@@ -71,6 +71,8 @@ ms.locfileid: "29608317"
 
 ## <a name="related-information"></a>Дополнительная информация 
 
-    - [Создание уведомлений удержания по юридическим причинам] (~ SecurityCompliance\compliance20\create-hold-notification.md)
-    - [Подтвердить уведомление удержания по юридическим причинам] (~/acknowledge-hold-notification.md)
-    - [Добавление Custodians в случае]
+- [Создание удержания по юридическим причинам уведомление](create-hold-notification.md)
+    
+- [Подтверждение уведомления об удержании](acknowledge-hold-notification.md)
+    
+- [Добавление хранителей в дело](add-custodians-to-case.md)

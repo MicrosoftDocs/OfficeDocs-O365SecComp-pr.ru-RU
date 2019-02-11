@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: Используйте границы соответствия требованиям для создания логических границ в пределах организации Office 365, которые управляют размещения содержимого пользователя, в которых диспетчер обнаружения может выполнять поиск. Границы соответствия используйте разрешения поиска фильтрацию (также называемое соответствия требованиям безопасности фильтры), чтобы контролировать, какие почтовые ящики, сайты SharePoint и учетные записи OneDrive может быть выполнен с определенным пользователям.
-ms.openlocfilehash: 2bebd29fa7701ba07aae7170142263aeaec5569e
-ms.sourcegitcommit: c7264f3a6a97f1ff544544e2c722e7825e265fa1
+ms.openlocfilehash: 23594673e70be4b960c463ae2344c2f4b0fd0cbe
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26299243"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29768020"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations-in-office-365"></a>Настройка границ соответствия для расследований дел обнаружения электронных данных в Office 365
 
@@ -55,8 +55,6 @@ ms.locfileid: "26299243"
 Ниже приведен список атрибутов пользователя Azure Active Directory, которые можно использовать для ограничения соответствия требованиям:
   
 - Company
-    
-- CountryCode
     
 - CustomAttribute1 — CustomAttribute15
     
@@ -123,7 +121,7 @@ New-ComplianceSecurityFilter -FilterName <name of filter> -Users <role groups> -
     
   -  `Site`— Задает OneDrive учетные записи, группы ролей, определенные `Users` параметр может выполнять поиск. Для фильтра OneDrive используйте фактические строки `ComplianceAttribute`; Это будет сопоставляться с тем же атрибутом, который был определен на шаге 1, и, который синхронизируется учетным записям OneDrive в результате запроса поддержки отправки на этапе 2.  *AttributeValue* указывает деятельностью организации. Этот фильтр позволяют участникам группы ролей только поиска OneDrive учетные записи в конкретных бюро; например `"Site_ComplianceAttribute -eq 'FourthCoffee'"`.
     
-  -  `Site_Path`— Задает сайтов SharePoint, которые определены группы ролей в `Users` параметр может выполнять поиск. *SharePointURL* указывает сайты в организацию, членов группы ролей могут выполнять поиск; Например`Site_Path -like 'https://contoso.sharepoint.com/sites/FourthCoffee*'"`
+  -  `Site_Path`— Задает сайтов SharePoint, которые определены группы ролей в `Users` параметр может выполнять поиск. *SharePointURL* указывает сайты в организацию, членов группы ролей могут выполнять поиск; Например`"Site_Path -like 'https://contoso.sharepoint.com/sites/FourthCoffee*'"`
     
 -  `Action`— Задает тип действия поиска соответствия, которая применяется фильтр. Например `-Action Search` будет применяться только фильтра при определении членов группы ролей в `Users` параметр выполняет поиск контента. В этом случае фильтр не применяется при экспорте результатов поиска. Соответствие требованиям сети, используйте `-Action All` , к которому применяется фильтр для всех действий поиска. 
     
