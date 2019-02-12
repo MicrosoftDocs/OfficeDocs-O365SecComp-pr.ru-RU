@@ -3,7 +3,7 @@ title: Вопросы и ответы по шифрованию сообщени
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 10/9/2018
+ms.date: 02/11/2019
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-administration
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Есть вопросы о новых возможностях защиты сообщения в Office 365? Проверьте поищите ответ.
-ms.openlocfilehash: e35495106b44ccb566f4da743264def8c7d4f96f
-ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
+ms.openlocfilehash: 8774d5e11bbd5b240cb1984e6d8b67b98bfa856e
+ms.sourcegitcommit: d6b1632a44e40522a4a16e7cb05ba5189214baeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 02/11/2019
-ms.locfileid: "29696273"
+ms.locfileid: "29890040"
 ---
 # <a name="office-365-message-encryption-faq"></a>Вопросы и ответы по шифрованию сообщений Office 365
 
@@ -48,7 +48,7 @@ OME объединяет шифрования электронной почты 
 
 Чтобы использовать новые возможности OME, требуется один из следующих планов:
   
-- Шифрование сообщений Office 365 — это входят в состав Office 365 E3 и E5, Microsoft E3 и E5, Office 365 A1, A3 и A5 и Office 365 G3 и G5. Клиенты не требуется дополнительных лицензий на получение новых возможностей защиты с Azure защита информации. 
+- Шифрование сообщений Office 365 — это входят в состав Office 365 для предприятий E3 и E5, Microsoft Enterprise E3 и E5, Microsoft 365 Business, Office 365 A1, A3 и A5 и Office 365 для государственных организаций G3 и G5. Клиенты не требуется дополнительных лицензий на получение новых возможностей защиты с Azure защита информации. 
     
 - Также можно добавить планы Azure сведения о защите план 1 приведенным ниже, для получения новых возможностей шифрования сообщений Office 365: Exchange Online план 1, Exchange Online (план 2), Microsoft Office 365 F1, основы бизнеса Office 365, Office 365 бизнеса расширенный или Office 365 корпоративный E1.
     
