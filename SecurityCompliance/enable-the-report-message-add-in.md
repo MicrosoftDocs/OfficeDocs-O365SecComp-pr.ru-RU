@@ -12,17 +12,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
+ms.collection:
+- M365-security-compliance
 description: Узнайте, как включить сообщения отчета надстройки для Outlook и Outlook на веб-сайте, для отдельных пользователей или всей организации.
-ms.openlocfilehash: 013145813e8feb3e7389f6248ee26195c1df3d08
-ms.sourcegitcommit: 1169a5759b9c2336fbc89d4651daf29e556f62fb
+ms.openlocfilehash: 8c061d14d11aa868567487186c5dcca534b86215
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28727873"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995160"
 ---
 # <a name="enable-the-report-message-add-in"></a>Включение надстройки Report Message
 
-## <a name="overview"></a>Общие сведения
+## <a name="overview"></a>Обзор
 
 Отчет о надстройки для Outlook и Outlook в Интернете позволяют пользователям легко сообщать о неправильно классифицированных электронной почты как безопасный, так и сообщение о нежелательном, корпорацией Майкрософт и ее дочерних компаний для анализа. Корпорация Майкрософт использует эти отправки для повышения эффективности технологии защиты электронной почты. Кроме того Если ваша организация использует [Защиту от угроз для Office 365 расширенного](office-365-atp.md) или [Анализ угроз Office 365](office-365-ti.md), надстройка сообщения отчета содержит группы безопасности вашей организации полезную информацию, которые они могут использовать для просмотра и обновления политики безопасности. 
 

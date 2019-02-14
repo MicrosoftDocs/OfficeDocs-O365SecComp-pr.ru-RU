@@ -11,17 +11,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: a097f5ca-eac0-44a4-bbce-365f35b79ed1
+ms.collection: M365-security-compliance
 description: Узнайте о системы отслеживания дефектов угроз, включая новые значимые системы отслеживания дефектов, Оставайтесь в курсе соображений безопасности организации.
-ms.openlocfilehash: 7729a78d0b18df7d73751f4480ef095bedc5965b
-ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
+ms.openlocfilehash: 06fdd24e545a3ee04bccf177d777efea31fbe137
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015001"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995310"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>Средства отслеживания новых и заметных угроз
 
 [Анализ угроз Office 365](office-365-ti.md) позволяет вашей организации группы безопасности для обнаружения и выполнять действия от угроз, cybersecurity. Приступая к работе в конце марта 2018 и далее несколько недель, анализ угроз Office 365 будет включать новые возможности отслеживания угроз, включая значимые системы отслеживания дефектов. В этой статье, чтобы получить обзор новых функций и дальнейшие действия. 
+
+> [!IMPORTANT]
+> Приступая к работе в 2019 февраля и развертывания в течение следующего несколько месяцев, анализ угроз Office 365 становится все Office 365 расширенного угроз защиты план 2, с помощью возможностей защиты дополнительных угроз. Для получения дополнительных сведений см [защиту от угроз для Office 365 Дополнительные планы и ценах](https://products.office.com/exchange/advance-threat-protection) и [Office 365 расширенного угроз защиты описание службы](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
   
 ## <a name="what-are-threat-trackers"></a>Что такое системы отслеживания дефектов угроз?
 

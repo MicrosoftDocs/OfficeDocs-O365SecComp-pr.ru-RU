@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0a322724-08ca-43db-b69a-afbfa20484cd
 description: С помощью Office 365 контента шифрования статических и во время передачи, с помощью надежного шифрования, протоколы и технологиях, доступных. Обзор шифрования в Office 365.
-ms.openlocfilehash: a9f37fddf28461ee4912e0b8a1f5b922c59c009f
-ms.sourcegitcommit: 17c7e18d7d00135b1af40cbea117c9a817a41117
+ms.openlocfilehash: 5f64d6e758818d410f54370adee549f565d4f042
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24972291"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995110"
 ---
 # <a name="encryption-in-office-365"></a>Шифрование в Office 365
 
@@ -61,7 +61,7 @@ ms.locfileid: "24972291"
     
 - [Активация службы управления правами в Центре администрирования Office 365](https://support.office.com/article/5b6d3ac7-b1ac-428e-b03e-50e882f85a6e)
     
-- [Задайте копирование управления правами на доступ к данным (IRM) в центре администрирования SharePoint](set-up-irm-in-sp-admin-center.md)
+- [Set up Information Rights Management (IRM) in SharePoint admin center](set-up-irm-in-sp-admin-center.md)
     
 ## <a name="how-do-i"></a>Как мне...
 
@@ -73,7 +73,7 @@ ms.locfileid: "24972291"
 |Шифрование документа с помощью защиты паролем  <br/><br/>  На данный момент защиты паролем не поддерживается в Microsoft Office Online. Использование рабочего стола версий Word, Excel и PowerPoint для защиты паролем.           |[Добавление или изменение защиты в документе, книге или презентации](https://support.office.com/article/05084cc3-300d-4c1a-8416-38d3e37d6826) (Выберите раздел **Защита Add** и попытайтесь **Зашифровать паролем** )  <br/> |
 |Удалить шифрование из документа  <br/> |[Добавление или изменение защиты в документе, книге или презентации](https://support.office.com/article/05084cc3-300d-4c1a-8416-38d3e37d6826) (Выберите раздел **Снять защиту** и попытайтесь **удалить шифрование пароля** )  <br/> |
    
-## <a name="related-topics"></a>Смежные темы
+## <a name="related-topics"></a>Связанные статьи
 
 [Планирование возможностей защиты безопасности и данные Office 365](https://support.office.com/article/3d4ac4a1-3920-4ff9-918f-011f3ce60408)
   

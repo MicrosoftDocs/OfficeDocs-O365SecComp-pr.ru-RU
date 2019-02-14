@@ -11,16 +11,17 @@ localization_priority: Normal
 ms.collection:
 - Ent_O365
 - Strat_O365_IP
+- M365-security-compliance
 search.appverid:
 - MET150
 ms.assetid: 28c86a1c-e4dd-4aad-a2a6-c768a21cb352
 description: 'Основные рекомендации из группы cybersecurity корпорации Майкрософт для реализации возможностей безопасности для защиты среды Office 365. '
-ms.openlocfilehash: 58767ea9a2b825d1583d9135f9d8edcb0d20d7c2
-ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
+ms.openlocfilehash: ce7b4371a284763c506ea4e1a06a63dbf2968ae5
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "25450084"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995290"
 ---
 # <a name="office-365-security-roadmap---top-priorities-for-the-first-30-days-90-days-and-beyond"></a>Обзор безопасности Office 365 — верхней приоритеты для первого 30 дней, 90 дней и за ее пределами
 
@@ -57,7 +58,7 @@ ms.locfileid: "25450084"
   
 |||
 |:-----|:-----|
-|Area  <br/> |Задачи  <br/> |
+|Area  <br/> |Tasks  <br/> |
 |Управление безопасностью  <br/> |• Проверка безопасного счета и запомните текущее показателя ( [https://securescore.office.com](https://securescore.office.com)).  <br/>  • Включить ведение журнала аудита для Office 365. Просмотреть [Поиск в журнале аудита безопасности Office 365 &amp; центре соответствия требованиям](search-the-audit-log-in-security-and-compliance.md).<br/> • [Настройка клиента Office 365 для повышения уровня безопасности](tenant-wide-setup-for-increased-security.md) .  <br/>  • Регулярно проверять панелей мониторинга и отчетов в Office 365 безопасности и центре соответствия требованиям и безопасности приложения в облаке.  <br/> |
 |Защита от угроз  <br/> |[Подключение Office 365 для безопасности приложения Microsoft Cloud](https://docs.microsoft.com/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security) запуск мониторинга с помощью политик обнаружения угроз по умолчанию для непредвиденных поведения. Он принимает семь дней для построения базовые обнаружение неполадок.<br><br/>  Применить защиту для учетных записей администратора.  <br/> • Admin использования выделенных учетных записей для действия администратора.  <br/>  • Обеспечение многофакторная проверка подлинности (многофакторной проверкой Подлинности) для учетных записей администратора.  <br/>  • Использовать [устройства Windows 10 с повышенной защитой](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-highly-secure) для действия администратора.  <br/> |
 |Управление удостоверениями и доступом  <br/> |• [Включить защиту учетных данных Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection-enable).  <br/> • Для сред федеративных удостоверений, обеспечения безопасности учетной записи (длина пароля, срок хранения, сложности, и т.д.).  <br/> |

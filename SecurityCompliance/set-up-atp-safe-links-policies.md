@@ -12,15 +12,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
+ms.collection: M365-security-compliance
 description: Настройка политик безопасных ссылки для защиты от вредоносных ссылки в файлов Word, Excel, PowerPoint и Visio, а также в сообщениях электронной почты организации.
-ms.openlocfilehash: 69cef41e3e2dc9b01bf1b001ca63f8202c4c6017
-ms.sourcegitcommit: d6a28c4f6db6a676ca960173e8ff8f17d4aa1c4b
+ms.openlocfilehash: 834b83efe505a399fd3744e97533b92f2fc156f4
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29755310"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995260"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Настройка политик Office 365 ATP безопасных ссылки
+
+> [!IMPORTANT]
+> Эта статья предназначена для предприятий. Если вы являетесь домашних пользователей, Дополнительные сведения о безопасном ссылки в Outlook, см [Advanced Outlook.com](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 [Безопасные ссылок анализа](atp-safe-links.md), компонента [Защиты расширенного Threat Office 365](office-365-atp.md) (ATP), могут помочь защитить организацию от вредоносного ссылок, используемых в фишинга и другие атаки. Если у вас есть необходимые [разрешения для системы безопасности Office 365 &amp; центре соответствия требованиям](permissions-in-the-security-and-compliance-center.md), можно настроить политики ATP безопасных ссылки помогут вам, когда пользователи щелкают веб-адреса (URL-адреса), защищенных вашей организации. Можно настроить политиках безопасных ссылок анализа для проверки URL-адреса электронной почты и URL-адреса в документах Office.
   

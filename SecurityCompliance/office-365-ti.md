@@ -12,13 +12,14 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 32405da5-bee1-4a4b-82e5-8399df94c512
+ms.collection: M365-security-compliance
 description: Узнайте, как возможности аналитики угроз в расширенного защиту от угроз, которые помогут исследование угрозы, связанные с вашей организацией, реагировать на вредоносные программы, фишинга и других атак, обнаруженных в Office 365 от вашего имени и поиск индикаторы угроз.
-ms.openlocfilehash: 5dfd0377c4cafe89c5f69ea080f07d04d892329e
-ms.sourcegitcommit: c1c41744c2de89c9e172f817c8f73bb0ada81a58
+ms.openlocfilehash: 632a2387e7cb5a30745459383e670d08c9b84aff
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2019
-ms.locfileid: "29792264"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995100"
 ---
 # <a name="office-365-threat-intelligence"></a>Office 365 Threat Intelligence
 
@@ -63,7 +64,7 @@ ms.locfileid: "29792264"
     
 - [Интеграция с Защитник Windows Advanced защиту от угроз анализ угроз](integrate-office-365-ti-with-wdatp.md)
     
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Защита от угроз в Office 365](protect-against-threats.md)
   

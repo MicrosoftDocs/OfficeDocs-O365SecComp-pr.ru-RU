@@ -3,7 +3,7 @@ title: Эмулятор атак в Office 365
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 01/02/2019
+ms.date: 02/13/2019
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-administration
@@ -12,17 +12,22 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: da5845db-c578-4a41-b2cb-5a09689a551b
+ms.collection:
+- M365-security-compliance
 description: Как глобальный администратор Office 365 имитатора атаки можно использовать для запуска сценариев реалистичной атак в вашей организации. Это может помочь определить и найти уязвимы пользователей перед реальных атаки попадает бизнеса.
-ms.openlocfilehash: 3449e29197aa5a7a0b63a805ad8cc429f8f8f81b
-ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
+ms.openlocfilehash: 77de6af6546ae584e3bd25c0d1a59d9f26928f33
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015041"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995170"
 ---
 # <a name="attack-simulator-in-office-365"></a>Эмулятор атак в Office 365
 
 **Сводка** Если вы глобального администратора Office 365 и вашей организации есть [Анализ угроз Office 365](office-365-ti.md), имитатора атаки можно использовать для запуска сценариев реалистичной атак в вашей организации. Это может помочь определить и найти уязвимы пользователей перед реальных атаки влияет на производительность. В этой статье, чтобы получить дополнительные сведения.
+
+> [!IMPORTANT]
+> Приступая к работе в 2019 февраля и развертывания в течение следующего несколько месяцев, анализ угроз Office 365 становится все Office 365 расширенного угроз защиты план 2, с помощью возможностей защиты дополнительных угроз. Для получения дополнительных сведений см [защиту от угроз для Office 365 Дополнительные планы и ценах](https://products.office.com/exchange/advance-threat-protection) и [Office 365 расширенного угроз защиты описание службы](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
   
 ## <a name="the-attacks"></a>Атаки
 

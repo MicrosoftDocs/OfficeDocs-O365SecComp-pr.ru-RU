@@ -12,13 +12,14 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
+ms.collection: M365-security-compliance
 description: Использование панели мониторинга безопасности состояние защиты от угроз Office 365, проверки и просматривать и работать с оповещение системы безопасности.
-ms.openlocfilehash: c393513d08762785eab44102fa83680531a49b53
-ms.sourcegitcommit: c2ec9a4b0279a248b85c2e4a4e91458214b5b31c
+ms.openlocfilehash: 403c47ed09e9652a66abeafb93be02589c9b1702
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29770804"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995130"
 ---
 # <a name="security-dashboard"></a>Панель мониторинга безопасности
 
@@ -116,7 +117,7 @@ ms.locfileid: "29770804"
 
 Чтобы просмотреть или получить доступ к оповещений Threat Management мини-приложения, необходимо иметь разрешения на просмотр оповещений. Чтобы получить дополнительные сведения, обратитесь к разделу [RBAC разрешения, необходимые для просмотра предупреждений](alert-policies.md#rbac-permissions-required-to-view-alerts).
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Просмотр отчетов по безопасности электронной почты в безопасности &amp; центре соответствия требованиям](view-email-security-reports.md)
   

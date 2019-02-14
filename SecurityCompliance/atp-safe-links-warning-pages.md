@@ -11,13 +11,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: fc4e6ebb-5acc-4bc5-bad8-4f3407d1d3f4
+ms.collection:
+- M365-security-compliance
 description: Обзор страниц предупреждения о том, что вы можете увидеть при защиту от угроз для Office 365 расширенного находится на работе.
-ms.openlocfilehash: 422bdabf0593dd154461f973f86a4c1ca94e8651
-ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
+ms.openlocfilehash: ac8de545fd5e54d66168c83671cbe262665bb135
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29686358"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995270"
 ---
 # <a name="office-365-atp-safe-links-warning-pages"></a>Office 365 безопасных ссылок анализа предупреждение страниц
 

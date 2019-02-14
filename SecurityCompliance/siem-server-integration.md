@@ -12,13 +12,14 @@ ms.collection: Ent_O365
 ms.custom:
 - Ent_Solutions
 - SIEM
+- M365-security-compliance
 description: 'Сводка: В этой статье Обзор SIEM сервера интеграции с Microsoft 365.'
-ms.openlocfilehash: bd512ca6d75928712e3444581a78610a0869123d
-ms.sourcegitcommit: 63ed467fc3e1ab1ab9ee122df97c64737169834e
+ms.openlocfilehash: a6e139d14a7ea3625b2d2fffec5ad5d913ea9184
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "25842689"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995200"
 ---
 # <a name="siem-server-integration-with-microsoft-365-services-and-applications"></a>Интеграция сервера SIEM с Microsoft 365 служб и приложений
 
@@ -44,7 +45,7 @@ ms.locfileid: "25842689"
 
 Убедитесь, что включено ведение журнала аудита перед настройкой интеграции сервера SIEM. 
 
-- Для SharePoint Online, OneDrive для бизнеса и Azure Active Directory, [Ведение журнала аудита включен в центр соответствия требованиям и безопасности](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off).
+- Для SharePoint Online, OneDrive для бизнеса и Azure Active Directory, [журнал аудита включена в центре соответствия требованиям & безопасности](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off).
 
 - Для Exchange Online, [включено ведение журнала аудита с помощью Windows PowerShell](https://docs.microsoft.com/office365/securitycompliance/enable-mailbox-auditing).
  
@@ -52,6 +53,6 @@ ms.locfileid: "25842689"
 
 [Освоение облака и гибридные решения](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
   
-[Руководства по лаборатории тестирования для принятия облачных решений](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)
+[Руководства по лаборатории тестирования для облачных решений](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)
 
 

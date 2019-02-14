@@ -12,13 +12,14 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
+ms.collection: M365-security-compliance
 description: Узнайте, как поиск и использование отчетов о безопасности электронной почты для вашей организации с Office 365 для предприятия. Отчеты о безопасности электронной почты, доступны в безопасности &amp; центре соответствия требованиям.
-ms.openlocfilehash: 3fc6d3dd8468bc060efcaa7eadec2ff9257fe583
-ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
+ms.openlocfilehash: 0c9b4c4c75f1e2996217bea600b9d36145b30339
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28014991"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995300"
 ---
 # <a name="view-email-security-reports-in-the-security-amp-compliance-center"></a>Просмотр отчетов по безопасности электронной почты в безопасности &amp; центре соответствия требованиям
 
@@ -176,14 +177,14 @@ ms.locfileid: "28014991"
   
 ## <a name="what-permissions-are-needed-to-view-these-reports"></a>Какие разрешения необходимы для просмотра отчетов?
 
-Для просмотра и использования отчетов, описанного в данной статье **необходимо иметь соответствующие роли, назначенные в обоих системы &amp; центре соответствия требованиям и Центр администрирования Exchange**.
+Для просмотра и использования отчетов, описанного в данной статье **необходимо иметь соответствующие роли, назначенные для обоих безопасности &amp; центре соответствия требованиям и Центр администрирования Exchange**.
 
 - Для системы безопасности &amp; центре соответствия требованиям, вы должны использовать одну из следующих роли, назначенные:
     - Управление организацией
-    - администратор безопасности (Security Administrator).
+    - Администратор безопасности (это может быть назначен в центре администрирования Azure Active Directory ([https://aad.portal.azure.com](https://aad.portal.azure.com))
     - Средство чтения безопасности
 
-- Для Exchange Online должны использовать одну из следующих роли, назначенные:
+- Для Exchange Online, должны использовать одну из следующих роли, назначенные в центре администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) или с помощью командлетов PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)):
     - Управление организацией
     - Управление организацией с правами только на просмотр
     - Роль получателей с правами только на просмотр
@@ -200,7 +201,7 @@ ms.locfileid: "28014991"
 
 Если вы не видите данных в отчетах, проверьте, что политиках правильность установки. Чтобы получить дополнительные сведения, обратитесь к разделу [защиты от нежелательной почты и вредоносных программ в Office 365](anti-spam-and-anti-malware-protection.md).
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Защита от спама электронной почты в Office 365](anti-spam-protection.md)
   
