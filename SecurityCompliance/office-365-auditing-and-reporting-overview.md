@@ -10,14 +10,17 @@ ms.service: Office 365 Administration
 localization_priority: None
 search.appverid:
 - MET150
-ms.collection: Strat_O365_Enterprise
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
+- M365-analytics
 description: Общие сведения о функциях аудита и создания отчетов в Office 365, а также в гарантии на обслуживание.
-ms.openlocfilehash: 54cc4d353545396084c0206abe1bbb1035b3a78f
-ms.sourcegitcommit: 24659bdb09f49d0ffed180a4b80bbb7c45c2d301
+ms.openlocfilehash: 0167239e854d9b96d9505f4264ada225804eef96
+ms.sourcegitcommit: c94cb88a9ce5bcc2d3c558f0fcc648519cc264a2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "27131889"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30091041"
 ---
 # <a name="auditing-and-reporting-in-office-365"></a>Аудит и отчеты в Office 365
 
@@ -28,7 +31,7 @@ Microsoft Cloud Services включает несколько функций ау
 [Центр обеспечения безопасности _амп_ для office 365](https://support.office.com/article/Go-to-the-Office-365-Security-Compliance-Center-7e696a40-b86b-4a20-afcc-559218b7b1b8) — это портал с одним остановкой для защиты данных в Office 365, а также множество функций аудита и создания отчетов. Это эволюция центра соответствия требованиям Office 365. Центр соответствия требованиям безопасности _Амп_ предназначен для организаций с защитой данных или требованиями соответствия требованиям, а также для аудита действий пользователей и администраторов. Вы можете использовать центр соответствия требованиям по безопасности _Амп_ для управления соответствием всем данным Office 365 вашей организации. Вы можете получить доступ к центру безопасности _Амп_, [http://protection.office.com](http://protection.office.com/) используя учетную запись администратора Office 365.
 
 Центр соответствия требованиям безопасности _Амп_ включает области навигации, обеспечивающие доступ к нескольким функциям:
-- **Alerts (оповещения** ) — позволяет управлять оповещениями, просматривать оповещения, связанные с безопасностью, а также управлять расширенными оповещениями с помощью [расширенного управления безопасностью](https://support.office.com/article/overview-of-office-365-cloud-app-security-81f0ee9a-9645-45ab-ba56-de9cbccab475). 
+- **Alerts (оповещения** ) — позволяет управлять оповещениями, просматривать оповещения, связанные с безопасностью, а также управлять расширенными оповещениями с помощью [Office 365 Cloud App Security](https://docs.microsoft.com/en-us/Office365/SecurityCompliance/office-365-cas-overview). 
 - **Разрешения** — позволяет [назначать разрешения](https://support.office.com/article/Give-users-access-to-the-Office-365-Security-Compliance-Center-2cfce2c8-20c5-47f9-afc4-24b059c1bd76) , такие как администратор соответствия требованиям, диспетчер обнаружения электронных данных и другие пользователи в вашей организации, чтобы они могли выполнять задачи в центре безопасности _амп_ соответствия требованиям. Для большинства функций можно назначать разрешения в центре безопасности _Амп_, но другие разрешения необходимо настроить с помощью центра администрирования Exchange и центра администрирования SharePoint.
 - **Управление угрозами** — позволяет создавать и применять политики управления устройствами с помощью [управления мобильными устройствами Office 365](https://support.office.com/article/Overview-of-Mobile-Device-Management-for-Office-365-faa7d8e5-645d-4d59-839c-c8d4c1869e4a), чтобы настроить политики защиты от [потери данных](https://support.office.com/article/Overview-of-data-loss-prevention-policies-1966b2a7-d1e2-4d92-ab61-42efbb137f5e) (DLP) для Организации, настроить фильтрацию электронной почты. Защита от вредоносных программ, DomainKeys identified mail идентификация почты (DKIM), безопасные вложения, безопасные ссылки и приложения OAuth.
 - **Управление данными** — позволяет [импортировать электронную почту или данные SharePoint из других систем в Office 365](https://support.office.com/article/Import-PST-files-or-SharePoint-data-to-Office-365-ba688e0a-0fcb-4bd7-8e57-2b669564ea84), [настроить архивные](https://support.office.com/article/Enable-archive-mailboxes-in-the-Office-365-Security-Compliance-Center-268a109e-7843-405b-bb3d-b9393b2342ce)почтовые ящики и настроить [политики хранения](https://support.office.com/article/Retention-in-the-Office-365-Security-Compliance-Center-2a0fc432-f18c-45aa-a539-30ab035c608c) для электронной почты и другого контента в Организации.

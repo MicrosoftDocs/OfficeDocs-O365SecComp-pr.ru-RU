@@ -9,14 +9,16 @@ ms.service: Office 365 Administration
 localization_priority: None
 search.appverid:
 - MET150
-ms.collection: Strat_O365_Enterprise
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
 description: Обзор политик Майкрософт для Office 365, касающихся хранения, удаления и уничтожения данных.
-ms.openlocfilehash: 8a773ebafba0d7cdd36b9da30878dcc487685846
-ms.sourcegitcommit: 24659bdb09f49d0ffed180a4b80bbb7c45c2d301
+ms.openlocfilehash: c6c5e1f28ee9d2d4dc8ac85a8af47bdd18037fb0
+ms.sourcegitcommit: c94cb88a9ce5bcc2d3c558f0fcc648519cc264a2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "24961575"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30090851"
 ---
 # <a name="data-retention-deletion-and-destruction-in-office-365"></a>Хранение, удаление и уничтожение данных в Office 365
 

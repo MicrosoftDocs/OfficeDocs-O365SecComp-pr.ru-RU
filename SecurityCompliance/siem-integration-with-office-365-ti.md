@@ -1,5 +1,5 @@
 ---
-title: SIEM интеграции с Office 365 Threat аналитики и расширенный защиту от угроз
+title: Интеграция SIEM с Office 365 Threat Intelligence и Advanced Threat protection
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
@@ -11,33 +11,33 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: eb56b69b-3170-4086-82cf-ba40a530fa1b
-description: Интеграция с анализ угроз Office 365 и расширенный защиту от угроз с API для управления Office 365 активности сервера SIEM вашей организации.
-ms.openlocfilehash: 057d8ac101b96f37846ac751645934279d45dc88
-ms.sourcegitcommit: 17c7e18d7d00135b1af40cbea117c9a817a41117
+description: Интегрируйте сервер SIEM в Организации с помощью Office 365 Threat Intelligence и Advanced Threat protection с помощью API управления действиями Office 365.
+ms.openlocfilehash: 854f763b72dfac1a5dc1442b1d9d123ed5439257
+ms.sourcegitcommit: 8679937354c1d8870ecd41519a59d2d7468c23c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24972261"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "30087248"
 ---
-# <a name="siem-integration-with-office-365-threat-intelligence-and-advanced-threat-protection"></a>SIEM интеграции с Office 365 Threat аналитики и расширенный защиту от угроз
+# <a name="siem-integration-with-office-365-threat-intelligence-and-advanced-threat-protection"></a>Интеграция SIEM с Office 365 Threat Intelligence и Advanced Threat protection
 
-Если ваша организация использует сервер безопасности происшествия и события управления (SIEM), можно интегрировать с сервером SIEM анализ угроз Office 365 и расширенный защиту от угроз. Интеграция SIEM позволяет просматривать сведения, такие как вредоносных программ, обнаруженных с Office 365 расширенного защиты и анализ угроз в отчетах сервера SIEM. Чтобы настроить интеграцию SIEM, используйте [API управления Office 365 активности](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference). 
+Если в организации используется сервер управления инцидентами и событиями SIEM, вы можете интегрировать систему Microsoft Office 365 Threat Intelligence и Advanced Threat protection с сервером SIEM. Интеграция SIEM позволяет просматривать сведения, такие как вредоносные программы, обнаруженные в Office 365 Advanced Protection and Threat Intelligence, в отчетах сервера SIEM. Для настройки интеграции с SIEM используется [API управления действияМи Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference). 
 
-API для управления Office 365 активности извлекаются сведения о пользователя, администрирования, система и действия в рамках политики и события из вашей организации Office 365 и Azure Active Directory ведение журнала. [Защита расширенного Threat Office 365 и анализ угроз схемы](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-intelligence-schema) для работы с анализ угроз и/или дополнительные защиту от угроз, если вашей организации есть дополнительные защиту от угроз, кроме не анализ угроз (и наоборот), вы можете по-прежнему используйте тот же API для интеграции сервера SIEM. 
+API управления действиями Office 365 извлекает сведения о действиях пользователя, администратора, системы, а также о событиях и политиках из журналов активности Office 365 и Azure Active Directory. [Схема логики Advanced Threat Protection и Threat Protection в Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-intelligence-schema) работает с логикой системы обмена данными и/или Advanced Threat Protection, поэтому если в организации используется Advanced Threat protection (или наоборот), можно по-прежнему используйте тот же API для интеграции сервера SIEM. 
 
-Сервер SIEM или другие аналогичные системы период опроса **audit.general** нагрузку на события обнаружения доступа. Чтобы узнать больше видеть, [Начало работы с API -интерфейсы управления Office 365](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis). 
+Сервер SIEM или другая подобная система должны опрашивать события **аудита. Общая** Рабочая нагрузка для доступа к событиям обнаружения. Чтобы узнать больше, ознакомьтесь [со статьей начало работы с API управления Office 365](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis). 
 
 > [!IMPORTANT]
-> Необходимо иметь права глобального администратора Office 365 или роль администратора безопасности, назначенные в центр соответствия требованиям и безопасности для настройки SIEM интеграции с Office 365 Threat аналитики и расширенный защиту от угроз.<br/>Ведение журнала аудита может быть включена для вашей среды Office 365. Чтобы получить справку, обратитесь к разделу [Включить Office 365 проводить аудит операций поиска журнала включено или отключено](turn-audit-log-search-on-or-off.md).
+> Вы должны быть глобальным администратором Office 365 или иметь роль администратора безопасности, назначенную в центре безопасности _Амп_ соответствия требованиям, для настройки интеграции SIEM с Office 365 Advanced Threat protection.<br/>Для среды Office 365 должна быть включена функция ведения журнала аудита. Чтобы получить помощь, ознакомьтесь со статьей [Включение и отключение поиска в журнале аудита Office 365](turn-audit-log-search-on-or-off.md).
 
-## <a name="related-topics"></a>Смежные темы
+## <a name="related-topics"></a>Связанные статьи
 
 [Office 365 Threat Intelligence](office-365-ti.md)
 
 [Office 365 Advanced Threat Protection](office-365-atp.md)
 
-[Смарт-отчеты и полезные сведения о безопасности Office 365 &amp; центре соответствия требованиям](reports-and-insights-in-security-and-compliance.md)
+[Интеллектуальные отчеты и аналитика в центре безопасности &amp; и соответствия требованиям Office 365](reports-and-insights-in-security-and-compliance.md)
   
-[Разрешения безопасности Office 365 &amp; центре соответствия требованиям](permissions-in-the-security-and-compliance-center.md)
+[Разрешения в центре безопасности &amp; и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md)
   
 
