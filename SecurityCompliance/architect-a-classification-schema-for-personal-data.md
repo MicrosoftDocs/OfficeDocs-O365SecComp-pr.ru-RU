@@ -12,17 +12,15 @@ ms.collection:
 - GDPR
 ms.service: O365-seccomp
 localization_priority: Priority
-ms.custom: ''
-ms.assetid: ''
 search.appverid:
 - MET150
 description: Определите, целесообразно ли вашей организации внедрять метки в рамках плана по соблюдению регламента GDPR.
-ms.openlocfilehash: 361637c179b1441bcb132518c442f2ad90b19c54
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 4ec495d82a37742d1315673e2a7d089778cd52e4
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214659"
+ms.locfileid: "30223538"
 ---
 # <a name="architect-a-classification-schema-for-personal-data"></a>Разработка архитектуры схемы классификации для персональных данных
 

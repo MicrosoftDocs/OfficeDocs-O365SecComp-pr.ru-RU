@@ -146,7 +146,7 @@
 #### [Настройка управления правами на доступ к данным для использования локального сервера службы управления правами Active Directory](configure-irm-to-use-an-on-premises-ad-rms-server.md)
 ### [S/MIME](s-mime-for-message-signing-and-encryption.md)
 #### [S/MIME для подписи и шифрования сообщений](s-mime-for-message-signing-and-encryption.md)
-#### [Настройка параметров S/MIME для Outlook Web App](configure-s-mime-settings-for-outlook-web-app.md)
+#### [Настройка параметров S/MIME для Outlook в Интернете](configure-s-mime-settings-for-outlook-web-app.md)
 #### [Отправка и получение электронной почты, подписанной и зашифрованной с помощью S/MIME](send-and-receive-s-mime-signed-and-encrypted-email.md)
 #### [Синхронизация сертификатов пользователей с Office 365 для S/MIME](sync-user-certificates-to-office-365-for-s-mime.md)
 #### [Настройка коллекции виртуальных сертификатов для проверки S/MIME](set-up-virtual-certificate-collection-to-validate-s-mime.md)
@@ -282,7 +282,7 @@
 
 ### [Управление удержаниями](compliance20/managing-holds.md)
 
-### [Устранение ошибок обработки](compliance20/processing-data-for-case.md)
+### [Работа с ошибками обработки](compliance20/processing-data-for-case.md)
 #### [Расширенная индексация данных хранителя](compliance20/indexing-custodian-data.md)
 #### [Исправление ошибок при обработке данных](compliance20/error-remediation.md)
 

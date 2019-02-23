@@ -6,19 +6,21 @@ manager: laurawi
 ms.date: 7/2/2018
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: da21c0b6-e8f0-4cc8-af2e-5029a9433d59
+ms.collection:
+- M365-security-compliance
 description: Советы по настройке фильтра нежелательной почты Office 365 для блокирования спама и предотвращения доставки нежелательных сообщений. Администратор использует фильтр нежелательной почты Office 365, чтобы предотвратить рассылку спама на почтовые ящики пользователей.
-ms.openlocfilehash: d96dfa0cad4ef8c27303c9f77d259d4c8b2b04c9
-ms.sourcegitcommit: 03e64ead7805f3dfa9149252be8606efe50375df
+ms.openlocfilehash: 4b2708b55cf44794552f1327c947c15598fe0b7f
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "27769873"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30222858"
 ---
 # <a name="block-email-spam-with-the-office-365-spam-filter-to-prevent-false-negative-issues"></a>Блокирование спама с помощью фильтра нежелательной почты Office 365 для предотвращения ошибочных результатов
 
@@ -34,7 +36,7 @@ Exchange Online Protection (EOP) — это облачная служба фил
 
 Настройте фильтр нежелательной почты Office 365, добавив IP-адрес отправителя в список заблокированных IP-адресов фильтра подключений.
   
-1. Получите заголовки сообщения, которое требуется блокировать в почтовом клиенте, например Outlook или Outlook Web App, как описано в статье [Приложение Message Header Analyzer](https://go.microsoft.com/fwlink/p/?LinkId=306583).
+1. Получите заголовки сообщения, которое требуется блокировать в почтовом клиенте, например Outlook или Outlook в Интернете (ранее называвшемся Outlook Web App), как описано в статье [Приложение Message Header Analyzer](https://go.microsoft.com/fwlink/p/?LinkId=306583).
     
 2. Найдите IP-адрес после тега CIP в заголовке X-Forefront-Antispam-Report с помощью [анализатора заголовков сообщений](https://testconnectivity.microsoft.com/?tabid=mha) или вручную. 
     
@@ -58,9 +60,9 @@ Exchange Online Protection (EOP) — это облачная служба фил
   
 ## <a name="email-users-can-also-help-ensure-that-false-negative-and-email-spam-is-blocked-with-office-365-spam-filter"></a>Пользователи электронной почты также могут обеспечить блокирование ошибочно разрешенных нежелательных сообщений с помощью фильтра нежелательной почты Office 365
 
-Обеспечить защиту от спама в Office 365, избегая ложных отрицательных результатов, будет проще, если пользователи добавят адрес отправителя спама в свои списки заблокированных отправителей в [Outlook](https://go.microsoft.com/fwlink/p/?LinkId=270065) или [Outlook Web App](https://go.microsoft.com/fwlink/p/?LinkId=294862). В Outlook Web App сначала выберите **Настройки** \> **Параметры** \> **Блокировка или разрешение**, а затем добавьте адрес в список **Заблокированные отправители**, как показано ниже. 
+Обеспечить защиту от спама в Office 365, избегая ложных отрицательных результатов, будет проще, если пользователи добавят адрес отправителя спама в свои списки заблокированных отправителей в [Outlook](https://go.microsoft.com/fwlink/p/?LinkId=270065) или [Outlook в Интернете](https://go.microsoft.com/fwlink/p/?LinkId=294862). В Outlook в Интернете сначала выберите **Параметры** \> **Параметры** \> **Блокировка или разрешение**, а затем добавьте адрес в список **Заблокированные отправители**, как показано ниже. 
   
-![Блокировка отправителя в Outlook Web App](media/fdf51381-2527-4819-ac2a-5dff84d2a36d.png)
+![Блокировка отправителя в Outlook в Интернете](media/fdf51381-2527-4819-ac2a-5dff84d2a36d.png)
   
 > [!NOTE]
 > Дополнительные сведения о списках надежных отправителей см. в статье [Списки надежных и заблокированных отправителей в Exchange Online](https://technet.microsoft.com/ru-RU/library/dn133608%28v=exchg.150%29.aspx). 
