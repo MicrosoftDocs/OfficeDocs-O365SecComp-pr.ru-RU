@@ -6,37 +6,37 @@ manager: laurawi
 ms.date: 6/29/2018
 ms.audience: Admin
 ms.topic: hub-page
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MOE150
 - MED150
 - MET150
 ms.assetid: 4c234874-015e-4768-8495-98fcccfc639b
-description: Можно настроить карантина для входящих сообщений электронной почты в Office 365, где массовое входящие сообщения электронной почты, которые исключены как нежелательная почта, фишинга почты и вредоносных программ, которые могут храниться для последующего просмотра.
-ms.openlocfilehash: a336e1fed0bd9a3c1e347610f6a42b70f5c80b1b
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+description: Вы можете настроить карантин для входящих сообщений электронной почты в Office 365, где входящие сообщения электронной почты, которые были отфильтрованы как спам, массовые, фишинговую почту и вредоносные программы, можно хранить для последующего просмотра.
+ms.openlocfilehash: fe8e59718a6b7293821875d19ba2b98070396f0f
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534699"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30217769"
 ---
-# <a name="quarantine-email-messages-in-office-365"></a><span data-ttu-id="94fce-103">Карантин сообщений электронной почты в Office 365</span><span class="sxs-lookup"><span data-stu-id="94fce-103">Quarantine email messages in Office 365</span></span>
+# <a name="quarantine-email-messages-in-office-365"></a><span data-ttu-id="11caa-103">Карантин сообщений электронной почты в Office 365</span><span class="sxs-lookup"><span data-stu-id="11caa-103">Quarantine email messages in Office 365</span></span>
 
-<span data-ttu-id="94fce-104">Можно настроить карантина для входящих сообщений электронной почты в Office 365, хранения сообщений, которые фильтрации нежелательной почты, Массовая рассылка, фишинга почты, почтового сообщения, содержащего вредоносные программы и почте, которая соответствия правилу поток почты указанного для последующего просмотра.</span><span class="sxs-lookup"><span data-stu-id="94fce-104">You can set up quarantine for incoming email messages in Office 365 where messages that have been filtered as spam, bulk mail, phishing mail, mail that contains malware, and mail that matched a specified mail flow rule can be kept for later review.</span></span>
+<span data-ttu-id="11caa-104">Вы можете настроить карантин для входящих сообщений электронной почты в Office 365, где сообщения, которые были отфильтрованы как спам, массовая почта, Фишинговая почта, почта, содержащая вредоносные программы, и почта, соответствующая указанному правилу обработки почты, можно сохранить для последующего просмотра.</span><span class="sxs-lookup"><span data-stu-id="11caa-104">You can set up quarantine for incoming email messages in Office 365 where messages that have been filtered as spam, bulk mail, phishing mail, mail that contains malware, and mail that matched a specified mail flow rule can be kept for later review.</span></span>
   
-<span data-ttu-id="94fce-p101">По умолчанию отфильтрованные сообщения отправляются в папку нежелательной почты получателей, за исключением сообщений, содержащих вредоносных программ, отправленных в карантин по умолчанию. Как администратора можно настроить политики фильтрации содержимого для отправки все отфильтрованные сообщения в карантин вместо этого. Различные действия, которые можно предпринять для сообщений, отфильтрованных зависят от [нежелательной почты политик фильтров, который был определен](https://go.microsoft.com/fwlink/?LinkId=799736).</span><span class="sxs-lookup"><span data-stu-id="94fce-p101">By default, filtered messages are sent to the recipients' Junk Email folder, except for mail that contains malware which is sent to quarantine by default. As an admin, you can set up content filter policies to send all filtered messages to quarantine instead. The different actions that you can take for content-filtered messages depend on the [spam filter policies you've defined](https://go.microsoft.com/fwlink/?LinkId=799736).</span></span>
+<span data-ttu-id="11caa-p101">По умолчанию отфильтрованные сообщения отправляются в папку "неЖелательная почта" получателей, за исключением сообщений, содержащих вредоносные программы, которые по умолчанию отправляются в карантин. Как администратор вы можете настроить политики фильтрации содержимого, чтобы вместо этого вы отправляли все отфильтрованные сообщения на карантин. Различные действия, которые можно предпринять для сообщений с фильтром содержимого, зависят от [определенных политик фильтрации нежелательной почты](https://go.microsoft.com/fwlink/?LinkId=799736).</span><span class="sxs-lookup"><span data-stu-id="11caa-p101">By default, filtered messages are sent to the recipients' Junk Email folder, except for mail that contains malware which is sent to quarantine by default. As an admin, you can set up content filter policies to send all filtered messages to quarantine instead. The different actions that you can take for content-filtered messages depend on the [spam filter policies you've defined](https://go.microsoft.com/fwlink/?LinkId=799736).</span></span>
   
-<span data-ttu-id="94fce-p102">Пользователи и Администраторы могут работать с сообщений на карантине. Пользователи могут работать с только что отфильтрованные сообщения, помещенные в карантин. Администраторы могут поиск и управление сообщений на карантине для всех пользователей.</span><span class="sxs-lookup"><span data-stu-id="94fce-p102">Both users and admins can work with quarantined messages. Users can work with just their own filtered messages in quarantine. Admins can search for and manage quarantined messages for all users.</span></span>
+<span data-ttu-id="11caa-p102">Пользователи и администраторы могут работать с сообщениями, помещенными в карантин. Пользователи могут работать только с собственными отфильтрованными сообщениями в карантине. Администраторы могут искать сообщения, помещенные в карантин, и управлять ими для всех пользователей.</span><span class="sxs-lookup"><span data-stu-id="11caa-p102">Both users and admins can work with quarantined messages. Users can work with just their own filtered messages in quarantine. Admins can search for and manage quarantined messages for all users.</span></span>
   
-<span data-ttu-id="94fce-111">Дополнительные сведения о работе с сообщений на карантине.</span><span class="sxs-lookup"><span data-stu-id="94fce-111">Learn more about working with quarantined messages:</span></span>
+<span data-ttu-id="11caa-111">Дополнительные сведения о работе с сообщениями, помещенными в карантин:</span><span class="sxs-lookup"><span data-stu-id="11caa-111">Learn more about working with quarantined messages:</span></span>
   
-- [<span data-ttu-id="94fce-112">Управление сообщений на карантине с правами администратора</span><span class="sxs-lookup"><span data-stu-id="94fce-112">Manage quarantined messages as an administrator</span></span>](manage-quarantined-messages-and-files.md)
+- [<span data-ttu-id="11caa-112">Управление сообщениями, помещенными в карантин, от имени администратора</span><span class="sxs-lookup"><span data-stu-id="11caa-112">Manage quarantined messages as an administrator</span></span>](manage-quarantined-messages-and-files.md)
     
-- [<span data-ttu-id="94fce-113">Поиск и освобождение сообщений из карантина от имени пользователя</span><span class="sxs-lookup"><span data-stu-id="94fce-113">Find and release quarantined messages as a user</span></span>](find-and-release-quarantined-messages-as-a-user.md)
+- [<span data-ttu-id="11caa-113">Поиск и освобождение сообщений из карантина от имени пользователя</span><span class="sxs-lookup"><span data-stu-id="11caa-113">Find and release quarantined messages as a user</span></span>](find-and-release-quarantined-messages-as-a-user.md)
     
-- [<span data-ttu-id="94fce-114">Использование уведомлений о нежелательной почте пользователей для освобождения и отправка отчетов о сообщениях, помещенных в карантин нежелательной почты</span><span class="sxs-lookup"><span data-stu-id="94fce-114">Use user spam notifications to release and report spam-quarantined messages</span></span>](use-spam-notifications-to-release-and-report-quarantined-messages.md)
+- [<span data-ttu-id="11caa-114">Использование уведомлений о нежелательной почте для освобождения и отправки отчетов о сообщениях, помещенных в карантин</span><span class="sxs-lookup"><span data-stu-id="11caa-114">Use user spam notifications to release and report spam-quarantined messages</span></span>](use-spam-notifications-to-release-and-report-quarantined-messages.md)
     
-- [<span data-ttu-id="94fce-115">Вопросы и ответы, посвященные карантину</span><span class="sxs-lookup"><span data-stu-id="94fce-115">Quarantine FAQ</span></span>](quarantine-faq.md)
+- [<span data-ttu-id="11caa-115">Вопросы и ответы, посвященные карантину</span><span class="sxs-lookup"><span data-stu-id="11caa-115">Quarantine FAQ</span></span>](quarantine-faq.md)
     
 
