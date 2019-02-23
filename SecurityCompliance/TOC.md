@@ -4,6 +4,7 @@
 ## [Переход в Центр безопасности и соответствия требованиям](go-to-the-securitycompliance-center.md)
 ## [Подготовка к новому Центру безопасности Microsoft 365 и Центру соответствия требованиям Microsoft 365](microsoft-security-and-compliance.md)
 ## [Оценка безопасности Office 365](office-365-secure-score.md)
+## [Оценка безопасности (Майкрософт)](microsoft-secure-score.md)
 ## [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md)
 ## [Предоставление пользователям доступа к Центру безопасности и соответствия требованиям](grant-access-to-the-security-and-compliance-center.md)
 ## [Обзор панели мониторинга безопасности](security-dashboard.md)
