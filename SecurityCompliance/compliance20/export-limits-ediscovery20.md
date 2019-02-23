@@ -1,12 +1,12 @@
 ---
-title: Экспорт ограничений в расширенной обнаружения электронных данных (Предварительная версия)
+title: Экспортные пределы в Advanced eDiscovery (Предварительная версия)
 ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: ''
 search.appverid:
@@ -14,13 +14,13 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: af5578ead0e676c892fa0c01bacdf42dc347d268
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: f8c2ab0ea0f01f436bb1d365e3b7bd87affcef5f
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608232"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30220579"
 ---
-# <a name="export-limits-in-advanced-ediscovery-preview"></a><span data-ttu-id="3e434-102">Экспорт ограничений в расширенной обнаружения электронных данных (Предварительная версия)</span><span class="sxs-lookup"><span data-stu-id="3e434-102">Export limits in Advanced eDiscovery (Preview)</span></span>
+# <a name="export-limits-in-advanced-ediscovery-preview"></a><span data-ttu-id="3937e-102">Экспортные пределы в Advanced eDiscovery (Предварительная версия)</span><span class="sxs-lookup"><span data-stu-id="3937e-102">Export limits in Advanced eDiscovery (Preview)</span></span>
 
-<span data-ttu-id="3e434-103">Содержимое появится в ближайшее время.</span><span class="sxs-lookup"><span data-stu-id="3e434-103">Content coming soon.</span></span>
+<span data-ttu-id="3937e-103">Содержимое появится в ближайшее время.</span><span class="sxs-lookup"><span data-stu-id="3937e-103">Content coming soon.</span></span>
