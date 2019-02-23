@@ -1,12 +1,12 @@
 ---
-title: Подтвердить удержания уведомлений
+title: Подтверждение уведомлений об удержании
 ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: ''
 search.appverid:
@@ -14,13 +14,13 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 5ed3d214fe55df658faee6859d366637ef0fd37b
-ms.sourcegitcommit: e3ea6eb9fab1a66b499458749838fe350d43d0d4
+ms.openlocfilehash: 3722d9c58e701455c02c07388036141cd8d9ddd5
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29694935"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30213299"
 ---
-# <a name="acknowledge-a-hold-notification"></a>Подтвердить уведомление удержания 
+# <a name="acknowledge-a-hold-notification"></a>Подтверждение уведомления об удержании 
 
 Содержимое появится в ближайшее время.

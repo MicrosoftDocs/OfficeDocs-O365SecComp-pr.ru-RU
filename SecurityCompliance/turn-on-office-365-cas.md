@@ -5,52 +5,52 @@ author: denisebmsft
 manager: laurawi
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: ba919c73-d021-404d-9850-eec57e78678c
-description: В этой статье, чтобы узнать, как включить Office 365 расширенного управления безопасностью, на базе безопасности приложения облака в Microsoft Azure.
-ms.openlocfilehash: 057a7b3311384901b4c3683c350d1f26c91bf60d
-ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
+description: В этой статье рассказывается, как включить Office 365 Cloud App Security, на платформе Cloud App Security в Microsoft Azure.
+ms.openlocfilehash: 1227545b1e4d1521dc1820342f09aabdf16ec2c6
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29603780"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30220369"
 ---
 # <a name="turn-on-office-365-cloud-app-security"></a>Включение Office 365 Cloud App Security
   
-|Оценка **\>**|Планирование **\>**|Развертывание **\>**|Использование ***|
+|Ознакомительная версия * *\>**|Планирование * *\>**|Развертывание * *\>**|Использование * * * *|
 |:-----|:-----|:-----|:-----|
-|[Начать оценку](office-365-cas-overview.md) <br/> |[Начать планирование](get-ready-for-office-365-cas.md) <br/> |Вы находитесь здесь!  <br/> [Следующий шаг](activity-policies-and-alerts.md) <br/> |[Начать использование](utilization-activities-for-ocas.md) <br/> |
+|[Начало оценки](office-365-cas-overview.md) <br/> |[Начало планирования](get-ready-for-office-365-cas.md) <br/> |Вот что вам!  <br/> [Следующее действие](activity-policies-and-alerts.md) <br/> |[Начало использования](utilization-activities-for-ocas.md) <br/> |
   
 ## <a name="turn-on-office-365-cloud-app-security"></a>Включение Office 365 Cloud App Security
 
 > [!IMPORTANT]
-> Необходимо быть глобальным администратором или администратор безопасности для выполнения следующих задач. Чтобы получить дополнительные сведения, обратитесь к разделу [разрешения безопасности Office 365 &amp; центре соответствия требованиям](permissions-in-the-security-and-compliance-center.md). Чтобы безопасности Office 365 облаке приложения для работы исправьте, **должно быть включено ведение журнала аудита** для вашей среды Office 365. Дополнительные сведения можно [Включить Office 365 проводить аудит операций поиска журнала включено или отключено](turn-audit-log-search-on-or-off.md). 
+> Для выполнения следующей задачи необходимо быть глобальным администратором или администратором безопасности. Чтобы узнать больше, ознакомьтесь с разРешениями [в центре &amp; безопасности и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md). Для правильной работы Office 365 Cloud App Security **необходимо включить ведение журнала аудита** для среды Office 365. Дополнительную информацию можно узнать [в статье Включение и отключение поиска в журнале аудита Office 365](turn-audit-log-search-on-or-off.md). 
   
-1. Как глобальный администратор или администратор безопасности, перейдите к [https://protection.office.com](https://security.microsoft.com) и выполнить вход с помощью учетной записи рабочего или школы для Office 365. (Вы перейдете к безопасности &amp; центре соответствия требованиям.) 
+1. В качестве глобального администратора или администратора безопасности войдите в рабочую [https://protection.office.com](https://security.microsoft.com) или учебную учетную запись Office 365, используя рабочую или учебную учетную запись. (Откроется центр соответствия требованиям безопасности &amp; .) 
     
-2. Последовательно выберите пункты **оповещения** \> **Управление расширенного оповещения**.
+2. Перейдите к разделу **оповещения** \> **Управление расширенными оповещениями**.
     
-3. Выберите **Включить безопасности приложения Office 365 облака**.
+3. Выберите **включить Office 365 Cloud App Security**.
     
-4. Выберите, **перейдите к безопасности приложения Office 365 облака**.<br/>![В разделе Безопасность &amp; центре соответствия требованиям, выберите дополнительные оповещения для перехода к безопасности Office 365 облаке приложения](media/958632d4-03e3-4ade-8e22-d5509db6fca7.png)<br/>Вы перейдете к порталу безопасности Office 365 облаке приложения, где Просмотр отчетов и создание или изменение политики.
+4. Выберите **Перейти к Office 365 Cloud App Security**.<br/>![В центре безопасности &amp; и соответствия требованиям выберите Управление расширенными оповещениями для перехода к Office 365 Cloud App Security.](media/958632d4-03e3-4ade-8e22-d5509db6fca7.png)<br/>Откроется портал Office 365 Cloud App Security, где можно просматривать отчеты, а также создавать и изменять политики.
 
-После включения безопасности Office 365 облаке приложения можно перейти на портале облачных безопасности приложения, посетив [https://portal.cloudappsecurity.com](https://portal.cloudappsecurity.com) и выход из системы.
+После включения безопасности облачных приложений Office 365 вы можете перейти на портал Cloud App Security, посетив [https://portal.cloudappsecurity.com](https://portal.cloudappsecurity.com) и войдя в систему.
     
 > [!NOTE]
-> При включении безопасности приложения Office 365 облачных [Безопасности приложения Microsoft Cloud](https://aka.ms/whatiscas)переносятся аудита сведения об учетных записей пользователей Office 365 и действий пользователей. Это позволяет Office 365 для предоставления расширенных оповещения, фильтрация и другие функции, чтобы получить сведения, а также выполнять действия о подозрительных действий. 
+> Когда вы включаете Office 365 Cloud App Security, аудит сведений об учетных записях пользователей Office 365 и действий пользователей передается в [Microsoft Cloud App Security](https://aka.ms/whatiscas). Это позволяет Office 365 предоставлять расширенные оповещения, фильтрацию и другие функции для получения сведений и выполнения действий по подозрительным действиям. 
   
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- [Политики активности](activity-policies-and-alerts.md)
+- [Политики действий](activity-policies-and-alerts.md)
     
-- [Функция обнаружения неполадок политик](anomaly-detection-policies-in-ocas.md)
+- [Политики обнаружения аномалий](anomaly-detection-policies-in-ocas.md)
     
 - [Интеграция сервера SIEM](integrate-your-siem-server-with-office-365-cas.md)
     
-- [Групповой IP-адреса для упрощения управления](group-your-ip-addresses-in-ocas.md)
+- [Группировка IP-адресов для упрощения управления](group-your-ip-addresses-in-ocas.md)
     
 

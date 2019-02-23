@@ -1,32 +1,14 @@
 ---
-title: Настройка параметров S/MIME для Outlook Web App
-ms.author: krowley
-author: kccross
-manager: laurawi
-ms.date: 4/8/2015
-ms.audience: ITPro
-ms.topic: article
-ms.service: O365-seccomp
-ms.custom: TN2DMC
-localization_priority: Normal
-search.appverid:
-- MET150
-ms.assetid: c7dee22c-9b5b-425c-91a9-d093204ff84e
-description: Как администратор организации Exchange 2013 и Exchange Online можно настроить Outlook Web App, чтобы разрешить отправки и получения сообщений S/MIME-защищенного. Командлет SMIMEConfig используется для управления этой функции через интерфейс командной консоли Exchange.
-ms.openlocfilehash: e4bbf6cb8b0e2976b856045fc8a474bc2aa2a55a
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23002520"
+Title: "Настройка параметров S/MIME для Outlook в Интернете" MS. author: кровлэй author: кккросс Manager: лаурави MS. аудитория: ИТ-специалистов МС. раздел: статья MS. Service: O365-секкомп MS. Custom: TN2DMC локализатион_приорити: Normal Search. аппверид:
+- MET150 MS. ассетид: c7dee22c-9b5b-425c-91a9-d093204ff84e MS. Collection:
+    - M365 — описание соответствия требованиям: "краткое описание администраторов Exchange Online, необходимых для просмотра и настройки параметров S/MIME в Outlook в Интернете в Exchange Online".
 ---
-# <a name="configure-smime-settings-for-outlook-web-app"></a>Настройка параметров S/MIME для Outlook Web App
 
-Администратор организации для Exchange 2013 и Exchange Online может настроить Outlook Web App так, чтобы разрешить отправку и получение сообщений с защитой S/MIME. Для управления этой функцией в интерфейсе командной консоли Exchange используйте командлет  `SMIMEConfig`. 
+# <a name="configure-smime-settings-for-outlook-on-the-web"></a>Configure S/MIME settings for Outlook on the web
+
+В качестве администратора Exchange Online можно настроить Outlook в Интернете (прежнее название — Outlook Web App), чтобы разрешить отправку и получение сообщений, защищенных С помощью S/MIME. Используйте командлеты **Get-SmimeConfig** и **Set-SmimeConfig** для просмотра и управления этой функцией в Exchange Online PowerShell. Чтобы подключиться к Exchange Online PowerShell, ознакомьтесь [со статьЕй подключение к Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
   
-Подробное описание параметров и примеры для  `get-SMIMEConfig` и  `set-SMIMEConfig` смотрите в документации к [Get-SmimeConfig](http://technet.microsoft.com/library/4b29fa89-0840-4fe9-8885-019fcef2e02b.aspx) и [Set-SmimeConfig](http://technet.microsoft.com/library/de357ce0-8143-4c36-8032-026292fc63f0.aspx). 
-  
-Для выполнения этой процедуры можно использовать только командную консоль. Сведения о том, как открыть командную консоль Exchange в локальной организации Exchange, см. в статье **Open the Shell**. Сведения о том, как с помощью Оболочка Windows PowerShell подключаться к Exchange Online, см. в статье [Подключение к PowerShell для Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=396554).
+Подробные сведения о синтаксисе и параметрах можно найти в статье [Get – SmimeConfig](http://technet.microsoft.com/library/4b29fa89-0840-4fe9-8885-019fcef2e02b.aspx) и [Set/SmimeConfig](http://technet.microsoft.com/library/de357ce0-8143-4c36-8032-026292fc63f0.aspx). 
   
 ## <a name="for-more-information"></a>Дополнительные сведения
 

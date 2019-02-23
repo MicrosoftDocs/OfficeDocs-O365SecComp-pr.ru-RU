@@ -1,7 +1,7 @@
 ---
 title: Поиск и освобождение сообщений на карантине для администратора
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 6/16/2017
 ms.audience: ITPro
@@ -12,19 +12,21 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: ab95bf17-bb09-4dd1-9990-ddd02ddecf05
+ms.collection:
+- M365-security-compliance
 description: В этой статье описывается, как администраторы Exchange Online и Exchange Online Protection (EOP) могут находить и разблокировать сообщения в карантине, а также создавать по ним отчеты в Центре администрирования Exchange.
-ms.openlocfilehash: a8c450471d2fe627346b5bea8db50b91d67ffd3f
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+ms.openlocfilehash: 9c3501b79c6a733fd7b6239a26b7e7cfa69f3edc
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23003278"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30219039"
 ---
 # <a name="find-and-release-quarantined-messages-as-an-administrator"></a>Поиск и освобождение сообщений на карантине для администратора
 
 В этой статье описывается, как администраторы Exchange Online и Exchange Online Protection (EOP) могут находить и разблокировать сообщения в карантине, а также создавать по ним отчеты в Центре администрирования Exchange. Office 365 отправляет в карантин сообщения, если они определены как нежелательные или по ним сработало правило транспорта. 
   
-Использование безопасности &amp; центре соответствия требованиям вместо центра администрирования Exchange для выполнения любой из этих задач, а также просмотр и работа с сообщений, отправленных в карантин, так как они содержат вредоносных программ. Дополнительные сведения см в [карантин сообщения электронной почты в Office 365](https://support.office.com/article/Quarantine-email-messages-in-Office-365-4c234874-015e-4768-8495-98fcccfc639b).
+Используйте центр соответствия &amp; требованиям безопасности вместо центра администрирования Exchange, чтобы выполнить любую из этих задач, а также просматривать и работать с сообщениями, отправленными в карантин, так как они содержат вредоносные программы. Дополнительные сведения см в разделе [карантин сообщений электронной почты в Office 365](https://support.office.com/article/Quarantine-email-messages-in-Office-365-4c234874-015e-4768-8495-98fcccfc639b).
   
 Сообщения в карантине отображаются на странице **Карантин** в Центре администрирования Exchange. По умолчанию они сортируются от самых новых до самых старых по полю **ПОЛУЧЕНО**. Кроме того, для каждого сообщения отображается **ОТПРАВИТЕЛЬ**, **ТЕМА** и **ИСТЕЧЕНИЕ СРОКА ДЕЙСТВИЯ**. Сообщения можно сортировать по любому из этих полей, щелкая их заголовки. Если щелкнуть заголовок столбца второй раз, порядок сортировки изменится на противоположный. На странице **Карантин** отображается до 500 сообщений. 
   
@@ -37,7 +39,7 @@ ms.locfileid: "23003278"
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 <a name="sectionSection0"> </a>
 
-- Вы должны быть назначены разрешения, перед выполнением этой процедуры или процедуры. Чтобы увидеть, какие нужны разрешения, видеть запись «Карантин» в разделе [Feature Permissions in Exchange Online](http://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) . 
+- Перед выполнением этой процедуры или процедур необходимо назначить разрешения. Чтобы узнать, какие разрешения вам нужны, просмотрите запись "карантин" в разделе [Feature Permissions in Exchange Online](http://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) . 
     
 - Разблокировать несколько сообщений за раз, а также сообщить о ложном срабатывании можно на странице **Карантин**. Вы также можете создать удаленный сценарий Оболочка Windows PowerShell для выполнения этой задачи. Используйте командлет [Get-QuarantineMessage](http://technet.microsoft.com/library/88026da1-8dbc-49e7-80e8-112a32773c34.aspx) для поиска сообщений и командлет [Release-QuarantineMessage](http://technet.microsoft.com/library/4a3aa05c-238f-46f2-b8dd-b0e3c38eab3e.aspx) для их разблокировки. 
     

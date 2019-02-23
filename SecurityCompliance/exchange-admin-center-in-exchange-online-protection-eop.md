@@ -1,7 +1,7 @@
 ---
 title: 'Центр администрирования Exchange в Exchange Online Protection '
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 12/9/2016
 ms.audience: ITPro
@@ -12,13 +12,15 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 97921f0e-832f-40c7-b56d-414faede5191
+ms.collection:
+- M365-security-compliance
 description: "Центр администрирования Exchange \x97 это веб-консоль управления для Microsoft Exchange Online Protection."
-ms.openlocfilehash: 144907110af9fcbec1c6399e0695abb705bef409
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+ms.openlocfilehash: 0d1e56b85afe6655b5c6d08df51d4607df92d1d5
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23002948"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30220469"
 ---
 # <a name="exchange-admin-center-in-exchange-online-protection"></a>Центр администрирования Exchange в Exchange Online Protection 
 
@@ -38,7 +40,7 @@ ms.locfileid: "23002948"
 
 В этом разделе рассматриваются элементы интерфейса пользователя в Центре администрирования Exchange.
   
-![EOP AdminCenter](media/EOP-AdminCenter.png)
+![EOP — Админцентер](media/EOP-AdminCenter.png)
   
 ### <a name="feature-pane"></a>Панель "Функции"
 

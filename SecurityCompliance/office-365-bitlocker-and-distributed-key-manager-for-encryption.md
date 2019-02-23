@@ -5,18 +5,18 @@ author: kccross
 manager: laurawi
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
 description: Сводка. сведения о BitLocker для шифрования в облаке.
-ms.openlocfilehash: 2f532282622abef49e3499c692f664b4714c3192
-ms.sourcegitcommit: 24659bdb09f49d0ffed180a4b80bbb7c45c2d301
+ms.openlocfilehash: 77de478899591be54bdaf7c3ac9e7d591dd418b1
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "29664105"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30212909"
 ---
 # <a name="bitlocker-and-distributed-key-manager-dkm-for-encryption"></a>BitLocker и распределенный диспетчер ключей (DKM) для шифрования
 Серверы Office 365 используют BitLocker для шифрования дисков, содержащих данные о клиентах, в оставшейся части уровня громкости. Шифрование BitLocker — это функция защиты данных, встроенная в Windows. BitLocker — это одна из технологий, используемых для защиты от угроз, в случае возникновения промежутков в других процессах или элементах управления (например, управления доступом или повторном использовании оборудования), которые могут привести к тому, что кто-то получает физический доступ к дискам с данными клиента. В этом случае BitLocker исключает возможность кражи или разглашения данных из-за потери, кражи или неправильного списания компьютеров и дисков.
