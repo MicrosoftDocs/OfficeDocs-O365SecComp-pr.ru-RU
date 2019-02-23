@@ -5,7 +5,7 @@ author: kccross
 manager: laurawi
 ms.date: 12/15/2016
 ms.audience: ITPro
-ms.topic: reference
+ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 3aff33c5-1416-4867-a23b-e0c0c5b4d2be
 description: Сводка. В этой статье описано, как Office 365 использует запись TXT инфраструктуры политики отправителей (SPF) в DNS, чтобы гарантировать, что конечные почтовые системы доверяют сообщениям, отправленным из вашего личного домена. Это относится к исходящей почте, отправленной из Office 365. Сообщения, отправленные из Office 365 получателю в Office 365, всегда проходят проверку SPF.
-ms.openlocfilehash: b42c2528f7a6a272e11d2434cce1e1735649962a
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+ms.openlocfilehash: b4898bf8b607e7ad600455c915f99baaab21f6f6
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23003288"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30223568"
 ---
 # <a name="how-office-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Как Office 365 использует инфраструктуру политики отправителей (SPF) для предотвращения спуфинга
 

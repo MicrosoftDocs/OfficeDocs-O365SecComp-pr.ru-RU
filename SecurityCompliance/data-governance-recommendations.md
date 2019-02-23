@@ -6,19 +6,19 @@ manager: laurawi
 ms.date: 1/15/2019
 ms.audience: Admin
 ms.topic: overview
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MOE150
 - MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Центр безопасности и соответствия требованиям Office 365 предоставляет рекомендации для управления данными на основе текущей настройки вашей организации и позволяет выполнить подготовку за пару щелчков. Некоторые из этих рекомендаций определяют конкретное содержимое в организации и указывают рекомендованные действия по управлению этим содержимым. Например, рекомендация может обнаружить элементы, содержащие важный деловой контент (например, связанные с адвокатской тайной сведения или соглашения о неразглашении) и затем позволяет автоматически присвоить метки хранения к этим элементам, чтобы обеспечить их конфиденциальность и правильное хранение. В этой статье перечислены рекомендации по управлению данными, которые вы можете встретить, и описано, какое содержимое обнаруживается для срабатывания каждой из них.
-ms.openlocfilehash: a3f803105ea5c2626c8c2a26ad898df5f45af2f0
-ms.sourcegitcommit: c7737903ff2e1d047682ee61f7ac21b0bdd1c6fd
+ms.openlocfilehash: 24e41501ed11d54e60f8b3d9f27a2e96f3cde112
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28263950"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30220439"
 ---
 # <a name="how-content-is-identified-for-data-governance-recommendations"></a>Как определяется содержимое для рекомендаций по управлению данными
 

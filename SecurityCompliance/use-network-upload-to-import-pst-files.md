@@ -3,7 +3,6 @@ title: Импорт PST-файлов Организации в Office 365 с п�
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: ''
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 103f940c-0468-4e1a-b527-cc8ad13a5ea6
 description: 'Для администраторов: Узнайте, как использовать отправку по сети для массового импорта нескольких PST-файлов в почтовые ящики пользователей в Office 365.'
-ms.openlocfilehash: 04beb021b34a7357556e4d6e4d26d43de6a85c5d
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: a92217ad4126851a042b3492614aaa35ef215f61
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 02/23/2019
-ms.locfileid: "30217359"
+ms.locfileid: "30223608"
 ---
 # <a name="use-network-upload-to-import-your-organization-pst-files-to-office-365"></a>Импорт PST-файлов Организации в Office 365 с помощью отправки по сети
 

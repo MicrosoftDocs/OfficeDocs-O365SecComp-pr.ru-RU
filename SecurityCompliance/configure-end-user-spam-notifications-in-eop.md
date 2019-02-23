@@ -1,9 +1,26 @@
 ---
-Title: "Настройка уведомлений конечных пользователей о нежелательной почте в EOP" MS. author: кровлэй author: кккросс Manager: лаурави MS. аудитория: ИТ-специалистов МС. раздел: статья MS. Service: O365 – секкомп MS. Custom: TN2DMC локализатион_приорити: Normal Search. аппверид:
-- MET150 MS. ассетид: e9947db5-1dd1-4493-872d-7362b24c7ba0 MS. Collection:
-    - M365 — описание соответствия требованиям: "можно настроить уведомления о нежелательной почте для пользователей по умолчанию для политики фильтрации содержимого на уровне компании или для настраиваемых политик фильтрации содержимого, применяемых к доменам."
+title: Настройка уведомлений пользователей о спаме в службе EOP
+ms.author: krowley
+author: kccross
+manager: laurawi
+ms.audience: ITPro
+ms.topic: article
+ms.service: O365-seccomp
+ms.custom: TN2DMC
+localization_priority: Normal
+search.appverid:
+- MET150
+ms.assetid: e9947db5-1dd1-4493-872d-7362b24c7ba0
+ms.collection:
+- M365-security-compliance
+description: Вы можете настроить уведомления пользователя о нежелательной почте для используемой по умолчанию политики фильтрации содержимого в компании или для настраиваемых политик фильтрации содержимого, которые применяются к доменам.
+ms.openlocfilehash: 2cab65347c726cab482eb127f5068586f4f3afd3
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30222978"
 ---
-
 # <a name="configure-end-user-spam-notifications-in-eop"></a>Настройка уведомлений пользователей о спаме в службе EOP
   
 > [!IMPORTANT]

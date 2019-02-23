@@ -15,12 +15,12 @@ ms.assetid: 0cbaccf8-4afc-47e3-a36d-a84598a55fb8
 ms.collection:
 - M365-security-compliance
 description: Для пользователей EOP нежелательная почта по умолчанию перемещается в соответствующую папку получателя. Чтобы применить это действие к локальным почтовым ящикам, необходимо настроить правила транспорта Exchange на локальных серверах (сервере-концентраторе или пограничном сервере) для обнаружения заголовков нежелательной почты, добавляемых службой EOP. Эти правила транспорта настроят вероятность нежелательной почты, используемую свойством SclJunkThreshold командлета Set-OrganizationConfig, на перемещение спама в соответствующую папку каждого почтового ящика.
-ms.openlocfilehash: d0ae9637ce95a1a8f0d4d241b3aef928c84ba3fa
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: f712e66934956bcf46215e4016501003ce9b1725
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 02/23/2019
-ms.locfileid: "30221029"
+ms.locfileid: "30222888"
 ---
 # <a name="ensure-that-spam-is-routed-to-each-users-junk-email-folder"></a>Настройка гарантированной отправки нежелательной почты в соответствующую папку каждого пользователя
 

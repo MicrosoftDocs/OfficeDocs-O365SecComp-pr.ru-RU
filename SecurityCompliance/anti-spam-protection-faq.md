@@ -12,20 +12,22 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: c534a35d-b121-45da-9d0a-ce738ce51fce
+ms.collection:
+- M365-security-compliance
 description: В этом разделе приведены вопросы и ответы по защите от нежелательной почты. Ответы предназначены для клиентов Microsoft Exchange Online и Exchange Online Protection (EOP).
-ms.openlocfilehash: 77b3dc26d55f75e7476a3b52a550174a3876c56f
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+ms.openlocfilehash: f41799a3870e899fd3601453aaa11f6f9c51c608
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23003078"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30223058"
 ---
 # <a name="anti-spam-protection-faq"></a>Часто задаваемые вопросы о защите от нежелательной почты
 
 В этом разделе приведены вопросы и ответы по защите от нежелательной почты. Ответы предназначены для клиентов Microsoft Exchange Online и Exchange Online Protection (EOP). 
   
 > [!TIP]
-> [Вопросы и ответы на вопросы о надежных и заблокированных отправителей списков надежных отправителей и заблокированных отправителей списков](safe-sender-and-blocked-sender-lists-faq.md)см в Exchange Online. Вопросы и ответы о карантине в разделе [Часто задаваемые вопросы о карантине](quarantine-faq.md). 
+> Для вопросов и ответов о списке надежных отправителей и заблокированных отправителей Просмотрите списки "Надежные отправители" и "Заблокированные отправители" [в Exchange Online](safe-sender-and-blocked-sender-lists-faq.md). Вопросы и ответы о карантине содержатся в разделе "вопросы и ответы" в разделе [Карантин](quarantine-faq.md). 
   
  **Вопрос. Что по умолчанию происходит с сообщением, распознанным как нежелательное?**
   
@@ -72,9 +74,9 @@ ms.locfileid: "23003078"
   
 Ответ. Да, например можно получить отчет об обнаружении нежелательной почты в Центре администрирования Office 365. В нем объем нежелательной почты показан как количество уникальных сообщений. Дополнительные сведения об отчетах см. по следующим ссылкам.
   
-Пользователи Exchange Online: [мониторинг, составление отчетов и сообщения трассировки в Exchange Online](http://technet.microsoft.com/library/87bdeeae-bd80-4a3b-95c5-62fbaf97c2e8.aspx)
+Клиенты Exchange Online: [мониторинг, составленИе отчетов и трассировка сообщений в Exchange Online](http://technet.microsoft.com/library/87bdeeae-bd80-4a3b-95c5-62fbaf97c2e8.aspx)
   
-Пользователи Exchange Online Protection: [отчеты и трассировка сообщений в Exchange Online Protection](eop/reporting-and-message-trace-in-exchange-online-protection.md)
+Клиенты Exchange Online Protection: [отчеты и трассировка сообщений в Exchange Online Protection](eop/reporting-and-message-trace-in-exchange-online-protection.md)
   
  **Вопрос. Кто-то прислал мне сообщение, и я не могу найти его. Я думаю, что, возможно, оно было распознано как нежелательная почта. Есть ли какое-нибудь средство, которое поможет найти это сообщение?**
   
@@ -108,7 +110,7 @@ ms.locfileid: "23003078"
   
 1. **Отправляющий домен электронной почты должен выполнять разрешение в DNS.**
     
-    Например если отправитель является user@example.com, домена example.com разрешается IP-адреса 192.0.43.10. Если отправляющий домен не содержит A-записи, а не записи MX в DNS, служба будет перенаправлять сообщения через его риск поставки пул с более высокой вне зависимости от того, является ли содержимое сообщения является нежелательной почты. Дополнительные сведения о пуле выше риск поставки видеть [пул высокого риска доставки для исходящих сообщений](high-risk-delivery-pool-for-outbound-messages.md). 
+    Например, если отправитель — user@example.com, example.com домена разрешается в IP-адрес 192.0.43.10. Если у отправляющего домена нет записи A-Record и MX в DNS, служба будет маршрутизировать сообщение через пул доставки С более высоким уровнем риска независимо от того, является ли содержимое сообщения нежелательным. Дополнительные сведения о пуле доставки с более высоким уровнем риска содержатся в разделе [пул доставки высокого риска для исходящих сообщений](high-risk-delivery-pool-for-outbound-messages.md). 
     
 2. **IP-адрес отправки сервера исходящей почты должен иметь обратную запись DNS (PTR).**
     

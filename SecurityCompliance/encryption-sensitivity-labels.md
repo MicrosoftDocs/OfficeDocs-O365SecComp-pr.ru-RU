@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 10/22/2018
 ms.audience: Admin
 ms.topic: overview
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection: Strat_O365_IP
 search.appverid:
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: При создании метки конфиденциальности можно ограничить доступ к содержимому, которому будет присвоена метка. Метки конфиденциальности могут использовать шифрование для защиты содержимого.
-ms.openlocfilehash: 154be1d4dd1e891913e1b64d8f1ae5dfa34706bf
-ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
+ms.openlocfilehash: 04de1b1efaa26694bcad2274d2ff9e9b3b2c637e
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "26547321"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30220319"
 ---
 # <a name="restrict-access-to-content-by-using-encryption-in-sensitivity-labels"></a>Ограничение доступа к содержимому с помощью шифрования в метках конфиденциальности
 

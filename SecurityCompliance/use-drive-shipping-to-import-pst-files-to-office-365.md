@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 40829b57-793c-4d41-b171-e9270129173d
 description: 'Для администраторов: Узнайте, как массово импортировать PST-файлы вашей организации в почтовые ящики Office 365, скопировав PST-файлы на жесткий диск и отгрузите его в корпорацию Майкрософт. '
-ms.openlocfilehash: 7a03f7b9092cf75a468f9ddad514c7508cfc006e
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 44ca6e58d9273c73a807ba0b186c47721949c6f6
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 02/23/2019
-ms.locfileid: "30217299"
+ms.locfileid: "30223688"
 ---
 # <a name="use-drive-shipping-to-import-your-organization-pst-files-to-office-365"></a>Использование доставки дисков для импорта PST-файлов Организации в Office 365
 

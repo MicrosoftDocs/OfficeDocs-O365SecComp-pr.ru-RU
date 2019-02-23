@@ -3,7 +3,6 @@ title: Поиск по журналу аудита в Центре безопа�
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: ''
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Используйте центр соответствия требованиям Office 365 Security _Амп_ для поиска действий пользователей и администраторов в организации Office 365 в едином журнале аудита. '
-ms.openlocfilehash: 72b2c131c9bd146298b38159fb4c812f789258f1
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 5fe4eac59f3e60e75a7452b0dcc51b6b8ca88a5b
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 02/23/2019
-ms.locfileid: "30217979"
+ms.locfileid: "30223768"
 ---
 # <a name="search-the-audit-log-in-the-office-365-security--compliance-center"></a>Поиск в журнале аудита в центре безопасности _Амп_ соответствия требованиям Office 365
 

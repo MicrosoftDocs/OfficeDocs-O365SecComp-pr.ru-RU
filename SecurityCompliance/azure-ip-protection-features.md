@@ -1,9 +1,26 @@
 ---
-Title: "функции защиты в Azure Information Protection выходят из существующих клиентов Office 365" MS. author: кровлэй author: кккросс Manager: лаурави MS. Date: 6/29/2018 МС. аудитория: ИТ-специалистов MS. раздел: статья MS. Service: O365 — секкомп локализатион_ приоритет: обычный поиск. аппверид:
-- MET150 MS. ассетид: 7ad6f58e-65d7-4c82-8e65-0b773666634d MS. Collection:
-    - M365 — описание соответствия требованиям: "для получения справки по начальному этапу защиты данных, начиная с июля 2018 для всех соответствующих клиентов Azure Information Protection будут включены функции защиты в Azure Information Protection по умолчанию. Функции защиты в Azure Information Protection ранее были известны в Office 365 как Rights Management или Azure RMS. Если у вашей организации есть план обслуживания Office E3 или более высокий план обслуживания, теперь вы получите головку начать защиту информации с помощью Azure Information Protection, когда мы выберем эти функции. "
+title: Функции защиты в Azure Information Protection, выполняемые при развертывании существующих клиентов Office 365
+ms.author: krowley
+author: kccross
+manager: laurawi
+ms.date: 6/29/2018
+ms.audience: ITPro
+ms.topic: article
+ms.service: O365-seccomp
+localization_priority: Normal
+search.appverid:
+- MET150
+ms.assetid: 7ad6f58e-65d7-4c82-8e65-0b773666634d
+ms.collection:
+- M365-security-compliance
+description: Для получения справки по начальному этапу защиты данных, начиная с июля 2018 все подходящие клиенты, соответствующие требованиям Azure Information Protection, будут иметь функции защиты в Azure Information Protection, включенные по умолчанию. Функции защиты в Azure Information Protection ранее были известны в Office 365 как Rights Management или Azure RMS. Если у вашей организации есть план обслуживания Office E3 или более высокий план обслуживания, вы получите головной офис, чтобы защитить информацию с помощью Azure Information Protection при выполнении этих функций.
+ms.openlocfilehash: 2484f9b335a6698894046aaf429fdad68d82491e
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30223258"
 ---
-
 # <a name="protection-features-in-azure-information-protection-rolling-out-to-existing-office-365-tenants"></a>Функции защиты в Azure Information Protection, выполняемые при развертывании существующих клиентов Office 365
 
 Для получения справки по начальному этапу защиты данных, начиная с июля 2018 все подходящие клиенты, соответствующие требованиям Azure Information Protection, будут иметь функции защиты в Azure Information Protection, включенные по умолчанию. Функции защиты в Azure Information Protection ранее были известны в Office 365 как Rights Management или Azure RMS. Если у вашей организации есть план обслуживания Office E3 или более высокий план обслуживания, вы получите головной офис, чтобы защитить информацию с помощью Azure Information Protection при выполнении этих функций.

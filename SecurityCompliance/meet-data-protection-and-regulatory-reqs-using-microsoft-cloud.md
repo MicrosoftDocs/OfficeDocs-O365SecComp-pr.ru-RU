@@ -3,22 +3,21 @@ title: Применение диспетчера соответствия тре
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: ''
 ms.audience: Admin
 ms.topic: overview
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: 429e686f-d8a6-455e-a2b6-3791d763f000
 description: Диспетчер соответствия требованиям на портале Microsoft Service Trust Portal предоставляет средства для отслеживания и реализации средств контроля, а также управления ими, помогая организации обеспечить соответствие требованиям отраслевых стандартов безопасности и защиты данных (например, GDPR, ISO 27001 и 27018, а также HIPAA) в облачных службах (Майкрософт), таких как Office 365 и Microsoft Azure. Диспетчер соответствия требованиям помогает сотруднику организации, который отвечает за стратегию защиты данных и обеспечения конфиденциальности, управлять процессом оценки рисков и обеспечения соответствия требованиям.
-ms.openlocfilehash: 6f423ba29540bdc498c2725b9741dece2557e4be
-ms.sourcegitcommit: 25f1028643d8a20d17306e8b09cafea46eaf7a58
+ms.openlocfilehash: 2abecd9c3436e6946dc3f9239638fc4dc3ee83f1
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "29666179"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30217919"
 ---
 # <a name="use-compliance-manager-to-help-meet-data-protection-and-regulatory-requirements-when-using-microsoft-cloud-services"></a>Применение диспетчера соответствия требованиям для соблюдения требований к защите данных и нормативных требований при использовании облачных служб (Майкрософт)
 

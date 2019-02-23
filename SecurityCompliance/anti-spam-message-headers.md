@@ -1,9 +1,26 @@
 ---
-Title: "заголовки сообщений защиты от нежелательной почты" MS. author: кровлэй author: кккросс Manager: лаурави MS. аудитория: ИТ-специалистов MS. Topic: статья MS. Service: O365 – секкомп MS. Custom: TN2DMC локализатион_приорити: Normal Search. аппверид:
-- MET150 MS. ассетид: 2e3fcfc5-5604-4b88-ac0a-c5c45c03f1db MS. Collection:
-    - M365 — описание соответствия требованиям: "при проверке почтовых сообщений с помощью Exchange Online Protection вставляет заголовок **X-Forefront-защиты от спама-Report** в каждое сообщение."
+title: Заголовки сообщений по защите от нежелательной почты
+ms.author: krowley
+author: kccross
+manager: laurawi
+ms.audience: ITPro
+ms.topic: article
+ms.service: O365-seccomp
+ms.custom: TN2DMC
+localization_priority: Normal
+search.appverid:
+- MET150
+ms.assetid: 2e3fcfc5-5604-4b88-ac0a-c5c45c03f1db
+ms.collection:
+- M365-security-compliance
+description: Когда служба Exchange Online Protection сканирует входящие электронные сообщения, она вставляет заголовок **X-Forefront-Antispam-Report** в каждое из них.
+ms.openlocfilehash: 4851c05f4db8d120eb54b9c22025fe2972e1e515
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30223588"
 ---
-
 # <a name="anti-spam-message-headers"></a>Заголовки сообщений по защите от нежелательной почты
 
 Когда служба Exchange Online Protection сканирует входящие электронные сообщения, она вставляет заголовок **X-Forefront-Antispam-Report** в каждое из них. Поля в этом заголовке могут предоставить администраторам информацию о сообщении и его обработке. Поля заголовка **X-Microsoft-Antispam** предоставляют дополнительные сведения о массовой рассылке и фишинге. В дополнение к этим двум заголовкам служба Exchange Online Protection также вставляет в каждое сообщение, которое она обрабатывает, заголовок **Authentication-results** с результатами проверки подлинности сообщения.

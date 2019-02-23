@@ -3,7 +3,6 @@ title: Поддержка проверки сообщений, подписан�
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: ''
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -12,13 +11,13 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: a4c95148-a00c-4d12-85ed-88520b547d97
-description: Сведения о проверке ПРОВЕРКУ подписанных сообщений в Exchange Online Protection и Exchange Online
-ms.openlocfilehash: 22f0d1c4fdd6b1e159db732d6ef3d956efbf99c9
-ms.sourcegitcommit: 75b985b2574f4be70cf352498ea300b3d99dd338
+description: Сведения о проверке подлинности подписанных сообщений DKIM в Exchange Online Protection и Exchange Online
+ms.openlocfilehash: 7b40769e18c01199669043c42031987695bba639
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "26255834"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30223328"
 ---
 # <a name="support-for-validation-of-dkim-signed-messages"></a>Поддержка проверки сообщений, подписанных с помощью DKIM
 
@@ -28,6 +27,6 @@ DKIM проверяет сообщение с цифровой подписью,
   
  `Authentication-Results: <contoso.com>; dkim=pass (signature was verified) header.d=example.com;`
   
-Администраторы могут создавать Exchange [правила потока почты](http://technet.microsoft.com/library/743bd525-0ca2-426d-b76c-b4a052bc8886.aspx) (также известной как правила транспорта) по результатам проверки DKIM, чтобы отфильтровать или маршрутизации сообщений как необходимые. 
+Администраторы могут создавать [правила](http://technet.microsoft.com/library/743bd525-0ca2-426d-b76c-b4a052bc8886.aspx) для почтовых ящиков Exchange (которые также называются правилами транспорта) на результаты проверки DKIM для фильтрации и маршрутизации сообщений по мере необходимости. 
   
 

@@ -15,19 +15,19 @@ search.appverid:
 - MET150
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
 description: 'Самый простой, наиболее распространенный способ начать работу с политиками защиты от потери данных — использовать один из шаблонов, включенных в Office 365. '
-ms.openlocfilehash: 58ff52e0fdcd1579985d05d06887d6aca2bb2940
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 14582a6507d271bc569aeb0c5456a662962d20a9
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220479"
+ms.locfileid: "30223748"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>Создание, тестирование и настройка политики защиты от потери данных
 
-**Автор участника** </br>
-Пол Куннингхам, Microsoft MVP </br>
-[Практическая 365](https://practical365.com/) </br>
-[@Practical365](https://twitter.com/practical365)</br>
+**Автор участника** <br/>
+Пол Куннингхам, Microsoft MVP <br/>
+[Практическая 365](https://practical365.com/) <br/>
+[@Practical365](https://twitter.com/practical365)<br/>
 __________________________________________________
 
 Защита от потери данных — это функция соответствия требованиям Office 365, которая помогает организации предотвратить преднамеренное или случайное воздействие конфиденциальной информации нежелательным сторонам. У защиты от потери данных есть корни в Exchange Server и Exchange Online, и он также применяется в SharePoint Online и OneDrive для бизнеса.
