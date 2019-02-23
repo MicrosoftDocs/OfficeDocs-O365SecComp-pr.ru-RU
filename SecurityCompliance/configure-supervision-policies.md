@@ -7,7 +7,7 @@ ms.audience: Admin
 ms.topic: article
 f1_keywords:
 - ms.o365.cc.SupervisoryReview
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 ms.assetid: d14ae7c3-fcb0-4a03-967b-cbed861bb086
 description: Настройка политик надзорной проверки для сбора данных о сотрудниках для просмотра.
-ms.openlocfilehash: dee9f21d4b88338a092a64538cca33b41cc481c4
-ms.sourcegitcommit: c94cb88a9ce5bcc2d3c558f0fcc648519cc264a2
+ms.openlocfilehash: af317194fcf551acde8c53cdf6aa38bfb040dc84
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30090961"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30216739"
 ---
 # <a name="configure-supervision-policies-for-your-organization"></a>Настройка политик контроля для организации
 
@@ -53,7 +53,7 @@ ms.locfileid: "30090961"
 
     ПроВерив политику контроля, чтобы убедиться, что она работает должным образом, важно, чтобы стратегия соответствия требованиям предпринята к вашим стандартам.
 
-- **Шаг 6 (необязательно)** [Настройка надстройки Outlook для рецензентов, которые не хотят использовать панель мониторинга Office 365 и OWA для просмотра](configure-supervision-policies.md#UseOutlook) контролируемых коммуникаций
+- **Шаг 6 (необязательно)** [Настройка надстройки Outlook для рецензентов, которые не хотят использовать панель мониторинга Office 365 или Outlook в Интернете (прежнее название — Outlook Web App) для просмотра контролируемого обмена данными](configure-supervision-policies.md#UseOutlook)
 
     Надстройка для контроля для Outlook предоставляет рецензентам доступ к функциям контроля непосредственно в клиенте Outlook, чтобы они могли оценивать и классифицировать каждый элемент.
 

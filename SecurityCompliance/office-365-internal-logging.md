@@ -5,7 +5,7 @@ author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Сведения о том, как работает внутреннее ведение журнала для инженеров отдела Office 365.
-ms.openlocfilehash: cf11a52541f6434a580435688db0f986f670bd31
-ms.sourcegitcommit: c94cb88a9ce5bcc2d3c558f0fcc648519cc264a2
+ms.openlocfilehash: 68f8763b9a647de462f402e40a4c78749343dfd9
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30090761"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30216499"
 ---
 # <a name="internal-logging-for-office-365-engineering"></a>Внутренняя регистрация для инженеров Office 365
 Помимо событий и данных журналов, доступных для клиентов, существует также внутренняя система сбора данных журнала, доступная для инженеров Office 365. Многие типы данных журналов передаются с серверов Office 365 во внутреннюю, общую службу информационных данных с именем Cosmos. Каждая группа обслуживания отправляет журналы аудита из соответствующих серверов в базу данных Cosmos для объединения и анализа. Эта передача данных выполняется через FIPS 140-2-проверенное TLS-подключение на специально утвержденных портах и протоколах с помощью специализированного средства автоматизации, называемого загрузчиком данных Office (ODL). Средства, используемые в Office 365 для сбора и обработки записей аудита, не допускают постоянных или необратимых изменений исходного контента записи аудита или порядка времени.

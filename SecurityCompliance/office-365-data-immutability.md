@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Определяет и описывает неизменяемые данные, а также данные, которые должны быть обнаружены и не могут быть удалены или изменены.
-ms.openlocfilehash: ab7bfc3795da761eacc9e9aa7d41e69e482fc411
-ms.sourcegitcommit: c94cb88a9ce5bcc2d3c558f0fcc648519cc264a2
+ms.openlocfilehash: 5d0deef04d879959238dbbcfe36bb98ed0159242
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30090881"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30215569"
 ---
 # <a name="immutability-in-office-365"></a>Неизменность данных в Office 365
 Для некоторых организаций, соблюдение нормативных требований, требования к внутреннему управлению или риск для судебного разбирательства требуют сохранения электронной почты и связанных с ними данных в виде обнаруживаемой формы. Все данные в системе должны быть обнаруживаемыми, и ни один из них не может быть удален или изменен. Термин "неизменяемый" промышленным термином является "неизменным". 

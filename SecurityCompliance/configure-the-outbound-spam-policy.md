@@ -1,7 +1,7 @@
 ---
 title: Настройка правил защиты от спама для исходящих сообщений
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 11/10/2016
 ms.audience: ITPro
@@ -12,13 +12,15 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: a44764e9-a5d2-4c67-8888-e7fb871c17c7
+ms.collection:
+- M365-security-compliance
 description: Фильтрация исходящей нежелательной почты всегда включена, если эта служба используется для отправки исходящей почты, тем самым помогая защищать организации, использующие эту службу, и их получателей.
-ms.openlocfilehash: b6185cfded28613cb5a512882aefb1a99db158db
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+ms.openlocfilehash: 095098c058a5ca5165e0ad24ef48296c980eadcf
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23002426"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30214529"
 ---
 # <a name="configure-the-outbound-spam-policy"></a>Настройка правил защиты от спама для исходящих сообщений
 
@@ -31,13 +33,13 @@ ms.locfileid: "23002426"
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 <a name="sectionSection0"> </a>
 
-Осталось времени до завершения: 5 минут
+Предполагаемое время для завершения: 5 минут.
   
-Вы должны быть назначены разрешения, перед выполнением этой процедуры или процедуры. Чтобы увидеть, какие нужны разрешения, см «защита от нежелательной почты в разделе [Feature Permissions in Exchange Online](http://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) . 
+Перед выполнением этой процедуры или процедур необходимо назначить разрешения. Чтобы просмотреть необходимые разрешения, обратитесь к разделу "Защита от нежелательной почты" в разделе [Feature Permissions in Exchange Online](http://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) . 
   
 Сочетания клавиш для процедур, описанных в этой статье, приведены в статье **Сочетания клавиш в Центре администрирования Exchange**.
   
-Следующую процедуру можно также выполнить с помощью удаленной оболочки PowerShell. Командлет [Get-HostedOutboundSpamFilterPolicy](http://technet.microsoft.com/library/8f15c83c-c10a-4d9d-b135-35321430bdc2.aspx) используется для просмотра настроек и [Set-HostedOutboundSpamFilterPolicy](http://technet.microsoft.com/library/665d1b04-d4b5-4a0e-811a-4e37096ccbfd.aspx) для изменения параметров политики исходящей нежелательной почты. Чтобы узнать, как использовать Windows PowerShell для подключения к Exchange Online Protection, обратитесь к разделу [подключение к Exchange Online Protection PowerShell](https://go.microsoft.com/fwlink/p/?linkid=627290). Чтобы узнать, как использовать Windows PowerShell для подключения к Exchange Online, обратитесь к разделу [подключение к Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
+Следующую процедуру также можно выполнить с помощью удаленной оболочки PowerShell. Используйте командлет [Get – хостедаутбаундспамфилтерполици](http://technet.microsoft.com/library/8f15c83c-c10a-4d9d-b135-35321430bdc2.aspx) для проверки параметров, а параметр [Set — хостедаутбаундспамфилтерполици](http://technet.microsoft.com/library/665d1b04-d4b5-4a0e-811a-4e37096ccbfd.aspx) для изменения параметров политики исходящей нежелательной почты. Чтобы узнать, как использовать Windows PowerShell для подключения к Exchange Online Protection, ознакомьтесь [со статьЕй подключение к PowerShell для Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=627290). Чтобы узнать, как использовать Windows PowerShell для подключения к Exchange Online, ознакомьтесь [со статьЕй подключение к Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
   
 ## <a name="use-the-eac-to-edit-the-default-outbound-spam-policy"></a>Использование Центра администрирования Exchange для редактирования правил защиты от нежелательной почты для исходящих сообщений по умолчанию
 <a name="sectionSection1"> </a>
@@ -65,6 +67,6 @@ ms.locfileid: "23002426"
 
 [Пул доставки сообщений с высоким уровнем опасности](high-risk-delivery-pool-for-outbound-messages.md)
   
-[Защита от нежелательной почты вопросы и ответы](anti-spam-protection-faq.md)
+[ВОПРОСЫ и ответы по защите от нежелательной почты](anti-spam-protection-faq.md)
   
 

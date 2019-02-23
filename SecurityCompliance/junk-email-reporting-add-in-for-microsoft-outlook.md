@@ -6,17 +6,17 @@ manager: laurawi
 ms.date: 1/14/2016
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 4650fec1-4ee3-4659-abbc-bf091718cb26
 description: 'Надстройка сообщения о нежелательной почте для Microsoft Outlook позволяет пользователям Exchange Online и Exchange Online Protection легко сообщать о нежелательной почте (спаме), чтобы корпорация Майкрософт могла проанализировать данные и сократить число и влияние будущих нежелательных сообщений, фильтруемых службой. Надстройка совместима с Microsoft Outlook 2013, Outlook 2010 и Outlook 2007 в операционных системах Windows 7, 8 или 10. Она предоставляет следующие преимущества:'
-ms.openlocfilehash: 80ebbb0c202daec54722d3f87a92e85a8d500164
-ms.sourcegitcommit: c31424cafbf1953f2864d7e2ceb95b329a694edb
+ms.openlocfilehash: ec99ecc16137741b2f0de3043601105825417d37
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23272214"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30214589"
 ---
 # <a name="junk-email-reporting-add-in-for-microsoft-outlook"></a>Надстройка для создания отчетов о нежелательной почте для Microsoft Outlook
 
@@ -36,6 +36,6 @@ ms.locfileid: "23272214"
     
 - [Отправка отчетов о нежелательных сообщениях корпорации Майкрософт](report-junk-email-messages-to-microsoft.md) Сведения для конечных пользователей о применении надстройки для передачи сведений о нежелательной почте корпорации Майкрософт. 
     
-- [Устранение неполадок и поддержка сведения](troubleshooting-and-support-information.md) Пошаговые инструкции по устранению неполадок для конечных пользователей и администраторов и сведения о том, как за помощью в службу технической поддержки. 
+- [Сведения об устраненИи неполадок и поддержке](troubleshooting-and-support-information.md) Сведения об устранении неполадок для конечных пользователей и администраторов, а также о том, как обратиться за помощью в службу технической поддержки. 
     
 
