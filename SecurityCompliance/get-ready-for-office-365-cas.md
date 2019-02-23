@@ -6,19 +6,19 @@ manager: laurawi
 ms.audience: ITPro
 ms.topic: overview
 ms.date: 02/15/2019
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: d9ee4d67-f2b3-42b4-9c9e-c4529904990a
 description: Начало работы с Office 365 Cloud App Security
-ms.openlocfilehash: eef1a4f0465b583bb0f0589d213f61c9a15fd152
-ms.sourcegitcommit: 8679937354c1d8870ecd41519a59d2d7468c23c4
+ms.openlocfilehash: d6049bb1a36a078c6e5e33c60928bd3ae872c33f
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "30087438"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30219899"
 ---
 # <a name="get-ready-for-office-365-cloud-app-security"></a>Подготовка к использованию Office 365 Cloud App Security
   
@@ -73,9 +73,9 @@ ms.locfileid: "30087438"
 
 Чтобы узнать больше, ознакомьтесь со следующими материалами:
 
-- [Защита приложений с помощью Office 365 Cloud App Security приложение Управление приложением условного доступа](ocas-conditional-access-app-control.md)
+- [Защита приложений с помощью управления условным доступом к приложениям в Office 365 Cloud App Security](ocas-conditional-access-app-control.md)
 
-- [Развертывание приложения условного доступа для приложений Office 365](ocas-deploy-conditional-access-app-control.md)
+- [Развертывание управления условным доступом к приложениям для приложений Office 365](ocas-deploy-conditional-access-app-control.md)
 
 ## <a name="step-6-learn-about-your-organizations-cloud-usage"></a>Шаг 6: сведения об использовании облачной организации
 

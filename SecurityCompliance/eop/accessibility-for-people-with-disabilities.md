@@ -12,24 +12,24 @@ localization_priority: Normal
 ms.collection: Ent_O365_Hybrid
 ms.assetid: a7203ebd-ffac-4a8d-a2d0-6c8a61c8eeb8
 description: Майкрософт стремится к тому, чтобы сделать использование своих продуктов и служб простым и удобным для каждого.
-ms.openlocfilehash: 1e59e995ffaa4b3324913d8e49a9c2ee00b142fb
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 2403ef4ec5a99202a45b40bf639193643b6ad02b
+ms.sourcegitcommit: 06d6e63225f912d0f3c6bb836c61eb11c1dbe97a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026216"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30206382"
 ---
-# <a name="accessibility-for-people-with-disabilities"></a>Специальные возможности для инвалидов
+# <a name="accessibility-for-people-with-disabilities"></a>Специальные возможности для людей с ограниченными возможностями
 
 ## <a name="accessibility-features-of-exchange"></a>Специальные возможности Exchange
 
 Следующие функции в системе Microsoft Exchange делают ее более доступной людям с ограниченными возможностями.
   
-- [Сочетания клавиш в Exchange 2013 Preview](http://technet.microsoft.com/library/146b2b52-1ef8-4606-991a-4cf4da694970.aspx)
+- [Сочетания клавиш в Exchange Server](http://technet.microsoft.com/library/146b2b52-1ef8-4606-991a-4cf4da694970.aspx)
     
-- [Сочетания клавиш в Outlook Web App](https://go.microsoft.com/fwlink/p/?LinkId=268079)
+- [Сочетания клавиш в Outlook в Интернете](https://go.microsoft.com/fwlink/p/?LinkId=268079)
     
-Кроме того некоторые специальные возможности и программы Windows может преимущества пользователей Exchange с ограниченными возможностями. Кроме того изменения цвета и размера Windows PowerShell предоставления специальных возможностей при с помощью командной консоли Exchange. Дополнительные сведения о Windows PowerShell специальных возможностей см [в интегрированная среда Сценариев Windows PowerShell 2.0](https://go.microsoft.com/fwlink/p/?LinkId=258240).
+Кроме того, некоторые специальные возможности и служебные программы Windows могут воспользоваться преимуществами пользователей Exchange с ограниченными возможностями. Кроме того, изменения размера и цвета Windows PowerShell обеспечивают специальные возможности при использовании командной консоли Exchange. Для получения дополнительных сведений о специальных возможностях Windows PowerShell, ознакомьтесь со статьей [Специальные возможности в Windows powershell 2,0 ISE](https://go.microsoft.com/fwlink/p/?LinkId=258240).
   
 ## <a name="accessibility-features-of-exchange-help"></a>Специальные возможности справки Exchange
 

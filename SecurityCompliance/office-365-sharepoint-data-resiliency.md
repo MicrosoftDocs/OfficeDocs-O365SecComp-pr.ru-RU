@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Обзор устойчивости данных в SharePoint Online в Office 365.
-ms.openlocfilehash: c550cb6572cb71b53cd544af64339129f72b888f
-ms.sourcegitcommit: c94cb88a9ce5bcc2d3c558f0fcc648519cc264a2
+ms.openlocfilehash: 4fd17b50551639f6e11975acbc3822fb6ffa8bb2
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30090891"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30214809"
 ---
 # <a name="sharepoint-online-data-resiliency"></a>Устойчивость данных SharePoint Online
 Основной принцип для SharePoint Online никогда не содержит одну копию какого-либо фрагмента данных. SharePoint Online использует репликацию SQL Server, которая представляет собой набор технологий для копирования и распространения данных и объектов базы данных из одной базы данных в другую, а затем синхронизации между базами данных для обеспечения согласованности. 

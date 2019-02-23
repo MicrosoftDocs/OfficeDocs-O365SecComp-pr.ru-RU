@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 02/13/2019
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -15,14 +15,14 @@ ms.assetid: 38e9b67f-d188-490f-bc91-a1ae4b270441
 ms.collection:
 - M365-security-compliance
 description: Узнайте о том, как начать работу с Office 365 Threat Intelligence и как приступить к работе.
-ms.openlocfilehash: 6412f575bbe581aa469c7ad615213564b728d0aa
-ms.sourcegitcommit: 2af6c3e8a74995294a67429530af8f085e6ca136
+ms.openlocfilehash: f116b7a01ab3b27760b597527cc1e5a4440a6586
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30051170"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30217859"
 ---
-# <a name="get-started-with-threat-intelligence"></a>Начало работы с логикой операций с угрозами
+# <a name="get-started-with-threat-intelligence"></a>Начало работы с аналитикой Threat Intelligence
 
 Если вы являетесь участником группы безопасности вашей организации, вы можете использовать возможности системы анализа угроз для защиты пользователей от атак. Office 365 Advanced Threat Protection Plan 2 (прежнее название Office 365 Threat Intelligence) помогает аналитикам и администраторам обеспечить безопасность пользователей с помощью восходящей маршрутизации и идентификации действий в зависимости от того, что происходит в вашей среде Office 365. Эти аналитические сведения основаны на всеобъемлющем репозитории данных и систем системы анализа угроз на шаблоны, соответствующие поведению атак и подозрительным действиям.
   

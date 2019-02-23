@@ -6,52 +6,52 @@ manager: laurawi
 ms.date: 01/22/2019
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 414fa693-d7b7-4a1d-a387-ebc3b6a52889
 ms.collection: M365-security-compliance
-description: Интеграция с Windows Защитник расширенного защиту от угроз для просмотра более подробные сведения об управлении угроз защиту от угроз для Office 365 расширенный.
-ms.openlocfilehash: f8f5f50af10fb668aa67b68604e95e8dd19c9e69
-ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
+description: Интеграция Office 365 Advanced Threat protection с Advanced Threat Protection в Защитнике Windows для просмотра подробных сведений об управлении угрозами.
+ms.openlocfilehash: ec7c7f565a4a316085b586168512699bb13cad47
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "29995210"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30220929"
 ---
 # <a name="integrate-office-365-threat-intelligence-with-windows-defender-advanced-threat-protection"></a>Интеграция Office 365 Threat Intelligence с Advanced Threat Protection в Защитнике Windows
 
-Если вы являетесь участником группы безопасности вашей организации, можно интегрировать функции защиты расширенного Threat Office 365 и анализ угроз с защитой расширенного Защитника Windows. Это может помочь быстро понимать, если компьютеров пользователей в группу риска при изучении угрозы безопасности в Office 365. Например после включения интеграции вы сможете также увидеть список компьютеров, используемых получателей сообщения электронной почты вредоносным, как количество оповещений компьютеры, имеют в защиту от угроз дополнительные Защитника Windows.
+Если вы являетесь участником группы безопасности Организации, вы можете интегрировать функции Office 365 Advanced Threat Protection и Threat Intelligence с помощью Advanced Threat Protection в Защитнике Windows. Это поможет быстро выяснить, подвержены ли компьютеры пользователям риску при изучении угроз в Office 365. Например, когда интеграция включена, вы сможете увидеть список компьютеров, используемых получателями обнаруженного сообщения электронной почты, а также о том, сколько последних оповещений у этих компьютеров в Advanced Threat Protection в Защитнике Windows.
   
-На следующем рисунке показана вкладка **устройств** , что вы увидите, когда у интеграция защиту от угроз дополнительные Защитник Windows включена: 
+На следующем рисунке показана вкладка " **устройства** ", которая будет отображаться, когда включена интеграция с Advanced Threat Protection в Защитнике Windows: 
   
-![При включении анализа Защитник Windows можно просмотреть список компьютеров с оповещениями.](media/fec928ea-8f0c-44d7-80b9-a2e0a8cd4e89.PNG)
+![Когда пакет ATP для защитника Windows включен, вы можете просмотреть список компьютеров с оповещениями.](media/fec928ea-8f0c-44d7-80b9-a2e0a8cd4e89.PNG)
   
-В этом примере видно, что получателей сообщения электронной почты при наличии четырех устройств и один список имеет соответствующее оповещение. Щелкнув ссылку для устройства открывает ее страницу на портале защиту от угроз дополнительные Защитника Windows.
+В этом примере видно, что получатели сообщения электронной почты имеют четыре устройства, а одно — оповещение. Если щелкнуть ссылку на устройство, откроется его страница на портале Advanced Threat Protection в Защитнике Windows.
   
 ## <a name="requirements"></a>Требования
 
-- Вашей организации должны иметь анализ угроз Office 365 и анализа Защитника Windows.
+- Ваша организация должна иметь Office 365 Threat Intelligence и пакет ATP для защитника Windows.
     
-- Необходимо быть глобального администратора Office 365 или роль администратора безопасности (например, администратор безопасности) в [безопасности &amp; центре соответствия требованиям](https://protection.office.com). (Увидеть [разрешения безопасности Office 365 &amp; центре соответствия требованиям](permissions-in-the-security-and-compliance-center.md))
+- Необходимо быть глобальным администратором Office 365 или иметь роль администратора безопасности (например, администратора безопасности), назначенную в [центре &amp; безопасности и соответствия требованиям](https://protection.office.com). (См. [разрешения в центре безопасности &amp; и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md))
     
-- Необходимо иметь доступ к анализ угроз Office 365 и портала защиту от угроз дополнительные Защитника Windows.
+- Вам необходим доступ к Microsoft Office 365 Threat Intelligence и порталу Advanced Threat Protection в Защитнике Windows.
     
-## <a name="to-integrate-office-365-threat-intelligence-with-windows-defender-atp"></a>Чтобы интегрировать анализ угроз Office 365 с ATP Защитника Windows
+## <a name="to-integrate-office-365-threat-intelligence-with-windows-defender-atp"></a>Интеграция службы анализа угроз Office 365 с помощью пакета ATP для защитника Windows
 
-Интеграция анализ угроз Office 365 с защитой расширенного Защитник Windows настраивается с помощью обоих безопасности Office 365 & центра соответствия требованиям и портала защиту от угроз дополнительные Защитника Windows.
+Интеграция службы контроля угроз Office 365 с помощью Advanced Threat Protection в Защитнике Windows настраивается с помощью центра безопасности Office 365 _Амп_ соответствие требованиям и портала Advanced Threat Protection в Защитнике Windows.
   
-1. Как глобальный администратор Office 365 или администратор безопасности, перейдите к [https://protection.office.com](https://protection.office.com) и войдите с работы или школы учетную запись на Office 365. 
+1. Как глобальный администратор Office 365 или администратор безопасности перейдите к [https://protection.office.com](https://protection.office.com) рабочей или учебной учетной записи для Office 365 с помощью рабочей или учебной учетной записи. 
     
-2. Выберите **Threat management** \> **Explorer**.<br>![Explorer в меню Threat Management](media/ThreatMgmt-Explorer-nav.png)<br>
+2. Выберите **Обозреватель** **управления** \> угрозами.<br>![Проводник в меню "Управление угрозами"](media/ThreatMgmt-Explorer-nav.png)<br>
     
-3. В правом верхнем углу экрана выберите **Параметры WDATP**.
+3. В правом верхнем углу экрана выберите **Параметры вдатп**.
     
-4. В диалоговом окне подключения к ATP Защитник Windows преобразовать на подключение к Windows ATP.<br>![Подключение ATP Защитника Windows](media/Explorer-WDATPConnection-dialog.png)<br>
+4. В диалоговом окне Подключение ATP для защитника Windows включите параметр подключиться к Windows ATP.<br>![Подключение ATP для защитника Windows](media/Explorer-WDATPConnection-dialog.png)<br>
     
-5. Разрешить подключения в защиту от угроз дополнительные Защитника Windows. Показано [Использование портала защиту от угроз дополнительные Защитника Windows](https://go.microsoft.com/fwlink/?linkid=859690).
+5. Включите подключение в Advanced Threat Protection в Защитнике Windows. [Используйте портал Advanced Threat Protection в Защитнике Windows](https://go.microsoft.com/fwlink/?linkid=859690).
 
   
 ## <a name="related-topics"></a>Связанные статьи

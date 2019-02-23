@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-analytics
 description: Краткое описание API действий управления Office 365.
-ms.openlocfilehash: ca5517d3049830cd7be912b2e2e47a34a866aca0
-ms.sourcegitcommit: c94cb88a9ce5bcc2d3c558f0fcc648519cc264a2
+ms.openlocfilehash: df90eba0d019a862d4699f3e2aa0a04e88b0c371
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30090562"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30214579"
 ---
 # <a name="office-365-management-activity-api"></a>API действий управления Office 365
 Корпорация Майкрософт предоставляет службы отчетов, которые позволяют администраторам получать объединенные сведения о транзакциях о своем клиенте Office 365. В [API действий управления Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-apis-overview) для проверки подлинности используется стандартная схема RESTful и OAuth v2 для проверки подлинности, что упрощает эксперименты с извлечением данных и их использованием в средствах и приложениях для визуализации. API предоставляет канал данных, включающий сведения о пользователях, администраторах, операциях и действиях по обеспечению безопасности в Office 365. Данные можно хранить в соответствии с нормативными требованиями или в сочетании с данными журналов, полученными из локальной инфраструктуры или других источников, для создания решения мониторинга для операций, безопасности и соответствия требованиям в Организации.

@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Сводка. объяснение того, как Майкрософт отслеживает и тестирует границы клиентов для Office 365.
-ms.openlocfilehash: 25b6f713d766b4b12e1c250b54421ad99dff8a1c
-ms.sourcegitcommit: c94cb88a9ce5bcc2d3c558f0fcc648519cc264a2
+ms.openlocfilehash: fce217bfcb5fec1ba3fb6da70eb6f9da9a2c1d44
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30090941"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30221099"
 ---
 # <a name="monitoring-and-testing-tenant-boundaries"></a>Мониторинг и тестирование границ клиента
 Корпорация Майкрософт постоянно отслеживает слабые места и уязвимости в границах клиента, в том числе мониторинг для вторжения, попыток нарушения разрешений и нехватка ресурсов. Кроме того, мы используем несколько внутренних систем для непрерывного отслеживания неуместного использования ресурсов, который, при обнаружении, активирует встроенное регулирование.

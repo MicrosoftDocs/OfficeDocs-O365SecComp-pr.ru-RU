@@ -6,89 +6,89 @@ manager: laurawi
 ms.date: 4/17/2018
 ms.audience: Admin
 ms.topic: hub-page
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
-description: Главная страница для защиты доступа к данным O365 и служб
-ms.openlocfilehash: 652a14c5f1f29187aeac51355e7a924c9378806f
-ms.sourcegitcommit: 15dfa0c83aa88816c18e30a44a49e36e733d952c
+description: Целевая страница для защиты доступа к данным и службам O365
+ms.openlocfilehash: 95933c5a7bc95f9fd70e8f3470055b57193971d4
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "24011281"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30213539"
 ---
 # <a name="protect-access-to-data-and-services-in-office-365"></a>Защита доступа к данным и службам в Office 365
 
-Защита доступа к данным Office 365 и службы важно защита от атаки через Интернет и защита от потери данных. Те же средства защиты может применяться к другим приложениям SaaS в вашей среде и опубликован даже для локальных приложений с Azure Active Directory приложения прокси.
+Защита доступа к данным и службам Office 365 важна для защиты от кибератак-атак и защиты от потери данных. Одни и те же защиты можно применять к другим приложениям SaaS в среде и даже к локальным приложениям, публикуемым с помощью прокси-сервера приложения Azure Active Directory.
   
-## <a name="step-1-review-recommendations"></a>Шаг 1: Ознакомления с рекомендациями
+## <a name="step-1-review-recommendations"></a>Шаг 1: проверка рекомендаций
 
 Рекомендуемые возможности для защиты удостоверений и устройств, имеющих доступ к Office 365 и отличных от SaaS-служб и локальных приложений, которые опубликованы с помощью прокси приложения Azure AD.
   
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=841656) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=841657) | [Другие языки](https://www.microsoft.com/download/details.aspx?id=55032)
   
-## <a name="step-2-configure-mfa"></a>Шаг 2: Настройка многофакторной проверкой Подлинности
+## <a name="step-2-configure-mfa"></a>Шаг 2: Настройка MFA
 
-Используйте следующие ресурсы для сориентироваться самостоятельно многофакторной проверкой Подлинности, решить, какую версию, а затем планировании и развертывании многофакторной проверкой Подлинности для вашей среды.
+Используйте эти ресурсы для ориентации себя на MFA, выберите нужную версию, а затем запланируйте и разверните MFA для своей среды.
   
 - [Что такое многофакторная проверка подлинности Azure?](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication)
     
-- [Выберите решение многофакторная проверка подлинности Azure](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started)
+- [Выбор решения многофакторной проверки подлинности Azure](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started)
     
-- [Как получить многофакторная проверка подлинности Azure](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-versions-plans)
+- [Получение многофакторной проверки подлинности Azure](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-versions-plans)
     
-- [Планирование для многофакторной проверки подлинности для развертываний Office 365](https://support.office.com/article/043807b2-21db-4d5c-b430-c8a6dee0e6ba)
+- [Планирование многофакторной проверки подлинности для развертываний Office 365](https://support.office.com/article/043807b2-21db-4d5c-b430-c8a6dee0e6ba)
     
 - [Настройка многофакторной проверки подлинности для пользователей Office 365](https://support.office.com/article/8f0454b2-f51a-4d9c-bcde-2c48e41621c6)
     
-- [Планирование места развертывания многофакторной проверкой Подлинности, облако или локальный](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started)
+- [Планирование развертывания MFA, облака или локальной](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started)
     
-- [Настройка параметров многофакторная проверка подлинности Azure](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-whats-next)
+- [Настройка параметров многофакторной проверки подлинности Azure](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-whats-next)
     
-## <a name="step-3-enforce-mfa-with-azure-ad-conditional-access-rules"></a>Шаг 3: Обеспечение многофакторной проверкой Подлинности с помощью правил условного доступа Azure AD
+## <a name="step-3-enforce-mfa-with-azure-ad-conditional-access-rules"></a>Шаг 3: принудительное применение MFA с правилами условного доступа Azure AD
 
-При использовании многофакторной проверкой Подлинности Azure AD создания правила условного доступа для поддержки требования многофакторной проверкой Подлинности для доступа к Office 365 и других приложений SaaS в вашей среде.
+Если вы используете Azure AD для Azure, создайте правило условного доступа, чтобы оно требовало использования MFA для доступа к Office 365 и другим приложениям SaaS в вашей среде.
   
-- [Условное доступа в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal)
+- [Условный доступ в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal)
     
-## <a name="step-4-configure-privileged-access-management"></a>Шаг 4: Настройка управления правами доступа
+## <a name="step-4-configure-privileged-access-management"></a>Шаг 4: Настройка управления привилегированным доступом
 
-Привилегированный доступ управления позволяет управлять детального доступа задачи правами администратора в Office 365.  Он может помочь защитить организацию от нарушения безопасности, которые могут использовать существующие учетные записи с правами администратора с положение доступа к конфиденциальным данным или доступ к параметрам конфигурации важных.
+Управление привилегированным доступом позволяет осуществлять детализированный контроль над задачами привилегированного администрирования в Office 365.  Это помогает защитить организацию от нарушений, которые могут использовать существующие привилегированные учетные записи администраторов с ограниченным доступом к конфиденциальным данным или к критическим параметрам конфигурации.
 
-- [Общие сведения о полномочиями доступ к управлению](privileged-access-management-overview.md)
-- [Настройка управления правами доступа](privileged-access-management-configuration.md)
+- [Общие сведения об управлении привилегированным доступом](privileged-access-management-overview.md)
+- [Настройка управления привилегированным доступом](privileged-access-management-configuration.md)
 
-## <a name="step-5-configure-sharepoint-device-access-policies"></a>Шаг 5: Настройка политик доступа устройства SharePoint
+## <a name="step-5-configure-sharepoint-device-access-policies"></a>Шаг 5: Настройка политик доступа к устройствам SharePoint
 
-Для защиты конфиденциальных секретная и регулируемого данных рекомендуется использовать политики доступа устройств для SharePoint Online и OneDrive для бизнеса. Готовится к выпуску — это возможность применения политик доступа устройств к сайтам отдельные группы.
+Политики доступа к устройствам для SharePoint Online и OneDrive для бизнеса рекомендуются для защиты конфиденциальных, классифицированных и регулируемых данных. Появилась возможность применять политики доступа к устройствам к отдельным сайтам групп.
   
 - [Управление доступом с неуправляемых устройств](https://support.office.com/article/Control-access-from-unmanaged-devices-5ae550c4-bd20-4257-847b-5c20fb053622?ui=en-US&amp;rs=en-US&amp;ad=US)
     
-## <a name="step-6-configure-app-and-data-protection-for-devices"></a>Шаг 6: Настройте приложения и защиты данных для устройств
+## <a name="step-6-configure-app-and-data-protection-for-devices"></a>Шаг 6: Настройка защиты приложений и данных для устройств
 
-Можно управлять приложениями на мобильных устройствах, независимо от того, ли участвуют устройств для мобильных устройств management. Это обеспечивает защиту от случайного утечки данных в Office 365, включая электронную почту и файлы.
+Вы можете управлять приложениями на мобильных устройствах независимо от того, зарегистрированы ли устройства для управления мобильными устройствами. Это обеспечивает защиту от случайного утечки данных в Office 365, в том числе почты и файлов.
   
-- Для операций ввода-вывода и Android: [защитить данные приложения с помощью политики в отношении защиты приложений с помощью Microsoft Intune](https://docs.microsoft.com/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)
+- Для iOS и Android: [Защита данных приложений с помощью политик защиты приложений с помощью Microsoft Intune](https://docs.microsoft.com/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)
     
-Для Windows 10 настройте сведения о защите Windows (НЗП) для предотвращения случайного данных утечек.
+Для Windows 10 настройте Windows Information Protection (WIP), чтобы предотвратить случайные утечки данных.
   
-- Для управляемых устройств: [Создание защиты информации Windows (НЗП) с политикой регистрации с помощью Azure портала Microsoft Intune](https://docs.microsoft.com/windows/threat-protection/windows-information-protection/create-wip-policy-using-intune-azure)
+- Для управляемых устройств: [Создание Windows Information Protection (WIP) с политикой регистрации с помощью портала Azure для Microsoft Intune](https://docs.microsoft.com/windows/threat-protection/windows-information-protection/create-wip-policy-using-intune-azure)
     
-- Отмена управляемых устройств: [Создание и развертывание политики защиты от приложения Windows сведения о защите (НЗП) с Intune](https://docs.microsoft.com/intune/windows-information-protection-policy-create)
+- Для неуправляемых устройств: [Создание и развертывание политики защиты приложений Windows Information Protection (WIP) с помощью Intune](https://docs.microsoft.com/intune/windows-information-protection-policy-create)
     
-## <a name="step-7-manage-devices-with-intune"></a>Шаг 7: Управление устройствами с Intune
+## <a name="step-7-manage-devices-with-intune"></a>Шаг 7: Управление устройствами с помощью Intune
 
-Управление устройствами позволяет убедиться в их работоспособности перед тем как разрешить доступ к ресурсам в вашей среде. Устройства на основе правил гарантировать, что злоумышленники не может получить доступ к ресурсам с неуправляемых устройств условного доступа.
+Управление устройствами позволяет убедиться, что они являются работоспособными и совместимыми, прежде чем разрешить им доступ к ресурсам в вашей среде. Правила условного доступа на основе устройств гарантируют, что злоумышленники не смогут получить доступ к ресурсам из неуправляемых устройств.
   
 - [Регистрация устройств для управления в Intune](https://docs.microsoft.com/intune-classic/deploy-use/enroll-devices-in-microsoft-intune)
     
-## <a name="step-8-configure-additional-intune-policies-and-conditional-access-rules-for-your-environment"></a>Шаг 8: Настройка дополнительных политик Intune и правила условного доступа для вашей среды
+## <a name="step-8-configure-additional-intune-policies-and-conditional-access-rules-for-your-environment"></a>Шаг 8: Настройка дополнительных политик Intune и правил условного доступа для среды
 
-Используйте эти рекомендуемые конфигурации в качестве отправной точки для масштаба предприятия или доступа сложных сценариев обеспечения безопасности.
+Используйте эти Рекомендуемые конфигурации в качестве отправной точки для сценариев масштаба предприятия или сложных сценариев безопасности доступа.
   
-- [Политики защиты электронной почты и конфигурации](https://docs.microsoft.com/azure/active-directory/secure-email-introduction)
+- [Безопасные политики электронной почты и конфигурации](https://docs.microsoft.com/azure/active-directory/secure-email-introduction)
     
 
