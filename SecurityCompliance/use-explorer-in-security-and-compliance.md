@@ -12,14 +12,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
 description: Сведения о проводнике (также называемом обозревателе угроз) в центре &amp; безопасности и соответствия требованиям.
-ms.openlocfilehash: 439a7d53e185e12ddd5d2e19b9d88bd8c9b47dad
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 4a28626d0e643d7a7b96a34656e7678c71a86c66
+ms.sourcegitcommit: 1c73c2f83703af0a30a5b0633db00d8e0e6b39b5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218989"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "30241971"
 ---
 # <a name="use-explorer-in-the-security-amp-compliance-center"></a>Использование проводника в центре безопасности &amp; и соответствия требованиям
 
@@ -126,7 +127,7 @@ Explorer включен в [Office 365 Threat Intelligence](office-365-ti.md).
 
 Для просмотра и использования проводника необходимо иметь соответствующие разрешения, такие как предоставленные администратору безопасности или средству чтения безопасности. Чтобы узнать больше, ознакомьтесь с разРешениями [в центре &amp; безопасности и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md).
   
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Связанные разделы
 
 [Отчеты и аналитика в центре безопасности &amp; и соответствия требованиям Office 365](reports-and-insights-in-security-and-compliance.md)
   

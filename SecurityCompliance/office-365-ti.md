@@ -12,14 +12,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 32405da5-bee1-4a4b-82e5-8399df94c512
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
 description: Узнайте, как функции интеллектуального анализа угроз в Advanced Threat protection помогают находить угрозы в Организации, отвечать на вредоносные программы, фишингы и другие атаки, обнаруженные в Office 365 от вашего имени, и искать индикаторы угроз.
-ms.openlocfilehash: a55a17bae141c394ba01e1526615c5c1687340a2
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 81a986c4b47d740313356b22fd1c23bd5e472a24
+ms.sourcegitcommit: 1c73c2f83703af0a30a5b0633db00d8e0e6b39b5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216559"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "30241932"
 ---
 # <a name="office-365-threat-intelligence"></a>Office 365 Threat Intelligence
 
@@ -64,7 +65,7 @@ ms.locfileid: "30216559"
     
 - [Интеграция Threat Intelligence с Advanced Threat Protection в Защитнике Windows](integrate-office-365-ti-with-wdatp.md)
     
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Связанные разделы
 
 [Защита от угроз в Office 365](protect-against-threats.md)
   

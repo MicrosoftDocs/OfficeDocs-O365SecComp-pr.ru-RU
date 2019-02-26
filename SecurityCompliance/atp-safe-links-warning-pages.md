@@ -11,20 +11,18 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: fc4e6ebb-5acc-4bc5-bad8-4f3407d1d3f4
-ms.collection:
-- M365-security-compliance
 description: Получите обзор страниц предупреждений, которые могут отображаться при работе с Office 365 Advanced Threat protection.
-ms.openlocfilehash: c854b32b3750f2ccd71e1d66f9dc8f8c54564f08
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: e11592c5db0909171627cd163593d7e49cc6a5de
+ms.sourcegitcommit: 5b5bbced1577701bdb6befc8ed252e9d9e776529
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30217149"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "30245595"
 ---
 # <a name="office-365-atp-safe-links-warning-pages"></a>Страницы предупреждений для безОпасных ссылок на Office 365 ATP
 
 > [!IMPORTANT]
-> Эта статья предназначена для корпоративных клиентов. Если вы являетесь домашним пользователем, который ищет сведения о безОпасных ссылках в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
+> Эта статья предназначена для корпоративных клиентов Office 365. Если вы используете Outlook.com, Office 365 Home или Office 365 Personal, а вы ищете сведения о безОпасных ссылках в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 [Office 365 Advanced Threat protection](office-365-atp.md) (ATP) помогает защитить организацию от фишинговых атак и вредоносных программ с помощью функций, таких как [безопасные ссылки ATP](atp-safe-links.md), [безопасные вложения ATP](atp-safe-attachments.md)и [Защита от фишинга](anti-phishing-protection.md). При наличии защиты проверяются ссылки (URL-адреса) в сообщениях электронной почты и документах Office. Если URL-адрес определен как подозрительный или вредоносный, при щелчке этого URL-адреса может быть заблокировано открытие этого URL-адреса. Вместо того чтобы переходить непосредственно на сайт, может отображаться страница предупреждения. 
   

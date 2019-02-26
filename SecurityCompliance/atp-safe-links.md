@@ -22,19 +22,19 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: Функция "безопасные ссылки" обеспечивает проверку гиперссылок в документах Office и в сообщениях электронной почты. Используйте безопасные ссылки, чтобы защитить организацию от фишинга и других атак.
-ms.openlocfilehash: 3de79ec42a0d9534f93711741cb8427a0cde9fb1
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 4ae125d5a7bf8f98a87c4edb9e93e32a9b256420
+ms.sourcegitcommit: 5b5bbced1577701bdb6befc8ed252e9d9e776529
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214059"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "30245615"
 ---
 # <a name="office-365-atp-safe-links"></a>Безопасные ссылки Office 365 ATP
 
 ## <a name="overview-of-office-365-atp-safe-links"></a>Обзор безОпасных ссылок на Office 365 ATP
 
 > [!IMPORTANT]
-> Эта статья предназначена для корпоративных клиентов. Если вы являетесь домашним пользователем, который ищет сведения о безОпасных ссылках в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
+> Эта статья предназначена для корпоративных клиентов Office 365. Если вы используете Outlook.com, Office 365 Home или Office 365 Personal, а вы ищете сведения о безОпасных ссылках в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 Office 365 ATP Safe Links (часть [Advanced Threat protection](office-365-atp.md)) помогает защитить организацию, предоставляя время на проверку веб-адресов (URL-адресов) в сообщениях [электронной почты](#how-atp-safe-links-works-with-email) и [документах Office](#how-atp-safe-links-works-with-office-documents). Защита определяется с помощью [политик безопасных ссылок ATP](set-up-atp-safe-links-policies.md) , которые задаются группой безопасности Office 365. 
   

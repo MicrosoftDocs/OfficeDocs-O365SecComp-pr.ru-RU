@@ -12,14 +12,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
 description: Узнайте, как использовать логику операций с угрозами для поиска и изучения вредоносных сообщений электронной почты.
-ms.openlocfilehash: adf4066b5119f131b90dc88b99be4011582931c2
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: d5b08338bc0a3a6a88ea498861ab9e27522b759d
+ms.sourcegitcommit: 1c73c2f83703af0a30a5b0633db00d8e0e6b39b5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215499"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "30241911"
 ---
 # <a name="find-and-investigate-malicious-email-that-was-delivered-office-365-threat-intelligence"></a>Поиск и исследование вредоносных сообщений электронной почты, которые были доставлены (Office 365 Threat Intelligence)
 
@@ -67,7 +68,7 @@ ms.locfileid: "30215499"
     
 9. Чтобы применить действие (например, **переместиться к удаленным** элементам), используйте список " **+ Actions** ". Это приведет к удалению выбранных сообщений из почтовых ящиков получателей.<br/>![При выборе одного или нескольких сообщений электронной почты можно выбрать один из нескольких доступных действий](media/ef12e10c-60a7-4f66-8f76-68d77ae26de1.png)
   
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Связанные разделы
 
 [Office 365 Threat Intelligence](office-365-ti.md)
   

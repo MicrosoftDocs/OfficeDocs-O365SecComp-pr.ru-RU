@@ -12,14 +12,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
 description: Узнайте, как найти и использовать отчеты о безопасности электронной почты для вашей организации в Office 365 корпоративный. Отчеты о безопасности электронной почты доступны в центре &amp; безопасности и соответствия требованиям.
-ms.openlocfilehash: 809bfbdfdda8bd1ed9b88c9bca7e9ce14d774868
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: fb9f8234f1febf98daf0382f2ad8ece3e3ecbbfe
+ms.sourcegitcommit: 1c73c2f83703af0a30a5b0633db00d8e0e6b39b5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216419"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "30242001"
 ---
 # <a name="view-email-security-reports-in-the-security-amp-compliance-center"></a>Просмотр отчетов о безопасности электронной почты в &amp; центре безопасности и соответствия требованиям
 
@@ -201,7 +202,7 @@ ms.locfileid: "30216419"
 
 Если вы не видите данные в отчетах, дважды проверьте правильность настройки политик. Чтобы узнать больше, ознакомьтесь с разпрограммным обеспечением защиты от нежелательной [почты и вредоносных программ в Office 365](anti-spam-and-anti-malware-protection.md).
   
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Связанные разделы
 
 [Защита от спама электронной почты в Office 365](anti-spam-protection.md)
   
