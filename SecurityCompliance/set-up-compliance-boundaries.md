@@ -7,18 +7,20 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: Используйте границы соответствия требованиям для создания логических границ в организации Office 365, которые управляют расположениями пользователей, которые диспетчер обнаружения электронных данных может выполнять поиск. Ограничения на соответствие требованиям — фильтрация разрешений на поиск (также называемая фильтрами безопасности соответствия) для управления почтовыми ящиками, сайтами SharePoint и учетными записями OneDrive для поиска определенных пользователей.
-ms.openlocfilehash: ce7c00130312abab4d4d91fcf04590c109741f26
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 2671711d5b37f9f0f8793bb528741dc7b6d05680
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218170"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30296432"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations-in-office-365"></a>Настройка границ соответствия для расследований дел обнаружения электронных данных в Office 365
 

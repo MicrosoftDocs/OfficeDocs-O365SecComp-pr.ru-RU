@@ -1,7 +1,7 @@
 ---
 title: ПоШаговое руководство по подделке для анализа
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 ms.date: 7/30/2018
 ms.audience: ITPro
 ms.topic: overview
@@ -11,13 +11,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 59a3ecaf-15ed-483b-b824-d98961d88bdd
+ms.collection:
+- M365-security-compliance
 description: Узнайте, как работает новая аналитика подделки.
-ms.openlocfilehash: 83fa1580a0e7c4717581cc5f23b8f525d6b918e0
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 4303b8f2524e6722e7febbbd06ab9daa853ed802
+ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220329"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30275919"
 ---
 # <a name="walkthrough-spoof-intelligence-insight"></a>ПоШаговое руководство: аналитика подделки
 
@@ -85,7 +87,7 @@ ms.locfileid: "30220329"
   
 Это приводит к изменению пары доменных комбинаций поддельного домена и отправляющей инфраструктуры и не обеспечивает покрытие для всего поддельного домена или инфраструктуры отправки в изоляции. Например, если добавить следующую доменную связь в список разрешенных отправителей "Алловедтоспуф": подДельный *домен* "Gmail.com" и *отправляющий инфраструктуру* "TMS *. MX.com",* то подменить только почтовые сообщения из этой доменной области. Другие отправители, пытающиеся подделывать "gmail.com", и другие домены, которые "tms.mx.com" пытаются подменить, по-прежнему будут защищаться службой подделки. 
   
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Связанные разделы
 
 [Дополнительные сведения об аналитической защите от подделок](learn-about-spoof-intelligence.md)
   

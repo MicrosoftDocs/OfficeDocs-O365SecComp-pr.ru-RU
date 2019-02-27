@@ -15,12 +15,12 @@ ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 ms.collection:
 - M365-security-compliance
 description: Сведения о параметрах и фильтрах защиты от нежелательной почты, которые помогут предотвратить нежелательную почту в Exchange Online и Office 365. Получение слишком большого количества спама в Office 365? Вы можете настроить фильтры нежелательной почты и параметры политики защиты от нежелательной почты.
-ms.openlocfilehash: 2d8f433cabda4408da2e29b7bc6570e09e6989dd
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.openlocfilehash: f4d32bb0efae0a38fdc6789feef73bd5014eb75b
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30223428"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30296322"
 ---
 # <a name="office-365-email-anti-spam-protection"></a>Защита от нежелательной почты в Office 365
 
@@ -75,7 +75,7 @@ ms.locfileid: "30223428"
   
 [Предотвращение ложных срабатываний фильтра нежелательной почты с помощью списка надежных отправителей или других средств](prevent-email-from-being-marked-as-spam-0.md)
   
-[Настройка фильтрации нежелательной почты в Office 365 для блокирования нежелательных сообщений](block-email-spam-to-prevent-false-negatives.md)
+[Настройка фильтрации нежелательной почты в Office 365 для блокирования нежелательных сообщений](reduce-spam-email.md)
   
 [В чем разница между неЖелательной почтой и групповой почтой?](https://technet.microsoft.com/library/dn720441%28v=exchg.150%29.aspx)
   

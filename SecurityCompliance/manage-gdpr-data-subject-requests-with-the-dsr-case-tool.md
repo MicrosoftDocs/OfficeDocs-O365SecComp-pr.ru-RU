@@ -10,15 +10,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
-ms.collection: Strat_O365_IP
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
 ms.assetid: ce9eb942-3589-42cb-88fd-1576ecb09c5c
 description: GDPR предоставляет пользователям страны ЕС (называемые субъектами данных) определенные права на их персональные данные; Эти права включают в себя получение копий, запрос на изменение, запрет на его обработку, удаление или получение в электронном формате. Формальный запрос субъекта данных на выполнение действий с их личными данными называется запросом субъекта данных или КОММУТАТОРом DSR. Вы можете использовать варианты DSR в центре безопасности &amp; Office 365, чтобы управлять РАССЛЕДОВАНИЯми коммутатора в Организации.
-ms.openlocfilehash: 8338ca2eed4f5120571f642a1cbb4408ce36e2c3
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: fe702ab9050e76b6b8f00fbc8d2670505a030756
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30213499"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30296592"
 ---
 # <a name="manage-gdpr-data-subject-requests-with-the-dsr-case-tool-in-the-office-365-security-amp-compliance-center"></a>Управление запросами субъектов данных GDPR с помощью средства DSR case в центре безопасности &amp; и соответствия требованиям Office 365
 

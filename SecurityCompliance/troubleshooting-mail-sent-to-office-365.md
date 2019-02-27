@@ -1,7 +1,7 @@
 ---
 title: Устранение неполадок с отправкой почты в Office 365
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 5/2/2016
 ms.audience: ITPro
@@ -12,13 +12,15 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: f4caa4e1-e414-4b21-8822-31c08064c059
+ms.collection:
+- M365-security-compliance
 description: В этой статье приведены сведения об устранении неполадок при отправке почты в почтовые ящики в Office 365 и рекомендации по массовой рассылке почты клиентам Office 365.
-ms.openlocfilehash: 3d90da9ac239971fd888ed3b8637ba9941628fc2
-ms.sourcegitcommit: 031781d0eecf33baabcd03ea53546d41076062b4
+ms.openlocfilehash: cfb3901b930b63ef8a33391c673a32a73eaa1b07
+ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240562"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30276299"
 ---
 # <a name="troubleshooting-mail-sent-to-office-365"></a>Устранение неполадок с отправкой почты в Office 365
 
@@ -115,7 +117,7 @@ ms.locfileid: "27240562"
 ### <a name="i-cant-receive-email-from-senders-in-office-365"></a>Я не получаю почту от пользователей Office 365
 <a name="AllowEOPIPs"> </a>
 
- Для получения сообщений из наших пользователей, убедитесь, что сеть используется для подключений из IP-адресов, которые использует EOP в нашем центров обработки данных. Дополнительные сведения см в [Exchange Online Protection IP-адреса](eop/exchange-online-protection-ip-addresses.md). 
+ Чтобы получать сообщения от наших пользователей, убедитесь, что сеть разрешает подключения с IP-адресов, которые EOP использует в наших центрах обработки данных. Для получения дополнительных сведений обратитесь к разделу [IP-адреса Exchange Online Protection](eop/exchange-online-protection-ip-addresses.md). 
   
 ## <a name="best-practices-for-bulk-emailing-to-office-365-users"></a>Рекомендации по массовой рассылке почты пользователям Office 365
 <a name="BulkMailer"> </a>

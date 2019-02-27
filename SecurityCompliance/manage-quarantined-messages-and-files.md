@@ -1,7 +1,7 @@
 ---
 title: Управление сообщениями, помещенными в карантин, и файлами в качестве администратора в Office 365
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyp
 manager: laurawi
 ms.date: 09/05/2018
 ms.audience: Admin
@@ -13,13 +13,15 @@ search.appverid:
 - MED150
 - MET150
 ms.assetid: 065cc2cf-2f3a-47fd-a434-2a20b8f51d0c
+ms.collection:
+- M365-security-compliance
 description: 'Как администратор вы можете просматривать, освобождать и сообщать о ложных положительных сообщениях в карантине в Office 365. Вы можете настроить политики таким образом, чтобы Office 365 отфильтровывает сообщения и отправлял их в карантин по нескольким причинам: так как они были идентифицированы как спам, массовые, фишинговые вредоносные программы или так как они согласуются с правилом обработки почтового процесса. '
-ms.openlocfilehash: d62aded09f3560de6ba4485757c1bb5ce3f8cb6d
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 797a2e54d6f0a0b1f0d06bd287dd636988f078b5
+ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30219199"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30276269"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-administrator-in-office-365"></a>Управление сообщениями, помещенными в карантин, и файлами в качестве администратора в Office 365
 

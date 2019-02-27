@@ -8,15 +8,16 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
+ms.collection: M365-security-compliance
 search.appverid: MOE150
 ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
 description: Частично индексированные элементы (Кроме того, вызывают неиндексированные элементы) — это элементы почтовых ящиков Exchange и документы на сайтах SharePoint и OneDrive, по которым не удалось полностью индексироваться для поиска контента. В этой статье рассказывается, почему не удается индексировать элементы для поиска и возвращаются как частично индексированные элементы, Идентифицируйте ошибки поиска для частично индексированных элементов и используйте скрипт PowerShell для определения экспозиции Организации с частично индексированной электронной почтой. Недавние.
-ms.openlocfilehash: d9137ba4095d6e16d4525a24141d82bc6143d8b5
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: d8fec240964ad84b811221754060af3e342af01f
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220979"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30295632"
 ---
 # <a name="investigating-partially-indexed-items-in-office-365-ediscovery"></a>Исследование частично индексированных элементов в функции обнаружения электронных данных в Office 365
 

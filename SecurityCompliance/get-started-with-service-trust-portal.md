@@ -8,15 +8,16 @@ ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid: MET150
+mscollection: M365-security-compliance
 ms.custom: Adm_O365
 ms.assetid: f30e2353-0bd6-41ed-8347-eea1fb8d2662
 description: Для получения отчетов о соответствии сторонних производителей для Office 365, Azure и Dynamics 365 Online, а также для получения информации о том, как корпорация Майкрософт обеспечивает безопасность данных клиентов и как вы можете соответствовать стандартам ISO, HIPAA, NIST, ФИНРА, GDPR и FedRAMP при использовании этих веб-служб.
-ms.openlocfilehash: 6a34fd325934d76271f5ce3a4d760580de830457
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: e4b3d1497b2dcf3a079dbe60f742e902ab45544c
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220259"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30296692"
 ---
 # <a name="get-started-with-the-microsoft-service-trust-portal"></a>Начало работы с Microsoft Service Trust Portal
 
@@ -28,7 +29,7 @@ ms.locfileid: "30220259"
   
 **Существующие клиенты могут получить доступ к порталу доверия службы** по [https://aka.ms/STP](https://aka.ms/STP) одной из следующих интерактивных подписок (пробная или платная): 
   
-- Office 365
+- Office 365
 
 - Dynamics 365
 

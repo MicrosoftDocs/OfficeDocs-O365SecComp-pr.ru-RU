@@ -1,7 +1,7 @@
 ---
 title: Дополнительные сведения об аналитике спуфинга
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 10/22/2018
 ms.audience: Admin
@@ -12,13 +12,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 978c3173-3578-4286-aaf4-8a10951978bf
+ms.collection:
+- M365-security-compliance
 description: Используйте аналитику подделки в &amp; центре безопасности и соответствия требованиям на странице Параметры защиты от нежелательной почты, чтобы просмотреть всех отправителей, которые подделывать домены, являющиеся частью Организации, или подменить внешние домены. Аналитика подДелки доступна в составе Office 365 Enterprise, а также в рамках расширенной защиты от угроз и Exchange Online Protection.
-ms.openlocfilehash: b8c791dc47198fa0da08dec1de6fdab8ebfbdb32
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: fe963371326628e44593cc3f586c744de91e5e4d
+ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214841"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30276169"
 ---
 # <a name="learn-more-about-spoof-intelligence"></a>Дополнительные сведения об аналитике спуфинга
 

@@ -1,7 +1,7 @@
 ---
 title: Сведения об устаревших продуктах для службы шифрования сообщений Office 365
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 1/4/2018
 ms.audience: ITPro
@@ -11,13 +11,15 @@ localization_priority: None
 search.appverid:
 - MET150
 ms.assetid: 5986b9e1-c824-4f8f-9b7d-a2b0ae2a7fe9
+ms.collection:
+- M365-security-compliance
 description: Если вы еще не переместили организацию Office 365 в новые возможности OME, но вы уже развернули OME, то сведения, приведенные в этой статье, применимы к вашей организации. Корпорация Майкрософт рекомендует создавать план для перехода на новые возможности OME, как только она будет приемлема для вашей организации. Инструкции приведены в разделе Настройка новых возможностей шифрования сообщений Office 365, созданных на основе Azure Information Protection. Если вы хотите узнать больше о том, как новые возможности работают первыми, ознакомьтесь со статьей Office 365 Message encryption. В оставшейся части этой статьи рассматривается поведение OME перед выпуском новых возможностей OME.
-ms.openlocfilehash: 1f809ca996f072269f40bcb6c7ce6f7a420cccb1
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: f6e407208735a53b98033e58a6f7b36fe9a37f62
+ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30219259"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30276069"
 ---
 # <a name="legacy-information-for-office-365-message-encryption"></a>Сведения об устаревших продуктах для службы шифрования сообщений Office 365
 

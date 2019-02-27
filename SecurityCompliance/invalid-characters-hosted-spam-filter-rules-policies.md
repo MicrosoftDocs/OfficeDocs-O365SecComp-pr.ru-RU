@@ -1,7 +1,7 @@
 ---
-title: Избегайте недопустимые символы в вашей правил фильтрации нежелательной почты и политики фильтрации нежелательной почты
-ms.author: krowley
-author: kccross
+title: Предотвращение недопустимых символов в правилах фильтрации нежелательной почты и политики фильтрации нежелательной почты
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 9/24/2018
 ms.audience: ITPro
@@ -10,40 +10,42 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
-description: Содержит справочную информацию для администраторов, которые имеют недопустимые символы в их конфигурации защиты от нежелательной почты и работе возникли проблемы при попытке использовать безопасности &amp; центре соответствия требованиям.
-ms.openlocfilehash: ca409b4daa7bec01417adb7cbfdfa2a128929e81
-ms.sourcegitcommit: c168410974bc90aaf55f1dcaa9e05c09b2b78d76
+ms.collection:
+- M365-security-compliance
+description: Предоставляет справочные сведения для администраторов, которые имеют недопустимые символы в конфигурации защиты от нежелательной почты и могут выполнять проблемы &amp; при попытке использовать центр обеспечения безопасности.
+ms.openlocfilehash: 90cf89d019a34658b676f02baa84c70f27200262
+ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25018738"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30276082"
 ---
-# <a name="avoid-invalid-characters-in-your-spam-filter-rules-and-spam-filter-policy"></a>Избегайте недопустимые символы в правилах фильтра нежелательной почты и политики фильтрации нежелательной почты 
+# <a name="avoid-invalid-characters-in-your-spam-filter-rules-and-spam-filter-policy"></a>Предотвращение недопустимых символов в правилах фильтрации нежелательной почты и фильтрации нежелательной почты 
 
-Ранее Office 365 для администраторов и настроив правил фильтрации нежелательной почты и политики фильтрации нежелательной почты с помощью центра администрирования Exchange (EAC). Теперь, используйте безопасности &amp; центре соответствия требованиям для управления конфигурации защиты от нежелательной почты. Следующие символы поддерживаются в центре администрирования Exchange, но не поддерживаются для использования в безопасности &amp; центре соответствия требованиям.  
+Ранее администраторы Office 365 настроили и настроили правила фильтрации нежелательной почты и политики фильтрации нежелательной почты с помощью центра администрирования Exchange. Теперь вы используете центр соответствия требованиям &amp; безопасности для управления конфигурацией защиты от нежелательной почты. В центре администрирования Exchange поддерживались следующие символы, но они не поддерживаются в центре безопасности &amp; и соответствия требованиям.  
 
-**Недопустимые символы:**
+**НеДопустимые символы:**
   
 ```\ % & * + / = ? { } | < > ( ) ; : , [ ] "```
 
-Если ваше правил фильтрации нежелательной почты или политики фильтрации нежелательной почты содержит недопустимые символы, может появиться некоторые или все следующие проблемы:
-- Не удается найти политики или правил в системы &amp; центре соответствия требованиям.
-- Вы можете получить ошибки при попытке получить правила или политики с помощью Windows PowerShell.
-- Может оказаться, что политики или параметры не запустите или как ожидалось.
+Если правила фильтрации нежелательной почты или политика фильтрации нежелательной почты содержат какие – либо из недопустимых символов, могут возникнуть следующие проблемы:
+- Возможно, вы не сможете найти политику или правила в центре безопасности &amp; и соответствия требованиям.
+- При попытке получить правила или политику с помощью Windows PowerShell могут возникать ошибки.
+- Возможно, политика или параметры не работают или не работают должным образом.
 
-## <a name="remove-the-invalid-characters-from-the-spam-filter-policy-and-rules"></a>Удалить недопустимые символы из политики фильтрации нежелательной почты и правила
+## <a name="remove-the-invalid-characters-from-the-spam-filter-policy-and-rules"></a>Удаление недопустимых символов из политики и правил фильтрации нежелательной почты
 
-После определения политики и правила, которые содержат недопустимые символы, можно изменить имена с помощью командлетов Windows PowerShell. 
+После определения политики и правил, содержащих недопустимые символы, их имена можно изменить с помощью командлетов Windows PowerShell. 
 
-1. [Подключение к Exchange Online с помощью удаленной оболочки PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
+1. [Подключитесь к Exchange Online с помощью удаленной оболочки PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
     
-2. Чтобы изменить имя политики фильтрации нежелательной почты, выполните командлет Set-HostedContentFilterPolicy следующим образом:
+2. Чтобы изменить имя политики фильтрации нежелательной почты, выполните командлет Set – HostedContentFilterPolicy следующим образом:
     
     ```
     Set-HostedContentFilterPolicy -Identity "Old policy name" -Name "New policy name"
     ```  
 
-3. Чтобы изменить имя правила фильтрации нежелательной почты, выполните командлет Set-HostedContentFilterRule следующим образом:
+3. Чтобы изменить имя правила фильтрации нежелательной почты, выполните командлет Set – Hostedcontentfilterrule используется следующим образом:
     
     ```
     Set-HostedContentFilterRule -Identity "Old rule name" -Name "New rule name"
@@ -52,8 +54,8 @@ ms.locfileid: "25018738"
   
  ## <a name="for-more-information"></a>Дополнительные сведения
 
-[Угроз управления в системы &amp; центре соответствия требованиям](threat-management.md)
+[Управление угрозами в центре &amp; безопасности и соответствия требованиям](threat-management.md)
   
-[SET-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterpolicy?view=exchange-ps)
+[Set — HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterpolicy?view=exchange-ps)
 
-[SET-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterrule?view=exchange-ps)
+[Set — Hostedcontentfilterrule используется](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterrule?view=exchange-ps)

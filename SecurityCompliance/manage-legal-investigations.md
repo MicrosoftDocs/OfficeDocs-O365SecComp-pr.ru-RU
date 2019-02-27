@@ -4,20 +4,21 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.audience: Admin
-ms.topic: hub-page
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
+ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: 2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e
 description: Используйте случаи обнаружения электронных данных в центре безопасности &amp; Office 365 для управления юридическим исследованием в Организации. Если у вас есть подписка на "а", вы можете проанализировать данные дела с помощью аналитики текста, машинного обучения и прогнозирования возможностей кодирования расширенного обнаружения электронных данных.
-ms.openlocfilehash: 5b3feb16b638235d46f67f6aa16ce49e1e7c11d5
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: b97bd99740e2db090df70af0c76070186f5b8ccf
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214399"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30296902"
 ---
 # <a name="manage-legal-investigations-in-office-365"></a>Управление расследованиями в Office 365
 

@@ -7,16 +7,16 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection: ''
 search.appverid: MOE150
 ms.assetid: 7a150c84-049c-4a9c-8c91-22355b35f2a7
 description: С помощью средства Microsoft PST Collection выполните поиск по сети организации, чтобы получить список PST-файлов, которые размещаются в пределах организации. После того как вы найдете PST-файлы, вы можете использовать средство сбора PST-файлов, чтобы скопировать их в центральном расположении, чтобы их можно было импортировать в Office 365.
-ms.openlocfilehash: 42f192b1a69ee9893df7cc8353b48cd9baabeda7
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 87e13ec8a4c58f848ac2ff7a430a7532942ece74
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216649"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30296962"
 ---
 # <a name="use-the-pst-collection-tool-to-find-copy-and-delete-pst-files-in-your-organization"></a>Поиск, копирование и удаление PST-файлов в Организации с помощью средства сбора PST-файлов
 
@@ -43,7 +43,7 @@ ms.locfileid: "30216649"
     
 5. **[Шаг 5: Удаление PST-файлов, найденных в сети](#step-5-delete-the-pst-files-found-on-your-network)** — после импорта PST-файлов, которые вы нашли и собрали, в почтовые ящики Exchange Online в Office 365 можно использовать средство коллекция PST-файлов для удаления PST-файлов из исходных расположений, где они были найдены на этапе 1. 
 
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Перед началом работы
 
 - Выполните следующие действия, чтобы скачать средство сбора PST-данных на локальный компьютер. 
     

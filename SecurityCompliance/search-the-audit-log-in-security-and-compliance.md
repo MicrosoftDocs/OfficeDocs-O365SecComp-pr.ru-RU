@@ -7,18 +7,20 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Используйте центр соответствия требованиям Office 365 Security _Амп_ для поиска действий пользователей и администраторов в организации Office 365 в едином журнале аудита. '
-ms.openlocfilehash: 5fe4eac59f3e60e75a7452b0dcc51b6b8ca88a5b
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.openlocfilehash: 6cab2a0495b4c4b1976a5c45b898603653568599
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30223768"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30296612"
 ---
 # <a name="search-the-audit-log-in-the-office-365-security--compliance-center"></a>Поиск в журнале аудита в центре безопасности _Амп_ соответствия требованиям Office 365
 
@@ -54,9 +56,11 @@ ms.locfileid: "30223768"
 - Действия пользователей и администраторов в Microsoft Stream
 
 - Действия аналитик и администратора в службе аналитики рабочего места Майкрософт
+
+- Действия пользователей и администраторов в PowerApps
     
    
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Перед началом работы
 
 Прежде чем начать поиск в журнале аудита Office 365, обязательно прочитайте следующие элементы:
   
@@ -295,8 +299,8 @@ ms.locfileid: "30223768"
 |[Действия по администрированию приложений](#application-administration-activities) <br/> |[Действия по администрированию ролей](#role-administration-activities) <br/> |[Действия по администрированию каталогов](#directory-administration-activities) <br/> |
 |[действия обнаружения электронных данных](#ediscovery-activities) <br/> |[Действия Power BI](#power-bi-activities) <br/> |[Аналитика рабочего места Майкрософт](#microsoft-workplace-analytics-activities)<br/>|
 [Действия Microsoft Teams](#microsoft-teams-activities) <br/> |[Действия Yammer](#yammer-activities) <br/> |[Microsoft Flow](#microsoft-flow) <br/> 
-|[Microsoft Stream](#microsoft-stream) <br/>|[Действия администратора Exchange](#exchange-admin-audit-log)<br/>
-||||
+|[Microsoft PowerApps](#microsoft-powerapps)<br/>|[Microsoft Stream](#microsoft-stream) <br/>|[Действия администратора Exchange](#exchange-admin-audit-log)<br/>|
+|||
    
   
 ### <a name="file-and-page-activities"></a>Действия с файлами и страницами
@@ -663,6 +667,9 @@ ms.locfileid: "30223768"
 
 В журнале аудита можно выполнить поиск действий в Microsoft Flow. Эти действия включают создание, изменение и удаление потоков, а также изменение разрешений для потока. Сведения о том, как вести аудит для действий с процессами, можно узнать в [статье журнал событий аудита Microsoft Flow Flow, который теперь доступен в центре безопасности Office 365 _Амп_ соответствие требованиям](https://flow.microsoft.com/blog/security-and-compliance-center).
 
+### <a name="microsoft-powerapps"></a>Microsoft PowerApps
+
+В журнале аудита можно выполнить поиск действий, связанных с приложениями, в PowerApps. К этим действиям относятся создание, запуск и публикация приложения. Кроме того, выполняется аудит разрешений для приложений. Описание всех действий PowerApps показано в разделе [ведение журнала активности для powerapps](https://docs.microsoft.com/en-us/power-platform/admin/logging-powerapps#what-events-are-audited).
 
 ### <a name="microsoft-stream"></a>Microsoft Stream
   

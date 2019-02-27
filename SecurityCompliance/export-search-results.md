@@ -9,19 +9,21 @@ f1_keywords:
 - ms.o365.cc.CustomizeExport
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
 search.appverid:
 - MOE150
 - MED150
 - MET150
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: 'Экспорт результатов поиска из поиска контента в центре безопасности _Амп_ по безопасности Office 365 на локальный компьютер. Результаты по электронной почте экспортируются в виде PST-файлов. Контент с сайтов SharePoint и OneDrive для бизнеса экспортируется в виде собственных документов Office. '
-ms.openlocfilehash: 5ec1456c7d1a787a1ede70c15b109e7f0358f60a
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 1a94a7ed948de06bfc8f3f9a2dc9c8a5d26ca653
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30219949"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30296572"
 ---
 # <a name="export-content-search-results-from-the-office-365-security--compliance-center"></a>Экспорт результатов поиска контента из центра безопасности _Амп_ соответствия требованиям Office 365
 
@@ -31,7 +33,7 @@ ms.locfileid: "30219949"
   
 При экспорте результатов поиска контента включается подготовка результатов, а затем они загружаются на локальный компьютер.
   
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Перед началом работы
 
 - Для экспорта результатов поиска необходимо назначить роль управления экспортом в центре безопасности &amp; и соответствия требованиям Office 365. Эта роль назначается встроенной группе ролей "Диспетчер обнаружения электронных данных". По умолчанию она не назначается группе ролей Управление организацией. Дополнительные сведения см в разделе [Назначение разрешений обнаружения электронных данных в центре безопасности &amp; Office 365](assign-ediscovery-permissions.md).
     

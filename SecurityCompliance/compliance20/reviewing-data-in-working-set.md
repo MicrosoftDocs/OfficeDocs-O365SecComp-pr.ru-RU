@@ -8,21 +8,20 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: ''
+ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 385fa24cc396876307cfa1b30689624af9bbbede
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: ee83594b89a3a1f968e5d9506c09b660f9fa4e3d
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30213049"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30295472"
 ---
 # <a name="review-case-data-in-advanced-ediscovery-preview"></a>Просмотр данных о делах в Advanced eDiscovery (Предварительная версия)
 
-Содержимое появится в ближайшее время.
 
-Это тестовый контент
+Ожидается в ближайшее время

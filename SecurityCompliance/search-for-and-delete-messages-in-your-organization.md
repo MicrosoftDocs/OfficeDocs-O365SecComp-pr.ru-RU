@@ -7,18 +7,20 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: Используйте функцию поиска и очистки в центре безопасности &amp; Office 365 для поиска и удаления электронного сообщения из всех почтовых ящиков в Организации.
-ms.openlocfilehash: ecdacd4e484d6de267e029b8e3fcdafc9b1fce4d
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.openlocfilehash: 15d67e42e4bdc63838f7ec1701d643391fa5c552
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30223618"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30296862"
 ---
 # <a name="search-for-and-delete-email-messages-in-your-office-365-organization---admin-help"></a>Поиск и удаление сообщений электронной почты в организации Office 365 — Справка для администраторов
 
@@ -35,7 +37,7 @@ ms.locfileid: "30223618"
 > [!CAUTION]
 > Поиск и очистка — это мощный компонент, который позволяет всем пользователям, которым назначены необходимые разрешения, удалять сообщения электронной почты из почтовых ящиков в Организации. 
   
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Перед началом работы
 
 - Чтобы создать и запустить поиск контента, необходимо быть членом группы ролей " **Диспетчер eDiscovery** " или назначить роль управления **поиском соответствия требованиям** . Чтобы удалить сообщения, необходимо быть членом группы ролей **Управление организацией** или назначить роль управления **поиска и очистки** . Для получения сведений о добавлении пользователей в группу ролей обратитесь к разделу [предоставление пользователям доступа к центру безопасности _Амп_ соответствия требованиям Office 365](grant-access-to-the-security-and-compliance-center.md).
     

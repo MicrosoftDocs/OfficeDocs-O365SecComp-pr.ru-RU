@@ -9,7 +9,9 @@ f1_keywords:
 - ms.o365.cc.CustomizeExportReport
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
 search.appverid:
 - MOE150
 - MED150
@@ -17,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 5c8c1db6-d8ac-4dbb-8a7a-f65d452169b9
 description: Вместо того чтобы экспортировать фактические результаты поиска контента в центре безопасности &amp; и соответствия требованиям Office 365, можно просто экспортировать отчет о результатах поиска. Отчет содержит сводку результатов поиска и документ с подробными сведениями о каждом экспортируемом элементе.
-ms.openlocfilehash: 12799474bfb099c521f72cd3902173d42b17d4dd
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: d98f70d4f38f524de8751aecb197d0f85ee7f088
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216239"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30295982"
 ---
 # <a name="export-a-content-search-report"></a>Экспорт отчета о поиске контента
 
@@ -30,7 +32,7 @@ ms.locfileid: "30216239"
   
 При экспорте отчета он загружается в папку с таким же именем, что и для поиска контента, но добавляется с помощью *_репортсонли* . Например, если поиск контента имеет имя *ContosoCase0815* , то отчет загружается в папку с именем *ContosoCase0815_ReportsOnly* . Список документов, включенных в отчет, приведен в разделе сведения, [включенные в отчет](#whats-included-in-the-report).
 
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Перед началом работы
 
 - Для экспорта отчета по поиску контента необходимо назначить роль управления поиском соответствия требованиям в центре безопасности &amp; и соответствия требованиям Office 365. Эта роль назначена встроенному Диспетчеру обнаружения электронных данных и группам ролей управления Организацией. По умолчанию она не назначается группе ролей Управление организацией. Дополнительные сведения см в разделе [Назначение разрешений обнаружения электронных данных в центре безопасности &amp; Office 365](assign-ediscovery-permissions.md).
     

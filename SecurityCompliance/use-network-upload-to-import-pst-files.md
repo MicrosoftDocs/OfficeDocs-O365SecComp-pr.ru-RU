@@ -7,19 +7,21 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
 search.appverid:
 - MOE150
 - MED150
 - MET150
 ms.assetid: 103f940c-0468-4e1a-b527-cc8ad13a5ea6
 description: 'Для администраторов: Узнайте, как использовать отправку по сети для массового импорта нескольких PST-файлов в почтовые ящики пользователей в Office 365.'
-ms.openlocfilehash: a92217ad4126851a042b3492614aaa35ef215f61
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.openlocfilehash: 7de27e7dc15e823727544437ff79de6f72c61d5e
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30223608"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30297152"
 ---
 # <a name="use-network-upload-to-import-your-organization-pst-files-to-office-365"></a>Импорт PST-файлов Организации в Office 365 с помощью отправки по сети
 
@@ -42,7 +44,7 @@ ms.locfileid: "30223608"
 
 Обратите внимание, что для импорта PST-файлов в почтовые ящики Office 365 необходимо выполнить шаг 1 только один раз. После выполнения этих действий выполните действия 2 – 6 для каждого файла, чтобы отправить и импортировать пакет PST-файлов.
 
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Перед началом работы
   
 - Необходимо назначить роль экспорта для импорта поЧтовых ящиков в Exchange Online, чтобы импортировать PST-файлы в почтовые ящики Office 365. По умолчанию эта роль не назначается ни одной группе ролей в Exchange Online. Роль импорта и экспорта поЧтовых ящиков можно добавить в группу ролей Управление организацией. Вы также можете создать новую группу ролей, назначить роль импорта поЧтовых ящиков, а затем добавить себя в качестве участника. Дополнительные сведения можно найти в разделах "Добавление роли в группу ролей" или "Создание группы ролей" в разделе [Управление группами ролей](https://go.microsoft.com/fwlink/p/?LinkId=730688).
     

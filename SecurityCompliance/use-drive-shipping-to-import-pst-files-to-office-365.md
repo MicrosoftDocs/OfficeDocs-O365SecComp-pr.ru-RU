@@ -8,18 +8,20 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: 40829b57-793c-4d41-b171-e9270129173d
 description: 'Для администраторов: Узнайте, как массово импортировать PST-файлы вашей организации в почтовые ящики Office 365, скопировав PST-файлы на жесткий диск и отгрузите его в корпорацию Майкрософт. '
-ms.openlocfilehash: 44ca6e58d9273c73a807ba0b186c47721949c6f6
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.openlocfilehash: 0e902df03628711d8ccdaaf1fd42153eba1e1623
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30223688"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30296822"
 ---
 # <a name="use-drive-shipping-to-import-your-organization-pst-files-to-office-365"></a>Использование доставки дисков для импорта PST-файлов Организации в Office 365
 
@@ -46,7 +48,7 @@ ms.locfileid: "30223688"
   
 Часто задаваемые вопросы об использовании доставки дисков для импорта PST-файлов в Office 365 приведены в статье [вопросы и ответы по использованию функции доставки дисков для импорта PST-файлов](faqimporting-pst-files-to-office-365.md#using-drive-shipping-to-import-pst-files). 
   
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Перед началом работы
 
 - Необходимо назначить роль экспорта для импорта поЧтовых ящиков в Exchange Online, чтобы импортировать PST-файлы в почтовые ящики Office 365. По умолчанию эта роль не назначается ни одной группе ролей в Exchange Online. Роль импорта и экспорта поЧтовых ящиков можно добавить в группу ролей Управление организацией. Вы также можете создать новую группу ролей, назначить роль импорта поЧтовых ящиков, а затем добавить себя в качестве участника. Дополнительные сведения можно найти в разделах "Добавление роли в группу ролей" или "Создание группы ролей" в разделе [Управление группами ролей](https://go.microsoft.com/fwlink/p/?LinkId=730688).
     

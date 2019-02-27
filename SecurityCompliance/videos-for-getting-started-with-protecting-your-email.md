@@ -1,7 +1,7 @@
 ---
 title: Видео о том, как начать защищать электронную почту
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 11/17/2014
 ms.audience: ITPro
@@ -12,13 +12,15 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 393b0050-7c7e-49e6-a03d-b1e09fe4de9e
+ms.collection:
+- M365-security-compliance
 description: Следующая серия видеороликов поможет вам узнать, как использовать службу Exchange Online Protection (EOP) для защиты ваших почтовых ящиков. Эти видео будут полезны для отдельных пользователей EOP, которые защищают локальные почтовые ящики, например Exchange Server 2013, и для пользователей Exchange Online, облачные почтовые ящики которых по умолчанию защищены EOP.
-ms.openlocfilehash: 42d92b36cbfcf3261e391c8b3d74f44050f2881a
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+ms.openlocfilehash: b590ac9bdd12c49a644977573048edac22de21f1
+ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23002918"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30275879"
 ---
 # <a name="videos-for-getting-started-with-protecting-your-email"></a>Видео о том, как начать защищать электронную почту
 
@@ -53,13 +55,13 @@ ms.locfileid: "23002918"
 - Настройка политики защиты от вредоносных программ
     > [!VIDEO https://www.microsoft.com/videoplayer/embed/12517702-ab48-4df8-a7ff-8eb02aa31724?autoplay=false]
   
-    Дополнительные сведения приведены в разделе [Настройка политик защиты от вредоносных программ](configure-anti-malware-policies.md) . 
+    Более подробную информацию можно найти в статье [Настройка политик защиты от вредоносных программ](configure-anti-malware-policies.md) . 
     
 Просмотрите видеозапись о создании правил транспорта, чтобы узнать, как фильтровать и направлять сообщения на основе определенных настроенных условий, корпоративной политики или нормативных требований.
   
 - Настройка правила транспорта Exchange в EOP
     > [!VIDEO https://www.microsoft.com/videoplayer/embed/7cdcd2cb-9382-4065-98e1-81257b32a189?autoplay=false]
   
-    Для получения дополнительных сведений см [почтовые поток правил (правил транспорта) в Exchange Online Protection](eop/mail-flow-rules-transport-rules-0.md) при использовании изолированная EOP или приведены в разделе [правила транспорта](http://technet.microsoft.com/library/743bd525-0ca2-426d-b76c-b4a052bc8886.aspx) при использовании Exchange Online. 
+    Дополнительные сведения см. в статье [правила для обработки почтовоГо ящика (правила транспорта) в Exchange Online Protection](eop/mail-flow-rules-transport-rules-0.md) , если вы используете EOP в автономном режиме, или видите статью [Transport Rules](http://technet.microsoft.com/library/743bd525-0ca2-426d-b76c-b4a052bc8886.aspx) , если вы используете Exchange Online. 
     
 

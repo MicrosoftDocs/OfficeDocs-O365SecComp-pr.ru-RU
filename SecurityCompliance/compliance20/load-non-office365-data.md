@@ -8,18 +8,18 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: ''
+ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 50fcf679b5cd17a079765bfca5435088bef4c06e
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: b177fc292c748f21907621196dc28d6b8fe17959
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30217689"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30296792"
 ---
 # <a name="load-non-office-365-data-into-a-working-set"></a>Загрузка не относящихся к Office 365 данных в рабочий набор
 
@@ -28,7 +28,7 @@ ms.locfileid: "30217689"
 >[!Note]
 >Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете зарегистрироваться для получения пробной версии Office 365 корпоративный E5.
 
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Перед началом работы
 Для использования функции отправки, отличной от Office 365, описанной в этой процедуре, необходимо следующее:
 
 - Office 365 E3 с дополнительным подпискум на надстройку или на дополнительные требования.

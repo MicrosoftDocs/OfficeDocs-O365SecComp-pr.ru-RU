@@ -1,7 +1,7 @@
 ---
 title: Автоматическая очистка для защиты от нежелательной почты и вредоносных программ
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 12/05/2018
 ms.audience: Admin
@@ -14,13 +14,15 @@ search.appverid:
 - MBS150
 - MET150
 ms.assetid: 96deb75f-64e8-4c10-b570-84c99c674e15
+ms.collection:
+- M365-security-compliance
 description: Автоматическая очистка (ZAP) с нулевым временем (ZAP) — это функция защиты электронной почты, которая обнаруживает сообщения с нежелательной почтой или вредоносной программой, которая уже доставляется в ящики "Входящие" пользователя, а затем отрисовывает вредоносный контент. Принцип работы ZAP зависит от типа обнаруженного вредоносного содержимого.
-ms.openlocfilehash: eac984289cf5e2785e8ff61e4a3dd3e0c0d99732
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 84d9c1dc12c3caf0630d25a3980cdaea1830a4c0
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30213570"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30295642"
 ---
 # <a name="zero-hour-auto-purge---protection-against-spam-and-malware"></a>Автоматическая очистка для защиты от нежелательной почты и вредоносных программ
 
@@ -92,6 +94,6 @@ ZAP не перемещает сообщения в карантин из пап
 
 [Защита от спама электронной почты в Office 365](anti-spam-protection.md)
   
-[Блокировка спама с помощью фильтра нежелательной почты Office 365 для предотвращения ошибочных результатов](block-email-spam-to-prevent-false-negatives.md)
+[Блокировка спама с помощью фильтра нежелательной почты Office 365 для предотвращения ошибочных результатов](reduce-spam-email.md)
   
 

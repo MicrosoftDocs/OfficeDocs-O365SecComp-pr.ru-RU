@@ -8,24 +8,24 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: ''
+ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: eb32b465fa10f6236ffe00db255c89e33ce7412d
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 1f5f463bcda5c33df890547f7113a032ae935dbe
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30213739"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30295532"
 ---
 # <a name="view-custodian-audit-activity"></a>Просмотр действий аудита хранитель
 
 Необходимо найти, просмотрел ли пользователь определенный документ или очищен ли элемент из его почтового ящика? Расширенное обнаружение электронных данных (Предварительная версия) теперь интегрировано с существующим средством поиска журнала аудита в центре безопасности _Амп_ соответствия требованиям. С помощью этого внедренного интерфейса вы можете использовать средство Advanced eDiscovery (Preview) Хранитель Management Tool для упрощения расследования, а также быстрого доступа к ним в custodians в вашем случае.
 
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Перед началом работы
 
 Для поиска в журнале аудита Office 365 необходимо назначить роль "журналы аудита только для просмотра" или "журналы аудита" в Exchange Online. По умолчанию эти роли назначаются группам ролей "Управление соответствием требованиям" и "Управление организацией" на странице "разрешения" в центре администрирования Exchange. Чтобы предоставить пользователю возможность поиска в журнале аудита Advanced eDiscovery (Preview) с минимальным уровнем привилегий, можно создать настраиваемую группу ролей в Exchange Online, добавить роль "журналы аудита только для просмотра" или "журналы аудита", а затем добавить пользователя в качестве участника новой роли GR АУП. Дополнительные сведения см. в разделе Управление группами ролей в Exchange Online.
 

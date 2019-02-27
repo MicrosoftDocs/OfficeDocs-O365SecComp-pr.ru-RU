@@ -7,19 +7,21 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
 search.appverid:
 - MOE150
 - MED150
 - MET150
 ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
 description: Поиск содержимого в почтовых ящиках &amp; , на сайтах SharePoint Online, учетных записях OneDrive, Microsoft Teams, Office 365 и беседАх в Skype для бизнеса с помощью компонента "поиск контента" в центре безопасности и соответствия требованиям Office 365. Вы можете использовать поисковые запросы и условия поиска для сужения результатов поиска. После этого вы сможете просмотреть и экспортировать результаты поиска. Поиск контента также является эффективным средством для поиска содержимого, которое может быть связано с запросом субъекта данных GDPR.
-ms.openlocfilehash: 37f5bf96c8176770f44d0681fa7046a904283f72
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: b7ecfc68c143225f097508e2cca0e87b7ce250d6
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215330"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30296362"
 ---
 # <a name="content-search-in-office-365"></a>Поиск контента в Office 365
 

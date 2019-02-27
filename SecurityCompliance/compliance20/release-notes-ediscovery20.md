@@ -8,18 +8,18 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: ''
+ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
 description: В этой статье содержатся заметки о выпуске для расширенного обнаружения электронных данных (Предварительная версия).
-ms.openlocfilehash: c717a07d75e84046de07203515fceaf26aab5a41
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: d3ea9a8e6b7c0adac32d342d3504eba0e54bd66f
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30212939"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30295012"
 ---
 # <a name="release-notes-for-advanced-ediscovery-preview"></a>Заметки о выПуске для расширенного обнаружения электронных данных (Предварительная версия)
 

@@ -8,16 +8,18 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
 search.appverid: MOE150
 ms.assetid: 26af16df-34cd-4f4a-b893-bc1d2e74039e
 description: 'Используйте новую интеллектуальную функцию импорта в службе импорта Office 365, чтобы отфильтровать элементы, которые фактически импортируются в целевые почтовые ящики. Интеллектуальный импорт позволяет определять, какие данные импортировать и что следует оставить позади. С помощью интеллектуального импорта также можно получить подробные сведения о данных, импортируемых в Office 365. '
-ms.openlocfilehash: 49399f11a71069059ffae2d03482ac7ffe03daf0
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 6091f6cca75bffbb05bcd59f70cfae0dbdcb9040
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30219819"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30297072"
 ---
 # <a name="filter-data-when-importing-pst-files-to-office-365"></a>Фильтрация данных при импорте PST-файлов в Office 365
 
@@ -41,7 +43,7 @@ ms.locfileid: "30219819"
   
 ![Интеллектуальный процесс импорта в Office 365](media/f2ec309b-11f5-48f2-939c-a6ff72152d14.png)
   
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Перед началом работы
 
 - Действия, описанные в этом разделе, предполагают, что вы создали задание импорта PST в службе импорта Office 365, используя отправку по сети или доставку дисков. Пошаговые инструкции представлены в одном из следующих разделов:
     

@@ -1,7 +1,7 @@
 ---
 title: Пул доставки сообщений с высоким уровнем опасности
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 8/24/2016
 ms.audience: ITPro
@@ -12,13 +12,15 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: ac11edd9-2da3-462d-8ea3-bbf9dbc6f948
+ms.collection:
+- M365-security-compliance
 description: Если почтовая система клиента скомпрометирована вредоносной программой или спам-атакой и отправляет спам через размещенную службу фильтрации, IP-адреса серверов центра данных Office 365 могут быть занесены в сторонние списки блокировок.
-ms.openlocfilehash: 69548488f70944a319a449bfc4ac1cb1bffd7b1c
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+ms.openlocfilehash: 604fdf2df11b6dff493444fe9dbcc6f95ced6a7d
+ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23003138"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30275549"
 ---
 # <a name="high-risk-delivery-pool-for-outbound-messages"></a>Пул доставки сообщений с высоким уровнем опасности
 
@@ -48,6 +50,6 @@ ms.locfileid: "23003138"
 
 [Настройка правил защиты от спама для исходящих сообщений](configure-the-outbound-spam-policy.md)
   
-[Защита от нежелательной почты вопросы и ответы](anti-spam-protection-faq.md)
+[ВОПРОСЫ и ответы по защите от нежелательной почты](anti-spam-protection-faq.md)
   
 

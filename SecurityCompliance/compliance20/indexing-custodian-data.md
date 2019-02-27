@@ -8,22 +8,29 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: ''
+ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: f8f1a92f001bf8f9e23f54bbb05fbbcf443bf4b9
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 1521aadca42c8119ae341065865b227fb16ffcf3
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218669"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30295032"
 ---
 # <a name="advanced-indexing-of-custodian-data"></a>Расширенная индексация данных хранителя
 
-Когда хранитель добавляется к расширенному варианту обнаружения электронных данных (Preview), любое содержимое в Office 365, которое было признано частичным индексированием, повторно обрабатывается, чтобы сделать его полным поиском.  Этот процесс называется *расширенной индексацией*. Контент может частично индексироваться по ряду причин, в том числе наличия изображений, неподдерживаемых типов файлов или при обнаружении ограничения на размер файлов индексирования.  Чтобы узнать больше об частично индексированных элементах, просмотрите раздел [частично индексированные элементы в поиске контента в Office 365](https://docs.microsoft.com/en-us/office365/securitycompliance/partially-indexed-items-in-content-search).
+Когда хранитель добавляется к расширенному варианту обнаружения электронных данных (Preview), любое содержимое в Office 365, которое было признано частичным индексированием, повторно обрабатывается, чтобы сделать его полным поиском.  Этот процесс называется *расширенной индексацией*. Контент может частично индексироваться по ряду причин, в том числе наличия изображений, неподдерживаемых типов файлов или при обнаружении ограничения на размер файлов индексирования.
+
+Дополнительные сведения о поддержке обработки в Office 365 и частично индексированных элементах приведены в следующих статьях:
+
+- [Поддерживаемые типы файлов в Advanced eDiscovery](supported-filetypes-ediscovery20.md)
+- [Частично индексированные элементы в средстве "Поиск контента" в Office 365](https://docs.microsoft.com/en-us/office365/securitycompliance/partially-indexed-items-in-content-search)
+- [Форматы файлов, индексируемые службой поиска Exchange](https://docs.microsoft.com/en-us/exchange/file-formats-indexed-by-exchange-search-exchange-2013-help)
+- [Анализируемые типы файлов и расширения имен файлов для обхода по умолчанию в SharePoint Server](https://docs.microsoft.com/en-us/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types)
 
 ## <a name="viewing-advanced-indexing-results"></a>Просмотр результатов расширенного индексирования
 

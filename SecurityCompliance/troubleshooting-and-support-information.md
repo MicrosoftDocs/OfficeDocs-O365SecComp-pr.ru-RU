@@ -1,7 +1,7 @@
 ---
 title: Сведения об устранении неполадок и поддержке
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 11/17/2014
 ms.audience: ITPro
@@ -12,13 +12,15 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 5d9f75f5-bb7f-458c-ad30-5c8eae0b0e4e
+ms.collection:
+- M365-security-compliance
 description: В этом разделе описаны действия по устранению неполадок для пользователей и администраторов, а также приведены сведения о том, как обратиться за помощью в службу технической поддержки.
-ms.openlocfilehash: 249f6fabf0ae7037ef905c455cfb45582be0e40b
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+ms.openlocfilehash: d9ff55350487b21325d9a95491fa6861fcc441fd
+ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23003128"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30275999"
 ---
 # <a name="troubleshooting-and-support-information"></a>Сведения об устранении неполадок и поддержке
 
@@ -85,7 +87,7 @@ ms.locfileid: "23003128"
     
 ## <a name="support-information"></a>Сведения о поддержке
 
-Если вам требуется помощь при установке, конфигурации или удаление надстройки, свяжитесь с технической поддержки с помощью новой ссылки запроса службы на странице поддержки в центре администрирования Office 365. Дополнительные варианты, включая отправки запроса службы через параметры телефонной и самостоятельной поддержки разделе [Справка и поддержка для EOP](eop/help-and-support-for-eop.md).
+Если вам нужна помощь по установке, настройке или удалению надстройки, обратитесь в службу технической поддержки, используя ссылку создать запрос на обслуживание на странице Поддержка в центре администрирования Office 365. Дополнительные параметры, включая отправку запроса на обслуживание через телефонную связь и параметры самостоятельной поддержки, приведены в статье [Справка и поддержка для EOP](eop/help-and-support-for-eop.md).
   
 ## <a name="for-more-information"></a>Дополнительные сведения
 

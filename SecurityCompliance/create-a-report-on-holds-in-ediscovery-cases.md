@@ -8,15 +8,16 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
+ms.collection: M365-security-compliance
 search.appverid: MOE150
 ms.assetid: cca08d26-6fbf-4b2c-b102-b226e4cd7381
 description: Используйте сценарий, описанный в этой статье, чтобы создать отчет, содержащий сведения обо всех удержаниях, связанных с вариантами обнаружения электронных данных в &amp; центре безопасности и соответствия требованиям Office 365.
-ms.openlocfilehash: cf547ff7c76ba6e16a3bde18465ae0aef9ab4075
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 95a960e8f76c672185e10d5b6be2a7ff2538a34b
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30217441"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30297002"
 ---
 # <a name="create-a-report-on-holds-in-ediscovery-cases-in-office-365"></a>Создание отчета о удержаниях в случаях обнаружения электронных данных в Office 365
   
@@ -24,7 +25,7 @@ ms.locfileid: "30217441"
 
 Подробное описание сведений, включенных в отчет, представлено в разделе [Дополнительные сведения](#more-information) . 
   
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Перед началом работы
 
 - Чтобы создать отчет по всем случаям обнаружения электронных данных в Организации, необходимо быть администратором обнаружения электронных данных в Организации. Если вы являетесь диспетчером обнаружения электронных данных, отчет будет содержать только сведения о случаях, к которым вы можете получить доступ. Дополнительные сведения о разрешениях обнаружения электронных данных приведены [в разделе Назначение разрешений обнаружения электронных &amp; данных в центре безопасности и соответствия требованиям Office 365](assign-ediscovery-permissions.md).
     

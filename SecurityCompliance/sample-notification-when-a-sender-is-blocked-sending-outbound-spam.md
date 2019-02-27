@@ -1,7 +1,7 @@
 ---
 title: Пример уведомления, отправляемого в случае блокирования отправки спама для отправителя
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 11/2/2017
 ms.audience: ITPro
@@ -12,13 +12,15 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: c33fd406-a4c8-4ac8-ad85-123996c5cded
+ms.collection:
+- M365-security-compliance
 description: 'Когда в службе блокируется отправитель за рассылку спама, администратор домена (которого вы указали с помощью действий, описанных в статье Настройка правил защиты от спама для исходящих сообщений) получает по электронной почте уведомление, подобное следующему:'
-ms.openlocfilehash: b9fcdf9c2f44a4446a678ca4b22a0a12b24b6fd4
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+ms.openlocfilehash: 94af965505f7541600a6cd7937ae881226a2ac79
+ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23003248"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30275479"
 ---
 # <a name="sample-notification-when-a-sender-is-blocked-sending-outbound-spam"></a>Пример уведомления, отправляемого в случае блокирования отправки спама для отправителя
 
@@ -61,6 +63,6 @@ Exchange Online Protection.
 \*\*ПРИМЕЧАНИЕ. Не отвечайте на это сообщение электронной почты, так как оно отправлено с адреса, который не отслеживается\*\*
   
 > [!TIP]
-> Можно также обратиться в службу поддержки с помощью параметров, которые рассматриваются в [Справка и поддержка для EOP](eop/help-and-support-for-eop.md). 
+> Вы также можете обратиться в службу поддержки с помощью параметров, описанных в [справке и поддержке EOP](eop/help-and-support-for-eop.md). 
   
 

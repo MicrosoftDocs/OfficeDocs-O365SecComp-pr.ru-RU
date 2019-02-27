@@ -4,21 +4,23 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.audience: Admin
-ms.topic: overview
+ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 8927b8b9-c5bc-45a8-a9f9-96c732e58264
 description: Создайте политики оповещений в центре безопасности &amp; и соответствия требованиям Office 365 для отслеживания потенциальных угроз, потери данных и разрешений. После этого вы сможете просматривать и управлять оповещениями, которые создаются, когда пользователи выполняют действия, которые отвечают условиям политики оповещений.
-ms.openlocfilehash: 5c2d9dc7cf74198198036f062e8300f82fd69631
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 6418315914a0a80421db382ae8e55ccf3fc310a2
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220669"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30296562"
 ---
 # <a name="alert-policies-in-the-office-365-security-amp-compliance-center"></a>Политики оповещений в центре безопасности &amp; и соответствия требованиям Office 365
 

@@ -7,18 +7,20 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
 description: Назначьте разрешения, необходимые для выполнения задач, связанных с обнаружением электронных &amp; данных, с помощью центра безопасности и соответствия требованиям.
-ms.openlocfilehash: c4dcbf51282aa2887fd7d5032eb8587b5e9d56d7
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.openlocfilehash: 6b79a15c631fce272c350a826ccd6b371a1672b2
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30223278"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30296402"
 ---
 # <a name="assign-ediscovery-permissions-in-the-office-365-security-amp-compliance-center"></a>Назначение разрешений на обнаружение электронных данных в центре &amp; безопасности и соответствия требованиям Office 365
 
@@ -41,7 +43,7 @@ ms.locfileid: "30223278"
 > [!NOTE]
 > Чтобы проанализировать данные пользователя с помощью расширенного обнаружения электронных данных, пользователю (хранитель данных) должна быть назначена лицензия Office 365. Кроме того, для пользователей с лицензией на Office 365 E1 или E3 может быть назначена Расширенная лицензия eDiscovery. Администраторам и должностным лицам, назначенным для обращений и использующим расширенные функции обнаружения электронных данных для анализа данных, не требуется лицензия "водо".  
   
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Перед началом работы
 
 - Для назначения разрешений обнаружения электронных данных в центре безопасности &amp; необходимо быть членом группы ролей "Управление организацией" (или назначить роль управления ролью).
     
