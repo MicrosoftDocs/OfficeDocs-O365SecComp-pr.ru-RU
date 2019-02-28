@@ -95,7 +95,7 @@
 ### [Как уменьшить количество нежелательных сообщений в Office 365](reduce-spam-email.md)
 ### [Как сделать так, чтобы настоящая почта не помечалась в качестве спама в EOP и Office 365](prevent-email-from-being-marked-as-spam-0.md)
 ### [Контроль над исходящим спамом в Office 365](outbound-spam-controls.md)
-### [Блокировка спама с помощью фильтра нежелательной почты Office 365 для предотвращения ложноотрицательных результатов](block-email-spam-to-prevent-false-negatives.md)
+### [Блокировка спама с помощью фильтра нежелательной почты Office 365 для предотвращения ложноотрицательных результатов](reduce-spam-email.md)
 ### [Автоматическая очистка для защиты от нежелательной почты и вредоносных программ](zero-hour-auto-purge.md)
 ### [Настройка гарантированной отправки нежелательной почты в соответствующую папку каждого пользователя](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)
 ### [Отправка отчетов о нежелательных сообщениях в корпорацию Майкрософт](report-junk-email-messages-to-microsoft.md)
@@ -297,7 +297,7 @@
 #### [Управление наборами загрузки](compliance20/manage-load-sets.md)
 #### [Загрузка не относящихся к Office 365 данных в рабочий набор](compliance20/load-non-office365-data.md)
 #### [Запрос данных в рабочем наборе](compliance20/working-set-search.md)
-#### [Просмотра документов в рабочем наборе](compliance20/annotating-and-redacting-documents.md)
+#### [Просмотра документов в рабочем наборе](compliance20/view-documents-in-working-set.md)
 #### [Добавление тегов к документам в рабочем наборе](compliance20/tagging-documents.md)
 
 ### [Анализ данных дела](compliance20/analyzing-data-in-working-set.md)
@@ -318,10 +318,7 @@
 #### [Настройка параметров поиска и аналитики](compliance20/configure-search-analytics-settings.md)
 
 ### Справочник по Advanced eDiscovery (предварительная версия)
-#### [Ограничения поиска](compliance20/search-limits-ediscovery20.md)
-#### [Ограничения индексирования](compliance20/indexing-limits-ediscovery20.md)
-#### [Ограничения экспорта](compliance20/export-limits-ediscovery20.md)
-#### [Ограничения скачивания](compliance20/download-limits-ediscovery20.md)
+#### [Ограничения в Advanced eDiscovery (предварительная версия)](compliance20/limits-ediscovery20.md)
 #### [Поддерживаемые типы файлов](compliance20/supported-filetypes-ediscovery20.md)
 #### [Поля метаданных документа](compliance20/document-metadata-fields.md)
 
