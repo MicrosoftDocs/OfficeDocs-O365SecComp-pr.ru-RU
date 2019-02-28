@@ -14,24 +14,20 @@ search.appverid:
 - MET150
 ms.assetid: 34823bbc-a3e3-4949-ba42-97c73997eeed
 description: Узнайте, как предотвращать ложные срабатывания и отделять настоящую почту от спама в Office 365.
-ms.openlocfilehash: be6e534608544c8db7a33ae6ed6492d4f730a2a0
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 7d64beb5070b62640ce0af2e7f18ed8ea4199dda
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30219419"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30296892"
 ---
 # <a name="how-to-prevent-real-email-from-being-marked-as-spam-in-office-365"></a>Как не допустить, чтобы настоящая почта помечалась как спам в Office 365
 
  **Подлинные электронные сообщения помечаются как спам в Office 365? Попробуйте это решение.**
   
-Exchange Online Protection (EOP) — это облачная служба фильтрации почты, помогающая защитить организацию от спама и вредоносных программ. Если вы используете почтовые ящики в Office 365, они автоматически защищаются EOP, так как она входит в эту службу.
-
-EOP старается отфильтровывать спам, чтобы в папку "Входящие" не попадало содержимое, которое не хотят видеть пользователи. Но иногда EOP отфильтровывает нужные сообщения. Если сообщение неправильно помечается фильтром как спам, это называется ложным срабатыванием.
-
 При возникновении ложного срабатывания следует уведомить о сообщении корпорацию Майкрософт с помощью [надстройки Report Message](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2). Или можно переслать сообщение *как вложение* по адресу not_junk@office365.microsoft.com.
 
-    **Important** If you do not forward the messages as attachments, then the headers will be missing and we will be unable to improve the junk mail filtering in Office 365.
+**Важно!** Если вы не перешлете сообщения в виде вложения, то в них не будет заголовков и мы не сможем усовершенствовать фильтр нежелательной почты в Office 365.
     
 ## <a name="determine-the-reason-why-the-message-was-marked-as-spam"></a>Определение причины, по которой сообщение было помечено как спам
 
