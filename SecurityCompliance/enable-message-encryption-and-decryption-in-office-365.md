@@ -10,13 +10,13 @@ ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: e313c489-ce5e-4015-aadf-981c697ab51f
-description: Шифрование сообщений Office 365 позволяет пользователям электронной почты отправлять зашифрованные сообщения пользователям внутри нашей Организации. Как администратор вы можете включить шифрование сообщений Office 365, создав правила для обработки почтовых ящиков (также называемые правилами транспорта), которые задают условия для шифрования.
-ms.openlocfilehash: 32d363b350cb9dfcfc4f8ac5d47b345075ead45a
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+description: Шифрование сообщений Office 365 позволяет пользователям электронной почты отправлять зашифрованные сообщения пользователям внутри нашей Организации. Как администратор вы можете включить шифрование сообщений Office 365, создав правила для обработки почтовых ящиков (правила транспорта), которые задают условия для шифрования.
+ms.openlocfilehash: 54d095c6b3b647dc092a8cd92a008aa9bb0ed8ea
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215609"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30340960"
 ---
 # <a name="enable-message-encryption-and-decryption-in-office-365"></a>Enable message encryption and decryption in Office 365
 

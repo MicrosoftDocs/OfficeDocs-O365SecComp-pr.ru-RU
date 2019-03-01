@@ -15,12 +15,12 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как найти и использовать отчеты для Office 365 Advanced Threat Protection в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: c2c1e1134d72bc8c786e0dd783d22adcebeed79b
-ms.sourcegitcommit: 1c73c2f83703af0a30a5b0633db00d8e0e6b39b5
+ms.openlocfilehash: 72776d6d7df98ffb43046a0d98e589c5ea39c257
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/25/2019
-ms.locfileid: "30242111"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341090"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Просмотр отчетов для Office 365 Advanced Threat protection
 
@@ -114,7 +114,7 @@ ms.locfileid: "30242111"
 
 Если вы не видите данные в отчетах ATP, дважды проверьте правильность настройки политик. Для вашей организации должны быть определены политики [безопасных ссылок ATP](set-up-atp-safe-links-policies.md) и [политики безОпасных вложений ATP](set-up-atp-safe-attachments-policies.md) для обеспечения безопасности ATP. Кроме того, вы можете увидеть защиту от нежелательной [почты и вредоносных программ в Office 365](anti-spam-and-anti-malware-protection.md).
   
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные статьи
 
 [Отчеты и аналитика в центре безопасности &amp; и соответствия требованиям Office 365](reports-and-insights-in-security-and-compliance.md)
   

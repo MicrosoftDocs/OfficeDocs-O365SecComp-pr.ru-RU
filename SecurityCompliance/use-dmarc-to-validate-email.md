@@ -14,12 +14,12 @@ ms.assetid: 4a05898c-b8e4-4eab-bd70-ee912e349737
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как настроить проверку поДлинности на основе домена, создание отчетов и соответствие DMARC для проверки сообщений, отправленных из вашей организации Office 365.
-ms.openlocfilehash: 178eb9658f1cfe298d3b5600ecdc524d7bd66a72
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.openlocfilehash: d224acaf6b1d53cdf9ababca87c5880a5499c613
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30276185"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341580"
 ---
 # <a name="use-dmarc-to-validate-email-in-office-365"></a>Использование протокола DMARC для проверки электронной почты в Office 365
 
@@ -209,7 +209,7 @@ _dmarc.domain  TTL  IN  TXT  "v=DMARC1; pct=100; p=policy"
   
 - Пользователи могут добавить надежных отправителей по отдельности с помощью своего почтового клиента
     
-- Администраторы могут создать правило транспорта Exchange (ETR) для всех пользователей, которое разрешает отправку сообщений для таких обозначенных отправителей. 
+- Администраторы создают правило поток почты Exchange (также называемое правилом транспорта) для всех пользователей, которые допускают сообщения для определенных отправителей. 
     
 ## <a name="troubleshooting-your-dmarc-implementation"></a>Устранение неполадок реализации DMARC
 <a name="dmarctroubleshoot"> </a>

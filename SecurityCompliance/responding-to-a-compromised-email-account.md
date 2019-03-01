@@ -13,12 +13,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Сведения о том, как распознать скомпрометированную учетную запись электронной почты в Office 365 и ответить на нее.
-ms.openlocfilehash: 6692c63d6cf349af3f3debea10251880d8d1e16c
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.openlocfilehash: 326ec01c570ad97b5f1eaf06dcfe1ad4e6ad76f4
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30223408"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341100"
 ---
 # <a name="responding-to-a-compromised-email-account-in-office-365"></a>Реагирование на компрометацию учетной записи электронной почты в Office 365
 

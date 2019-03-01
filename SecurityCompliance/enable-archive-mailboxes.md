@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 268a109e-7843-405b-bb3d-b9393b2342ce
 description: Используйте центр соответствия требованиям безопасности &amp; Office 365, чтобы включить архивные почтовые ящики для поддержки хранения сообщений в Организации, обнаружения электронных данных и удержания.
-ms.openlocfilehash: 763097925ed0910fe9a66e5c556b8a2995df74e6
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: 39cd5fd8d7991b787d95e39e4994dc9b0786522c
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30296062"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341800"
 ---
 # <a name="enable-archive-mailboxes-in-the-office-365-security-amp-compliance-center"></a>Включение архивных почтовых ящиков &amp; в центре безопасности и соответствия требованиям Office 365
   
@@ -138,7 +138,6 @@ ms.locfileid: "30296062"
     - Перемещает элементы, которые хранились 14 дней или дольше, из папки "Элементы для восстановления" в основном почтовом ящике пользователя в такую же папку архивного почтового ящика.
     
 - Дополнительные сведения о архивных почтовых ящиках и политиках хранения Exchange приведены в следующих статьях:
-  
     
   - [Теги хранения и политики хранения](https://go.microsoft.com/fwlink/?LinkId=404424)
     

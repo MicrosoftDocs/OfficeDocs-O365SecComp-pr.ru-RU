@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Предоставляет справочные сведения для администраторов, которые имеют недопустимые символы в конфигурации защиты от нежелательной почты и могут выполнять проблемы &amp; при попытке использовать центр обеспечения безопасности.
-ms.openlocfilehash: 90cf89d019a34658b676f02baa84c70f27200262
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.openlocfilehash: 797389da26823b6528c2aee0baaa118fbfcf7942
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30276082"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341470"
 ---
 # <a name="avoid-invalid-characters-in-your-spam-filter-rules-and-spam-filter-policy"></a>Предотвращение недопустимых символов в правилах фильтрации нежелательной почты и фильтрации нежелательной почты 
 

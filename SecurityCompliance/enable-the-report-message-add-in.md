@@ -15,12 +15,12 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: Сведения о том, как включить надстройку сообщения отчета для Outlook и Outlook в Интернете для отдельных пользователей или всей Организации.
-ms.openlocfilehash: 48bd8937622588bbf5a1e07b9d4341e937c5cf7f
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: c184b7ac1baef297d65e6e93e4e7a085920d87b0
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30217389"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341430"
 ---
 # <a name="enable-the-report-message-add-in"></a>Включение надстройки Report Message
 
