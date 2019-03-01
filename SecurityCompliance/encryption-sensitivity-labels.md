@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: При создании метки конфиденциальности можно ограничить доступ к содержимому, которому будет присвоена метка. Метки конфиденциальности могут использовать шифрование для защиты содержимого.
-ms.openlocfilehash: 04de1b1efaa26694bcad2274d2ff9e9b3b2c637e
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 588028f56de36a1baa6b2ed44a3c17d8ff3cc6ab
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220319"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341410"
 ---
 # <a name="restrict-access-to-content-by-using-encryption-in-sensitivity-labels"></a>Ограничение доступа к содержимому с помощью шифрования в метках конфиденциальности
 
@@ -118,7 +118,7 @@ ms.locfileid: "30220319"
 
 Следует иметь в виду, что когда шифрование применяется к файлам, которые хранятся в OneDrive и SharePoint, служба не может обработать содержимое этих файлов. Это означает, что такие функции, как совместное редактирование, обнаружение электронных данных, поиск, Delve и другие функции совместной работы, неактивны. Кроме того, политики защиты от потери данных (DLP) могут работать только с метаданными (включая метки Office 365), но не с содержимым зашифрованных файлов (например, номерами кредитных карт в файлах).
 
-Это применяется только к содержимому, которое хранится в OneDrive и SharePoint. В Exchange Online правила транспорта используют [учетную запись привилегированного пользователя](https://docs.microsoft.com/ru-RU/azure/information-protection/configure-super-users), чтобы можно было просканировать зашифрованное содержимое и применить политики DLP.
+Это применяется только к содержимому, которое хранится в OneDrive и SharePoint. В Exchange Online правила потока обработки почты (также называемые правилами транспорта) используют [учетную запись привилегированного пользователя](https://docs.microsoft.com/ru-RU/azure/information-protection/configure-super-users), чтобы можно было просканировать зашифрованное содержимое и применить политики DLP.
 
 ## <a name="important-prerequisites"></a>Важные предварительные условия
 
