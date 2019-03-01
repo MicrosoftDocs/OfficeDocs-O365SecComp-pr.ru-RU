@@ -89,7 +89,7 @@
 
 # [Защита от угроз](protect-against-threats.md)
 ## [Защита от нежелательной почты и вредоносных программ](anti-spam-and-anti-malware-protection.md)
-### [Видео о том, как начать защищать электронную почту](videos-for-getting-started-with-protecting-your-email.md)
+### [Обзор EOP](videos-for-getting-started-with-protecting-your-email.md)
 ### [Защита от нежелательной почты в Office 365](anti-spam-protection.md)
 ### [Как сделать так, чтобы настоящая почта не помечалась в качестве спама в Office 365](prevent-email-from-being-marked-as-spam.md)
 ### [Как уменьшить количество нежелательных сообщений в Office 365](reduce-spam-email.md)
