@@ -11,13 +11,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: fc4e6ebb-5acc-4bc5-bad8-4f3407d1d3f4
+ms.collection:
+- M365-security-compliance
 description: Получите обзор страниц предупреждений, которые могут отображаться при работе с Office 365 Advanced Threat protection.
-ms.openlocfilehash: e11592c5db0909171627cd163593d7e49cc6a5de
-ms.sourcegitcommit: 5b5bbced1577701bdb6befc8ed252e9d9e776529
+ms.openlocfilehash: 5bf6d436e319127fdd5aecd5c58e168a59333d25
+ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/25/2019
-ms.locfileid: "30245595"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30357450"
 ---
 # <a name="office-365-atp-safe-links-warning-pages"></a>Страницы предупреждений для безОпасных ссылок на Office 365 ATP
 

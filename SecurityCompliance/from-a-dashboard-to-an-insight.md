@@ -12,13 +12,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 703c41df-b3e2-4e7e-9eeb-1a0b8d60fb56
+ms.collection:
+- M365-security-compliance
 description: Сведения о том, как можно переходить с панели мониторинга в представление о рекомендуемых действиях &amp; в центре безопасности и соответствия требованиям.
-ms.openlocfilehash: 1c43d529d02872563bf6e1c9643b542ab6b8db9a
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 732c78b35a60c1686bc382931688dec08080f8c2
+ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220529"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30357540"
 ---
 # <a name="walkthrough---from-a-dashboard-to-an-insight"></a>Пошаговое руководство. Из панели мониторинга к аналитике
 

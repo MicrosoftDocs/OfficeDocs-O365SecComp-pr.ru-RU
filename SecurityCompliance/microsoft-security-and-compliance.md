@@ -7,14 +7,16 @@ ms.date: 01/23/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
+ms.collection:
+- M365-security-compliance
 localization_priority: Normal
 description: Подготовьтесь к работе с всеми новыми центрами безопасности и соответствия требованиям Microsoft 365
-ms.openlocfilehash: 6eb30c8439424a60b5cf02d55d771e11cf24ad10
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 662f953b9c9e60d2ce59fbde9de03cf973fa0b99
+ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214969"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30357600"
 ---
 # <a name="get-ready-for-the-new-microsoft-365-security-center-and-microsoft-365-compliance-center"></a>Подготовка к новому Центру безопасности Microsoft 365 и Центру соответствия требованиям Microsoft 365
 
@@ -85,7 +87,7 @@ ms.locfileid: "30214969"
 
 В следующей таблице приводятся общие сведения о том, кто может получить доступ к различным порталам в Azure, Office 365 и Windows:
 
-|Портал  |Глобальное<br/>Администратор  |Система безопасности <br/>Администратор<br>или<br>Система безопасности<br>Читатель |Соответствие требованиям<br/>Администратор  |
+|Портал  |Глобальное<br/>Администратор  |Безопасность <br/>Администратор<br>или<br>Безопасность<br>Читатель |Соответствие требованиям<br/>Администратор  |
 |---------|---------|---------|---------|
 |[Центр безопасности и соответствия требованиям Office 365](https://protection.office.com) |Да |Да   |Да |
 |[Центр безопасности Microsoft 365](https://security.microsoft.com) |Да  | Да  | Нет        |

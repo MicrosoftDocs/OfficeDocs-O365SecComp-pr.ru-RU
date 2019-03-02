@@ -10,14 +10,16 @@ localization_priority: None
 search.appverid:
 - MET150
 ms.collection:
+- Strat_O365_Enterprise
 - M365-security-compliance
+- Strat_O365_Enterprise
 description: Общие сведения о шифровании в Microsoft Cloud.
-ms.openlocfilehash: 8d4b94908e9847062ff5f4612b8726b44a36a59f
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.openlocfilehash: 36bb50cda5f39461401b14ca3e7ada77a6e2cc0d
+ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30275949"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30357520"
 ---
 # <a name="encryption-in-the-microsoft-cloud"></a>Шифрование в Microsoft Cloud
 
@@ -36,6 +38,7 @@ ms.locfileid: "30275949"
 FIPS 140-2 — это стандарт, разработанный специально для проверки модулей продукта, которые реализуют криптографию, а не продукты, которые их используют. Криптографические модули, реализованные в службе, могут быть сертифицированы в соответствии с требованиями к надежности хеша, управлению ключами и т. д. Для защиты конфиденциальности, целостности или доступности данных в облачных службах Майкрософт используются все функции криптографии, а также модули и шифры, соответствующие стандарту FIPS 140-2.
 
 Корпорация Майкрософт удостоверяет базовые криптографические модули, используемые в облачных службах, с каждым новым выпуском операционной системы Windows:
+
 - Azure и государственные органы Azure США
 - Dynamics 365 и Dynamics 365 U.S. правительством США
 - Office 365, Office 365 для государственных учреждений США и Office 365 для защиты от государственных учреждений (США)

@@ -8,19 +8,20 @@ ms.audience: ITPro
 ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection:
-- M365-security-compliance
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 4cde0cda-3430-4dc0-b489-f2c0736c929f
+ms.collection:
+- M365-security-compliance
+- Strat_O365_IP
 description: Узнайте, как Exchange Online и Office 365 используют протокол TLS и ПРОТОКОЛы переСылки секрета (FS) для безопасной передачи сообщений электронной почты. Кроме того, вы можете получить сведения о сертификате, выданном корпорацией Майкрософт для Exchange Online.
-ms.openlocfilehash: 2621bb325c5bf97baa0a25f1e5eb590339856549
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: e80f477c807f3a7ad5f751e0987b191024c816d9
+ms.sourcegitcommit: 03054baf50c1dd5cd9ca6a9bd5d056f3db98f964
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220499"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30354631"
 ---
 # <a name="how-exchange-online-uses-tls-to-secure-email-connections-in-office-365"></a>Использование протокола TLS службой Exchange Online для защиты электронной почты в Office 365
 

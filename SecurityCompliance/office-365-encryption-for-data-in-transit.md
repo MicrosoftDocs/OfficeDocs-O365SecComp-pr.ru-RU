@@ -10,20 +10,23 @@ localization_priority: None
 search.appverid:
 - MET150
 ms.collection:
+- Strat_O365_Enterprise
 - M365-security-compliance
+- Strat_O365_Enterprise
 description: Сводка. краткое объяснение того, как корпорация Майкрософт шифрует данные при передаче.
-ms.openlocfilehash: 596b884ac76c9b138d01958363c7921acf926345
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.openlocfilehash: ba1317a0a2a685d0f3ac2216939d04e402503e49
+ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30275849"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30357610"
 ---
 # <a name="office-365-encryption-for-data-in-transit"></a>Шифрование в Office 365 для пересылки данных
 
 Помимо защиты данных клиентов, корпорация Майкрософт использует технологии шифрования для защиты данных клиентов Office 365 в транзитном офисе. 
 
 Данные находятся в пути:
+
 - Когда клиентский компьютер обменивается данными с сервером Office 365;
 - Когда сервер Office 365 обменивается данными с другим сервером Office 365; с
 - Когда сервер Office 365 обменивается данными с сервером, отличным от Office 365 (например, Exchange Online доставляет электронную почту на инородный сервер электронной почты).
@@ -33,6 +36,7 @@ ms.locfileid: "30275849"
 Общедоступные сертификаты выдаются по ПРОТОКОЛу Microsoft IT SSL с помощью Ссладмин, внутреннего средства Майкрософт для защиты конфиденциальности передаваемых данных. Все сертификаты, выданные корпорацией Майкрософт, имеют значение не менее 2048 бит, а для обеспечения соответствия требованиям [вебтруст](http://www.webtrust.org/homepage-documents/item70372.pdf) требуется ссладмин, чтобы сертификаты выдавались только общеДОСТУПНЫМ IP-адресам, принадлежащим корпорации Майкрософт. Все IP-адреса, которые не удовлетворяют этому критерию, направляются через процесс исключения.
 
 Все детали реализации, такие как используемая версия протокола TLS, включена ли функция переСылки безопасной (Федерации), порядок комплектов шифров и т. д. доступно в открытых источниках. Один из способов просмотреть эти сведения — использовать сторонний веб-сайт, такой как Куалис SSL (www.ssllabs.com). Ниже приведены ссылки на страницы автоматизированного теста из Куалис, отображающие сведения о следующих службах:
+
 - [Портал Office 365](https://www.ssllabs.com/ssltest/analyze.html?d=portal.office.com&hideResults=on)
 - [Exchange Online](https://www.ssllabs.com/ssltest/analyze.html?d=outlook.office365.com&hideResults=on)
 - [SharePoint Online](https://www.ssllabs.com/ssltest/analyze.html?d=microsoft-my.sharepoint.com&hideResults=on)
