@@ -501,7 +501,7 @@
 ## [Поток обработки почты в службе EOP](eop/mail-flow-in-eop.md)
 ### [Как обеспечить, чтобы сообщение не помечалось как спам](how-to-help-ensure-that-a-message-isn-t-marked-as-spam.md)
 ### [Правила потока обработки почты (правила транспорта)](eop/mail-flow-rules-transport-rules-0.md)
-### [Настройка фильтрации массовых рассылок с помощью правил транспорта](use-transport-rules-to-configure-bulk-email-filtering.md)
+### [Использование правил потока обработки почты для массовой фильтрации почтовых сообщений](use-transport-rules-to-configure-bulk-email-filtering.md)
 ### [Просмотр отчетов, передаваемых пользователями в Майкрософт, с помощью правил для потока обработки почты](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)
 ### [Устранение угроз вредоносного ПО с помощью блокирования вложенных файлов](eop/reducing-malware-threats-through-file-attachment-blocking-in-exchange-online-pro.md)
 ### [Отчеты и трассировка сообщений](eop/reporting-and-message-trace-in-exchange-online-protection.md)
