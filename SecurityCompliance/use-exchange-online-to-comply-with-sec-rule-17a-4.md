@@ -4,19 +4,20 @@ ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
 ms.audience: Admin
-ms.topic: overview
+ms.topic: conceptual
 ms.service: O365-seccomp
+ms.collection: M365-security-compliance
 localization_priority: Priority
 search.appverid:
 - MOE150
 - MET150
 description: Компания Cohasset Associates убедилась, что при рекомендованной настройке Exchange Online и Центра безопасности и соответствия требованиям соблюдаются соответствующие требования к хранилищам согласно правилу CFTC 1.31 (пункты c и d), правилу FINRA 4511 и правилу SEC 17a-4. Вы можете скачать данную оценку.
-ms.openlocfilehash: a50771b7565e328b2a288a2824706626c82b026c
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.openlocfilehash: b0c2a54aab8f011605a285d4dabfb4091612b17a
+ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30223038"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30410514"
 ---
 # <a name="use-exchange-online-and-the-security--compliance-center-to-comply-with-sec-rule-17a-4"></a>Соблюдение правила 17a-4 SEC с помощью Exchange Online и Центра безопасности и соответствия требованиям
 

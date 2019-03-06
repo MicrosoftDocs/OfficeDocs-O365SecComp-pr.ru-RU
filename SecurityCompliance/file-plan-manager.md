@@ -5,31 +5,27 @@ author: stephow-MSFT
 manager: laurawi
 ms.date: 9/25/2018
 ms.audience: Admin
-ms.topic: overview
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Priority
-ms.collection: Strat_O365_IP
+ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: Диспетчер плана файлов обеспечивает расширенные функции управления для политик и меток хранения, а также встроенные возможности просмотра меток и действий от меток до содержимого для всего жизненного цикла содержимого — создания, совместной работы, объявления записей, хранения и окончательного удаления.
-ms.openlocfilehash: 792729d55f7096114694a59d7202b36fc130e48c
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 328b8f1aeed3e25fb0ab5eb651fb3846b123747c
+ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30221189"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30410524"
 ---
 # <a name="overview-of-file-plan-manager"></a>Общие сведения о диспетчере плана файлов
 
 Диспетчер плана файлов обеспечивает расширенные функции управления для политик и меток хранения, а также встроенные возможности просмотра меток и действий от меток до содержимого для всего жизненного цикла содержимого — создания, совместной работы, объявления записей, хранения и окончательного удаления.
 
 ![Страница плана файлов](media/file-plan-page.png)
-
-## <a name="important-this-feature-is-currently-available-only-as-part-of-the-office-365-preview-program"></a>Важно: эта функция в настоящее время доступна только в рамках программы Office 365 Preview
-
-Эта функция будет доступна в вашем клиенте только в том случае, если ваша организация зарегистрирована в программе Office 365 Preview.
 
 ## <a name="accessing-file-plan-manager"></a>Доступ к диспетчеру плана файлов
 
