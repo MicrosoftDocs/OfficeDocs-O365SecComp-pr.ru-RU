@@ -7,15 +7,15 @@ ms.date: 8/17/2018
 ms.audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
+ms.collection: M365-security-compliance
 localization_priority: Normal
-ms.assetid: 2ea971bf-9434-4b61-b825-2bbd28ae6064
 description: В этом разделе показано, как будет выглядеть политика защиты от потери данных (DLP), когда она обнаруживает тип конфиденциальной информации ЕС по национальному идентификационному номеру. Этот тип конфиденциальной информации определяет различные шаблоны, ключевые слова и другие доказательства для каждой страны.
-ms.openlocfilehash: 9a85fd6954f39de348874e03268a2e19ae47366c
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: afae2c3fa54fe5fcd93990cdf5797f5517c46202
+ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220639"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30410974"
 ---
 # <a name="eu-national-identification-number"></a>Национальный идентификационный номер ЕС
 
@@ -23,7 +23,7 @@ ms.locfileid: "30220639"
   
 ## <a name="austria"></a>Австрия
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 24 – символическое сочетание букв, цифр и специальных символов;
   
@@ -67,7 +67,6 @@ ms.locfileid: "30220639"
   
 идентификационный номер
   
-
 national id
   
 персоналаусвеис Републик öстерреич
@@ -78,7 +77,7 @@ national id
   
 ## <a name="bulgaria"></a>Болгария
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Десять цифр без пробелов и разделителей
   
@@ -135,7 +134,6 @@ national id
 номер страны
   
 social security number
-
   
 натионалнумбер #
   
@@ -167,7 +165,7 @@ SSN
   
 ## <a name="cyprus"></a>Кипр
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Десять цифр без пробелов и разделителей
   
@@ -203,7 +201,7 @@ SSN
 
 идентификационный номер карточки
   
-Национальный идентификационный номер
+national identification number
   
 личный идентификационный номер
   
@@ -221,7 +219,7 @@ SSN
   
 ## <a name="estonia"></a>Эстония
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 11 цифр без пробелов и разделителей
   
@@ -274,7 +272,7 @@ SSN
   
 персональный идентификационный номер
   
-Национальный идентификационный номер
+national identification number
   
 номер страны
   
@@ -306,9 +304,9 @@ ID — каарт
   
 ## <a name="hungary"></a>Венгрия
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
-11 разрядов
+11 цифр.
   
 ### <a name="pattern"></a>Шаблон
 
@@ -357,7 +355,6 @@ ID — каарт
 персональный идентификационный номер
   
 identification number
-
   
 личный идентификационный номер
   
@@ -365,7 +362,7 @@ identification number
   
 ## <a name="ireland"></a>Ireland (Ирландия)
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Сочетание букв, цифр и пробела в указанном шаблоне.
   
@@ -433,7 +430,6 @@ RSI нет
 персональный идентификационный номер
   
 identification number
-
   
 личный идентификационный номер
   
@@ -443,7 +439,7 @@ identification number
   
 ## <a name="italy"></a>Италия
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 16 – символическое сочетание букв и цифр в указанном шаблоне.
   
@@ -525,7 +521,7 @@ identification number
   
 ## <a name="italy"></a>Италия
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 11 цифр и дефис в указанном формате.
   
@@ -589,7 +585,7 @@ identification number
   
 ## <a name="lithuania"></a>Литва
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 11 цифр без пробелов и разделителей
   
@@ -662,13 +658,13 @@ identification number
   
 ## <a name="luxemburg"></a>Луксембург
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 11 цифр без пробелов и разделителей
   
 ### <a name="pattern"></a>Шаблон
 
-11 разрядов
+11 цифр.
   
 - Одна цифра, соответствующая пол и век рождения человека
     
@@ -739,7 +735,7 @@ ID персоннелле
   
 ## <a name="malta"></a>Мальта
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Семь цифр, за которыми следует одна буква
   
@@ -804,7 +800,7 @@ ID персоннелле
   
 ## <a name="netherlands"></a>Нидерланды
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Девять цифр без пробелов и разделителей
   
@@ -877,7 +873,7 @@ BSN
   
 ## <a name="romania"></a>Румыния
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 13 цифр без пробелов и разделителей
   
@@ -926,7 +922,7 @@ BSN
   
 КНП #
   
-закрепить
+крепления
   
 крепления
   
@@ -958,7 +954,7 @@ BSN
   
 ## <a name="slovakia"></a>Словакия
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Десять цифр, содержащих одну обратную косую черту;
   
@@ -1001,12 +997,11 @@ BSN
 
 номер рождения
   
-Национальный идентификационный номер
+national identification number
   
 персональный идентификационный номер
   
 social security number
-
   
 натионалнумбер #
   
@@ -1028,7 +1023,7 @@ SSN
   
 ## <a name="slovenia"></a>Словения
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 13 цифр без пробелов и разделителей
   
@@ -1099,7 +1094,7 @@ SSN
   
 ## <a name="spain"></a>Испания
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Семь цифр, за которыми следует один символ
   
@@ -1139,7 +1134,7 @@ SSN
 
 DNI
   
-Национальный идентификационный номер
+national identification number
   
 Национальный идентификационный номер
   

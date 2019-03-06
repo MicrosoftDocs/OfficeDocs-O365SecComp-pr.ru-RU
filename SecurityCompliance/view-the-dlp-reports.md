@@ -7,18 +7,18 @@ ms.date: 6/7/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
+ms.collection: M365-security-compliance
 localization_priority: Normal
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: 41eb4324-c513-4fa5-91c8-8fbd8aaba83b
 description: С помощью отчетов DLP в Office 365 вы можете быстро просмотреть количество совпадений политики защиты от потери данных, переопределений или ложных срабатываний. Проверьте, не заходите ли они вверх или вниз по времени; отфильтровать отчет различными способами; и просмотрите дополнительные сведения, выбрав точку на линии на диаграмме.
-ms.openlocfilehash: 4e9e5405b5c35719c1b14efca91cdf87f416e7bd
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 480ab99b2d84adfbb87288e1e0986441ef56ef99
+ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30217579"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30410704"
 ---
 # <a name="view-the-reports-for-data-loss-prevention"></a>Просмотр отчетов о защите от потери данных
 
@@ -80,12 +80,12 @@ ms.locfileid: "30217579"
     
 Однако отчеты DLP требуют извлечения данных из Office 365, в том числе Exchange Online. По этой причине командлеты для отчетов DLP доступны в Exchange Online PowerShell, а не в интерфейсе PowerShell &amp; центра соответствия требованиям безопасности. Таким образом, чтобы использовать командлеты для отчетов DLP, необходимо выполнить следующие действия:
   
-1. [Подключитесь к Exchange Online с помощью удаленной оболочки PowerShell](http://go.microsoft.com/fwlink/?LinkID=799773&amp;clcid=0x409).
+1. [Connect to Exchange Online using remote PowerShell](http://go.microsoft.com/fwlink/?LinkID=799773&amp;clcid=0x409)
     
 2. Используйте любой из этих командлетов для отчетов о защите от потери данных:
     
-      - [Get-DlpDetectionsReport](http://go.microsoft.com/fwlink/?LinkID=799774&amp;clcid=0x409)
+      - [Get — DlpDetectionsReport](http://go.microsoft.com/fwlink/?LinkID=799774&amp;clcid=0x409)
     
-      - [Get-DlpDetailReport](http://go.microsoft.com/fwlink/?LinkID=799775&amp;clcid=0x409)
+      - [Get — DlpDetailReport](http://go.microsoft.com/fwlink/?LinkID=799775&amp;clcid=0x409)
     
 

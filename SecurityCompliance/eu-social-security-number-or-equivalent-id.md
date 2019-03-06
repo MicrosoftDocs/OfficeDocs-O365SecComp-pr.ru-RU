@@ -7,15 +7,15 @@ ms.date: 8/17/2018
 ms.audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
+ms.collection: M365-security-compliance
 localization_priority: Normal
-ms.assetid: 1fabd341-e594-4bfe-961c-62aa82893f60
 description: В этом разделе показано, как будет выглядеть политика защиты от потери данных (DLP), когда она обнаруживает номер социального страхования ЕС или эквивалентный тип конфиденциальной информации. Этот тип конфиденциальной информации определяет различные шаблоны, ключевые слова и другие доказательства для каждой страны.
-ms.openlocfilehash: abcefb6930e9c02d2f32d84b65accfecf1e20d95
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: c0c808eafa52209c79f3b4e8a2113f587fd8a771
+ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216529"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30410804"
 ---
 # <a name="eu-social-security-number-or-equivalent-id"></a>Номер социального страхования ЕС или эквивалентный идентификатор
 
@@ -23,7 +23,7 @@ ms.locfileid: "30216529"
   
 ## <a name="austria"></a>Австрия
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 10 цифр в указанном формате
   
@@ -73,9 +73,7 @@ ms.locfileid: "30216529"
 социальное страхование нет
   
 social security number
-
   
-
 social security code
   
 страховой номер
@@ -100,13 +98,13 @@ SSN
   
 ## <a name="belgium"></a>Бельгия
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 11 цифр без пробелов и разделителей
   
 ### <a name="pattern"></a>Шаблон
 
-11 разрядов
+11 цифр.
   
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -146,7 +144,6 @@ SSN
 номер страны
   
 social security number
-
   
 натионалнумбер #
   
@@ -167,7 +164,6 @@ SSN
 Национальный нумéро
   
 numéro de sécurité
-
   
 нумéро д'ассурé
   
@@ -179,7 +175,7 @@ numéro de sécurité
   
 ## <a name="croatia"></a>Хорватия
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 11 цифр без пробелов и разделителей
   
@@ -228,10 +224,9 @@ numéro de sécurité
   
 основной номер в соотношении
   
-Национальный идентификационный номер
+national identification number
   
 social security number
-
   
 натионалнумбер #
   
@@ -255,7 +250,7 @@ OIB
   
 ## <a name="czech-republic"></a>Чешская Республика
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Десять цифр и обратная косая черта в указанном шаблоне
   
@@ -306,12 +301,11 @@ OIB
 
 номер рождения
   
-Национальный идентификационный номер
+national identification number
   
 персональный идентификационный номер
   
 social security number
-
   
 натионалнумбер #
   
@@ -333,7 +327,7 @@ SSN
   
 ## <a name="denmark"></a>Дания
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Десять цифр и дефис в заданном шаблоне
   
@@ -382,10 +376,9 @@ SSN
 
 персональный идентификационный номер
   
-Национальный идентификационный номер
+national identification number
   
 social security number
-
   
 натионалнумбер #
   
@@ -405,7 +398,7 @@ CPR — нуммер
   
 ## <a name="finland"></a>Финляндия
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 11 символов в указанном формате.
   
@@ -461,7 +454,6 @@ CPR — нуммер
 #### <a name="keywordsfinlandeussnorequivalent"></a>Кэйвордс_финланд_еу_ссн_ор_екуивалент
 
 identification number
-
   
 личный идентификатор
   
@@ -471,7 +463,7 @@ identification number
   
 персоналиднумбер #
   
-Национальный идентификационный номер
+national identification number
   
 идентификационный номер
   
@@ -517,7 +509,7 @@ ID No
   
 ## <a name="hungary"></a>Венгрия
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Девять цифр без пробелов и разделителей
   
@@ -561,7 +553,6 @@ ID No
 Венгерский номер социального страхования
   
 social security number
-
   
 соЦиалсекуритинумбер #
   
@@ -603,7 +594,7 @@ SSN
   
 ## <a name="sweden"></a>Швеция
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 12 цифр без пробелов и разделителей
   
@@ -657,7 +648,6 @@ SSN
 личный идентификационный номер
   
 identification number
-
   
 личный идентификатор
   
