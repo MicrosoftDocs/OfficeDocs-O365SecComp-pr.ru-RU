@@ -7,18 +7,19 @@ ms.date: 6/7/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
 localization_priority: Normal
 search.appverid:
 - MOE150
 - MET150
 description: С помощью отчетов DLP в Office 365 вы можете быстро просмотреть количество совпадений политики защиты от потери данных, переопределений или ложных срабатываний. Проверьте, не заходите ли они вверх или вниз по времени; отфильтровать отчет различными способами; и просмотрите дополнительные сведения, выбрав точку на линии на диаграмме.
-ms.openlocfilehash: 480ab99b2d84adfbb87288e1e0986441ef56ef99
-ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
+ms.openlocfilehash: 6f97a29b5a80eeff60b13ba4467d44e3ef87b028
+ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30410704"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30454851"
 ---
 # <a name="view-the-reports-for-data-loss-prevention"></a>Просмотр отчетов о защите от потери данных
 

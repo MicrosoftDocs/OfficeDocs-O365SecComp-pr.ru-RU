@@ -7,15 +7,16 @@ ms.date: 8/7/2017
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
 localization_priority: Normal
 description: Эта рекомендация поможет вашей организации защитить конфиденциальный контент, если он хранится и предоставляется в Office 365, выполнив сведения о возможном разрыве политики защиты от потери данных. Вы увидите эту рекомендацию на домашней странице центра безопасности &amp; и соответствия требованиям, если ваши документы содержат любой из пяти наиболее распространенных типов конфиденциальной информации, но не защищены политикой DLP.
-ms.openlocfilehash: ed1140a4f5e09a21aa358564992acd97cd006ba8
-ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
+ms.openlocfilehash: aabd1e6b3ce8ea4754192bd7b6f80262d9e83cf7
+ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30410824"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30455121"
 ---
 # <a name="get-started-with-dlp-policy-recommendations"></a>Начало работы с рекомендациями политик защиты от потери данных
 

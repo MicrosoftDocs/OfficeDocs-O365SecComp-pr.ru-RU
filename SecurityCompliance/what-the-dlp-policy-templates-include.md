@@ -9,18 +9,19 @@ ms.topic: reference
 f1_keywords:
 - ms.o365.cc.DLPNewPolicyFromTemplate
 ms.service: O365-seccomp
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
 localization_priority: Normal
 search.appverid:
 - MOE150
 - MET150
 description: Защита от потери данных (DLP) в центре безопасности &amp; Office 365 содержит готовые шаблоны политик, предназначенные для решения распространенных требований соответствия требованиям, таких как помощь в защите конфиденциальной информации, подходящей для субъекта страхования здоровья США ( HIPAA), США Акт Грэмма-Лича-Блили ACT (GLBA) или США Патриотический ACT. В этом разделе перечислены все шаблоны политик, типы конфиденциальной информации, которые они ищут, а также указаны стандартные условия и действия.
-ms.openlocfilehash: 74c575df18c7e75eba9f01c7864b7fe8502ccde9
-ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
+ms.openlocfilehash: 00e2c4ff42df039804b1b8a3962be7e3c3798022
+ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30411014"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30455211"
 ---
 # <a name="what-the-dlp-policy-templates-include"></a>Что входит в шаблоны политик DLP
 

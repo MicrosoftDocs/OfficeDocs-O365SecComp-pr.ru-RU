@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: bcc307cc08954dd3cc69e8905747393d79f97b04
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: fb4b36841394576c44667f9677507c5655179e45
+ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30297102"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30455421"
 ---
 # <a name="collect-data-for-a-case-in-advanced-ediscovery-preview"></a>Сбор данных для обращения в Advanced eDiscovery (Предварительная версия)
 
@@ -27,7 +27,7 @@ ms.locfileid: "30297102"
 
 После выполнения поиска вы сможете просматривать статистику извлеченных элементов, таких как расположения, в которых большинство элементов содержали поисковый запрос. Кроме того, можно выполнить предварительный просмотр подмножества результатов. После определения набора документов, которые необходимо проанализировать, можно добавить результаты поиска в рабочий набор для сбора и обработки.
 
-## <a name="create-a-search"></a>Создание поиска
+## <a name="create-a-search"></a>Create a search
 
 При нажатии кнопки **Новый поиск** на вкладке **поиски** запустится мастер, который поможет создать поиск. Подробную информацию о том, как создать поиск, можно узнать в статье [Создание поиска для сбора данных](create-search-to-collect-data.md).
 
@@ -40,8 +40,7 @@ ms.locfileid: "30297102"
 
 - Сводка
 - Основные расположения
-- Запросе
-- Уточнители
+- Queries
 
 Дополнительные сведения о статистике поиска можно найти в статье [Статистика поиска](search-statistics.md).
 

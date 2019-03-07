@@ -5,16 +5,16 @@ author: chrisda
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
 description: Администраторы могут ознакомиться с отчетом о сообщениях с автоматическим пересылкой в панели мониторинга "Направление почты" в центре безопасности Office 365 Security _Амп_.
-ms.openlocfilehash: 5097a2842eeae56e1eb51b9fae4c0caf5263ad80
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: acfc1996a630cb6ff9a12a1e2953c93ba9862ffd
+ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30219309"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30454931"
 ---
 # <a name="auto-forwarded-messages-report"></a>Отчет по автоматически пересылаемым сообщениям
 
@@ -30,6 +30,6 @@ ms.locfileid: "30219309"
 
 ![Всплывающее меню сведений для отчета о автоматически пересылаемых сообщениях в центре безопасности Office 365 _Амп_ соответствие требованиям](media/87d0fb1e-d2ef-4901-b17c-ec32d23a539e.png)
 
-## <a name="insights"></a>Наблюдения
+## <a name="insights"></a>Аналитика
 
 На основе данных отчета создается два аналитических отчета: **новые пересылаемые пользователи** и **новые домены пересылки**. Каждый аналитический отчет содержит сводную информацию о количестве новых серверов пересылки или доменов со ссылкой на **Новый отчет о перенаправлении** , который предоставляет более подробные сведения для двух типов данных. В **новом отчете о переадресации** также отображается представление о новых действиях временной шкалы, а в таблице сведений указывается, кто начал пересылку и в какие домены.

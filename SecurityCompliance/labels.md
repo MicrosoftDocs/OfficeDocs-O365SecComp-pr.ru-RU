@@ -8,17 +8,18 @@ ms.audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Priority
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 description: Метки хранения в Office 365 помогут вам выполнять с контентом действия, соответствующие его характеру. Используя метки хранения, вы можете классифицировать данные в организации для системы управления и применять правила хранения на основе этой классификации. Вы также можете использовать метки хранения для управления записями в Office 365.
-ms.openlocfilehash: b1ce2558c9e6031c21151650f84fc1cb1a8804b8
-ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
+ms.openlocfilehash: c7a1ea3221de193db30a821e0449194ea761ebcf
+ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30410964"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30455311"
 ---
 # <a name="overview-of-retention-labels"></a>Обзор меток хранения
 

@@ -7,17 +7,18 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 description: Узнайте, как создавать, редактировать, удалять и тестировать собственные типы конфиденциальной информации для DLP в графическом пользовательском интерфейсе Центра безопасности и соответствия требованиям Office 365.
-ms.openlocfilehash: 16bc49f23de20479ed18ce56720fd70a05b986e3
-ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
+ms.openlocfilehash: 5e20fac290a7d06c843a0043d95669d9c7f7cd05
+ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30410814"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30455141"
 ---
 # <a name="create-a-custom-sensitive-information-type"></a>Создание пользовательского типа конфиденциальной информации
 

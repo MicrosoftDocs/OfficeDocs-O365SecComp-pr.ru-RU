@@ -8,17 +8,18 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 description: При помощи меток в Office 365 можно задавать периоды хранения с учетом возникновения событий определенного типа. Событие активирует начало периода хранения, и ко всему содержимому с меткой для событий такого типа применяются соответствующие действия по хранению. Хранение, зависящее от возникновения события, обычно используется в процессе управления записями.
-ms.openlocfilehash: f6686fdbd5e453938d2db4e0eb9e53018ecbd79a
-ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
+ms.openlocfilehash: 129f957585e9df5a959e34187a0edc384c68c448
+ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30410694"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30455111"
 ---
 # <a name="overview-of-event-driven-retention"></a>Общие сведения о хранении, зависящем от возникновения события
 

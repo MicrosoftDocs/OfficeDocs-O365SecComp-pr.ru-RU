@@ -11,34 +11,34 @@ f1_keywords:
 - ms.o365.cc.UnifiedDLPRuleContainsSensitiveInformation
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
-ms.assetid: fd505979-76be-4d9f-b459-abef3fc9e86b
-description: Защита от потери данных (DLP) в центре безопасности &amp; Office 365 включает в себя 80 типов конфиденциальной информации, готовых к использованию в политиках защиты от потери данных. В этом разделе перечислены все эти типы конфиденциальной информации и показано, как будет выглядеть политика DLP при обнаружении каждого типа.
-ms.openlocfilehash: 17fb0b8d745168f8000fba9e6fc42f3c255a1937
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.collection:
+- M365-security-compliance
+description: Защита от потери данных (DLP) в центре безопасности &amp; Office 365 включает в себя 80 типов конфиденциальной информации, готовых к использованию в политиках защиты от потери данных. В этой статье перечислены все эти типы конфиденциальной информации и показано, каким именно образом политика защиты от потери данных выявляет каждый тип.
+ms.openlocfilehash: 55fa8b6855a9a5bf2c84f6555dd8c8227a2ad9cf
+ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216359"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30455271"
 ---
 # <a name="what-the-sensitive-information-types-look-for"></a>Что позволяют искать типы конфиденциальной информации
 
-Защита от потери данных (DLP) в центре безопасности &amp; Office 365 содержит множество типов конфиденциальной информации, готовых к использованию в политиках защиты от потери данных. В этом разделе перечислены все эти типы конфиденциальной информации и показано, как будет выглядеть политика DLP при обнаружении каждого типа. Тип конфиденциальной информации определяется шаблоном, который может быть идентифицирован регулярным выражением или функцией. Кроме того, подкрепляющее, такие как ключевые слова и контрольные суммы, можно использовать для определения типа конфиденциальной информации. Уровень вероятности и близость также используются в процессе оценки.
+Защита от потери данных (DLP) в центре безопасности &amp; Office 365 содержит множество типов конфиденциальной информации, готовых к использованию в политиках защиты от потери данных. В этой статье перечислены все эти типы конфиденциальной информации и показано, каким именно образом политика защиты от потери данных выявляет каждый тип. Тип конфиденциальной информации определяется шаблоном, который можно идентифицировать регулярным выражением или функцией. Кроме того, для идентификации типа конфиденциальной информации могут использоваться подкрепляющие доказательства, такие как ключевые слова и контрольные суммы. Уровень вероятности и расположение слов и знаков также используются в процессе оценки.
   
 ## <a name="aba-routing-number"></a>Код банка ABA
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 9 цифр в виде форматированного или неформатированного шаблона.
 
 ### <a name="pattern"></a>Шаблон
 
-С форматированием
+Форматируемые
 - четыре цифры, начиная с 0, 1, 2, 3, 6, 7 или 8;
 - дефис;
-- Четыре цифры
-- дефис; 
-- Одна цифра
+- четыре цифры;
+- дефис;
+- цифра.
 
 Неформатированные: 9 последовательных цифр, начиная с 0, 1, 2, 3, 6, 7 или 8. 
 
@@ -67,50 +67,34 @@ ms.locfileid: "30216359"
 
 #### <a name="keywordabarouting"></a>Кэйворд_аба_раутинг
 
-- aba
-- 
-aba#
-- 
-aba routing #
-- номер маршрутизации код банка ABA
-- 
-aba#
-- 
-abarouting#
-- 
-aba number
-- 
-abaroutingnumber
-- 
-american bank association routing #
-- 
-american bank association routing number
-- 
-americanbankassociationrouting#
-- 
-americanbankassociationroutingnumber
-- 
-bank routing number
-- 
-bankrouting#
-- 
-bankroutingnumber
-- 
-routing transit number
-- 
-RTN
- 
+- код банка ABA
+- aba#
+- aba routing #
+- aba routing number
+- код банка ABA
+- абараутинг #
+- aba number
+- абараутингнумбер
+- american bank association routing #
+- american bank association routing number
+- американбанкассоЦиатионраутинг #
+- американбанкассоЦиатионраутингнумбер
+- bank routing number
+- банкраутинг #
+- банкраутингнумбер
+- routing transit number
+- РТН 
    
 ## <a name="argentina-national-identity-dni-number"></a>Номер внутреннего удостоверения личности для Аргентины (DNI)
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Восемь цифр, разделенных точками.
 
 ### <a name="pattern"></a>Шаблон
 
 Восемь цифр:
-- Две цифры
+- две цифры;
 - точка;
 - три цифры; 
 - точка;
@@ -140,32 +124,27 @@ RTN
 
 #### <a name="keywordargentinanationalid"></a>Кэйворд_аржентина_натионал_ид
 
-- Argentina National Identity number
- 
-- Идентификация 
+- Argentina National Identity number 
+- Удостоверение 
 - Идентификация национальной идентификационной карточки 
-- DNI
- 
+- DNI 
 - Национальная реестр пользователей NIC 
-- Documento Nacional de Identidad
- 
-- Registro Nacional de las Personas
- 
-- Identidad
- 
-- Identificación
- 
+- Documento Nacional de Identidad 
+- Registro Nacional de las Personas 
+- ИДЕНТИДАД 
+- ИдентификаЦиóн 
    
 ## <a name="australia-bank-account-number"></a>Номер банковского счета для Австралии
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 6–10 цифр с номером филиала банка в штате или без него.
 
 ### <a name="pattern"></a>Шаблон
 
-Номер счета — 6-10 цифр. Номер филиала банковского состояния Австралии:
-- Три цифры 
+Номер счета состоит из 6–10 цифр.
+Номер филиала государственного банка Австралии
+- три цифры; 
 - дефис; 
 - Три цифры
 
@@ -204,36 +183,23 @@ RTN
 #### <a name="keywordaustraliabankaccountnumber"></a>Кэйворд_аустралиа_банк_аккаунт_нумбер
 
 - swift bank code
-- 
-correspondent bank
-- 
-base currency
-- 
-usa account
-- 
-holder address
-- 
-bank address
-- 
-information account
-- 
-fund transfers
-- 
-bank charges
-- 
-bank details
-- 
-banking information
-- 
-full names
-- 
-
-iaea
+- correspondent bank
+- base currency
+- usa account
+- holder address
+- bank address
+- information account
+- fund transfers
+- bank charges
+- bank details
+- banking information
+- full names
+- иаеа
 
    
 ## <a name="australia-drivers-license-number"></a>Номер водительского удостоверения для Австралии
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Девять букв и цифр.
 
@@ -242,7 +208,7 @@ iaea
 Девять букв и цифр: 
 
 - две цифры или буквы (без учета регистра); 
-- Две цифры 
+- две цифры; 
 - пять цифр или букв (без учета регистра).
 
 ИЛИ
@@ -283,131 +249,108 @@ iaea
 #### <a name="keywordaustraliadriverslicensenumber"></a>Кэйворд_аустралиа_дриверс_лиценсе_нумбер
 
 - international driving permits
-- 
-australian automobile association
-- 
-international driving permit
+- australian automobile association
+- international driving permit
 - Дриверлиценце
 - Дриверлиценцес
-- Драйвер Лик
+- Driver Lic
 - Driver Licence
-
 - Driver Licences
-
 - Дриверслик
 - Дриверслиценце
 - Дриверслиценцес
-- Драйверы Лик
-- Драйверы ликс
-- Лицензия на драйверы
-- Лицензии на драйверы
+- Drivers Lic
+- Drivers Lics
+- Drivers Licence
+- Drivers Licences
 - Driver ' LIC
 - Driver ' LICS
 - Driver ' Licence
 - Driver ' Licences
-- Драйвер "Лик
-- Драйвер "ЛИКС
-- Лицензия на драйвер
-- Лицензии на драйвер
+- Driver' Lic
+- Driver' Lics
+- Driver' Licence
+- Driver' Licences
 - Дривер'слик
 - Дривер'сликс
 - Дривер'слиценце
 - Дривер'слиценцес
-- Лик драйвера
-- Ликс драйвера
+- Driver's Lic
+- Driver's Lics
 - Driver's Licence
-
 - Driver's Licences
-
 - Дриверлик #
 - Дриверликс #
 - Дриверлиценце #
 - Дриверлиценцес #
 - Driver Lic#
-- 
-Driver Lics#
-
-- Лицензия на драйвер #
-- Лицензия на драйвер #
+- Driver Lics#
+- Driver Licence#
+- Driver Licences#
 - Дриверслик #
 - Дриверсликс #
 - Дриверслиценце #
 - Дриверслиценцес #
-- Drivers Лик #
-- Drivers ликс #
-- Драйвер, лицензия #
-- Лицензии на драйверы #
+- Drivers Lic#
+- Drivers Lics#
+- Drivers Licence#
+- Drivers Licences#
+- Driver ' LIC
+- Driver ' LICS
+- Driver ' Licence
+- Driver ' Licences
 - Driver' Lic#
-
 - Driver' Lics#
-
 - Driver' Licence#
-
 - Driver' Licences#
-
-- Driver' Lic#
-
-- Driver' Lics#
-
-- Драйвер "водительская лицензия"
-- Водитель # число лицензий
 - Дривер'слик #
 - Дривер'сликс #
 - Дривер'слиценце #
 - Дривер'слиценцес #
 - Driver's Lic#
-
 - Driver's Lics#
-
-- Номер лицензии на драйвер
-- Лицензии на драйвер # 
+- Driver's Licence#
+- Driver's Licences# 
 
 #### <a name="keywordaustraliadriverslicensenumberexclusions"></a>Кэйворд_аустралиа_дриверс_лиценсе_нумбер_ексклусионс
 
-- aaa
+- AAA
 - Дриверлиценсе
 - Дриверлиценсес
-- Лицензия на драйвер
-- Лицензии на драйверы
+- Driver License
+- Driver Licenses
 - Дриверслиценсе
 - Дриверслиценсес
-- Лицензия на драйверы
-- Лицензии на драйверы
+- Drivers License
+- Drivers Licenses
 - Driver ' License
 - Driver ' Licenses
-- Лицензия "Driver"
-- Лицензии на драйвер
+- Driver' License
+- Driver' Licenses
 - Дривер'слиценсе
 - Дривер'слиценсес
-- Лицензия на драйвер
-- Лицензии на драйвер
+- Driver's License
+- Driver's Licenses
 - Дриверлиценсе #
 - Дриверлиценсес #
-- Номер лицензии драйвера
-- Лицензии на драйверы #
+- Driver License#
+- Driver Licenses#
 - Дриверслиценсе #
 - Дриверслиценсес #
-- Driver License #
-- Лицензии на драйверы #
+- Drivers License#
+- Drivers Licenses#
+- Driver ' License
+- Driver ' Licenses
 - Driver' License#
-
 - Driver' Licenses#
-
-- Driver' License#
-
-- Driver' Licenses#
-
 - Дривер'слиценсе #
 - Дривер'слиценсес #
 - Driver's License#
-
-- 
-
-Driver's Licenses#
+- Driver's Licenses#
    
 ## <a name="australia-medical-account-number"></a>Номер карты медицинского страхования для Австралии
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 10–11 цифр.
 
@@ -457,27 +400,19 @@ Driver's Licenses#
 #### <a name="keywordaustraliamedicalaccountnumber"></a>Кэйворд_аустралиа_медикал_аккаунт_нумбер
 
 - bank account details
-- 
-medicare payments
-- 
-mortgage account
-- 
-bank payments
-- 
-information branch
-- 
-credit card loan
-- 
-department of human services
-- Локальная служба
-- 
-
-medicare
+- medicare payments
+- mortgage account
+- bank payments
+- information branch
+- credit card loan
+- department of human services
+- local service
+- Медикаре
 
    
 ## <a name="australia-passport-number"></a>Номер паспорта гражданина Австралии
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Буква, за которой следуют семь цифр.
 
@@ -513,67 +448,42 @@ medicare
 #### <a name="keywordpassport"></a>Кэйворд_пасспорт
 
 - Passport Number
-- 
-Passport No
+- Passport No
 - Passport#
-
-- Passport#
-
+- Службу
 - Пасспортид
-- Passportno
-
-- passportnumber
-
+- Пасспортно
+- пасспортнумбер
 - パスポート
 - パスポート番号
-
-- パスポートのNum
-
-- 
-パスポート＃
- 
+- パスポートのнум
+- パスポート＃ 
 - Numéro de passeport
-- 
-Passeport n °
+- Passeport n °
 - Passeport Non
-
 - Passeport#
-
-- Passeport#
-
+- Пассепорт #
 - Пассепортнон
 - Passeportn °
 
-
 #### <a name="keywordaustraliapassportnumber"></a>Кэйворд_аустралиа_пасспорт_нумбер
 
-- passport
-- 
-passport details
-- 
-immigration and citizenship
-- 
-commonwealth of australia
-- 
-department of immigration
-- 
-residential address
-- 
-department of immigration and citizenship
-- visa
-
-- 
-national identity card
-- номер паспорта
-- 
-travel document
-- 
-
-issuing authority
+- службу
+- passport details
+- immigration and citizenship
+- commonwealth of australia
+- department of immigration
+- residential address
+- department of immigration and citizenship
+- Visa
+- national identity card
+- passport number
+- travel document
+- issuing authority
    
 ## <a name="australia-tax-file-number"></a>Номер налогоплательщика для Австралии
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 8–9 цифр.
 
@@ -616,21 +526,13 @@ issuing authority
 #### <a name="keywordaustraliataxfilenumber"></a>Кэйворд_аустралиа_такс_филе_нумбер
 
 - australian business number
-- 
-marginal tax rate
-- 
-medicare levy
-- 
-portfolio number
-- 
-service veterans
-- 
-withholding tax
-- 
-individual tax return
-- 
-
-tax file number
+- marginal tax rate
+- medicare levy
+- portfolio number
+- service veterans
+- withholding tax
+- individual tax return
+- tax file number
 
 #### <a name="keywordnumberexclusions"></a>Кэйворд_нумбер_ексклусионс
 
@@ -667,7 +569,7 @@ tax file number
    
 ## <a name="belgium-national-number"></a>Номер национального документа для Бельгии
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 11 цифр, а также разделители.
 
@@ -705,55 +607,47 @@ tax file number
 
 #### <a name="keywordbelgiumnationalnumber"></a>Кэйворд_белгиум_натионал_нумбер
 
-- Identity
-- Registration
-- Identification 
-- ID 
-- Identiteitskaart
+- Удостоверение
+- Зарегистрировал
+- Процедура 
+- ИД 
+- Идентитеитскаарт
 - Registratie nummer 
- 
-- Identificatie nummer
- 
-- Identiteit
-- Registratie
-- Identificatie
-
- 
-- Carte d’identité
- 
+- Identificatie nummer 
+- Идентитеит
+- Регистратие
+- Идентификатие 
+- Carte d’identité 
 - numéro d'immatriculation
 - numéro d'identification
-- 
-identité
- 
-- inscription
- 
-- Identifikation
-- Identifizierung
-- Identifikationsnummer
-- Personalausweis
-- Registrierung
-- Registrationsnummer
+- идентитé 
+- инскриптион 
+- Идентификатион
+- Идентифизиерунг
+- Идентификатионснуммер
+- Персоналаусвеис
+- Регистриерунг
+- Регистратионснуммер
 
    
 ## <a name="brazil-cpf-number"></a>Номер CPF для Бразилии
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 11 цифр, которые включают проверочную цифру и могут быть форматированными или неформатированными.
 
 ### <a name="pattern"></a>Шаблон
 
-С форматированием
+Форматируемые
 - три цифры;  
-- точка;  
-- три цифры; 
-- точка;  
+- точка; 
+- три цифры;  
+- точка; 
 - Три цифры 
 - Дефис 
 - две проверочные цифры.
 
-Без форматирования
+Неформатированные
 - 11 цифр, где две последние цифры — проверочные.
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -765,7 +659,7 @@ identité
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_brazil_cpf находит содержимое, которое соответствует шаблону;
 - находится ключевое слово из Keyword_brazil_cpf;
-- контрольная сумма проходит проверку.
+- Контрольная сумма проходит проверку.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_brazil_cpf находит содержимое, которое соответствует шаблону;
@@ -789,30 +683,24 @@ identité
 #### <a name="keywordbrazilcpf"></a>Кэйворд_бразил_кпф
 
 - CPF
-- Identification
-- Registration
-- Revenue
-- Cadastro de Pessoas Físicas
- 
-- Imposto
- 
-- Identificação
- 
-- Inscrição
- 
-- Receita
-
- 
+- Процедура
+- Зарегистрировал
+- Реализации
+- Cadastro de Pessoas Físicas 
+- Импосто 
+- Идентификаçãо 
+- Инскриçãо 
+- Рецеита 
    
 ## <a name="brazil-legal-entity-number-cnpj"></a>Номер юридического лица для Бразилии (CNPJ)
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 14 цифр, которые включают регистрационный номер, номер филиала и проверочные цифры, а также разделители.
 
 ### <a name="pattern"></a>Шаблон
 14 цифр, а также разделители:
-- Две цифры 
+- две цифры; 
 - точка; 
 - три цифры;  
 - точка; 
@@ -831,7 +719,7 @@ identité
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_brazil_cnpj находит содержимое, которое соответствует шаблону;
 - находится ключевое слово из Keyword_brazil_cnpj;
-- контрольная сумма проходит проверку.
+- Контрольная сумма проходит проверку.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_brazil_cnpj находит содержимое, которое соответствует шаблону;
@@ -854,46 +742,29 @@ identité
 
 #### <a name="keywordbrazilcnpj"></a>Кэйворд_бразил_кнпж
 
-- CNPJ
- 
+- CNPJ 
 - CNPJ/MF 
-- CNPJ-MF
- 
-- National Registry of Legal Entities
- 
-- Taxpayers Registry
- 
-- Legal entity
- 
-- Legal entities
- 
-- Registration Status
- 
-- Business
- 
+- CNPJ – MF 
+- National Registry of Legal Entities 
+- Taxpayers Registry 
+- Legal entity 
+- Legal entities 
+- Registration Status 
+- Бизнес 
 - Company
-- CNPJ
- 
-- Cadastro Nacional da Pessoa Jurídica
- 
-- Cadastro Geral de Contribuintes
- 
-- CGC
- 
-- Pessoa jurídica
- 
-- Pessoas jurídicas
- 
-- Situação cadastral
- 
-- Inscrição
- 
-- Empresa
- 
+- CNPJ 
+- Cadastro Nacional da Pessoa Jurídica 
+- Cadastro Geral de Contribuintes 
+- КГК 
+- Pessoa jurídica 
+- Pessoas jurídicas 
+- Situação cadastral 
+- Инскриçãо 
+- Емпреса 
    
 ## <a name="brazil-national-id-card-rg"></a>	Номер внутреннего удостоверения личности для Бразилии (RG)
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Registro Geral (старый формат): девять цифр
 
@@ -902,7 +773,7 @@ Registro de identidade (RIC) (новый формат): 11 цифр
 ### <a name="pattern"></a>Шаблон
 
 Registro Geral (старый формат):
-- Две цифры 
+- две цифры; 
 - точка; 
 - три цифры;  
 - точка; 
@@ -924,7 +795,7 @@ Registro de identidade (RIC) (новый формат):
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_brazil_rg находит содержимое, которое соответствует шаблону;
 - находится ключевое слово из Keyword_brazil_rg;
-- контрольная сумма проходит проверку.
+- Контрольная сумма проходит проверку.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_brazil_rg находит содержимое, которое соответствует шаблону;
@@ -951,7 +822,7 @@ Registro de identidade (RIC) (новый формат):
    
 ## <a name="canada-bank-account-number"></a>Номер банковского счета для Канады
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Семь или двенадцать цифр.
 
@@ -960,7 +831,7 @@ Registro de identidade (RIC) (новый формат):
 Номер банковского счета для Канады — семь или двенадцать цифр.
 
 Транзитный номер банковского счета в Канаде имеет указанный ниже формат.
-- Пять цифр 
+- пять цифр; 
 - дефис; 
 - Три цифры или
 - ноль "0"; 
@@ -1001,50 +872,30 @@ Registro de identidade (RIC) (новый формат):
 #### <a name="keywordcanadabankaccountnumber"></a>Кэйворд_канада_банк_аккаунт_нумбер
 
 - canada savings bonds
-- 
-canada revenue agency
-- 
-canadian financial institution
-- 
-direct deposit form
-- 
-canadian citizen
-- 
-legal representative
-- 
-notary public
-- 
-commissioner for oaths
-- 
-child care benefit
-- 
-universal child care
-- 
-canada child tax benefit
-- 
-income tax benefit
-- 
-harmonized sales tax
+- canada revenue agency
+- canadian financial institution
+- direct deposit form
+- canadian citizen
+- legal representative
+- notary public
+- commissioner for oaths
+- child care benefit
+- universal child care
+- canada child tax benefit
+- income tax benefit
+- harmonized sales tax
 - social insurance number
-- 
-income tax refund
-- 
-child tax benefit
-- 
-territorial payments
-- 
-institution number
-- 
-deposit request
-- 
-banking information
-- 
-
-direct deposit
+- income tax refund
+- child tax benefit
+- territorial payments
+- institution number
+- deposit request
+- banking information
+- direct deposit
    
 ## <a name="canada-drivers-license-number"></a>Номер водительского удостоверения для Канады
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Зависит от провинции.
 
@@ -1121,16 +972,15 @@ direct deposit
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordprovincenamedriverslicensename"></a>Keyword_[province_name]_drivers_license_name
+#### <a name="keywordprovincenamedriverslicensename"></a>Кэйворд_ [провинце_наме] _дриверс_лиценсе_наме
 
 - Аббревиатура провинции, например AB.
-- 
-Название провинции, например Альберта.
+- Название провинции, например Альберта.
 
 #### <a name="keywordcanadadriverslicense"></a>Кэйворд_канада_дриверс_лиценсе
 
 - DL
-- DLS
+- БИБЛИОТЕК
 - КДЛ
 - КДЛС
 - Дриверлик
@@ -1139,87 +989,69 @@ direct deposit
 - Дриверлиценсес
 - Дриверлиценце
 - Дриверлиценцес
-- Драйвер Лик
-- Драйвер ликс
-- Лицензия на драйвер
-- Лицензии на драйверы
+- Driver Lic
+- Driver Lics
+- Driver License
+- Driver Licenses
 - Driver Licence
-
 - Driver Licences
-
 - Дриверслик
 - Дриверсликс
 - Дриверслиценце
 - Дриверслиценцес
 - Дриверслиценсе
 - Дриверслиценсес
-- Драйверы Лик
-- Драйверы ликс
-- Лицензия на драйверы
-- Лицензии на драйверы
-- Лицензия на драйверы
-- Лицензии на драйверы
+- Drivers Lic
+- Drivers Lics
+- Drivers License
+- Drivers Licenses
+- Drivers Licence
+- Drivers Licences
 - Driver ' LIC
 - Driver ' LICS
 - Driver ' License
 - Driver ' Licenses
 - Driver ' Licence
 - Driver ' Licences
-- Драйвер "Лик
-- Драйвер "ЛИКС
-- Лицензия "Driver"
-- Лицензии на драйвер
-- Лицензия на драйвер
-- Лицензии на драйвер
+- Driver' Lic
+- Driver' Lics
+- Driver' License
+- Driver' Licenses
+- Driver' Licence
+- Driver' Licences
 - Дривер'слик
 - Дривер'сликс
 - Дривер'слиценсе
 - Дривер'слиценсес
 - Дривер'слиценце
 - Дривер'слиценцес
-- Лик драйвера
-- Ликс драйвера
-- Лицензия на драйвер
-- Лицензии на драйвер
+- Driver's Lic
+- Driver's Lics
+- Driver's License
+- Driver's Licenses
 - Driver's Licence
-
 - Driver's Licences
-
-- Разрешение de Кондуире
+- Permis de Conduire
 - id
-- идентификаторы
-- 
-idcard number
-- 
-idcard numbers
-- 
-idcard#
-- 
-idcard #s
-- карточка идкард
-- карточки идкард
+- ids
+- idcard number
+- idcard numbers
+- idcard#
+- idcard #s
+- idcard card
+- idcard cards
 - идкард
 - identification number
-
 - identification numbers
-
 - identification #
-
-- 
-identification #s
-- идентификационная карточка
-- идентификационные карточки
-- 
-identification
- 
-- DL#
-- 
-DLS#
- 
-- CDL#
- 
-- CDLS#
- 
+- identification #s
+- identification card
+- identification cards
+- процедура 
+- DL
+- БИБЛИОТЕК 
+- КДЛ # 
+- КДЛС # 
 - Дриверлик # 
 - Дриверликс # 
 - Дриверлиценсе # 
@@ -1227,82 +1059,60 @@ DLS#
 - Дриверлиценце # 
 - Дриверлиценцес # 
 - Driver Lic#
-- 
-Driver Lics#
- 
-- Номер лицензии драйвера 
-- Лицензии на драйверы # 
-- Номер лицензии драйвера 
-- Лицензия на драйвер # 
+- Driver Lics# 
+- Driver License# 
+- Driver Licenses# 
+- Driver License# 
+- Driver Licences# 
 - Дриверслик # 
 - Дриверсликс # 
 - Дриверслиценсе # 
 - Дриверслиценсес # 
 - Дриверслиценце # 
 - Дриверслиценцес # 
-- Drivers Лик # 
-- Drivers ликс # 
-- Driver License # 
-- Лицензии на драйверы # 
-- Драйвер, лицензия # 
-- Лицензии на драйверы # 
-- Driver' Lic#
- 
-- Driver' Lics#
- 
-- Driver' License#
- 
-- Driver' Licenses#
- 
-- Driver' Licence#
- 
-- Driver' Licences#
- 
-- Driver' Lic#
- 
-- Driver' Lics#
- 
-- Driver' License#
- 
-- Driver' Licenses#
- 
-- Драйвер "водительская лицензия" 
-- Водитель # число лицензий 
+- Drivers Lic# 
+- Drivers Lics# 
+- Drivers License# 
+- Drivers Licenses# 
+- Drivers Licence# 
+- Drivers Licences# 
+- Driver ' LIC 
+- Driver ' LICS 
+- Driver ' License 
+- Driver ' Licenses 
+- Driver ' Licence 
+- Driver ' Licences 
+- Driver' Lic# 
+- Driver' Lics# 
+- Driver' License# 
+- Driver' Licenses# 
+- Driver' Licence# 
+- Driver' Licences# 
 - Дривер'слик # 
 - Дривер'сликс # 
 - Дривер'слиценсе # 
 - Дривер'слиценсес # 
 - Дривер'слиценце # 
 - Дривер'слиценцес # 
-- Driver's Lic#
- 
-- Driver's Lics#
- 
-- Driver's License#
- 
-- Driver's Licenses#
- 
-- Номер лицензии на драйвер 
-- Лицензии на драйвер # 
-- Разрешение de Кондуире # 
+- Driver's Lic# 
+- Driver's Lics# 
+- Driver's License# 
+- Driver's Licenses# 
+- Driver's Licence# 
+- Driver's Licences# 
+- Permis de Conduire# 
 - кодов 
 - идентификаторы 
-- idcard card#
- 
-- idcard cards#
- 
-- idcard#
- 
-- identification card#
- 
-- identification cards#
- 
-- identification #
- 
+- idcard card# 
+- idcard cards# 
+- идкард # 
+- identification card# 
+- identification cards# 
+- процедура 
    
 ## <a name="canada-health-service-number"></a>Номер службы здравоохранения для Канады
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 10 цифр.
 
@@ -1337,25 +1147,18 @@ Driver Lics#
 #### <a name="keywordcanadahealthservicenumber"></a>Кэйворд_канада_хеалс_сервице_нумбер
 
 - personal health number
-- 
-patient information
-- службы работоспособности
-- 
-speciality services
-- 
-automobile accident
-- 
-patient hospital
-- 
-psychiatrist
-- 
-workers compensation
-- 
-disability
+- patient information
+- health services
+- speciality services
+- automobile accident
+- patient hospital
+- псичиатрист
+- workers compensation
+- ограничен
       
 ## <a name="canada-passport-number"></a>Номер паспорта гражданина Канады
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Две прописные буквы, за которыми следуют шесть цифр.
 
@@ -1391,62 +1194,40 @@ disability
 #### <a name="keywordcanadapassportnumber"></a>Кэйворд_канада_пасспорт_нумбер
 
 - canadian citizenship
-- 
-canadian passport
-- 
-passport application
-- 
-passport photos
-- 
-certified translator
-- 
-canadian citizens
-- 
-processing times
-- 
-
-renewal application
+- canadian passport
+- passport application
+- passport photos
+- certified translator
+- canadian citizens
+- processing times
+- renewal application
 
 #### <a name="keywordpassport"></a>Кэйворд_пасспорт
 
 - Passport Number
-- 
-Passport No
+- Passport No
 - Passport#
-
-- Passport#
-
+- Службу
 - Пасспортид
-- Passportno
-
-- passportnumber
-
+- Пасспортно
+- пасспортнумбер
 - パスポート
 - パスポート番号
-
-- パスポートのNum
-
-- パスポート＃
-
+- パスポートのнум
+- パスポート #
 - Numéro de passeport
-- 
-Passeport n °
+- Passeport n °
 - Passeport Non
-
 - Passeport#
-
-- Passeport#
-
+- Пассепорт #
 - Пассепортнон
-- 
-
-Passeportn °
+- Passeportn °
    
 ## <a name="canada-personal-health-identification-number-phin"></a>Персональный идентификационный номер службы здравоохранения для Канады (PHIN)
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
-Девять цифр.
+девять цифр.
 
 ### <a name="pattern"></a>Шаблон
 
@@ -1458,7 +1239,8 @@ Passeportn °
 
 ### <a name="definition"></a>Определение
 
-Политика защиты от потери данных — 75% уверенности в том, что этот тип конфиденциальной информации обнаружен, если в пределах близости от 300 символов: регулярное выражение Режекс_канада_фин находит содержимое, которое соответствует шаблону. Найдены по крайней мере два ключевых слова от Кэйворд_канада_фин или Кэйворд_канада_провинцес.
+Политика защиты от потери данных — 75% уверенности в том, что этот тип конфиденциальной информации обнаружен, если в пределах близости от 300 символов: регулярное выражение Режекс_канада_фин находит содержимое, которое соответствует шаблону.
+Найдены по крайней мере два ключевых слова от Кэйворд_канада_фин или Кэйворд_канада_провинцес.
 
 ```
 <!-- Canada PHIN -->
@@ -1478,77 +1260,51 @@ Passeportn °
 #### <a name="keywordcanadaphin"></a>Кэйворд_канада_фин
 
 - social insurance number
-- 
-health information act
-- 
-income tax information
-- 
-manitoba health
-- 
-health registration
-- 
-prescription purchases
-- 
-benefit eligibility
-- 
-personal health
-- 
-power of attorney
-- 
-registration number
+- health information act
+- income tax information
+- manitoba health
+- health registration
+- prescription purchases
+- benefit eligibility
+- personal health
+- power of attorney
+- registration number
 - personal health number
-- 
-practitioner referral
-- 
-wellness professional
-- 
-patient referral
-- 
-
-health and wellness
+- practitioner referral
+- wellness professional
+- patient referral
+- health and wellness
 
 #### <a name="keywordcanadaprovinces"></a>Кэйворд_канада_провинцес
 
-- Nunavut
-- 
-Quebec
-- 
-Northwest Territories
-- 
-Ontario
-- 
-British Columbia
-- 
-Alberta
-- 
-Saskatchewan
-- 
-Manitoba
-- 
-Yukon
-- 
-Newfoundland and Labrador
-- 
-New Brunswick
-- 
-Nova Scotia
-- 
-Prince Edward Island
+- Нунавут
+- Квебека
+- Northwest Territories
+- Онтарио
+- British Columbia
+- Альберта
+- Саскачеван
+- Манитоба
+- Yukon
+- Newfoundland and Labrador
+- New Brunswick
+- Nova Scotia
+- Prince Edward Island
 - Канада
    
 ## <a name="canada-social-insurance-number"></a>Номер карты социального страхования для Канады
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Девять цифр с необязательными дефисами или пробелами.
 
 ### <a name="pattern"></a>Шаблон
 
-С форматированием
+Форматируемые
+- три цифры;  
+- Дефис или пробел 
 - Три цифры 
-- дефис или пробел;  
-- Три цифры 
-- дефис или пробел;  
+- Дефис или пробел 
 - Три цифры
 
 Неформатированные: девять цифр
@@ -1565,7 +1321,7 @@ Prince Edward Island
     - найдено ключевое слово из Keyword_sin;
     - найдено ключевое слово из Keyword_sin_collaborative;
     - функция Func_eu_date находит дату в правильном формате.
-- контрольная сумма проходит проверку.
+- Контрольная сумма проходит проверку.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_unformatted_canadian_sin находит содержимое, которое соответствует шаблону;
@@ -1594,44 +1350,34 @@ Prince Edward Island
 
 #### <a name="keywordsin"></a>Кэйворд_син
 
-- Синус 
-- social insurance
- 
-- numero d'assurance sociale
- 
-- sins
- 
+- sin 
+- social insurance 
+- numero d'assurance sociale 
+- грехов 
 - SSN 
 - ssNS 
-- социальное обеспечение безопасности 
-- numero d'assurance social
- 
-- Национальный идентификационный номер 
-- 
-national id 
-- sin#
- 
-- soc ins
- 
-- social ins
- 
+- social security 
+- numero d'assurance social 
+- national identification number 
+- national id 
+- Синус 
+- soc ins 
+- social ins 
 
 #### <a name="keywordsincollaborative"></a>Кэйворд_син_коллаборативе
 
 - driver's license 
 - drivers license 
-- Лицензия на драйвер 
+- driver's licence 
 - drivers licence 
-- DOB
- 
+- ДОБ 
 - Birthdate 
-- День рождения  
-- Date of Birth
- 
+- День рождения 
+- Date of Birth 
    
 ## <a name="chile-identity-card-number"></a>	Номер удостоверения личности для Чили
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 7-8 цифр и разделители — контрольная цифра или буква
 
@@ -1640,10 +1386,10 @@ national id
 7–8 цифр, а также разделители:
 - 1 или 2 цифры; 
 - точка; 
-- три цифры; 
+- три цифры;  
 - точка; 
-- три цифры; 
-- Тире 
+- Три цифры 
+- тире; 
 - одна цифра или буква (без учета регистра) — проверочная.
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -1655,7 +1401,7 @@ national id
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_chile_id_card находит содержимое, которое соответствует шаблону;
 - находится ключевое слово из Keyword_chile_id_card;
-- контрольная сумма проходит проверку.
+- Контрольная сумма проходит проверку.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_chile_id_card находит содержимое, которое соответствует шаблону;
@@ -1678,30 +1424,22 @@ national id
 
 #### <a name="keywordchileidcard"></a>Кэйворд_чиле_ид_кард
 
-- National Identification Number
- 
+- National Identification Number 
 - Identity card 
-- ID 
-- Identification 
-- Rol Único Nacional
- 
+- ИД 
+- Процедура 
+- Rol Único Nacional 
 - ВЫПОЛНЯЕМ 
-- Rol Único Tributario
- 
-- RUT
- 
-- Cédula de Identidad
- 
-- Número De Identificación Nacional
- 
-- Tarjeta de identificación
- 
-- Identificación
- 
+- Rol Único Tributario 
+- СНИЖАТЬСЯ 
+- Cédula de Identidad 
+- Número De Identificación Nacional 
+- Tarjeta de identificación 
+- ИдентификаЦиóн 
    
 ## <a name="china-resident-identity-card-prc-number"></a>	Номер удостоверения личности жителя Китая (КНР)
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 18 цифр.
 
@@ -1722,7 +1460,7 @@ national id
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_china_resident_id находит содержимое, которое соответствует шаблону;
 - находится ключевое слово из Keyword_china_resident_id;
-- контрольная сумма проходит проверку.
+- Контрольная сумма проходит проверку.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_china_resident_id находит содержимое, которое соответствует шаблону;
@@ -1745,25 +1483,20 @@ national id
 
 ### <a name="keywordchinaresidentid"></a>Кэйворд_чина_ресидент_ид
 
-- Resident Identity Card
- 
+- Resident Identity Card 
 - NO7 
-- National Identification Card
- 
-- 身份证  
-- 居民 身份证  
-- 居民身份证
- 
-- 鉴定
-
- 
-- 身分證  
+- National Identification Card 
+- 身份证 
+- 居民 身份证 
+- 居民身份证 
+- 鉴定 
+- 身分證 
 - 居民 身份證
-- 鑑定  
+- 鑑定 
    
 ## <a name="credit-card-number"></a>Номер кредитной карты
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 16 цифр, которые могут быть форматированными или неформатированными (цццццццццццццццц) и должны пройти проверку Луна.
 
@@ -1783,7 +1516,7 @@ national id
     - найдено ключевое слово из Keyword_cc_verification;
     - найдено ключевое слово из Keyword_cc_name;
     - функция Func_expiration_date находит дату в правильном формате.
-- контрольная сумма проходит проверку.
+- Контрольная сумма проходит проверку.
 
 Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
 - функция Func_credit_card находит содержимое, которое соответствует шаблону;
@@ -1812,366 +1545,202 @@ national id
 
 - card verification
 - card identification number
-- cvn
-
+- КВН
 - cid
-
 - CVC2
 - CVV2
 - pin block
-
 - security code
-
 - security number
-
 - security no
-
 - issue number
-
 - issue no
-
-- cryptogramme
-
+- криптограмме
 - numéro de sécurité
-
 - numero de securite
-
-- kreditkartenprüfnummer
-
-- kreditkartenprufnummer
-
-- prüfziffer
-
-- prufziffer
-
-- сичерхеитс коде
-- sicherheitscode
-
-- sicherheitsnummer
-
-- verfalldatum
-
+- кредиткартенпрüфнуммер
+- кредиткартенпруфнуммер
+- прüфзиффер
+- пруфзиффер
+- sicherheits Kode
+- сичерхеитскоде
+- сичерхеитснуммер
+- верфаллдатум
 - codice di verifica
-
-- cod. sicurezza
-
-- сикурезза наложенного платежа
-- 
-n autorizzazione
-- código
-
-- codigo
-
-- cod. seg
-
-- СЕГ наложенного платежа
+- наложен. сикурезза
+- cod sicurezza
+- n autorizzazione
+- кóдиго
+- кодиго
+- наложен. СЕГ
+- cod seg
 - código de segurança
-
 - codigo de seguranca
-
 - codigo de segurança
-
 - código de seguranca
-
-- cód. segurança
-
+- кóд. сегуранçа
 - наложен. сегуранка наложенный платеж. сегуранçа
-- cód. seguranca
-
-- кóд сегуранçа
+- кóд. сегуранка
+- cód segurança
 - наложенный на наложенный сегуранка сегуранçа
-- кóд сегуранка
+- cód seguranca
 - número de verificação
-
 - numero de verificacao
-
-- ablauf
-
+- аблауф
 - gültig bis
-
-- gültigkeitsdatum
-
+- гüлтигкеитсдатум
 - gultig bis
-
-- gultigkeitsdatum
-
-- scadenza
-
+- гултигкеитсдатум
+- скаденза
 - data scad
-
 - fecha de expiracion
-
 - fecha de venc
-
-- vencimiento
-
+- венЦимиенто
 - válido hasta
-
 - valido hasta
-
-- vto
-
+- ВТО
 - data de expiração
-
 - data de expiracao
-
 - data em que expira
-
-- validade
-
-- valor
-
-- vencimento
-
+- валидаде
+- Валор
+- венЦименто
 - Венк 
 
 #### <a name="keywordccname"></a>Кэйворд_кк_наме
 
-- amex
-- 
-american express
-- americanexpress
-
+- АМЕКС
+- american express
+- американекспресс
 - Visa
-- mastercard
-
+- MasterCard
 - master card
-
-- 
-mc
- 
-- mastercards
-- 
-master cards
-- Клуб Динер
+- MC 
+- мастеркардс
+- master cards
+- diner's Club
 - diners club
-
-- dinersclub
-
+- динерсклуб
 - discover card
-
-- discovercard
-
+- дисковеркард
 - discover cards
-
 - JCB
 - japanese card bureau
-
 - carte blanche
-
-- carteblanche
-
+- картебланче
 - credit card
-
 - Центральной
 - CC #:
-- 
-expiration date
+- expiration date
 - exp date
-
-- 
-expiry date
-- 
-date d’expiration
-- 
-date d'exp
-- 
-date expiration
+- expiry date
+- date d’expiration
+- date d'exp
+- date expiration
 - bank card
-
-- 
-bankcard
+- банккард
 - card number
-
 - card num
-
-- cardnumber
-
-- cardnumbers
-
+- карднумбер
+- карднумберс
 - card numbers
-
-- creditcard
-
+- кредиткард
 - credit cards
-
-- creditcards
-
-- ccn
-
+- кредиткардс
+- CCN
 - card holder
-
-- cardholder
-
+- банков
 - card holders
-
-- cardholders
-
+- карты
 - check card
-
-- checkcard
-
+- чекккард
 - check cards
-
-- checkcards
-
+- чекккардс
 - debit card
-
-- debitcard
-
+- дебиткард
 - debit cards
-
-- debitcards
-
+- дебиткардс
 - atm card
-
-- atmcard
-
+- атмкард
 - atm cards
-
-- atmcards
-
-- 
-enroute
-- 
-en route
+- атмкардс
+- енрауте
+- en route
 - card type
-
 - carte bancaire
-
 - carte de crédit
-
 - carte de credit
-
 - numéro de carte
-
 - numero de carte
-
 - nº de la carte
-
 - nº de carte
-
-- kreditkarte
-
-- karte
-
-- karteninhaber
-
-- karteninhabers
-- kreditkarteninhaber
-
-- kreditkarteninstitut
-
-- kreditkartentyp
-
-- eigentümername
-
-- 
-kartennr
- 
-- kartennummer
-- 
-kreditkartennummer
+- кредиткарте
+- карте
+- картенинхабер
+- картенинхаберс
+- кредиткартенинхабер
+- кредиткартенинститут
+- кредиткартентип
+- еижентüмернаме
+- картеннр 
+- картеннуммер
+- кредиткартеннуммер
 - кредиткартен — нуммер
 - carta di credito
-
 - carta credito
-
 - Корзина "
-- n корзина
-- nr. carta
-
-- нрная корзина
+- n carta
+- НР. Корзина "
+- nr carta
 - numero carta
-
 - numero della carta
-
 - numero di carta
-
 - tarjeta credito
-
 - tarjeta de credito
-
-- 
-tarjeta crédito
-- 
-tarjeta de crédito
+- tarjeta crédito
+- tarjeta de crédito
 - tarjeta de atm
-
 - tarjeta atm
-
 - tarjeta debito
-
 - tarjeta de debito
-
-- 
-tarjeta débito
-- 
-tarjeta de débito
+- tarjeta débito
+- tarjeta de débito
 - nº de tarjeta
-
-- no. de tarjeta
-
-- нет де таржета
+- Нет. de tarjeta
+- no de tarjeta
 - numero de tarjeta
-
 - número de tarjeta
-
 - tarjeta no
-
-- tarjetahabiente
-
+- таржетахабиенте
 - cartão de crédito
-
 - cartão de credito
-
 - cartao de crédito
-
 - cartao de credito
-
 - cartão de débito
-
 - cartao de débito
-
 - cartão de debito
-
 - cartao de debito
-
 - débito automático
 - debito automatico
-
-- 
-número do cartão
-- 
-numero do cartão
- 
+- número do cartão
+- numero do cartão 
 - número do cartao
-- 
-numero do cartao
+- numero do cartao
 - número de cartão
-
 - numero de cartão
-
 - número de cartao
-
 - numero de cartao
-
-- n º Do картãо
+- nº do cartão
 - nº do cartao
-
-- nº. do cartão
-
-- не выполнять картãо
-- не выполнять картао
-- no. do cartão
-
-- 
-no. do cartao
- 
+- n º. do cartão
+- no do cartão
+- no do cartao
+- Нет. do cartão
+- Нет. do cartao 
    
 ## <a name="croatia-identity-card-number"></a>	Номер удостоверения личности для Хорватии
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Девять цифр.
 
@@ -2209,9 +1778,9 @@ no. do cartao
    
 ## <a name="croatia-personal-identification-oib-number"></a>	Индивидуальный идентификационный номер (OIB) для Хорватии
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
-11 разрядов
+11 цифр.
 
 ### <a name="pattern"></a>Шаблон
 
@@ -2228,7 +1797,7 @@ no. do cartao
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_croatia_oib_number находит содержимое, которое соответствует шаблону;
 - находится ключевое слово из Keyword_croatia_oib_number;
-- контрольная сумма проходит проверку.
+- Контрольная сумма проходит проверку.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_croatia_oib_number находит содержимое, которое соответствует шаблону;
@@ -2252,15 +1821,13 @@ no. do cartao
 #### <a name="keywordcroatiaoibnumber"></a>Кэйворд_кроатиа_оиб_нумбер
 
 - Personal Identification Number
-- Osobni identifikacijski broj
- 
-- OIB
- 
+- Osobni identifikacijski broj 
+- OIB 
 
    
 ## <a name="czech-personal-identity-number"></a>Номер личного удостоверения для чешского языка
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Девять цифр с необязательной косой чертой (старый формат) 10 цифрами с необязательной косой чертой (новый формат)
 
@@ -2290,7 +1857,9 @@ no. do cartao
 
 ### <a name="definition"></a>Определение
 
-Политика защиты от потери данных — 85% уверенности, что она обнаружила этот тип конфиденциальной информации, если в пределах близости от 300 символов: функция Функ_кзеч_ид_кард находит содержимое, которое соответствует шаблону; Найдено ключевое слово из Кэйворд_кзеч_ид_кард. Контрольная сумма проходит проверку.
+Политика защиты от потери данных — 85% уверенности, что она обнаружила этот тип конфиденциальной информации, если в пределах близости от 300 символов: функция Функ_кзеч_ид_кард находит содержимое, которое соответствует шаблону;
+находится ключевое слово из Keyword_czech_id_card;
+Контрольная сумма проходит проверку.
 
 ```
 <!-- Czech Personal Identity Number -->
@@ -2308,7 +1877,7 @@ no. do cartao
    
 ## <a name="denmark-personal-identification-number"></a>	Индивидуальный идентификационный номер для Дании
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 10 цифр, содержащих дефис.
 
@@ -2325,7 +1894,9 @@ no. do cartao
 
 ### <a name="definition"></a>Определение
 
-Политика защиты от потери данных — 75% уверенности в том, что этот тип конфиденциальной информации обнаружен, если в пределах близости от 300 символов: регулярное выражение Режекс_денмарк_ид находит содержимое, которое соответствует шаблону. Найдено ключевое слово из Кэйворд_денмарк_ид. Контрольная сумма проходит проверку.
+Политика защиты от потери данных — 75% уверенности в том, что этот тип конфиденциальной информации обнаружен, если в пределах близости от 300 символов: регулярное выражение Режекс_денмарк_ид находит содержимое, которое соответствует шаблону.
+находится ключевое слово из Keyword_denmark_id;
+Контрольная сумма проходит проверку.
 
 ```
 <!-- Denmark Personal Identification Number -->
@@ -2344,11 +1915,11 @@ no. do cartao
 - Personal Identification Number
 - CPR
 - Det Centrale Personregister
-- Personnummer
+- Персоннуммер
    
 ## <a name="drug-enforcement-agency-dea-number"></a>Номер Управления по борьбе с наркотиками США (DEA)
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Две буквы, за которыми следуют семь цифр.
 
@@ -2385,7 +1956,7 @@ no. do cartao
    
 ## <a name="eu-debit-card-number"></a>Номер банковской карты для ЕС
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 16 цифр.
 
@@ -2429,569 +2000,308 @@ no. do cartao
 
 #### <a name="keywordeudebitcard"></a>Кэйворд_еу_дебит_кард
 
-- номер счета 
-- card number
- 
-- card no.
- 
-- security number
- 
+- account number 
+- card number 
+- card no. 
+- security number 
 - Центральной 
 
 #### <a name="keywordcardtermsdict"></a>Кэйворд_кард_термс_дикт
 
-- acct nbr
- 
-- acct num
- 
-- acct no
- 
-- american express
- 
-- americanexpress
- 
-- americano espresso
- 
-- amex 
-- atm card
- 
-- atm cards
- 
-- atm kaart
- 
-- atmcard
- 
-- atmcards
- 
-- atmkaart
- 
-- atmkaarten
- 
-- bancontact
- 
-- bank card
- 
-- bankkaart
- 
-- card holder
- 
-- card holders
- 
-- card num
- 
-- card number
- 
-- card numbers
- 
-- card type
- 
-- cardano numerico
- 
-- cardholder
- 
-- cardholders
- 
-- cardnumber
- 
-- cardnumbers
- 
-- carta bianca
- 
-- carta credito
- 
-- carta di credito
- 
-- cartao de credito
- 
-- cartao de crédito
- 
-- cartao de debito
- 
-- cartao de débito
- 
-- carte bancaire
- 
-- carte blanche
- 
-- carte bleue
- 
-- carte de credit
- 
-- carte de crédit
- 
-- carte di credito
- 
-- carteblanche
- 
-- cartão de credito
- 
-- cartão de crédito
- 
-- cartão de debito
- 
-- cartão de débito
- 
-- cb
- 
-- ccn
- 
-- check card
- 
-- check cards
- 
-- checkcard
-
-- checkcards
- 
-- chequekaart
- 
-- cirrus
- 
-- cirrus-edc-maestro
- 
-- controlekaart
- 
-- controlekaarten
- 
-- credit card
- 
-- credit cards
- 
-- creditcard
- 
-- creditcards
- 
-- debetkaart
- 
-- debetkaarten
- 
-- debit card
- 
-- debit cards
- 
-- debitcard
- 
-- debitcards
- 
-- debito automatico
- 
-- diners club
- 
-- dinersclub
- 
+- acct nbr 
+- acct num 
+- acct no 
+- american express 
+- американекспресс 
+- americano espresso 
+- АМЕКС 
+- atm card 
+- atm cards 
+- atm kaart 
+- атмкард 
+- атмкардс 
+- атмкаарт 
+- атмкаартен 
+- банконтакт 
+- bank card 
+- банккаарт 
+- card holder 
+- card holders 
+- card num 
+- card number 
+- card numbers 
+- card type 
+- cardano numerico 
+- банков 
+- карты 
+- карднумбер 
+- карднумберс 
+- carta bianca 
+- carta credito 
+- carta di credito 
+- cartao de credito 
+- cartao de crédito 
+- cartao de debito 
+- cartao de débito 
+- carte bancaire 
+- carte blanche 
+- carte bleue 
+- carte de credit 
+- carte de crédit 
+- carte di credito 
+- картебланче 
+- cartão de credito 
+- cartão de crédito 
+- cartão de debito 
+- cartão de débito 
+- cb 
+- CCN 
+- check card 
+- check cards 
+- чекккард
+- чекккардс 
+- чекуекаарт 
+- Logic 
+- Cirrus центр EDC — Маестро 
+- контролекаарт 
+- контролекаартен 
+- credit card 
+- credit cards 
+- кредиткард 
+- кредиткардс 
+- дебеткаарт 
+- дебеткаартен 
+- debit card 
+- debit cards 
+- дебиткард 
+- дебиткардс 
+- debito automatico 
+- diners club 
+- динерсклуб 
 - Повтор 
-- discover card
- 
-- discover cards
- 
-- discovercard
- 
-- discovercards
- 
+- discover card 
+- discover cards 
+- дисковеркард 
+- дисковеркардс 
 - débito automático
-- 
-edc
- 
-- eigentümername
- 
-- european debit card
- 
-- hoofdkaart
- 
-- hoofdkaarten
- 
-- in viaggio
- 
-- japanese card bureau
- 
-- japanse kaartdienst
- 
-- jcb
- 
-- kaart
- 
-- kaart num
- 
-- kaartaantal
- 
-- kaartaantallen
- 
-- kaarthouder
- 
-- kaarthouders
- 
-- karte
-  
-- karteninhaber
- 
-- karteninhabers
-- 
-kartennr
- 
-- kartennummer 
-- kreditkarte
- 
+- центр EDC 
+- еижентüмернаме 
+- european debit card 
+- хуфдкаарт 
+- хуфдкаартен 
+- in viaggio 
+- japanese card bureau 
+- japanse kaartdienst 
+- JCB 
+- каарт 
+- kaart num 
+- каартаантал 
+- каартаанталлен 
+- каарсаудер 
+- каарсаудерс 
+- карте  
+- картенинхабер 
+- картенинхаберс
+- картеннр 
+- картеннуммер 
+- кредиткарте 
 - кредиткартен — нуммер 
-- kreditkarteninhaber
- 
-- kreditkarteninstitut
- 
-- kreditkartennummer
- 
-- kreditkartentyp
- 
-- maestro
- 
-- master card
- 
-- master cards
- 
-- mastercard
- 
-- mastercards 
+- кредиткартенинхабер 
+- кредиткартенинститут 
+- кредиткартеннуммер 
+- кредиткартентип 
+- Маестро 
+- master card 
+- master cards 
+- MasterCard 
+- мастеркардс 
 - MC 
-- mister cash
- 
-- n корзина 
+- mister cash 
+- n carta 
 - Корзина " 
-- нет де таржета 
-- не выполнять картао 
-- не выполнять картãо 
-- no. de tarjeta
- 
-- no. do cartao
- 
-- no. do cartão
- 
-- нрная корзина 
-- nr. carta
- 
-- numeri di scheda
- 
-- numero carta
- 
-- numero de cartao
- 
-- numero de carte
- 
-- numero de cartão
- 
+- no de tarjeta 
+- no do cartao 
+- no do cartão 
+- Нет. de tarjeta 
+- Нет. do cartao 
+- Нет. do cartão 
+- nr carta 
+- НР. Корзина " 
+- numeri di scheda 
+- numero carta 
+- numero de cartao 
+- numero de carte 
+- numero de cartão 
 - numero de tarjeta
-
-- numero della carta
- 
-- numero di carta
- 
-- numero di scheda
- 
-- numero do cartao
- 
-- numero do cartão
- 
-- numéro de carte
- 
-- nº carta
- 
-- nº de carte
- 
-- nº de la carte
- 
-- nº de tarjeta
- 
-- nº do cartao
- 
-- n º Do картãо 
-- nº. do cartão
- 
-- número de cartao
- 
-- número de cartão
- 
-- número de tarjeta
- 
+- numero della carta 
+- numero di carta 
+- numero di scheda 
+- numero do cartao 
+- numero do cartão 
+- numéro de carte 
+- nº carta 
+- nº de carte 
+- nº de la carte 
+- nº de tarjeta 
+- nº do cartao 
+- nº do cartão 
+- n º. do cartão 
+- número de cartao 
+- número de cartão 
+- número de tarjeta 
 - número do cartao 
-- scheda dell'assegno
- 
-- scheda dell'atmosfera
- 
-- scheda dell'atmosfera
- 
-- scheda della banca
- 
-- scheda di controllo
- 
-- scheda di debito
- 
-- scheda matrice
- 
-- schede dell'atmosfera
- 
-- schede di controllo
- 
-- schede di debito
- 
-- schede matrici
- 
-- scoprono la scheda
- 
-- scoprono le schede
- 
-- solo
- 
-- supporti di scheda
- 
-- supporto di scheda
- 
-- ключ 
-- tarjeta atm
- 
-- tarjeta credito
- 
-- tarjeta de atm
- 
-- tarjeta de credito
- 
-- tarjeta de debito
- 
-- tarjeta debito
- 
+- scheda dell'assegno 
+- scheda dell'atmosfera 
+- scheda dell'atmosfera 
+- scheda della banca 
+- scheda di controllo 
+- scheda di debito 
+- scheda matrice 
+- schede dell'atmosfera 
+- schede di controllo 
+- schede di debito 
+- schede matrici 
+- scoprono la scheda 
+- scoprono le schede 
+- ОС 
+- supporti di scheda 
+- supporto di scheda 
+- отключен 
+- tarjeta atm 
+- tarjeta credito 
+- tarjeta de atm 
+- tarjeta de credito 
+- tarjeta de debito 
+- tarjeta debito 
 - tarjeta no
-
-- tarjetahabiente
- 
-- tipo della scheda
- 
+- таржетахабиенте 
+- tipo della scheda 
 - ufficio giapponese della 
-- scheda
- 
-- v pay
- 
+- счеда 
+- v pay 
 - v — оплата 
-- visa
- 
-- visa plus
- 
-- visa electron
- 
-- visto
- 
-- visum
- 
-- vpay
-   
+- Visa 
+- visa plus 
+- visa electron 
+- висто 
+- висум 
+- впай   
 
 #### <a name="keywordcardsecuritytermsdict"></a>Кэйворд_кард_секурити_термс_дикт
 
 - card identification number
 - card verification 
-- cardi la verifica
- 
-- cid
- 
-- СЕГ наложенного платежа 
-- сегуранка наложенного платежа 
-- сегуранçа наложенного платежа 
-- сикурезза наложенного платежа 
-- cod. seg
- 
-- cod. seguranca
- 
-- cod. segurança
- 
-- cod. sicurezza
- 
-- codice di sicurezza
- 
-- codice di verifica
- 
-- codigo
- 
-- codigo de seguranca
- 
-- codigo de segurança
- 
-- crittogramma
- 
-- cryptogram
- 
-- cryptogramme
- 
+- cardi la verifica 
+- cid 
+- cod seg 
+- cod seguranca 
+- cod segurança 
+- cod sicurezza 
+- наложен. СЕГ 
+- наложен. сегуранка 
+- наложен. сегуранçа 
+- наложен. сикурезза 
+- codice di sicurezza 
+- codice di verifica 
+- кодиго 
+- codigo de seguranca 
+- codigo de segurança 
+- криттограмма 
+- криптограм 
+- криптограмме 
 - CV2 
-- cvc
- 
+- КВК 
 - CVC2 
-- cvn
- 
-- cvv
- 
+- КВН 
+- КВВ 
 - CVV2 
-- кóд сегуранка 
-- кóд сегуранçа 
-- cód. seguranca
- 
-- cód. segurança
- 
-- código
- 
-- código de seguranca
- 
-- código de segurança
- 
-- de kaart controle
- 
-- geeft nr uit
- 
-- issue no
- 
-- issue number
- 
-- kaartidentificatienummer
- 
-- kreditkartenprufnummer
- 
-- kreditkartenprüfnummer
- 
-- kwestieaantal
- 
-- no. dell'edizione
- 
-- no. di sicurezza
- 
-- numero de securite
- 
-- numero de verificacao
- 
-- numero dell'edizione
- 
+- cód seguranca 
+- cód segurança 
+- кóд. сегуранка 
+- кóд. сегуранçа 
+- кóдиго 
+- código de seguranca 
+- código de segurança 
+- de kaart controle 
+- geeft nr uit 
+- issue no 
+- issue number 
+- каартидентификатиенуммер 
+- кредиткартенпруфнуммер 
+- кредиткартенпрüфнуммер 
+- квестиеаантал 
+- Нет. делл'едизионе 
+- Нет. di sicurezza 
+- numero de securite 
+- numero de verificacao 
+- numero dell'edizione 
 - numero di identificazione della 
-- scheda
- 
-- numero di sicurezza
- 
-- numero van veiligheid
- 
-- numéro de sécurité
- 
-- nº autorizzazione
- 
-- número de verificação
- 
-- perno il blocco
- 
-- pin block
- 
-- prufziffer
- 
-- prüfziffer
- 
-- security code
- 
-- security no
- 
-- security number
- 
-- sicherheits kode
- 
-- sicherheitscode
- 
-- sicherheitsnummer
- 
-- speldblok
- 
-- veiligheid nr
- 
-- veiligheidsaantal
- 
-- veiligheidscode
- 
-- veiligheidsnummer
- 
-- verfalldatum
- 
+- счеда 
+- numero di sicurezza 
+- numero van veiligheid 
+- numéro de sécurité 
+- nº autorizzazione 
+- número de verificação 
+- perno il blocco 
+- pin block 
+- пруфзиффер 
+- прüфзиффер 
+- security code 
+- security no 
+- security number 
+- sicherheits kode 
+- сичерхеитскоде 
+- сичерхеитснуммер 
+- спелдблок 
+- veiligheid nr 
+- веилигхеидсаантал 
+- веилигхеидскоде 
+- веилигхеидснуммер 
+- верфаллдатум 
 
 #### <a name="keywordcardexpirationtermsdict"></a>Кэйворд_кард_експиратион_термс_дикт
 
-- ablauf
- 
-- data de expiracao
- 
-- data de expiração
- 
-- data del exp
- 
-- data di exp
- 
-- data di scadenza
- 
-- data em que expira
- 
-- data scad
- 
-- data scadenza
- 
-- date de validité
- 
-- datum afloop
- 
-- datum van exp
- 
-- de afloop
- 
-- espira
- 
-- espira
- 
-- exp date
- 
-- exp datum
- 
+- аблауф 
+- data de expiracao 
+- data de expiração 
+- data del exp 
+- data di exp 
+- data di scadenza 
+- data em que expira 
+- data scad 
+- data scadenza 
+- date de validité 
+- datum afloop 
+- datum van exp 
+- de afloop 
+- еспира 
+- еспира 
+- exp date 
+- exp datum 
 - срока действия 
-- expire
- 
-- expires
- 
-- expiry
- 
-- fecha de expiracion
- 
-- fecha de venc
- 
-- gultig bis
- 
-- gultigkeitsdatum
- 
-- gültig bis
- 
-- gültigkeitsdatum
- 
-- la scadenza
- 
-- scadenza
- 
-- valable
- 
-- validade
- 
-- valido hasta
- 
-- valor
- 
-- venc
- 
-- vencimento
- 
-- vencimiento
- 
-- verloopt
- 
-- vervaldag
- 
-- vervaldatum
- 
-- vto
- 
-- válido hasta
- 
+- истекает 
+- истекает 
+- окончания срока действия 
+- fecha de expiracion 
+- fecha de venc 
+- gultig bis 
+- гултигкеитсдатум 
+- gültig bis 
+- гüлтигкеитсдатум 
+- la scadenza 
+- скаденза 
+- валабле 
+- валидаде 
+- valido hasta 
+- Валор 
+- Венк 
+- венЦименто 
+- венЦимиенто 
+- верлупт 
+- вервалдаг 
+- вервалдатум 
+- ВТО 
+- válido hasta 
    
 ## <a name="eu-drivers-license-number"></a>Номер водительского удостоверения для драйвера ЕС
 
@@ -3015,7 +2325,7 @@ kartennr
   
 ## <a name="finland-national-id"></a>Национальный идентификатор, Финляндия
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Шесть цифр, а также символ, обозначающий век, три цифры и контрольная цифра.
 
@@ -3051,22 +2361,23 @@ kartennr
 ### <a name="keywords"></a>Ключевые слова
 
 - Кэйворд_финниш_натионал_ид
-- 
-
-Sosiaaliturvatunnus
+- Сосиаалитурватуннус
 - SOTU Henkilötunnus HETU
-- Personbeteckning
-- Personnummer
+- Персонбетеккнинг
+- Персоннуммер
    
 ## <a name="finland-passport-number"></a>Номер паспорта для Финляндии
 
-Комбинация, состоящая из девяти букв и цифр, комбинация из девяти букв и цифр: две буквы (без учета регистра) семь цифр контрольная сумма нет определения политика защиты от потери данных — 75% уверенности в том, что этот тип конфиденциальной информации определен, если в близость от 300 символов: регулярное выражение Режекс_финланд_пасспорт_нумбер находит содержимое, которое соответствует шаблону. Найдено ключевое слово из Кэйворд_финланд_пасспорт_нумбер. Ключевые слова <!-- Finland Passport Number --> 
- <Entity id="d1685ac3-1d3a-40f8-8198-32ef5669c7a5" recommendedConfidence="75" patternsProximity="300"> <Pattern confidenceLevel="75"> <IdMatch idRef="Regex_finland_passport_number"/> <Match idRef="Keyword_finland_passport_number"/> </Pattern> 
- </Entity>
+Комбинация, состоящая из девяти букв и цифр, комбинация из девяти букв и цифр: две буквы (без учета регистра) семь цифр контрольная сумма нет определения политика защиты от потери данных — 75% уверенности в том, что этот тип конфиденциальной информации определен, если в близость от 300 символов: регулярное выражение Режекс_финланд_пасспорт_нумбер находит содержимое, которое соответствует шаблону.
+находится ключевое слово из Keyword_finland_passport_number.
+<!-- Finland Passport Number -->
+<Entity id="d1685ac3-1d3a-40f8-8198-32ef5669c7a5" recommendedConfidence="75" patternsProximity="300"> <Pattern confidenceLevel="75"> <IdMatch idRef="Regex_finland_passport_number"/> <Match idRef="Keyword_finland_passport_number"/> </Pattern>
+</Entity>
+Ключевые слова Кэйворд_финланд_пасспорт_нумбер Passport Пасси
    
 ## <a name="france-drivers-license-number"></a>Номер водительского удостоверения для Франции
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 12 цифр.
 
@@ -3106,23 +2417,16 @@ Sosiaaliturvatunnus
 - drivers licence
 - drivers license
 - driving licence
-
-- Управление лицензией
-- 
-permis de conduire
-- 
-licence number
-- 
-license number
-- 
-licence numbers
-- 
-
-license numbers
+- driving license
+- permis de conduire
+- licence number
+- license number
+- licence numbers
+- license numbers
 
 ## <a name="france-national-id-card-cni"></a>Номер внутреннего удостоверения личности для Франции (CNI)
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 12 цифр.
 
@@ -3154,7 +2458,7 @@ license numbers
    
 ## <a name="france-passport-number"></a>Номер паспорта гражданина Франции
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Девять цифр и букв.
 
@@ -3190,43 +2494,28 @@ license numbers
 #### <a name="keywordpassport"></a>Кэйворд_пасспорт
 
 - Passport Number
-- 
-Passport No
+- Passport No
 - Passport#
-
-- Passport#
-
+- Службу
 - Пасспортид
-- Passportno
-
-- passportnumber
-
+- Пасспортно
+- пасспортнумбер
 - パスポート
 - パスポート番号
-
-- パスポートのNum
-
-- 
-パスポート＃
- 
+- パスポートのнум
+- パスポート＃ 
 - Numéro de passeport
-- 
-Passeport n °
+- Passeport n °
 - Passeport Non
-
 - Passeport#
-
-- Passeport#
-
+- Пассепорт #
 - Пассепортнон
-- 
-
-Passeportn °
+- Passeportn °
 
       
 ## <a name="france-social-security-number-insee"></a>Страховой номер для Франции (INSEE)
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 15 цифр.
 
@@ -3277,56 +2566,38 @@ Passeportn °
 
 #### <a name="keywordfrinsee"></a>Кэйворд_фр_инси
 
-- insee
-- 
-securité sociale
-- 
-securite sociale
-- 
-national id
-- 
-national identification
-- 
-numéro d'identité
-- нет д'идентитé
-- 
-no. d'identité
-- 
-numero d'identite
-- нет д'идентите
-- 
-no. d'identite
+- INSEE
+- securité sociale
+- securite sociale
+- national id
+- national identification
+- numéro d'identité
+- no d'identité
+- Нет. д'идентитé
+- numero d'identite
+- no d'identite
+- Нет. д'идентите
 - social security number
-
-- 
-social security code
+- social security code
 - social insurance number
-- 
-le numéro d'identification nationale
-- 
-d'identité nationale
-- 
-numéro de sécurité sociale
-- 
-le code de la sécurité sociale
-- 
-numéro d'assurance sociale
-- 
-numéro de sécu
-- 
-code sécu
- 
+- le numéro d'identification nationale
+- d'identité nationale
+- numéro de sécurité sociale
+- le code de la sécurité sociale
+- numéro d'assurance sociale
+- numéro de sécu
+- code sécu 
    
 ## <a name="german-drivers-license-number"></a>Номер водительского удостоверения для Германии
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Сочетание 11 цифр и букв.
 
 ### <a name="pattern"></a>Шаблон
 
 11 цифр и букв (без учета регистра)
-- цифра или буква;  
+- Одна цифра или буква 
 - Две цифры 
 - Шесть цифр или букв 
 - Одна цифра 
@@ -3343,7 +2614,7 @@ code sécu
 - Верно по меньшей мере одно из условий ниже:
     - найдено ключевое слово из Keyword_german_drivers_license_number;
     - найдено ключевое слово из Keyword_german_drivers_license_collaborative;
-    - найдено ключевое слово из Keyword_german_drivers_license;
+    - найдено ключевое слово из Keyword_german_drivers_license.
 - Контрольная сумма проходит проверку.
 
 ```
@@ -3364,23 +2635,15 @@ code sécu
 
 #### <a name="keywordgermandriverslicensenumber"></a>Кэйворд_жерман_дриверс_лиценсе_нумбер
 
-- Führerschein
-- 
-Fuhrerschein
+- Фüхрерсчеин
+- Фухрерсчеин
 - Фуехрерсчеин
-- 
-Führerscheinnummer
-- 
-Fuhrerscheinnummer
-- 
-Fuehrerscheinnummer
-- 
-Führerschein-
- 
-- Fuhrerschein-
- 
-- Fuehrerschein-
- 
+- Фüхрерсчеиннуммер
+- Фухрерсчеиннуммер
+- Фуехрерсчеиннуммер
+- Фüхрерсчеин — 
+- Фухрерсчеин — 
+- Фуехрерсчеин — 
 - Фüхрерсчеиннуммернр
 - Фухрерсчеиннуммернр
 - Фуехрерсчеиннуммернр
@@ -3388,15 +2651,10 @@ Führerschein-
 - Фухрерсчеиннуммерклассе
 - Фуехрерсчеиннуммерклассе
 - Führerschein- Nr
-
 - Fuhrerschein- Nr
-
-- Fuehrerschein- Nr
- 
-- Führerschein- Klasse
- 
-- Fuhrerschein- Klasse
- 
+- Fuehrerschein- Nr 
+- Führerschein- Klasse 
+- Fuhrerschein- Klasse 
 - Fuehrerschein- Klasse
 - Фüхрерсчеиннуммернр 
 - Фухрерсчеиннуммернр 
@@ -3404,125 +2662,77 @@ Führerschein-
 - Фüхрерсчеиннуммерклассе 
 - Фухрерсчеиннуммерклассе 
 - Фуехрерсчеиннуммерклассе 
-- Führerschein- Nr
- 
-- Fuhrerschein- Nr
- 
-- Fuehrerschein- Nr
- 
-- Führerschein- Klasse
- 
-- Fuhrerschein- Klasse
- 
+- Führerschein- Nr 
+- Fuhrerschein- Nr 
+- Fuehrerschein- Nr 
+- Führerschein- Klasse 
+- Fuhrerschein- Klasse 
 - Fuehrerschein- Klasse 
 - DL 
-- DLS
-- 
-Driv Lic
- 
-- Driv Licen
- 
+- БИБЛИОТЕК
+- Driv Lic 
+- Driv Licen 
 - Driv License
-- 
-Driv Licenses
- 
-- Driv Licence
- 
-- Driv Licences
- 
-- Driv Lic
- 
-- Driver Licen
- 
-- Лицензия на драйвер 
-- Лицензии на драйверы 
-- Driver Licence
- 
-- Driver Licences
- 
-- Драйверы Лик 
-- Драйверы лицен 
-- Лицензия на драйверы 
-- Лицензии на драйверы 
-- Лицензия на драйверы 
-- Лицензии на драйверы 
-- Лик драйвера 
-- Driver's Licen
- 
-- Лицензия на драйвер 
-- Лицензии на драйвер 
-- Driver's Licence
- 
-- Driver's Licences
- 
-- Driving Lic
- 
-- Driving Licen
- 
-- Driving License
- 
-- Driving Licenses
- 
-- Driving Licence
-
- 
+- Driv Licenses 
+- Driv Licence 
+- Driv Licences 
+- Driv Lic 
+- Driver Licen 
+- Driver License 
+- Driver Licenses 
+- Driver Licence 
+- Driver Licences 
+- Drivers Lic 
+- Drivers Licen 
+- Drivers License 
+- Drivers Licenses 
+- Drivers Licence 
+- Drivers Licences 
+- Driver's Lic 
+- Driver's Licen 
+- Driver's License 
+- Driver's Licenses 
+- Driver's Licence 
+- Driver's Licences 
+- Driving Lic 
+- Driving Licen 
+- Driving License 
+- Driving Licenses 
+- Driving Licence 
 - Driving Licences
 
 #### <a name="keywordgermandriverslicensecollaborative"></a>Кэйворд_жерман_дриверс_лиценсе_коллаборативе
 
-- 
-Nr-Führerschein
- 
-- Nr-Fuhrerschein
- 
-- Nr-Fuehrerschein
- 
-- No-Führerschein
- 
-- No-Fuhrerschein
- 
-- No-Fuehrerschein
- 
-- N-Führerschein
- 
-- N-Fuhrerschein
- 
-- N-Fuehrerschein
-- 
-Nr-Führerschein
- 
-- Nr-Fuhrerschein
- 
-- Nr-Fuehrerschein
- 
-- No-Führerschein
- 
-- No-Fuhrerschein
- 
-- No-Fuehrerschein
- 
-- N-Führerschein
- 
-- N-Fuhrerschein
- 
-- N-Fuehrerschein 
+- НР — Фüхрерсчеин 
+- НР — Фухрерсчеин 
+- НР — Фуехрерсчеин 
+- Нет — Фüхрерсчеин 
+- Нет — Фухрерсчеин 
+- Нет — Фуехрерсчеин 
+- N — Фüхрерсчеин 
+- N — Фухрерсчеин 
+- N — Фуехрерсчеин
+- НР — Фüхрерсчеин 
+- НР — Фухрерсчеин 
+- НР — Фуехрерсчеин 
+- Нет — Фüхрерсчеин 
+- Нет — Фухрерсчеин 
+- Нет — Фуехрерсчеин 
+- N — Фüхрерсчеин 
+- N — Фухрерсчеин 
+- N — Фуехрерсчеин 
 
 #### <a name="keywordgermandriverslicense"></a>Кэйворд_жерман_дриверс_лиценсе
 
-- ausstellungsdatum
-- 
-ausstellungsort
-- 
-ausstellende behöde
-- 
-ausstellende behorde
-- 
-
-ausstellende behoerde
+- аусстеллунгсдатум
+- аусстеллунгсорт
+- ausstellende behöde
+- ausstellende behorde
+- ausstellende behoerde
    
 ## <a name="german-passport-number"></a>Номер паспорта гражданина Германии
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 10 цифр или букв.
 
@@ -3548,7 +2758,7 @@ ausstellende behoerde
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_german_passport_data находит содержимое, которое соответствует шаблону;
 - находится любое ключевое слово из пяти соответствующих списков;
-- Контрольная сумма проходит проверку.
+- контрольная сумма проходит проверку.
 
 ```
 <!-- German Passport Number -->
@@ -3580,22 +2790,17 @@ ausstellende behoerde
 
 #### <a name="keywordgermanpassport"></a>Кэйворд_жерман_пасспорт
 
-- reisepass
-- 
-reisepasse
-- 
-reisepassnummer
-- passport
-- 
-
-passports
+- реисепасс
+- реисепассе
+- реисепасснуммер
+- службу
+- паспорты
 
 #### <a name="keywordgermanpassportcollaborative"></a>Кэйворд_жерман_пасспорт_коллаборативе
 
-- geburtsdatum
-- ausstellungsdatum
-- 
-ausstellungsort
+- жебуртсдатум
+- аусстеллунгсдатум
+- аусстеллунгсорт
 
 #### <a name="keywordgermanpassportnumber"></a>Кэйворд_жерман_пасспорт_нумбер
 
@@ -3603,8 +2808,7 @@ No — Реисепасс НР — Реисепасс
 
 #### <a name="keywordgermanpassport1"></a>Keyword_german_passport1
 
-Reisepass-Nr
-
+Реисепасс — НР
 
 #### <a name="keywordgermanpassport2"></a>Keyword_german_passport2
 
@@ -3612,7 +2816,7 @@ Reisepass-Nr
    
 ## <a name="germany-identity-card-number"></a>Номер идентификационной карты гражданина Германии
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 С 1 ноября 2010: девять букв и цифр
 
@@ -3621,7 +2825,7 @@ Reisepass-Nr
 ### <a name="pattern"></a>Шаблон
 
 С 1 ноября 2010 г.:
-- Одна буква (без учета регистра) 
+- одна буква (без учета регистра); 
 - восемь цифр.
 
 От 1 апреля 1987 до 31 октября 2010:
@@ -3652,16 +2856,16 @@ Reisepass-Nr
 #### <a name="keywordgermanyidcard"></a>Кэйворд_жермани_ид_кард
 
 - Identity Card
-- ID
-- Identification
-- Personalausweis
-- Identifizierungsnummer
-- Ausweis
-- Identifikation
+- ИД
+- Процедура
+- Персоналаусвеис
+- Идентифизиерунгснуммер
+- Аусвеис
+- Идентификатион
    
 ## <a name="greece-national-id-card"></a>Номер внутреннего удостоверения личности для Греции
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Сочетание 7–8 букв и чисел, а также тире.
 
@@ -3669,12 +2873,12 @@ Reisepass-Nr
 
 Семь букв и чисел (старый формат):
 - одна буква (любая буква греческого алфавита); 
-- Тире 
+- тире; 
 - шесть цифр.
 
 Восемь букв и чисел (новый формат):
 - две буквы, которые в прописном виде есть как в греческом, так и латинском алфавите (ABEZHIKMNOPTYX); 
-- Тире 
+- тире; 
 - шесть цифр.
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -3702,13 +2906,13 @@ Reisepass-Nr
 #### <a name="keywordgreeceidcard"></a>Кэйворд_грице_ид_кард
 
 - Greek identity Card
-- Tautotita
+- Таутотита
 - Δελτίο αστυνομικής ταυτότητας
 - Ταυτότητα
    
 ## <a name="hong-kong-identity-card-hkid-number"></a>Номер удостоверения личности для Гонконга (HKID)
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Сочетание 8–9 букв и чисел, а также необязательные скобки вокруг последнего символа.
 
@@ -3716,7 +2920,7 @@ Reisepass-Nr
 
 Сочетание 8–9 букв:
 - 1–2 буквы (без учета регистра); 
-- Шесть цифр 
+- шесть цифр;  
 - последний символ (любая цифра или буква "A") является проверочной цифрой и заключен в скобки (необязательно).
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -3728,7 +2932,7 @@ Reisepass-Nr
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_hong_kong_id_card находит содержимое, которое соответствует шаблону;
 - находится ключевое слово из Keyword_hong_kong_id_card;
-- контрольная сумма проходит проверку.
+- Контрольная сумма проходит проверку.
 
 Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
 - функция Func_hong_kong_id_card находит содержимое, которое соответствует шаблону;
@@ -3753,24 +2957,20 @@ Reisepass-Nr
 
 - идентификационная карточка Гонконг
 - ХКИДК
-- идентификационная карточка
+- id card
 - identity card
 - идентификационная карточка HK
 - Идентификатор Гонконг
 - 香港身份證
-
 - 香港永久性居民身份證
-
 - 身份證
-
 - 身份証
-- 身分證 
+- 身分證
 - 身分証
 - 香港身份証
 - 香港身分證
 - 香港身分証
 - 香港身份證
-
 - 香港居民身份證
 - 香港居民身份証
 - 香港居民身分證
@@ -3779,7 +2979,6 @@ Reisepass-Nr
 - 香港永久性居民身分證
 - 香港永久性居民身分証
 - 香港永久性居民身份證
-
 - 香港非永久性居民身份證
 - 香港非永久性居民身份証
 - 香港非永久性居民身分證
@@ -3795,7 +2994,7 @@ Reisepass-Nr
    
 ## <a name="india-permanent-account-number-pan"></a>Идентификационный номер налогоплательщика для Индии (PAN)
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 10 букв или цифр.
 
@@ -3831,14 +3030,12 @@ Reisepass-Nr
 
 #### <a name="keywordindiapermanentaccountnumber"></a>Кэйворд_индиа_перманент_аккаунт_нумбер
 
-- Permanent Account Number
- 
-- PAN
- 
+- Permanent Account Number 
+- ПАНОРАМИРОВАНИЕ 
    
 ## <a name="india-unique-identification-aadhaar-number"></a>Индивидуальный идентификационный номер (Aadhaar) для Индии
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 12 цифр, содержащих необязательные пробелы или тире.
 
@@ -3857,21 +3054,26 @@ Reisepass-Nr
 
 ### <a name="definition"></a>Определение
 
-Политика защиты от потери данных — 85% уверенности, что она обнаружила этот тип конфиденциальной информации, если в пределах близости от 300 символов: функция Функ_индиа_аадхаар находит содержимое, которое соответствует шаблону; Найдено ключевое слово из Кэйворд_индиа_аадхар. Контрольная сумма проходит проверку. Политика защиты от потери данных — 75% уверенности, что она обнаружила этот тип конфиденциальной информации, если в пределах близости от 300 символов: функция Функ_индиа_аадхаар находит содержимое, которое соответствует шаблону; Контрольная сумма проходит проверку. <!-- India Unique Identification (Aadhaar) number -->
+Политика защиты от потери данных — 85% уверенности, что она обнаружила этот тип конфиденциальной информации, если в пределах близости от 300 символов: функция Функ_индиа_аадхаар находит содержимое, которое соответствует шаблону;
+находится ключевое слово из Keyword_india_aadhar;
+Контрольная сумма проходит проверку.
+Политика защиты от потери данных — 75% уверенности, что она обнаружила этот тип конфиденциальной информации, если в пределах близости от 300 символов: функция Функ_индиа_аадхаар находит содержимое, которое соответствует шаблону;
+Контрольная сумма проходит проверку.
+<!-- India Unique Identification (Aadhaar) number -->
 <Entity id="1ca46b29-76f5-4f46-9383-cfa15e91048f" recommendedConfidence="85" patternsProximity="300"> <Pattern confidenceLevel="85"> <IdMatch idRef="Func_india_aadhaar"/> <Match idRef="Keyword_india_aadhar"/> </Pattern> <Pattern confidenceLevel="75"> <IdMatch idRef="Func_india_aadhaar"/> </Pattern>
 </Entity>
 
 ### <a name="keywords"></a>Ключевые слова
    
 #### <a name="keywordindiaaadhar"></a>Кэйворд_индиа_аадхар
-- Aadhar
+- Аадхар
 - Aadhaar
 - UID
 - आधार
    
 ## <a name="indonesia-identity-card-ktp-number"></a>Номер удостоверения личности (KTP) для Индонезии
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 16 цифр, содержащих необязательные точки.
 
@@ -3885,7 +3087,7 @@ Reisepass-Nr
 - точка (необязательно); 
 - шесть цифр в формате ДДММГГ (дата рождения); 
 - точка (необязательно); 
-- Четыре цифры
+- четыре цифры.
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -3918,14 +3120,12 @@ Reisepass-Nr
 #### <a name="keywordindonesiaidcard"></a>Кэйворд_индонесиа_ид_кард
 
 - KTP
-- Kartu Tanda Penduduk
- 
-- Nomor Induk Kependudukan
- 
+- Kartu Tanda Penduduk 
+- Nomor Induk Kependudukan 
    
 ## <a name="international-banking-account-number-iban"></a>Международный номер банковского счета (IBAN)
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Код страны (две буквы), а также проверочные цифры (две) и номер bban (до 30 символов)
 
@@ -3967,12 +3167,12 @@ ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, dk, do, ee, es, fi, fo, 
    
 ## <a name="ip-address"></a>IP-адрес
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
-#### <a name="ipv4"></a>IPv4:
+#### <a name="ipv4"></a>IPv4
 Сложный шаблон, ответственный за форматированные (с точками) и неформатированные (без точек) версии IPv4-адресов.
 
-#### <a name="ipv6"></a>Протокол IPv6
+#### <a name="ipv6"></a>Поддерживающ
  Сложный шаблон, ответственный за форматированные номера IPv6 (вместе с двоеточиями).
 
 ### <a name="pattern"></a>Шаблон
@@ -3993,7 +3193,7 @@ ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, dk, do, ee, es, fi, fo, 
 
 В случае с протоколом IPv6 политика защиты от потери данных с вероятностью в 95 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
 - регулярное выражение Regex_ipv6_address находит содержимое, которое соответствует шаблону;
-- Не обнаружено ключевых слов из списка Keyword_ipaddress.
+- ни одно ключевое слово из Keyword_ipaddress не находится.
 
 ```
     <!-- IP Address -->
@@ -4024,19 +3224,16 @@ ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, dk, do, ee, es, fi, fo, 
 #### <a name="keywordipaddress"></a>Кэйворд_ипаддресс
 
 - IP (ключевое слово с учетом регистра)
-- ip address
- 
+- ip address 
 - ip addresses
 - internet protocol
-- 
-IP-כתובת ה
- 
+- IP-כתובת ה 
    
 ## <a name="international-classification-of-diseases-icd-10-cm"></a>Международная классификация Diseases (ICD-10-CM)
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
-Словаря
+Dictionary
 
 ### <a name="pattern"></a>Шаблон
 
@@ -4067,9 +3264,9 @@ IP-כתובת ה
    
 ## <a name="international-classification-of-diseases-icd-9-cm"></a>Международная классификация Diseases (ICD-9-CM)
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
-Словаря
+Dictionary
 
 ### <a name="pattern"></a>Шаблон
 
@@ -4098,7 +3295,7 @@ IP-כתובת ה
    
 ## <a name="ireland-personal-public-service-pps-number"></a>Индивидуальный социальный номер (PPS) для Ирландии
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Старый формат (до 31 декабря 2012):
 - семь цифр, за которыми следуют 1–2 буквы.  
@@ -4128,7 +3325,7 @@ IP-כתובת ה
 - Верно одно из условий ниже:
     - найдено ключевое слово из Keyword_ireland_pps;
     - функция Func_eu_date находит дату в правильном формате.
-- контрольная сумма проходит проверку.
+- Контрольная сумма проходит проверку.
 
 Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
 - функция Func_ireland_pps находит содержимое, которое соответствует шаблону;
@@ -4155,43 +3352,33 @@ IP-כתובת ה
 #### <a name="keywordirelandpps"></a>Кэйворд_иреланд_ппс
 
 - Personal Public Service Number 
- 
-- PPS Number
- 
-- PPS Num
- 
-- PPS No.
- 
-- PPS #
- 
+- PPS Number 
+- PPS Num 
+- PPS No. 
+- PPS # 
 - PPS 
-- PPSN
- 
-- Public Services Card
- 
-- Uimhir Phearsanta Seirbhíse Poiblí
- 
-- Uimh. PSP
- 
-- PSP
- 
+- ППСН 
+- Public Services Card 
+- Uimhir Phearsanta Seirbhíse Poiblí 
+- Уимх. НАСТРОЕН 
+- НАСТРОЕН 
    
 ## <a name="israel-bank-account-number"></a>Номер банковского счета для Израиля
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 13 цифр.
 
 ### <a name="pattern"></a>Шаблон
 
-С форматированием
+Форматируемые
 - Две цифры 
 - Тире 
-- три цифры;  
+- Три цифры 
 - Тире 
-- восемь цифр.
+- Восемь цифр
 
-Без форматирования
+Неформатированные
 - 	13 последовательных цифр.
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -4220,18 +3407,14 @@ IP-כתובת ה
 
 #### <a name="keywordisraelbankaccountnumber"></a>Кэйворд_исраел_банк_аккаунт_нумбер
 
-- Bank Account Number
- 
-- Bank Account
- 
-- Account Number
- 
-- מספר חשבון בנק
- 
+- Bank Account Number 
+- Bank Account 
+- Account Number 
+- מספר חשבון בנק 
    
 ## <a name="israel-national-id"></a>Национальный идентификатор для Израиля
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Девять цифр.
 
@@ -4266,20 +3449,19 @@ IP-כתובת ה
 
 #### <a name="keywordisraelnationalid"></a>Кэйворд_исраел_натионал_ид
 
-- מספר זהות
- 
+- מספר זהות 
 - National ID Number
    
 ## <a name="italy-drivers-license-number"></a>Номер водительского удостоверения для Италии
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Сочетание из 10 букв и цифр.
 
 ### <a name="pattern"></a>Шаблон
 
 - Сочетание 10 букв и цифр.
-- одна буква (без учета регистра);  
+- Одна буква (без учета регистра) 
 - Буква "A" или "V" (без учета регистра) 
 - Семь букв (без учета регистра), цифр или символов подчеркивания 
 - Одна буква (без учета регистра)
@@ -4310,14 +3492,12 @@ IP-כתובת ה
 
 #### <a name="keyworditalydriverslicensenumber"></a>Кэйворд_итали_дриверс_лиценсе_нумбер
 
-- numero di patente di guida
- 
-- patente di guida
- 
+- numero di patente di guida 
+- patente di guida 
    
 ## <a name="japan-bank-account-number"></a>Номер банковского счета для Японии
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Семь или восемь цифр.
 
@@ -4328,7 +3508,7 @@ IP-כתובת ה
 - Код филиала для банковского счета.
 - Четыре цифры 
 - Пробел или тире (необязательно) 
-- три цифры.
+- Три цифры
 
 Контрольная сумма
 
@@ -4371,118 +3551,68 @@ IP-כתובת ה
 
 #### <a name="keywordjpbankaccount"></a>Кэйворд_жп_банк_аккаунт
 
-- Checking Account Number
- 
-- Checking Account
- 
-- Checking Account #
- 
-- Checking Acct Number
- 
-- Checking Acct #
- 
-- Checking Acct No.
- 
-- Checking Account No.
- 
-- Bank Account Number
- 
-- Bank Account
- 
-- Bank Account #
- 
-- Bank Acct Number
- 
-- Bank Acct #
- 
-- Bank Acct No.
- 
-- Bank Account No.
- 
-- Savings Account Number
- 
-- Учетная запись сбережений 
-- Savings Account #
- 
-- Savings Acct Number
- 
-- Savings Acct #
- 
-- Savings Acct No.
- 
-- Savings Account No.
- 
-- Debit Account Number
- 
-- Debit Account
- 
-- Debit Account #
- 
-- Debit Acct Number
- 
-- Debit Acct #
- 
-- Debit Acct No.
- 
-- Debit Account No.
- 
-- 口座番号を当座預金口座の確認
- 
-- ＃アカウントの確認、勘定番号の確認
- 
-- ＃勘定の確認
- 
-- 勘定番号の確認
- 
-- 口座番号の確認
- 
+- Checking Account Number 
+- Checking Account 
+- Checking Account # 
+- Checking Acct Number 
+- Checking Acct # 
+- Checking Acct No. 
+- Checking Account No. 
+- Bank Account Number 
+- Bank Account 
+- Bank Account # 
+- Bank Acct Number 
+- Bank Acct # 
+- Bank Acct No. 
+- Bank Account No. 
+- Savings Account Number 
+- Savings Account 
+- Savings Account # 
+- Savings Acct Number 
+- Savings Acct # 
+- Savings Acct No. 
+- Savings Account No. 
+- Debit Account Number 
+- Debit Account 
+- Debit Account # 
+- Debit Acct Number 
+- Debit Acct # 
+- Debit Acct No. 
+- Debit Account No. 
+- 口座番号を当座預金口座の確認 
+- #アカウントの確認 、 勘定番号の確認 
+- #勘定の確認 
+- 勘定番号の確認 
+- 口座番号の確認 
 - 銀行口座番号 
 - 銀行口座 
-- 銀行口座＃
- 
-- 銀行の勘定番号
- 
-- 銀行のacct＃
- 
-- 銀行の勘定いいえ
- 
+- 銀行口座 # 
+- 銀行の勘定番号 
+- 銀行のаккт # 
+- 銀行の勘定いいえ 
 - 銀行口座番号
-- 
-普通預金口座番号
- 
-- 預金口座
- 
-- 貯蓄口座＃
- 
-- 貯蓄勘定の数
- 
-- 貯蓄勘定＃
- 
-- 貯蓄勘定番号
- 
-- 普通預金口座番号
- 
-- 引き落とし口座番号
- 
+- 普通預金口座番号 
+- 預金口座 
+- 貯蓄口座 # 
+- 貯蓄勘定の数 
+- 貯蓄勘定 # 
+- 貯蓄勘定番号 
+- 普通預金口座番号 
+- 引き落とし口座番号 
 - 口座番号 
-- 口座番号＃
- 
-- デビットのacct番号
- 
-- デビット勘定＃
- 
-- デビットACCTの番号
- 
-- デビット口座番号
- 
+- 口座番号 # 
+- デビットのаккт番号 
+- デビット勘定 # 
+- デビットакктの番号 
+- デビット口座番号 
 
 #### <a name="keywordjpbankbranchcode"></a>Кэйворд_жп_банк_бранч_коде
 
-Otemachi
+Отемачи
 
 ## <a name="japan-drivers-license-number"></a>Номер водительского удостоверения для Японии
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 12 цифр.
 
@@ -4514,9 +3644,9 @@ Otemachi
 
 #### <a name="keywordjpdriverslicensenumber"></a>Кэйворд_жп_дриверс_лиценсе_нумбер
 
-- dl# 
 - DL 
-- dls# 
+- DL 
+- библиотек 
 - БИБЛИОТЕК 
 - driver license 
 - driver licenses 
@@ -4524,32 +3654,25 @@ Otemachi
 - driver's license 
 - drivers licenses 
 - driver's licenses 
-- driving licence
- 
-- lic# 
+- driving licence 
 - Лик # 
-- lics# 
-- идентификатор состояния 
-- state identification
- 
-- state identification number
- 
-- 低所得国＃
- 
+- Лик # 
+- ликс # 
+- state id 
+- state identification 
+- state identification number 
+- 低所得国 # 
 - 免許証 
-- 状態ID
-- 
-状態の識別
- 
-- 状態の識別番号
- 
+- 状態ид
+- 状態の識別 
+- 状態の識別番号 
 - 運転免許 
 - 運転免許証 
 - 運転免許証番号 
    
 ## <a name="japan-passport-number"></a>Номер паспорта гражданина Японии
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Две буквы, за которыми следуют семь цифр.
 
@@ -4581,20 +3704,16 @@ Otemachi
 
 #### <a name="keywordjppassport"></a>Кэйворд_жп_пасспорт
 
-- パスポート
- 
-- パスポート番号
- 
-- パスポートのNum
- 
-- パスポート＃
- 
+- パスポート 
+- パスポート番号 
+- パスポートのнум 
+- パスポート # 
    
 ## <a name="japan-resident-registration-number"></a>Номер регистрации резидента Японии
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
-11 разрядов
+11 цифр.
 
 ### <a name="pattern"></a>Шаблон
 
@@ -4625,31 +3744,21 @@ Otemachi
 #### <a name="keywordjpresidentregistrationnumber"></a>Кэйворд_жп_ресидент_регистратион_нумбер
 
 - Resident Registration Number
-- Resident Register Number
- 
-- Residents Basic Registry Number
- 
-- Resident Registration No.
- 
-- Resident Register No.
- 
-- Residents Basic Registry No.
- 
-- Basic Resident Register No.
- 
-- 住民登録番号、登録番号をレジデント
- 
-- 住民基本登録番号、登録番号
- 
-- 住民基本レジストリ番号を常駐
- 
-- 登録番号を常駐住民基本台帳登録番号
- 
+- Resident Register Number 
+- Residents Basic Registry Number 
+- Resident Registration No. 
+- Resident Register No. 
+- Residents Basic Registry No. 
+- Basic Resident Register No. 
+- 住民登録番号 、 登録番号をレジデント 
+- 住民基本登録番号 、 登録番号 
+- 住民基本レジストリ番号を常駐 
+- 登録番号を常駐住民基本台帳登録番号 
 
    
 ## <a name="japan-social-insurance-number-sin"></a>Номер карты социального страхования для Японии (SIN)
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 7–12 цифр.
 
@@ -4693,20 +3802,15 @@ Otemachi
 
 #### <a name="keywordjpsin"></a>Кэйворд_жп_син
 
-- Social Insurance No.
- 
-- Social Insurance Num
- 
-- Social Insurance Number
- 
-- 社会保険のテンキー
- 
-- 社会保険番号
- 
+- Social Insurance No. 
+- Social Insurance Num 
+- Social Insurance Number 
+- 社会保険のテンキー 
+- 社会保険番号 
 
 ## <a name="japanese-residence-card-number"></a>Номер карточки для японского языка
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 12 букв и цифр
 
@@ -4748,7 +3852,7 @@ Otemachi
    
 ## <a name="malaysia-id-card-number"></a>Номер удостоверения личности для Малайзии
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 12 цифр, содержащих необязательные дефисы.
 
@@ -4792,7 +3896,7 @@ Otemachi
 - i/c нет
 - внутренних
 - МФ нет
-- идентификационная карточка
+- id card
 - идентификационная карточка
 - identity card
 - k/p
@@ -4814,16 +3918,16 @@ Otemachi
    
 ## <a name="netherlands-citizens-service-bsn-number"></a>Номер гражданской службы для Нидерландов (BSN)
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 8–9 цифр, содержащих необязательные пробелы.
 
 ### <a name="pattern"></a>Шаблон
 
 8–9 цифр:
-- Три цифры 
+- три цифры;  
 - пробел (необязательно);  
-- Три цифры 
+- три цифры;  
 - пробел (необязательно);  
 - 2–3 цифры.
 
@@ -4854,24 +3958,17 @@ Otemachi
 
 #### <a name="keywordnetherlandsbsn"></a>Кэйворд_несерландс_бсн
 
-- Citizen service number
- 
-- BSN
-
- 
-- Burgerservicenummer
- 
-- Sofinummer
- 
-- Persoonsgebonden nummer
- 
-- Persoonsnummer
-    
+- Citizen service number 
+- BSN 
+- Буржерсервиценуммер 
+- Софинуммер 
+- Persoonsgebonden nummer 
+- Персунснуммер    
 
    
 ## <a name="new-zealand-ministry-of-health-number"></a>Номер министерства здравоохранения для Новой Зеландии
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Три буквы, пробел (необязательно) и четыре цифры.
 
@@ -4906,18 +4003,16 @@ Otemachi
 
 Кэйворд_нз_термс
 
-- NHI
- 
+- НХИ 
 - Новая Зеландия 
 - Работоспособность 
-- treatment
- 
+- обращения 
    
 ## <a name="norway-identification-number"></a>Идентификационный номер для Норвегии
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
-11 разрядов
+11 цифр.
 
 ### <a name="pattern"></a>Шаблон
 
@@ -4935,7 +4030,7 @@ Otemachi
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_norway_id_number находит содержимое, которое соответствует шаблону;
 - находится ключевое слово из Keyword_norway_id_number;
-- контрольная сумма проходит проверку.
+- Контрольная сумма проходит проверку.
 - Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_norway_id_numbe находит содержимое, которое соответствует шаблону;
 - Контрольная сумма проходит проверку.
@@ -4960,25 +4055,25 @@ Otemachi
 - Personal identification number
 - Norwegian ID Number
 - ID Number
-- Identification
-- Personnummer
-- Fødselsnummer
+- Процедура
+- Персоннуммер
+- Фøдселснуммер
 
    
 ## <a name="philippines-unified-multi-purpose-id-number"></a>Единый многофункциональный идентификационный номер для Филиппин
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 12 цифр, разделенных дефисами.
 
 ### <a name="pattern"></a>Шаблон
 
 12 цифр:
-- Четыре цифры 
+- четыре цифры; 
 - дефис; 
 - семь цифр; 
 - дефис; 
-- Одна цифра
+- одна цифра.
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -5004,16 +4099,14 @@ Otemachi
    
 #### <a name="keywordphilippinesid"></a>Кэйворд_филиппинес_ид
 
-- Unified Multi-Purpose ID
- 
-- UMID
- 
+- Unified Multi-Purpose ID 
+- Умид 
 - Identity Card 
 - Pinag-isang Multi-Layunin ID
    
 ## <a name="poland-identity-card"></a>Номер удостоверения личности для Польши
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Три буквы и шесть цифр.
 
@@ -5027,7 +4120,9 @@ Otemachi
 
 ### <a name="definition"></a>Определение
 
-Политика защиты от потери данных — 75% уверенности, что она обнаружила этот тип конфиденциальной информации, если в пределах близости от 300 символов: функция Функ_полиш_натионал_ид находит содержимое, которое соответствует шаблону; Найдено ключевое слово из Кэйворд_полиш_натионал_ид_пасспорт_нумбер. Контрольная сумма проходит проверку.
+Политика защиты от потери данных — 75% уверенности, что она обнаружила этот тип конфиденциальной информации, если в пределах близости от 300 символов: функция Функ_полиш_натионал_ид находит содержимое, которое соответствует шаблону;
+находится ключевое слово из Keyword_polish_national_id_passport_number;
+Контрольная сумма проходит проверку.
 
 ```
 <!-- Poland Identity Card-->
@@ -5048,18 +4143,15 @@ Otemachi
 - Назва i нумер доводу особистего
 - Назва i НР доводу особистего
 - Nazwa i nr dowodu tożsamości
-
 - Dowód Tożsamości
-
-- dow. os.
-
+- Dow. совместим.
 
    
 ## <a name="poland-national-id-pesel"></a>Национальный идентификатор (PESEL), Польша
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
-11 разрядов
+11 цифр.
 
 ### <a name="pattern"></a>Шаблон
 
@@ -5096,7 +4188,7 @@ Otemachi
    
 ## <a name="poland-passport"></a>Номер паспорта для Польши
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Две буквы и семь цифр.
 
@@ -5137,9 +4229,9 @@ Otemachi
    
 ## <a name="portugal-citizen-card-number"></a>Номер карты гражданина Португалии
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
-Восемь цифр
+восемь цифр.
 
 ### <a name="pattern"></a>Шаблон
 
@@ -5177,7 +4269,7 @@ Otemachi
    
 ## <a name="saudi-arabia-national-id"></a>Национальный идентификатор для Саудовской Аравии
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 10 цифр.
 
@@ -5211,18 +4303,15 @@ Otemachi
 
 #### <a name="keywordsaudiarabianationalid"></a>Кэйворд_сауди_арабиа_натионал_ид
 
-- Identification Card
- 
-- I card number
- 
-- идентификатор 
-- الوطنية الهوية بطاقة رقم
- 
+- Identification Card 
+- I card number 
+- ID number 
+- الوطنية الهوية بطاقة رقم 
 
    
 ## <a name="singapore-national-registration-identity-card-nric-number"></a>Номер внутреннего удостоверения личности гражданина Сингапура (NRIC)
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Девять букв и цифр.
 
@@ -5242,7 +4331,7 @@ Otemachi
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - регулярное выражение Regex_singapore_nric находит содержимое, которое соответствует шаблону;
 - находится ключевое слово из Keyword_singapore_nric;
-- контрольная сумма проходит проверку.
+- Контрольная сумма проходит проверку.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - регулярное выражение Regex_singapore_nric находит содержимое, которое соответствует шаблону;
@@ -5265,25 +4354,18 @@ Otemachi
    
 #### <a name="keywordsingaporenric"></a>Кэйворд_сингапоре_нрик
 
-- National Registration Identity Card
- 
-- Identity Card Number
- 
-- NRIC
- 
-- IC
- 
-- Foreign Identification Number
- 
-- FIN
- 
-- 身份证  
-- 身份證
- 
+- National Registration Identity Card 
+- Identity Card Number 
+- NRIC 
+- ВНУТРЕННИХ 
+- Foreign Identification Number 
+- ПРОЦЕНТ 
+- 身份证 
+- 身份證 
    
 ## <a name="south-africa-identification-number"></a>Идентификационный номер для Южной Африки
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 13 цифр, которые могут содержать пробелы.
 
@@ -5322,12 +4404,12 @@ Otemachi
 #### <a name="keywordsouthafricaidentificationnumber"></a>Кэйворд_саус_африка_идентификатион_нумбер
 
 - Identity card
-- ID
-- Identification 
+- ИД
+- Процедура 
    
 ## <a name="south-korea-resident-registration-number"></a>Регистрационный номер жителя Южной Кореи
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 13 цифр, содержащих дефис.
 
@@ -5350,7 +4432,7 @@ Otemachi
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_south_korea_resident_number находит содержимое, которое соответствует шаблону;
 - находится ключевое слово из Keyword_south_korea_resident_number;
-- контрольная сумма проходит проверку.
+- Контрольная сумма проходит проверку.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_south_korea_resident_number находит содержимое, которое соответствует шаблону;
@@ -5373,26 +4455,22 @@ Otemachi
    
 #### <a name="keywordsouthkorearesidentnumber"></a>Кэйворд_саус_кореа_ресидент_нумбер
 
-- National ID card
- 
-- Citizen's Registration Number
- 
-- Jumin deungnok beonho
- 
-- RRN
- 
+- National ID card 
+- Citizen's Registration Number 
+- Jumin deungnok beonho 
+- РРН 
 - 주민등록번호
    
 ## <a name="spain-social-security-number-ssn"></a>Страховой номер для Испании (SSN)
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 11–12 цифр.
 
 ### <a name="pattern"></a>Шаблон
 
 11-12 цифр:
-- две цифры;  
+- Две цифры 
 - Косая черта (необязательно) 
 - 7–8 цифр 
 - Косая черта (необязательно) 
@@ -5423,7 +4501,7 @@ Otemachi
    
 ## <a name="sweden-national-id"></a>Национальный идентификатор для Швеции
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 10 или 12 цифр и дополнительный разделитель.
 
@@ -5460,9 +4538,9 @@ Otemachi
    
 ## <a name="sweden-passport-number"></a>Номер паспорта гражданина Швеции
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
-Восемь цифр
+Восемь цифр.
 
 ### <a name="pattern"></a>Шаблон
 
@@ -5497,63 +4575,40 @@ Otemachi
    
 #### <a name="keywordswedenpassport"></a>Кэйворд_сведен_пасспорт
 
-- visa requirements
- 
-- Alien Registration Card
- 
-- Schengen visas
- 
-- Schengen visa
- 
-- Visa Processing
- 
-- Visa Type
- 
-- Single Entry
- 
-- Multiple Entry
- 
-- G3 Processing Fees
-
- 
+- visa requirements 
+- Alien Registration Card 
+- Schengen visas 
+- Schengen visa 
+- Visa Processing 
+- Visa Type 
+- Single Entry 
+- Multiple Entry 
+- G3 Processing Fees 
 
 #### <a name="keywordpassport"></a>Кэйворд_пасспорт
 
 - Passport Number 
-- 
-Passport No 
-- Passport#
- 
-- Passport#
- 
+- Passport No 
+- Passport# 
+- Службу 
 - Пасспортид 
-- Passportno
- 
-- passportnumber
- 
+- Пасспортно 
+- пасспортнумбер 
 - パスポート 
-- パスポート番号
- 
-- パスポートのNum
- 
-- パスポート＃
- 
+- パスポート番号 
+- パスポートのнум 
+- パスポート # 
 - Numéro de passeport 
-- 
-Passeport n ° 
-- Passeport Non
- 
-- Passeport#
- 
-- Passeport#
- 
+- Passeport n ° 
+- Passeport Non 
+- Passeport# 
+- Пассепорт # 
 - Пассепортнон 
-- Passeportn °
- 
+- Passeportn ° 
    
 ## <a name="swift-code"></a>Код SWIFT
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Четыре буквы, за которыми следуют от 5 до 31 буквы или цифры.
 
@@ -5589,64 +4644,41 @@ Passeport n °
    
 #### <a name="keywordswift"></a>Кэйворд_свифт
 
-- international organization for standardization 9362
- 
-- iso 9362
- 
+- international organization for standardization 9362 
+- iso 9362 
 - iso9362 
 - SWIFT\# 
-- swiftcode
- 
-- swiftnumber
- 
-- swiftroutingnumber
- 
-- код SWIFT 
-- swift number #
- 
-- swift routing number
- 
-- bic number
- 
-- bic code
- 
+- свифткоде 
+- свифтнумбер 
+- свифтраутингнумбер 
+- swift code 
+- swift number # 
+- swift routing number 
+- bic number 
+- bic code 
 - БИК\# 
 - БИК\# 
-- bank identifier code
- 
+- bank identifier code 
 - 標準化 9362 
-- 迅速＃
- 
-- SWIFTコード
- 
-- SWIFT番号
- 
-- 迅速なルーティング番号
- 
-- BIC番号
- 
-- BICコード
- 
-- 銀行識別コードのための国際組織
- 
-- Organisation internationale de normalisation 9362
- 
+- 迅速 # 
+- Свифтコード 
+- Свифт番号 
+- 迅速なルーティング番号 
+- Бик番号 
+- Бикコード 
+- 銀行識別コードのための国際組織 
+- Organisation internationale de normalisation 9362 
 - Быстрая\# 
-- code SWIFT
- 
-- le numéro de swift
- 
-- swift numéro d'acheminement
- 
-- le numéro BIC
- 
+- code SWIFT 
+- le numéro de swift 
+- swift numéro d'acheminement 
+- le numéro BIC 
 - \#БИК 
-- code identificateur de banque
- 
+- code identificateur de banque 
    
 ## <a name="taiwan-national-id"></a>Национальный идентификатор, Тайвань
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Одна буква (английская), за которой следуют девять цифр.
 
@@ -5682,37 +4714,24 @@ Passeport n °
 
 #### <a name="keywordtaiwanesenationalid"></a>Кэйворд_таиванесе_натионал_ид
 
-- 身份證字號
- 
-- 身份證
- 
-- 身份證號碼
- 
-- 身份證號
- 
-- 身分證字號
- 
-- 身分證  
-- 身分證號碼
- 
-- 身份證號
- 
-- 身分證統一編號
- 
-- 國民身分證統一編號
- 
-- 簽名
- 
-- 蓋章
- 
-- 簽名或蓋章
-
- 
+- 身份證字號 
+- 身份證 
+- 身份證號碼 
+- 身份證號 
+- 身分證字號 
+- 身分證 
+- 身分證號碼 
+- 身份證號 
+- 身分證統一編號 
+- 國民身分證統一編號 
+- 簽名 
+- 蓋章 
+- 簽名或蓋章 
 - 簽章   
    
 ## <a name="taiwan-passport-number"></a>	Номер паспорта гражданина Тайваня
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 - Номер биометрического паспорта: девять цифр
 - Номер биометрической службы Passport: девять цифр
@@ -5723,7 +4742,7 @@ Passeport n °
 - восемь цифр.
 
 Номер биометрической службы Passport:
-- Девять цифр.
+- девять цифр.
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -5749,23 +4768,18 @@ Passeport n °
 
 #### <a name="keywordtaiwanpassport"></a>Кэйворд_таиван_пасспорт
 
-- ROC passport number
- 
-- Номер паспорта 
-- Паспорт нет 
-- Passport Num
- 
-- Passport#
- 
-- 护照
- 
-- 中華民國護照
- 
+- ROC passport number 
+- Passport number 
+- Passport no 
+- Passport Num 
+- Passport # 
+- 护照 
+- 中華民國護照 
 - Zhōnghuá Mínguó hùzhào
    
 ## <a name="taiwan-resident-certificate-arctarc-number"></a>Номер удостоверения жителя Тайваня (ARC/TARC)
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 10 букв и цифр.
 
@@ -5799,29 +4813,21 @@ Passeport n °
 
 #### <a name="keywordtaiwanresidentcertificate"></a>Кэйворд_таиван_ресидент_цертификате
 
-- Resident Certificate
- 
-- Резидентный сертификат 
-- Resident Cert.
- 
-- Идентификационная карточка 
-- Alien Resident Certificate
- 
+- Resident Certificate 
+- Resident Cert 
+- Resident Cert. 
+- Identification card 
+- Alien Resident Certificate 
 - ГИПЕРБОЛ 
-- Taiwan Area Resident Certificate
- 
-- TARC
- 
-- 居留證
- 
-- 外僑居留證
- 
-- 台灣地區居留證
- 
+- Taiwan Area Resident Certificate 
+- TARC 
+- 居留證 
+- 外僑居留證 
+- 台灣地區居留證 
 
 ## <a name="thai-population-identification-code"></a>Код идентификации для тайского заполнения
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 13 цифр.
 
@@ -5870,13 +4876,13 @@ Passeport n °
   
 ## <a name="turkish-national-identification-number"></a>Турецкий национальный идентификационный номер
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
-11 разрядов
+11 цифр.
 
 ### <a name="pattern"></a>Шаблон
 
-11 разрядов
+11 цифр.
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -5915,7 +4921,7 @@ Passeport n °
 
 ## <a name="uk-drivers-license-number"></a>Номер водительского удостоверения для Соединенного Королевства
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Сочетание 18 букв и цифр в указанном формате.
 
@@ -5953,39 +4959,25 @@ Passeport n °
 
 #### <a name="keywordukdriverslicense"></a>Кэйворд_ук_дриверс_лиценсе
 
-- DVLA
- 
-- light vans
- 
-- quadbikes
- 
-- motor cars
- 
+- ДВЛА 
+- light vans 
+- куадбикес 
+- motor cars 
 - 125cc 
-- sidecar
- 
-- tricycles
- 
-- motorcycles
- 
-- photocard licence
- 
-- learner drivers
- 
-- licence holder
- 
-- licence holders
- 
-- driving licences
- 
-- driving licence
- 
-- dual control car
- 
+- сидекар 
+- трициклес 
+- моторциклес 
+- photocard licence 
+- learner drivers 
+- licence holder 
+- licence holders 
+- driving licences 
+- driving licence 
+- dual control car 
    
 ## <a name="uk-electoral-roll-number"></a>Регистрационный номер избирателя для Соединенного Королевства
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Две буквы, за которыми следуют 1–4 цифры.
 
@@ -6019,19 +5011,15 @@ Passeport n °
 
 #### <a name="keywordukelectoral"></a>Кэйворд_ук_електорал
 
-- council nomination
- 
-- nomination form
- 
-- electoral register
-
- 
+- council nomination 
+- nomination form 
+- electoral register 
 - electoral roll
 
    
 ## <a name="uk-national-health-service-number"></a>Номер национальной службы здравоохранения для Соединенного Королевства
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 10–17 цифр, разделенных пробелами.
 
@@ -6076,40 +5064,29 @@ Passeport n °
    
 #### <a name="keyworduknhsnumber"></a>Кэйворд_ук_нхс_нумбер
 
-- national health service
- 
-- nhs
- 
-- health services authority
-
- 
+- national health service 
+- NHS 
+- health services authority 
 - health authority
 
 #### <a name="keyworduknhsnumber1"></a>Keyword_uk_nhs_number1
 
-- patient id
- 
-- patient identification
- 
-- patient no
-
- 
+- patient id 
+- patient identification 
+- patient no 
 - patient number
 
 #### <a name="keyworduknhsnumberdob"></a>Кэйворд_ук_нхс_нумбер_доб
 
-- Групповая политика 
-- DOB
- 
+- ГРУПП 
+- ДОБ 
 - D. O. B 
-- Date of Birth
- 
-- Birth Date
- 
+- Date of Birth 
+- Birth Date 
    
 ## <a name="uk-national-insurance-number-nino"></a>Номер карты национального страхования для Соединенного Королевства (NINO)
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 7 символов или 9 символов, разделенных пробелами или тире
 
@@ -6169,33 +5146,22 @@ Passeport n °
 
 #### <a name="keyworduknino"></a>Кэйворд_ук_нино
 
-- national insurance number
- 
-- national insurance contributions
- 
-- protection act
- 
-- insurance
- 
-- social security number
- 
-- insurance application
- 
-- medical application
- 
-- social insurance
- 
-- medical attention
- 
-- социальное обеспечение безопасности 
-- great britain
- 
-- insurance
-    
+- national insurance number 
+- national insurance contributions 
+- protection act 
+- страхования 
+- social security number 
+- insurance application 
+- medical application 
+- social insurance 
+- medical attention 
+- social security 
+- great britain 
+- страхования    
    
 ## <a name="us--uk-passport-number"></a>Номер паспорта гражданина США и/или Соединенного Королевства
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Девять цифр.
 
@@ -6227,40 +5193,27 @@ Passeport n °
 #### <a name="keywordpassport"></a>Кэйворд_пасспорт
 
 - Passport Number 
-- 
-Passport No 
-- Passport#
- 
-- Passport#
- 
+- Passport No 
+- Passport# 
+- Службу 
 - Пасспортид 
-- Passportno
- 
-- passportnumber
- 
+- Пасспортно 
+- пасспортнумбер 
 - パスポート 
-- パスポート番号
- 
-- パスポートのNum
- 
-- パスポート＃
- 
+- パスポート番号 
+- パスポートのнум 
+- パスポート # 
 - Numéro de passeport 
-- 
-Passeport n ° 
-- Passeport Non
- 
-- Passeport#
- 
-- Passeport#
- 
+- Passeport n ° 
+- Passeport Non 
+- Passeport# 
+- Пассепорт # 
 - Пассепортнон 
-- Passeportn °
- 
+- Passeportn ° 
    
 ## <a name="us-bank-account-number"></a>Номер банковского счета для США
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 8-17 цифр
 
@@ -6292,71 +5245,44 @@ Passeport n °
 
 #### <a name="keywordusabankaccount"></a>Кэйворд_уса_банк_аккаунт
 
-- Checking Account Number
- 
-- Checking Account
- 
-- Checking Account #
- 
-- Checking Acct Number
- 
-- Checking Acct #
- 
-- Checking Acct No.
- 
-- Checking Account No.
- 
-- Bank Account Number
- 
-- Bank Account #
- 
-- Bank Acct Number
- 
-- Bank Acct #
- 
-- Bank Acct No.
- 
-- Bank Account No.
- 
-- Savings Account Number
- 
-- Savings Account.
- 
-- Savings Account #
- 
-- Savings Acct Number
- 
-- Savings Acct #
- 
-- Savings Acct No.
- 
-- Savings Account No.
- 
-- Debit Account Number
- 
-- Debit Account
- 
-- Debit Account #
- 
-- Debit Acct Number
- 
-- Debit Acct #
- 
-- Debit Acct No.
- 
-- Debit Account No.
- 
+- Checking Account Number 
+- Checking Account 
+- Checking Account # 
+- Checking Acct Number 
+- Checking Acct # 
+- Checking Acct No. 
+- Checking Account No. 
+- Bank Account Number 
+- Bank Account # 
+- Bank Acct Number 
+- Bank Acct # 
+- Bank Acct No. 
+- Bank Account No. 
+- Savings Account Number 
+- Savings Account. 
+- Savings Account # 
+- Savings Acct Number 
+- Savings Acct # 
+- Savings Acct No. 
+- Savings Account No. 
+- Debit Account Number 
+- Debit Account 
+- Debit Account # 
+- Debit Acct Number 
+- Debit Acct # 
+- Debit Acct No. 
+- Debit Account No. 
    
 ## <a name="us-drivers-license-number"></a>Номер водительского удостоверения для США
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Зависит от штата.
 
 ### <a name="pattern"></a>Шаблон
 
 В зависимости от штата. Например, для Нью-Йорка:
-- Подойдут девять цифр в формате ццц ццц ццц.
+- Девять цифр, отформатированных как DDD DDD DDD, будут совпадают.
 - Не подойдут девять цифр в формате ццццццццц.
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -6373,7 +5299,7 @@ Passeport n °
 Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
 - функция Func_new_york_drivers_license_number находит содержимое, которое соответствует шаблону;
 - находится ключевое слово из Keyword_[state_name]_drivers_license_name;
-- находится ключевое слово из Keyword_us_drivers_license_abbreviations;
+- находится ключевое слово из Keyword_us_drivers_license_abbreviations.
 - ни одно ключевое слово из Keyword_us_drivers_license не находится.
 
 ```
@@ -6397,29 +5323,21 @@ Passeport n °
 #### <a name="keywordusdriverslicenseabbreviations"></a>Кэйворд_ус_дриверс_лиценсе_аббревиатионс
 
 - DL 
-- DLS 
+- БИБЛИОТЕК 
 - КДЛ 
 - КДЛС 
-- ID 
+- ИД 
 - Идентификаторы 
-- DL# 
-- 
-DLS#
- 
-- CDL#
- 
-- CDLS#
- 
-- ID#
-- 
-IDs#
- 
-- идентификатор 
-- ID numbers
- 
+- DL 
+- БИБЛИОТЕК 
+- КДЛ # 
+- КДЛС # 
+- КОДОВ
+- Идентификаторы 
+- ID number 
+- ID numbers 
 - Лик 
-- LIC#
- 
+- Лик # 
 
 #### <a name="keywordusdriverslicense"></a>Кэйворд_ус_дриверс_лиценсе
 
@@ -6427,115 +5345,93 @@ IDs#
 - Дриверликс 
 - Дриверлиценсе 
 - Дриверлиценсес 
-- Драйвер Лик 
-- Драйвер ликс 
-- Лицензия на драйвер 
-- Лицензии на драйверы 
+- Driver Lic 
+- Driver Lics 
+- Driver License 
+- Driver Licenses 
 - Дриверслик 
 - Дриверсликс 
 - Дриверслиценсе 
 - Дриверслиценсес 
-- Драйверы Лик 
-- Драйверы ликс 
-- Лицензия на драйверы 
-- Лицензии на драйверы 
+- Drivers Lic 
+- Drivers Lics 
+- Drivers License 
+- Drivers Licenses 
 - Driver ' LIC 
 - Driver ' LICS 
 - Driver ' License 
 - Driver ' Licenses 
-- Драйвер "Лик 
-- Драйвер "ЛИКС 
-- Лицензия "Driver" 
-- Лицензии на драйвер
+- Driver' Lic 
+- Driver' Lics 
+- Driver' License 
+- Driver' Licenses
 - Дривер'слик 
 - Дривер'сликс 
 - Дривер'слиценсе 
 - Дривер'слиценсес 
-- Лик драйвера 
-- Ликс драйвера 
-- Лицензия на драйвер 
-- Лицензии на драйвер 
-- identification number
- 
-- identification numbers
- 
-- identification #
- 
-- идентификационная карточка 
-- идентификационные карточки 
-- идентификационная карточка 
-- идентификационные карточки 
+- Driver's Lic 
+- Driver's Lics 
+- Driver's License 
+- Driver's Licenses 
+- identification number 
+- identification numbers 
+- identification # 
+- id card 
+- id cards 
+- identification card 
+- identification cards 
 - Дриверлик # 
 - Дриверликс # 
 - Дриверлиценсе # 
 - Дриверлиценсес # 
 - Driver Lic# 
-- 
-Driver Lics#
- 
-- Номер лицензии драйвера 
-- Лицензии на драйверы # 
+- Driver Lics# 
+- Driver License# 
+- Driver Licenses# 
 - Дриверслик # 
 - Дриверсликс # 
 - Дриверслиценсе # 
 - Дриверслиценсес # 
-- Drivers Лик # 
-- Drivers ликс # 
-- Driver License # 
-- Лицензии на драйверы # 
-- Driver' Lic#
- 
-- Driver' Lics#
- 
-- Driver' License#
- 
-- Driver' Licenses#
- 
-- Driver' Lic#
- 
-- Driver' Lics#
- 
-- Driver' License#
- 
-- Driver' Licenses#
- 
+- Drivers Lic# 
+- Drivers Lics# 
+- Drivers License# 
+- Drivers Licenses# 
+- Driver ' LIC 
+- Driver ' LICS 
+- Driver ' License 
+- Driver ' Licenses 
+- Driver' Lic# 
+- Driver' Lics# 
+- Driver' License# 
+- Driver' Licenses# 
 - Дривер'слик # 
 - Дривер'сликс # 
 - Дривер'слиценсе # 
 - Дривер'слиценсес # 
-- Driver's Lic#
- 
-- Driver's Lics#
- 
-- Driver's License#
- 
-- Driver's Licenses#
- 
-- Идентификатор карточки # 
-- id cards#
- 
-- identification card#
- 
-- identification cards#
- 
+- Driver's Lic# 
+- Driver's Lics# 
+- Driver's License# 
+- Driver's Licenses# 
+- id card# 
+- id cards# 
+- identification card# 
+- identification cards# 
 
 
-#### <a name="keywordstatenamedriverslicensename"></a>Keyword_[state_name]_drivers_license_name
+#### <a name="keywordstatenamedriverslicensename"></a>Кэйворд_ [стате_наме] _дриверс_лиценсе_наме
 
-- Аббревиатура штата (например, NY)
- 
-- Название штата (например, New York)
-    
+- Аббревиатура штата (например, NY) 
+- Название штата (например, New York)    
    
 ## <a name="us-individual-taxpayer-identification-number-itin"></a>Идентификационный номер налогоплательщика для США (ITIN)
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 Девять цифр, которые начинаются с "9" и содержат "7" или "8" в качестве четвертой цифры, отформатированных с помощью пробелов или тире (необязательно).
 
 ### <a name="pattern"></a>Шаблон
 
-С форматированием
+Форматируемые
 - Цифра 9 
 - Две цифры 
 - Пробел или тире 
@@ -6544,7 +5440,7 @@ Driver Lics#
 - Пробел или тире 
 - Четыре цифры
 
-Без форматирования
+Неформатированные
 - Цифра 9 
 - Две цифры 
 - Цифра 7 или 8 
@@ -6560,15 +5456,15 @@ Driver Lics#
 - Функция Func_formatted_itin находит содержимое, которое соответствует шаблону.
 - Верно по меньшей мере одно из условий ниже:
     - найдено ключевое слово из Keyword_itin;
-    - функция Func_us_address находит адрес в правильном формате.
-    - функция Func_us_date находит дату в правильном формате;
+    - функция Func_us_address находит адрес в правильном формате;
+    - функция Func_us_date находит дату в правильном формате.
     - найдено ключевое слово из Keyword_itin_collaborative.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Функция Func_unformatted_itin находит содержимое, которое соответствует шаблону.
 - Верно по меньшей мере одно из условий ниже:
     - найдено ключевое слово из Keyword_itin_collaborative;
-    - функция Func_us_address находит адрес в правильном формате.
+    - функция Func_us_address находит адрес в правильном формате;
     - функция Func_us_date находит дату в правильном формате.
 
 ```
@@ -6599,42 +5495,30 @@ Driver Lics#
 
 #### <a name="keyworditin"></a>Кэйворд_итин
 
-- taxpayer
- 
-- tax id
- 
-- tax identification
- 
-- itin
- 
+- дубликат 
+- tax id 
+- tax identification 
+- SharePointв 
 - SSN 
-- tin
- 
-- социальное обеспечение безопасности 
-- tax payer
- 
-- itins
- 
-- taxid
-
- 
-- individual taxpayer
- 
+- ИНН 
+- social security 
+- tax payer 
+- итинс 
+- такси 
+- individual taxpayer 
 
 #### <a name="keyworditincollaborative"></a>Кэйворд_итин_коллаборативе
 
 - License 
 - DL 
-- DOB
- 
+- ДОБ 
 - Birthdate 
-- День рождения  
-- Date of Birth
- 
+- День рождения 
+- Date of Birth 
    
 ## <a name="us-social-security-number-ssn"></a>Страховой номер для США (SSN)
 
-### <a name="format"></a>Формат
+### <a name="format"></a>Format
 
 9 цифр в виде форматированного или неформатированного шаблона.
 
@@ -6706,20 +5590,13 @@ Driver Lics#
 
 #### <a name="keywordssn"></a>Кэйворд_ссн
 
-- Social Security
- 
-- Social Security#
- 
-- Soc Sec
- 
+- Social Security 
+- Social Security# 
+- Soc Sec 
 - SSN 
-- SSNS
- 
-- SSN#
- 
-- SS#
- 
-- SSID
- 
+- SSNS 
+- SSN 
+- НН 
+- SSID 
    
 

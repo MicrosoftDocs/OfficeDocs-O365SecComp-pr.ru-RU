@@ -8,17 +8,18 @@ ms.audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 description: Типы конфиденциальной информации ищут определенный шаблон и корроборате его, обеспечивая правильное форматирование, заменяя контрольные суммы и ищут соответствующие ключевые слова или другие сведения. Для некоторых из этих проверок используются внешние функции. В этой статье рассказывается о сведениях, для обнаружения которых используются эти функции, что поможет вам разобраться в предопределенных типах конфиденциальной информации.
-ms.openlocfilehash: 4cc6f4d27e106aeedb2fa8cae0f3634b9e3d6319
-ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
+ms.openlocfilehash: f64a4f174483b2aa57520991dcf85d13515074fb
+ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30410554"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30454971"
 ---
 # <a name="what-the-dlp-functions-look-for"></a>Сведения, для обнаружения которых используются функции защиты от потери данных
 

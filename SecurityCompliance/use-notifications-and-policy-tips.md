@@ -10,17 +10,18 @@ f1_keywords:
 - ms.o365.cc.UnifiedDLPRuleNotifyUser
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 description: 'Подсказка политики — это уведомление или предупреждение, которое появляется при работе с содержимым, которое противоречит политике защиты от потери данных. Вы можете использовать уведомления электронной почты и подсказки политики, чтобы увеличить осведомленность и помочь пользователям рассказать о политиках Организации. Кроме того, можно предоставить пользователям возможность переопределить политику, чтобы она не была заблокирована, если у них есть допустимые деловые нужды или если политика обнаруживает ложное срабатывание. '
-ms.openlocfilehash: fbaabd674de97ffce32b8caae8e2b41471e52569
-ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
+ms.openlocfilehash: ad351a4f24ce566a47692c190b455e9e680882ca
+ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30410924"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30455191"
 ---
 # <a name="send-email-notifications-and-show-policy-tips-for-dlp-policies"></a>Отправлять уведомления по электронной почте и показывать подсказки политики для политик защиты от потери данных
 
@@ -113,7 +114,7 @@ ms.locfileid: "30410924"
   
 Вы также можете настроить уведомления по электронной почте с помощью следующих маркеров. Эти маркеры представляют собой переменные, которые заменяются определенными сведениями в отправленном уведомлении.
 
-|**Маркер**|**Description**|
+|**Маркер**|**Описание**|
 |:-----|:-----|
 |%% AppliedActions%%  <br/> |Действия, применяемые к содержимому.  <br/> |
 |%% ContentURL%%  <br/> |URL-адрес документа на сайте SharePoint Online или OneDrive для бизнеса.  <br/> |
