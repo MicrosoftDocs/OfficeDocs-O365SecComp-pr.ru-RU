@@ -13,12 +13,13 @@ search.appverid:
 - MET150
 ms.assetid: dc4f704c-6fcc-4cab-9a02-95a824e4fb57
 description: Целевая страница для плана безопасности и соответствия требованиям
-ms.openlocfilehash: 71d814fbbc946fddbc57d4528f43b83589454e31
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.collection: M365-security-compliance
+ms.openlocfilehash: 4c653e20fbab8f93897b00589a00cb53b1e36963
+ms.sourcegitcommit: 07a4f9a8888756e05cd67ca24f6121b2a4e9f464
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218469"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "30512654"
 ---
 # <a name="plan-for-security-amp-compliance-in-office-365"></a>Планирование соответствия требованиям &amp; безопасности в Office 365
 
@@ -34,11 +35,11 @@ ms.locfileid: "30218469"
 
 После настройки подписки на Office 365 запишите начальную оценку. Показатель безопасности предоставляет предложения по настройке Office 365, которые можно использовать для увеличения оценки. Цель — знать о возможностях, которые можно использовать для защиты среды, которая не оказывает негативного влияния на производительность пользователей.
   
-- [Знакомство с оценкой безопасности Office 365](office-365-secure-score.md)
+- [Знакомство с показателем безопасности Office 365](office-365-secure-score.md)
     
 ## <a name="step-3-plan-access-protection-for-identity-and-devices"></a>Шаг 3: Планирование защиты доступа для удостоверений и устройств
 
-Защита доступа к данным и службам Office 365 очень важна для защиты от кибератак и предотвращения потери данных.
+Защита доступа к данным и службам Office 365 важна для защиты от кибератак-атак и защиты от потери данных.
   
 - [Защита доступа к данным и службам в Office 365](protect-access-to-data-and-services.md)
     
@@ -58,7 +59,7 @@ ms.locfileid: "30218469"
   
 - [Переход в центр безопасности &amp; и соответствия требованиям Office 365](go-to-the-securitycompliance-center.md)
     
-- [Разрешения в центре безопасности &amp; и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md)
+- [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
     
 - [Предоставление пользователям доступа к центру безопасности &amp; и соответствия требованиям Office 365](grant-access-to-the-security-and-compliance-center.md)
     
@@ -76,8 +77,8 @@ ms.locfileid: "30218469"
   
 |**Подписка**|**URL-адрес управления**|**Панели мониторинга и центры администрирования**|
 |:-----|:-----|:-----|
-|Office 365  <br/> |`https://portal.office.com`  <br/> | Центр администрирования Office 365  <br/>  Центр &amp; соответствия требованиям безопасности  <br/>  Центр администрирования Exchange  <br/>  Центр администрирования SharePoint и центр администрирования OneDrive для бизнеса  <br/> |
-|Enterprise Mobility + Security  <br/> |`https://portal.azure.com`  <br/> | Azure Active Directory  <br/>  Управление мобильными приложениями Майкрософт  <br/>  Microsoft Intune  <br/> |
-|Enterprise Mobility + Security  <br/> |`https://portal.cloudappsecurity.com`  <br/> | Защита облачных приложений  <br/> |
+|Office 365  <br/> |`https://portal.office.com`  <br/> | Центр администрирования Office 365  <br/>  Security &amp; Compliance Center  <br/>  Центр администрирования Exchange  <br/>  Центр администрирования SharePoint и центр администрирования OneDrive для бизнеса  <br/> |
+|Enterprise Mobility + Security  <br/> |`https://portal.azure.com`  <br/> | Azure Active Directory;  <br/>  Управление мобильными приложениями Майкрософт  <br/>  Microsoft Intune  <br/> |
+|Enterprise Mobility + Security  <br/> |`https://portal.cloudappsecurity.com`  <br/> | Cloud App Security  <br/> |
    
 
