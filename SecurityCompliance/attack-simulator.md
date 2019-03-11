@@ -15,19 +15,19 @@ ms.assetid: da5845db-c578-4a41-b2cb-5a09689a551b
 ms.collection:
 - M365-security-compliance
 description: В качестве глобального администратора Office 365 вы можете использовать Симуляторы для атаки, чтобы выполнять реальные сценарии атак в Организации. Это поможет определить и найти уязвимых пользователей, прежде чем реальная атака будет возобновлением вашей компании.
-ms.openlocfilehash: 25686ce194deca8d1ca07fca40f8142492951574
-ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
+ms.openlocfilehash: 8cbe3c5c34bbc68fc89c8550d9711d953dced9b5
+ms.sourcegitcommit: 74ad22a5c6c3c9d9324f0f97070909e323a4e9cf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30410834"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30524063"
 ---
 # <a name="attack-simulator-in-office-365"></a>Имитатор атак в Office 365
 
-**Сводка** Если вы являетесь глобальным администратором Office 365 и ваша организация имеет [логику office 365 Threat Intelligence](office-365-ti.md), вы можете использовать Симуляторы для проведения реалистичных атак в Организации. Это поможет определить и найти уязвимых пользователей, прежде чем реальная атака повлияет на нижнюю линию. Ознакомьтесь с этой статьей, чтобы узнать больше.
+**Сводка** Если вы являетесь глобальным администратором Office 365 и ваша организация имеет [office 365 Threat расследования и капабилтиес](office-365-ti.md)отклика, вы можете использовать симуляторы атак для выполнения сценариев в Организации. Это поможет определить и найти уязвимых пользователей, прежде чем реальная атака повлияет на нижнюю линию. Ознакомьтесь с этой статьей, чтобы узнать больше.
 
 > [!IMPORTANT]
-> Начиная с 2019 февраля и заканчивая на ближайшие несколько месяцев, управление угрозами безопасности Office 365 становится Office 365 Advanced Threat Protection Plan 2 с дополнительными возможностями защиты от угроз. Чтобы узнать больше, ознакомьтесь со статьями [office 365 Advanced Threat protection Plans and ценах](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
+> Office 365 Threat Intelligence теперь входит в план 2 Office 365 Advanced Threat protection (план 2) с дополнительными возможностями защиты от угроз. Чтобы узнать больше, ознакомьтесь со статьями [office 365 Advanced Threat protection Plans and ценах](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
   
 ## <a name="the-attacks"></a>Атаки
 

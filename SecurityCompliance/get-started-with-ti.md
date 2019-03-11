@@ -1,9 +1,9 @@
 ---
-title: Начало работы с Office 365 Threat Intelligence
+title: Начало исследования и реагирования на угрозу безопасности Office 365
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 02/13/2019
+ms.date: 03/10/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,30 +14,30 @@ search.appverid:
 ms.assetid: 38e9b67f-d188-490f-bc91-a1ae4b270441
 ms.collection:
 - M365-security-compliance
-description: Узнайте о том, как начать работу с Office 365 Threat Intelligence и как приступить к работе.
-ms.openlocfilehash: 3587e3f7799714e79708ede36782484cb5a76f60
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+description: Узнайте о том, как начать исследование угроз и ответ на Office 365, а также как приступить к работе.
+ms.openlocfilehash: 826c4c1a8c06efbc287b21723758dc5d5087e1ef
+ms.sourcegitcommit: 74ad22a5c6c3c9d9324f0f97070909e323a4e9cf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30296632"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30524073"
 ---
-# <a name="get-started-with-threat-intelligence"></a>Начало работы с аналитикой Threat Intelligence
+# <a name="get-started-with-threat-investigation-and-response"></a>Начало работы с расследованиям угроз и ответом 
 
-Если вы являетесь участником группы безопасности вашей организации, вы можете использовать возможности системы анализа угроз для защиты пользователей от атак. Office 365 Advanced Threat Protection Plan 2 (прежнее название Office 365 Threat Intelligence) помогает аналитикам и администраторам обеспечить безопасность пользователей с помощью восходящей маршрутизации и идентификации действий в зависимости от того, что происходит в вашей среде Office 365. Эти аналитические сведения основаны на всеобъемлющем репозитории данных и систем системы анализа угроз на шаблоны, соответствующие поведению атак и подозрительным действиям.
+Если вы участвуете в группе безопасности Организации, вы можете использовать средства расследования и ответа Office 365 для защиты пользователей от атак. Office 365 Advanced Threat Protection Plan 2 (прежнее название Office 365 Threat Intelligence) помогает аналитикам и администраторам обеспечить безопасность пользователей с помощью восходящей маршрутизации и идентификации действий в зависимости от того, что происходит в вашей среде Office 365. Эти аналитические сведения основаны на всеобъемлющем репозитории данных и систем системы анализа угроз на шаблоны, соответствующие поведению атак и подозрительным действиям.
   
 В этой статье приводятся сведения об управлении угрозами и приводятся инструкции по началу работы.
   
-## <a name="what-is-threat-intelligence"></a>Что такое логика операций с угрозами?
+## <a name="what-are-the-threat-investigation-and-response-capabilities-included-in-office-365"></a>Что такое исследование угроз и возможности реагирования, включенные в Office 365?
 
-Система контроля использования угроз — это набор аналитических данных и сведений, доступных в центре безопасности &amp; и соответствия требованиям Office 365. Эти сведения помогут группе безопасности вашей организации защитить пользователей Office 365 от атак. Система отслеживания угроз отслеживает сигналы и собирает данные из нескольких источников, таких как действия пользователей, проверка подлинности, электронная почта, скомпрометированные компьютеры и инциденты безопасности. Лица, ответственные за бизнес-решения и глобальные администраторы Office 365, администраторы безопасности и аналитики безопасности могут использовать информацию об угрозах Office 365. свойств.
+При расследовании угроз и ответе предоставляется набор средств, помогающих отнестися к угрозам и связанным действиям отклика и доступным &amp; в центре безопасности Office 365. Эти сведения помогут группе безопасности вашей организации защитить пользователей Office 365 от атак по электронной почте или с помощью файлов. Сведения о возможностях отслеживания и сбора данных из нескольких источников, таких как действия пользователей, проверка подлинности, электронная почта, скомпрометированные компьютеры и инциденты безопасности. Сотрудники бизнес-решений и глобальные администраторы Office 365, администраторы безопасности и аналитики безопасности могут использовать эти сведения для анализа угроз и реагирования на них от пользователей Office 365 и защиты их интеллектуальной собственности.
 
 > [!IMPORTANT]
-> Начиная с 2019 февраля и заканчивая на ближайшие несколько месяцев, управление угрозами безопасности Office 365 становится Office 365 Advanced Threat Protection Plan 2 с дополнительными возможностями защиты от угроз. Чтобы узнать больше, ознакомьтесь со статьями [office 365 Advanced Threat protection Plans and ценах](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
+> Office 365 Threat Intelligence — теперь это план 2 для Office 365 Advanced Threat protection (план 2) с дополнительными возможностями защиты от угроз. Чтобы узнать больше, ознакомьтесь со статьями [office 365 Advanced Threat protection Plans and ценах](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
   
 ## <a name="get-acquainted-with-the-threat-dashboard-explorer-and-incidents"></a>Знакомство с панелью мониторинга угроз, проводником и происшествиями
 
-Области системы анализа угроз в центре &amp; безопасности, в качестве набора средств и отчетов, в том числе [панель мониторинга угроз](get-started-with-ti.md#dashboard), [Обозреватель угроз](get-started-with-ti.md#explorer)и [инциденты](get-started-with-ti.md#incidents).
+Эти угрозы и капабилтииес отклика в центре безопасности &amp; соответствуют требованиям, а также набору средств и рабочих процессов ответа, в том числе [панель мониторинга угроз](get-started-with-ti.md#dashboard), [Обозреватель угроз](get-started-with-ti.md#explorer), [происшествия](get-started-with-ti.md#incidents), [атака Имитатор](attack-simulator.md)и автоматический запрос _амп_.
   
 ### <a name="threat-dashboard"></a>Панель мониторинга угроз
 
@@ -59,7 +59,7 @@ ms.locfileid: "30296632"
 
 Используйте список инцидентов (это также называется расследования), чтобы просмотреть список происшествий безопасности рейса. Инциденты используются для отслеживания угроз, таких как подозрительные сообщения электронной почты, а также для проведения дальнейших исследований и исправления.
   
-![Список текущих инцидентов в Office 365 Threat Intelligence](media/acadd4c7-d2de-4146-aeb8-90cfad805a9c.png)
+![Список текущих инцидентов угроз в Office 365](media/acadd4c7-d2de-4146-aeb8-90cfad805a9c.png)
   
 Чтобы просмотреть список текущих инцидентов в Организации, в центре безопасности &amp; и соответствия требованиям перейдите к **инцидентам** **проверки** \> **управления** \> угрозами.
   
@@ -71,12 +71,14 @@ ms.locfileid: "30296632"
   
 ![Тенденции безопасности, отображающие сведения о последних угрозах](media/11e7d40d-139b-4c56-8d52-c091c8654151.png) 
   
-## <a name="how-do-we-get-threat-intelligence"></a>Как получить логику операций с угрозами?
+## <a name="how-do-we-get-these-threat-investigation-and-response-capabilities"></a>Как мы получаем эти угрозы и возможности отклика?
 
-_Лт__лт__лт__лт__лт__лт__лт_ Office 365 Threat Intelligence входит в состав Office 365 корпоративный. 
+_Лт__лт__лт__лт__лт__лт__лт_ Инвесигатион и реагирование на ГОЛОВной офис Office 365 включены в план Office 365 Advanced Threat protection (план 2) и корпоративный. 
 
 > [!TIP]
-> Если в вашей организации есть подписка на Office 365, которая не включает систему анализа угроз для Office 365, вы можете приобрести логику угроз в качестве надстройки. Дополнительные сведения о параметрах Plan приведены в статье [Описание службы платформы office 365: центр соответствия &amp; требованиям безопасности Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center) и [приобретение или изменение надстройки для Office 365 для бизнеса](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/buy-or-edit-an-add-on). = = = = = = = **Логика угроз теперь включена в Office 365 Advanced Threat Protection Plan 2**, который входит в состав определенных подписок, таких как [Microsoft 365 корпоративный](https://www.microsoft.com/microsoft-365/enterprise/home), [microsoft 365 бизнес](https://www.microsoft.com/microsoft-365/business), Office 365 Enterprise, Office 365 Образование A5 и т. д. Если в вашей организации есть подписка, не включающая в себя Office 365 ATP, вы можете приобрести ATP как надстройку. Дополнительные сведения см. в статье [office 365 Advanced Threat protection Plans and ценах](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp).
+> Если в вашей организации есть подписка на Office 365, не включающая эти возможности для расследования и реагирования на угрозы, вы можете приобрести их в качестве надстройки вместе с Office 365 Advanced Threat protection. Дополнительные сведения о параметрах Plan приведены в статье [Описание службы платформы office 365: центр соответствия &amp; требованиям безопасности Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center) и [приобретение или изменение надстройки для Office 365 для бизнеса](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/buy-or-edit-an-add-on).
+=======
+**Расширенные возможности защиты от угроз и угроз включены в Office 365 Advanced Threat protection (план 2**), который входит в состав определенных подписок, таких как [Microsoft 365 корпоративный](https://www.microsoft.com/microsoft-365/enterprise/home), [microsoft 365 Business](https://www.microsoft.com/microsoft-365/business), Office 365 Корпоративная ячейка, Office 365 для образования A5 и т. д. Если в вашей организации есть подписка, не включающая в себя Office 365 ATP, вы можете приобрести ATP как надстройку. Дополнительные сведения см. в статье [office 365 Advanced Threat protection Plans and ценах](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp).
 >>>>>>> вышестоящий/compliance20
   
 1. Как глобальный администратор Office 365, войдите в систему [https://portal.office.com](https://portal.office.com) , используя рабочую или учебную учетную запись для Office 365. 
@@ -112,9 +114,9 @@ _Лт__лт__лт__лт__лт__лт__лт_ Office 365 Threat Intelligence вхо
 
 - [Сведения о средствах отслеживания угроз — новые и полезные](threat-trackers.md)
     
-- [Поиск и исследование вредоносных сообщений электронной почты, которые были доставлены (Office 365 Threat Intelligence)](investigate-malicious-email-that-was-delivered.md)
+- [Поиск и исследование вредоносных сообщений электронной почты, которые были доставлены (Office 365: исследование угроз и ответ на них)](investigate-malicious-email-that-was-delivered.md)
     
-- [Интеграция Office 365 Threat Intelligence с Advanced Threat Protection в Защитнике Windows](integrate-office-365-ti-with-wdatp.md)
+- [Интеграция Office 365 Threat расследования и ответ с помощью Advanced Threat Protection в Защитнике Windows](integrate-office-365-ti-with-wdatp.md)
     
 - [Сведения о симуляторе атак](attack-simulator.md)
   

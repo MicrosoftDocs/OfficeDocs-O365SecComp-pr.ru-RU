@@ -1,5 +1,5 @@
 ---
-title: Средства отслеживания новых и заметных угроз
+title: Средства отслеживания угроз — новые и полезные
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
@@ -14,19 +14,19 @@ ms.assetid: a097f5ca-eac0-44a4-bbce-365f35b79ed1
 ms.collection:
 - M365-security-compliance
 description: Сведения о средствах отслеживания угроз, в том числе о новых отслеживаемых средствах отслеживания, которые помогут Организации в курсе проблем с безопасностью.
-ms.openlocfilehash: 072d64a056d88000ad615a896328b0144aef3d0f
-ms.sourcegitcommit: 1c73c2f83703af0a30a5b0633db00d8e0e6b39b5
+ms.openlocfilehash: 4cf3e13b7379e26deec90bbae2c4f9cf42fa91b7
+ms.sourcegitcommit: 74ad22a5c6c3c9d9324f0f97070909e323a4e9cf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/25/2019
-ms.locfileid: "30241991"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30524053"
 ---
-# <a name="threat-trackers---new-and-noteworthy"></a>Средства отслеживания новых и заметных угроз
+# <a name="threat-trackers---new-and-noteworthy"></a>Средства отслеживания угроз — новые и полезные
 
-[Microsoft Office 365 Threat Intelligence](office-365-ti.md) позволяет группе безопасности Организации обнаруживать угрозы циберсекурити и предпринимать меры по их выполнению. Начиная с опоздания 2018 в течение следующих нескольких недель, Office 365 Threat Intelligence будет включать новые функции отслеживания угроз, в том числе полезные средства отслеживания. В этой статье приводятся общие сведения о новых функциях и дальнейших действиях. 
+[Исследование угроз для Office 365 и](office-365-ti.md) возможности реагирования позволяют группе безопасности Организации обнаруживать угрозы циберсекурити и предпринимать меры по их выполнению. Функции отслеживания угроз и возможности реагирования на Office 365 включают функции отслеживания угроз, в том числе полезные средства отслеживания. В этой статье приводятся общие сведения о новых функциях и дальнейших действиях. 
 
 > [!IMPORTANT]
-> Начиная с 2019 февраля и заканчивая на ближайшие несколько месяцев, управление угрозами безопасности Office 365 становится Office 365 Advanced Threat Protection Plan 2 с дополнительными возможностями защиты от угроз. Чтобы узнать больше, ознакомьтесь со статьями [office 365 Advanced Threat protection Plans and ценах](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
+> Office 365 Threat Intelligence теперь входит в план 2 Office 365 Advanced Threat protection (план 2) с дополнительными возможностями защиты от угроз. Чтобы узнать больше, ознакомьтесь со статьями [office 365 Advanced Threat protection Plans and ценах](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
   
 ## <a name="what-are-threat-trackers"></a>Что представляют собой средства отслеживания угроз?
 
@@ -38,9 +38,9 @@ ms.locfileid: "30241991"
   
 ![Пример сведений о кампании в проводнике](media/e426f220-fdcb-4dd9-99a2-db97dbcf71d5.png)
   
-Отслеживаются только некоторые из многочисленных замечательных функций, которые вы получаете в [Office 365 Threat Intelligence](office-365-ti.md). При наличии новых систем отслеживания угроз будут включены полезные средства [отслеживания](threat-trackers.md#notey), отслеживающие [тенденции](threat-trackers.md#trending), [отслеживаемые запросы](threat-trackers.md#trackedq)и [сохраненные запросы](threat-trackers.md#savedq).
+Отслеживаются только некоторые из многочисленных замечательных функций, которые вы получаете в [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md). Отслеживание угроз включает в себя отслеживаемые средства [отслеживания](threat-trackers.md#notey), [Отслеживание тенденций](threat-trackers.md#trending), [отслеживаемые запросы](threat-trackers.md#trackedq)и [сохраненные запросы](threat-trackers.md#savedq).
   
-Чтобы просмотреть и использовать средства отслеживания угроз, доступные в &amp; Организации, перейдите в центр[https://protection.office.com](https://protection.office.com)безопасности и выберите **** \> **средство отслеживания**угроз.
+Чтобы просмотреть и использовать средства отслеживания угроз для вашей организации, перейдите в центр соответствия требованиям &amp; безопасности[https://protection.office.com](https://protection.office.com)() и выберите **средство отслеживания**угроз для системы **управления** \> угрозами.
   
 > [!NOTE]
 > Для использования средств отслеживания угроз необходимо быть глобальным администратором Office 365, администратором безопасности или средством безопасности. Ознакомьтесь с разРешениями [в центре &amp; безопасности и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md). 
@@ -77,9 +77,9 @@ ms.locfileid: "30241991"
 
 Независимо от того, просматриваете ли вы действия с электронной почтой, контентом или Office (ожидается в ближайшее время), проводник и средства отслеживания работают вместе для изучения и отслеживания угроз и угроз безопасности. Вместе отслеживаются сведения о том, как защищать пользователей Office 365, выделяя новые, важные и часто посещаемые проблемы, обеспечивая лучшую защиту вашей организации при ее перемещении в облако.
   
-Если вам доступны средства отслеживания угроз, попробуйте использовать их и помните, что вы можете всегда оставить отзыв о таких или других функциях безопасности Office 365, нажав кнопку **отзыва** в правом нижнем углу [обзора Office 365 Центр &amp; соответствия требованиям безопасности](https://support.office.com/article/a5f2fd18-b029-4257-b5a8-ae83e7768c85).
+Кроме того, помните о том, что вы можете всегда оставить отзыв о функциях безопасности Office 365, нажав кнопку **Отзывы** в правом нижнем углу [центра &amp; безопасности Office 365](https://support.office.com/article/a5f2fd18-b029-4257-b5a8-ae83e7768c85).
   
-![Центр безопасности и соответствия требованиям Office 365](media/86c330db-8132-4150-8475-220258fe04fb.png)
+![Office 365 Security &amp; Compliance Center](media/86c330db-8132-4150-8475-220258fe04fb.png)
   
 ## <a name="trackers-and-office-365-advanced-threat-protection"></a>Средства отслеживания и Office 365 Advanced Threat protection
 
@@ -93,7 +93,7 @@ ms.locfileid: "30241991"
   
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- Если в вашей организации еще нет службы Office 365 Threat Intelligence, ознакомьтесь со [статьей получение office 365 Threat Intelligence?](get-started-with-ti.md).
+- Если в вашей организации еще нет таких средств для расследования и реагирования на Office 365, Узнайте, [как получить сведения об угрозе office 365 и](get-started-with-ti.md)возможноСтях откликов?.
     
 - Убедитесь, что группе безопасности назначены правильные роли и разрешения. Необходимо быть глобальным администратором Office 365 или назначить роль "администратор безопасности" или "Поиск и очистка" в центре &amp; безопасности и соответствия требованиям. Ознакомьтесь с разРешениями [в центре &amp; безопасности и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md).
     
