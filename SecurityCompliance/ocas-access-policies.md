@@ -6,16 +6,16 @@ manager: laurawi
 ms.reviewer: alesibov
 ms.audience: Admin
 ms.topic: reference
-ms.date: 02/14/2019
+ms.date: 02/27/2019
 ms.service: O365-seccomp
 localization_priority: Normal
 description: Политики доступа к облачным приложениям Office 365 обеспечивают мониторинг и контроль доступа к облачным приложениям в режиме реального времени на основе пользователя, расположения, устройства и приложения. Вы можете создавать политики доступа для любого устройства, включая устройства, не присоединенные к домену, а не управлять Windows Intune, выполнив развертывание клиентских сертификатов на управляемые устройства или используя существующие сертификаты, такие как сторонние сертификаты MDM. Например, вы можете развернуть клиентские сертификаты на управляемых устройствах, а затем блокировать доступ к устройствам без сертификата.
-ms.openlocfilehash: a8651cb51419c93998f2ce6e176fab7c1651b6ea
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 5e8b8fa293420bc9ff3616daf288b8e02a2eb768
+ms.sourcegitcommit: 866d8cab6bcfdd124516a8369e47ec797bc7cf8a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30219779"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30312086"
 ---
 # <a name="access-policies-in-office-365-cloud-app-security"></a>Политики доступа в Office 365 Cloud App Security
 

@@ -6,16 +6,16 @@ manager: laurawi
 ms.reviewer: alesibov
 ms.audience: Admin
 ms.topic: reference
-ms.date: 02/14/2019
+ms.date: 02/27/2019
 ms.service: O365-seccomp
 localization_priority: Normal
 description: Политики сеансов безопасности облачных приложений Office 365 включают мониторинг на уровне сеанса в режиме реального времени, позволяя детально отображать приложения Office 365 и способность принимать различные действия в зависимости от политики, заданной для сеанса пользователя. Вместо того чтобы разрешать или блокировать доступ полностью, с помощью контроля сеансов можно разрешить доступ при наблюдении за сеансом и/или ограничения определенных действий сеансов с помощью возможностей обратного прокси-сервера для условного доступа к приложению.
-ms.openlocfilehash: a57b62073e93c95217a829f8aa381f4a585dacc5
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: e0e4b04ee8cc0f7a14adbc26b074a5f2947e44c2
+ms.sourcegitcommit: 866d8cab6bcfdd124516a8369e47ec797bc7cf8a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218609"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30312096"
 ---
 # <a name="session-policies-in-office-365-cloud-app-security"></a>Политики сеансов в Office 365 Cloud App Security
 

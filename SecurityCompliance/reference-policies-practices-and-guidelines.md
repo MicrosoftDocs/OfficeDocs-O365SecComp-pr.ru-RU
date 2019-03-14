@@ -1,7 +1,7 @@
 ---
 title: Справочник политики, правила и рекомендации
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 12/9/2016
 ms.audience: ITPro
@@ -12,13 +12,15 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: ff3f140b-b005-445f-bfe0-7bc3f328aaf0
-description: Корпорация Майкрософт разработаны различные политики, процедуры и применяет несколько отраслевых рекомендациях для защиты пользователей от оскорбительные, нежелательных или вредоносного по электронной почте.
-ms.openlocfilehash: e552128a06ce942383e7c5410508df61331fb874
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+ms.collection:
+- M365-security-compliance
+description: Корпорация Майкрософт разработала различные политики, процедуры и предприняла несколько практических рекомендаций по защите пользователей от нежелательных, нежелательных и вредоносных сообщений электронной почты.
+ms.openlocfilehash: a7f29ed77b373ee2b66831e074fda16fcda30508
+ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23003088"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30276369"
 ---
 # <a name="reference-policies-practices-and-guidelines"></a>Справочник: политики, правила и рекомендации
   
@@ -74,7 +76,7 @@ ms.locfileid: "23003088"
 
 Отправители, поставщики услуг Интернета и прочие поставщики услуг должны активно управлять репутацией ваших IP-адресов, используемых для отправки почты.
   
-## <a name="office-365-limits"></a>Ограничения в Office 365
+## <a name="office-365-limits"></a>Ограничения в Office 365
 <a name="sectionSection4"> </a>
 
 Отправители должны соблюдать ограничения, используемые в Office 365 и перечисленные в статье [Ограничения Exchange Online Protection](https://technet.microsoft.com/library/exchange-online-protection-limits.aspx).
@@ -86,14 +88,14 @@ ms.locfileid: "23003088"
   
 - [Messaging Malware Mobile Anti-Abuse Working Group](https://www.m3aawg.org/)
     
-- [Alliance Online доверия](https://www.otalliance.org/resources)
+- [Online Trust Alliance](https://www.otalliance.org/resources)
     
 - [Email Sender &amp; Provider Coalition](http://www.espcoalition.org/)
     
 ## <a name="abuse-and-spam-reporting"></a>Сообщения о применении почтовой системы не по назначению и о спаме
 <a name="AbuseSpamReports"> </a>
 
-Чтобы сообщить противозаконные, оскорбительные, нежелательных или вредоносного по электронной почте, выполните [отчет нежелательной почты и фишинга мошенничество в Outlook в Интернете ](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md). Отправка эти типы коммуникаций является нарушением политики Microsoft и будет выполнено соответствующее действие на Подтверждено отчеты.
+Для создания отчетов о нежелательной почте и нежелательной почте Отправьте отчет о нежелательной [почте и мошеннических сообщениях в Outlook в Интернете ](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)в незаконному. Отправка данных типов связи является нарушением политики Майкрософт, и в подтвержденных отчетах будут предприняты соответствующие действия.
   
 ## <a name="law-enforcement"></a>Правоохранительные органы
 <a name="sectionSection7"> </a>

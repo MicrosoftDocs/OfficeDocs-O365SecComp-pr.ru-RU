@@ -15,12 +15,12 @@ ms.assetid: 3387bfc3-028a-42f4-8133-4cbecfaab812
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как исследование угроз для Office 365 и возможности реагирования могут помочь вашей организации обнаруживать проникновения и угрозы, а также быстро устранять угрозы и восстанавливать их от угроз.
-ms.openlocfilehash: 4cb1355e841ee4b416bf5471872421b4c05433c5
-ms.sourcegitcommit: 74ad22a5c6c3c9d9324f0f97070909e323a4e9cf
+ms.openlocfilehash: 924ec3522b056b267f5e8af394f380aaff8392a2
+ms.sourcegitcommit: f25a667e4c7d11c43c87604d576f1e6d6155b14f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/11/2019
-ms.locfileid: "30524033"
+ms.locfileid: "30536139"
 ---
 # <a name="keep-your-office-365-users-safe-with-office-365-threat-investigation-and-response-capabilities"></a>Обеспечение безопасности Office 365 для пользователей с помощью Office 365 Threat расследования и возможности реагирования
 
@@ -31,7 +31,7 @@ ms.locfileid: "30524033"
 [Исследование угроз для office 365 и ответ](office-365-ti.md) — это набор возможностей, включенных в вашу подПиску на Office 365. Исследование угроз для Office 365 и возможности реагирования помогают корпорации Майкрософт уменьшить среднее время на решение проблем с социальным проектированием на 80%, а повышенную пропускную способность — 37% в месяц по сравнению с предыдущими 2 кварталами. 
 
 > [!IMPORTANT]
-> Office 365 Advanced Threat Protection и Threat Intelligence теперь входят в план 2 Office 365 Advanced Threat protection (план 2) с дополнительными возможностями защиты от угроз. Чтобы узнать больше, ознакомьтесь со статьями [office 365 Advanced Threat protection Plans and ценах](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
+> Office 365 Advanced Threat Protection и Threat расследования и ответ (ранее известного как Office 365 Threat Intelligence) теперь являются частью Office 365 Advanced Threat Protection Plan 2 с дополнительными возможностями защиты от угроз. Чтобы узнать больше, ознакомьтесь со статьями [office 365 Advanced Threat protection Plans and ценах](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
   
 Мы недавно добавили новые возможности для улучшения возможности обнаружения и восстановления угроз. Ниже приведен краткий обзор того, как обновленное исследование угроз и возможности реагирования могут быть еще эффективнее.
   
@@ -60,7 +60,7 @@ ms.locfileid: "30524033"
 Исследование угроз для Office 365 и возможность реагирования на них подаются на базе интеллектуального графа безопасности Майкрософт. Граф получает последний сигнал угрозы из более чем 1 000 000 000 устройств с Windows, 450 000 000 000 ежемесячных учетных записей Azure и 400 000 000 000 ежемесячных сообщений в Office 365. Этот незавершенный сигнал угрозы — это то, что дает возможность широкому просмотру клиентского клиента, который имеет решающее значение для администраторов и аналитик безопасности, для получения полного представления угроз, влияющих на их организацию. 
   
    
-## <a name="why-threat-intelligence"></a>Зачем нужна логика операций с угрозами?
+## <a name="why-use-office-365-threat-investigation-and-response-capabilities"></a>Зачем использовать возможности Office 365 для расследования угроз и реагирования на них?
 
 Оценки Gartner, которые проходили в 2017 отдельно от $90B, были потрачены на циберсекурити. SID Дешпанде, основной исследовательской аналитики в компании Gartner, заключен в кавычки, так как это говорит о том, что в отрасли выбрана функция обнаружения и ответа в отрасли... отправляет неясное сообщение о том, что функция предотвращения футиле, если она не связана с возможностью обнаружения и ответа. " Угроза инвестигтион и ответ являются важной частью каждого портфеля служб предприятия и могут использоваться как отдельные службы или в составе Office 365.
   

@@ -6,16 +6,16 @@ manager: laurawi
 ms.reviewer: alesibov
 ms.audience: Admin
 ms.topic: reference
-ms.date: 02/14/2019
+ms.date: 02/27/2019
 ms.service: O365-seccomp
 localization_priority: Normal
 description: Прекращение нарушений и утечки в режиме реального времени с помощью управления приложением Office 365 Cloud App Security.
-ms.openlocfilehash: 23c4b29e86eb8ba92cfa8a544d6484965ec6372b
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: d8370b1e02866db8f92ab7f6a46b06ddc3ed1055
+ms.sourcegitcommit: 866d8cab6bcfdd124516a8369e47ec797bc7cf8a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30217089"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30312106"
 ---
 # <a name="protect-apps-with-office-365-cloud-app-security-conditional-access-app-control"></a>Защита приложений с помощью управления условным доступом к приложениям в Office 365 Cloud App Security
 
