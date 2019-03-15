@@ -1,10 +1,27 @@
 ---
-Title: "шифрование электронной почты в Office 365" MS. author: кровлэй author: кккросс Manager: лаурави MS. Date: 10/30/2018 МС. аудитория: MS. Topic: обзор MS. Service: O365 — администрирование локализатион_приорити: обычный поиск. аппверид: 
+title: Шифрование электронной почты в Office 365
+ms.author: krowley
+author: kccross
+manager: laurawi
+ms.date: 10/30/2018
+ms.audience: Admin
+ms.topic: overview
+ms.service: o365-administration
+localization_priority: Normal
+search.appverid:
 - MOE150
-- MET150 MS. ассетид: c0d87cbe-6d65-4c03-88ad-5216ea5564e8 MS. Collection:
-    - M365 — описание соответствия требованиям: "Сравните параметры шифрования в Office 365, включая шифрование сообщений Office (OME), S/MIME, управление правами на доступ к данным (IRM) и сведения о ПРОТОКОЛе TLS (Transport Layer Security).
+- MET150
+ms.assetid: c0d87cbe-6d65-4c03-88ad-5216ea5564e8
+ms.collection:
+- M365-security-compliance
+description: Сравните параметры шифрования в Office 365, в том числе шифрование сообщений Office (OME), S/MIME, управление правами на доступ к данным (IRM) и сведения о ПРОТОКОЛе TLS (Transport Layer Security).
+ms.openlocfilehash: 8b8eb96b49d2b3d875ceba5216edfd0f12f8aa97
+ms.sourcegitcommit: f86383dcb9c52352661d51b22617f1809445beaa
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30573543"
 ---
-
 # <a name="email-encryption-in-office-365"></a>Шифрование электронной почты в Office 365
 
 В этой статье сравниваются параметры шифрования в Office 365, в том числе шифрование сообщений Office (OME), S/MIME, управление правами на доступ к данным (IRM) и общие сведения о ПРОТОКОЛе TLS.
