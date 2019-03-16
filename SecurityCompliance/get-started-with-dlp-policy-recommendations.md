@@ -1,7 +1,7 @@
 ---
 title: Начало работы с рекомендациями политик защиты от потери данных
-ms.author: stephow
-author: stephow-MSFT
+ms.author: deniseb
+author: denisebmsft
 manager: laurawi
 ms.date: 8/7/2017
 ms.audience: Admin
@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: Normal
 description: Эта рекомендация поможет вашей организации защитить конфиденциальный контент, если он хранится и предоставляется в Office 365, выполнив сведения о возможном разрыве политики защиты от потери данных. Вы увидите эту рекомендацию на домашней странице центра безопасности &amp; и соответствия требованиям, если ваши документы содержат любой из пяти наиболее распространенных типов конфиденциальной информации, но не защищены политикой DLP.
-ms.openlocfilehash: aabd1e6b3ce8ea4754192bd7b6f80262d9e83cf7
-ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
+ms.openlocfilehash: 6edb6a28182cb72e66a649ac5eb0c1561c596091
+ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30455121"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30638886"
 ---
 # <a name="get-started-with-dlp-policy-recommendations"></a>Начало работы с рекомендациями политик защиты от потери данных
 

@@ -1,7 +1,7 @@
 ---
 title: Создание политики защиты от потери данных для защиты документов с помощью FCI или других свойств
-ms.author: stephow
-author: stephow-MSFT
+ms.author: deniseb
+author: denisebmsft
 manager: laurawi
 ms.date: 6/29/2018
 ms.audience: Admin
@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Во многих организациях уже есть процесс идентификации и классификации конфиденциальной информации с помощью свойств классификации в инфраструктуре классификации файлов Windows Server (FCI), свойств документа в SharePoint или свойств документа. применяется в сторонней системе. Если это описание организации, вы можете создать политику защиты от потери данных в Office 365, которая распознает свойства, примененные к документам в Windows Server FCI или другой системе, чтобы политика защиты от потери данных могла быть применена к документам Office с определенными FCI или другими значения свойств.
-ms.openlocfilehash: fc1d38f1bf648e02f0e86f7cc11e6dca9f88b540
-ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
+ms.openlocfilehash: b1a5b438714a0c0b91d33a9544c0f26cbd12b4c9
+ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30455181"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30639086"
 ---
 # <a name="create-a-dlp-policy-to-protect-documents-with-fci-or-other-properties"></a>Создание политики защиты от потери данных для защиты документов с помощью FCI или других свойств
 

@@ -1,7 +1,7 @@
 ---
 title: Начало работы со стандартной политикой защиты от потери данных
-ms.author: stephow
-author: stephow-MSFT
+ms.author: deniseb
+author: denisebmsft
 manager: laurawi
 ms.date: 8/10/2017
 ms.audience: Admin
@@ -15,12 +15,12 @@ ms.assetid: e0ada764-6422-4b44-9472-513bed04837b
 ms.collection:
 - M365-security-compliance
 description: Прежде чем создавать первую политику защиты от потери данных (DLP), DLP поможет защитить конфиденциальные данные с помощью политики по умолчанию. Эта политика по умолчанию и ее рекомендации (показанные ниже) помогут защитить конфиденциальный контент, уведомляя вас, когда к электронной почте или документам, содержащим номер кредитной карты, предоставлен доступ другому пользователю за пределом вашей организации.
-ms.openlocfilehash: d965288a1ea44b1d0cb3d41e24611897a043f535
-ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
+ms.openlocfilehash: fa48025a7b979ad69c600b21a10fbb62567234c3
+ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30455371"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30638946"
 ---
 # <a name="get-started-with-the-default-dlp-policy"></a>Начало работы со стандартной политикой защиты от потери данных
 

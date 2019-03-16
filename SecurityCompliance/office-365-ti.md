@@ -15,12 +15,12 @@ ms.assetid: 32405da5-bee1-4a4b-82e5-8399df94c512
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как функции интеллектуального анализа в Office 365 Advanced Threat protection помогают находить угрозы в Организации, отвечать на вредоносные программы, фишингы и другие атаки, обнаруженные в Office 365 от вашего имени, и искать угрозу показател.
-ms.openlocfilehash: e3696306b5188858e6ca72e265c4f1aa24574f79
-ms.sourcegitcommit: f25a667e4c7d11c43c87604d576f1e6d6155b14f
+ms.openlocfilehash: 54dbe4cc39456189bca2af71294d181adce6f50b
+ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30536189"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30639036"
 ---
 # <a name="office-365-threat-investigation-and-response"></a>Исследование угроз для Office 365 и ответ на них
 
@@ -41,7 +41,7 @@ ms.locfileid: "30536189"
 
 Ранее в подписках на Office 365 для расследования угроз и ответов были включены такие возможности, как Office 365 корпоративный и т. д. В этом случае все еще есть, а теперь эти функции теперь входят в план 2 Office 365 Advanced Threat protection (план 2) (а также включены в Office 365 корпоративный ~). 
 
-Кроме того, исследование угроз для Office 365 и капбаилитиес отклика ранее были доступны для приобретения в качестве надстройки для пользователей Office 365 для бизнеса. Теперь эти возможности включены в Office 365 Advanced Threat Protection Plan 2 (который также включает Office 365 Advanced Threat Protection Plan 1). Чтобы узнать больше, ознакомьтесь со статьями [Office 365 Advanced Threat protection Plans and ценах](https://products.office.com/exchange/advance-threat-protection).
+Кроме того, исследование угроз для Office 365 и возможности реагирования ранее были доступны для приобретения в качестве надстройки для пользователей Office 365 для бизнеса. Теперь эти возможности включены в Office 365 Advanced Threat Protection Plan 2 (который также включает Office 365 Advanced Threat Protection Plan 1). Чтобы узнать больше, ознакомьтесь со статьями [Office 365 Advanced Threat protection Plans and ценах](https://products.office.com/exchange/advance-threat-protection).
 
 Вот что это означает:
 
@@ -53,7 +53,7 @@ ms.locfileid: "30536189"
 
 Дополнительные сведения см. в статье [office 365 Advanced Threat protection Plans and ценах](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat protection Description Service](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp)
 
-## <a name="get-started-with-threat-investigaiton-and-response-capabilities"></a>Начало работы с инвестигаитон угроз и возможностью реагирования
+## <a name="get-started-with-threat-investigation-and-response-capabilities"></a>Начало работы с расследованиям угроз и возможностями реагирования
 
 Используйте следующие ресурсы для получения дополнительных сведений об расследовании угроз и возможностях реагирования в Office 365, а также о том, как использовать его для более безопасного хранения людей в Организации.
   
