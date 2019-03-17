@@ -1,7 +1,7 @@
 ---
 title: Создание пользовательского типа конфиденциальной информации
-ms.author: stephow
-author: stephow-MSFT
+ms.author: deniseb
+author: denisebmsft
 manager: laurawi
 ms.audience: Admin
 ms.topic: article
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте, как создавать, редактировать, удалять и тестировать собственные типы конфиденциальной информации для DLP в графическом пользовательском интерфейсе Центра безопасности и соответствия требованиям Office 365.
-ms.openlocfilehash: 5e20fac290a7d06c843a0043d95669d9c7f7cd05
-ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
+ms.openlocfilehash: afc5479f08909020d04768c9ca9c20438472b92d
+ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30455141"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30639066"
 ---
 # <a name="create-a-custom-sensitive-information-type"></a>Создание пользовательского типа конфиденциальной информации
 
