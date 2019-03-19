@@ -11,12 +11,12 @@ ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 9dbff00a-474e-4452-aeb5-5be9a6b8c6d5
 description: 'Ниже приведены ответы на самые распространенные общие вопросы об облачной службе фильтрации электронной почты Microsoft Exchange Online Protection (EOP). Другие разделы, посвященные вопросам и ответам, можно найти по следующим ссылкам:'
-ms.openlocfilehash: 9a8ac96678e33623803e95998780b4544dec5a78
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 888cf338a3f1767ddd6ba01a2f0f60f2f8794e3e
+ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22027386"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30670454"
 ---
 # <a name="eop-general-faq"></a>Общие вопросы и ответы по EOP
 
@@ -26,13 +26,13 @@ ms.locfileid: "22027386"
     
 - [Вопросы и ответы по делегированному администрированию](delegated-administration-faq.md)
     
-- [Защита от нежелательной почты вопросы и ответы](../anti-spam-protection-faq.md)
+- [ВОПРОСЫ и ответы по защите от нежелательной почты](../anti-spam-protection-faq.md)
     
 - [Списки надежных и заблокированных отправителей в Exchange Online](../safe-sender-and-blocked-sender-lists-faq.md)
     
 - [Вопросы и ответы, посвященные карантину](../quarantine-faq.md)
     
-- [Защита от вредоносных программ вопросы и ответы](../anti-malware-protection-faq-eop.md)
+- [ВОПРОСЫ и ответы по защите от вредоносных программ](../anti-malware-protection-faq-eop.md)
     
 - [Message Trace FAQ](http://technet.microsoft.com/library/aa49e3f9-a5b1-4410-aac2-ddbbf3f5bfb2.aspx)
     
@@ -64,7 +64,7 @@ ms.locfileid: "22027386"
   
  **Вопрос. Содержит ли служба EOP такой коммуникационный портал, где можно узнать об известных проблемах и предполагаемых решениях? Какие новые функции этой службы?**
   
-Ответ. Определенные сведения можно найти в Центре администрирования Office 365. Если произойдет событие уровня обслуживания, то после входа в Центр администрирования Office 365 вы увидите оповещение (обычно помеченное значком звонка). Рекомендуем прочитать его и выполнить необходимые действия.
+Ответ. В центре администрирования Microsoft 365 будет указана часть этих сведений. Если вы оказываете влияние на событие уровня обслуживания, то после входа в центр администрирования Microsoft 365 вы увидите оповещение о связи (обычно сопровождается значком колокольчика). Рекомендуем прочитать его и выполнить необходимые действия.
   
 Новые возможности EOP подробно рассматриваются в статье [Схема обновлений Office 365 для бизнеса](https://office.microsoft.com/en-us/products/office-365-roadmap-FX104343353.aspx). Мы также будем публиковать статьи о новых возможностях на сайте [Office Blogs](https://go.microsoft.com/fwlink/p/?LinkId=392724). 
   

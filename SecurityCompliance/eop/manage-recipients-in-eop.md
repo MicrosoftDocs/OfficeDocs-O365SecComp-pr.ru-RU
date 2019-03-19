@@ -10,17 +10,17 @@ ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 2921f544-8257-4bae-8e3a-ce9250e9f162
-description: Microsoft Exchange Online Protection (EOP) предлагает несколько способов управления получателями электронной почты. Как администратор вы можете выполнять определенные задачи управления в Центре администрирования Exchange или с помощью удаленного Windows PowerShell и проверять другие задачи управления, выполняемые в Центре администрирования Microsoft Office 365.
-ms.openlocfilehash: 55b28dcb107df85052ff623f653eecaaf88c7bda
-ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
+description: Microsoft Exchange Online Protection (EOP) предлагает несколько способов управления получателями электронной почты. Как администратор вы можете выполнять определенные задачи управления в центре администрирования Exchange или с помощью удаленной оболочки Windows PowerShell, а также проверять другие задачи управления, выполняемые в центре администрирования Microsoft 365.
+ms.openlocfilehash: 52d423960444605382bd0314a5c12114fad755a2
+ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30341660"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30670404"
 ---
 # <a name="manage-recipients-in-eop"></a>Управление получателями в EOP
 
-Microsoft Exchange Online Protection (EOP) предлагает несколько способов управления получателями электронной почты. Как администратор вы можете выполнять определенные задачи управления в Центре администрирования Exchange или с помощью удаленного Windows PowerShell и проверять другие задачи управления, выполняемые в Центре администрирования Microsoft Office 365.
+Microsoft Exchange Online Protection (EOP) предлагает несколько способов управления получателями электронной почты. Как администратор вы можете выполнять определенные задачи управления в центре администрирования Exchange или с помощью удаленной оболочки Windows PowerShell, а также проверять другие задачи управления, выполняемые в центре администрирования Microsoft 365.
   
 EOP поддерживает приведенные ниже типы получателей.
   

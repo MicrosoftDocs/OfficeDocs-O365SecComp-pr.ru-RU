@@ -14,12 +14,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Если вы отправите большой объем незарегистрированного почтового домена, вы получаете риск блокирования электронной почты. Ознакомьтесь с этой статьей, чтобы узнать больше.
-ms.openlocfilehash: 8120bd147da2a7aab41ae14c444d2fe57242199e
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.openlocfilehash: 21c403c8072902565f63048782b06c531cdbceb0
+ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30276229"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30670544"
 ---
 # <a name="unregistered-domain-email-what-you-need-to-know"></a>Незарегистрированный адрес электронной почты домена: что нужно знать
 
@@ -37,7 +37,7 @@ Office 365 позволяет клиентам ретранслировать н
 
 Существует несколько действий, которые необходимо выполнить, если вы блокируете отправку из незарегистрированных доменов:
 
-1. Убедитесь, что зарегистрированы все домены в центре администрирования Office 365. Дополнительные сведения можно найти [здесь](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
+1. Убедитесь, что зарегистрированы все домены в центре администрирования Microsoft 365. Дополнительные сведения можно найти [здесь](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
 
 2. Ищите необычные соединители. Вредоносные субъекты часто создают новые входящие соединители в клиенте Office 365 для отправки спама. Дополнительные сведения о проверке соединителей можно найти [здесь](https://docs.microsoft.com/en-us/powershell/module/exchange/mail-flow/get-inboundconnector?view=exchange-ps). 
 

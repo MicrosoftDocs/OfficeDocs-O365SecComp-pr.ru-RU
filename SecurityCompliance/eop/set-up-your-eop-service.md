@@ -10,13 +10,13 @@ ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
-description: В этом разделе описывается настройка службы Microsoft Exchange Online Protection (EOP). Если вы перешли сюда из мастера доменов Office 365 и не хотите использовать Exchange Online Protection, вернитесь в мастер доменов Office 365. Дополнительные сведения о настройке соединителей см. в разделе Configure mail flow using connectors in Office 365.
-ms.openlocfilehash: 6c9e3becf0f86deeee92ec7cf336bdbd950ac5e2
-ms.sourcegitcommit: f49ab866e21da83a0be6cb23ab7b6b4366a6a7ee
+description: В этом разделе объясняется, как настроить Microsoft Exchange Online Protection (EOP). Если вы приступите отсюда в мастере доменов Office 365, вернитесь к мастеру доменов Office 365, если вы не хотите использовать Exchange Online Protection. Если вы ищете дополнительные сведения о настройке соединителей, обратитесь к разделу Настройка обработки почты с помощью соединителей в Office 365.
+ms.openlocfilehash: 96751f1f68e0b73c1d92b6868e99f4eb1c2739bf
+ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25715905"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30670614"
 ---
 # <a name="set-up-your-eop-service"></a>Настройка службы EOP
 
@@ -40,11 +40,11 @@ ms.locfileid: "25715905"
   
 ## <a name="how-do-you-do-this"></a>Как это сделать
 
-### <a name="step-1-use-the-office-365-admin-center-to-add-and-verify-your-domain"></a>Действие 1. Добавление и проверка домена с помощью Центр администрирования Office 365
+### <a name="step-1-use-the-microsoft-365-admin-center-to-add-and-verify-your-domain"></a>Шаг 1: использование центра администрирования Microsoft 365 для добавления и проверки домена
 
-1. Чтобы добавить свой домен в службу, в Центр администрирования Office 365 перейдите в раздел **Настройка**. 
+1. В центре администрирования Microsoft 365 перейдите к разделу **Настройка** , чтобы добавить свой домен в службу. 
     
-    Не знаете, где найти Центр администрирования Office 365? См. дополнительные сведения в статье [Центр администрирования Office 365](https://go.microsoft.com/fwlink/p/?LinkId=521888).
+    Не знаете, где находится центр администрирования Microsoft 365? Дополнительные сведения [о центре администрирования Microsoft 365](https://go.microsoft.com/fwlink/p/?LinkId=521888).
     
 2. Выполните указанные ниже действия, чтобы добавить применимые записи DNS на сайте поставщика услуг размещения DNS для подтверждения прав владельца домена.
     
@@ -59,7 +59,7 @@ ms.locfileid: "25715905"
 
 В Центр администрирования Exchange создайте соединители, необходимые для работы потока обработки почты между Exchange Online Protection и локальными почтовыми серверами. Подробные сведения о том, как это сделать, см. в разделе [Set up connectors to route mail between Office 365 and your own email servers](http://technet.microsoft.com/library/2e93fd60-a5ef-4e64-8e62-2b862b2d1033.aspx).
   
-#### <a name="how-do-you-know-this-task-worked"></a>Проверка выполнения
+#### <a name="how-do-you-know-this-task-worked"></a>Как убедиться, что это сработало?
 
 С помощью анализатора удаленных подключений запустите тест, который проверяет поток почты между службой и вашей средой. Дополнительные сведения см. в разделе "Использование анализатора удаленных подключений для тестирования доставки почты" статьи [Testing Mail Flow with the Remote Connectivity Analyzer](http://technet.microsoft.com/library/6c8c2964-d553-4329-8166-6e508dd63fa0.aspx).
   
@@ -72,15 +72,15 @@ ms.locfileid: "25715905"
   
 ### <a name="step-5-use-the-shell-to-ensure-that-spam-is-routed-to-each-users-junk-email-folder"></a>Действие 5. С помощью командной консоли убедитесь, что нежелательная почта маршрутизируется в папку нежелательной почты каждого пользователя.
 
-Чтобы обеспечить правильную маршрутизацию (нежелательной) нежелательных сообщений электронной почты в папку нежелательной почты каждого пользователя, необходимо выполнить несколько действий по настройке. Действия приведенные в [Убедитесь, что нежелательной почты перенаправляется в папку нежелательной почты каждого пользователя](../ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).
+Чтобы проверить, правильно ли нежелательная почта маршрутизируется в соответствующие папки каждого пользователя, необходимо выполнить несколько действий по настройке. Эти действия предназначены [для обеспечения маршрутизации спама в папку нежелательной почты каждого пользователя](../ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).
   
-Если не хотите переместить сообщения в папку нежелательной почты каждого пользователя, можно выбрать другое действие посредством изменения политик фильтрации содержимого в центре администрирования Exchange. Для получения дополнительных сведений см. [Настройка политик фильтрации нежелательной почты](../configure-your-spam-filter-policies.md).
+Если вы не хотите перемещать сообщения в папку неЖелательной почты каждого пользователя, вы можете выбрать другое действие, отредактировав политики фильтрации содержимого в центре администрирования Exchange. Дополнительные сведения см. в статье [Configure your spam filter policies](../configure-your-spam-filter-policies.md).
   
-### <a name="step-6-use-the-office-365-admin-center-to-point-your-mx-record-to-eop"></a>Действие 6. Настройка записи MX, указывающей на Exchange Online Protection, с помощью Центр администрирования Office 365
+### <a name="step-6-use-the-microsoft-365-admin-center-to-point-your-mx-record-to-eop"></a>Шаг 6: использование центра администрирования Microsoft 365 для направления записи MX на EOP
 
 Выполните инструкции по настройке домена Office 365 для обновления записи MX своего домена, чтобы входящая электронная почта проходила через службу EOP. Убедитесь, что запись MX указывает напрямую на EOP. Не используйте службу фильтрации стороннего поставщика для ретрансляции почты в EOP. Дополнительные сведения также можно найти в статье [Создание записей DNS для Office 365](https://go.microsoft.com/fwlink/p/?LinkId=304219).
   
-#### <a name="how-do-you-know-this-task-worked"></a>Проверка выполнения
+#### <a name="how-do-you-know-this-task-worked"></a>Как убедиться, что это сработало?
 
 С помощью анализатора удаленных подключений запустите тест, проверяющий вашу запись MX. Дополнительные сведения см. в разделе "Использование анализатора удаленных подключений для тестирования записи MX и исходящего соединителя" статьи [Testing Mail Flow with the Remote Connectivity Analyzer](http://technet.microsoft.com/library/6c8c2964-d553-4329-8166-6e508dd63fa0.aspx). 
   

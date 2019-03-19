@@ -10,13 +10,13 @@ ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 212e68ac-6330-47e9-a169-6cf5e2f21e13
-description: Exchange Online Protection (EOP) можно использовать для создания группы с включенной поддержкой почты для организации Exchange. Также можно использовать EOP для определения или обновляет свойства группы, которые задают членство, адреса электронной почты и других аспектов групп.
-ms.openlocfilehash: 1af39e3a55864a9a87f90e0a00957ebf1631bb45
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+description: С помощью Exchange Online Protection (EOP) для организации Exchange можно создавать группы с включенной поддержкой почты. EOP также позволяет определять или обновлять свойства групп, указывающие членство, адреса электронной почты и другие данные групп.
+ms.openlocfilehash: 2e747dc9a26cbbc1ce214107235ccea62f175dd0
+ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23003178"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30670464"
 ---
 # <a name="manage-groups-in-eop"></a>Управление группами в EOP
 
@@ -79,7 +79,7 @@ ms.locfileid: "23003178"
     
 2. Выполните одно из указанных ниже действий.
     
-  - Чтобы изменить группу: В список групп, нажмите кнопку рассылки или группу безопасности, который требуется просмотреть или изменить и нажмите кнопку **Изменить** ![значок Правка](../media/ITPro-EAC-EditIcon.gif). Можно обновить общие параметры, добавление или удаление группы владельцев и добавление или удаление членов группы, при необходимости.
+  - Чтобы изменить группу, выберите группу рассылки или группы безопасности, которую нужно просмотреть или изменить, и нажмите кнопку **изменить** ![значок](../media/ITPro-EAC-EditIcon.gif)редактирования. При необходимости вы можете обновить общие параметры, а также добавить или удалить владельцев и членов группы.
     
   - Удаление группы Выберите группу и нажмите кнопку **Удалить**![Значок "Удалить"](../media/ITPro-EAC-RemoveIcon.gif).
     
@@ -93,7 +93,7 @@ ms.locfileid: "23003178"
   
 В этом примере командлет [New-EOPDistributionGroup](http://technet.microsoft.com/library/4610dfe5-fca8-4ba8-be3c-535d1753e0f4.aspx) используется для создания группы рассылки с псевдонимом "itadmin" и именем "ИТ-администраторы". Кроме того, он добавляет пользователей как членов группы. 
   
-```
+```Powershell
 New-EOPDistributionGroup -Type "Distribution" -Name "IT Administrators" -Alias itadmin -Members @("Member1","Member2","Member3") -ManagedBy "Member1"
 
 ```
@@ -102,21 +102,21 @@ New-EOPDistributionGroup -Type "Distribution" -Name "IT Administrators" -Alias i
   
 Убедитесь в успешном создании группы "ИТ-администраторы", запустив командлет [Get-Recipient](http://technet.microsoft.com/library/2ce6250f-0ad3-4b29-870c-e1d6e1e154bc.aspx), чтобы отобразить сведения о новой группе: 
   
-```
+```Powershell
 Get-Recipient "IT Administrators" | Format-List
 
 ```
 
 Чтобы получить список членов группы, запустите командлет [Get-DistributionGroupMember](http://technet.microsoft.com/library/15c71bc5-4246-44ac-8b34-8ccd585294b5.aspx), введя следующий код: 
   
-```
+```Powershell
 Get-DistributionGroupMember "IT Administrators"
 
 ```
 
 Чтобы получить полный список всех своих групп, запустите командлет [Get-Recipient](http://technet.microsoft.com/library/2ce6250f-0ad3-4b29-870c-e1d6e1e154bc.aspx), введя следующий код: 
   
-```
+```Powershell
 Get-Recipient -RecipientType "MailUniversalDistributionGroup" | FT | more
 
 ```
@@ -129,28 +129,28 @@ Get-Recipient -RecipientType "MailUniversalDistributionGroup" | FT | more
   
 В этом примере командлет [Set-EOPDistributionGroup](http://technet.microsoft.com/library/689a66c5-a524-4870-88f3-091fd6eae3b7.aspx) используется, чтобы изменить основной SMTP-адрес (обратный адрес) для группы "Сотрудники Москвы" на sotrudniki.m@contoso.com. 
   
-```
+```Powershell
 Set-EOPDistributionGroup "Seattle Employees" -PrimarysmptAddress "sea.employees@contoso.com"
 
 ```
 
 Убедитесь, что свойства группы успешно изменены, проверив изменения с помощью командлета [Get-Recipient](http://technet.microsoft.com/library/2ce6250f-0ad3-4b29-870c-e1d6e1e154bc.aspx). Одно из преимуществ использования удаленной консоли PowerShell  возможность просмотреть свойства нескольких групп. Чтобы проверить, изменился ли SMTP-адрес группы из примера выше, запустите такую команду: 
   
-```
+```Powershell
 Get-Recipient "Seattle Employees" | FL "PrimarySmtpAddress"
 
 ```
 
 В этом примере командлет [Update-EOPDistributionGroupMember](http://technet.microsoft.com/library/a6d4f790-1b94-42f8-af6f-fa79c504d8ec.aspx) используется для обновления всех членов группы "Сотрудники Москвы". Разделяйте всех членов запятой. 
   
-```
+```Powershell
 Update-EOPDistributionGroupMember -Identity "Seattle Employees" -Members @("Member1","Member2","Member3","Member4","Member5")
 
 ```
 
 Чтобы получить список всех членов группы "Сотрудники Москвы", запустите командлет [Get-DistributionGroupMember](http://technet.microsoft.com/library/15c71bc5-4246-44ac-8b34-8ccd585294b5.aspx): 
   
-```
+```Powershell
 Get-DistributionGroupMember "Seattle Employees"
 
 ```
@@ -159,14 +159,14 @@ Get-DistributionGroupMember "Seattle Employees"
   
 В этом примере командлет [Remove-EOPDistributionGroup](http://technet.microsoft.com/library/a17b1307-3187-40b0-a438-c7b35a34c002.aspx) используется для удаления группы рассылки "ИТ-администраторы". 
   
-```
+```Powershell
 Remove-EOPDistributionGroup -Identity "IT Administrators" 
 
 ```
 
 Чтобы убедиться, что группа удалена, запустите командлет [Get-Recipient](http://technet.microsoft.com/library/2ce6250f-0ad3-4b29-870c-e1d6e1e154bc.aspx) и подтвердите, что группа (в данном случае  "ИТ-администраторы") удалена. 
   
-```
+```Powershell
 Get-Recipient -RecipientType "MailUniversalDistributionGroup"
 
 ```
