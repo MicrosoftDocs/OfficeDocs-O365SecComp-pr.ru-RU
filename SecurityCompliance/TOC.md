@@ -106,7 +106,7 @@
 ### [Настройка политик фильтрации нежелательной почты](configure-your-spam-filter-policies.md)
 ### [Настройка политики фильтрации подключений](configure-the-connection-filter-policy.md)
 ### [Настройка политики защиты от нежелательной почты для исходящих сообщений](configure-the-outbound-spam-policy.md)
-### [Удаление пользователя, домена или IP-адреса из списка блокировок](removing-a-user-domain-or-ip-address-from-a-block-list-after-sending-spam-email.md)
+### [Удаление пользователя с портала "Пользователи с ограниченным доступом" после отправки нежелательной почты](removing-user-from-restricted-users-portal-after-spam.md)
 ### [Вероятность нежелательной почты](spam-confidence-levels.md)
 #### [Указание вероятности нежелательной почты (SCL) в сообщениях с помощью правил потока обработки почты](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)
 #### [Отправка обычных, нежелательных и фишинговых сообщений в корпорацию Майкрософт для анализа](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)
