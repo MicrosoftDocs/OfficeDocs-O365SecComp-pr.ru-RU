@@ -7,7 +7,6 @@ ms.date: 1/7/2015
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -15,12 +14,12 @@ ms.assetid: 8079f193-1b40-4081-9e5d-d0e50dfbcc59
 ms.collection:
 - M365-security-compliance
 description: Клиенты иногда асквхат различие между нежелательной почтой и групповыми сообщениями электронной почты? В этом разделе объясняется различие и предоставляются сведения о различных параметрах, доступных как в Exchange Online, так и в Exchange Online Protection (EOP).
-ms.openlocfilehash: 877912c94af5d4b399769759189d091c62d50075
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.openlocfilehash: 146cc5654e39441be3544f7ac24bd1300811936f
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30275719"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30693218"
 ---
 # <a name="whats-the-difference-between-junk-email-and-bulk-email"></a>В чем разница между нежелательной почтой и массовыми сообщениями электронной почты?
 

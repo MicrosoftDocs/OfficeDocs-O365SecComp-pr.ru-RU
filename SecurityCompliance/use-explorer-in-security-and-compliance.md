@@ -15,12 +15,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: Сведения о проводнике (также называемом обозревателе угроз) в центре &amp; безопасности и соответствия требованиям.
-ms.openlocfilehash: 626d827712760aa0b7b6faf75d94f525cfe38dc2
-ms.sourcegitcommit: 74ad22a5c6c3c9d9324f0f97070909e323a4e9cf
+ms.openlocfilehash: 0c86792d8ed84b43b28bde31004dc95d2fa2b547
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30524013"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30693618"
 ---
 # <a name="use-threat-explorer-in-the-security-amp-compliance-center"></a>Использование обозревателя угроз в центре безопасности &amp; и соответствия требованиям
 
@@ -31,7 +31,7 @@ ms.locfileid: "30524013"
 Чтобы использовать обозреватель, в центре безопасности &amp; и соответствия требованиям откройте обозреватель **управления** \> **** угрозами.
 
 > [!IMPORTANT]
-> Office 365 Threat Intelligence теперь входит в план 2 Office 365 Advanced Threat protection (план 2) с дополнительными возможностями защиты от угроз. Чтобы узнать больше, ознакомьтесь со статьями [office 365 Advanced Threat protection Plans and ценах](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
+> Анализ угроз для Office 365 теперь является Office 365 Advanced Threat Protection Plan 2, а также дополнительные возможности защиты от угроз. Чтобы узнать больше, ознакомьтесь со статьями [office 365 Advanced Threat protection Plans and ценах](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
       
 ## <a name="explorer-overview"></a>Обзор проводника
 
@@ -127,7 +127,7 @@ Explorer включен в [Office 365 Advanced Threat Protection Plan 2](office
 
 Для просмотра и использования проводника необходимо иметь соответствующие разрешения, такие как предоставленные администратору безопасности или средству чтения безопасности. Чтобы узнать больше, ознакомьтесь с разРешениями [в центре &amp; безопасности и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md).
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Отчеты и аналитика в центре безопасности &amp; и соответствия требованиям Office 365](reports-and-insights-in-security-and-compliance.md)
   

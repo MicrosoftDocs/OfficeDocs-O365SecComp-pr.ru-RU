@@ -14,16 +14,16 @@ ms.custom:
 - Ent_Solutions
 - SIEM
 description: Сводка. Ознакомьтесь с этой статьей, чтобы получить обзор интеграции сервера SIEM с Microsoft 365.
-ms.openlocfilehash: 3f906fb082ec2c1a026940d2b5701a3d1fbec393
-ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
+ms.openlocfilehash: 905f6fc9b6fd62748e25c27d6e5cdbedacc0f806
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30357500"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30693648"
 ---
 # <a name="siem-server-integration-with-microsoft-365-services-and-applications"></a>Интеграция сервера SIEM со службами и приложениями Microsoft 365
 
-## <a name="overview"></a>Общие сведения
+## <a name="overview"></a>Обзор
 
 Если в Организации используются сведения о безопасности и управление событиями (SIEM), или если вы планируете немедленно получить сервер SIEM, вам может быть интересно узнать, как будет осуществляться интеграция с Microsoft 365, в том числе Office 365 корпоративный. Необходимость использования сервера SIEM зависит от многих факторов, таких как требования к безопасности в Организации. Microsoft 365 предлагает разнообразные функции обеспечения безопасности. Тем не менее, если в Организации есть контент и приложения в локальной среде и в облаке (как в случае гибридного развертывания в гибридном облаке), вы можете добавить сервер SIEM для дополнительной защиты. Если у вашей организации есть особые требования к безопасности, которые необходимо учитывать, можно добавить сервер SIEM в среду.
 
@@ -33,12 +33,12 @@ ms.locfileid: "30357500"
 
 | Служба или приложение Microsoft 365 | Входные данные сервера SIEM | Ресурсы для получения дополнительных сведений |
 | --- | --- | --- |
-| [Office 365 Advanced Threat Protection](office-365-atp.md) <br/>   или   <br/>[Office 365 Threat Intelligence](office-365-ti.md) | Журналы аудита | [Интеграция SIEM с Office 365 Threat Intelligence и Advanced Threat protection](siem-integration-with-office-365-ti.md) |
+| [Office 365 Advanced Threat Protection](office-365-atp.md) <br/>   или   <br/>[Office 365 Threat Intelligence](office-365-ti.md) | Журналы аудита | [Интеграция SIEM с Office 365 Advanced Threat protection](siem-integration-with-office-365-ti.md) |
 | [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) | Интеграция журналов | [Интеграция SIEM с Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/siem) |
 | [Office 365 Cloud App Security](office-365-cas-overview.md) | Интеграция журналов | [Интеграция сервера SIEM с Office 365 Cloud App Security](integrate-your-siem-server-with-office-365-cas.md) |
 | [Advanced Threat Protection в Защитнике Windows](https://docs.microsoft.com/windows/security/threat-protection/) | Интеграция журналов | [Получение оповещений о средствах SIEM](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-siem-windows-defender-advanced-threat-protection) |
 | [Центр безопасности Azure](https://docs.microsoft.com/azure/security-center/security-center-intro) (Защита от угроз и обнаружение угроз) | Оповещения | [Экспорт данных безопасности Azure в SIEM — Настройка конвейера — Предварительная версия](https://docs.microsoft.com/azure/security-center/security-center-export-data-to-siem) |
-| [Защита удостоверений Azure Active Directory](https://docs.microsoft.com/azure/active-directory/identity-protection/overview) | Журналы аудита | [Интеграция журналов аудита Azure Active Directory](https://docs.microsoft.com/azure/security/security-azure-log-integration-ad) |
+| [Защита идентификации Azure Active Directory](https://docs.microsoft.com/azure/active-directory/identity-protection/overview) | Журналы аудита | [Интеграция журналов аудита Azure Active Directory](https://docs.microsoft.com/azure/security/security-azure-log-integration-ad) |
 | [Служба Advanced Threat Analytics для Azure](https://docs.microsoft.com/azure/security/azure-threat-detection) | Интеграция журналов | [Справочник по журналам ATA SIEM](https://docs.microsoft.com/advanced-threat-analytics/cef-format-sa) |
 
 ## <a name="audit-logging-must-be-turned-on"></a>Необходимо включить ведение журнала аудита

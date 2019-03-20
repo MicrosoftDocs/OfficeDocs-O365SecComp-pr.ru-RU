@@ -1,5 +1,5 @@
 ---
-title: Защита от угроз в Office 365
+title: Защита от угроз в Office 365
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
@@ -14,18 +14,18 @@ ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как Office 365 предприятие поможет защитить организацию от различных угроз, в том числе подмены, вредоносные программы, спама и фишинговых атак, а также несанкционированный доступ к данным.
-ms.openlocfilehash: da39421184deacdc19adf073f086a3d8a2021acd
-ms.sourcegitcommit: 5b5bbced1577701bdb6befc8ed252e9d9e776529
+ms.openlocfilehash: 1d6abe6bd9347a625c6e533737ffe4bb3b7cee7a
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/25/2019
-ms.locfileid: "30245585"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30693248"
 ---
-# <a name="protect-against-threats-in-office-365"></a>Защита от угроз в Office 365
+# <a name="protect-against-threats-in-office-365"></a>Защита от угроз в Office 365
 
 Office 365 корпоративный позволяет защитить организацию от различных угроз, в том числе подмены, вредоносные программы, спама и фишинговых атак, а также несанкционированный доступ к данным. Используйте ресурсы на этой странице, чтобы узнать о возможных действиях и действиях защиты от угроз.
 
-## <a name="malware"></a>Вредоносная программа
+## <a name="malware"></a>От
 
 - [Защита от нежелательной почты &amp; для защиты от вредоносных программ](anti-spam-and-anti-malware-protection.md)
     
@@ -55,7 +55,7 @@ Office 365 корпоративный позволяет защитить орг
     
 - [Проверка исходящей электронной почты, отправляемой с личного домена в Office 365, с помощью DKIM](use-dkim-to-validate-outbound-email.md)
     
-- [Использование протокола DMARC для проверки электронной почты в Office 365](use-dmarc-to-validate-email.md)
+- [Проверка электронной почты в Office 365 с помощью DMARC](use-dmarc-to-validate-email.md)
 
 ## <a name="anti-spam"></a>Защита от неЖелательной почты
 
@@ -72,7 +72,7 @@ Office 365 корпоративный позволяет защитить орг
   
 - [Сведения о пакете Office 365 ATP](office-365-atp.md)
 
-- [Обзор Office 365 Threat Intelligence](office-365-ti.md)
+- [Обзор Office 365 ATP (план 2)](office-365-ti.md)
     
 - [Настройка политик защиты от фишинговых фишинговых атак](set-up-anti-phishing-policies.md)
     

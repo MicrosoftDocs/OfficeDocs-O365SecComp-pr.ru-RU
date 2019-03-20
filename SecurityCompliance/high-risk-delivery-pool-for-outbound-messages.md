@@ -7,7 +7,6 @@ ms.date: 8/24/2016
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -15,12 +14,12 @@ ms.assetid: ac11edd9-2da3-462d-8ea3-bbf9dbc6f948
 ms.collection:
 - M365-security-compliance
 description: Если почтовая система клиента скомпрометирована вредоносной программой или спам-атакой и отправляет спам через размещенную службу фильтрации, IP-адреса серверов центра данных Office 365 могут быть занесены в сторонние списки блокировок.
-ms.openlocfilehash: 604fdf2df11b6dff493444fe9dbcc6f95ced6a7d
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.openlocfilehash: b3c0aecd45dd01d407712af2e3945e1cff521710
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30275549"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30692088"
 ---
 # <a name="high-risk-delivery-pool-for-outbound-messages"></a>Пул доставки сообщений с высоким уровнем опасности
 
@@ -48,7 +47,7 @@ ms.locfileid: "30275549"
   
 ## <a name="for-more-information"></a>Дополнительные сведения
 
-[Настройка правил защиты от спама для исходящих сообщений](configure-the-outbound-spam-policy.md)
+[Настройка политики защиты от нежелательной почты для исходящих сообщений](configure-the-outbound-spam-policy.md)
   
 [ВОПРОСЫ и ответы по защите от нежелательной почты](anti-spam-protection-faq.md)
   

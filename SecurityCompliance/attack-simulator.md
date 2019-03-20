@@ -15,16 +15,16 @@ ms.assetid: da5845db-c578-4a41-b2cb-5a09689a551b
 ms.collection:
 - M365-security-compliance
 description: В качестве глобального администратора Office 365 вы можете использовать Симуляторы для атаки, чтобы выполнять реальные сценарии атак в Организации. Это поможет определить и найти уязвимых пользователей, прежде чем реальная атака будет возобновлением вашей компании.
-ms.openlocfilehash: 1956dd2dda187b9d1d0147911dd278e8ae3650b3
-ms.sourcegitcommit: f25a667e4c7d11c43c87604d576f1e6d6155b14f
+ms.openlocfilehash: e372fe3c4cc10c4f96836db394fbccd2f180145a
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30536159"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30693668"
 ---
 # <a name="attack-simulator-in-office-365"></a>Имитатор атак в Office 365
 
-**Сводка** Если вы являетесь глобальным администратором Office 365 и ваша организация имеет [office 365 Threat расследования и капабилтиес](office-365-ti.md)отклика, вы можете использовать симуляторы атак для выполнения сценариев в Организации. Это поможет определить и найти уязвимых пользователей, прежде чем реальная атака повлияет на нижнюю линию. Ознакомьтесь с этой статьей, чтобы узнать больше.
+**Сводка** Если вы являетесь глобальным администратором Office 365 и у вашей организации есть [возможности для расследования угроз и реагирования на office 365](office-365-ti.md), вы можете использовать Симуляторы для проведения реалистичных атак в Организации. Это поможет определить и найти уязвимых пользователей, прежде чем реальная атака повлияет на нижнюю линию. Ознакомьтесь с этой статьей, чтобы узнать больше.
 
 > [!IMPORTANT]
 > Office 365 Advanced Threat Protection и Threat расследования и ответ (ранее известный как логика операций с угрозами) теперь входят в план 2 Office 365 Advanced Threat protection (план 2) с дополнительными возможностями защиты от угроз. Чтобы узнать больше, ознакомьтесь со статьями [office 365 Advanced Threat protection Plans and ценах](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
@@ -56,7 +56,7 @@ ms.locfileid: "30536159"
     
 - Многофакторная ** [Проверка](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide) подлинности (MFA) включена, по крайней мере, для учетной записи глобального администратора Office 365**. (В идеале MFA включается для всех пользователей в Организации.)
  
-- в **вашей организации имеется [Office 365 Threat Intelligence](office-365-ti.md)**, а симулятор атак виден в центре &amp; обеспечения безопасности (перейдите в **симулятор для атаки** **управления** \> угрозами)<br/>![Управление угрозами — симулятор атак](media/ThreatMgmt-AttackSimulator.png)
+- в **вашей организации имеется [Office 365 Advanced Threat Protection (план 2](office-365-ti.md)**) с симулятором атак, &amp; видимым в центре безопасности и соответствия требованиям (перейти к **симулятору атаки** **управления** \> угрозами)<br/>![Управление угрозами — симулятор атак](media/ThreatMgmt-AttackSimulator.png)
 
     
 ## <a name="display-name-spear-phishing-attack"></a>Отображаемое имя спеар — Фишинговая атака

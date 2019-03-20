@@ -7,7 +7,6 @@ ms.date: 12/9/2016
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -15,12 +14,12 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: Microsoft Outlook в Интернете может сообщать о нежелательной почте и phishing-атаках с помощью встроенных параметров отчетов электронной почты. Вы также можете сообщить корпорации Майкрософт, что сообщение было неправильно определено как нежелательное (спам).
-ms.openlocfilehash: e40770d8ff7e2c24058674f25b9ee8eb72e2bf7c
-ms.sourcegitcommit: 5eb664b6ecef94aef4018a75684ee4ae66c486bb
+ms.openlocfilehash: 089792ab8e46f4b200a2d98781cd378c2666c35f
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30492818"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30693318"
 ---
 # <a name="report-junk-email-and-phishing-scams-in-outlook-on-the-web"></a>Отправка отчетов о нежелательной почте и phishing-атаках в Outlook в Интернете 
 

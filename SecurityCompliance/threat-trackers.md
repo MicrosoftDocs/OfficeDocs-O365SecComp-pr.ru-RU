@@ -14,19 +14,19 @@ ms.assetid: a097f5ca-eac0-44a4-bbce-365f35b79ed1
 ms.collection:
 - M365-security-compliance
 description: Сведения о средствах отслеживания угроз, в том числе о новых отслеживаемых средствах отслеживания, которые помогут Организации в курсе проблем с безопасностью.
-ms.openlocfilehash: 4cf3e13b7379e26deec90bbae2c4f9cf42fa91b7
-ms.sourcegitcommit: 74ad22a5c6c3c9d9324f0f97070909e323a4e9cf
+ms.openlocfilehash: 6870e8d613dbd5d72f20e96be9615712bac711a9
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30524053"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30693078"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>Средства отслеживания угроз — новые и полезные
 
 [Исследование угроз для Office 365 и](office-365-ti.md) возможности реагирования позволяют группе безопасности Организации обнаруживать угрозы циберсекурити и предпринимать меры по их выполнению. Функции отслеживания угроз и возможности реагирования на Office 365 включают функции отслеживания угроз, в том числе полезные средства отслеживания. В этой статье приводятся общие сведения о новых функциях и дальнейших действиях. 
 
 > [!IMPORTANT]
-> Office 365 Threat Intelligence теперь входит в план 2 Office 365 Advanced Threat protection (план 2) с дополнительными возможностями защиты от угроз. Чтобы узнать больше, ознакомьтесь со статьями [office 365 Advanced Threat protection Plans and ценах](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
+> Анализ угроз для Office 365 теперь является Office 365 Advanced Threat Protection Plan 2, а также дополнительные возможности защиты от угроз. Чтобы узнать больше, ознакомьтесь со статьями [office 365 Advanced Threat protection Plans and ценах](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
   
 ## <a name="what-are-threat-trackers"></a>Что представляют собой средства отслеживания угроз?
 

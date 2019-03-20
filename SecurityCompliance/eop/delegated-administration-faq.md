@@ -7,16 +7,15 @@ ms.date: 12/9/2016
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: d6a87ce8-2c22-433a-b430-5eab14f6afdc
 description: В этом разделе представлены часто задаваемые вопросы и ответы для партнеров и торговых посредников Майкрософт, которые хотят делегировать задачи администрирования Office 365, в том числе возможность управления службой Exchange Online Protection (EOP) для своих клиентов (компаний).
-ms.openlocfilehash: 61f939932ab221343b67f87dd5c63f6697e70026
-ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
+ms.openlocfilehash: 41f2e8f0ed48273ff1934ca4f2306f29f92b1ff1
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30670444"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30691738"
 ---
 # <a name="delegated-administration-faq"></a>Вопросы и ответы по делегированному администрированию
 

@@ -3,7 +3,7 @@ title: Просмотр отчетов для Office 365 Advanced Threat protect
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 02/13/2019
+ms.date: 03/19/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как найти и использовать отчеты для Office 365 Advanced Threat Protection в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: 72776d6d7df98ffb43046a0d98e589c5ea39c257
-ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
+ms.openlocfilehash: 3a128103d16ed03edb18becde96a5d20ee6eca9b
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30341090"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30692408"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Просмотр отчетов для Office 365 Advanced Threat protection
 
@@ -81,10 +81,10 @@ ms.locfileid: "30341090"
 
 Помимо отчетов ATP, описанных в этой статье, доступны некоторые другие отчеты, описанные в следующей таблице.
 
-|Тип отчета  |Подробнее  |
+|Тип отчета  |Дополнительные сведения  |
 |---------|---------|
 |**Отчеты о безопасности электронной почты**, например отчет о самых отправителях и получателях, отчет о поддельной почте и отчет об обнаруженИи нежелательной почты. | [Просмотр отчетов о безопасности электронной почты в &amp; центре безопасности и соответствия требованиям](view-email-security-reports.md)        |
-|**Explorer** (также называется обозревателем угроз, это включено в [Office 365 Threat Intelligence](office-365-ti.md)).     | [Использование проводника в центре безопасности &amp; и соответствия требованиям](use-explorer-in-security-and-compliance.md)        |
+|**Explorer** (также называется проводником по угрозам, это включено в [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md))     | [Использование проводника в центре безопасности &amp; и соответствия требованиям](use-explorer-in-security-and-compliance.md)        |
 |**Результаты EOP и ATP** (Это настраиваемый отчет, созданный с помощью PowerShell). Этот отчет содержит такие сведения, как домен, Дата, тип события, направление, действие и количество сообщений.  | [Справочные материалы по командлету Get – Маилтраффикатпрепорт](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-mailtrafficatpreport?view=exchange-ps) |
 |**Обнаружения EOP и ATP** (Это настраиваемый отчет, созданный с помощью PowerShell). Этот отчет содержит сведения о вредоносных файлах или URL-адресах, фишинговых попытках, олицетворении и других потенциальных угрозах в электронной почте или файлах.   | [Справочные материалы по командлету Get – Маилдетаилатпрепорт](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-maildetailatpreport?view=exchange-ps)        |
 
@@ -100,13 +100,13 @@ ms.locfileid: "30341090"
 
 - Для Exchange Online необходимо назначить одну из следующих ролей в центре администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) или с помощью командлетов PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)):
     - Управление организацией
-    - Управление организацией с правами только на просмотр
+    - Управление организацией только с правом на просмотр
     - Роль получателей с правами только на просмотр
     - Управление соответствием требованиям
 
 Чтобы узнать больше, ознакомьтесь со следующими материалами:
 
-- [Разрешения в центре безопасности &amp; и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md)
+- [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
 
 - [Разрешения компонентов в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
    

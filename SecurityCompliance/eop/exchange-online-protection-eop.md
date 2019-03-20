@@ -7,16 +7,15 @@ ms.date: 12/9/2016
 ms.audience: ITPro
 ms.topic: hub-page
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 70ab4af2-fec4-4886-8e12-27d348649204
 description: Прежде чем приступить к работе с EOP, необходимо знать несколько моментов.
-ms.openlocfilehash: fc5ea726de190395407952ceac69c4c682ac8f67
-ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
+ms.openlocfilehash: 878380adb039961334413019551847717ace0cc7
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30341750"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30692328"
 ---
 # <a name="exchange-online-protection"></a>Exchange Online Protection 
 
@@ -32,7 +31,7 @@ ms.locfileid: "30341750"
     
 ## <a name="eop-help-for-administrators"></a>Справка по службе EOP для администраторов
 
-Содержимое справки EOP для администраторов состоит из следующих категорий верхнего уровня.
+Содержимое справки EOP для администраторов состоит из следующих категорий верхнего уровня.
   
 - [Обзор Exchange Online Protection](exchange-online-protection-overview.md) Описывает работу EOP и содержит ссылки на дополнительные сведения. 
     

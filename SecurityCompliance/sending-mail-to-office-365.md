@@ -7,7 +7,6 @@ ms.date: 4/9/2016
 ms.audience: ITPro
 ms.topic: hub-page
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -15,18 +14,18 @@ ms.assetid: f9d4b5b6-8f4c-44df-9b06-2f9b3058ca20
 ms.collection:
 - M365-security-compliance
 description: В указанных ниже статьях рассказывается, как внешние отправители могут повысить свою репутацию и шансы на доставку своих сообщений пользователям в Office 365. В них также приведены сведения о том, как сообщить о спаме и фишинговых сообщениях, даже если вы не являетесь пользователем Office 365.
-ms.openlocfilehash: a3988f6c6c5c8fca4b4f99df1d73df49175d853e
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.openlocfilehash: c3f9b6e383b604985a125d270a46c0b0211e7071
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30275839"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30692388"
 ---
 # <a name="sending-mail-to-office-365"></a>Отправка почты в Office 365
 
 В указанных ниже статьях рассказывается, как внешние отправители могут повысить свою репутацию и шансы на доставку своих сообщений пользователям в Office 365. В них также приведены сведения о том, как сообщить о спаме и фишинговых сообщениях, даже если вы не являетесь пользователем Office 365.
   
-Если вы не являетесь клиентом Office 365, но пытаетесь отправить ему письмо, то этот раздел для вас. Если вы администратор Office 365 и вам нужна помощь в борьбе со спамом, то вам необходим другой раздел. Перейдите в раздел [Anti-spam and anti-malware protection](http://technet.microsoft.com/library/93c6c227-7442-4293-b64d-ec8f15c928db.aspx).
+Если вы не являетесь клиентом Office 365, но пытаетесь отправить ему письмо, то этот раздел для вас. Если вы администратор Office 365 и вам нужна помощь в борьбе со спамом, то вам необходим другой раздел. Перейдите в раздел [Anti-spam and anti-malware protection](http://technet.microsoft.com/library/93c6c227-7442-4293-b64d-ec8f15c928db.aspx).
   
 |**Сведения о…**|**Просмотреть...**|
 |:-----|:-----|

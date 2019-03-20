@@ -7,18 +7,17 @@ ms.date: 12/13/2017
 ms.audience: End User
 ms.topic: article
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 2c956776-0016-4be6-b4cd-133a237f4a9e
 description: Электронная почта часто используется для обмена конфиденциальными сведениями, такими как финансовые данные, контракты, конфиденциальные сведения о продуктах, прогнозы объема реализации и отчеты о продажах, сведения о пациентах, а также данные о клиентах и сотрудниках. В результате почтовые ящики превратились в хранилища, содержащие большое количество потенциально конфиденциальных сведений, и утечка информации становится серьезной угрозой для организаций.
-ms.openlocfilehash: 5036fe359215de1c2674d7efabbb283c78418a19
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+ms.openlocfilehash: aef3acaba6b0efe4550958ce1d98add371069648
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23002578"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30692348"
 ---
 # <a name="information-rights-management-in-exchange-online"></a>Управление правами на доступ к данным в Exchange Online
 
@@ -36,7 +35,7 @@ ms.locfileid: "23002578"
   
 Пользователи могут определить разрешения получателей, применив шаблон к сообщению электронной почты. Применение политики прав AD RMS позволяет контролировать пересылку, сохранение и печать сообщения, а также извлечение сведений из него.
   
-Для защиты IRM можно использовать сервер AD RMS под управлением Windows Server 2008 или более поздней версии. Этот сервер можно использовать для управления шаблонами политики прав AD RMS в облачной организации. Сервер AD RMS также нужен, чтобы пользователи могли применять защиту IRM к отправляемым сообщениям. Дополнительные сведения см. в разделе [Configure IRM to use an on-premises AD RMS server](configure-irm-to-use-an-on-premises-ad-rms-server.md).  
+Для защиты IRM можно использовать сервер AD RMS под управлением Windows Server 2008 или более поздней версии. Этот сервер можно использовать для управления шаблонами политики прав AD RMS в облачной организации. Сервер AD RMS также нужен, чтобы пользователи могли применять защиту IRM к отправляемым сообщениям. Дополнительные сведения см. в разделе [Configure IRM to use an on-premises AD RMS server](configure-irm-to-use-an-on-premises-ad-rms-server.md). 
   
 После включения защиты IRM с ее помощью можно защищать сообщения следующим образом.
   

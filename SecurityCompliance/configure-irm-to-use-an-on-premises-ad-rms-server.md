@@ -7,26 +7,25 @@ ms.date: 12/13/2017
 ms.audience: End User
 ms.topic: article
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 3ecde857-4b7c-451d-b4aa-9eeffc8a8c61
 ms.collection:
 - M365-security-compliance
-description: В этом разделе показано, как настроить IRM для использования сервера службы управления правами Active Directory.
-ms.openlocfilehash: 19d353dc8aa0e02b564616aacdde31c0fffa0483
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+description: В этом разделе показано, как настроить управление правами на доступ к данным для использования сервера службы управления правами Active Directory.
+ms.openlocfilehash: 1da66c5afa37c96c061a4bf25c0858e4e71e2313
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215260"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30693038"
 ---
 # <a name="configure-irm-to-use-an-on-premises-ad-rms-server"></a>Настройка функции управления правами на доступ к данным для использования локального сервера служб Active Directory Rights Management
   
-Для использования в локальных развертываниях управление правами на доступ к данным (IRM) в Exchange Online использует службы управления правами Active Directory (AD RMS), технологию защиты информации в Windows Server 2008 и более поздних версий. Защита IRM применяется к электронной почте путем применения шаблона политики прав AD RMS к сообщению электронной почты. Права присоединяются к самому сообщению, чтобы обеспечить защиту в сети и в автономном режиме, а также в брандмауэре организации.
+Для использования в локальных развертываниях управление правами на доступ к данным (IRM) в Exchange Online использует службы управления правами Active Directory (AD RMS), технологию защиты информации в Windows Server 2008 и более поздних версий. К сообщению электронной почты применяется шаблон политики прав AD RMS. Права прикрепляются к сообщению, поэтому защита обеспечивается как в сети, так и вне ее, за пределами брандмауэра организации и внутри него.
   
-В этом разделе показано, как настроить IRM для использования сервера службы управления правами Active Directory. Сведения об использовании новых возможностей шифрования сообщений Office 365 с помощью Azure Active Directory и Azure Rights Management можно найти в статье [вопросы и ответы по шифрованИю сообщений в office 365](https://support.office.com/article/0432dce9-d9b6-4e73-8a13-4a932eb0081e).
+В этом разделе показано, как настроить управление правами на доступ к данным для использования сервера службы управления правами Active Directory. Сведения об использовании новых возможностей шифрования сообщений Office 365 с помощью Azure Active Directory и Azure Rights Management можно найти в статье [вопросы и ответы по шифрованИю сообщений в office 365](https://support.office.com/article/0432dce9-d9b6-4e73-8a13-4a932eb0081e).
   
 Дополнительные сведения об управлении правами на доступ к данным в Exchange Online см. в разделе [Управление правами на доступ к данным в Exchange Online](information-rights-management-in-exchange-online.md).
   
@@ -101,7 +100,7 @@ Import-RMSTrustedPublishingDomain -FileData $([byte[]](Get-Content -Encoding byt
   
 ### <a name="step-3-use-the-exchange-management-shell-to-distribute-an-ad-rms-rights-policy-template"></a>Действие 3. Распространите шаблон политики прав AD RMS с помощью командной консоли Exchange
 
-После импорта TPD необходимо убедиться, что шаблон политики прав AD RMS распространен. Распределенный шаблон отображается в Outlook в Интернете (прежнее название — Outlook Web App), который может применить шаблоны к сообщению электронной почты.
+После импорта TPD необходимо распространить шаблон политики прав службы управления правами Active Directory. Распределенный шаблон отображается в Outlook в Интернете (прежнее название — Outlook Web App), который может применить шаблоны к сообщению электронной почты.
   
 Чтобы получить список всех шаблонов в TPD по умолчанию, выполните следующую команду.
   
@@ -109,7 +108,7 @@ Import-RMSTrustedPublishingDomain -FileData $([byte[]](Get-Content -Encoding byt
 Get-RMSTemplate -Type All | fl
 ```
 
-Если значение параметра _Type_ равно `Archived`, шаблон не отображается для пользователей. В Outlook в Интернете доступны только распространенные шаблоны TPD по умолчанию.
+Если значение параметра  _Type_ равно  `Archived`, шаблон будет недоступен пользователям. В Outlook в Интернете доступны только распространенные шаблоны TPD по умолчанию.
   
 Чтобы распространить шаблон, выполните следующую команду.
   
@@ -156,11 +155,11 @@ Set-IRMConfiguration -InternalLicensingEnabled $true
 
 Подробные сведения о синтаксисе и параметрах см. в разделе [Set-IRMConfiguration](http://technet.microsoft.com/library/5df0b56a-7bcc-4be2-b4b8-4de16720476c.aspx).
   
-#### <a name="how-do-you-know-this-step-worked"></a>Как проверить, что шаг выполнен?
+#### <a name="how-do-you-know-this-step-worked"></a>Как убедиться, что все получилось?
 
 Чтобы убедиться, что вы успешно включили управление правами на доступ к данным (IRM), выполните командлет [Get-IRMConfiguration](http://technet.microsoft.com/library/e1821219-fe18-4642-a9c2-58eb0aadd61a.aspx) для проверки конфигурации IRM в организации Exchange Online. 
   
-## <a name="how-do-you-know-this-task-worked"></a>Как проверить, что это работает?
+## <a name="how-do-you-know-this-task-worked"></a>Как убедиться, что это сработало?
 <a name="sectionSection2"> </a>
 
 Чтобы убедиться, что вы успешно импортировали TPD и включили IRM, выполните приведенные ниже действия.

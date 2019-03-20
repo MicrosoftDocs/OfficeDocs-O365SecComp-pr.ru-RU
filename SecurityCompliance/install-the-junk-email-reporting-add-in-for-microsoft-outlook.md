@@ -7,18 +7,17 @@ ms.date: 12/9/2016
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 8dcc752f-e22e-44ce-a104-4cc4d7e439f3
 ms.collection:
 - M365-security-compliance
 description: В этом Артиклесуппортед Лангуажесинсталл создание сообщения о неЖелательной почте Добавление дополнительных сведений о надстройке создания отчетов о неЖелательной почте
-ms.openlocfilehash: b29bd367ca168ff45d983796b8ae6e68ee9df297
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.openlocfilehash: ee7d1ef3f906c7c03433140c50c5c975f456cb08
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30276309"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30693018"
 ---
 # <a name="install-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>Установка надстройки создания отчетов о нежелательной почте для Microsoft Outlook
   
@@ -26,7 +25,7 @@ ms.locfileid: "30276309"
   
 Надстройка позволяет сообщать о нежелательной почте непосредственно в ленте Outlook (для всех поддерживаемых языков). В английской версии надстройки непосредственно из ленты также можно сообщать о других проблемах с электронной почтой:
   
--   полученных фишинговых сообщениях; 
+-  полученных фишинговых сообщениях; 
     
 - сообщениях, ошибочно помеченных как нежелательные.
     
@@ -43,11 +42,11 @@ ms.locfileid: "30276309"
     
 - Английский
     
-- Французский
+- Французский язык
     
 - Немецкий язык
     
-- Итальянский
+- Итальянский язык
     
 - Японский
     

@@ -7,20 +7,19 @@ ms.date: 12/15/2016
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 3aff33c5-1416-4867-a23b-e0c0c5b4d2be
 ms.collection:
 - M365-security-compliance
-description: Сводка. В этой статье описано, как Office 365 использует запись TXT инфраструктуры политики отправителей (SPF) в DNS, чтобы гарантировать, что конечные почтовые системы доверяют сообщениям, отправленным из вашего личного домена. Это относится к исходящей почте, отправленной из Office 365. Сообщения, отправленные из Office 365 получателю в Office 365, всегда проходят проверку SPF.
-ms.openlocfilehash: 76267f89744b696185022a2bb036dcde09dfcde5
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+description: Сводка. в этой статье описывается, как Office 365 использует запись The SPF TXT Framework (SPF) в DNS, чтобы убедиться в том, что конечные системы электронной почты доверяют сообщениям, отправленным из собственного домена. Это относится к исходящей почте, отправленной из Office 365. Сообщения, отправленные из Office 365 получателю в Office 365, всегда проходят проверку SPF.
+ms.openlocfilehash: 5abe892eae4840b44a606f4004eb3b66a94accdc
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30276109"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30693598"
 ---
 # <a name="how-office-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Как Office 365 использует инфраструктуру политики отправителей (SPF) для предотвращения спуфинга
 
@@ -123,7 +122,7 @@ v=spf1 include:spf.protection.outlook.com -all
   
 При гибридном развертывании (то есть когда одни ящики электронной почты размещены локально, а другие  в Office 365), а также если вы пользователь автономной службы Exchange Online Protection (иными словами, ваша организация использует EOP для защиты локальных почтовых ящиков), необходимо добавлять исходящие IP-адреса для каждого из локальных пограничных почтовых серверов к записи SPF TXT в службе DNS.
   
-## <a name="form-your-spf-txt-record-for-office-365"></a>Создание записи типа TXT инфраструктуры политики отправителей для Office 365
+## <a name="form-your-spf-txt-record-for-office-365"></a>Создание записи типа TXT инфраструктуры политики отправителей для Office 365
 <a name="FormYourSPF"> </a>
 
 Воспользуйтесь сведениями о синтаксисе, представленными в этой статье, чтобы создать запись SPF TXT для личного домена. Здесь описаны наиболее часто используемые варианты синтаксиса, но существуют и другие. После создания записи необходимо обновить ее у регистратора доменных имен.
@@ -196,7 +195,7 @@ v=spf1 ip4:192.168.0.1 include:spf.protection.outlook.com -all
 v=spf1 ip4:192.168.0.1 ip4:192.168.0.2 ip4:192.168.0.3 include:spf.protection.outlook.com -all
 ```
 
-## <a name="next-steps-set-up-spf-for-office-365"></a>Дальнейшие действия: настройка инфраструктуры политики отправителей для Office 365
+## <a name="next-steps-set-up-spf-for-office-365"></a>Дальнейшие действия: настройка инфраструктуры политики отправителей для Office 365
 <a name="SPFNextSteps"> </a>
 
 После создания записи SPF TXT добавьте ее в свой домен, выполнив действия, описанные в статье [Set up SPF in Office 365 to help prevent spoofing](set-up-spf-in-office-365-to-help-prevent-spoofing.md). 

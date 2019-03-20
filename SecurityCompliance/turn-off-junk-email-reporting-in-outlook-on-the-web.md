@@ -6,18 +6,17 @@ manager: laurawi
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 8d57fe9e-57b8-4884-9317-80b380804b4a
 ms.collection:
 - M365-security-compliance
 description: Как администратор Office 365, вы можете отключить возможность отправки отчетов о нежелательной почте для пользователей.
-ms.openlocfilehash: 1e45f258bea2ea75d9b4cabcacc43b54c44f83c3
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.openlocfilehash: f3e8a8cf837e7923d3c7241852ab2acd375492b8
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30275589"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30692558"
 ---
 # <a name="turn-off-junk-email-reporting-in-outlook-on-the-web"></a>Отключение отчетов о нежелательной почте в Outlook в Интернете
 
@@ -28,7 +27,7 @@ ms.locfileid: "30275589"
 
 - Предполагаемое время для завершения: 5 минут.
     
-- Перед выполнением этой процедуры или процедур необходимо назначить разрешения. Чтобы просмотреть необходимые разрешения, обратитесь к разделу "политики почтовых ящиков Outlook в Интернете" в разделе [Outlook в Интернете](http://technet.microsoft.com/library/57eca42a-5a7f-4c65-89f0-7a84f2dbea19.aspx#OutlookWebApp) . 
+- Для выполнения этих процедур необходимы соответствующие разрешения. Чтобы просмотреть необходимые разрешения, обратитесь к разделу "политики почтовых ящиков Outlook в Интернете" в разделе [Outlook в Интернете](http://technet.microsoft.com/library/57eca42a-5a7f-4c65-89f0-7a84f2dbea19.aspx#OutlookWebApp) . 
 
 - Чтобы подключиться к Exchange Online PowerShell, ознакомьтесь [со статьЕй подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
 
@@ -55,7 +54,7 @@ Set-OwaMailboxPolicy -Identity "OwaMailboxPolicy-Default" -ReportJunkEmailEnable
 
 Подробные сведения о синтаксисе и параметрах можно найти в статье [Get – OwaMailboxPolicy](http://technet.microsoft.com/library/bdd580d3-8812-4b4a-93e8-c6401b0d2f0f.aspx) и [Set/OwaMailboxPolicy](http://technet.microsoft.com/library/530166f7-ab42-4609-ba73-9b5a39b567be.aspx).
 
-## <a name="how-do-you-know-this-worked"></a>Как убедиться, что все получилось?
+## <a name="how-do-you-know-this-worked"></a>Как проверить, что все получилось?
 <a name="sectionSection2"> </a>
 
 Выполните командлет **Get-OWAMailboxPolicy** , чтобы проверить значения параметров, а затем откройте Outlook в Интернете для соответствующего пользователя (у которого к ним применена политика почтовых ящиков Outlook), и убедитесь, что параметры отчета о нежелательных, фишинговых и нежелательных элементов недоступны. Вы по-прежнему можете помечать сообщения как нежелательные, фишинговые и нежелательные, но не можете их сообщать. 

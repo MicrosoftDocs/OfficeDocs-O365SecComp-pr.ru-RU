@@ -7,18 +7,17 @@ ms.date: ''
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 1ce37ada-0a80-4b47-8611-d008979589ff
 description: Отправка и ответ на зашифрованное S/MIME-сообщение в Microsoft Outlook очень похоже на взаимодействие с незашифрованными сообщениями.
-ms.openlocfilehash: 311da8b87994703b68d163ff60b25786719ab024
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: dabb911cf770ae843d97eb6ac8b0f683f27a78dd
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30296642"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30692688"
 ---
 # <a name="send-and-receive-smime-signed-and-encrypted-email-in-exchange-online"></a>Отправка и получение зашифрованных и зашифрованных сообщений S/MIME в Exchange Online
 
