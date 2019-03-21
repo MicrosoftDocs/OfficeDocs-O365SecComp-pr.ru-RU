@@ -9,12 +9,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 37640c80-ce6f-47e2-afd1-bc1d3c50e637
 description: Администраторы могут узнать об оповещениях очереди и очередях в панели мониторинга "почтовые потоки" в центре безопасности Office 365 Security _Амп_.
-ms.openlocfilehash: 6abfe9e8b3edfc6b0ca02e11a9713dcdb5c19b7c
-ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
+ms.openlocfilehash: 642aa672cda124873eb0b2ca8e9294e64325f55d
+ms.sourcegitcommit: fec1010e405f14e792d650aee0312b78fced3343
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454871"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720309"
 ---
 # <a name="queue-alerts-and-queues"></a>Очереди и оповещения о них
 
@@ -69,3 +69,7 @@ Office 365 продолжит попытки доставки в течение 
 Когда вы наводите число помещенных в очередь **** сообщений в очереди, сведения об очередях и инструкции по их устранению будут отображаться в раскрывающейся области (то же самое, что отображается после нажатия кнопки **просмотреть очередь** в разделе сведения о предупреждении очереди).
 
 ![Сведения об очереди](media/4eb088fe-5dd9-4bf4-b959-c1bb2545c515.png)
+
+## <a name="see-also"></a>См. также
+
+Для получения дополнительных сведений о других аналитиках почтовых ящиков в панели мониторинга для почтового процесса ознакомьтесь с разрешениями поЧтовых ящиков [в центре безопасности _Амп_ соответствия требованиям](mail-flow-insights.md).

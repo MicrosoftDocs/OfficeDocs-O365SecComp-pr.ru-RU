@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 ms.assetid: d14ae7c3-fcb0-4a03-967b-cbed861bb086
 description: Общие сведения о политиках контроля в Office 365
-ms.openlocfilehash: 99957accb6a1f52f0e0a895fc96ef2b6ac0ac757
-ms.sourcegitcommit: 5eb664b6ecef94aef4018a75684ee4ae66c486bb
+ms.openlocfilehash: c22abdf315b2301ae9c63b26f548eff302df8e2a
+ms.sourcegitcommit: fec1010e405f14e792d650aee0312b78fced3343
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30492858"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720279"
 ---
 # <a name="supervision-policies-in-office-365"></a>Политики контроля в Office 365
 
@@ -99,7 +99,7 @@ ms.locfileid: "30492858"
 
 #### <a name="custom-keyword-dictionaries"></a>Настраиваемые словари ключевых слов
 
-Настройка словарей ключевых слов (или лексиконов) может обеспечить простое управление ключевыми словами, характерными для вашей организации или отрасли, и может поддерживать до 100 000 терминов для каждого словаря. При необходимости можно применить несколько настраиваемых словарей ключевых слов к одной политике или иметь один словарь ключевых слов для каждой политики. Эти словари назначаются в политике контроля и могут быть источниками из файла (например, из списка. CSV или. txt) или из списка, который можно [ввести непосредственно в командлете PowerShell](create-a-keyword-dictionary.md).
+Настройка словарей ключевых слов (или лексиконов) может обеспечить простое управление ключевыми словами, характерными для вашей организации или отрасли, и может поддерживать до 100 000 терминов для каждого словаря. При необходимости можно применить несколько настраиваемых словарей ключевых слов к одной политике или иметь один словарь ключевых слов для каждой политики. Эти словари назначаются в политике контроля и могут быть источниками из файла (например, из файла с расширением CSV или txt) или из списка, который можно [импортировать в центр соответствия требованиям](create-a-keyword-dictionary.md).
 
 #### <a name="conditional-settings"></a>Условные параметры
 
@@ -249,16 +249,17 @@ ms.locfileid: "30492858"
 
 |**Действие**|**Связанные команды**|
 |:-----|:-----|
-| Создание политики | New — Супервисориревиевполици <br> New — Супервисориревиевруле |
-| Изменение политики | Set — Супервисориревиевполици <br> Set — Супервисориревиевруле |
-| Удаление политики| ReMove — Супервисориревиевполици |
+| Создание политики | [New — SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewpolicyv2) <br> [New — Супервисориревиевруле](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewrule) |
+| Изменение политики | [Set — SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewpolicyv2) <br> [Set — Супервисориревиевруле](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewrule) |
+| Удаление политики| [ReMove — SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/remove-supervisoryreviewpolicyv2) |
+| Просмотр политики | [Get — SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/get-supervisoryreviewpolicyv2) |
 
 Аудит можно получить с помощью функции поиска в журнале единого аудита или с помощью командлета PowerShell [Search — UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog) PowerShell.
 
 Например, в приведенном ниже примере возвращаются действия для всех действий супервизора (политик и правил) и подробные сведения о каждом из них:
 
 ```
-Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -RecordType DataGovernance -ResultSize 5000 | Where-Object {$_.Operations -like "*SupervisoryReview*"} | fl CreationDate,Operations,UserIds,AuditData 
+Search-UnifiedAuditLog -StartDate 3/1/2019 -EndDate ([System.DateTime]::Now) -RecordType DataGovernance -ResultSize 5000 | Where-Object {$_.Operations -like "*SupervisoryReview*"}  | fl CreationDate,Operations,UserIds,AuditData
 ```
 
 В дополнение к сведениям, представленным в разделе Отчеты и журналы, можно также использовать командлет [Get – супервисориревиевактивити](https://docs.microsoft.com/powershell/module/exchange/reporting/get-supervisoryreviewactivity?view=exchange-ps) PowerShell, чтобы получить полный подробный список всех действий политики контроля.
