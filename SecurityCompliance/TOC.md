@@ -88,12 +88,12 @@
 ### [Просмотр видеороликов от группы управления данными Майкрософт](https://go.microsoft.com/fwlink/?linkid=867039)
 
 # [Защита от угроз](protect-against-threats.md)
+## [Краткое руководство по началу работы. Настройка расширенной защиты от угроз в Office 365](checklist-atp-setup.md)
 ## [Защита от нежелательной почты и вредоносных программ](anti-spam-and-anti-malware-protection.md)
 ### [Обзор EOP](videos-for-getting-started-with-protecting-your-email.md)
 ### [Защита от нежелательной почты в Office 365](anti-spam-protection.md)
 ### [Как сделать так, чтобы настоящая почта не помечалась в качестве спама в Office 365](prevent-email-from-being-marked-as-spam.md)
 ### [Как уменьшить количество нежелательных сообщений в Office 365](reduce-spam-email.md)
-### [Как сделать так, чтобы настоящая почта не помечалась в качестве спама в EOP и Office 365](prevent-email-from-being-marked-as-spam-0.md)
 ### [Контроль над исходящим спамом в Office 365](outbound-spam-controls.md)
 ### [Блокировка спама с помощью фильтра нежелательной почты Office 365 для предотвращения ложноотрицательных результатов](reduce-spam-email.md)
 ### [Автоматическая очистка для защиты от нежелательной почты и вредоносных программ](zero-hour-auto-purge.md)
@@ -369,7 +369,7 @@
 
 # [Поиск в журнале аудита](search-the-audit-log-in-security-and-compliance.md)
 ## [Включение и отключение поиска в журнале аудита](turn-audit-log-search-on-or-off.md)
-## [Включение аудита почтовых ящиков](enable-mailbox-auditing.md)
+## [Управление аудитом почтовых ящиков](enable-mailbox-auditing.md)
 ## [Подробные свойства в журнале аудита](detailed-properties-in-the-office-365-audit-log.md)
 ## [Использование журнала аудита для устранения неполадок в типовых сценариях](auditing-troubleshooting-scenarios.md)
 ## [Использование аудита общего доступа в журнале аудита](use-sharing-auditing.md)
