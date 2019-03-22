@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: bf48e605dc321da4b7a9d5343d18f90fbb179073
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: f6db3c178e584c45cf282158c58fb5125dc41f3f
+ms.sourcegitcommit: cf9d9b545a7c153d314aa9c08c7fb16fcd785b3e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30296732"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30737679"
 ---
 # <a name="error-remediation-when-processing-data"></a>Исправление ошибок при обработке данных
 
@@ -62,8 +62,8 @@ ms.locfileid: "30296732"
 
     ![Подготовка исправления ошибок](../media/f364ab4d-31c5-4375-b69f-650f694a2f69.png)
 
-     > [!NOTE]
-     > Если у вас возникли проблемы с выполнением https://go.microsoft.com/fwlink/?linkid=2038117 этой команды, ознакомьтесь с советами по устранению неполадок.
+    > [!NOTE]
+    > Если предоставленная команда AzCopy не удалась, обратитесь к разделу [устраненИе неполадок AzCopy в Advanced eDiscovery (предварительНая версия)](troubleshooting-azcopy.md)
 
 7. После загрузки файлов вы можете исправить их с помощью соответствующего средства. Для файлов, защищенных паролем, можно использовать несколько средств взлома паролей. Если вы знаете пароли этих файлов, вы можете открыть их и удалить защиту паролем.
     > [!NOTE]
@@ -89,7 +89,7 @@ ms.locfileid: "30296732"
 
 - Документекстрактедурл
 - Екстрактедтекстсизе
-- Хастекст
+- HasText
 - Исеррорремедиате
 - Испарентекстрактедурл
 - Итемекстрактедурл
