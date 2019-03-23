@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: С помощью меток конфиденциальности в Office 365 вы можете классифицировать и защищать конфиденциальное содержимое, не мешая совместной работе и производительности пользователей. Метки конфиденциальности можно использовать для применения параметров защиты, например шифрования или подложек для содержимого с метками.
-ms.openlocfilehash: 05f53c508126962d36be3e131413d5a4314875a9
-ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
+ms.openlocfilehash: ceb3373f6de24d52f8e65c322a9e7eca4fe92618
+ms.sourcegitcommit: cf9d9b545a7c153d314aa9c08c7fb16fcd785b3e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30455031"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30737689"
 ---
 # <a name="overview-of-sensitivity-labels"></a>Обзор меток конфиденциальности
 
@@ -35,6 +35,8 @@ ms.locfileid: "30455031"
 - **Защитить контент в приложениях Office на разных платформах и устройствах.** Метки конфиденциальности применяются в приложениях Office в Windows, Mac, iOS и Android. Поддержка веб-приложений Office ожидается в ближайшее время.
     
 - **Запретить конфиденциальному контенту покидать вашу организацию на устройствах под управлением Windows**, используя защиту конечных точек в Microsoft Intune. После применения метки конфиденциальности к контенту, расположенному на устройстве с Windows, защита конечных точек позволяет предотвратить копирование контента в сторонние приложения, например Twitter или Gmail, или копирование на съемный носитель, например USB-накопитель.
+
+- **Защитить контент в сторонних приложениях и службах** с помощью Microsoft Cloud App Security. С помощью Cloud App Security можно определять, классифицировать, помечать и защищать контент в сторонних приложениях и службах, таких как SalesForce, Box или DropBox, даже в том случае, если стороннее приложение или служба не считывает или не поддерживает метки конфиденциальности.
 
 - **Расширить применение меток конфиденциальности для сторонних приложений и служб.** С помощью пакета SDK Microsoft Information Protection сторонние приложения на Windows, Mac и Linux могут считывать метки конфиденциальности и применять параметры защиты. Поддержка приложений для iOS и Android ожидается в ближайшее время.
 
@@ -222,6 +224,19 @@ ms.locfileid: "30455031"
 - Создание политики Windows Information Protection (WIP), применяемой к устройствам конечных точек. Это можно выполнить в любом из этих расположений:
     - [Создание политики Windows Information Protection (WIP) с использованием MDM с помощью портала Azure для Microsoft Intune](https://docs.microsoft.com/ru-RU/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure)
     - [Создание и развертывание политики Windows Information Protection (WIP) с помощью System Center Configuration Manager](https://docs.microsoft.com/ru-RU/windows/security/information-protection/windows-information-protection/create-wip-policy-using-sccm)
+
+## <a name="protect-content-in-third-party-apps-and-services-by-using-microsoft-cloud-app-security"></a>Защита содержимого в сторонних приложениях и службах с помощью Microsoft Cloud App Security
+
+Защитите содержимое в сторонних приложениях и службах, используя Cloud App Security (CAS). С помощью CAS можно определять, классифицировать, помечать и защищать контент в сторонних приложениях и службах, таких как SalesForce, Box или Dropbox. Например, Dropbox может не распознать метку конфиденциальности, но служба CAS обеспечит защиту помеченного контента в этом расположении.
+
+Дополнительные сведения см. в статье [Автоматическое применение меток классификации Azure Information Protection](https://docs.microsoft.com/ru-RU/cloud-app-security/use-case-information-protection).
+
+### <a name="important-prerequisites"></a>Важные предварительные условия
+
+Прежде чем метки конфиденциальности смогут использовать CAS, требуется выполнить предварительные условия, описанные в статье [Автоматическое применение меток классификации Azure Information Protection](https://docs.microsoft.com/ru-RU/cloud-app-security/use-case-information-protection). В ней описаны следующие предварительные условия:
+
+- [Включение Cloud App Security и Azure Information Protection](https://docs.microsoft.com/ru-RU/cloud-app-security/azip-integration) для вашего клиента.
+- [Подключение приложения](https://docs.microsoft.com/ru-RU/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps) к Cloud App Security.
 
 ## <a name="extend-sensitivity-labels-to-third-party-apps-and-services-by-using-the-microsoft-information-protection-sdk"></a>Расширение применения меток конфиденциальности для сторонних приложений и служб с помощью SDK Microsoft Information Protection
 
