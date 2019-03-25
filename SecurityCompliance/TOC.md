@@ -3,13 +3,15 @@
 ## [Настройка вашего клиента Office 365 для улучшения безопасности](tenant-wide-setup-for-increased-security.md)
 ## [Переход в Центр безопасности и соответствия требованиям](go-to-the-securitycompliance-center.md)
 ## [Подготовка к новому Центру безопасности Microsoft 365 и Центру соответствия требованиям Microsoft 365](microsoft-security-and-compliance.md)
+## [Центр безопасности Microsoft 365](overview-security-center.md)
+### [Оценка безопасности (Майкрософт)](microsoft-secure-score.md)
 ## [Оценка безопасности Office 365](office-365-secure-score.md)
-## [Оценка безопасности (Майкрософт)](microsoft-secure-score.md)
 ## [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md)
 ## [Предоставление пользователям доступа к Центру безопасности и соответствия требованиям](grant-access-to-the-security-and-compliance-center.md)
 ## [Обзор панели мониторинга безопасности](security-dashboard.md)
 ## [Использование бесплатной подписки на Azure Active Directory](use-your-free-azure-ad-subscription-in-office-365.md)
 ## [Планирование безопасности и соответствия требованиям в Office 365](plan-for-security-and-compliance.md)
+
 # Защита доступа к данным и службам
 ## [Защита доступа к данным и службам в Office 365](protect-access-to-data-and-services.md)
 
@@ -88,6 +90,8 @@
 ### [Просмотр видеороликов от группы управления данными Майкрософт](https://go.microsoft.com/fwlink/?linkid=867039)
 
 # [Защита от угроз](protect-against-threats.md)
+## [Выслеживание в Microsoft 365](hunting.md)
+## [Использование аналитики угроз для знакомства с последними атаками](latest-attack-campaigns.md)
 ## [Краткое руководство по началу работы. Настройка расширенной защиты от угроз в Office 365](checklist-atp-setup.md)
 ## [Защита от нежелательной почты и вредоносных программ](anti-spam-and-anti-malware-protection.md)
 ### [Обзор EOP](videos-for-getting-started-with-protecting-your-email.md)
@@ -380,6 +384,11 @@
 ## [Поиск действий по обнаружению электронных данных в журнале аудита](search-for-ediscovery-activities-in-the-audit-log.md)
 
 # Мониторинг безопасности и соответствия требованиям
+## [Мониторинг и отчетность Центра безопасности Microsoft 365](monitoring-and-reporting.md)
+### [Мониторинг и отчеты по удостоверениям в Центре безопасности Microsoft 365](monitor-and-report-identities.md)
+### [Мониторинг данных в Центре безопасности Microsoft 365](monitor-data.md)
+### [Мониторинг устройств в Центре безопасности Microsoft 365](monitor-devices.md)
+### [Мониторинг приложений в Центре безопасности Microsoft 365](monitor-apps.md)
 ## [Политики оповещений](alert-policies.md)
 ## [Интеллектуальные отчеты и аналитика в Центре безопасности и соответствия требованиям](reports-and-insights-in-security-and-compliance.md)
 ### [Просмотр отчетов о безопасности почты в Центре безопасности и соответствия требованиям](view-email-security-reports.md)
