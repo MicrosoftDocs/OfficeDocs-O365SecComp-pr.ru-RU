@@ -3,7 +3,7 @@ title: Разработка архитектуры схемы классифик
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
-ms.date: 2/7/2018
+ms.date: ''
 ms.audience: ITPro
 ms.topic: overview
 ms.collection:
@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Определите, целесообразно ли вашей организации внедрять метки в рамках плана по соблюдению регламента GDPR.
-ms.openlocfilehash: be700d0b055346822ddd63c3c250fad048a7fce8
-ms.sourcegitcommit: 15983a08a4ae9c2050344172c7e957830ce3867e
+ms.openlocfilehash: 79c68b8340209c3cc3e3a7081a4075c31a112e80
+ms.sourcegitcommit: ef27da3ea5340d6e7a2eaa1288e2e005ef8e4788
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "30373870"
+ms.lasthandoff: 03/23/2019
+ms.locfileid: "30789444"
 ---
 # <a name="architect-a-classification-schema-for-personal-data"></a>Разработка архитектуры схемы классификации для персональных данных
 
@@ -45,13 +45,13 @@ ms.locfileid: "30373870"
 
 -   В будущем их можно будет применять с Cloud App Security для обнаружения конфиденциальной информации в других приложениях SaaS.
 
-### <a name="option-2-use-sensitive-information-types--office-labels"></a>Вариант 2. Использование типов конфиденциальной информации и меток Office
+### <a name="option-2-use-sensitive-information-types--retention-labels"></a>Вариант 2. Использование типов конфиденциальной информации и меток хранения
 
 -   Типы конфиденциальной информации — это необходимый компонент, так как они понадобятся для автоматического применения меток к персональным данным, подпадающим под действие регламента GDPR.
 
--   Метки Office позволяют включить персональные данные, на которые распространяется регламент GDPR, в расширенный план по управлению данными для вашей организации.
+-   Метки хранения позволяют включить персональные данные, на которые распространяется регламент GDPR, в расширенный план по управлению данными для вашей организации.
 
--   В будущем метки Office будут объединены с метками Azure Information Protection для создания единой подсистемы классификации и применения меток.
+
 
 ## <a name="develop-a-label-schema-that-includes-personal-data"></a>Разработка схемы меток, включающей персональные данные
 
