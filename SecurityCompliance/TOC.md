@@ -166,7 +166,7 @@
 #### [Шифрование в Microsoft Dynamics 365](office-365-encryption-in-microsoft-dynamics-365.md)
 #### [Шифрование в Azure](office-365-azure-encryption.md)
 
-## [Расширенная защита от угроз (безопасные ссылки и безопасные вложения)](office-365-atp.md)
+## [Расширенная защита от угроз](office-365-atp.md)
 ### [Безопасные ссылки ATP](atp-safe-links.md)
 #### [Настройка политик безопасных ссылок ATP](set-up-atp-safe-links-policies.md)
 #### [Создание настраиваемого списка URL-адресов, не подлежащих переопределению](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)
@@ -183,7 +183,10 @@
 ## [Анализ угроз и реагирование на них](office-365-ti.md)
 ### [Начало работы](get-started-with-ti.md)
 ### [Журналы учета угроз](threat-trackers.md)
-### [Использование обозревателя в Центре безопасности и соответствия требованиям](use-explorer-in-security-and-compliance.md)
+### [Обозреватель угроз](use-explorer-in-security-and-compliance.md)
+#### [Представления обозревателя угроз](threat-explorer-views.md)
+#### [Ищите и изучайте нежелательную почту, которая былы доставлена](investigate-malicious-email-that-was-delivered.md)
+### [Автоматизированный анализ угроз и реакция на угрозы](automated-investigation-response-office.md)
 ### [Просмотр отчетов ATP](view-reports-for-atp.md)
 ### [Имитатор атак в Office 365](attack-simulator.md)
 ### [Защита пользователей с помощью анализа угроз и реагирования на них](keep-users-safe-with-office-365-ti.md)
@@ -319,6 +322,7 @@
 #### [Ограничения в Advanced eDiscovery (предварительная версия)](compliance20/limits-ediscovery20.md)
 #### [Поддерживаемые типы файлов](compliance20/supported-filetypes-ediscovery20.md)
 #### [Поля метаданных документа](compliance20/document-metadata-fields.md)
+#### [Устранение неполадок AzCopy](compliance20/troubleshooting-azcopy.md)
 
 ## [Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
 ### [Начало работы в Advanced eDiscovery](quick-setup-for-advanced-ediscovery.md)
