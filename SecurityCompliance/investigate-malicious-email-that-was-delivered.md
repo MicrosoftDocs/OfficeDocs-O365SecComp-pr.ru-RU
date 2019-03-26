@@ -1,5 +1,5 @@
 ---
-title: Поиск и исследование вредоносных сообщений электронной почты, которые были доставлены (Office 365 Threat Intelligence)
+title: 'Поиск и исследование вредоносных сообщений электронной почты, которые были доставлены (Office 365: исследование угроз и реагирование на них'
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
@@ -15,12 +15,12 @@ ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как использовать функции расследования и реагирования на угрозы для поиска и изучения вредоносных сообщений электронной почты.
-ms.openlocfilehash: 167a587e16b464bcc7b45bca25e9f3adceda758c
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.openlocfilehash: d19833a5d2acf69b79cca7e58c5796d967337c9f
+ms.sourcegitcommit: a56128c7be5d59e976851c27301031e19fa1997d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692458"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30732252"
 ---
 # <a name="find-and-investigate-malicious-email-that-was-delivered-office-365-advanced-threat-protection-plan-2"></a>Поиск и исследование вредоносных сообщений электронной почты, которые были доставлены (Office 365 Advanced Threat Protection, план 2)
 
@@ -37,7 +37,7 @@ ms.locfileid: "30692458"
     
 - [Ведение журнала аудита Office 365](turn-audit-log-search-on-or-off.md) включено для вашей организации. 
     
-- В организации определены политики для защиты от нежелательной почты, защиты от вредоносных программ, защиты от фишинга и т. д. [В разделе Управление угрозами в центре безопасности &amp; и соответствия требованиям Office 365](threat-management.md).
+- В организации определены политики для защиты от нежелательной почты, защиты от вредоносных программ, защиты от фишинга и т. д. Ознакомьтесь со статьей [Office 365 Advanced Threat protection](office-365-atp.md).
     
 - Вы являетесь глобальным администратором Office 365 или администратором безопасности или ролью поиска и очистки, назначенными в центре безопасности &amp; и соответствия требованиям. Ознакомьтесь с разРешениями [в центре &amp; безопасности и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md).
     

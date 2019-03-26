@@ -3,7 +3,7 @@ title: Исследование угроз для Office 365 и ответ на 
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/09/2019
+ms.date: 03/18/2019
 ms.audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: 32405da5-bee1-4a4b-82e5-8399df94c512
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как функции интеллектуального анализа в Office 365 Advanced Threat protection помогают находить угрозы в Организации, отвечать на вредоносные программы, фишингы и другие атаки, обнаруженные в Office 365 от вашего имени, и искать угрозу показател.
-ms.openlocfilehash: 3d7bc40c4d5bec0c218adf093655cbbccde07ff9
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.openlocfilehash: 6f7e6e0a49bb4035458af2e9d7e45fd954a1f9fc
+ms.sourcegitcommit: a56128c7be5d59e976851c27301031e19fa1997d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693508"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30732272"
 ---
 # <a name="office-365-threat-investigation-and-response"></a>Исследование угроз для Office 365 и ответ на них
 
@@ -49,7 +49,7 @@ ms.locfileid: "30693508"
 
 - **Если в вашей организации ранее имела значение office 365 Threat Intelligence (но не office 365 Advanced Threat protection) в качестве надстройки** к другой подписке на Office 365, теперь у вас будет Office 365 Advanced Threat Protection Plan 2, который включает Исследование угроз и возможности реагирования. 
 
-- **Если в Организации ранее было установлено приложение office 365 Advanced Threat protection (но не office 365 Threat Intelligence) в качестве надстройки** к другой подписке на Office 365, вы получите Office 365 Advanced Threat Protection Plan 1. В том числе Office 365 Advanced Threat protection (план 1) (но не для расследования угроз и возможностей реагирования).
+- **Если в Организации ранее было установлено приложение office 365 Advanced Threat protection (но не office 365 Threat Intelligence) в качестве надстройки** к другой подписке на Office 365, теперь у вас будет Office 365 Advanced Threat Protection Plan (план 1). В том числе Office 365 Advanced Threat protection (план 1) (но не для расследования угроз и возможностей реагирования).
 
 Дополнительные сведения см. в статье [office 365 Advanced Threat protection Plans and ценах](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat protection Description Service](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp)
 
@@ -60,14 +60,20 @@ ms.locfileid: "30693508"
 - [Начало работы с расследованиям угроз и ответом](get-started-with-ti.md) (сюда входят сведения о необходимых ролях) 
     
 - [Сведения о средствах отслеживания угроз — новые и полезные](threat-trackers.md)
+
+- [Автоматизированное исследование и реагирование (AIR) с помощью логики операций с угрозами Office 365](automated-investigation-response-office.md)
+
+- [Использование обозревателя угроз в центре безопасности &amp; и соответствия требованиям](use-explorer-in-security-and-compliance.md)
     
-- [Поиск и исследование вредоносных сообщений электронной почты, которые были доставлены](investigate-malicious-email-that-was-delivered.md)
+- [Ищите и изучайте нежелательную почту, которая былы доставлена](investigate-malicious-email-that-was-delivered.md)
     
 - [Использование симулятора атак](attack-simulator.md)
     
 - [Интеграция расследования угроз и ответа с помощью Advanced Threat Protection в Защитнике Windows](integrate-office-365-ti-with-wdatp.md)
     
 ## <a name="related-topics"></a>Связанные статьи
+
+[Представления обозревателя угроз](threat-explorer-views.md)
 
 [Защита от угроз в Office 365](protect-against-threats.md)
   

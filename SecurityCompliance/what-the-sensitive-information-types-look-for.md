@@ -1,7 +1,7 @@
 ---
 title: Что позволяют искать типы конфиденциальной информации
-ms.author: stephow
-author: stephow-MSFT
+ms.author: deniseb
+author: denisebmsft
 manager: laurawi
 ms.date: 6/29/2018
 ms.audience: Admin
@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Защита от потери данных (DLP) в центре безопасности &amp; Office 365 включает в себя 80 типов конфиденциальной информации, готовых к использованию в политиках защиты от потери данных. В этой статье перечислены все эти типы конфиденциальной информации и показано, каким именно образом политика защиты от потери данных выявляет каждый тип.
-ms.openlocfilehash: e9811b285e98a791570dc91e275cb5cead4f8bc9
-ms.sourcegitcommit: 6e8e2b43a4bea31c1e835c5b050824651c6a0094
+ms.openlocfilehash: d161435c75149183289cfbfd6abe79d55e371e31
+ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30537646"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30639196"
 ---
 # <a name="what-the-sensitive-information-types-look-for"></a>Что позволяют искать типы конфиденциальной информации
 
@@ -125,7 +125,7 @@ ms.locfileid: "30537646"
 #### <a name="keywordargentinanationalid"></a>Кэйворд_аржентина_натионал_ид
 
 - Argentina National Identity number 
-- Удостоверение 
+- Идентификация 
 - Идентификация национальной идентификационной карточки 
 - DNI 
 - Национальная реестр пользователей NIC 
@@ -616,14 +616,14 @@ OR
 - онебокс
 - localhost
 - 127.0.0.1
-- тестакс. <!--no-hyperlink-->com-
-- s — int.<!--no-hyperlink-->NET
+- тестакс.<!--no-hyperlink-->порта
+- s — int.<!--no-hyperlink-->команде
 
 ## <a name="azure-iaas-database-connection-string-and-azure-sql-connection-string"></a>Строка подключения к базе данных Azure IAAS и строка подключения к SQL Azure
 
 ### <a name="format"></a>Format
 
-Строка "Server", "Server" или "Data Source", за которой следуют символы и строки, описанные в приведенном ниже шаблоне, в том числе строку "клаудапп. Azure". <!--no-hyperlink-->com "или" клаудапп. Azure. <!--no-hyperlink-->NET "или" Database. Windows. <!--no-hyperlink-->NET ", а также строку" Password "или" Password "или" pwd ".
+Строка "Server", "Server" или "Data Source", за которой следуют символы и строки, описанные в приведенном ниже шаблоне, в том числе строку "клаудапп. Azure".<!--no-hyperlink-->com "или" клаудапп. Azure.<!--no-hyperlink-->NET "или" Database. Windows.<!--no-hyperlink-->NET ", а также строку" Password "или" Password "или" pwd ".
 
 ### <a name="pattern"></a>Шаблон
 
@@ -632,7 +632,7 @@ OR
 - Знак равенства (=);
 - 0-2 символов пробела
 - Любая комбинация из 1-200 прописных или строчных букв, цифр, символов, специальных символов и пробелов.
-- Строка "клаудапп. Azure. <!--no-hyperlink-->com "," клаудапп. Azure. <!--no-hyperlink-->NET "или" Database. Windows. <!--no-hyperlink-->NET "
+- Строка "клаудапп. Azure.<!--no-hyperlink-->com "," клаудапп. Azure.<!--no-hyperlink-->NET "или" Database. Windows.<!--no-hyperlink-->команде
 - Любая комбинация из 1-300 прописных или строчных букв, цифр, символов, специальных символов и пробелов.
 - Строка "Password", "Password" или "pwd"
 - 0-2 символов пробела
@@ -676,14 +676,14 @@ OR
 - онебокс
 - localhost
 - 127.0.0.1
-- тестакс. <!--no-hyperlink-->com-
-- s — int.<!--no-hyperlink-->NET
+- тестакс.<!--no-hyperlink-->порта
+- s — int.<!--no-hyperlink-->команде
 
 ## <a name="azure-iot-connection-string"></a>Строка подключения Azure IoT
 
 ### <a name="format"></a>Format
 
-Строка "HostName", за которой следуют символы и строки, описанные в приведенном ниже шаблоне, включая строки "Azure — Devices. <!--no-hyperlink-->NET "и" шаредакцесскэй ".
+Строка "HostName", за которой следуют символы и строки, описанные в приведенном ниже шаблоне, включая строки "Azure — Devices.<!--no-hyperlink-->NET "и" Шаредакцесскэй ".
 
 ### <a name="pattern"></a>Шаблон
 
@@ -692,7 +692,7 @@ OR
 - Знак равенства (=);
 - 0-2 символов пробела
 - Любая комбинация из 1-200 прописных или строчных букв, цифр, символов, специальных символов и пробелов.
-- Строка "Azure — Devices. <!--no-hyperlink-->NET "
+- Строка "Azure — Devices.<!--no-hyperlink-->команде
 - Любая комбинация из 1-200 прописных или строчных букв, цифр, символов, специальных символов и пробелов.
 - Строка "Шаредакцесскэй"
 - 0-2 символов пробела
@@ -736,8 +736,8 @@ OR
 - онебокс
 - localhost
 - 127.0.0.1
-- тестакс. <!--no-hyperlink-->com-
-- s — int.<!--no-hyperlink-->NET
+- тестакс.<!--no-hyperlink-->порта
+- s — int.<!--no-hyperlink-->команде
 
 ## <a name="azure-publish-setting-password"></a>Пароль для параметра публикации Azure
 
@@ -787,18 +787,18 @@ OR
 - онебокс
 - localhost
 - 127.0.0.1
-- тестакс. <!--no-hyperlink-->com-
-- s — int.<!--no-hyperlink-->NET
+- тестакс.<!--no-hyperlink-->порта
+- s — int.<!--no-hyperlink-->команде
 
 ## <a name="azure-redis-cache-connection-string"></a>Строка подключения к кэшу Azure Redis
 
 ### <a name="format"></a>Format
 
-Строка "Redis. Cache. Windows. <!--no-hyperlink-->NET, за которыми следуют символы и строки, описанные в приведенном ниже шаблоне, в том числе строку "Password" или "pwd".
+Строка "Redis. Cache. Windows.<!--no-hyperlink-->NET, за которыми следуют символы и строки, описанные в приведенном ниже шаблоне, в том числе строку "Password" или "pwd".
 
 ### <a name="pattern"></a>Шаблон
 
-- Строка "Redis. Cache. Windows. <!--no-hyperlink-->NET "
+- Строка "Redis. Cache. Windows.<!--no-hyperlink-->команде
 - Любая комбинация из 1-200 прописных или строчных букв, цифр, символов, специальных символов и пробелов.
 - Строка "Password" или "pwd"
 - 0-2 символов пробела
@@ -842,8 +842,8 @@ OR
 - онебокс
 - localhost
 - 127.0.0.1
-- тестакс. <!--no-hyperlink-->com-
-- s — int.<!--no-hyperlink-->NET
+- тестакс.<!--no-hyperlink-->порта
+- s — int.<!--no-hyperlink-->команде
 
 ## <a name="azure-sas"></a>SAS Azure
 
@@ -883,7 +883,7 @@ OR
 
 ### <a name="format"></a>Format
 
-Строка "EndPoint", за которой следуют символы и строки, описанные в приведенном ниже шаблоне, в том числе строки "сервицебус. Windows. <!--no-hyperlink-->NET "и" шаредакцескэй ".
+Строка "EndPoint", за которой следуют символы и строки, описанные в приведенном ниже шаблоне, в том числе строки "сервицебус. Windows.<!--no-hyperlink-->NET "и" Шаредакцескэй ".
 
 ### <a name="pattern"></a>Шаблон
 
@@ -892,7 +892,7 @@ OR
 - Знак равенства (=);
 - 0-2 символов пробела
 - Любая комбинация из 1-200 прописных или строчных букв, цифр, символов, специальных символов и пробелов.
-- Строка "сервицебус. Windows. <!--no-hyperlink-->NET "
+- Строка "сервицебус. Windows.<!--no-hyperlink-->команде
 - Любая комбинация из 1-200 прописных или строчных букв, цифр, символов, специальных символов и пробелов.
 - Строка "Шаредакцесскэй"
 - 0-2 символов пробела
@@ -936,8 +936,8 @@ OR
 - онебокс
 - localhost
 - 127.0.0.1
-- тестакс. <!--no-hyperlink-->com-
-- s — int.<!--no-hyperlink-->NET
+- тестакс.<!--no-hyperlink-->порта
+- s — int.<!--no-hyperlink-->команде
 
 ## <a name="azure-storage-account-key"></a>Ключ учетной записи хранилища Azure
 
@@ -1002,8 +1002,8 @@ OR
 - онебокс
 - localhost
 - 127.0.0.1
-- тестакс. <!--no-hyperlink-->com-
-- s — int.<!--no-hyperlink-->NET
+- тестакс.<!--no-hyperlink-->порта
+- s — int.<!--no-hyperlink-->команде
 
 ## <a name="azure-storage-account-key-generic"></a>Ключ учетной записи хранилища Azure (общий)
 
@@ -1076,7 +1076,7 @@ OR
 
 #### <a name="keywordbelgiumnationalnumber"></a>Кэйворд_белгиум_натионал_нумбер
 
-- Удостоверение
+- Идентификация
 - Зарегистрировал
 - Процедура 
 - ИД 
@@ -2992,7 +2992,7 @@ OR
 
 Должен соответствовать одному из двух шаблонов:
 - 13 цифр, за которыми следует пробел, за которым следуют две цифры.<br/>
-или
+ или 
 - 15 последовательных цифр.
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -3706,7 +3706,7 @@ Dictionary
 
 ### <a name="pattern"></a>Шаблон
 
-Недопустим
+Ключевое слово
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -3739,7 +3739,7 @@ Dictionary
 
 ### <a name="pattern"></a>Шаблон
 
-Недопустим
+Ключевое слово
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -5041,8 +5041,8 @@ Dictionary
 - онебокс
 - localhost
 - 127.0.0.1
-- тестакс. <!--no-hyperlink-->com-
-- s — int.<!--no-hyperlink-->NET
+- тестакс.<!--no-hyperlink-->порта
+- s — int.<!--no-hyperlink-->команде
 
 ## <a name="sweden-national-id"></a>Национальный идентификатор для Швеции
 
