@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Определите, целесообразно ли вашей организации внедрять метки в рамках плана по соблюдению регламента GDPR.
-ms.openlocfilehash: 79c68b8340209c3cc3e3a7081a4075c31a112e80
-ms.sourcegitcommit: ef27da3ea5340d6e7a2eaa1288e2e005ef8e4788
+ms.openlocfilehash: 6886adaa09599b32eb2f3084efdea06fd5794af0
+ms.sourcegitcommit: ae7ebae8801a69a825a363443e2676379197de19
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2019
-ms.locfileid: "30789444"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30800301"
 ---
 # <a name="architect-a-classification-schema-for-personal-data"></a>Разработка архитектуры схемы классификации для персональных данных
 
@@ -41,9 +41,9 @@ ms.locfileid: "30789444"
 
 -   Этот вариант более простой, чем расширенный план по управлению данными с использованием меток.
 
--   Типы конфиденциальной информации используются с правилами защиты от потери данных (как и метки Office).
+-   Типы конфиденциальной информации используются с правилами защиты от потери данных (как и метки хранения).
 
--   В будущем их можно будет применять с Cloud App Security для обнаружения конфиденциальной информации в других приложениях SaaS.
+-   Типы конфиденциальной информации можно применять с Cloud App Security для обнаружения конфиденциальной информации в других приложениях SaaS.
 
 ### <a name="option-2-use-sensitive-information-types--retention-labels"></a>Вариант 2. Использование типов конфиденциальной информации и меток хранения
 
