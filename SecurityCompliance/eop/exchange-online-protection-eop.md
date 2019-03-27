@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 70ab4af2-fec4-4886-8e12-27d348649204
 description: Прежде чем приступить к работе с EOP, необходимо знать несколько моментов.
-ms.openlocfilehash: 878380adb039961334413019551847717ace0cc7
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.openlocfilehash: fdaeba4f38d2e7676b336519f6d04649ee9d8137
+ms.sourcegitcommit: c0d4fe3e43e22353f30034567ade28330266bcf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692328"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30900128"
 ---
 # <a name="exchange-online-protection"></a>Exchange Online Protection 
 
@@ -23,7 +23,7 @@ ms.locfileid: "30692328"
   
 - Дополнительные сведения о EOP см. в статье [Описание службы Exchange Online Protection](https://go.microsoft.com/fwlink/p/?LinkId=320619). Другие полезные источники: [Обзор Exchange Online Protection](exchange-online-protection-overview.md), [Общие вопросы и ответы по EOP](eop-general-faq.md) и [Функции EOP](eop-features.md), а также домашняя страница [Exchange Online Protection](https://go.microsoft.com/fwlink/?LinkId=279912).
     
-- Сведения о том, как начать работать с EOP, см. в статье [Настройка службы EOP](set-up-your-eop-service.md). В этом разделе указана последовательность действий, с помощью которой можно настроить и запустить EOP. Вы также можете посмотреть ряд обзорных видео в разделе [Видео о начале работы с EOP](videos-for-getting-started-with-eop.md).
+- Чтобы приступить к работе с EOP, новые клиенты должны заголовков, чтобы [настроить службу EOP](set-up-your-eop-service.md). В этом разделе описываются действия, которые помогут вам получить EOP и запустить его. 
     
 - Если вам необходима дополнительная помощь или вы хотите поделиться идеями, посетите [форум EOP](https://go.microsoft.com/fwlink/?LinkId=285351). 
     
@@ -36,8 +36,6 @@ ms.locfileid: "30692328"
 - [Обзор Exchange Online Protection](exchange-online-protection-overview.md) Описывает работу EOP и содержит ссылки на дополнительные сведения. 
     
 - [Функции EOP](eop-features.md) Список функций, доступных в службе EOP. 
-    
-- [Видео о начале работы с EOP](videos-for-getting-started-with-eop.md) . Представление службы EOP в виде ряда видео, описывающих общие задачи настройки. 
     
 - [Настройка службы EOP](set-up-your-eop-service.md) В этом разделе имеется пошаговое руководство по настройке службы EOP, а также ссылки на дополнительные сведения. 
     

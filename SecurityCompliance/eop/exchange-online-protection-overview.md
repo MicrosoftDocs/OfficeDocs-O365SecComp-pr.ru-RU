@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 1270a65f-ddc3-4430-b500-4d3a481efb1e
 description: Microsoft Exchange Online Protection (EOP) — это облачная служба фильтрации электронной почты, которая помогает защитить организацию от нежелательной почты и вредоносных программ, а также включает функции, позволяющие защитить организацию от нарушения политики обмена сообщениями.
-ms.openlocfilehash: e639b1185d75959061163b5391cf046bc789e3c4
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.openlocfilehash: c8450d5204635788a044538d701e23f4f77d1e0f
+ms.sourcegitcommit: c0d4fe3e43e22353f30034567ade28330266bcf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693528"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899948"
 ---
 # <a name="exchange-online-protection-overview"></a>Обзор Exchange Online Protection
 
@@ -77,8 +77,6 @@ Microsoft Exchange Online Protection (EOP)  это облачная служб
 ## <a name="for-more-information"></a>Дополнительные сведения
 
 [Функции EOP](eop-features.md)
-  
-[Видео о начале работы с EOP](videos-for-getting-started-with-eop.md)
   
 [Общие вопросы и ответы по EOP](eop-general-faq.md)
   
