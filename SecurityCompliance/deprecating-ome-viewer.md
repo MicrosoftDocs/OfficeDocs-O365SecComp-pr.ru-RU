@@ -14,12 +14,12 @@ ms.assetid: 6336cabb-b06e-402f-9e85-8bb9eb4ce68f
 ms.collection:
 - M365-security-compliance
 description: 15 августа 2018 мы будем удалять мобильное приложение средства просмотра Microsoft OME Message encryption () из магазинов Android и Apple. Для чтения сообщений электронной почты и вложений, которые были зашифрованы в предыдущей версии OME на телефонах Apple и Android, мобильному приложению "просмотр шифрования сообщений" в Office 365. Помимо удаления приложения "Просмотр OME", не вносите никаких изменений в предыдущую версию OME.
-ms.openlocfilehash: e2ca43f2bca6e419a5dfeb2ff5ca2c554598357c
-ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
+ms.openlocfilehash: 0aa8ef0f2610284c1e897290c3f337804d78185b
+ms.sourcegitcommit: 8a65a29aa3bfe5dcad0ff152a7cd795e02877dd9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30357480"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30936679"
 ---
 # <a name="deprecating-office-365-message-encryption-viewer-app"></a>НеРекомендуемое приложение для просмотра шифрования сообщений Office 365
 

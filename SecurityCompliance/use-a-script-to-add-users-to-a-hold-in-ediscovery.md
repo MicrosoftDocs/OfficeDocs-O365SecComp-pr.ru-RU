@@ -14,12 +14,12 @@ search.appverid:
 - MBS150
 ms.assetid: bad352ff-d5d2-45d8-ac2a-6cb832f10e73
 description: Запустите сценарий, чтобы быстро добавить почтовые ящики и сайты OneDrive для бизнеса в новое удержание, связанное с вариантом обнаружения электронных данных &amp; в центре безопасности и соответствия требованиям Office 365.
-ms.openlocfilehash: b9d34f4576299dccf0f751c7f204639b5a770b32
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: f71c82a830f029f8137a60d8329e30be0e7eeb46
+ms.sourcegitcommit: 54a2cbe5d13f448e0c28655bdf88deb9e5434cac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214289"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30935244"
 ---
 # <a name="use-a-script-to-add-users-to-a-hold-in-an-ediscovery-case-in-the-office-365-security-amp-compliance-center"></a>Использование скрипта для добавления пользователей в удержание в случае обнаружения электронных данных в центре безопасности &amp; и соответствия требованиям Office 365
 
@@ -29,13 +29,13 @@ ms.locfileid: "30214289"
   
 Выполните следующие действия:
   
-[Шаг 1. Установка командной консоли SharePoint Online](use-a-script-to-add-users-to-a-hold-in-ediscovery.md#step1)
+[Шаг 1. Установка командной консоли SharePoint Online](#step-1-install-the-sharepoint-online-management-shell)
   
 [Шаг 2: Создание списка пользователей](use-a-script-to-add-users-to-a-hold-in-ediscovery.md#step2)
   
 [Шаг 3: запуск скрипта для создания удержания и добавления пользователей](use-a-script-to-add-users-to-a-hold-in-ediscovery.md#step3)
   
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Перед началом работы
 
 - Необходимо быть участником группы ролей "Диспетчер обнаружения электронных данных" в центре соответствия &amp; требованиям безопасности и глобальном администраторе SharePoint Online для запуска скрипта на шаге 3. Дополнительные сведения см в разделе [Назначение разрешений обнаружения электронных данных в центре безопасности &amp; Office 365](assign-ediscovery-permissions.md).
     

@@ -13,14 +13,16 @@ search.appverid:
 - MET150
 ms.assetid: 239ce6eb-4e81-42db-bf86-a01362fed65c
 description: Узнайте, как использовать IRM SharePoint Online с помощью службы управления правами (RMS) Microsoft Azure Active Directory для защиты списков и библиотек документов SharePoint.
-ms.openlocfilehash: a5ac2cf5f33f3957e4cf17660461ad2d719d7c83
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 6b68135720846a0e74f5b0272dc5f25272381284
+ms.sourcegitcommit: 54a2cbe5d13f448e0c28655bdf88deb9e5434cac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30217709"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30935134"
 ---
 # <a name="set-up-information-rights-management-irm-in-sharepoint-admin-center"></a>Set up Information Rights Management (IRM) in SharePoint admin center
+
+## <a name="introduction"></a>Введение
 
 В SharePoint Online защита IRM применяется к файлам на уровне списка и библиотеки. Прежде чем ваша организация сможет использовать защиту IRM, сначала необходимо настроить управление правами. Служба управления правами на доступ к данным Azure использует службу управления правами Azure из Azure Information Protection для шифрования и назначения ограничений на использование. Некоторые планы Office 365 включают в себя управление правами Azure, но не все. Чтобы узнать больше, прочитайте [о том, как приложения и службы Office поддерживают управление правами Azure](https://docs.microsoft.com/azure/information-protection/understand-explore/office-apps-services-support).
   
@@ -32,7 +34,7 @@ ms.locfileid: "30217709"
   
 1. Войдите в Office 365 в качестве глобального администратора или администратора SharePoint.
     
-2. Щелкните значок средства запуска приложений ![Значок средства запуска приложений в Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) в левом верхнем углу и выберите плитку **Администратор**, чтобы открыть Центр администрирования Office 365. (Если плитка "Администратор" не отображается, у вас отсутствуют разрешения администратора Office 365 в вашей организации). 
+2. Нажмите значок ![средства запуска приложений значок средства запуска приложений в Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) в левом верхнем углу и выберите **Администратор** , чтобы открыть центр администрирования Office 365. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. В левой области выберите пункт **центры** \> администрирования **SharePoint**.
     
@@ -70,6 +72,5 @@ SharePoint Online поддерживает шифрование следующи
   
 Новый клиент синхронизации OneDrive для Windows теперь поддерживает синхронизацию библиотек документов SharePoint, защищенных с помощью IRM, и расположений OneDrive (при условии, что для параметра IRM для библиотеки не задан срок действия прав доступа к документу). Чтобы получить дополнительные сведения или приступить к развертыванию нового клиента синхронизации, ознакомьтесь [со статьЕй развертывание нового клиента синхронизации OneDrive для Windows](https://support.office.com/article/3f3a511c-30c6-404a-98bf-76f95c519668).
   
-[К началу страницы](set-up-irm-in-sp-admin-center.md#__top)
-  
+[Top of page](#introduction)  
 

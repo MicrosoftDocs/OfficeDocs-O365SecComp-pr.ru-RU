@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: В этой статье объясняется, как Office 365 борется с фишинговыми атаками, которые используют фальшивые домены отправителя, то есть домены, которые подверглись спуфингу. Эта задача выполняется с помощью анализа и блокировки тех, которые не могут пройти проверку подлинности ни с помощью стандартных методов аутентификации с помощью электронной почты, ни с помощью техник репутации отправителя. Это изменение было реализовано, чтобы уменьшить число фишинговых атак на организаций, использующие Office 365.
-ms.openlocfilehash: 8b308e4b5ce651632834884c12a4500989b43bf5
-ms.sourcegitcommit: f6073deec39a18581ed12abef18728417a52cdf4
+ms.openlocfilehash: 00cf4d6ba0fe7bc9bc081466d7b23a8a9b75631e
+ms.sourcegitcommit: 8a65a29aa3bfe5dcad0ff152a7cd795e02877dd9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747585"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30936799"
 ---
 # <a name="anti-spoofing-protection-in-office-365"></a>Защита от спуфинга в Office 365
 
