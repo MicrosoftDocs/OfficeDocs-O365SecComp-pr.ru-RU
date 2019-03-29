@@ -1,74 +1,53 @@
 ---
-title: Видео о начале работы с EOP
+title: Что такое EOP
 ms.author: tracyp
-author: MSFTTracyP
+author: msfttracyp
+ms.reviewer: andypunt
 manager: laurawi
-ms.date: 3/13/2015
+ms.date: 2/25/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
+ms.custom: TN2DMC
 localization_priority: Normal
-ms.assetid: c9c39ada-6100-4034-a479-8bd39d428498
-ms.collection:
-- M365-security-compliance
-description: Следующая серия видеороликов поможет вам настроить и начать использовать размещенную службу фильтрации электронной почты Exchange Online Protection (EOP).
-ms.openlocfilehash: 1e8aadd173f4e30c528679347171230e83752af0
-ms.sourcegitcommit: c0d4fe3e43e22353f30034567ade28330266bcf7
+search.appverid:
+- MET150
+ms.assetid: 393b0050-7c7e-49e6-a03d-b1e09fe4de9e
+description: Этот вводный документ поможет вам изучить Exchange Online Protection (EOP) и некоторую важную терминологию. Это необходимо для пользователей Office 365, защищающих облачные почтовые ящики Exchange Online и автономных клиентов EOP, которые защищают локальные почтовые ящики, такие как Exchange Server 2016.
+ms.openlocfilehash: f23f28b5c15c7057d1fd8ec77cce67bf1746410c
+ms.sourcegitcommit: fb50bf2f2c9d780c911f245a2f78c6bb5e357f67
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30926743"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30950436"
 ---
-# <a name="videos-for-getting-started-with-eop"></a><span data-ttu-id="1ecf6-103">Видео о начале работы с EOP</span><span class="sxs-lookup"><span data-stu-id="1ecf6-103">Videos for getting started with EOP</span></span>
+## <a name="what-is-exchange-online-protection-eop"></a><span data-ttu-id="ee1e0-104">Что такое Exchange Online Protection (EOP)</span><span class="sxs-lookup"><span data-stu-id="ee1e0-104">What is Exchange Online Protection (EOP)</span></span>
 
-<span data-ttu-id="1ecf6-104">Следующая серия видеороликов поможет вам настроить и начать использовать размещенную службу фильтрации электронной почты Exchange Online Protection (EOP).</span><span class="sxs-lookup"><span data-stu-id="1ecf6-104">The following series of videos will help you set up and use the Exchange Online Protection (EOP) hosted email filtering service.</span></span>
-  
-> [!NOTE]
-> <span data-ttu-id="1ecf6-p101">Перед выполнением задач, описанных в видео, мы рекомендуем настроить поток обработки почты. Дополнительные сведения см. в разделе [Configure mail flow using connectors in Office 365](http://technet.microsoft.com/library/854b5a50-4462-4836-a092-37e208d29624.aspx).</span><span class="sxs-lookup"><span data-stu-id="1ecf6-p101">Before you start the tasks described in the videos, we recommend that you set up mail flow. For more information, see the [Configure mail flow using connectors in Office 365](http://technet.microsoft.com/library/854b5a50-4462-4836-a092-37e208d29624.aspx) topic.</span></span> 
-  
-<span data-ttu-id="1ecf6-107">В следующих видеороликах рассматривается, как настраивать параметры защиты от нежелательной почты в соответствии с требованиями организации.</span><span class="sxs-lookup"><span data-stu-id="1ecf6-107">These videos are about tailoring your anti-spam settings to fit the needs of your organization.</span></span> <span data-ttu-id="1ecf6-108">Действия в отношении входящих сообщений, которые доставляются в вашу организацию с помощью службы, включают создание списков надежных и заблокированных отправителей на основе IP-адресов, а также настройку параметров фильтров содержимого.</span><span class="sxs-lookup"><span data-stu-id="1ecf6-108">For inbound mail traveling through the service to your organization, this includes creating safe sender and blocked sender lists based on IP addresses, and configuring content filter settings.</span></span> <span data-ttu-id="1ecf6-109">Кроме того, в нем показано, как администраторы могут находить и освобождать сообщения о нежелательной почте с фильтрацией содержимого, а также сообщения, которые содержали правило для обработки почты (также называемое правилом транспорта), которые были отправлены в карантин, а также как сообщить о нежелательных сообщениях, чтобы помочь нам улучшить службу.</span><span class="sxs-lookup"><span data-stu-id="1ecf6-109">There's also a video showing how admins can find and release content-filtered spam messages or messages that matched a mail flow rule (also known as a transport rule) that were sent to the quarantine, and also how to report spam messages to help us improve the service.</span></span>
-  
-- <span data-ttu-id="1ecf6-110">Настройка списка заблокированных IP-адресов и списка разрешенных IP-адресов в службе EOP</span><span class="sxs-lookup"><span data-stu-id="1ecf6-110">Configure IP Allow and IP Block Lists in EOP</span></span>
-    > [!VIDEO https://www.microsoft.com/videoplayer/embed/b2f5bea3-e1a7-44b3-b7e2-07fac0d0ca40?autoplay=false]
-  
-    <span data-ttu-id="1ecf6-111">Дополнительные сведения см. в статье [Настройка политики фильтров подключений](../configure-the-connection-filter-policy.md).</span><span class="sxs-lookup"><span data-stu-id="1ecf6-111">For more details, see the [Configure the connection filter policy](../configure-the-connection-filter-policy.md) topic.</span></span> 
-    
-- <span data-ttu-id="1ecf6-112">Настройка фильтрация содержимого нежелательной почты в EOP</span><span class="sxs-lookup"><span data-stu-id="1ecf6-112">Configure Spam Content Filtering in EOP</span></span>
-    > [!VIDEO https://www.microsoft.com/videoplayer/embed/608be94c-d763-4c47-af94-99e7cb277713?autoplay=false]
-  
-    <span data-ttu-id="1ecf6-113">Дополнительные сведения см. в статье [Настройте политики защиты от спама](../configure-your-spam-filter-policies.md).</span><span class="sxs-lookup"><span data-stu-id="1ecf6-113">For more details, see the [Configure your spam filter policies](../configure-your-spam-filter-policies.md) topic.</span></span> 
-    
-- <span data-ttu-id="1ecf6-114">Поиск и освобождение сообщений из карантина</span><span class="sxs-lookup"><span data-stu-id="1ecf6-114">Find and Release Messages From the Quarantine</span></span>
-    > [!VIDEO https://www.microsoft.com/videoplayer/embed/2a78346d-a3ab-4d70-a88e-0c9d562f7545?autoplay=false]
-  
-    <span data-ttu-id="1ecf6-115">Дополнительные сведения см. в статье [Поиск и освобождение сообщений на карантине для администратора](../find-and-release-quarantined-messages-as-an-administrator.md).</span><span class="sxs-lookup"><span data-stu-id="1ecf6-115">For more details, see the [Find and release quarantined messages as an administrator](../find-and-release-quarantined-messages-as-an-administrator.md) topic.</span></span> 
-    
-<span data-ttu-id="1ecf6-p103">Вам также понадобится настроить политику защиты от нежелательных исходящих сообщений, чтобы отслеживать случаи отправки нежелательной почты из вашей организации. Подробнее см. в видеозаписи об исходящей нежелательной почте.</span><span class="sxs-lookup"><span data-stu-id="1ecf6-p103">You'll also want to configure the outbound spam policy because you'll want to monitor if spam is being sent from your organization. Check out the outbound spam video to learn how.</span></span>
-  
-- <span data-ttu-id="1ecf6-118">Настройка правил защиты от нежелательной почты для исходящих сообщений</span><span class="sxs-lookup"><span data-stu-id="1ecf6-118">Configure the Outbound Spam Policy</span></span>
-    > [!VIDEO https://www.microsoft.com/videoplayer/embed/1f20d655-0d3d-4141-9cae-e57f5a6cffe8?autoplay=false]
-  
-    <span data-ttu-id="1ecf6-119">Дополнительные сведения см. в статье [Настройка правил защиты от спама для исходящих сообщений](../configure-the-outbound-spam-policy.md).</span><span class="sxs-lookup"><span data-stu-id="1ecf6-119">For more details, see the [Configure the outbound spam policy](../configure-the-outbound-spam-policy.md)</span></span>
-    
-<span data-ttu-id="1ecf6-120">Доступные в EOP настройки защиты от вредоносных программ, обнаруживаемых службой, рассматриваются в видеозаписи, которая посвящена фильтрации вредоносных программ.</span><span class="sxs-lookup"><span data-stu-id="1ecf6-120">EOP also has settings for how to handle malware that's detected by the service, which the anti-malware filtering video describes.</span></span>
-  
-- <span data-ttu-id="1ecf6-121">Настройка политики защиты от вредоносных программ</span><span class="sxs-lookup"><span data-stu-id="1ecf6-121">Configure the Anti-Malware Policy</span></span>
-    > [!VIDEO https://www.microsoft.com/videoplayer/embed/12517702-ab48-4df8-a7ff-8eb02aa31724?autoplay=false]
-  
-    <span data-ttu-id="1ecf6-122">Более подробную информацию можно найти в статье [Настройка политик защиты от вредоносных программ](../configure-anti-malware-policies.md) .</span><span class="sxs-lookup"><span data-stu-id="1ecf6-122">For more details, see the [Configure anti-malware policies](../configure-anti-malware-policies.md) topic.</span></span> 
-    
-<span data-ttu-id="1ecf6-123">Чтобы фильтровать и маршрутизировать сообщения на основе определенных заданных условий, на основе политики компании или нормативных актов вы захотите просмотреть видео о том, как создать правила для почтового процесса.</span><span class="sxs-lookup"><span data-stu-id="1ecf6-123">To filter and route messages based on specific conditions you set, based on company policy or regulations, you'll want to watch the video about how to create mail flow rules.</span></span>
-  
-- <span data-ttu-id="1ecf6-124">Настройка правил для почтовых ящиков Exchange в EOP</span><span class="sxs-lookup"><span data-stu-id="1ecf6-124">Configure Exchange mail flow rules in EOP</span></span>
-    > [!VIDEO https://www.microsoft.com/videoplayer/embed/7cdcd2cb-9382-4065-98e1-81257b32a189?autoplay=false]
-  
-    <span data-ttu-id="1ecf6-125">Дополнительные сведения см. в статье [правила для обработки почтовоГо ящика (правила транспорта) в Exchange Online Protection](mail-flow-rules-transport-rules-0.md) , если вы используете EOP в автономном режиме, или видите [правила для поток обработки почты (правила транспорта) в разделе Exchange Online](http://technet.microsoft.com/library/743bd525-0ca2-426d-b76c-b4a052bc8886.aspx) , если вы используете Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="1ecf6-125">For more details, see the [Mail flow rules (transport rules) in Exchange Online Protection](mail-flow-rules-transport-rules-0.md) topic if you use EOP standalone, or see [Mail flow rules (transport rules) in Exchange Online](http://technet.microsoft.com/library/743bd525-0ca2-426d-b76c-b4a052bc8886.aspx) topic if you use Exchange Online.</span></span>
-    
-<span data-ttu-id="1ecf6-126">Сведения о настройке службы путем выполнения сценариев из командной строки см. в видеозаписи, в которой рассматривается удаленная оболочка PowerShell.</span><span class="sxs-lookup"><span data-stu-id="1ecf6-126">f you're interested in configuring the service by running scripts from the command line, the remote PowerShell video will help you get started.</span></span>
-  
-- <span data-ttu-id="1ecf6-127">Использование удаленной консоли PowerShell в службе EOP</span><span class="sxs-lookup"><span data-stu-id="1ecf6-127">Use Remote PowerShell in EOP</span></span>
-    > [!VIDEO https://www.microsoft.com/videoplayer/embed/9cb28006-c2cb-45b6-b72e-eeed8767dee7?autoplay=false]
-  
-    <span data-ttu-id="1ecf6-128">Дополнительные сведения см. в статье [PowerShell в Exchange Online Protection](http://technet.microsoft.com/library/f7918a88-774a-405e-945b-bc2f5ee9f748.aspx) (если вы используете EOP автономно) или в статье [Exchange Online PowerShell](http://technet.microsoft.com/library/1cb603b0-2961-4afe-b879-b048fe0f64a2.aspx) (если вы используете Exchange Online).</span><span class="sxs-lookup"><span data-stu-id="1ecf6-128">For more details, see the [PowerShell in Exchange Online Protection](http://technet.microsoft.com/library/f7918a88-774a-405e-945b-bc2f5ee9f748.aspx) topic if you use EOP standalone, or see the [Exchange Online PowerShell](http://technet.microsoft.com/library/1cb603b0-2961-4afe-b879-b048fe0f64a2.aspx) topic if you use Exchange Online.</span></span> 
-    
+<span data-ttu-id="ee1e0-105">Exchange Online Protection (EOP) — это облачная служба фильтрации электронной почты, которая помогает защитить организацию от нежелательной почты и вредоносных программ.</span><span class="sxs-lookup"><span data-stu-id="ee1e0-105">Exchange Online Protection (EOP) is a cloud-based email filtering service that helps protect your organization against spam and malware.</span></span> <span data-ttu-id="ee1e0-106">Если у вас есть почтовые ящики в Office 365, они автоматически защищаются службой EOP, так как она является частью службы.</span><span class="sxs-lookup"><span data-stu-id="ee1e0-106">If you have mailboxes in Office 365, they are automatically protected by EOP since it is part of the service.</span></span> <span data-ttu-id="ee1e0-107">Сюда входят организации, у которых есть почтовые ящики как в Office 365, так и на локальном уровне, который обычно называется гибридным сценарием.</span><span class="sxs-lookup"><span data-stu-id="ee1e0-107">This includes organizations that have mailboxes in both Office 365 and on-premise, which is commonly known as a hybrid scenario.</span></span> <span data-ttu-id="ee1e0-108">EOP standalone также доступен для пользователей, которые не имеют почтовых ящиков в облаке, но хотят защищать свои локальные почтовые ящики.</span><span class="sxs-lookup"><span data-stu-id="ee1e0-108">EOP standalone is also available for customers who do not have mailboxes in the cloud but want to protect their on-premise mailboxes.</span></span> 
 
+<span data-ttu-id="ee1e0-109">EOP пытается отфильтровывать нежелательные сообщения, не позволяя пользователям видеть их.</span><span class="sxs-lookup"><span data-stu-id="ee1e0-109">EOP attempts to filter out junk, keeping your Inbox clear of content that users don't want to see.</span></span> <span data-ttu-id="ee1e0-110">Обычно Нежелательная почта доставляется в папку неЖелательной почты.</span><span class="sxs-lookup"><span data-stu-id="ee1e0-110">Normally, junk mail is delivered to the Junk Email folder.</span></span> <span data-ttu-id="ee1e0-111">Некоторые пользователи намерены проверить, нужно ли выполнять фильтрацию, чтобы сделать папку неЖелательной почты простой, чтобы пользователи могли самостоятельно проверять их.</span><span class="sxs-lookup"><span data-stu-id="ee1e0-111">Some users like to check to make sure the filtering is doing what they want so the Junk Email folder is an easy way for users to check on their own.</span></span>  
+
+> [!TIP]
+> <span data-ttu-id="ee1e0-112">Это хорошо, когда нежелательные сообщения электронной почты автоматически перемещаются в папку неЖелательной почты.</span><span class="sxs-lookup"><span data-stu-id="ee1e0-112">It is a good thing when junk or otherwise bad email goes into the Junk Email folder automatically.</span></span> <span data-ttu-id="ee1e0-113">Служба выполняет необходимые действия в зависимости от состояния параметров по умолчанию или настраиваемого администратора.</span><span class="sxs-lookup"><span data-stu-id="ee1e0-113">The service will do what is necessary based on what the default or the custom admin settings state.</span></span> <span data-ttu-id="ee1e0-114">Другими словами, пользователи не должны беспокоиться о большом объеме нежелательной почты в папке неЖелательной почты.</span><span class="sxs-lookup"><span data-stu-id="ee1e0-114">In other words, users should not worry about seeing a lot of spam mail in the Junk Email folder.</span></span> <span data-ttu-id="ee1e0-115">Если администраторы предпочитают перемещать все нежелательные сведения, необходимо настроить карантин.</span><span class="sxs-lookup"><span data-stu-id="ee1e0-115">If admins prefer to move all junk out of sight, then the Quarantine should be configured.</span></span> <span data-ttu-id="ee1e0-116">Дополнительные сведения см. в статье [карантинные сообщения электронной почты в статье Office 365](../quarantine-email-messages.md) .</span><span class="sxs-lookup"><span data-stu-id="ee1e0-116">For more details, see the [Quarantine email messages in Office 365](../quarantine-email-messages.md) article.</span></span>
+
+## <a name="important-terms"></a><span data-ttu-id="ee1e0-117">Важные термины</span><span class="sxs-lookup"><span data-stu-id="ee1e0-117">Important terms</span></span>
+
+<span data-ttu-id="ee1e0-118">**Входящие:** Сообщения, поступающие в Office 365.</span><span class="sxs-lookup"><span data-stu-id="ee1e0-118">**Inbound:** Messages that are coming into Office 365.</span></span>
+
+<span data-ttu-id="ee1e0-119">**Исходящие:** Сообщения, которые выходят из Office 365.</span><span class="sxs-lookup"><span data-stu-id="ee1e0-119">**Outbound:** Messages that are going out of Office 365.</span></span>
+
+<span data-ttu-id="ee1e0-120">**Internal:** Сообщения, появляющиеся от кого-либо внутри Организации к другому пользователю в Организации.</span><span class="sxs-lookup"><span data-stu-id="ee1e0-120">**Internal:** Messages that are from someone inside the organization to someone inside the organization.</span></span> <span data-ttu-id="ee1e0-121">Сюда входят клиенты, которые находятся в гибридных сценариях, а один почтовый ящик может быть локальным и другой почтовый ящик находится в облаке.</span><span class="sxs-lookup"><span data-stu-id="ee1e0-121">This includes customers who are in hybrid scenarios and one mailbox could be on-premise and the other mailbox is in the cloud.</span></span>
+
+<span data-ttu-id="ee1e0-122">**Ложные отрицательные значения (FN):** Спам и другие нежелательные сообщения, которые ошибочно отправляются в папку "Входящие".</span><span class="sxs-lookup"><span data-stu-id="ee1e0-122">**False Negative (FN):** Spam and other junk that incorrectly gets sent into the inbox.</span></span>
+
+<span data-ttu-id="ee1e0-123">**ЛожнОе срабатывание (ГП):** Легальные сообщения, которые ошибочно помечаются как спам и помещаются в папку неЖелательной почты или в карантин.</span><span class="sxs-lookup"><span data-stu-id="ee1e0-123">**False Positive (FP):** Legitimate messages that incorrectly get marked as spam and put into the Junk Email folder or Quarantine.</span></span>
+
+<span data-ttu-id="ee1e0-124">**Нежелательная почта, также называемая нежелательным сообщением:** Это полагается на коммерческую рекламу, цепочку писем, сообщения электронной почты и т. д. Это электронная почта, с которой пользователи не подключаются к отправителям, которые пытаются закомментировать продукцию, или попытаются зафиксировать мошенничество.</span><span class="sxs-lookup"><span data-stu-id="ee1e0-124">**Spam, also known as unsolicited e-mail:** This comes in the form of commercial advertising, chain letters, political mailings, etc. This is email that users do not sign up for and from spammers who are trying to solicit products or attempting to commit fraud.</span></span>
+
+<span data-ttu-id="ee1e0-125">**Фишинг:** Фишинг — это особый тип спама, который предназначен для получения персональных данных в целях фиксации хищения личных данных или мошенничества.</span><span class="sxs-lookup"><span data-stu-id="ee1e0-125">**Phish:** Phishing is a special type of spam that is intended to trick you into giving up personal information for the purpose of committing identity theft or fraud.</span></span> <span data-ttu-id="ee1e0-126">Сообщение этого типа обычно содержит вредоносную ссылку или вложенный объект, но не всегда.</span><span class="sxs-lookup"><span data-stu-id="ee1e0-126">This type of message usually contains a malicious link or attachment, but not always.</span></span>
+
+<span data-ttu-id="ee1e0-127">**Подделка:** Подмена сообщений заключается в том, что отправители нежелательной почты подменяют заголовок FROM, чтобы сообщения были отправлены от кого-либо, отличного от фактического источника.</span><span class="sxs-lookup"><span data-stu-id="ee1e0-127">**Spoof:** Spoofing is when spammers forge the FROM header so that messages appear to have originated from someone or somewhere other than the actual source.</span></span> <span data-ttu-id="ee1e0-128">Это может быть Нежелательная почта, но наиболее часто используется для фишинговых пользователей.</span><span class="sxs-lookup"><span data-stu-id="ee1e0-128">This can be spam but most commonly used to phish users.</span></span>
+
+<span data-ttu-id="ee1e0-129">**Олицетворение:** Этот тип нежелательной почты также позволяет подделывать адрес отправителя, но это делается путем изменения части имени или домена, чтобы она выглядела как реальный источник.</span><span class="sxs-lookup"><span data-stu-id="ee1e0-129">**Impersonation:** This type of spam is also a way to forge the sender address, but it is done by modifying part of the name or domain so that it looks like the real source.</span></span> <span data-ttu-id="ee1e0-130">Например, Bi11@micr0s0ft.com, где "l" в счете, — это число одиннадцати, а "o" в Microsoft заменен на число, равное нулю.</span><span class="sxs-lookup"><span data-stu-id="ee1e0-130">For example, Bi11@micr0s0ft.com, where the "l" in Bill was actually the number eleven and the "o" in Microsoft was replaced with the number zero.</span></span>
+
+<span data-ttu-id="ee1e0-131">**ПакетНый пакет:** Массовая почта обычно запрашивается пользователями, несмотря на то, что иногда, когда компании пропродают информацию другим компаниям.</span><span class="sxs-lookup"><span data-stu-id="ee1e0-131">**Bulk:** Bulk mail is usually solicited by users, although sometimes indirectly when companies sell information to other companies.</span></span> <span data-ttu-id="ee1e0-132">Обычно пользователи намеренно подписываются на массовую почту (например, невлеттерс), но забывают позже и думают, что это нежелательная почта.</span><span class="sxs-lookup"><span data-stu-id="ee1e0-132">It is common that users intentionally sign up for bulk mail (i.e. newletters) but forget later on and think it is spam.</span></span> <span data-ttu-id="ee1e0-133">Массовая рассылка сообщений становится нежелательной, когда массовые почтовые ящики отправляют больше, чем у пользователей, и слишком высокие уровни жалоб.</span><span class="sxs-lookup"><span data-stu-id="ee1e0-133">Bulk mail becomes spam when bulk mailers send more than users sign up and complaint levels get too high.</span></span>
