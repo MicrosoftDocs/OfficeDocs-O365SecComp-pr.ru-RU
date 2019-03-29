@@ -15,12 +15,12 @@ ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как найти и использовать отчеты о безопасности электронной почты для вашей организации в Office 365 корпоративный. Отчеты о безопасности электронной почты доступны в центре &amp; безопасности и соответствия требованиям.
-ms.openlocfilehash: bfd84948624beaa8ea9d2a37da2ecd186b5bd717
-ms.sourcegitcommit: 15202bba32313534da2478b0cd215f32a10c9ef4
+ms.openlocfilehash: 1a885661f5bf020c325ee2d9f084473ecb27c53a
+ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30684368"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30862511"
 ---
 # <a name="view-email-security-reports-in-the-security-amp-compliance-center"></a>Просмотр отчетов о безопасности электронной почты в &amp; центре безопасности и соответствия требованиям
 
@@ -29,24 +29,15 @@ ms.locfileid: "30684368"
 ![Панель мониторинга, на которой вы видите, как работает Advanced Threat protection](media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
   
 К отчетам по безопасности электронной почты относятся следующие:
-
 - [Отчет о шифровании](#encryption-report) (NEW!)
-  
-- [Отчет о состоянии защиты от угроз](view-email-security-reports.md#tps) 
-    
-- [Отчет об обнаружении вредоносных программ](view-email-security-reports.md#maldet)
-    
+- [Отчет о состоянии защиты от угроз](#threat-protection-status-report) 
+- [Отчет об обнаружении вредоносных программ](#malware-detections-report)    
 - [Отчет о самых вредоносных программах](#top-malware-report)
-    
-- [Отчет по основным отПравителям и получателям](view-email-security-reports.md#topsenders)
-    
-- [Отчет о подДельной почте](#spoof-mail-report)
-    
+- [Отчет по основным отПравителям и получателям](#top-senders-and-recipients-report)
+- [Отчет об обнаружении подДельных подДельных](#spoof-detections-report)
 - [Отчет об обнаружении неЖелательной почты](#spam-detections-report)
-    
-- [Отчет о отправленных и полученных сообщениях электронной почты](view-email-security-reports.md#sentreceivedemail)
-
-- [Отчет о сообщениях, отчет о пользователях](view-email-security-reports.md#userreported)
+- [Отчет о отправленных и полученных сообщениях электронной почты](#sent-and-received-email-report)
+- [Отчет о сообщениях, отчет о пользователях](#user-reported-messages-report)
     
 ## <a name="encryption-report"></a>Отчет о шифровании
 
@@ -213,7 +204,7 @@ ms.locfileid: "30684368"
 
 - Для Exchange Online необходимо назначить одну из следующих ролей в центре администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) или с помощью командлетов PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)):
     - Управление организацией
-    - Управление организацией только с правом на просмотр
+    - Управление организацией с правами только на просмотр
     - Роль получателей с правами только на просмотр
     - Управление соответствием требованиям
 

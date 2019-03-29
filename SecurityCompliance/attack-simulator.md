@@ -15,12 +15,12 @@ ms.assetid: da5845db-c578-4a41-b2cb-5a09689a551b
 ms.collection:
 - M365-security-compliance
 description: В качестве глобального администратора Office 365 вы можете использовать Симуляторы для атаки, чтобы выполнять реальные сценарии атак в Организации. Это поможет определить и найти уязвимых пользователей, прежде чем реальная атака будет возобновлением вашей компании.
-ms.openlocfilehash: e372fe3c4cc10c4f96836db394fbccd2f180145a
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.openlocfilehash: 88e71fe2db0ed9149ab84bb99e8b04910afdc265
+ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693668"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30862461"
 ---
 # <a name="attack-simulator-in-office-365"></a>Имитатор атак в Office 365
 
@@ -33,11 +33,9 @@ ms.locfileid: "30693668"
 
 В настоящее время доступны три типа имитации атак:
   
-- [Отображаемое имя спеар — Фишинговая атака](attack-simulator.md#spearphish)
-    
-- [Парольная атака с распылителем](attack-simulator.md#passwordspray)
-    
-- [Принудительная атака пароля методом грубого подбора](attack-simulator.md#bruteforce)
+- [Отображаемое имя спеар — Фишинговая атака](#display-name-spear-phishing-attack)
+- [Парольная атака с распылителем](#password-spray-attack)
+- [Принудительная атака пароля методом грубого подбора](#brute-force-password-attack)
     
 Для успешного запуска атаки необходимо использовать многофакторную проверку подлинности для учетной записи, которая используется для имитации атак. Кроме того, вы должны быть глобальным администратором Office 365.
   

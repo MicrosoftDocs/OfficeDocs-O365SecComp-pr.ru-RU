@@ -22,12 +22,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: Функция "безопасные ссылки" обеспечивает проверку гиперссылок в документах Office и в сообщениях электронной почты. Используйте безопасные ссылки, чтобы защитить организацию от фишинга и других атак.
-ms.openlocfilehash: 340faca2c869f051325babcb51b6cb6c976c98c8
-ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
+ms.openlocfilehash: 7dacb4184ff0b99887b2aa5f3fe2e65cd58c5b6b
+ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30410724"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30862551"
 ---
 # <a name="office-365-atp-safe-links"></a>Безопасные ссылки Office 365 ATP
 
@@ -36,7 +36,7 @@ ms.locfileid: "30410724"
 > [!IMPORTANT]
 > Эта статья предназначена для корпоративных клиентов Office 365. Если вы используете Outlook.com, Office 365 Home или Office 365 Personal, а вы ищете сведения о безОпасных ссылках в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
 
-Office 365 ATP Safe Links (часть [Advanced Threat protection](office-365-atp.md)) помогает защитить организацию, предоставляя время на проверку веб-адресов (URL-адресов) в сообщениях [электронной почты](#how-atp-safe-links-works-with-email) и [документах Office](#how-atp-safe-links-works-with-office-documents). Защита определяется с помощью [политик безопасных ссылок ATP](set-up-atp-safe-links-policies.md) , которые задаются группой безопасности Office 365. 
+Office 365 ATP Safe Links (часть [Advanced Threat protection](office-365-atp.md)) помогает защитить организацию, предоставляя время на проверку веб-адресов (URL-адресов) в сообщениях [электронной почты](#how-atp-safe-links-works-with-urls-in-email) и [документах Office](#how-atp-safe-links-works-with-urls-in-office-documents). Защита определяется с помощью [политик безопасных ссылок ATP](set-up-atp-safe-links-policies.md) , которые задаются группой безопасности Office 365. 
   
 После включения политик безОпасных ссылок на ATP в Office 365 глобальные администраторы, администраторы безопасности и средства чтения безопасности могут [просматривать отчеты для Advanced Threat protection](view-reports-for-atp.md). Сведения, содержащиеся в этих отчетах, помогут вашей группе по обеспечению безопасности выполнить дальнейшие действия по защите Организации или исследованию инцидентов безопасности.
 
@@ -94,7 +94,7 @@ Office 365 ATP Safe Links (часть [Advanced Threat protection](office-365-at
 
 - [Планы и цены Advanced Threat Protection в Office 365](https://products.office.com/exchange/advance-threat-protection)
 
-- [Описание службы Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) 
+- [Описание службы Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) 
   
 **Далее Убедитесь, что политики безопасных ссылок ATP определены**. (См. раздел [Настройка политик безопасных ссылок Office 365 ATP](set-up-atp-safe-links-policies.md)). Функции безОпасных ссылок ATP активны в следующих случаях:
   

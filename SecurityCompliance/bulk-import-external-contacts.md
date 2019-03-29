@@ -13,12 +13,12 @@ search.appverid:
 - MOP150
 ms.assetid: bed936bc-0969-4a6d-a7a5-66305c14e958
 description: Узнайте, как администраторы могут использовать Exchange Online PowerShell и CSV-файл для массового импорта внешних контактов в глобальный список адресов.
-ms.openlocfilehash: a38565d5cbff61a954914bf156fb1bac0814c815
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: f95adcd54ebf2194536a199bca6fecf417064882
+ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215919"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30862501"
 ---
 # <a name="bulk-import-external-contacts-to-exchange-online"></a>Массовый импорт внешних контактов в Exchange Online
 
@@ -34,9 +34,9 @@ ms.locfileid: "30215919"
 
 После выполнения этих действий для импорта контактов можно выполнить следующие дополнительные задачи:
   
-- [Добавление дополнительных внешних контактов](bulk-import-external-contacts.md#AddMore)
+- [Добавление дополнительных внешних контактов](#add-more-external-contacts)
   
-- [Скрытие внешних контактов из общей адресной книги](bulk-import-external-contacts.md#Hide)
+- [Скрытие внешних контактов из общей адресной книги](#hide-external-contacts-from-the-shared-address-book)
   
 ## <a name="step-1-create-a-csv-file-that-contains-information-about-the-external-contacts"></a>Шаг 1: создание CSV-файла, содержащего сведения о внешних контактах
 
@@ -123,7 +123,7 @@ ms.locfileid: "30215919"
     
 2. Щелкните контакт, а затем щелкните **изменить** ![значок](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) редактирования, чтобы отобразить свойства контакта. 
     
-Ну вот! Пользователи могут просматривать контакты и дополнительные сведения в адресной книге Outlook и Outlook в Интернете.
+Вот и все! Пользователи могут просматривать контакты и дополнительные сведения в адресной книге Outlook и Outlook в Интернете.
   
 ## <a name="add-more-external-contacts"></a>Добавление дополнительных внешних контактов
 
@@ -134,7 +134,7 @@ ms.locfileid: "30215919"
   
 ## <a name="hide-external-contacts-from-the-shared-address-book"></a>Скрытие внешних контактов из общего адреса Бук_гт_
 
-Некоторые компании могут использовать только внешние контакты, чтобы их можно было добавить в качестве членов групп рассылки. В этом сценарии может потребоваться скрыть внешние контакты из общей адресной книги. Вот как это делать:
+Некоторые компании могут использовать только внешние контакты, чтобы их можно было добавить в качестве членов групп рассылки. В этом сценарии может потребоваться скрыть внешние контакты из общей адресной книги. Вот как это сделать.
   
 1.  Подключите PowerShell к организации Exchange Online. Пошаговые инструкции приведены [в статье подключение к Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).
     

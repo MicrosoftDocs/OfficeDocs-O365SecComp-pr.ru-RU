@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 ms.assetid: d14ae7c3-fcb0-4a03-967b-cbed861bb086
 description: Настройка политик надзорной проверки для сбора данных о сотрудниках для просмотра.
-ms.openlocfilehash: 76a5e7152b609944eeb2fe1390e204e1463a673b
-ms.sourcegitcommit: 9a69ea604b415af4fef4964a19a09f3cead5a2ce
+ms.openlocfilehash: ce032a96131fdfb6f226dd25dfbb8e2de41c9931
+ms.sourcegitcommit: a79eb9907759d4cd849c3f948695a9ff890b19bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30701294"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30866395"
 ---
 # <a name="configure-supervision-policies-for-your-organization"></a>Настройка политик контроля для организации
 
@@ -71,6 +71,34 @@ ms.locfileid: "30701294"
 |Контролируемые пользователи | Группы рассылки <br> Группы Office 365 | Динамические группы рассылки |
 | Reviewers | группы безопасности с включенной поддержкой почты.  | группы рассылки; <br> динамические группы рассылки |
   
+Для управления контролируемыми пользователями в крупных корпоративных организациях может потребоваться мониторинг всех пользователей в очень большой группе. С помощью PowerShell можно настроить группу рассылки для глобальной политики контроля для назначенной группы. Это помогает отслеживать тысячи пользователей с помощью одной политики и поддерживать обновление политики контроля по мере того, как новые сотрудники присоединяются к вашей организации.
+
+1. Создайте выделенную [группу рассылки](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/new-distributiongroup?view=exchange-ps) для глобальной политики контроля и следующих свойств. Убедитесь, что эта группа рассылки не используется для других целей или других служб Office 365.
+
+    - **Мембердепартрестриктион = закрыто**. Это гарантирует, что пользователи не смогут удалять себя из группы рассылки.
+    - **Мембержоинрестриктион = закрыто**. Это гарантирует, что пользователи не смогут добавлять себя в группу рассылки.
+    - **ModerationEnabled задано = true**. Это гарантирует, что все сообщения, отправляемые в эту группу, должны быть утверждены, а группа не будет использоваться для подключения к данным, не входящим в настройку политики контроля.
+
+    ```
+    New-DistributionGroup -Name <your group name> -Alias <your group alias> -MemberDepartRestriction 'Closed' -MemberJoinRestriction 'Closed' -ModerationEnabled $true
+    ```
+2. Выберите неиспользуемый [настраиваемый атрибут Exchange](https://docs.microsoft.com/Exchange/recipients/mailbox-custom-attributes?view=exchserver-2019&viewFallbackFrom=exchonline-ww) , который будет использоваться для отслеживания того, какие пользователи были добавлены в политику контроля в Организации.
+
+3. Выполните следующий скрипт PowerShell для повторяющегося расписания, чтобы добавить пользователей в политику контроля:
+
+    ```
+    $Mbx = (Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited -Filter {CustomAttribute9 -eq $Null})
+    $i = 0
+    ForEach ($M in $Mbx) 
+    {
+      Write-Host "Adding" $M.DisplayName
+      Add-DistributionGroupMember -Identity <your group name> -Member $M.DistinguishedName -ErrorAction SilentlyContinue
+      Set-Mailbox -Identity $M.Alias -<your custom attribute name> SRAdded 
+      $i++
+    }
+    Write-Host $i "Mailboxes added to supervisory review distribution group."
+    ```
+
 Более подробную информацию о настройке групп можно узнать в следующих статьях:
 - [Создание групп рассылки и управление ими](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups)
 - [Управление группами безопасности с поддержкой электронной почты](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups)

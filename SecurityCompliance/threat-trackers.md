@@ -14,12 +14,12 @@ ms.assetid: a097f5ca-eac0-44a4-bbce-365f35b79ed1
 ms.collection:
 - M365-security-compliance
 description: Сведения о средствах отслеживания угроз, в том числе о новых отслеживаемых средствах отслеживания, которые помогут Организации в курсе проблем с безопасностью.
-ms.openlocfilehash: 6870e8d613dbd5d72f20e96be9615712bac711a9
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.openlocfilehash: 4a12a1cfe68f8ebcfae640a65d0eca68e36fb04c
+ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693078"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30862531"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>Средства отслеживания угроз — новые и полезные
 
@@ -38,7 +38,7 @@ ms.locfileid: "30693078"
   
 ![Пример сведений о кампании в проводнике](media/e426f220-fdcb-4dd9-99a2-db97dbcf71d5.png)
   
-Отслеживаются только некоторые из многочисленных замечательных функций, которые вы получаете в [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md). Отслеживание угроз включает в себя отслеживаемые средства [отслеживания](threat-trackers.md#notey), [Отслеживание тенденций](threat-trackers.md#trending), [отслеживаемые запросы](threat-trackers.md#trackedq)и [сохраненные запросы](threat-trackers.md#savedq).
+Отслеживаются только некоторые из многочисленных замечательных функций, которые вы получаете в [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md). Средства отслеживания угроз включают в себя средства [отслеживания нотеворс](#noteworthy-trackers), отслеживание тенденций, [отслеживаемые запросы](#tracked-queries) [](#trending-trackers)и [сохраненные запросы](#saved-queries).
   
 Чтобы просмотреть и использовать средства отслеживания угроз для вашей организации, перейдите в центр соответствия требованиям &amp; безопасности[https://protection.office.com](https://protection.office.com)() и выберите **средство отслеживания**угроз для системы **управления** \> угрозами.
   

@@ -15,16 +15,16 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как найти и использовать отчеты для Office 365 Advanced Threat Protection в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: 3a128103d16ed03edb18becde96a5d20ee6eca9b
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.openlocfilehash: 53d31bf05401d80e79f0d73c191d69fe378f98cb
+ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692408"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30862491"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Просмотр отчетов для Office 365 Advanced Threat protection
 
-Если в Организации имеется [Office 365 Advanced Threat protection](office-365-atp.md) (ATP), и у вас есть [необходимые разрешения](#what-permissions-are-needed-to-view-these-reports), вы можете использовать несколько отчетов ATP в центре &amp; безопасности и соответствия требованиям. (Перейдите в **** \> **панель мониторинга**отчетов.)
+Если в Организации имеется [Office 365 Advanced Threat protection](office-365-atp.md) (ATP), и у вас есть [необходимые разрешения](#what-permissions-are-needed-to-view-the-atp-reports), вы можете использовать несколько отчетов ATP в центре &amp; безопасности и соответствия требованиям. (Перейдите в **** \> **панель мониторинга**отчетов.)
   
 ![Информационная &amp; панель центра соответствия требованиям безопасности поможет вам узнать, где работает Расширенная защита от угроз](media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
   
@@ -100,7 +100,7 @@ ms.locfileid: "30692408"
 
 - Для Exchange Online необходимо назначить одну из следующих ролей в центре администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) или с помощью командлетов PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)):
     - Управление организацией
-    - Управление организацией только с правом на просмотр
+    - Управление организацией с правами только на просмотр
     - Роль получателей с правами только на просмотр
     - Управление соответствием требованиям
 

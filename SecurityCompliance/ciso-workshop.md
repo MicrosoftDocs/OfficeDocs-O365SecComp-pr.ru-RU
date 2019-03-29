@@ -9,14 +9,14 @@ ms.service: o365-seccomp
 localization_priority: Normal
 ms.collection: Strat_O365_IP
 description: Узнайте больше о принципах безопасности, установленных рекомендациях и новых рекомендациях по модернизации Организации.
-ms.openlocfilehash: cdf194e6d04a8085ada6d9d7571a95b77a79a1ee
-ms.sourcegitcommit: 54a2cbe5d13f448e0c28655bdf88deb9e5434cac
+ms.openlocfilehash: c98944b746fb564f946440408f0be87425237232
+ms.sourcegitcommit: e89c21d569b96f34e5d4d4074ae25d8eec9aeacf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30935194"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948520"
 ---
-# <a name="chief-information-security-officer-ciso-workshop"></a>Семинар по информационному директоре по безопасности (ЦИСО)
+# <a name="chief-information-security-officer-ciso-workshop-training"></a>Обучение руководителю информационной безопасности (ЦИСО) для семинара
 
 Этот семинар по Office Security Information Security (ЦИСО) содержит набор изучений безопасности, принципов, рекомендаций и рекомендаций по обеспечению безопасности модернизации в Организации для достижения облачного возраста. Этот семинар создан на основе Microsoft Security Teams и от наших клиентов.
 
@@ -25,13 +25,14 @@ ms.locfileid: "30935194"
 - Все более изощренные атаки
 - Защита активов на гибридном предприятии, который теперь включает в себя облачные платформы
 
-Видео о семинарах по ЦИСО и PowerPoint разрабатываются как модульные, поэтому вы можете перейти к любому интересующему разделу или просто начать с самого начала и перейти к ним. Слайды доступны здесь с лицензией Creative Commons (с соотнесением), поэтому их можно повторно использовать для создания эффективных стратегий обеспечения безопасности в Организации.
+Материалы для загрузки видео и PDF/PowerPoint по ЦИСО разработаны как модульные, поэтому вы можете перейти к любому интересующему разделу или просто начать с самого начала и перейти к ним. Слайды доступны здесь с лицензией Creative Commons (с соотнесением), поэтому их можно повторно использовать для создания эффективных стратегий обеспечения безопасности в Организации.
 
 ## <a name="module-1--microsoft-cybersecurity-briefing"></a>Модуль 1 — Microsoft Циберсекурити Brief
 
 Этот модуль охватывает обзоры критически важных средств обеспечения безопасности санацией, эталонной архитектуры Microsoft циберсекурити, устойчивости циберсекурити, Интернет-вещей и эксплуатационной технической поддержки.
 
-Модуль загрузки PDF: [модуль 1 — информационный бюллетень по Microsoft циберсекурити](media/ciso-workshop-1-cybersecurity-briefing.pdf)
+- Загрузка PDF-файла: [модуль 1 — информационный бюллетень по Microsoft циберсекурити](media/ciso-workshop-1-cybersecurity-briefing.pdf)
+- Скачать сводку по PowerPoint: [модуль 1 — информационный бюллетень по Microsoft циберсекурити](https://docs.microsoft.com/office365/securitycompliance/media/ciso-workshop-1-cybersecurity-briefing.pptx)
 
 ### <a name="part-1--course-introduction-and-overview"></a>Часть 1 — Введение и обзор курса
 
@@ -89,7 +90,8 @@ ms.locfileid: "30935194"
 
 Узнайте, как улучшить видимость и контролировать гибридную корпоративную организацию с помощью интегрированных руководств, автоматизированного применения политик и мониторинга в этой серии семи частей.
 
-Модуль загрузки PDF: [модуль 2 — Управление безопасностью](media/ciso-workshop-2-security-management.pdf)
+- Загрузите документ PDF: [модуль 2 – Управление безопасностью](media/ciso-workshop-2-security-management.pdf)
+- Загрузка сводки по PowerPoint: [модуль 2 – Управление безопасностью](https://docs.microsoft.com/office365/securitycompliance/media/ciso-workshop-2-security-management.pptx)
 
 ### <a name="introduction---security-management"></a>Введение — Управление безопасностью
 
@@ -127,7 +129,8 @@ ms.locfileid: "30935194"
 
 Так как большинство современных атак включает в себя взлом удостоверений пользователей, Узнайте, как создать новый периметр безопасности удостоверений для защиты активов за пресбоями в корпоративной сети.
 
-Модуль загрузки PDF: [модуль 3 — Управление удостоверениями и доступом](media/ciso-workshop-3-identity-protection.pdf)
+- Загрузите документ PDF: [модуль 3 — Управление идентификацией и доступом](media/ciso-workshop-3-identity-protection.pdf)
+- Загрузка сводки PowerPoint: [модуль 3 — Управление идентификацией и доступом](https://docs.microsoft.com/office365/securitycompliance/media/ciso-workshop-3-identity-protection.pptx)
 
 ### <a name="introduction--identity-and-access-management"></a>Введение — Управление удостоверениями и доступом
 
@@ -157,7 +160,8 @@ ms.locfileid: "30935194"
 
 ИзУчите наши основные сведения о защите от угроз, развитии безопасности, стратегиях и картах безопасности.
 
-Модуль загрузки PDF: [module 4A – стратегия защиты от угроз](media/ciso-workshop-4a-threat-protection.pdf)
+- Загрузите документ PDF сводки: [module 4A – стратегия защиты от угроз](media/ciso-workshop-4a-threat-protection.pdf)
+- Загрузка сводки по PowerPoint: [модуль 4A – стратегия защиты от угроз](https://docs.microsoft.com/office365/securitycompliance/media/ciso-workshop-4a-threat-protection.pptx)
 
 ### <a name="introduction--threat-protection-strategy-identify-protect"></a>Введение — стратегия защиты от угроз (Identify-Protect)
 
@@ -215,7 +219,8 @@ ms.locfileid: "30935194"
 
 Этот модуль просматривает развитие и тражектори наших центров обеспечения безопасности (SOC) на базе триллионс сигналов на нашем интеллектуальном графе безопасности.
 
-Модуль загрузки PDF: [module 4b – стратегия защиты от угроз](media/ciso-workshop-4b-threat-protection-strategy.pdf)
+- Загрузите документ PDF сводки: [module 4b – стратегия защиты от угроз](media/ciso-workshop-4b-threat-protection-strategy.pdf)
+- Загрузка сводки по PowerPoint: [модуль 4b – стратегия защиты от угроз](https://docs.microsoft.com/office365/securitycompliance/media/ciso-workshop-4b-threat-protection-strategy.pptx)
 
 ### <a name="introduction--threat-protection-strategy-detect-respond-recover"></a>Введение — стратегия защиты от угроз (обнаружение-ответ — восстановление)
 
@@ -265,7 +270,8 @@ ms.locfileid: "30935194"
 
 Узнайте, как защищать конфиденциальные данные в любом месте с помощью автоматической классификации, постоянного шифрования на разных устройствах и непрерывного мониторинга данных на мобильных устройствах, облачных службах и других корпоративных ресурсах.
 
-Модуль загрузки PDF: [Module 5 – Information Protection](media/ciso-workshop-5-information-protection-strategy.pdf)
+- Загрузите документ PDF: [модуль 5 — Защита информации](media/ciso-workshop-5-information-protection-strategy.pdf)
+- Загрузка сводки PowerPoint: [модуль 5 – Защита информации](https://docs.microsoft.com/office365/securitycompliance/media/ciso-workshop-5-information-protection-strategy.pptx)
 
 ### <a name="introduction--information-protection"></a>Введение – защита информации
 

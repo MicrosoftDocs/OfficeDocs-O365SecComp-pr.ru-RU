@@ -15,12 +15,12 @@ ms.assetid: 38e9b67f-d188-490f-bc91-a1ae4b270441
 ms.collection:
 - M365-security-compliance
 description: Узнайте о том, как начать исследование угроз и ответ на Office 365, а также как приступить к работе.
-ms.openlocfilehash: f30a3c8007d2643a67f59d9421496e9ae0bc6e8c
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.openlocfilehash: a04b39ecb11c33baa647bb9716af9ff12aed755e
+ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693138"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30862523"
 ---
 # <a name="get-started-with-threat-investigation-and-response-office-365-advanced-threat-protection-plan-2"></a>Начало работы с исследованием угроз и ответом (Office 365 Advanced Threat Protection Plan 2)
 
@@ -37,7 +37,7 @@ ms.locfileid: "30693138"
   
 ## <a name="get-acquainted-with-the-threat-dashboard-explorer-and-incidents"></a>Знакомство с панелью мониторинга угроз, проводником и происшествиями
 
-Эти средства расследования угроз и возможности реагирования в центре &amp; безопасности соответствуют требованиям в виде набора средств и рабочих процессов ответа, в том числе [панели мониторинга угроз](get-started-with-ti.md#dashboard), [обозревателя угроз](get-started-with-ti.md#explorer), [инцидентов](get-started-with-ti.md#incidents), [атак Имитатор](attack-simulator.md)и автоматический запрос _амп_.
+Эти средства расследования угроз и возможности реагирования в центре &amp; безопасности соответствуют требованиям в виде набора средств и рабочих процессов ответа, в том числе [панели мониторинга угроз](#threat-dashboard), [обозревателя угроз](#threat-explorer), [инцидентов](get-started-with-ti.md#incidents), [атак Имитатор](attack-simulator.md)и автоматический запрос _амп_.
   
 ### <a name="threat-dashboard"></a>Панель мониторинга угроз
 

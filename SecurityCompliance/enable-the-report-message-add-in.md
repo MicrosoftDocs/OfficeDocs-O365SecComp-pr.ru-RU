@@ -3,7 +3,7 @@ title: Включение надстройки Report Message
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/05/2019
+ms.date: 03/26/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,19 +15,19 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: Сведения о том, как включить надстройку сообщения отчета для Outlook и Outlook в Интернете для отдельных пользователей или всей Организации.
-ms.openlocfilehash: f2bb79c4c613fdb804d19226fb359124387a678f
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.openlocfilehash: 3c476a6e097307b1aabc3580b598bb91a4407731
+ms.sourcegitcommit: a79eb9907759d4cd849c3f948695a9ff890b19bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693388"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30866345"
 ---
 # <a name="enable-the-report-message-add-in"></a>Включение надстройки Report Message
 
 > [!NOTE]
 > Надстройка сообщения отчета для Outlook и Outlook в Интернете — это не то же самое, что и [Фильтр нежелательной почты Outlook](https://support.office.com/article/Overview-of-the-Junk-Email-Filter-5ae3ea8e-cf41-4fa0-b02a-3b96e21de089), хотя они могут быть использованы для пометки почты как нежелательных, нежелательных или фишинговых атак. Разница заключается в том, что надстройка Message Report для Outlook и Outlook в Интернете уведомляет Майкрософт о неклассифицированных сообщениях электронной почты, а фильтр неЖелательной почты Outlook используется для упорядочения сообщений электронной почты в почтовом ящике пользователя. 
 
-## <a name="overview"></a>Обзор
+## <a name="overview"></a>Общие сведения
 
 Надстройка сообщения отчета для Outlook и Outlook в Интернете позволяет людям легко сообщать о неклассифицированных сообщениях, будь то безопасное или вредоносное, в Майкрософт и ее дочерних подразделениех для анализа. Корпорация Майкрософт использует эти отправки для повышения эффективности технологий защиты электронной почты. Кроме того, если в организации используется [Office 365 Advanced Threat Protection Plan 1](office-365-atp.md) или [Plan 2](office-365-ti.md), надстройка сообщения отчета предоставляет группе безопасности Организации полезную информацию, которую можно использовать для просмотра и обновления политик безопасности. 
 
@@ -67,7 +67,7 @@ ms.locfileid: "30693388"
 ## <a name="get-and-enable-the-report-message-add-in-for-your-organization"></a>Получение и включение надстройки сообщений отчета для Организации
 
 > [!IMPORTANT]
-> Для выполнения этой задачи необходимо быть глобальным администратором Office 365 или администратором Exchange Online. Кроме того, для получения дополнительных сведений в Exchange необходимо настроить проверку подлинности OAuth, используя [требования Exchange (централизованНое Развертывание надстроек)](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins&view=o365-worldwide#exchange-requirements). 
+> Для выполнения этой задачи необходимо быть глобальным администратором Office 365 или администратором Exchange Online. Кроме того, для получения дополнительных сведений в Exchange необходимо настроить проверку подлинности OAuth, используя [требования Exchange (централизованНое Развертывание надстроек)](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins). 
 
 1. Перейдите на [страницу "службы" _амп_](https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns) "надстройки" в центре администрирования Microsoft 365.<br/>![Страница "службы и надстройки" в новом центре администрирования Microsoft 365](media/ServicesAddInsPageNewM365AdminCenter.png)<br/> 
     

@@ -3,7 +3,7 @@ title: Отпечатки документов
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 11/17/2014
+ms.date: ''
 ms.audience: ITPro
 ms.topic: article
 search.appverid: MET150
@@ -11,14 +11,14 @@ ms.service: exchange-online
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: Информационные работники в вашей организации обрабатывают конфиденциальные сведения различных типов в течение обычного рабочего дня. Отпечатки документов упрощают защиту этих сведений путем определения стандартных форм, используемых в пределах всей организации. В этом разделе описываются понятия, связанные с использованием отпечатков документов, и способы их создания с помощью PowerShell.
-ms.openlocfilehash: a90cb0c7fdfe5e350c9d97adb9a8f357f526742a
-ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
+ms.openlocfilehash: bf28d1d901598337a5c9c18d80590b136c539d26
+ms.sourcegitcommit: a79eb9907759d4cd849c3f948695a9ff890b19bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30638996"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30866355"
 ---
-# <a name="document-fingerprinting"></a>Отпечатки документов
+# <a name="document-fingerprinting"></a>Создание отпечатка документа
 
 Информационные работники в вашей организации обрабатывают конфиденциальные сведения различных типов в течение обычного рабочего дня. В центре безопасности &amp; и соответствия требованиям к отПечатку документов упрощается защита этих сведений путем определения стандартных форм, используемых в Организации. В этом разделе описываются понятия, связанные с использованием отпечатков документов, и способы их создания с помощью PowerShell.
   
@@ -78,7 +78,7 @@ $Employee_Fingerprint = New-DlpFingerprint -FileData $Employee_Template -Descrip
 Давайте создадим новое правило классификации данных с именем "Contoso Employee Confidential", использующее отпечаток документа из файла C:\My Documents\Contoso Customer Information Form.docx.
   
 ```
-$Employee_Template = Get-Content "C:\My Documents\Contoso Customer Information Form.docx" -Encoding byte -ReadCount 0
+$Customer_Form = Get-Content "C:\My Documents\Contoso Customer Information Form.docx" -Encoding byte -ReadCount 0
 $Customer_Fingerprint = New-DlpFingerprint -FileData $Customer_Form -Description "Contoso Customer Information Form"
 New-DlpSensitiveInformationType -Name "Contoso Customer Confidential" -Fingerprints $Customer_Fingerprint -Description "Message contains Contoso customer information." 
 ```

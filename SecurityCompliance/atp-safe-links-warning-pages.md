@@ -14,12 +14,12 @@ ms.assetid: fc4e6ebb-5acc-4bc5-bad8-4f3407d1d3f4
 ms.collection:
 - M365-security-compliance
 description: Получите обзор страниц предупреждений, которые могут отображаться при работе с Office 365 Advanced Threat protection.
-ms.openlocfilehash: 5bf6d436e319127fdd5aecd5c58e168a59333d25
-ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
+ms.openlocfilehash: e90951a010ff5de4d3b292259e9c4596b6cc8e89
+ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30357450"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30862581"
 ---
 # <a name="office-365-atp-safe-links-warning-pages"></a>Страницы предупреждений для безОпасных ссылок на Office 365 ATP
 
@@ -28,7 +28,7 @@ ms.locfileid: "30357450"
 
 [Office 365 Advanced Threat protection](office-365-atp.md) (ATP) помогает защитить организацию от фишинговых атак и вредоносных программ с помощью функций, таких как [безопасные ссылки ATP](atp-safe-links.md), [безопасные вложения ATP](atp-safe-attachments.md)и [Защита от фишинга](anti-phishing-protection.md). При наличии защиты проверяются ссылки (URL-адреса) в сообщениях электронной почты и документах Office. Если URL-адрес определен как подозрительный или вредоносный, при щелчке этого URL-адреса может быть заблокировано открытие этого URL-адреса. Вместо того чтобы переходить непосредственно на сайт, может отображаться страница предупреждения. 
   
-В этой статье приведены [примеры страниц предупреждений](atp-safe-links-warning-pages.md#examples) , которые могут отображаться, а также [последние обновления страниц](atp-safe-links-warning-pages.md#updates)со предупреждениями.
+В этой статье приведены примеры страниц предупреждений, которые могут отображаться, а также последние обновления страниц со предупреждениями.
   
 ## <a name="examples-of-warning-pages"></a>Примеры страниц предупреждений
 

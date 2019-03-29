@@ -13,18 +13,18 @@ search.appverid:
 - MOE150
 ms.assetid: 5f02d20f-b9aa-4b2f-ad2d-506a4a3c4540
 description: 'С помощью Office 365 Cloud App Security действия по управлению можно приостановить или отменить приостановку работы учетной записи пользователя. '
-ms.openlocfilehash: 3650a5304af0440dc537610994c4bd827f599989
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 10da1385f850fadf077b4e3f9e3a00e9e4629fdd
+ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215099"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30862451"
 ---
 # <a name="suspend-or-restore-a-user-account-in-office-365-cloud-app-security"></a>Приостановка или восстановление учетной записи пользователя в Office 365 Cloud App Security
 
 |Ознакомительная версия * *\>**|Планирование * *\>**|Развертывание * *\>**|Использование * * * *|
 |:-----|:-----|:-----|:-----|
-|[Начало оценки](office-365-cas-overview.md) <br/> |[Начало планирования](get-ready-for-office-365-cas.md) <br/> |[Начало развертывания](turn-on-office-365-cas.md) <br/> |Вот что вам!  <br/> [Дальнейшие действия](suspend-or-restore-an-account-in-ocas.md#nextsteps) <br/> |
+|[Начало оценки](office-365-cas-overview.md) <br/> |[Начало планирования](get-ready-for-office-365-cas.md) <br/> |[Начало развертывания](turn-on-office-365-cas.md) <br/> |Вот что вам!  <br/> [Дальнейшие действия](#next-steps)<br/> |
    
 Предположим, что вы получили оповещение о том, что одна из учетных записей пользователей вашей организации для Office 365 была скомпрометирована. Предположим, вы получили оповещение о том, что у пользователя возникли проблемы с учетной записью пользователя. С помощью Office 365 Cloud App Security вы можете приостановить учетную запись пользователя и позже восстановить ее после того, как вы изучили полученные оповещения.
   
