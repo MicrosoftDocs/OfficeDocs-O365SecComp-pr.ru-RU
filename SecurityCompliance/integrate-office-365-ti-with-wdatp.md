@@ -15,12 +15,12 @@ ms.assetid: 414fa693-d7b7-4a1d-a387-ebc3b6a52889
 ms.collection:
 - M365-security-compliance
 description: Интеграция Office 365 Advanced Threat protection с Advanced Threat Protection в Защитнике Windows для просмотра подробных сведений об управлении угрозами.
-ms.openlocfilehash: bbbb42c9d0f37ab33323b2fa1dd071bd5ee16829
-ms.sourcegitcommit: 74ad22a5c6c3c9d9324f0f97070909e323a4e9cf
+ms.openlocfilehash: 832b9c6bc600366e1ed6b7c6e60442bec8b5002c
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30523983"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30998962"
 ---
 # <a name="integrate-office-365-advanced-threat-protection-with-windows-defender-advanced-threat-protection"></a>Интеграция Office 365 Advanced Threat protection с Advanced Threat Protection в Защитнике Windows
 
@@ -42,7 +42,7 @@ ms.locfileid: "30523983"
     
 ## <a name="to-integrate-office-365-advanced-threat-protection-with-windows-defender-atp"></a>Интеграция Office 365 Advanced Threat protection с помощью пакета ATP для защитника Windows
 
-Интеграция Office 365 Advanced Threat protection с помощью Advanced Threat Protection в Защитнике Windows настраивается с помощью центра обеспечения безопасности _Амп_ для Office 365 и портала Advanced Threat Protection в Защитнике Windows.
+Интеграция Office 365 Advanced Threat protection с помощью Advanced Threat Protection в Защитнике Windows настраивается с помощью центра безопасности _Амп_ соответствие требованиям и портала Advanced Threat Protection в Защитнике Windows.
   
 1. Как глобальный администратор Office 365 или администратор безопасности перейдите к [https://protection.office.com](https://protection.office.com) рабочей или учебной учетной записи для Office 365 с помощью рабочей или учебной учетной записи. 
     

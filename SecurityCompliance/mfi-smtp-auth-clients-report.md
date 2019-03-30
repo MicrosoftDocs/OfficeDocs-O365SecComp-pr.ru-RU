@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
-description: Администраторы могут ознакомиться с отчетом о клиентах проверки поДлинности SMTP в панели мониторинга "почтовые потоки" в центре безопасности Office 365 Security _Амп_.
+description: Администраторы могут ознакомиться с отчетом о клиентах проверки поДлинности SMTP в панели мониторинга "почтовый ящик" в центре безопасности _Амп_ соответствия требованиям.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0444ef85df8e7e26619f1af59cc90b6ab2a06460
-ms.sourcegitcommit: fec1010e405f14e792d650aee0312b78fced3343
+ms.openlocfilehash: b6698345a89edf52e4ee14cea144cb88ff080583
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30723037"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30998712"
 ---
 # <a name="smtp-auth-clients-report"></a>Отчет по клиентам проверки поДлинности SMTP
 
@@ -26,7 +26,7 @@ ms.locfileid: "30723037"
 
 Мини-приложение, показанное на панели мониторинга "почтовый ящик", указывает количество пользователей или учетных записей служб, которые использовали протокол проверки поДлинности SMTP за последние 7 дней.
 
-![Отчет по клиентам проверки поДлинности SMTP в панели мониторинга почтовых ящиков в центре безопасности _Амп_ соответствия требованиям Office 365](media/smtp-auth-clients-report-selected.png)
+![Отчет по клиентам проверки поДлинности SMTP в панели мониторинга "почтовые потоки" в центре безопасности _Амп_ соответствие требованиям](media/smtp-auth-clients-report-selected.png)
 
 Если щелкнуть мини-приложение, откроется всплывающее окно, в котором представлено сводное представление об использовании и томах TLS за последнюю неделю.
 

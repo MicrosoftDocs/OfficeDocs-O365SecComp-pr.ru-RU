@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: 97e9c3d9-df89-458e-924b-369becee5532
 description: Используйте страницу оповещения в Office 365 Cloud App Security для просмотра потенциальных проблем и выполнения действий. Вы можете отклонить или разрешить оповещения, а при необходимости приостановить учетную запись пользователя.
-ms.openlocfilehash: 701d80c3f890115c6c403fff21d2d0444d71c95a
-ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
+ms.openlocfilehash: ddef10293fca7b722a13babdca5c05bbe2398cb3
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30862471"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000042"
 ---
 # <a name="review-and-take-action-on-alerts-in-office-365-cloud-app-security"></a>Просмотр оповещений и реагирование на них в Office 365 Cloud App Security
   
@@ -37,7 +37,7 @@ ms.locfileid: "30862471"
 2. В области навигации, расположенной в верхней части экрана, выберите **оповещения**.<br/>![На странице оповещения можно просмотреть оповещения, которые были активированы, и все выполненные действия.](media/3b53d4c9-4b13-435d-8547-8c0f9ae6b914.png)
  
 > [!NOTE]
-> оповещения Cloud App security также отображаются в центре безопасности _амп_ по безопасности Office 365 (перейдите к разделу **alerts** > **View alerts**. Однако в настоящее время необходимо разрешить эти оповещения как на портале Cloud App Security, так и в центре безопасности Office 365 Security _Амп_. Чтобы узнать больше, ознакомьтесь со статьей [Просмотр оповещенИй системы безопасности облачНых приложений](alert-policies.md#viewing-cloud-app-security-alerts). 
+> Оповещения Cloud App Security также отображаются в центре безопасности _амп_ соответствие требованиям (перейдите к разделу **Alerts** > **View Alerts**. Однако в настоящее время необходимо разрешить эти оповещения на портале Cloud App Security и в центре безопасности _Амп_ соответствия требованиям. Чтобы узнать больше, ознакомьтесь со статьей [Просмотр оповещенИй системы безопасности облачНых приложений](alert-policies.md#viewing-cloud-app-security-alerts). 
  
 ## <a name="review-and-handle-alerts"></a>Просмотр и обработка оповещений
 

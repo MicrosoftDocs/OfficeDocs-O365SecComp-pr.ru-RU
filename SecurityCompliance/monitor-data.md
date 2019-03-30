@@ -11,16 +11,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: bff73d5ecb7e71ae2cd8557d16879bb197e4ca66
-ms.sourcegitcommit: ef27da3ea5340d6e7a2eaa1288e2e005ef8e4788
+ms.openlocfilehash: e722a8fbe89a960466ff7995622cedc938075780
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2019
-ms.locfileid: "30791869"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30998722"
 ---
 # <a name="monitor-and-report-data-in-microsoft-365-security"></a>Мониторинг и отчетные данные в Microsoft 365 Security
-
-[!include[Prerelease�information](prerelease.md)]
 
 Категория **данных** помогает отслеживать действия пользователей, которые могут привести к раскрытию несанкционированных данных. Это переработка существующих отчетов о политике защиты от потери данных в Office 365 плюс отчет по сторонним политикам защиты от потери данных.
 

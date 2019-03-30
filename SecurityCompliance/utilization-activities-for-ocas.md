@@ -13,21 +13,21 @@ search.appverid:
 - MOE150
 ms.assetid: 86f414ad-81de-4703-b40a-c6615bbe9108
 description: После настройки и развертывания Office 365 Cloud App Security вам потребуется выполнить определенные задачи, чтобы убедиться, что конфигурация правильная и что вы готовы к обычным проверкам.
-ms.openlocfilehash: 3afcfc307ea4a587287f3b71080bba89c715c908
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 232de4df1d1eb4debdddcee2c1d8672d1aeb4b21
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215949"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30999952"
 ---
 # <a name="utilization-activities-after-rolling-out-office-365-cloud-app-security"></a>Действия, связанные с использованием, после развертывания Office 365 Cloud App Security
   
 |Ознакомительная версия * *\>**|Планирование * *\>**|Развертывание * *\>**|Использование * * * *|
 |:-----|:-----|:-----|:-----|
-|[Начало оценки](office-365-cas-overview.md) <br/> |[Начало планирования](get-ready-for-office-365-cas.md) <br/> |[Начало развертывания](turn-on-office-365-cas.md) <br/> |Вот что вам!  <br/> [Следующее действие](review-office-365-cas-alerts.md) <br/> |
+|[Начало оценки](office-365-cas-overview.md) <br/> |[Начало планирования](get-ready-for-office-365-cas.md) <br/> |[Начало развертывания](turn-on-office-365-cas.md) <br/> |Вот что вам!  <br/> [Следующий шаг](review-office-365-cas-alerts.md) <br/> |
    
 > [!NOTE]
-> Office 365 Cloud App Security доступен в Office 365 корпоративный "~". Если ваша организация использует другую подписку на Office 365 Enterprise, можно приобрести надстройку Office 365 для облачных приложений. в центре администрирования Office 365 (как глобальный администратор) выберите пункт **подписки**на надстройки для **выставления счетов** \> . Дополнительные сведения см. в статье [office 365 Platform Service Description: центр соответствия &amp; требованиям безопасности Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center) и [приобретение или изменение надстройки для Office 365 для бизнеса](https://support.office.com/article/4e7b57d6-b93b-457d-aecd-0ea58bff07a6). 
+> Office 365 Cloud App Security доступен в Office 365 корпоративный "~". Если ваша организация использует другую подписку на Office 365 Enterprise, можно приобрести надстройку Office 365 для облачных приложений. в центре администрирования Microsoft 365 (как глобальный администратор) выберите пункт **подписки**на надстройки для **выставления счетов** \> . Дополнительные сведения см. в статье [office 365 Platform Service Description: центр соответствия &amp; требованиям безопасности Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center) и [приобретение или изменение надстройки для Office 365 для бизнеса](https://support.office.com/article/4e7b57d6-b93b-457d-aecd-0ea58bff07a6). 
   
 После настройки и настройки Office 365 Cloud App Security вы захотите выполнить определенные задачи в качестве глобального администратора Office или администратора безопасности для вашей организации. 
 

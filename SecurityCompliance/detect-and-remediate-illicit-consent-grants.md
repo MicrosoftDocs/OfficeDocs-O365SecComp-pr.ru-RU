@@ -14,12 +14,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Сведения о том, как распознать и исправить незаконное согласие на атаку в Office 365.
-ms.openlocfilehash: 454b1b0dcf7a6182895dcc97889286f3000c9626
-ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
+ms.openlocfilehash: 32fa8fedd0cac0ba1a6193b7b107492efb136838
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30656075"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30999942"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants-in-office-365"></a>Обнаружение случаев незаконного предоставления разрешений и устранение их последствий в Office 365
 
@@ -86,7 +86,7 @@ ms.locfileid: "30656075"
 4.  В столбце Клиентдисплайнаме (столбец C) найдите приложения, которые кажутся подозрительными. Приложения с неправильными именами, именами Super Бланд или звуковыми названиями хакеров следует внимательно рассмотреть.
 
 ## <a name="determine-the-scope-of-the-attack"></a>Определение области атаки
-Завершив инвентаризацию доступа к приложению, просмотрите **журнал аудита** Office 365, чтобы определить полную область нарушения.  Поиск затронутых пользователей, временных кадров, к которым приложение было незаконно получило доступ к вашей организации, а также разрешения, которые имело приложение. Вы можете выполнить поиск в **журнале аудита** в [центре безопасности и соответствия требованиям Office 365](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c). 
+Завершив инвентаризацию доступа к приложению, просмотрите **журнал аудита** Office 365, чтобы определить полную область нарушения.  Поиск затронутых пользователей, временных кадров, к которым приложение было незаконно получило доступ к вашей организации, а также разрешения, которые имело приложение. Вы можете выполнить поиск в **журнале аудита** в [центре безопасности и соответствия требованиям Microsoft 365](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c). 
 
 > [!IMPORTANT]
 > [](https://support.office.com/article/Enable-mailbox-auditing-in-Office-365-aaca8987-5b62-458b-9882-c28476a66918) Для получения этих сведений необходимо включить аудит и [Аудит действий для администраторов и пользователей,](https://support.office.com/article/turn-office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014) прежде чем приступить к атакам.

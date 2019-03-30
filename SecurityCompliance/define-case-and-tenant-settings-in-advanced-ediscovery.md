@@ -1,9 +1,8 @@
 ---
-title: Определение параметров дела и клиента в Office 365 Advanced eDiscovery
+title: Определение параметров дел и клиента в Office 365 Advanced eDiscovery
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 9/14/2017
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,14 +12,14 @@ search.appverid:
 - MET150
 ms.assetid: 383809de-7f5e-4a1d-9098-c525f67b7a9a
 description: 'Сведения о метках, кроссном модуле и параметрах клиента, которые можно определить на уровне вариантов в Office 365 Advanced eDiscovery.  '
-ms.openlocfilehash: e27f33f15d133d502e01a780d6f05ca85cce41a5
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 2e95984651bf4da86bd64cfc3730fae75391410d
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30219369"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000842"
 ---
-# <a name="define-case-and-tenant-settings-in-office-365-advanced-ediscovery"></a>Определение параметров дела и клиента в Office 365 Advanced eDiscovery
+# <a name="define-case-and-tenant-settings-in-office-365-advanced-ediscovery"></a>Определение параметров дел и клиента в Office 365 Advanced eDiscovery
 
 > [!NOTE]
 > Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -50,7 +49,7 @@ ms.locfileid: "30219369"
     
   - **Страница "обращения"**
     
-3. Нажмите кнопку **Сохранить**.
+3. Нажмите кнопку **Сохранить **.
     
 ## <a name="tenant-settings"></a>Параметры клиента
 

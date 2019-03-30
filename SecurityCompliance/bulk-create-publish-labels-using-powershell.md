@@ -2,7 +2,7 @@
 title: Пакетное создание и публикация меток хранения с помощью PowerShell
 ms.author: stephow
 author: stephow-msft
-ms.date: 1/17/2018
+ms.date: ''
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: С помощью меток в Office 365 можно реализовать расписание хранения для организации. У менеджера по записям или ответственного за обеспечение соответствия требованиям может возникать необходимость создавать и публиковать сотни меток. Это можно делать с помощью пользовательского интерфейса Центра безопасности и соответствия требованиям, но создавать метки по одной очень долго и неэффективно. С помощью приведенных ниже скриптов и CSV-файлов вы можете массово создавать и публиковать метки и соответствующие политики. Необходимо сначала создать списки меток и политик в Excel, а затем массово создать метки и соответствующие политики на основе этих списков при помощи PowerShell. Это позволяет одновременно создать и опубликовать все метки согласно вашему расписанию хранения.
-ms.openlocfilehash: 982ce21a0cbd1c465f6e04db52e10022a4980c5b
-ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
+ms.openlocfilehash: f787171e0b463b09f99698c37ac0bf5c516fad8f
+ms.sourcegitcommit: 799a958fcac643f62dfac6fa04020f2f4758635c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454901"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30997285"
 ---
 # <a name="bulk-create-and-publish-retention-labels-by-using-powershell"></a>Пакетное создание и публикация меток хранения с помощью PowerShell
 

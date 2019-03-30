@@ -6,19 +6,19 @@ manager: laurawi
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Обзор политик Майкрософт для Office 365, касающихся хранения, удаления и уничтожения данных.
-ms.openlocfilehash: 6aa272ece723aa83e15581062fd2348c508b04d5
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: fcae11f10278f1357a68ea3f9a1178da97322775
+ms.sourcegitcommit: 1261a37c414111f869df5791548a768d853fda60
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30219959"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31004126"
 ---
 # <a name="data-retention-deletion-and-destruction-in-office-365"></a>Хранение, удаление и уничтожение данных в Office 365
 
@@ -46,7 +46,7 @@ ms.locfileid: "30219959"
 ## <a name="expedited-deletion"></a>Срочные удаления
 Во всех случаях, когда термин любой подписки, подписчик может обратиться в службу поддержки Майкрософт и отправить запрос на отмену подписки. В этом процессе все данные пользователей, включая данные в SharePoint Online, Exchange Online, которые могут храниться в неактивных почтовых ящиках, будут удалены через три дня после того, как администратор введет код блокировки, предоставленный корпорацией Майкрософт. Дополнительные сведения об упрощении отмены подготовки можно найти в статье [Отмена Office 365](https://support.office.com/article/Cancel-Office-365-for-business-b1bc0bef-4608-4601-813a-cdd9f746709a).
 
-## <a name="related-links"></a>Связанные ссылки
+## <a name="related-links"></a>Дополнительные ссылки
 - [Уничтожение данных](office-365-data-destruction.md)
 - [Неизменность данных в Office 365](office-365-data-immutability.md)
 - [Удаление данных в Exchange Online](office-365-exchange-online-data-deletion.md)

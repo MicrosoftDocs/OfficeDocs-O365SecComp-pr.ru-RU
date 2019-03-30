@@ -3,7 +3,6 @@ title: Решение на основе результатов в Office 365 Adv
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 9/14/2017
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: aed65bcd-0a4f-43e9-b5e5-b98cc376bdf8
 description: 'Узнайте, как на вкладке "выбор" в Office 365 Advanced eDiscovery содержатся данные, которые помогут определить правильный размер набора файлов для проверки. '
-ms.openlocfilehash: c4767e703d03ef5dbdb808332e873d22094d7bca
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: a9250a45129320517f96b9a335db95d164d2dae7
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216109"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30999912"
 ---
 # <a name="decision-based-on-the-results-in-office-365-advanced-ediscovery"></a>Решение на основе результатов в Office 365 Advanced eDiscovery
 

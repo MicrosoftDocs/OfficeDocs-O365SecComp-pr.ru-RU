@@ -13,19 +13,21 @@ ms.assetid: 2e3fcfc5-5604-4b88-ac0a-c5c45c03f1db
 ms.collection:
 - M365-security-compliance
 description: Когда служба Exchange Online Protection сканирует входящие электронные сообщения, она вставляет заголовок **X-Forefront-Antispam-Report** в каждое из них.
-ms.openlocfilehash: 92614b8cb6e1571c3d5438206f9dcd106579669a
-ms.sourcegitcommit: 8a65a29aa3bfe5dcad0ff152a7cd795e02877dd9
+ms.openlocfilehash: 70322d49defe49517a75658b1e2084d520fd7ae8
+ms.sourcegitcommit: 1261a37c414111f869df5791548a768d853fda60
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30936749"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31004246"
 ---
 # <a name="anti-spam-message-headers"></a>Заголовки сообщений по защите от нежелательной почты
 
 Когда служба Exchange Online Protection сканирует входящие электронные сообщения, она вставляет заголовок **X-Forefront-Antispam-Report** в каждое из них. Поля в этом заголовке могут предоставить администраторам информацию о сообщении и его обработке. Поля заголовка **X-Microsoft-Antispam** предоставляют дополнительные сведения о массовой рассылке и фишинге. В дополнение к этим двум заголовкам служба Exchange Online Protection также вставляет в каждое сообщение, которое она обрабатывает, заголовок **Authentication-results** с результатами проверки подлинности сообщения.
+
+Сведения о том, как просматривать заголовок сообщения электронной почты в различных почтовых клиентах, можно найти в статье [анализатор ЗаголовкОв сообщений](https://go.microsoft.com/fwlink/p/?LinkId=306583). 
   
 > [!TIP]
-> Сведения о том, как просматривать заголовки электронных сообщений в различных почтовых клиентах, см. в статье [Приложение Message Header Analyzer](https://go.microsoft.com/fwlink/p/?LinkId=306583). Вы можете скопировать и вставить содержимое заголовка сообщения в средство [Message Header Analyzer](https://testconnectivity.microsoft.com/?tabid=mha). Если выбрать сообщение в карантине в Центре администрирования Exchange, ссылка **Просмотр заголовка сообщения** позволит легко скопировать и вставить текст заголовка сообщения в это средство. Открыв Message Header Analyzer, нажмите кнопку **Analyze headers** (Анализировать заголовки), чтобы получить сведения о заголовке.
+>  Содержимое заголовка сообщения можно скопировать и вставить в средство [анализатора сообщений](https://testconnectivity.microsoft.com/?tabid=mha) . Это средство помогает анализировать заголовки и переводить их в более реадибленый формат.
   
 ## <a name="x-forefront-antispam-report-message-header-fields"></a>Поля заголовка сообщения X-Forefront-Antispam-Report
 

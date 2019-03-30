@@ -15,19 +15,19 @@ ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection включает в себя безопасные вложения, безопасные ссылки, расширенные средства защиты от фишинга, средства создания отчетов и возможности анализа угроз.
-ms.openlocfilehash: 442c827f9844184fc6f03f6e253a0f492d12dd62
-ms.sourcegitcommit: 787a0fef671e5dc6f5e805b580321b2edbfad8e9
+ms.openlocfilehash: 402110fa7b835cd86ffbcf14439304d364cf03dd
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/29/2019
-ms.locfileid: "30989624"
+ms.locfileid: "31001182"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
 > [!IMPORTANT]
 > Эта статья предназначена для корпоративных клиентов Office 365 Enterprise и Microsoft 365. Если вы используете Outlook.com, Office 365 Home или Office 365 Personal, а вы ищете сведения о безОпасных ссылках в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
 
-## <a name="overview"></a>Обзор
+## <a name="overview"></a>Общие сведения
 
 Office 365 Advanced Threat protection (ATP) защищает организацию от вредоносных угроз, исносящихся к сообщениям электронной почты, ссылкам (URL-адресам) и средствам совместной работы. Пакет ATP включает в себя:
 
@@ -89,9 +89,9 @@ Office 365 ATP (план 2) содержит лучшие средства дл�
 
 Дополнительные сведения см. в следующих разделах:
 
-- [Разрешения в центре безопасности Office 365 _Амп_ соответствие требованиям](permissions-in-the-security-and-compliance-center.md) 
+- [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md) 
 
-- [Предоставление пользователям доступа к центру безопасности _Амп_ соответствия требованиям Office 365](grant-access-to-the-security-and-compliance-center.md)
+- [Предоставление пользователям доступа к Центру безопасности и соответствия требованиям](grant-access-to-the-security-and-compliance-center.md)
 
 ## <a name="get-office-365-atp"></a>Получение пакета Office 365 ATP
 

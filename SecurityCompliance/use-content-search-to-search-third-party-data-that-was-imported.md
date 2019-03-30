@@ -12,16 +12,16 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: ec2677ff-c4d7-4363-a9e7-22c80e015688
 description: Воспользуйтесь средством поиска обнаружения электронных данных поиска контента для поиска элементов, импортированных в почтовые ящики в Office 365, из стороннего источника данных. Можно создать запрос для поиска всех импортированных элементов или создать запрос для поиска определенных типов данных третьих сторон. В этой статье перечислены значения, которые можно использовать в запросе с ключевыми словами для поиска в сторонних типах данных, которые можно импортировать в Office 365.
-ms.openlocfilehash: f1ab3cfc8dd866aa0d70014b22a301de2a65f3c5
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: 361ead435d397464452c5b58ecf251a7322ced05
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30296042"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30999712"
 ---
 # <a name="use-content-search-to-search-third-party-data-that-was-imported-to-office-365"></a>Поиск данных третьих сторон, импортированных в Office 365, с помощью поиска контента
 
-[Средство обнаружения электронных данных поиска контента](content-search.md) в центре безопасности &amp; и соответствия требованиям Office 365 используется для поиска элементов, импортированных в почтовые ящики в Office 365 из стороннего источника данных. Вы можете создать запрос для поиска всех импортированных сторонних элементов данных или создать запрос для поиска только определенных элементов данных стороннего производителя. Кроме того, вы также можете создать политику сохранения на основе запросов или удержание обнаружения электронных данных на основе запросов для сохранения сторонних данных в Office 365. 
+Для поиска элементов, импортированных в почтовые ящики в Office 365 из стороннего источника данных, можно использовать [средство обнаружения электронных данных поиска контента](content-search.md) в центре обеспечения безопасности _амп_. Вы можете создать запрос для поиска всех импортированных сторонних элементов данных или создать запрос для поиска только определенных элементов данных стороннего производителя. Кроме того, вы также можете создать политику сохранения на основе запросов или удержание обнаружения электронных данных на основе запросов для сохранения сторонних данных в Office 365. 
   
 Дополнительные сведения об импорте сторонних данных и списке типов данных сторонних производителей, которые можно импортировать в Office 365, приведены в разделе Архивация сторонних [данных в office 365](archiving-third-party-data.md). 
   
@@ -55,11 +55,11 @@ itemclass:ipm.externaldata.Facebook* AND subject:contoso
   
 |**Сторонний тип данных**|**Значение `itemclass:` свойства**|
 |:-----|:-----|
-|AIM;  <br/> | `ipm.externaldata.AIM*` <br/> |
+|СТАРАЙТЕСЬ  <br/> | `ipm.externaldata.AIM*` <br/> |
 |American Idol;  <br/> | `ipm.externaldata.AmericanIdol*` <br/> |
 |AOL с клиентом Pivot;  <br/> | `ipm.externaldata.Pivot.IM` <br/> |
 |Apple Juice;  <br/> | `ipm.externaldata.AppleJuice*` <br/> |
-|Ares;  <br/> | `ipm.externaldata.Ares*` <br/> |
+|Арес  <br/> | `ipm.externaldata.Ares*` <br/> |
 |Axs Encrypted;  <br/> | `ipm.externaldata.AxsEncrypted*` <br/> |
 |Axs Exchange;  <br/> | `ipm.externaldata.AxsExchange*` <br/> |
 |Axs Local Archive;  <br/> | `ipm.externaldata.AxsLocalArchive*` <br/> |
@@ -73,9 +73,8 @@ itemclass:ipm.externaldata.Facebook* AND subject:contoso
 |Служба обмена сообщениями BlackBerry  <br/> | `ipm.externaldata.BlackBerryMessenger*` <br/> |
 |ПИН-код BlackBerry  <br/> | `ipm.externaldata.BlackBerryPIN*` <br/> |
 |BlackBerry SMS  <br/> | `ipm.externaldata.BlackBerrySMS*` <br/> |
-|Bloomberg;  <br/> | `ipm.externaldata.Bloomberg*` <br/> |
-|Bloomberg Mail;
-  <br/> | `ipm.externaldata.BloombergMail*` <br/> |
+|Bloomberg  <br/> | `ipm.externaldata.Bloomberg*` <br/> |
+|Bloomberg Mail;  <br/> | `ipm.externaldata.BloombergMail*` <br/> |
 |Обмен сообщениями Bloomberg  <br/> | `ipm.externaldata.BloombergMessaging*` <br/> |
 |Box  <br/> | `ipm.externaldata.Box*` <br/> |
 |Сервер присутствия &amp; для обмена МГНОВЕНными сообщениями Cisco  <br/> | `ipm.externaldata.Jabber.IM` <br/> |
@@ -84,65 +83,55 @@ itemclass:ipm.externaldata.Facebook* AND subject:contoso
 |Direct Connect;  <br/> | `ipm.externaldata.DirectConnect*` <br/> |
 |Facebook  <br/> | `ipm.externaldata.Facebook*` <br/> |
 |FastTrack  <br/> | `ipm.externaldata.FastTrack*` <br/> |
-|FXConnect;  <br/> | `ipm.externaldata.FXConnect.chat` <br/> |
-|Flickr;
-  <br/> | `ipm.externaldata.Flickr*` <br/> |
-|Gnutella;  <br/> | `ipm.externaldata.Gnutella*` <br/> |
-|Google+;
-  <br/> | `ipm.externaldata.GooglePlus*` <br/> |
+|Фксконнект  <br/> | `ipm.externaldata.FXConnect.chat` <br/> |
+|Flickr  <br/> | `ipm.externaldata.Flickr*` <br/> |
+|Гнутелла  <br/> | `ipm.externaldata.Gnutella*` <br/> |
+|Google +  <br/> | `ipm.externaldata.GooglePlus*` <br/> |
 |Google говорите  <br/> | `ipm.externaldata.GoogleTalk*` <br/> |
 |Готомипк  <br/> | `ipm.externaldata.GoToMyPC*` <br/> |
 |Хипчат  <br/> | `ipm.externaldata.HipChat*` <br/> |
-|Hopster;  <br/> | `ipm.externaldata.Hopster*` <br/> |
+|Хопстер  <br/> | `ipm.externaldata.Hopster*` <br/> |
 |Хубконнекс  <br/> | `ipm.externaldata.HubConnex*` <br/> |
 |Подключения IBM  <br/> | `ipm.externaldata.Connections*` <br/> |
 |IBM SameTime  <br/> | `ipm.externaldata.Sametime*` <br/> |
 |Чат  <br/> | `ipm.externaldata.ICEChat.Chat` <br/> |
-|Indii Messenger;
-  <br/> | `ipm.externaldata.Indii*` <br/> |
-|Instagram;
-  <br/> | `ipm.externaldata.Instagram*` <br/> |
-|Instant Bloomberg;
-  <br/> | `ipm.externaldata.InstantBloomberg*` <br/> |
+|Indii Messenger;  <br/> | `ipm.externaldata.Indii*` <br/> |
+|Инстаграм  <br/> | `ipm.externaldata.Instagram*` <br/> |
+|Instant Bloomberg;  <br/> | `ipm.externaldata.InstantBloomberg*` <br/> |
 |Инвестедже  <br/> | `ipm.externaldata.InvestEdge*` <br/> |
-|IRC;  <br/> | `ipm.externaldata.IRC*` <br/> |
-|Jive;
-  <br/> | `ipm.externaldata.Jive*` <br/> |
+|IRC  <br/> | `ipm.externaldata.IRC*` <br/> |
+|Jive  <br/> | `ipm.externaldata.Jive*` <br/> |
 |Живеапиретентион  <br/> | `ipm.externaldata.JiveApiRetention*` <br/> |
-|JXTA;  <br/> | `ipm.externaldata.JXTA*` <br/> |
+|ЖКСТА  <br/> | `ipm.externaldata.JXTA*` <br/> |
 |LinkedIn  <br/> | `ipm.externaldata.LinkedIn*` <br/> |
-|MFTP;  <br/> | `ipm.externaldata.MFTP*` <br/> |
+|МФТП  <br/> | `ipm.externaldata.MFTP*` <br/> |
 |Microsoft UC  <br/> | `ipm.externaldata.MicrosoftUC*` <br/> |
 |ВыРовнять по расМнению  <br/> | `ipm.externaldata.MindAlign*` <br/> |
 |Mobile Guard;  <br/> | `ipm.externaldata.MobileGuard*` <br/> |
-|MSN;  <br/> | `ipm.externaldata.MSN*` <br/> |
+|СЕТЬЮ  <br/> | `ipm.externaldata.MSN*` <br/> |
 |Миспаце  <br/> | `ipm.externaldata.MySpace*` <br/> |
-|NEONetwork;  <br/> | `ipm.externaldata.NEONetwork*` <br/> |
+|Неонетворк  <br/> | `ipm.externaldata.NEONetwork*` <br/> |
 |Опеннап  <br/> | `ipm.externaldata.OpenNap*` <br/> |
-|Pinterest;  <br/> | `ipm.externaldata.Pinterest*` <br/> |
-|Pivot;  <br/> | `ipm.externaldata.Pivot*` <br/> |
-|QQ;  <br/> | `ipm.externaldata.QQ*` <br/> |
+|Пинтерест  <br/> | `ipm.externaldata.Pinterest*` <br/> |
+|Сводка  <br/> | `ipm.externaldata.Pivot*` <br/> |
+|QQ  <br/> | `ipm.externaldata.QQ*` <br/> |
 |Microsoft SharePoint  <br/> | `ipm.externaldata.SharePoint*` <br/> |
 |Salesforce Chatter;  <br/> | `ipm.externaldata.Chatter*` <br/> |
 |Skype для бизнеса  <br/> | `ipm.externaldata.Skype*` <br/> |
 |Slack Enterprise Grid;  <br/> | `ipm.externaldata.Slack.IM` <br/> |
 |Софтесер  <br/> | `ipm.externaldata.SoftEther*` <br/> |
-|
-Squawker;
-  <br/> | `ipm.externaldata.Squawker*` <br/> |
-|Symphony;  <br/> | `ipm.externaldata.Symphony*` <br/> |
+|Скуавкер  <br/> | `ipm.externaldata.Squawker*` <br/> |
+|Симфони  <br/> | `ipm.externaldata.Symphony*` <br/> |
 |Thomson Reuters.  <br/> | `ipm.externaldata.Reuters*` <br/> |
-| Thomson Reuters Eikon Messenger.
-  <br/> | `ipm.externaldata.ReutersEikon*` <br/> |
-|Tor;  <br/> | `ipm.externaldata.Tor*` <br/> |
-|TTT;  <br/> | `ipm.externaldata.TTT*` <br/> |
-|Твиттер  <br/> | `ipm.externaldata.Twitter*` <br/> |
-|UBS Chat;
-  <br/> | `ipm.externaldata.UBS*` <br/> |
-|Vimeo.  <br/> | `ipm.externaldata.Vimeo*` <br/> |
+| Thomson Reuters Eikon Messenger.  <br/> | `ipm.externaldata.ReutersEikon*` <br/> |
+|Тор  <br/> | `ipm.externaldata.Tor*` <br/> |
+|ТТТ  <br/> | `ipm.externaldata.TTT*` <br/> |
+|Twitter  <br/> | `ipm.externaldata.Twitter*` <br/> |
+|UBS Chat;  <br/> | `ipm.externaldata.UBS*` <br/> |
+|Vimeo  <br/> | `ipm.externaldata.Vimeo*` <br/> |
 |Винмкс  <br/> | `ipm.externaldata.WinMX*` <br/> |
-|Winny;  <br/> | `ipm.externaldata.Winny*` <br/> |
+|Винни  <br/> | `ipm.externaldata.Winny*` <br/> |
 |Yahoo!  <br/> | `ipm.externaldata.Yahoo!*` <br/> |
 |Yammer  <br/> | `ipm.externaldata.Yammer*` <br/> |
 |Елловжаккет  <br/> | `ipm.externaldata.YellowJacket*` <br/> |
-|Своему  <br/> | `ipm.externaldata.YouTube*` <br/> |
+|YouTube  <br/> | `ipm.externaldata.YouTube*` <br/> |

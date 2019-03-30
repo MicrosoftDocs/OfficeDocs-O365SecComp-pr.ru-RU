@@ -6,19 +6,19 @@ manager: laurawi
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Общие сведения о политиках корпорации Майкрософт, касающихся утилизации, утилизации и уничтожения дисков и серверов Office 365 Datacenter.
-ms.openlocfilehash: 6b9f6bacfa1c3bf5ee6c8cb76bc5a394812b49be
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: fec6065434fa9fa555a057c68eca60082225652c
+ms.sourcegitcommit: 1261a37c414111f869df5791548a768d853fda60
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220789"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31004146"
 ---
 # <a name="office-365-data-destruction"></a>Уничтожение данных в Office 365
 

@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: Normal
 description: Подготовьтесь к работе с всеми новыми центрами безопасности и соответствия требованиям Microsoft 365
-ms.openlocfilehash: e67c3f61898187d87aa638cf2dab871a7b694c18
-ms.sourcegitcommit: 54a2cbe5d13f448e0c28655bdf88deb9e5434cac
+ms.openlocfilehash: 15e67b5bdd6aca8c5447abe2e4cd12fb15e36760
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30935204"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000692"
 ---
 # <a name="the-new-microsoft-365-security-center-and-microsoft-365-compliance-center-are-now-generally-available"></a>Новый центр безопасности Microsoft 365 и центр соответствия требованиям корпорации Майкрософт 365, как правило, доступны
 
@@ -70,7 +70,7 @@ ms.locfileid: "30935204"
 - Перейдите в центр администрирования Microsoft 365, а затем перейдите к новому центру безопасности Microsoft 365 и центру соответствия требованиям Microsoft 365 (ссылки находятся в центрах администрирования в левой области навигации).
 
 > [!TIP]
-> Если вы используете Центр обеспечения безопасности _Амп_ для Office 365 ([https://protection.office.com](http://protection.office.com)), вы по-прежнему сможете настраивать и управлять параметрами Office 365 в рамках существующего центра соответствия требованиям Office 365 _Амп_ Security. Конфигурации будут поддерживаться в существующем центре безопасности Office 365 Security _Амп_, а также в новом центре безопасности Microsoft 365 и центре соответствия требованиям Microsoft 365.  
+> Если вы используете Центр обеспечения безопасности _Амп_ для Office 365 ([https://protection.office.com](http://protection.office.com)), вы по-прежнему сможете настраивать и управлять параметрами Office 365 в существующем центре безопасности _Амп_ соответствия требованиям. Конфигурации будут поддерживаться в существующем центре безопасности _Амп_, а также в новом центре безопасности Microsoft 365 и центре соответствия требованиям Microsoft 365.  
 
 ## <a name="required-licenses-and-permissions"></a>Необходимые лицензии и разрешения
 
@@ -92,7 +92,7 @@ ms.locfileid: "30935204"
 
 |Узла |Глобальный администратор |Администратор безопасности, оператор безопасности или средство чтения безопасности|Администратор соответствия требованиям или администратор данных соответствия требованиям |
 |---------|---------|---------|---------|
-|[Центр безопасности и соответствия требованиям Office 365](https://protection.office.com) |Да |Да  |Да |
+|[Центр безопасности _Амп_ соответствие требованиям](https://protection.office.com) |Да |Да  |Да |
 |[Центр безопасности Microsoft 365](https://security.microsoft.com) |Да  | Да  | Нет        |
 |[Центр соответствия требованиям Microsoft 365](https://compliance.microsoft.com) | Да | Нет | Да |
 |[Диспетчер соответствия требованиям](https://aka.ms/compliancemanager) |Да | Да |Да  |
@@ -103,7 +103,7 @@ ms.locfileid: "30935204"
 |[Защита удостоверений](https://docs.microsoft.com/azure/active-directory/identity-protection)     |Да |Да |Нет |
 |[Управление привилегированными пользователями (PIM)](https://docs.microsoft.com/azure/active-directory/privileged-identity-management)     |Да |Да |Нет |
 |[Intune](https://docs.microsoft.com/intune)     |Да |Да |Да |
-|[Cloud App Security](https://docs.microsoft.com/cloud-app-security/)     |Да |Да |Да |
+|[Защита облачных приложений](https://docs.microsoft.com/cloud-app-security/)     |Да |Да |Да |
 |[Оценка безопасности](https://docs.microsoft.com/office365/securitycompliance/office-365-secure-score)     |Да |Да |Нет |
 |[Exchange](https://docs.microsoft.com/exchange/)     |Да |Да |Да |
 

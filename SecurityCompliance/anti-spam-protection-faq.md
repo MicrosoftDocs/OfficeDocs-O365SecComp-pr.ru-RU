@@ -14,12 +14,12 @@ ms.assetid: c534a35d-b121-45da-9d0a-ce738ce51fce
 ms.collection:
 - M365-security-compliance
 description: В этом разделе приведены вопросы и ответы по защите от нежелательной почты. Ответы предназначены для клиентов Microsoft Exchange Online и Exchange Online Protection (EOP).
-ms.openlocfilehash: 8ac5fff97828764524c8bfa1510549396d509866
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.openlocfilehash: fa2709c995ff9ef83213b86e079a778c61bef3a2
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692238"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000992"
 ---
 # <a name="anti-spam-protection-faq"></a>Часто задаваемые вопросы о защите от нежелательной почты
 
@@ -71,7 +71,7 @@ ms.locfileid: "30692238"
   
  **Вопрос. Можно ли получать отчеты о нежелательной почте?**
   
-Ответ. Да, например можно получить отчет об обнаружении нежелательной почты в Центре администрирования Office 365. В нем объем нежелательной почты показан как количество уникальных сообщений. Дополнительные сведения об отчетах см. по следующим ссылкам.
+О. Да, например, вы можете получить отчет об обнаружении нежелательной почты в центре администрирования Microsoft 365. В нем объем нежелательной почты показан как количество уникальных сообщений. Дополнительные сведения об отчетах см. по следующим ссылкам.
   
 Клиенты Exchange Online: [мониторинг, составленИе отчетов и трассировка сообщений в Exchange Online](http://technet.microsoft.com/library/87bdeeae-bd80-4a3b-95c5-62fbaf97c2e8.aspx)
   

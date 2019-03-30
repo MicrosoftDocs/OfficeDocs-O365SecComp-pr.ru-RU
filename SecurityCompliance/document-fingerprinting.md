@@ -11,12 +11,12 @@ ms.service: exchange-online
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: Информационные работники в вашей организации обрабатывают конфиденциальные сведения различных типов в течение обычного рабочего дня. Отпечатки документов упрощают защиту этих сведений путем определения стандартных форм, используемых в пределах всей организации. В этом разделе описываются понятия, связанные с использованием отпечатков документов, и способы их создания с помощью PowerShell.
-ms.openlocfilehash: bf28d1d901598337a5c9c18d80590b136c539d26
-ms.sourcegitcommit: a79eb9907759d4cd849c3f948695a9ff890b19bf
+ms.openlocfilehash: 2b8e4fd6b286f2c1a5c67863957f2b04fbef31b9
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30866355"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30999142"
 ---
 # <a name="document-fingerprinting"></a>Создание отпечатка документа
 
@@ -66,7 +66,7 @@ ms.locfileid: "30866355"
     
 ## <a name="use-powershell-to-create-a-classification-rule-package-based-on-document-fingerprinting"></a>Создание пакета правил классификации на основе отпечатков документов с помощью PowerShell
 
-Обратите внимание, что в настоящее время вы можете создать отпечаток документа только &amp; с помощью PowerShell в центре безопасности и соответствия требованиям. Чтобы подключиться, ознакомьтесь [со статьЕй подключение к Office 365 Security _амп_ в PowerShell центра соответствия требованиям](https://docs.microsoft.com/en-us/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+Обратите внимание, что в настоящее время вы можете создать отпечаток документа только &amp; с помощью PowerShell в центре безопасности и соответствия требованиям. Чтобы подключиться, ознакомьтесь со статьей обратитесь к разделу [Подключение к _Амп_ безопасности центра соответствия требованиям PowerShell](https://docs.microsoft.com/en-us/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 
 DLP использует пакеты правил классификации для обнаружения конфиденциального содержимого. Чтобы создать пакет правил классификации на основе отпечатка документа, используйте командлеты **New – длпфинжерпринт** и **New – DlpSensitiveInformationType** . Так как результаты **New-длпфинжерпринт** не хранятся вне правила классификации данных, всегда выполняются командлеты **New-длпфинжерпринт** и **New-DlpSensitiveInformationType** или **Set-DlpSensitiveInformationType** в той же Сеанс PowerShell. В примере ниже создается новый отпечаток документа на основе файла C:\My Documents\Contoso Employee Template.docx. Новый отпечаток хранится в качестве переменной, поэтому его можно использовать с командлетом **New-DlpSensitiveInformationType** во время одного сеанса PowerShell. 
   

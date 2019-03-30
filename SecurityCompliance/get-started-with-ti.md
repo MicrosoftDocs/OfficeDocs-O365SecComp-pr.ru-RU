@@ -15,12 +15,12 @@ ms.assetid: 38e9b67f-d188-490f-bc91-a1ae4b270441
 ms.collection:
 - M365-security-compliance
 description: Узнайте о том, как начать исследование угроз и ответ на Office 365, а также как приступить к работе.
-ms.openlocfilehash: a04b39ecb11c33baa647bb9716af9ff12aed755e
-ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
+ms.openlocfilehash: fd038f706ccb3df68b98f02593e43091484ec0c6
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30862523"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30998882"
 ---
 # <a name="get-started-with-threat-investigation-and-response-office-365-advanced-threat-protection-plan-2"></a>Начало работы с исследованием угроз и ответом (Office 365 Advanced Threat Protection Plan 2)
 
@@ -78,13 +78,13 @@ ms.locfileid: "30862523"
 > [!TIP]
 > Если в вашей организации есть подписка на Office 365, не включающая эти возможности для расследования и реагирования на угрозы, вы можете приобрести их в качестве надстройки вместе с Office 365 Advanced Threat protection. Дополнительные сведения о параметрах Plan приведены в статье [Описание службы платформы office 365: центр соответствия &amp; требованиям безопасности Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center) и [приобретение или изменение надстройки для Office 365 для бизнеса](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/buy-or-edit-an-add-on).
   
-1. Как глобальный администратор Office 365, войдите в систему [https://portal.office.com](https://portal.office.com) , используя рабочую или учебную учетную запись для Office 365. 
+1. Как глобальный администратор Office 365, войдите в систему [https://admin.microsoft.com](https://admin.microsoft.com) , используя рабочую или учебную учетную запись для Office 365. 
     
 2. Выберите пункт **"** \> **выставление счетов** администратору", чтобы просмотреть сведения о текущей подписке. 
     - Если вы видите **office 365 корпоративный**, то у вашей организации есть Office 365 Advanced Threat Protection Plan 2 (который включает расследования угроз и возможности реагирования). 
     - Если вы видите другую подписку, например **office 365 корпоративный E3** или **Office 365 корпоративный E1**, рекомендуем добавить Office 365 Advanced Threat Protection Plan 2. (Для этого выберите **+ Добавить подписку**).
     
-3. Войдите в Центр администрирования Office 365 и выберите элементы **Пользователи** \> **Активные пользователи**.
+3. в центре администрирования Microsoft 365 выберите пункт **пользователи** \> **активные пользователи**.
     
 5. Назначьте лицензии Office 365 Advanced Threat Protection Plan 2 всем активным пользователям. (В отчетах могут отображаться только те пользователи, у которых есть лицензия на это значение, например Explorer.)
     

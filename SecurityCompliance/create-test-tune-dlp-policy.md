@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
 description: 'Самый простой и распространенный способ приступить к работе с политиками защиты от потери данных — использовать один из шаблонов, включенных в Office 365. '
-ms.openlocfilehash: a025b006810c7f03b44fa9d307e263ba20af0903
-ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
+ms.openlocfilehash: 0c6b3bce7b336b08595a432c29601ecb63155589
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30639096"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000862"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>Создание, тестирование и настройка политики защиты от потери данных
 
@@ -203,7 +203,7 @@ Office 365 предоставляет ряд [шаблонов политики 
 
 ![Параметр, чтобы включить политику](media/DLP-create-test-tune-turn-on-policy.png)
  
-Если вы ждете, когда политика вступит в силу, подключитесь [к PowerShell центра безопасности _амп_ для Office 365](https://docs.microsoft.com/en-us/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps) и запустите [командлет Get – dlpcompliancepolicy позволяет](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-dlp/get-dlpcompliancepolicy?view=exchange-ps) , чтобы просмотреть дистрибутионстатус.
+Если вы ждете, когда политика вступит в силу, подключитесь [к PowerShell центра безопасности _амп_](https://docs.microsoft.com/en-us/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps) и запустите [командлет Get – dlpcompliancepolicy позволяет](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-dlp/get-dlpcompliancepolicy?view=exchange-ps) , чтобы просмотреть дистрибутионстатус.
 
 ![Выполнение командлета в PowerShell](media/DLP-create-test-tune-PowerShell.png)
 

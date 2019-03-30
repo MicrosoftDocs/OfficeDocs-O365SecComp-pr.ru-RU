@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5f02d20f-b9aa-4b2f-ad2d-506a4a3c4540
 description: 'С помощью Office 365 Cloud App Security действия по управлению можно приостановить или отменить приостановку работы учетной записи пользователя. '
-ms.openlocfilehash: 10da1385f850fadf077b4e3f9e3a00e9e4629fdd
-ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
+ms.openlocfilehash: d162be9d4e5382c6c03c63ae1b30043edbf0295b
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30862451"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30998872"
 ---
 # <a name="suspend-or-restore-a-user-account-in-office-365-cloud-app-security"></a>Приостановка или восстановление учетной записи пользователя в Office 365 Cloud App Security
 
@@ -29,7 +29,7 @@ ms.locfileid: "30862451"
 Предположим, что вы получили оповещение о том, что одна из учетных записей пользователей вашей организации для Office 365 была скомпрометирована. Предположим, вы получили оповещение о том, что у пользователя возникли проблемы с учетной записью пользователя. С помощью Office 365 Cloud App Security вы можете приостановить учетную запись пользователя и позже восстановить ее после того, как вы изучили полученные оповещения.
   
 > [!NOTE]
-> Office 365 Cloud App Security доступен в Office 365 корпоративный "~". Если ваша организация использует другую подписку на Office 365 Enterprise, можно приобрести надстройку Office 365 для облачных приложений. в центре администрирования Office 365 (как глобальный администратор) выберите пункт **подписки**на надстройки для **выставления счетов** \> . Дополнительные сведения см. в статье [office 365 Platform Service Description: центр соответствия &amp; требованиям безопасности Office 365](https://technet.microsoft.com/en-us/library/dn933793.aspx) и [приобретение или изменение надстройки для Office 365 для бизнеса](https://support.office.com/article/4e7b57d6-b93b-457d-aecd-0ea58bff07a6). 
+> Office 365 Cloud App Security доступен в Office 365 корпоративный "~". Если ваша организация использует другую подписку на Office 365 Enterprise, можно приобрести надстройку Office 365 для облачных приложений. в центре администрирования Microsoft 365 (как глобальный администратор) выберите пункт **подписки**на надстройки для **выставления счетов** \> . Дополнительные сведения см. в статье [office 365 Platform Service Description: центр соответствия &amp; требованиям безопасности Office 365](https://technet.microsoft.com/en-us/library/dn933793.aspx) и [приобретение или изменение надстройки для Office 365 для бизнеса](https://support.office.com/article/4e7b57d6-b93b-457d-aecd-0ea58bff07a6). 
   
 ## <a name="to-suspend-a-user-account-in-office-365-cloud-app-security"></a>Приостановка учетной записи пользователя в Office 365 Cloud App Security
 

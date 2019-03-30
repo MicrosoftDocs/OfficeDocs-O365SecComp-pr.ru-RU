@@ -3,7 +3,7 @@ title: Permissions in the Office 365 Security &amp; Compliance Center
 ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
-ms.date: 6/29/2018
+ms.date: ''
 ms.audience: Admin
 ms.topic: conceptual
 f1_keywords:
@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Центр соответствия требованиям безопасности &amp; Office 365 позволяет предоставлять разрешения пользователям, выполняющим задачи обеспечения соответствия требованиям, таким как управление устройствами, защита от потери данных, обнаружение электронных данных, хранение и т. д. Эти пользователи могут выполнять только те задачи, для которых вы явно предоставили доступ. Чтобы получить доступ к &amp; центру соответствия требованиям безопасности, пользователям необходимо быть глобальным администратором Office 365 или членом одной или нескольких &amp; групп ролей центра соответствия требованиям безопасности.
-ms.openlocfilehash: 9b2692d2afd70be911581caff237e61d405cf10f
-ms.sourcegitcommit: 6a7cec7d1f0d3b8d71f313bfa22f44c827de2336
+ms.openlocfilehash: eba77fd6edcf41bac5eeebae3637707c2c5a7246
+ms.sourcegitcommit: 799a958fcac643f62dfac6fa04020f2f4758635c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "30798135"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30997085"
 ---
 # <a name="permissions-in-the-office-365-security-amp-compliance-center"></a>Permissions in the Office 365 Security &amp; Compliance Center
 

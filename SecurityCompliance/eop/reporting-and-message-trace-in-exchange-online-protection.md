@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: f40253f2-50a1-426e-9979-be74ba74cb61
 description: В Microsoft Exchange Online Protection (EOP) доступно множество различных отчетов, с помощью которых вы сможете определить общее состояние и работоспособность вашей организации. Существуют также средства, позволяющие устранять неполадки с определенными событиями (например, если сообщение не приходит указанным получателям), а также отчеты аудита для целей соответствия требованиями. В следующей таблице описаны отчеты и средства устранения неполадок, доступные администраторам EOP.
-ms.openlocfilehash: c26f3e88edb378f2eb9ae5967e96fadbce69110e
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.openlocfilehash: fcefa14991d074f1f4459007c16dd7f4df1cedd1
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693168"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000952"
 ---
 # <a name="reporting-and-message-trace-in-exchange-online-protection"></a>Отчеты и трассировка сообщений в Exchange Online Protection
 
@@ -38,7 +38,7 @@ ms.locfileid: "30693168"
 - [Отчеты Office 365 в центре администрирования — использование поЧтовых приложений](https://go.microsoft.com/fwlink/p/?linkid=859707)
 - [Отчеты Office 365 в центре администрирования — использование поЧтовых ящиков](https://go.microsoft.com/fwlink/p/?linkid=859708)
 
-## <a name="security-amp-compliance-reports-in-the-office-365-admin-center"></a>Отчеты &amp; о соответствии безопасности в центре администрирования Office 365
+## <a name="security-amp-compliance-reports-in-the-microsoft-365-admin-center"></a>Отчеты &amp; о соответствии безопасности в центре администрирования Microsoft 365
 
 Эти расширенные отчеты предоставляют Интерактивные отчеты для администраторов EOP, включающие сводную информацию и возможность детализации для получения дополнительных сведений.  
 
@@ -50,7 +50,7 @@ ms.locfileid: "30693168"
 
 ##<a name="custom-reports-using-microsoft-graph"></a>Настраиваемые отчеты с помощью Microsoft Graph
 
-Программное создание отчетов, доступных в центре администрирования Office 365, с помощью Microsoft Graph Просмотр подразделов [о работе с отчетами об использовании office 365 в Microsoft Graph](https://go.microsoft.com/fwlink/p/?linkid=865135) 
+Программное создание отчетов, доступных в центре администрирования Майкрософт 365, с помощью Microsoft Graph Просмотр подразделов [о работе с отчетами об использовании Office 365 в Microsoft Graph](https://go.microsoft.com/fwlink/p/?linkid=865135) 
 
 ##<a name="custom-reports-using-reporting-web-services"></a>Настраиваемые отчеты с помощью веб-служб отчетов
 
@@ -83,6 +83,6 @@ ms.locfileid: "30693168"
 |Данные трассировки сообщений  <br/> |90 дней  <br/> |Трассировка сообщений с давностью менее 7 дней может занять от 5 до 30 минут.  <br/> Трассировка сообщений с давностью более 7 дней может занять несколько часов.  <br/> |
    
 > [!NOTE]
-> Доступность данных и задержка это то же самое, что и при запросе через центр администрирования Office 365 или удаленную среду PowerShell. 
+> Доступность данных и задержка это то же самое, что и при запросе через центр администрирования Microsoft 365 или удаленную среду PowerShell. 
   
 

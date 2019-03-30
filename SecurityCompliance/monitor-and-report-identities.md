@@ -1,5 +1,5 @@
 ---
-title: Мониторинг и отчеты об удостоверениях в Microsoft 365 Security
+title: Мониторинг и отчеты по удостоверениям в Центре безопасности Microsoft 365
 description: В этой статье описывается, как можно отслеживать удостоверения в Организации и отслеживать подозрительные или рискованные поведения.
 keywords: безопасность, вредоносные программы, Microsoft 365, M365, центр безопасности, монитор, отчет, удостоверение
 ms.prod: w10
@@ -11,16 +11,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 4b2dfec483f4365c7eff132e2a2401734358ad7a
-ms.sourcegitcommit: ef27da3ea5340d6e7a2eaa1288e2e005ef8e4788
+ms.openlocfilehash: 285bc5af108de8a59a65a088ec4e33ae27bff3c1
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2019
-ms.locfileid: "30791877"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30998892"
 ---
-# <a name="monitor-and-report-identities-in-microsoft-365-security"></a>Мониторинг и отчеты об удостоверениях в Microsoft 365 Security
-
-[!include[Prerelease�information](prerelease.md)]
+# <a name="monitor-and-report-identities-in-microsoft-365-security"></a>Мониторинг и отчеты по удостоверениям в Центре безопасности Microsoft 365
 
 Вы можете отслеживать удостоверения в Организации и следить за подозрительными и рискованными поведениями. В категории **удостоверения** **_амп_ отчетов мониторинга**можно отслеживать:
 

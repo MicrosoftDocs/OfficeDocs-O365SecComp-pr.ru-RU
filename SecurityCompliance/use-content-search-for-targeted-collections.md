@@ -11,13 +11,13 @@ ms.collection: M365-security-compliance
 localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
-description: Используйте поиск контента в центре безопасности &amp; и соответствия требованиям Office 365 для выполнения целевых коллекций. Целевая коллекция означает, что вы уверены, что элементы, реагирующие на обращение или привилегированные элементы, расположены в определенном почтовом ящике или папке сайта. Используйте сценарий, описанный в этой статье, чтобы получить идентификатор или путь к определенному почтовому ящику или папкам сайтов, в которых требуется выполнить поиск.
-ms.openlocfilehash: 4cfdb95ef65f94bc46b79265f986ed8d9ada04da
-ms.sourcegitcommit: c0d4fe3e43e22353f30034567ade28330266bcf7
+description: Используйте поиск контента в центре обеспечения безопасности _Амп_ для выполнения целевых коллекций. Целевая коллекция означает, что вы уверены, что элементы, реагирующие на обращение или привилегированные элементы, расположены в определенном почтовом ящике или папке сайта. Используйте сценарий, описанный в этой статье, чтобы получить идентификатор или путь к определенному почтовому ящику или папкам сайтов, в которых требуется выполнить поиск.
+ms.openlocfilehash: 06d1d4d213f0efd5a05badd9a0edef568ae15d75
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899999"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31001242"
 ---
 # <a name="use-content-search-in-office-365-for-targeted-collections"></a>Использование поиска контента в Office 365 для целевых коллекций
 
@@ -26,7 +26,7 @@ ms.locfileid: "30899999"
 > [!NOTE]
 > Чтобы получить контент, расположенный в папке на сайте SharePoint или OneDrive для бизнеса, сценарий в этом разделе использует управляемое свойство Документлинк вместо свойства Path. Свойство Документлинк является более надежным, чем свойство Path, так как оно возвращает весь контент в папке, а свойство Path не возвращает некоторые файлы мультимедиа.
 
-## <a name="before-you-begin"></a>До начала работы
+## <a name="before-you-begin"></a>Перед началом работы
 
 - Вы должны быть участником группы ролей "Диспетчер обнаружения электронных данных" в центре &amp; соответствия требованиям безопасности, чтобы запустить сценарий на шаге 1. Дополнительные сведения: [Назначение разрешений eDiscovery](assign-ediscovery-permissions.md).
     
@@ -56,7 +56,7 @@ ms.locfileid: "30899999"
     
   - **OneDrive для бизнеса** - https://contoso-my.sharepoint.com/personal/stacig_contoso_onmicrosoft_com 
     
-- **Ваши учетные данные пользователя** : сценарий будет использовать ваши учетные данные для подключения к Exchange Online &amp; и центра безопасности с помощью удаленной оболочки PowerShell. Как было сказано выше, для успешного выполнения этого сценария необходимо назначить соответствующие разрешения.
+- **Ваши учетные данные пользователя** : сценарий будет использовать ваши учетные данные для подключения к Exchange Online и центра безопасности _Амп_ по безопасности с помощью удаленной оболочки PowerShell. Как было сказано выше, для успешного выполнения этого сценария необходимо назначить соответствующие разрешения.
     
 Чтобы отобразить список папок почтовых ящиков или документлинк (путей) сайта, выполните следующие действия:
   
@@ -66,7 +66,7 @@ ms.locfileid: "30899999"
   #########################################################################################################
   # This PowerShell script will prompt you for:                             #
   #    * Admin credentials for a user who can run the Get-MailboxFolderStatistics cmdlet in Exchange    #
-  #      Online and who is an eDiscovery Manager in the Security &amp; Compliance Center.           #
+  #      Online and who is an eDiscovery Manager in the Security & Compliance Center.           #
   # The script will then:                                           #
   #    * If an email address is supplied: list the folders for the target mailbox.          #
   #    * If a SharePoint or OneDrive for Business site is supplied: list the documentlinks (folder paths) #
@@ -83,7 +83,7 @@ ms.locfileid: "30899999"
   #########################################################################################################
   # Collect the target email address or SharePoint Url
   $addressOrSite = Read-Host "Enter an email address or a URL for a SharePoint or OneDrive for Business site"
-  # Authenticate with Exchange Online and the Security &amp; Compliance Center (Exchange Online Protection - EOP)
+  # Authenticate with Exchange Online and the Security & Compliance Center (Exchange Online Protection - EOP)
   if (!$credentials)
   {
       $credentials = Get-Credential
@@ -125,7 +125,7 @@ ms.locfileid: "30899999"
       $searchActionName = "SPFoldersSearch_Preview"
       # List the folders for the SharePoint or OneDrive for Business Site
       $siteUrl = $addressOrSite
-      # Authenticate with the Security &amp; Compliance Center
+      # Authenticate with the Security & Compliance Center
       if (!$SccSession)
       {
           $SccSession = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid -Credential $credentials -Authentication Basic -AllowRedirection
@@ -267,7 +267,7 @@ ms.locfileid: "30899999"
   documentlink:<path> AND (lastmodifiedtime>=01/01/2017 AND lastmodifiedtime<=01/21/2017)
   ```
   
-## <a name="more-information"></a>Дополнительная информация
+## <a name="more-information"></a>Дополнительные сведения
 
 При использовании сценария, описанного в этой статье, следует учитывать следующие моменты для выполнения целевых коллекций.
   

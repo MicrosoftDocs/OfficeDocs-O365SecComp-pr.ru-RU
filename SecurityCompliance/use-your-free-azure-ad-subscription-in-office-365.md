@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: d104fb44-1c42-4541-89a6-1f67be22e4ad
 description: Сведения о том, как получать доступ к Azure Active Directory в составе платной подписки организации на Office 365.
-ms.openlocfilehash: 0a8ed74a0e135ae216f33401016a7321ad1a1adf
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
-ms.translationtype: HT
+ms.openlocfilehash: c49f6ca6aba109346ceea4558fe050b0cc561600
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30295602"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31001082"
 ---
 # <a name="use-your-free-azure-active-directory-subscription-in-office-365"></a>Использование бесплатной подписки на Azure Active Directory в Office 365
 
@@ -41,6 +41,6 @@ ms.locfileid: "30295602"
     
 ## <a name="more-information"></a>Дополнительные сведения
 
-- Кроме того, доступ к центру администрирования **Azure Active Directory** можно получить в Центре администрирования Office 365. Откройте Центр администрирования Office 365 и на панели навигации слева выберите **Центры администрирования** \> **Azure Active Directory**.
+- Вы также можете получить доступ к центру администрирования **Azure Active Directory** из центра администрирования Microsoft 365. в левой области навигации центра администрирования Microsoft 365 щелкните **центр** \> администрирования **Azure Active Directory**.
     
 - Сведения об управлении пользователями и группами, а также о выполнении других задач по управлению каталогом см. в статье [Управление каталогом Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-administer).

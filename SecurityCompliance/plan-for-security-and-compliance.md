@@ -14,12 +14,12 @@ search.appverid:
 ms.assetid: dc4f704c-6fcc-4cab-9a02-95a824e4fb57
 description: Целевая страница для плана безопасности и соответствия требованиям
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 4c653e20fbab8f93897b00589a00cb53b1e36963
-ms.sourcegitcommit: 07a4f9a8888756e05cd67ca24f6121b2a4e9f464
+ms.openlocfilehash: b0c7af13a78499f3ee8af5b902bc4c8db85aca32
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "30512654"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30998492"
 ---
 # <a name="plan-for-security-amp-compliance-in-office-365"></a>Планирование соответствия требованиям &amp; безопасности в Office 365
 
@@ -53,7 +53,7 @@ ms.locfileid: "30512654"
   
 [PDF](http://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.pdf) | [Visio](http://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.vsdx)
   
-## <a name="step-5-leverage-the-office-365-security-amp-compliance-center"></a>Шаг 5: использование центра безопасности &amp; и соответствия требованиям Office 365
+## <a name="step-5-leverage-the-microsoft-365-security-amp-compliance-center"></a>Шаг 5: использование центра безопасности &amp; и соответствия требованиям Microsoft 365
 
 Центр соответствия &amp; требованиям безопасности предоставляет единый вид для элементов управления, которые будут использоваться для управления спектром безопасности Office 365, включая управление угрозой, управление данными, Поиск и исследование. 
   
@@ -71,13 +71,13 @@ ms.locfileid: "30512654"
     
 - [Contoso в Microsoft Cloud](http://aka.ms/cloudarchcontoso)
     
-## <a name="office-365-admin-centers-and-dashboards"></a>Центры администрирования Office 365 и панели мониторинга
+## <a name="microsoft-365-admin-centers-and-dashboards"></a>Центры администрирования и панели мониторинга Microsoft 365
 
 Настройте параметры безопасности и соответствия требованиям в этих центрах администрирования и панелях мониторинга, чтобы защитить среду Office 365
   
 |**Подписка**|**URL-адрес управления**|**Панели мониторинга и центры администрирования**|
 |:-----|:-----|:-----|
-|Office 365  <br/> |`https://portal.office.com`  <br/> | Центр администрирования Office 365  <br/>  Security &amp; Compliance Center  <br/>  Центр администрирования Exchange  <br/>  Центр администрирования SharePoint и центр администрирования OneDrive для бизнеса  <br/> |
+|Office 365  <br/> |`https://admin.microsoft.com`  <br/> | Центр администрирования Microsoft 365  <br/>  Security &amp; Compliance Center  <br/>  Центр администрирования Exchange  <br/>  Центр администрирования SharePoint и центр администрирования OneDrive для бизнеса  <br/> |
 |Enterprise Mobility + Security  <br/> |`https://portal.azure.com`  <br/> | Azure Active Directory;  <br/>  Управление мобильными приложениями Майкрософт  <br/>  Microsoft Intune  <br/> |
 |Enterprise Mobility + Security  <br/> |`https://portal.cloudappsecurity.com`  <br/> | Cloud App Security  <br/> |
    

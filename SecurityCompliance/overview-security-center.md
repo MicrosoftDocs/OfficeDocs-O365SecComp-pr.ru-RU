@@ -11,16 +11,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 863cd36d383000b81d1a543d866f24b0380e5fdd
-ms.sourcegitcommit: ef27da3ea5340d6e7a2eaa1288e2e005ef8e4788
+ms.openlocfilehash: a0acaf9560b814fe8e87751d3a8f4b6d13b3864a
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2019
-ms.locfileid: "30791882"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000602"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Обзор центра безопасности Microsoft 365
-
-[!include[Prerelease�information](prerelease.md)]
 
 Управление безопасностью предприятия для защиты от постоянно развивающейся системы угроз приводит к большому количеству проблем. Возможно, у вас слишком много решений системы безопасности с разными местами для настройки большого количества элементов управления и не знаете, какие элементы управления наиболее эффективны, и что приводит к новым задачам ваших сотрудников. Командам безопасности может быть сложно найти правильное сальдо безопасности и производительности.
 
