@@ -91,7 +91,7 @@ ms.author: robmazz
                         <h3>Оставайтесь в курсе надежных</h3>
                         <p><a href="security-roadmap.md">План обеспечения безопасности Office 365</a></p>
                         <p><a href="office-365-secure-score.md" target="_blank">Оценка безопасности (Майкрософт)</a></p>
-                        <p><a href="https://protection.office.com" target="_blank">Центр безопасности и соответствия требованиям Office 365</a></p>
+                        <p><a href="https://protection.office.com" target="_blank">Центр безопасности _Амп_ соответствие требованиям</a></p>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 ---
-title: Мониторинг и отчеты об удостоверениях в Microsoft 365 Security
+title: Мониторинг и отчеты по удостоверениям в Центре безопасности Microsoft 365
 description: В этой статье описывается, как можно отслеживать удостоверения в Организации и отслеживать подозрительные или рискованные поведения.
 keywords: безопасность, вредоносные программы, Microsoft 365, M365, центр безопасности, монитор, отчет, удостоверение
 ms.prod: w10
@@ -11,25 +11,23 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 4b2dfec483f4365c7eff132e2a2401734358ad7a
-ms.sourcegitcommit: ef27da3ea5340d6e7a2eaa1288e2e005ef8e4788
+ms.openlocfilehash: 285bc5af108de8a59a65a088ec4e33ae27bff3c1
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2019
-ms.locfileid: "30791877"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30998892"
 ---
-# <a name="monitor-and-report-identities-in-microsoft-365-security"></a><span data-ttu-id="6b9c1-104">Мониторинг и отчеты об удостоверениях в Microsoft 365 Security</span><span class="sxs-lookup"><span data-stu-id="6b9c1-104">Monitor and report identities in Microsoft 365 security</span></span>
+# <a name="monitor-and-report-identities-in-microsoft-365-security"></a><span data-ttu-id="45502-104">Мониторинг и отчеты по удостоверениям в Центре безопасности Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="45502-104">Monitor and report identities in Microsoft 365 security</span></span>
 
-[!include[Prerelease�information](prerelease.md)]
+<span data-ttu-id="45502-105">Вы можете отслеживать удостоверения в Организации и следить за подозрительными и рискованными поведениями.</span><span class="sxs-lookup"><span data-stu-id="45502-105">You can monitor the identities in your organization and keep track of suspicious or risky behaviors.</span></span> <span data-ttu-id="45502-106">В категории **удостоверения** **_амп_ отчетов мониторинга**можно отслеживать:</span><span class="sxs-lookup"><span data-stu-id="45502-106">In the **Identities** category of **Monitoring & reports**, you can track:</span></span>
 
-<span data-ttu-id="6b9c1-105">Вы можете отслеживать удостоверения в Организации и следить за подозрительными и рискованными поведениями.</span><span class="sxs-lookup"><span data-stu-id="6b9c1-105">You can monitor the identities in your organization and keep track of suspicious or risky behaviors.</span></span> <span data-ttu-id="6b9c1-106">В категории **удостоверения** **_амп_ отчетов мониторинга**можно отслеживать:</span><span class="sxs-lookup"><span data-stu-id="6b9c1-106">In the **Identities** category of **Monitoring & reports**, you can track:</span></span>
-
-* <span data-ttu-id="6b9c1-107">Пользователи с наиболее обнаруженными аномалиями</span><span class="sxs-lookup"><span data-stu-id="6b9c1-107">Users with the most detected anomalies</span></span>
-* <span data-ttu-id="6b9c1-108">Сколько пользователей сообщает о риске с помощью политик условного доступа</span><span class="sxs-lookup"><span data-stu-id="6b9c1-108">How many users are reported at risk by conditional access policies</span></span>
-* <span data-ttu-id="6b9c1-109">Количество глобальных администраторов в Организации</span><span class="sxs-lookup"><span data-stu-id="6b9c1-109">The number of global admins in your org</span></span>
+* <span data-ttu-id="45502-107">Пользователи с наиболее обнаруженными аномалиями</span><span class="sxs-lookup"><span data-stu-id="45502-107">Users with the most detected anomalies</span></span>
+* <span data-ttu-id="45502-108">Сколько пользователей сообщает о риске с помощью политик условного доступа</span><span class="sxs-lookup"><span data-stu-id="45502-108">How many users are reported at risk by conditional access policies</span></span>
+* <span data-ttu-id="45502-109">Количество глобальных администраторов в Организации</span><span class="sxs-lookup"><span data-stu-id="45502-109">The number of global admins in your org</span></span>
 
 ![Категория "удостоверения" на странице "отчеты о _Амп_ мониторинга"](./media/security-docs/identities.png)
 
-<span data-ttu-id="6b9c1-111">Для пользователей с определенными обнаружениями вы можете изучить конкретное оповещение и изучить его в центре безопасности защитника Windows.</span><span class="sxs-lookup"><span data-stu-id="6b9c1-111">For users with specific detections, you can explore the specific alert and investigate in Windows Defender security center.</span></span> <span data-ttu-id="6b9c1-112">Обнаружение включает аномалии, такие как пользователи, которые входят в систему из незнакомых расположений.</span><span class="sxs-lookup"><span data-stu-id="6b9c1-112">Detections include anomalies such as users who sign in from unfamiliar locations.</span></span>
+<span data-ttu-id="45502-111">Для пользователей с определенными обнаружениями вы можете изучить конкретное оповещение и изучить его в центре безопасности защитника Windows.</span><span class="sxs-lookup"><span data-stu-id="45502-111">For users with specific detections, you can explore the specific alert and investigate in Windows Defender security center.</span></span> <span data-ttu-id="45502-112">Обнаружение включает аномалии, такие как пользователи, которые входят в систему из незнакомых расположений.</span><span class="sxs-lookup"><span data-stu-id="45502-112">Detections include anomalies such as users who sign in from unfamiliar locations.</span></span>
 
-<span data-ttu-id="6b9c1-113">Полный набор событий риска представлен в статье [события риска Azure Active Directory](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-risk-events).</span><span class="sxs-lookup"><span data-stu-id="6b9c1-113">For a complete set of risk events, see [Azure Active Directory risk events](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-risk-events).</span></span>
+<span data-ttu-id="45502-113">Полный набор событий риска представлен в статье [события риска Azure Active Directory](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-risk-events).</span><span class="sxs-lookup"><span data-stu-id="45502-113">For a complete set of risk events, see [Azure Active Directory risk events](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-risk-events).</span></span>
