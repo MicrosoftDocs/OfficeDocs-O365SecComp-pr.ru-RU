@@ -3,7 +3,7 @@ title: Ограничение доступа к содержимому с пом
 ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
-ms.date: 10/22/2018
+ms.date: ''
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: При создании метки конфиденциальности можно ограничить доступ к содержимому, которому будет присвоена метка. Метки конфиденциальности могут использовать шифрование для защиты содержимого.
-ms.openlocfilehash: 6f8100ea0196cd1637bbad69757c9cc6e98f5bac
-ms.sourcegitcommit: cf9d9b545a7c153d314aa9c08c7fb16fcd785b3e
+ms.openlocfilehash: 69deeed69a5b2970d387c30b01a062c6c068c567
+ms.sourcegitcommit: 799a958fcac643f62dfac6fa04020f2f4758635c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30737699"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30997045"
 ---
 # <a name="restrict-access-to-content-by-using-encryption-in-sensitivity-labels"></a>Ограничение доступа к содержимому с помощью шифрования в метках конфиденциальности
 
@@ -36,7 +36,7 @@ ms.locfileid: "30737699"
 - оно оставалось зашифрованным независимо от того, где находится, внутри или за пределами вашей организации, даже если файл будет переименован;
 - оно оставалось зашифрованным во время хранения (например, в учетной записи OneDrive) и при передаче (например, при отправлении электронной почты).
 
-Параметры шифрования доступны в Центре безопасности и соответствия требованиям Office 365 > страница **Метки** > вкладка **Конфиденциальность** > **Создать метку**.
+Параметры шифрования доступны при создании метки конфиденциальности в Центре соответствия требованиям Microsoft 365, Центре безопасности Microsoft 365 и Центре безопасности и соответствия требованиям Office 365.
 
 ## <a name="how-encryption-works"></a>Как работает шифрование
 
