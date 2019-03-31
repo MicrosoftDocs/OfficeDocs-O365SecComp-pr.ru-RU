@@ -3,7 +3,7 @@ title: Защита файлов SharePoint Online с помощью Azure Infor
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 08/08/2018
+ms.date: 03/29/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -17,12 +17,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 5b9c8e41-25d2-436d-89bb-9aecb9ec2b80
 description: Сводка. Защита файлов на строго конфиденциальном сайте группы SharePoint Online с помощью службы Azure Information Protection.
-ms.openlocfilehash: 8876de7133721fb1768752fa6482e34f9451c116
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 4be30059192bb954a1c2d07d34ece76bb339d7dc
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220989"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30999122"
 ---
 # <a name="protect-sharepoint-online-files-with-azure-information-protection"></a>Защита файлов SharePoint Online с помощью Azure Information Protection
 
@@ -36,14 +36,15 @@ ms.locfileid: "30220989"
 
 Некоторые важные замечания об этом решении:
 - Когда шифрование Azure Information Protection применяется к файлам в Office 365, служба не может обрабатывать содержимое этих файлов. Совместное редактирование, обнаружение электронных данных, поиск, Delve и другие функции совместной работы неактивны. Политики защиты от потери данных могут работать только с метаданными (включая метки Office 365), но не с содержимым этих файлов (например, номерами кредитных карт в файлах).
+
 - Для этого решения требуется, чтобы пользователь выбрал метку, которая применяет защиту от Azure Information Protection. Если вам требуется автоматическое шифрование, а также возможность индексировать и проверять файлы в SharePoint, рекомендуется использовать управление правами на доступ к данным (IRM) в SharePoint Online. При настройке библиотеки SharePoint для IRM, файлы автоматически шифруются, если они скачиваются для редактирования. Управление правами на доступ к данным SharePoint включает в себя ограничения, которые могут повлиять на ваше решение. Дополнительные сведения см. в статье [Настройка управления правами на доступ к данным (IRM) в центре администрирования SharePoint](https://support.office.com/article/Set-up-Information-Rights-Management-IRM-in-SharePoint-admin-center-239CE6EB-4E81-42DB-BF86-A01362FED65C).
 
 ## <a name="admin-setup"></a>Настройка администратора
-Сперва выполните для настройки подписки на Office 365 действия, описанные в статье [Как активировать Azure RMS в Центре администрирования Office 365](https://docs.microsoft.com/information-protection/deploy-use/activate-office365).
+Сперва выполните для настройки подписки на Office 365 действия, описанные в статье [Как активировать Azure RMS в Центре администрирования Microsoft 365](https://docs.microsoft.com/information-protection/deploy-use/activate-office365).
   
 Теперь настройте Azure Information Protection, добавив новую политику области и подчиненную метку для разрешений на доступ к строго конфиденциальному сайту группы SharePoint Online и его защиты.
   
-1. Войдите на портал Office 365, используя учетную запись с ролью администратора компании или администратора безопасности. Справочные сведения см. в статье [Вход в Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. Войдите в Центр администрирования, используя учетную запись с ролью администратора компании или администратора безопасности. Дополнительные сведения см. в статье [Вход в Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
     
 2. Перейдите на портал Azure ([https://portal.azure.com](https://portal.azure.com)), открыв отдельную вкладку браузера.
     
@@ -104,19 +105,13 @@ ms.locfileid: "30220989"
 ## <a name="adding-permissions-for-external-users"></a>Добавление разрешений для внешних пользователей
 Предоставить внешним пользователям доступ к файлам, защищенным с помощью Azure Information Protection, можно двумя способами. В обоих случаях внешним пользователям необходима учетная запись Azure AD. Если внешние пользователи не состоят в организации, использующей Azure AD, они могут получить личную учетную запись Azure AD на странице регистрации: [https://aka.ms/aip-signup](https://aka.ms/aip-signup).
 
- - Добавление внешних пользователей в группу Azure AD, используемую для настройки защиты метки. Для начала потребуется добавить в каталог учетную запись B2B-пользователя. Может потребоваться несколько часов, чтобы [служба управления правами Azure кэшировала данные о членстве в группах](https://docs.microsoft.com/azure/information-protection/plan-design/prepare#group-membership-caching-by-azure-information-protection).  
+ - Добавление внешних пользователей в группу Azure AD, используемую для настройки защиты метки. Необходимо сначала добавить учетную запись в качестве B2B пользователя в каталог. [Кэширование членства в группах в Azure Rights Management](https://docs.microsoft.com/azure/information-protection/plan-design/prepare#group-membership-caching-by-azure-information-protection) может занять несколько часов.  
  - Непосредственное добавление внешних пользователей в защиту метки. Вы можете добавить всех пользователей из организации (например, Fabrikam.com), группу Azure AD (например, финансовый отдел в организации) или пользователя. Например, вы можете добавить внешнюю команду контролеров для защиты метки.
 
 ## <a name="see-also"></a>См. также
 
 [Безопасность сайтов и файлов SharePoint Online](secure-sharepoint-online-sites-and-files.md)
   
-[Защита сайтов SharePoint Online в среде разработки и тестирования](secure-sharepoint-online-sites-in-a-dev-test-environment.md)
-  
 [Руководство по безопасности (Майкрософт) для политических кампаний, некоммерческих и других динамических организаций](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
   
 [Освоение облака и гибридные решения](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
-
-
-
-
