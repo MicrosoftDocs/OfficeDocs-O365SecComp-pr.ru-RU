@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: В этой статье рассказывается, как продемонстрировать возможности для выполнения требований GDPR, имеющиеся в Office 365.
-ms.openlocfilehash: d4d4113f6d78069a150e13c32ab192571671d986
-ms.sourcegitcommit: 54d58da1777eb83adb82826d1bb1adb94903c8e1
+ms.openlocfilehash: aea1fec29da352285a59ac9286fc053ca10ec746
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955282"
+ms.locfileid: "31001262"
 ---
 # <a name="gdpr-discovery-protection-and-reporting-in-the-office-365-devtest-environment"></a>Обнаружение, защита и создание отчетов в рамках GDPR в среде разработки и тестирования Office 365
 
@@ -98,7 +98,7 @@ ms.locfileid: "30955282"
 
 Для ссылки на своих клиентов во внутренней и внешней корреспонденции, документах и других формах компания Contoso всегда использует идентификатор CCN. Компании Contoso необходим пользовательский тип конфиденциальных данных, чтобы обнаруживать случаи использования идентификатора CCN в контенте Office 365 и применять защиту при использовании этой формы личных сведений.
 
-1. Выполнив инструкции в статье [Подключение к PowerShell в Центре безопасности и соответствия требованиям Office 365 с помощью многофакторной проверки подлинности](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/mfa-connect-to-scc-powershell?view=exchange-ps), подключитесь к Центру безопасности и соответствия требованиям с помощью имени участника-пользователя вашей учетной записи глобального администратора.
+1. Выполнив инструкции в статье [Подключение к PowerShell в Центре безопасности и соответствия требованиям с помощью многофакторной проверки подлинности](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/mfa-connect-to-scc-powershell?view=exchange-ps), подключитесь к Центру безопасности и соответствия требованиям с помощью имени участника-пользователя вашей учетной записи глобального администратора.
 2. Выполните указанные ниже команды PowerShell.
 
      ```

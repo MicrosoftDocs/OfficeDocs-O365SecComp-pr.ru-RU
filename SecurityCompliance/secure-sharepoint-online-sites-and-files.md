@@ -18,12 +18,12 @@ ms.custom:
 - Ent_Architecture
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: Сводка. Рекомендации по настройке для защиты файлов в SharePoint Online и Office 365.
-ms.openlocfilehash: 3e41a46d244f88110b87426fe975b3f72e376984
-ms.sourcegitcommit: 54d58da1777eb83adb82826d1bb1adb94903c8e1
+ms.openlocfilehash: cc31d6633b41fe8bcec57794247718c44c0fc555
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955232"
+ms.locfileid: "30999382"
 ---
 # <a name="secure-sharepoint-online-sites-and-files"></a>Защита сайтов и файлов SharePoint Online
 
@@ -125,7 +125,7 @@ ms.locfileid: "30955232"
 |Политики защиты от потери данных  <br/> |||Предупреждает пользователей об отправке файлов, помеченных как конфиденциальные, людям за пределами организации.  <br/> Чтобы заблокировать внешний общий доступ к данным конфиденциальных типов, таким как номера кредитных карт и другие персональные данные, вы можете настроить дополнительные политики защиты от потери данных для этих типов данных (в том числе для настроенных вами типов данных).  <br/> |Блокирует отправку пользователями файлов, помеченных как строго конфиденциальные, людям за пределами организации. Разрешает пользователям переопределять запрет, указывая обоснование, в том числе сведения о том человеке, которому предоставляется доступ.  <br/> |
 |Метки конфиденциальности  <br/> ||||Метки конфиденциальности используются для автоматического шифрования файлов и предоставления разрешений на доступ к ним. Метки конфиденциальности используют службу Azure Information Protection для шифрования файлов. Эта защита файлов продолжает действовать в случае утечки.  <br/> Office 365 не может считывать файлы, зашифрованные с помощью службы Azure Information Protection. Кроме того, политики защиты от потери данных могут применяться только к метаданным этих файлов, включая метки (не к их содержимому, например номерам кредитных карт).  <br/> |
    
-Инструкции по развертыванию четырех типов сайтов групп SharePoint Online в этом решении см. в статье [Развертывание сайтов SharePoint Online для трех уровней защиты](deploy-sharepoint-online-sites-for-three-tiers-of-protection.md). Инструкции по созданию среды разработки и тестирования см. в статье [Защита сайтов SharePoint Online в среде разработки и тестирования](secure-sharepoint-online-sites-in-a-dev-test-environment.md). 
+Шаги по развертыванию четырех разных типов сайтов групп SharePoint Online в этом решении см. в статье [Развертывание сайтов SharePoint Online с тремя уровнями защиты](deploy-sharepoint-online-sites-for-three-tiers-of-protection.md). 
   
 ## <a name="office-365-retention-labels"></a>Метки хранения Office 365
 
@@ -186,7 +186,3 @@ ms.locfileid: "30955232"
   
 [Освоение облака и гибридные решения](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
   
-[Защита сайтов SharePoint Online в среде разработки и тестирования](secure-sharepoint-online-sites-in-a-dev-test-environment.md)
-
-
-
