@@ -13,16 +13,16 @@ search.appverid:
 - MET150
 ms.assetid: d7ccd944-9698-41c7-a21b-677dc62973c4
 description: 'Сведения о том, как получать доступ к Office 365 Advanced eDiscovery из Центра безопасности и соответствия требованиям Office 365 и просматривать типичный рабочий процесс для использования Advanced eDiscovery.  '
-ms.openlocfilehash: 69c3b7d281576462ed49bb5bf6306002eab63ba5
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 18ba3de9bd8b314eddef90252be532256f0b85a5
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218749"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30999772"
 ---
 # <a name="quick-setup-for-office-365-advanced-ediscovery"></a>Быстрая настройка для Office 365 Advanced eDiscovery
 
-Этот раздел о настройках содержит сведения для менеджера обнаружения электронных данных в Центре безопасности и соответствия требованиям Office 365 о том, как начать работу с Advanced eDiscovery. Предполагается, что есть общее представление об обеих службах.
+Этот раздел о настройках содержит сведения для менеджера обнаружения электронных данных в Центре безопасности и соответствия требованиям Microsoft 365 о том, как начать работу с Advanced eDiscovery. Предполагается, что есть общее представление об обеих службах.
   
 > [!NOTE]
 > Advanced eDiscovery требует наличия Office 365 E3 с надстройкой Advanced Compliance или подписки на E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
