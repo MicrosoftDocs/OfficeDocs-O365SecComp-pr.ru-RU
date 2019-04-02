@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: o365-seccomp
 localization_priority: Normal
 description: Узнайте о новом центре соответствия требованиям Microsoft 365, в том числе о том, что оно содержит, как получить его и выполнить следующие действия.
-ms.openlocfilehash: 76ddc27ad616f2cbf4ec3a97892e3baea92469ec
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: d627174fce26be9f200f9fdc4f48f0946a8caf69
+ms.sourcegitcommit: 2c5834235c32b2616e1813ce24eeb3419a09629f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31001042"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026320"
 ---
 # <a name="welcome-to-your-all-new-microsoft-365-compliance-center"></a>Добро поЖаловать в новый центр соответствия требованиям Microsoft 365
 
@@ -68,7 +68,7 @@ ms.locfileid: "31001042"
 
 |  |  |
 |---------|---------|
-|![Навигация в центре соответствия требованиям Microsoft 365](media/m365-compliance-center-leftnav.png)  |<br/><br/> Переход на страницу **оповещения** для просмотра и разрешения [оповещений](alerts.md)<br/><br/>Посетите страницу **мониторинга _амп_ Reports** , чтобы просмотреть данные об [использовании и хранении меток](sensitivity-labels.md), [политиках защиты от потери данных и](view-the-dlp-reports.md)переопределениях, [Общие файлы](https://docs.microsoft.com/cloud-app-security/file-filters), [сторонние приложения](https://docs.microsoft.com/cloud-app-security/discovered-apps)и многое другое.<br/><br/>Разверните раздел **классификация** , чтобы получить доступ к [меткам](labels.md), [политикам меток](sensitivity-labels.md#what-label-policies-can-do), [типам конфиденциальных сведений](what-the-sensitive-information-types-look-for.md)и [аналитике меток](view-label-activity-for-documents.md).<br/><br/>Перейдите в раздел **политики** для просмотра [оповещений](alerts.md) и доступа к политикам защиты от [потери](data-loss-prevention-policies.md) данных и политик [хранения](retention-policies.md) .<br/><br/> Используйте ссылки в разделе **решения** , чтобы получить доступ к решениям по обеспечению соответствия требованиям в Организации. К ним относятся: <br/>[Расстановки _Гт_ управления данными](disposition-reviews.md)<br/>[Обнаружение электронных данных (Предварительная версия)](compliance20/overview-ediscovery-20.md)<br/>[Контроля](supervision-policies.md)<br/>[Расследования данных](compliance20/manage-data-spillage-incidents.md)<br/>[Запросы субъектов данных](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)        |
+|![Навигация в центре соответствия требованиям Microsoft 365](media/m365-compliance-center-leftnav.png)  |<br/><br/> Переход на страницу **оповещения** для просмотра и разрешения [оповещений](alerts.md)<br/><br/>Посетите страницу **мониторинга _амп_ Reports** , чтобы просмотреть данные об [использовании и хранении меток](sensitivity-labels.md), [политиках защиты от потери данных и](view-the-dlp-reports.md)переопределениях, [Общие файлы](https://docs.microsoft.com/cloud-app-security/file-filters), [сторонние приложения](https://docs.microsoft.com/cloud-app-security/discovered-apps)и многое другое.<br/><br/>Разверните раздел **классификация** , чтобы получить доступ к [меткам](labels.md), [политикам меток](sensitivity-labels.md#what-label-policies-can-do), [типам конфиденциальных сведений](what-the-sensitive-information-types-look-for.md)и [аналитике меток](view-label-activity-for-documents.md).<br/><br/>Перейдите в раздел **политики** для просмотра [оповещений](alerts.md) и доступа к политикам защиты от [потери](data-loss-prevention-policies.md) данных и политик [хранения](retention-policies.md) .<br/><br/> Используйте ссылки в разделе **решения** , чтобы получить доступ к решениям по обеспечению соответствия требованиям в Организации. К ним относятся: <br/>[Расстановки _Гт_ управления данными](disposition-reviews.md)<br/>[Обнаружение электронных данных (Предварительная версия)](compliance20/overview-ediscovery-20.md)<br/>[Контроля](supervision-policies.md)<br/>[Расследования данных](datainvestigations/overview-data-investigations.md)<br/>[Запросы субъектов данных](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)        |
 
 
 ## <a name="how-do-i-get-this"></a>Как это сделать?

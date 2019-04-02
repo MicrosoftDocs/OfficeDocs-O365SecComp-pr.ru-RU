@@ -13,16 +13,15 @@ search.appverid:
 - MOE150
 ms.assetid: 0a322724-08ca-43db-b69a-afbfa20484cd
 ms.collection:
-- Strat_O365_IP
 - M365-security-compliance
 - Strat_O365_IP
 description: В Office 365 ваш контент шифруется на REST и в транзите, используя наиболее надежные возможности шифрования, протоколы и технологии. Общие сведения о шифровании в Office 365.
-ms.openlocfilehash: 7099609ca142f6ed094ccafc95aab48059a1aa36
-ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
+ms.openlocfilehash: 7a73d3d3b24e28f8795ec93ac05dbc383b525906
+ms.sourcegitcommit: 2c5834235c32b2616e1813ce24eeb3419a09629f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30357510"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026330"
 ---
 # <a name="encryption-in-office-365"></a>Шифрование в Office 365
 
@@ -66,7 +65,7 @@ ms.locfileid: "30357510"
 
 - [Set up Information Rights Management (IRM) in SharePoint admin center](set-up-irm-in-sp-admin-center.md)
 
-## <a name="how-do-i"></a>Как...
+## <a name="how-do-i"></a>Руководства
 
 |**Для выполнения этой задачи**|**Ознакомьтесь с этими ресурсами**|
 |:-----|:-----|
@@ -76,7 +75,7 @@ ms.locfileid: "30357510"
 |Шифрование документа с помощью парольной защиты  <br/><br/>  В настоящее время защита паролем не поддерживается в Office Online. Используйте для настольных ПК версии Word, Excel и PowerPoint, чтобы защитить паролем.           |[Добавление и удаление защиты в документе, книге или презентации](https://support.office.com/article/05084cc3-300d-4c1a-8416-38d3e37d6826) (Выберите раздел **добавить защиту** , а затем см. **шифрование паролем** )  <br/> |
 |Удаление шифрования из документа  <br/> |[Добавление и удаление защиты в документе, книге или презентации](https://support.office.com/article/05084cc3-300d-4c1a-8416-38d3e37d6826) (Выберите раздел **удалить защиту** и затем — **удалить шифрование пароля** ).  <br/> |
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Планирование возможностей обеспечения безопасности и защиты данных в Office 365](https://support.office.com/article/3d4ac4a1-3920-4ff9-918f-011f3ce60408)
   
