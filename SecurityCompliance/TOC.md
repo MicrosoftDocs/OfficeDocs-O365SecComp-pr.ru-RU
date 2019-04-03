@@ -387,6 +387,47 @@
 #### [Использование служебных программ Advanced eDiscovery](use-advanced-ediscovery-utilities.md)
 #### [Запуск отчетов](run-reports-in-advanced-ediscovery.md)
 
+# [Управление исследованиями данных](datainvestigations/overview-data-investigations.md)
+## [Заметки о выпуске](datainvestigations/data-investigations-release-notes.md)
+## [Управление инцидентом утечки данных](datainvestigations/manage-data-spillage-incidents.md)
+## [Создание нового исследования](datainvestigations/create-new-investigation.md)
+ 
+## [Поиск данных в исследовании](datainvestigations/search-for-data.md)
+### [Создание поисковых запросов](datainvestigations/build-search-queries.md)
+### [Статистика поиска](datainvestigations/search-statistics.md)
+
+## [Просмотр данных в свидетельстве](datainvestigations/review-data-in-evidence.md)
+### [Запрос данных](datainvestigations/evidence-query.md)
+### [Метки для кокументов](datainvestigations/tag-documents.md)
+### [Заметки и внесение исправлений в документы](datainvestigations/annotate-and-redact-documents.md)
+### [Загрузка данных не из Office 365](datainvestigations/load-non-office365-data.md)
+### [Исправление ошибок при обработке данных](datainvestigations/error-remediation.md)
+
+## [Запуск аналитики для ускорения исследования](datainvestigations/run-analytics-to-investigate-faster.md)
+### [Потоки почты](datainvestigations/email-threading.md)
+### [Обнаружение схожих документов (почти дубликатов)](datainvestigations/near-duplicates.md)
+### [Темы](datainvestigations/themes.md)
+### [Использование модуля релевантности](datainvestigations/use-relevance-module.md)
+
+## [Управление пользователями, интересующимися исследованием](datainvestigations/manage-people-of-interest.md)
+### [Индекс данных людей, участвующих в исследовании](datainvestigations/index-data-people-of-interest.md)
+### [Просмотр аудита действий пользователей в исследовании](datainvestigations/view-people-of-interest-activity.md)
+
+## [Экспорт данных из исследования](datainvestigations/export-data.md)
+### [Экспорт документов из свидетельства](datainvestigations/export-documents-from-incident.md)
+### [Скачивание заданий экспорта](datainvestigations/download-export-jobs.md)
+
+## [Настройка параметров для исследований данных](datainvestigations/configure-settings-datainvestigations.md)
+### [Добавление и удаление участников исследования](datainvestigations/add-remove-members.md)
+### [Настройка параметров поиска и аналитики](datainvestigations/configure-search-analytics-settings.md)
+### [Закрытие или удаление исследования](datainvestigations/close-or-delete-investigation.md)
+
+## Справочные материалы по исследованиям данных
+### [Лимиты для исследований данных](datainvestigations/limits-datainvestigations.md)
+### [Поддерживаемые типы файлов](datainvestigations/supported-filetypes-datainvestigations.md)
+### [Поля метаданных документа](datainvestigations/document-metadata-fields.md)
+### [Управление заданиями](datainvestigations/manage-jobs.md)
+
 # [Поиск в журнале аудита](search-the-audit-log-in-security-and-compliance.md)
 ## [Включение и отключение поиска в журнале аудита](turn-audit-log-search-on-or-off.md)
 ## [Управление аудитом почтовых ящиков](enable-mailbox-auditing.md)
