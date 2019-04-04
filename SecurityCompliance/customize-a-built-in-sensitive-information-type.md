@@ -3,7 +3,7 @@ title: Настройка встроенных типов конфиденциа
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 6/25/2018
+ms.date: 04/03/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: При поиске конфиденциальных данных в содержимом необходимо описать эти данные в правиле. Коллекция для защиты от потери данных (DLP) содержит правила для самых распространенных типов конфиденциальных данных, которые вы можете сразу использовать, включив их в политику. Иногда эти встроенные правила требуется скорректировать в соответствии с потребностями организации. Чтобы сделать это, нужно создать специальный тип конфиденциальных данных. В этой статье показано, как изменить XML-файл, содержащий существующую коллекцию правил, для обнаружения более широкого круга данных кредитных карт.
-ms.openlocfilehash: 0acf10e52707c164c93fe442de287b08b3cf6804
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: a4e9a6e981889bd2be19451127fc96b351b4b00f
+ms.sourcegitcommit: 69d0c739a2f3b4a335b42182a2c7267ef554eb76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30999612"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "31389687"
 ---
 # <a name="customize-a-built-in-sensitive-information-type"></a>Настройка встроенных типов конфиденциальных данных
 
@@ -29,7 +29,7 @@ ms.locfileid: "30999612"
   
 ## <a name="export-the-xml-file-of-the-current-rules"></a>Экспорт XML-файла с текущими правилами
 
-Чтобы экспортировать XML-файл, нужно [подключиться к Центру безопасности и соответствия требованиям через удаленный сеанс PowerShell](https://go.microsoft.com/fwlink/?linkid=799771).
+Чтобы экспортировать XML-файл, нужно [подключиться к Центру безопасности и соответствия требованиям через удаленный сеанс PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
   
 1. В PowerShell введите указанную ниже команду, чтобы отобразить правила организации на экране. Если вы не создавали собственные правила, вы увидите только стандартные, встроенные правила, отмеченные как "Пакет правил Майкрософт".
     
@@ -191,7 +191,7 @@ ms.locfileid: "30999612"
   
 1. Сохраните правило как XML-файл с кодировкой Юникод. Это важно, так как правило в другой кодировке работать не будет.
     
-2. [Подключение к Центру безопасности и соответствия требованиям через удаленный сеанс PowerShell.](https://go.microsoft.com/fwlink/?linkid=799771)
+2. [Выполните подключение к Центру безопасности и соответствия требованиям через удаленный сеанс PowerShell.](https://go.microsoft.com/fwlink/?linkid=799771)
     
 3. В PowerShell введите указанную ниже команду.
     
@@ -225,7 +225,7 @@ ms.locfileid: "30999612"
 
 - [Что позволяют искать типы конфиденциальной информации](what-the-sensitive-information-types-look-for.md)
     
-- [Создание специальных типов конфиденциальных данных](create-a-custom-sensitive-information-type.md)
+- [Создание пользовательского типа конфиденциальной информации](create-a-custom-sensitive-information-type.md)
     
 - [Обзор политик защиты от потери данных](data-loss-prevention-policies.md)
     
