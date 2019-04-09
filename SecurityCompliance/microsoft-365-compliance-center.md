@@ -1,30 +1,30 @@
 ---
-title: Добро поЖаловать в новый центр соответствия требованиям Microsoft 365
+title: Обзор нового центра соответствия требованиям Microsoft 365
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/28/2019
+ms.date: 04/09/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-seccomp
 localization_priority: Normal
 description: Узнайте о новом центре соответствия требованиям Microsoft 365, в том числе о том, что оно содержит, как получить его и выполнить следующие действия.
-ms.openlocfilehash: d627174fce26be9f200f9fdc4f48f0946a8caf69
-ms.sourcegitcommit: 2c5834235c32b2616e1813ce24eeb3419a09629f
+ms.openlocfilehash: ae608d1aafb803fabe6ed1eba3804b9921bac7b2
+ms.sourcegitcommit: 48b77ec6fb499175507fc08f11dc9f5efe6c4858
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026320"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31518389"
 ---
-# <a name="welcome-to-your-all-new-microsoft-365-compliance-center"></a>Добро поЖаловать в новый центр соответствия требованиям Microsoft 365
+# <a name="overview-of-the-all-new-microsoft-365-compliance-center"></a>Обзор нового нового центра соответствия требованиям Microsoft 365
 
-## <a name="overview"></a>Общие сведения
+## <a name="overview"></a>Обзор
 
 Если вы заинтересованы в возможностях обеспечения соответствия требованиям вашей организации, вы будете рады новому [центру соответствия требованиям Microsoft 365](https://compliance.microsoft.com). Центр соответствия требованиям Microsoft 365 обеспечивает легкий доступ к данным и средствам, необходимым для управления требованиями соответствия вашей организации. 
 
 Ознакомьтесь с этой статьей, чтобы ознакомиться с центром соответствия требованиям Microsoft 365, [о том, как получить его](#how-do-i-get-this), [часто задаваемые вопросы](#frequently-asked-questions)и выполнить [следующие действия](#next-steps).
 
-[![Центр соответствия требованиям Microsoft 365](media/m365-compliance-center.png)](https://compliance.microsoft.com)
+[![Mцентр соответствия требованиям Microsoft 365(media/m365-compliance-center.png)](https://compliance.microsoft.com)
 
 ## <a name="welcome-to-microsoft-365-compliance"></a>Добро поЖаловать в соответствие Microsoft 365
 
@@ -83,11 +83,15 @@ ms.locfileid: "31026320"
 
 ### <a name="why-am-i-taken-to-the-office-365-security--compliance-center-to-perform-some-tasks-such-as-defining-certain-policies"></a>Почему центр соответствия требованиям Office 365 Security _Амп_ для выполнения некоторых задач, например для определения определенных политик?
 
-Мы по-прежнему разрабатываем центр соответствия требованиям Microsoft 365, и в течение ближайших месяцев мы будем добавлять дополнительные функции и решения. Кроме того, в центре безопасности _Амп_ соответствие необходимо выполнить некоторые задачи. В этих случаях вы будете автоматически направлены к расположению, в котором можно выполнить поставленную задачу, например создание или изменение политики контроля.
+Мы по-прежнему разрабатываем центр соответствия требованиям Microsoft 365, и в течение ближайших месяцев мы будем добавлять дополнительные функции и решения. Кроме того, существует несколько задач, которые необходимо выполнить в центре безопасности _Амп_ по безопасности Office 365 ([https://protection.office.com](https://protection.office.com)). В этих случаях вы будете автоматически направлены к расположению, в котором можно выполнить поставленную задачу, например создание или изменение политики контроля.
 
 ### <a name="why-dont-i-see-the-new-microsoft-365-compliance-center-yet"></a>Почему я еще не вижу нового центра соответствия требованиям Microsoft 365?
 
-Для начала убедитесь, что у вас есть соответствующие [лицензии и разрешения](microsoft-security-and-compliance.md#required-licenses-and-permissions). Затем войдите в систему [https://compliance.microsoft.com](https://compliance.microsoft.com). Если вы еще не видите новый центр соответствия требованиям, он вскоре получится.
+Для начала убедитесь, что у вас есть соответствующие [лицензии и разрешения](microsoft-security-and-compliance.md#required-licenses-and-permissions). Затем войдите в систему [https://compliance.microsoft.com](https://compliance.microsoft.com). Если вы еще не видите новый центр соответствия требованиям, вы будете в ближайшее время.
+
+### <a name="i-cant-find-some-of-my-compliance-settings-what-do-i-do"></a>Не удается найти некоторые параметры соответствия требованиям. What do I do?
+
+Мы по-прежнему добавляем функциональные возможности в центр соответствия требованиям Microsoft 365. Если вы не можете найти чего-либо, например, поиск в журнале аудита, перейдите в центр безопасности Office 365 Security _Амп_[https://protection.office.com](https://protection.office.com)(). Ваши конфигурации будут сохранены как в существующем центре соответствия требованиям Office 365 Security _Амп_, так и в новом центре соответствия требованиям корпорации Майкрософт 365.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
