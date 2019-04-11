@@ -310,11 +310,12 @@
 #### [Добавление результатов поиска в рабочий набор](compliance20/add-data-to-working-set.md)
 
 ### [Просмотр данных дела](compliance20/reviewing-data-in-working-set.md)
+#### [Просмотр документов в рабочем наборе](compliance20/view-documents-in-working-set.md)
+#### [Запрос данных в рабочем наборе](compliance20/working-set-search.md)
 #### [Управление рабочими наборами](compliance20/managing-working-sets.md)
+#### [Добавление данных в другой рабочий набор](compliance20/add-data-to-working-set-from-another-working-set.md)
 #### [Управление наборами загрузки](compliance20/manage-load-sets.md)
 #### [Загрузка не относящихся к Office 365 данных в рабочий набор](compliance20/load-non-office365-data.md)
-#### [Запрос данных в рабочем наборе](compliance20/working-set-search.md)
-#### [Просмотр документов в рабочем наборе](compliance20/view-documents-in-working-set.md)
 #### [Добавление тегов к документам в рабочем наборе](compliance20/tagging-documents.md)
 
 ### [Анализ данных дела](compliance20/analyzing-data-in-working-set.md)
