@@ -18,12 +18,12 @@ ms.custom:
 - Ent_Architecture
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: Сводка. Рекомендации по настройке для защиты файлов в SharePoint Online и Office 365.
-ms.openlocfilehash: cc31d6633b41fe8bcec57794247718c44c0fc555
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: 5dd9866096f4fea4fbb578e39f6b017f5cc898a2
+ms.sourcegitcommit: 19d27ff836ee7fa1f8a4e761e04d928f13f4bfd8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30999382"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31745281"
 ---
 # <a name="secure-sharepoint-online-sites-and-files"></a>Защита сайтов и файлов SharePoint Online
 
@@ -41,7 +41,7 @@ ms.locfileid: "30999382"
     
 Дополнительные сведения об этих уровнях и рекомендуемых для каждого из них возможностях см. в следующих статьях. 
   
-- [Защита идентификации и устройств для Office 365](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#BKMK_O365IDP)
+- [Защита идентификации и устройств в Office 365](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#BKMK_O365IDP)
     
 - [Решения для защиты файлов в Office 365](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#BKMK_O365fileprotect)
     
@@ -115,7 +115,7 @@ ms.locfileid: "30999382"
   
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
-||**Базовый уровень защиты 1** <br/> |**Базовый уровень защиты 2** <br/> |**Конфиденциальный уровень защиты** <br/> |**Строго конфиденциальный уровень защиты** <br/> |
+||**Базовая защита №1** <br/> |**Базовая защита №2** <br/> |**Конфиденциальный уровень защиты** <br/> |**Строго конфиденциально** <br/> |
 |Описание  <br/> |Открытое обнаружение и совместная работа в организации.  <br/> |Частные сайты и группы, где разрешено предоставление доступа пользователям за пределами группы.  <br/> |Изолированный сайт, уровни доступа на котором определяются членством в определенных группах. Предоставлять общий доступ можно только участникам сайта. Политика защиты от потери данных предупреждает пользователей при попытке отправить файлы за пределы организации.  <br/> |Изолированный сайт + шифрование файлов и разрешения с Azure Information Protection. Политика защиты от потери данных запрещает пользователям отправлять файлы за пределы организации.  <br/> |
 |Частный или общедоступный сайт группы  <br/> |Открытый  <br/> |Частный  <br/> |Частный  <br/> |Частный  <br/> |
 |У кого есть доступ?  <br/> |У всех пользователей в организации, включая B2B-пользователей и гостей.  <br/> |Только у участников сайта. Другие пользователи могут запрашивать доступ.  <br/> |Только у участников сайта. Другие пользователи могут запрашивать доступ.  <br/> |Только у участников. Другие пользователи не могут запрашивать доступ.  <br/> |
@@ -180,6 +180,11 @@ ms.locfileid: "30999382"
 
 Инструкции по настройке Azure Information Protection в этом решении см. в разделе [Защита файлов SharePoint Online с помощью Azure Information Protection](protect-sharepoint-online-files-with-azure-information-protection.md).
   
+
+## <a name="next-step"></a>Дальнейшее действие
+
+Выполните эту сборку в качестве проверки концепции с помощью статьи [Защита сайтов SharePoint Online в среде разработки и тестирования](secure-sharepoint-online-sites-in-a-dev-test-environment.md).
+
 ## <a name="see-also"></a>См. также
 
 [Руководство по безопасности (Майкрософт) для политических кампаний, некоммерческих и других динамических организаций](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
