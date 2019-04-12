@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
 description: Назначьте разрешения, необходимые для выполнения задач, связанных с обнаружением электронных данных, с помощью центра безопасности _Амп_ соответствия требованиям.
-ms.openlocfilehash: d936638173c9f458b6f0bd678a1b80f1d6e9e63f
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: 958dd3f41bb9e578c80608d738fc735f5063148d
+ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31001112"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31814050"
 ---
 # <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>Назначение разрешений обнаружения электронных данных в центре безопасности _Амп_ соответствия требованиям
 
@@ -51,7 +51,7 @@ ms.locfileid: "31001112"
     
 ## <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>Назначение разрешений обнаружения электронных данных в центре безопасности _Амп_ соответствия требованиям
 
-1. Перейдите по ссылке [https://compliance.microsoft.com](https://compliance.microsoft.com).
+1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
     
 2. Войдите в Office 365 с помощью своей рабочей или учебной учетной записи.
     
@@ -113,7 +113,7 @@ ms.locfileid: "31001112"
 Дополнительные сведения о удержаниях приведены в следующих статьях:
 
 - [случаи обнаружения электронных данных](ediscovery-cases.md) 
-- [Обзор политик хранения](retention-policies.md)
+- [Общие сведения о политиках хранения](retention-policies.md)
 
 ### <a name="preview"></a>Предварительная версия
 
@@ -132,7 +132,7 @@ ms.locfileid: "31001112"
 Эта роль позволяет пользователям выполнять массовое удаление данных, удовлетворяющих критериям поиска контента. Более подробную информацию можно узнать [в статье Поиск и удаление сообщений электронной почты в организации Office 365](search-for-and-delete-messages-in-your-organization.md). 
 
 
-## <a name="more-information"></a>Дополнительные сведения
+## <a name="more-information"></a>Дополнительная информация
 
 - **Зачем создавать администратора, ответственного за обнаружение электронных данных?** Как объяснялось ранее, администратор обнаружения электронных данных входит в группу ролей "Диспетчер eDiscovery" и может просматривать все дела eDiscovery в организации. Эта возможность доступа ко всем делам eDiscovery имеет две важные цели: 
     

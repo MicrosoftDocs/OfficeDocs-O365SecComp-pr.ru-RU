@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 61852fd9-fe8a-4880-a339-cb19ed3bff4a
 description: 'Используйте поиск контента в центре безопасности _Амп_ соответствия требованиям, чтобы искать почтовые ящики, сайты SharePoint Online и расположения OneDrive для бизнеса. '
-ms.openlocfilehash: 780a9eacc94985cf1f59993a1d5c2816474b8cb5
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: 4c3d9cc024a495ff8464e1117d5f46c13c1b9a08
+ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000282"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31814080"
 ---
 # <a name="run-a-content-search-in-the-security--compliance-center"></a>Поиск контента в Центре безопасности и соответствия требованиям
 
@@ -35,19 +35,19 @@ ms.locfileid: "31000282"
     
 "Поиск контента" — это новое средство обнаружения электронных данных с новыми и расширенными возможностями масштабирования и производительности. Используйте "Поиск контента" для выполнения масштабных операций обнаружения электронных данных. Можно выполнять поиск во всех почтовых ящиках, во всех общедоступных папках Exchange и на всех сайтах SharePoint Online и OneDrive для бизнеса в едином поисковом контенте. Количество расположений контента, которые можно искать, не ограничено. Не ограничено также количество операций поиска, выполняемых одновременно. После выполнения поиска контента количество расположений контента и предполагаемое количество результатов поиска отображается в области сведений на странице " **Поиск контента** ". После выполнения поиска можно просматривать результаты, получать статистику ключевых слов для одного или нескольких поисков, массово редактировать поиск контента и экспортировать результаты на локальный компьютер. 
   
- **Contents**
+ **Содержание**
   
 [Create a search](run-a-content-search-in-the-security-and-compliance-center.md#create)
   
 [Экспорт результатов поиска](run-a-content-search-in-the-security-and-compliance-center.md#export)
   
-[Просмотр результатов поиска](run-a-content-search-in-the-security-and-compliance-center.md#preview)
+[Preview search results](run-a-content-search-in-the-security-and-compliance-center.md#preview)
   
 [Обновление результатов поиска](run-a-content-search-in-the-security-and-compliance-center.md#restart)
   
 [Изменение поискового запроса](run-a-content-search-in-the-security-and-compliance-center.md#edit)
   
-[Retry a search](run-a-content-search-in-the-security-and-compliance-center.md#retry)
+[Повтор поиска](run-a-content-search-in-the-security-and-compliance-center.md#retry)
   
 
   
@@ -69,12 +69,12 @@ ms.locfileid: "31000282"
     
     В разделе приВодятся советы по поиску содержимого в группах Office 365 и Microsoft Teams. 
     
-[Return to top](run-a-content-search-in-the-security-and-compliance-center.md#top)
+[В начало](run-a-content-search-in-the-security-and-compliance-center.md#top)
   
 ## <a name="create-a-search"></a>Create a search
 <a name="create"> </a>
 
-1. Перейдите по ссылке [https://compliance.microsoft.com](https://compliance.microsoft.com).
+1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
     
 2. Войдите в Office 365 с помощью своей рабочей или учебной учетной записи.
     
@@ -209,7 +209,7 @@ ms.locfileid: "31000282"
     
 - . gzip
     
-[Return to top](run-a-content-search-in-the-security-and-compliance-center.md#top)
+[В начало](run-a-content-search-in-the-security-and-compliance-center.md#top)
   
 ## <a name="update-search-results"></a>Обновление результатов поиска
 <a name="restart"> </a>
@@ -252,7 +252,7 @@ ms.locfileid: "31000282"
     
     Отобразится сообщение об извлечении результатов. После завершения поиска обновленные сведения отображаются в разделе **Результаты** в области сведений. Обратите внимание, что дата в поле **Дата поиска** в области сведений заменяется текущей датой и временем. Чтобы обновить сведения в списке поиска, щелкните **Обновить**![значок](media/O365-MDM-Policy-RefreshIcon.gif)обновления.
     
-[К началу](run-a-content-search-in-the-security-and-compliance-center.md#top)
+[В начало](run-a-content-search-in-the-security-and-compliance-center.md#top)
   
 ## <a name="more-information"></a>Дополнительные сведения
 <a name="moreinfo"> </a>
@@ -273,7 +273,7 @@ ms.locfileid: "31000282"
   
 [Разное](#miscellaneous)
   
-[Return to top](#before-you-begin)
+[В начало](#before-you-begin)
   
 ### <a name="limits-and-performance"></a>Пределы и производительность
   

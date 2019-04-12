@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: 'Экспорт результатов поиска из поиска контента в центре обеспечения безопасности _Амп_ на локальный компьютер. Результаты по электронной почте экспортируются в виде PST-файлов. Контент с сайтов SharePoint и OneDrive для бизнеса экспортируется в виде собственных документов Office. '
-ms.openlocfilehash: f20ad17ba4573485199d72a260598e77bd224ece
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: 5d1baa57f466a5ef7657d92b517660e35b0036e8
+ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000472"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31814060"
 ---
 # <a name="export-content-search-results"></a>Экспорт результатов поиска контента
 
@@ -80,7 +80,7 @@ ms.locfileid: "31000472"
 
 Прежде всего необходимо подготовить результаты поиска для экспорта. При подготовке результатов они передаются в место хранения Azure в облаке Майкрософт. Обратите внимание, что содержимое из почтовых ящиков и сайтов отправляются с максимальным количеством в 2 ГБ в час.
   
-1. Перейдите по ссылке [https://compliance.microsoft.com](https://compliance.microsoft.com).
+1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
     
 2. Войдите в Office 365 с помощью своей рабочей или учебной учетной записи.
     
@@ -170,7 +170,7 @@ ms.locfileid: "31000472"
     
 
   
-## <a name="more-information"></a>Дополнительные сведения
+## <a name="more-information"></a>Дополнительная информация
 
 Ниже приведены дополнительные сведения об экспорте результатов поиска.
   

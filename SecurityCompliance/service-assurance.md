@@ -13,12 +13,12 @@ search.appverid:
 - BCS160
 ms.assetid: 47e8b964-4b09-44f7-a2d7-b8a06e8e389c
 description: Скачайте сторонние средства аудита, Узнайте, как корпорация Майкрософт обеспечивает безопасность данных клиентов, и Узнайте, как вы можете соблюдать ISO, HIPAA, ФИНРА и FedRAMP при использовании Office 365.
-ms.openlocfilehash: 3c65014246de71e0288874299c591816b1a2ca5c
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: d0cb03a7f5cbc34bdce238155372c9e031a95033
+ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30999452"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31813960"
 ---
 # <a name="service-assurance-in-the-security--compliance-center"></a>Гарантия обслуживания в центре безопасности _Амп_ соответствие требованиям
 
@@ -53,7 +53,7 @@ ms.locfileid: "30999452"
   
 Чтобы получить доступ к службе, используйте центр безопасности _Амп_ соответствия требованиям. Вот как это сделать.
   
-1. Перейдите по ссылке [https://compliance.microsoft.com](https://compliance.microsoft.com).
+1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
     
 2. Войдите в Office 365 с помощью своей рабочей или учебной учетной записи. 
     

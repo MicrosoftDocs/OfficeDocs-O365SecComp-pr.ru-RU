@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 268a109e-7843-405b-bb3d-b9393b2342ce
 description: Используйте центр соответствия требованиям по безопасности _Амп_ в Office 365, чтобы включить архивные почтовые ящики, чтобы обеспечить поддержку хранения сообщений, обнаружения электронных данных и удержания электронных данных в Организации.
-ms.openlocfilehash: 334af008f6eb8baedff1239ed1692a0ad73acdb6
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: d363943910d970576976d8386196b450dd5694f3
+ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000262"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31813970"
 ---
 # <a name="enable-archive-mailboxes-in-the-security--compliance-center"></a>Включение архивных почтовых ящиков в центре безопасности _Амп_ соответствия требованиям
   
@@ -37,7 +37,7 @@ ms.locfileid: "31000262"
   
 ## <a name="enable-an-archive-mailbox"></a>Включение архивного почтового ящика
   
-1. Перейдите по ссылке [https://compliance.microsoft.com](https://compliance.microsoft.com).
+1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
     
 2. Войдите в Office 365 с помощью своей рабочей или учебной учетной записи.
     
@@ -68,7 +68,7 @@ ms.locfileid: "31000262"
   
 Чтобы отключить архивный почтовый ящик:
   
-1. Перейдите по ссылке [https://compliance.microsoft.com](https://compliance.microsoft.com).
+1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
     
 2. Войдите в Office 365 с помощью своей рабочей или учебной учетной записи.
     
@@ -125,7 +125,7 @@ ms.locfileid: "31000262"
   Get-Mailbox -Filter {ArchiveStatus -Eq "Active" -AND RecipientTypeDetails -eq "UserMailbox"} | Disable-Mailbox -Archive
   ```
 
-## <a name="more-information"></a>Дополнительные сведения
+## <a name="more-information"></a>Дополнительная информация
   
 - Архивные почтовые ящики помогают вам и вашим пользователям обеспечить соответствие требованиям Организации относительно хранения, обнаружения электронных данных и удержания. Например, вы можете использовать политику хранения Exchange вашей организации для перемещения содержимого почтовых ящиков в архивный почтовый ящик пользователя. При использовании средства "поиск контента" в центре безопасности _Амп_ соответствие требованиям для поиска определенного содержимого в почтовом ящике пользователя также будет выполняться поиск архивного почтового ящика пользователя. Кроме того, при помещении судебного удержания или применении политики хранения Office 365 к почтовому ящику пользователя, элементы в архивном почтовом ящике также сохраняются.
   
@@ -141,6 +141,6 @@ ms.locfileid: "31000262"
     
   - [Теги хранения и политики хранения](https://go.microsoft.com/fwlink/?LinkId=404424)
     
-  - [Политика хранения по умолчанию в Exchange Online](https://go.microsoft.com/fwlink/?linkid=839418)
+  - [Политика хранения по умолчанию в Exchange Online ](https://go.microsoft.com/fwlink/?linkid=839418)
     
   - [Настройка политики архивации и удаления для почтовых ящиков в организации Office 365](set-up-an-archive-and-deletion-policy-for-mailboxes.md)

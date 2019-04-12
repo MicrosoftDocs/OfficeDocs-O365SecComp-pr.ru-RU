@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 7acd33ce-1ec8-49fb-b625-43bac7b58c5a
 description: 'Используйте центр соответствия требованиям по безопасности _Амп_ для получения различных отчетов для вашей организации SharePoint Online и Exchange Online, а также отчетов Azure Active Directory.  '
-ms.openlocfilehash: e336ddb500ced25fc17ebf4edfb680e410bae172
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: b902ce8e44e20fdb9e5fc22189ca07b6168be329
+ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30999062"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31813920"
 ---
 # <a name="reports-in-the-security--compliance-center"></a>Отчеты в Центре безопасности и соответствия требованиям
 
@@ -37,7 +37,7 @@ ms.locfileid: "30999062"
   
  **Чтобы открыть страницу "Просмотр отчетов" в центре безопасности _Амп_ соответствие требованиям, выполните указанные ниже действия.**
   
-1. Перейдите по ссылке [https://compliance.microsoft.com/#/viewreports](https://compliance.microsoft.com/#/viewreports).
+1. Перейдите по ссылке [https://protection.office.com/#/viewreports](https://protection.office.com/#/viewreports).
     
 2. Войдите в Office 365, используя учетные данные для учетной записи пользователя в организации Office 365.
     

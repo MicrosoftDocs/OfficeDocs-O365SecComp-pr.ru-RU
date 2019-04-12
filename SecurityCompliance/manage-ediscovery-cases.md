@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9a00b9ea-33fd-4772-8ea6-9d3c65e829e6
 description: Используйте центр соответствия требованиям по безопасности _Амп_ для создания электронных данных и для доступа к ним, а также для управления делами обнаружения электронных данных в Организации.
-ms.openlocfilehash: 84cb7eeab55e157f42146f6a0586d32542584680
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: 209f31187ad01ffa3e06cf8a5825c4538715fc7d
+ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000452"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31814140"
 ---
 # <a name="manage-ediscovery-cases-in-the-security--compliance-center"></a>Управление делами обнаружения электронных данных в Центре безопасности и соответствия требованиям
 
@@ -25,7 +25,7 @@ ms.locfileid: "31000452"
   
 Используйте следующий рабочий процесс, чтобы настроить и использовать случаи обнаружения электронных данных в центре безопасности _Амп_ соответствие требованиям и Advanced eDiscovery.
   
-[Step 1: Assign eDiscovery permissions to potential case members](manage-ediscovery-cases.md#step1_1)
+[Шаг 1. Назначение разрешений на обнаружение электронных данных возможным членам дела](manage-ediscovery-cases.md#step1_1)
   
 [Шаг 2: создание нового дела](manage-ediscovery-cases.md#step2_1)
   
@@ -45,7 +45,7 @@ ms.locfileid: "31000452"
   
 [Необязательно Шаг 10: повторное открытие закрытого дела](manage-ediscovery-cases.md#reopencase_1)
   
-[Дополнительные сведения](manage-ediscovery-cases.md#moreinfo_1)
+[Дополнительная информация](manage-ediscovery-cases.md#moreinfo_1)
   
 ## <a name="step-1-assign-ediscovery-permissions-to-potential-case-members"></a>Шаг 1. Назначение разрешений на обнаружение электронных данных возможным членам дела
 <a name="step1_1"> </a>
@@ -73,7 +73,7 @@ ms.locfileid: "31000452"
   
  **Чтобы назначить разрешения на обнаружение электронных данных:**
   
-1. Перейдите по ссылке [https://compliance.microsoft.com](https://compliance.microsoft.com).
+1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
     
 2. Войдите в Office 365 с помощью своей рабочей или учебной учетной записи.
     
@@ -94,7 +94,7 @@ ms.locfileid: "31000452"
 
 Следующий шаг — создание нового дела eDiscovery. Чтобы вы могли создавать такие дела, вы должны быть членом группы ролей "Руководители службы обнаружения электронных данных". Как описывалось ранее, после создания нового дела в центре безопасности _Амп_ соответствия требованиям вы (и другие элементы Case) смогут получать доступ к этому же регистру в Advanced eDiscovery, если у вашей организации есть подписка на Office 365.
   
-1. Перейдите по ссылке [https://compliance.microsoft.com](https://compliance.microsoft.com).
+1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
     
 2. Войдите в Office 365 с помощью своей рабочей или учебной учетной записи.
     
@@ -491,7 +491,7 @@ ms.locfileid: "31000452"
     
     По завершении процесса состояние обращения изменяется на " **активно** " на странице **обнаружения электронных** данных. 
   
-## <a name="more-information"></a>Дополнительные сведения
+## <a name="more-information"></a>Дополнительная информация
 <a name="moreinfo_1"> </a>
 
 - Существуют ли **какие либо предельные варианты обнаружения электронных данных или удержания, связанные с делаМи обнаружения электронных данных?** В приведенной ниже таблице перечислены пределы случаев обнаружения электронных данных и их удержания.
