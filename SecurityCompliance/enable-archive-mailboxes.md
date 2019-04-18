@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 268a109e-7843-405b-bb3d-b9393b2342ce
 description: Используйте центр соответствия требованиям по безопасности _Амп_ в Office 365, чтобы включить архивные почтовые ящики, чтобы обеспечить поддержку хранения сообщений, обнаружения электронных данных и удержания электронных данных в Организации.
-ms.openlocfilehash: d363943910d970576976d8386196b450dd5694f3
-ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
+ms.openlocfilehash: 334af008f6eb8baedff1239ed1692a0ad73acdb6
+ms.sourcegitcommit: d3e3ce391130f209f4d63c2528e1da8342cd732f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31813970"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "31901947"
 ---
 # <a name="enable-archive-mailboxes-in-the-security--compliance-center"></a>Включение архивных почтовых ящиков в центре безопасности _Амп_ соответствия требованиям
   
@@ -37,7 +37,7 @@ ms.locfileid: "31813970"
   
 ## <a name="enable-an-archive-mailbox"></a>Включение архивного почтового ящика
   
-1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
+1. Перейдите по ссылке [https://compliance.microsoft.com](https://compliance.microsoft.com).
     
 2. Войдите в Office 365 с помощью своей рабочей или учебной учетной записи.
     
@@ -68,7 +68,7 @@ ms.locfileid: "31813970"
   
 Чтобы отключить архивный почтовый ящик:
   
-1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
+1. Перейдите по ссылке [https://compliance.microsoft.com](https://compliance.microsoft.com).
     
 2. Войдите в Office 365 с помощью своей рабочей или учебной учетной записи.
     
@@ -141,6 +141,6 @@ ms.locfileid: "31813970"
     
   - [Теги хранения и политики хранения](https://go.microsoft.com/fwlink/?LinkId=404424)
     
-  - [Политика хранения по умолчанию в Exchange Online ](https://go.microsoft.com/fwlink/?linkid=839418)
+  - [Политика хранения по умолчанию в Exchange Online](https://go.microsoft.com/fwlink/?linkid=839418)
     
   - [Настройка политики архивации и удаления для почтовых ящиков в организации Office 365](set-up-an-archive-and-deletion-policy-for-mailboxes.md)
