@@ -13,6 +13,12 @@
 ## [Использование бесплатной подписки на Azure Active Directory](use-your-free-azure-ad-subscription-in-office-365.md)
 ## [Планирование безопасности и соответствия требованиям в Office 365](plan-for-security-and-compliance.md)
 ## [Учебный семинар для руководителя по информационной безопасности (CISO)](ciso-workshop.md)
+### [Модуль 1 — информационная справка по кибербезопасности Майкрософт](ciso-workshop-module-1.md)
+### [Модуль 2 — управление безопасностью](ciso-workshop-module-2.md)
+### [Модуль 3 — управление удостоверениями и доступом](ciso-workshop-module-3.md)
+### [Модуль 4a — стратегия защиты от угроз, часть I](ciso-workshop-module-4a.md)
+### [Модуль 4б — стратегия защиты от угроз, часть II](ciso-workshop-module-4b.md)
+### [Модуль 5 — защита информации](ciso-workshop-module-5.md)
 
 # Защита доступа к данным и службам
 ## [Защита доступа к данным и службам в Office 365](protect-access-to-data-and-services.md)
