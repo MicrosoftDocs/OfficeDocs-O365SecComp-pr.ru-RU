@@ -3,7 +3,7 @@ title: Динамическая Доставка и предварительны
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/12/2019
+ms.date: 04/19/2019
 ms.audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: f16c9928-8e3d-4219-b994-271dc9a16272
 ms.collection:
 - M365-security-compliance
 description: Когда вы настраиваете политики безопасных вложений ATP, вы выбираете динамическое предоставление, чтобы избежать задержки сообщений и разрешить пользователям просматривать сканируемые вложения.
-ms.openlocfilehash: d27fa16f8d1d117aa56a2080eb020ab3638ca6fe
-ms.sourcegitcommit: f86383dcb9c52352661d51b22617f1809445beaa
+ms.openlocfilehash: 567b5f0c5bc75123169073bf5dc33de191187846
+ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30573513"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31958570"
 ---
 # <a name="dynamic-delivery-and-previewing-with-office-365-atp-safe-attachments"></a>Динамическая Доставка и предварительный просмотр с безопасными вложениями Office 365 ATP
 
@@ -63,7 +63,7 @@ ms.locfileid: "30573513"
     
 - Электронная почта вашей организации должна размещаться в Office 365. Несмотря на то что [Office 365 Advanced Threat Protection можно использовать с любым агентом передачи почты SMTP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#requirements-for-office-365-advanced-threat-protection-atp) (например, Exchange Server), для параметра динамической доставки для безопасных вложений ATP необходимо, чтобы электронная почта Организации была размещена в Office 365. Если ваша электронная почта не размещена в Office 365, выберите другую [политику безопасных вложенИй ATP](set-up-atp-safe-attachments-policies.md#step-3-learn-about-atp-safe-attachments-policy-options)(например, **блок**).
     
-## <a name="additional-considerations"></a>Дополнительные рекомендации
+## <a name="additional-considerations"></a>Дополнительные сведения
 
 Существует несколько сценариев, в которых динамическая доставка не поддерживается. К ним относятся следующие:
   
@@ -81,4 +81,4 @@ ms.locfileid: "30573513"
 
 - Сообщения, зашифрованные с помощью протоколов [S/MIME и Secure/многоцелевЫе расширения почты Интернета (S/MIME](s-mime-for-message-signing-and-encryption.md))
 
-В случаях, когда динамическая доставка не поддерживается, безопасные вложения ATP не проверяют сообщения электронной почты. Тем не менее, в зависимости от того, как настроены [политики безопасных ссылок ATP](set-up-atp-safe-links-policies.md) , будут проверяться URL-адреса в сообщениях электронной почты (и файлах Office).
+- В случаях, когда динамическая доставка не поддерживается, безопасные вложения ATP не проверяют сообщения электронной почты. Тем не менее, Доставка сообщений электронной почты с вложениями, содержащими URL-адреса, будет проверяться в зависимости от того, как настроены [политики безопасных ссылок ATP](set-up-atp-safe-links-policies.md) . В таких случаях проверяются URL-адреса в сообщениях электронной почты и файлах Office.

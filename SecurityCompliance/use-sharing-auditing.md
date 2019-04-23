@@ -16,11 +16,11 @@ search.appverid:
 ms.assetid: 50bbf89f-7870-4c2a-ae14-42635e0cfc01
 description: 'Общий доступ является ключевым действием в SharePoint Online и OneDrive для бизнеса. Теперь администраторы могут использовать аудит общего доступа в журнале аудита Office 365, чтобы определить, как общий доступ используется в Организации. '
 ms.openlocfilehash: 08b511acdf74edac5b2d595d1b60bdd84d630918
-ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
+ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31813950"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31958250"
 ---
 # <a name="use-sharing-auditing-in-the-office-365-audit-log"></a>Аудит общего доступа с помощью журнала аудита Office 365
 

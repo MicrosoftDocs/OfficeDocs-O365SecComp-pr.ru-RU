@@ -20,11 +20,11 @@ search.appverid:
 ms.assetid: 5c8c1db6-d8ac-4dbb-8a7a-f65d452169b9
 description: Вместо того чтобы экспортировать фактические результаты поиска контента в центре безопасности _Амп_ соответствия требованиям в Office 365, можно просто экспортировать отчет о результатах поиска. Отчет содержит сводку результатов поиска и документ с подробными сведениями о каждом экспортируемом элементе.
 ms.openlocfilehash: 57c8a9be5c53998570f6ff15a49df69e27745e26
-ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
+ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31813930"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31958730"
 ---
 # <a name="export-a-content-search-report"></a>Экспорт отчета о поиске контента
 
@@ -48,7 +48,7 @@ ms.locfileid: "31813930"
     
     - Microsoft Edge
     
-      или
+      Кроме того:
     
     - Microsoft Internet Explorer 10 и более поздние версии
     

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 268a109e-7843-405b-bb3d-b9393b2342ce
 description: Используйте центр соответствия требованиям по безопасности _Амп_ в Office 365, чтобы включить архивные почтовые ящики, чтобы обеспечить поддержку хранения сообщений, обнаружения электронных данных и удержания электронных данных в Организации.
-ms.openlocfilehash: 334af008f6eb8baedff1239ed1692a0ad73acdb6
-ms.sourcegitcommit: d3e3ce391130f209f4d63c2528e1da8342cd732f
+ms.openlocfilehash: d363943910d970576976d8386196b450dd5694f3
+ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "31901947"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31958310"
 ---
 # <a name="enable-archive-mailboxes-in-the-security--compliance-center"></a>Включение архивных почтовых ящиков в центре безопасности _Амп_ соответствия требованиям
   
@@ -37,7 +37,7 @@ ms.locfileid: "31901947"
   
 ## <a name="enable-an-archive-mailbox"></a>Включение архивного почтового ящика
   
-1. Перейдите по ссылке [https://compliance.microsoft.com](https://compliance.microsoft.com).
+1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
     
 2. Войдите в Office 365 с помощью своей рабочей или учебной учетной записи.
     
@@ -68,7 +68,7 @@ ms.locfileid: "31901947"
   
 Чтобы отключить архивный почтовый ящик:
   
-1. Перейдите по ссылке [https://compliance.microsoft.com](https://compliance.microsoft.com).
+1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
     
 2. Войдите в Office 365 с помощью своей рабочей или учебной учетной записи.
     
