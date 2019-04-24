@@ -254,7 +254,7 @@
 ### [Поиск сторонних данных с помощью поиска контента](use-content-search-to-search-third-party-data-that-was-imported.md)
 ### [Использование поиска контента при обнаружении электронных данных](use-content-search-in-ediscovery.md)
 ### [Проверка запроса на поиск контента на наличие ошибок](check-your-content-search-query-for-errors.md)
-### [Сохранение получателей скрытой копии для поиска контента](https://docs.microsoft.com/exchange/policy-and-compliance/holds/preserve-bcc-recipients-and-group-members)
+### [Сохранение получателей скрытой копии для поиска контента](preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md)
 ## Сведения о поиске контента
 ### [Ограничения для поиска контента](limits-for-content-search.md)
 ### [Частично индексированные элементы в поиске контента](partially-indexed-items-in-content-search.md)
@@ -286,6 +286,7 @@
 ### [Удаление элементов в папке "Элементы с возможностью восстановления" облачных почтовых ящиков на удержании](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md)
 ### [Увеличение квоты для папки "Элементы с возможностью восстановления" для почтовых ящиков на удержании](increase-the-recoverable-quota-for-mailboxes-on-hold.md)
 ### [Как определить тип удержания, примененного для почтового ящика Exchange Online](identify-a-hold-on-an-exchange-online-mailbox.md)
+### [Сохранение скрытых копий и получателей расширенной группы рассылки](preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md)
 
 ## [Advanced eDiscovery (предварительная версия) в Microsoft 365](compliance20/overview-ediscovery-20.md)
 ### [Заметки о выпуске](compliance20/release-notes-ediscovery20.md)
@@ -314,13 +315,14 @@
 #### [Статистика поиска](compliance20/search-statistics.md)
 #### [Добавление результатов поиска в рабочий набор](compliance20/add-data-to-working-set.md)
 
+### [Управление рабочими наборами](compliance20/managing-working-sets.md)
+#### [Загрузка не относящихся к Office 365 данных в рабочий набор](compliance20/load-non-office365-data.md)
+#### [Добавление данных в другой рабочий набор](compliance20/add-data-to-working-set-from-another-working-set.md)
+#### [Управление наборами загрузки](compliance20/manage-load-sets.md)
+
 ### [Просмотр данных дела](compliance20/reviewing-data-in-working-set.md)
 #### [Просмотр документов в рабочем наборе](compliance20/view-documents-in-working-set.md)
 #### [Запрос данных в рабочем наборе](compliance20/working-set-search.md)
-#### [Управление рабочими наборами](compliance20/managing-working-sets.md)
-#### [Добавление данных в другой рабочий набор](compliance20/add-data-to-working-set-from-another-working-set.md)
-#### [Управление наборами загрузки](compliance20/manage-load-sets.md)
-#### [Загрузка не относящихся к Office 365 данных в рабочий набор](compliance20/load-non-office365-data.md)
 #### [Добавление тегов к документам в рабочем наборе](compliance20/tagging-documents.md)
 
 ### [Анализ данных дела](compliance20/analyzing-data-in-working-set.md)
@@ -579,7 +581,6 @@
 ### [Логика потока обработки почты в Office 365](mail-flow-intelligence-in-office-365.md)
 ## Удержание почтового ящика
 ### [Создание запроса на хранение для судебного разбирательства](create-a-litigation-hold.md)
-### [Сохранение скрытых копий и получателей расширенной группы рассылки для обнаружения электронных данных](preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md)
 ### [Назначение удержания на месте для обратимо удаленного почтового ящика](put-an-in-place-hold-on-a-soft-deleted-mailbox.md)
 ## [Карантин](quarantine.md)
 ### [Поиск и освобождение сообщений из карантина от имени администратора](find-and-release-quarantined-messages-as-an-administrator.md)
