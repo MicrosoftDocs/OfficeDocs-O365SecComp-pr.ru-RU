@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: Диспетчер плана файлов обеспечивает расширенные функции управления для политик и меток хранения, а также встроенные возможности просмотра меток и действий от меток до содержимого для всего жизненного цикла содержимого — создания, совместной работы, объявления записей, хранения и окончательного удаления.
 ms.openlocfilehash: f104e5ea0046af1e8cdee39b1e7dc5f47524e707
-ms.sourcegitcommit: d9f695650e26e4125b00b6281717b4d5b63fc401
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31824438"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256125"
 ---
 # <a name="overview-of-file-plan-manager"></a>Общие сведения о диспетчере плана файлов
 

@@ -17,11 +17,11 @@ search.appverid:
 - MET150
 description: Определите, целесообразно ли вашей организации внедрять метки в рамках плана по соблюдению регламента GDPR.
 ms.openlocfilehash: 6886adaa09599b32eb2f3084efdea06fd5794af0
-ms.sourcegitcommit: ae7ebae8801a69a825a363443e2676379197de19
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30800301"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32243477"
 ---
 # <a name="architect-a-classification-schema-for-personal-data"></a>Разработка архитектуры схемы классификации для персональных данных
 

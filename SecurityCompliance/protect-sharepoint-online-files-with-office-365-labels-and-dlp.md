@@ -18,11 +18,11 @@ ms.custom:
 ms.assetid: c9f837af-8d71-4df1-a285-dedb1c5618b3
 description: Сводка. Применяйте метки хранения и политики защиты от потери данных для сайтов групп SharePoint Online с различными уровнями защиты информации.
 ms.openlocfilehash: 81173e96ce6e67ee3b513abce4424686abe79e02
-ms.sourcegitcommit: 19d27ff836ee7fa1f8a4e761e04d928f13f4bfd8
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31745261"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261674"
 ---
 # <a name="protect-sharepoint-online-files-with-retention-labels-and-dlp"></a>Защита файлов SharePoint Online с помощью меток хранения и DLP
 
@@ -43,9 +43,9 @@ ms.locfileid: "31745261"
   
 ### <a name="phase-1-determine-the-retention-label-names"></a>Этап 1. Определение имен меток хранения
 
-На этом этапе нужно определить названия меток хранения для четырех уровней защиты информации, применяемых к сайтам группы SharePoint Online. В следующей таблице перечислены рекомендуемые имена для каждого уровня.
+На этом этапе нужно определить названия меток хранения для четырех уровней защиты информации, применяемых к сайтам группы SharePoint Online. В приведенной ниже таблице перечислены рекомендуемые имена для каждого уровня.
   
-|**Уровень защиты для сайта группы SharePoint Online**|**Имя метки**|
+|**Уровень защиты сайта группы SharePoint Online**|**Имя метки**|
 |:-----|:-----|
 |Базовый общедоступный  <br/> |Внутренний общедоступный  <br/> |
 |Базовый частный  <br/> |Частный  <br/> |
@@ -221,7 +221,7 @@ ms.locfileid: "31745261"
     
 ## <a name="see-also"></a>См. также
 
-[Защита сайтов и файлов SharePoint Online](secure-sharepoint-online-sites-and-files.md)
+[Безопасность сайтов и файлов SharePoint Online](secure-sharepoint-online-sites-and-files.md)
   
 [Руководство по безопасности (Майкрософт) для политических кампаний, некоммерческих и других динамических организаций](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
   

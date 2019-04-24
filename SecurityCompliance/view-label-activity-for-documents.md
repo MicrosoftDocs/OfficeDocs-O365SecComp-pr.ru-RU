@@ -14,11 +14,11 @@ search.appverid:
 - MET150
 description: При помощи обозревателя действий с метками в Центре безопасности и соответствия требованиям Office 365 вы можете быстро искать и просматривать весь контент в SharePoint и OneDrive для бизнеса за последние 30 дней. Эти данные обновляются в реальном времени и дают вам хорошее представление о том, что происходит в клиенте.
 ms.openlocfilehash: 55888ff2ef8118389a88955a8f4e047170606524
-ms.sourcegitcommit: 799a958fcac643f62dfac6fa04020f2f4758635c
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30997115"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32267349"
 ---
 # <a name="view-label-activity-for-documents"></a>Просмотр действий с метками для документов
 

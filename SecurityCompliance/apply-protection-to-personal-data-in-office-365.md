@@ -17,11 +17,11 @@ search.appverid:
 - MET150
 description: Узнайте, как использовать политики защиты от потери данных для защиты персональных данных в Office 365.
 ms.openlocfilehash: 97a8c584cd010ae10a0416e47d8184c84f1e1ab9
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31001002"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32243226"
 ---
 # <a name="apply-protection-to-personal-data-in-office-365"></a>Применение защиты к персональным данным в Office 365
 

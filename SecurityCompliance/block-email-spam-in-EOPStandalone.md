@@ -17,11 +17,11 @@ ms.collection:
 - M365-security-compliance
 description: Документ для администраторов изолированной службы EOP по предотвращению ложных отрицательных результатов для спама
 ms.openlocfilehash: 598f63bba4be32c6c664db83126b40c5fae159a0
-ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30341820"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32243948"
 ---
 ## <a name="customize-the-office-365-anti-spam-filter-with-these-settings"></a>Параметры для настройки фильтра нежелательной почты Office 365
 

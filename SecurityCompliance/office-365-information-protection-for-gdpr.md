@@ -16,11 +16,11 @@ search.appverid:
 - MET150
 description: Это решение демонстрирует, как защитить конфиденциальные данные, которые хранятся в службах Office 365.
 ms.openlocfilehash: fb66eb36a08883b63267349b50d2f17b15eeef03
-ms.sourcegitcommit: 15983a08a4ae9c2050344172c7e957830ce3867e
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "30373850"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262710"
 ---
 # <a name="office-365-information-protection-for-gdpr"></a>Защита информации в Office 365 в соответствии с регламентом GDPR
 

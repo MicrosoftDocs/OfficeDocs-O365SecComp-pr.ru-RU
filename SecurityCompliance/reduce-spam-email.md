@@ -18,11 +18,11 @@ ms.collection:
 - Strat_O365_IP
 description: Узнайте наиболее распространенные способы уменьшить количество спама и другой нежелательной почты в Office 365.
 ms.openlocfilehash: d32cad18cf3972a667f2eb9a11b50d1b12e809a7
-ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30670564"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261527"
 ---
 # <a name="how-to-reduce-spam-email-in-office-365"></a>Как уменьшить количество нежелательных сообщений в Office 365
 
