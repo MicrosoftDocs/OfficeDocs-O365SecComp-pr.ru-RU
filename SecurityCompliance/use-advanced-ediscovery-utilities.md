@@ -1,5 +1,5 @@
 ---
-title: Использование служебных программ Office 365 Advanced eDiscovery
+title: Использование расширенных средств обнаружения электронных данных в Office 365
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,13 +14,13 @@ search.appverid:
 ms.assetid: 66ca9993-75f4-4724-aea2-5a0719b660c1
 description: 'Сведения о служебных программах в Office 365 Advanced eDiscovery, включая журнал обращений, очистку данных, ошибки процессов, изменение релевантности и анализ прозрачности.  '
 ms.openlocfilehash: bd100883804b300e77abcc8a2224cf1a59b53475
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218209"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32265361"
 ---
-# <a name="use-office-365-advanced-ediscovery-utilities"></a>Использование служебных программ Office 365 Advanced eDiscovery
+# <a name="use-office-365-advanced-ediscovery-utilities"></a>Использование расширенных средств обнаружения электронных данных в Office 365
 
 > [!NOTE]
 > Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 

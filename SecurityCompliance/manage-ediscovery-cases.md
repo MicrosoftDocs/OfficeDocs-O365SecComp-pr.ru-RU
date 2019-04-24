@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 9a00b9ea-33fd-4772-8ea6-9d3c65e829e6
 description: Используйте центр соответствия требованиям по безопасности _Амп_ для создания электронных данных и для доступа к ним, а также для управления делами обнаружения электронных данных в Организации.
 ms.openlocfilehash: 209f31187ad01ffa3e06cf8a5825c4538715fc7d
-ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31958550"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32253110"
 ---
 # <a name="manage-ediscovery-cases-in-the-security--compliance-center"></a>Управление делами обнаружения электронных данных в Центре безопасности и соответствия требованиям
 

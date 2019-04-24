@@ -16,11 +16,11 @@ ms.collection:
 - M365-security-compliance
 description: Сведения о том, как можно переходить с панели мониторинга в представление о рекомендуемых действиях &amp; в центре безопасности и соответствия требованиям.
 ms.openlocfilehash: 732c78b35a60c1686bc382931688dec08080f8c2
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692668"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32255612"
 ---
 # <a name="walkthrough---from-a-dashboard-to-an-insight"></a>Пошаговое руководство. Из панели мониторинга к аналитике
 

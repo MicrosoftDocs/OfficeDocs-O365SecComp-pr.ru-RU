@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: d674763c-a4c9-4604-8623-68c1836d27f3
 description: Сведения о новых возможностях Office 365 Cloud App Security
 ms.openlocfilehash: bc85c0c6444eadf8f623a6fee853ff03d31565d1
-ms.sourcegitcommit: 866d8cab6bcfdd124516a8369e47ec797bc7cf8a
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30312066"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32263008"
 ---
 # <a name="what-is-new-in-office-365-cloud-app-security"></a>Новые возможности Office 365 Cloud App Security
 
@@ -51,7 +51,7 @@ ms.locfileid: "30312066"
 
 - **Расширенная настройка политик обнаружения аномалий** Теперь вы можете повлиять на подсистему обнаружения аномалий, чтобы подавить или подать оповещения в соответствии с вашими предпочтениями. В политике неВозможности поездки можно установить ползунок чувствительность, чтобы определить уровень аномального поведения, который требуется для запуска оповещения. Кроме того, вы можете указать, будут ли оповещения для действий из нечасто используемых стран, анонимных IP-адресов, подозрительных IP-адресов и невозможности поездки проанализировать неудачные и успешные попытки входа или только успешные попытки входа. 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Ознакомьтесь с разобновлениями 2018 для Office 365 Cloud App Security](new-in-office-365-cas-2018.md)
 

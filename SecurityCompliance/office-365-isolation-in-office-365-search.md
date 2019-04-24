@@ -3,23 +3,22 @@ title: Изоляция клиента Office 365 в поиске Office 365
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Сводка. Описание изоляции клиентов в поиске Office 365.
-ms.openlocfilehash: fa9ba75f6ae5b0b89e3565ffb0e6f022ab36f81b
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 5254ffe2e6b92c6ba100a9e45b35b456ead1b000
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216869"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262601"
 ---
 # <a name="tenant-isolation-in-office-365-search"></a>Изоляция клиента в поиске Office 365
 Служба поиска SharePoint Online использует модель разделения клиентов, которая балансирует эффективность общих структур данных с защитой от утечки данных между клиентами. С помощью этой модели мы не будем предотвращать функции поиска:

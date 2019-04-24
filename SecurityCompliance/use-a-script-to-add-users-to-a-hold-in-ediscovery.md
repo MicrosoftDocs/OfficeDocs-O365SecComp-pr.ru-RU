@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: bad352ff-d5d2-45d8-ac2a-6cb832f10e73
 description: Запустите сценарий, чтобы быстро добавить почтовые ящики и сайты OneDrive для бизнеса в новое удержание, связанное с вариантом обнаружения электронных данных в центре обеспечения безопасности _Амп_.
 ms.openlocfilehash: 992fddad3bfbc9f08855bd85d87b0edf92b3cdbe
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31001192"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32263981"
 ---
 # <a name="use-a-script-to-add-users-to-a-hold-in-an-ediscovery-case-in-the-security--compliance-center"></a>Использование скрипта для добавления пользователей в удержание в случае обнаружения электронных данных в центре безопасности _Амп_ соответствия требованиям
 
@@ -35,7 +35,7 @@ ms.locfileid: "31001192"
   
 [Шаг 3: запуск скрипта для создания удержания и добавления пользователей](use-a-script-to-add-users-to-a-hold-in-ediscovery.md#step3)
   
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>До начала работы
 
 - Вы должны быть участником группы ролей "Диспетчер обнаружения электронных данных" в центре обеспечения безопасности _Амп_ и глобальном администраторе SharePoint Online для запуска сценария на шаге 3. Дополнительные сведения см в разделе [Назначение разрешений обнаружения электронных данных в центре безопасности _амп_ для Office 365](assign-ediscovery-permissions.md).
     

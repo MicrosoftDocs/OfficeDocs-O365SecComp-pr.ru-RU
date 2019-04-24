@@ -16,11 +16,11 @@ search.appverid:
 ms.assetid: 37cdbb02-a24a-4093-8bdb-2a7f0b3a19ee
 description: Сведения об автоматическом развертывании архивации в Office 365, которая обеспечивает неограниченное хранение архивных почтовых ящиков Exchange Online.
 ms.openlocfilehash: 38fab68ee8e5c2bdd38bc60b08929bd6f6025e1b
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000792"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32265948"
 ---
 # <a name="overview-of-unlimited-archiving-in-office-365"></a>Общие сведения о неограниченном архивировании в Office 365
 
@@ -103,6 +103,6 @@ ms.locfileid: "31000792"
     
 - **Импортировать службу** — вы можете использовать службу импорта Office 365 для импорта PST-файлов в автоматически развернутый архив пользователя. Вы можете импортировать до 100 ГБ данных из PST-файлов в архивный почтовый ящик пользователя. 
 
-## <a name="more-information"></a>Дополнительные сведения
+## <a name="more-information"></a>Дополнительная информация
 
 Более подробную техническую информацию об автоматическом развертывании архивации можно узнать в статье [Office 365: автоматическое расширение архивНЫХ вопросов](https://blogs.technet.microsoft.com/exchange/2018/04/09/office-365-auto-expanding-archives-faq/).

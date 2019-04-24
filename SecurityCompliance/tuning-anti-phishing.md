@@ -11,12 +11,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Администраторы могут узнать причины, по которым и как проходят фишинговые сообщения, а также что делать, чтобы предотвратить большее количество фишинговых сообщений в будущем.
-ms.openlocfilehash: efda9e16c23e4533b6951e43ac085b7640e84576
-ms.sourcegitcommit: 8a65a29aa3bfe5dcad0ff152a7cd795e02877dd9
+ms.openlocfilehash: c3025267ad8e01c18de618c85127dfe1077a16aa
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30937830"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32264321"
 ---
 # <a name="tune-anti-phishing-protection-in-office-365"></a>Настройка защиты от фишинга в Office 365
 

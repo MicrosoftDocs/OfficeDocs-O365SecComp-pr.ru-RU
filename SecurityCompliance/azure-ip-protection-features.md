@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: Для получения справки по начальному этапу защиты данных, начиная с июля 2018 все подходящие клиенты, соответствующие требованиям Azure Information Protection, будут иметь функции защиты в Azure Information Protection, включенные по умолчанию. Функции защиты в Azure Information Protection ранее были известны в Office 365 как Rights Management или Azure RMS. Если у вашей организации есть план обслуживания Office E3 или более высокий план обслуживания, вы получите головной офис, чтобы защитить информацию с помощью Azure Information Protection при выполнении этих функций.
 ms.openlocfilehash: 2484f9b335a6698894046aaf429fdad68d82491e
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30223258"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32243988"
 ---
 # <a name="protection-features-in-azure-information-protection-rolling-out-to-existing-office-365-tenants"></a>Функции защиты в Azure Information Protection, выполняемые при развертывании существующих клиентов Office 365
 
@@ -49,11 +49,11 @@ ms.locfileid: "30223258"
 
 Если ваша организация Office 365 приобрела подходящие лицензии на Office 365, это изменение повлияет на ваш клиент.
   
- **Важно!** Если вы используете службы управления правами Active Directory (AD RMS) в локальной среде, вам следует либо отказаться от этого изменения немедленно, либо перенести его в Azure Information Protection, прежде чем мы истечением этого изменения в течение следующих 30 дней. Сведения о том, как отказаться от отказа, приведены в разделе "использование AD RMS, инструкции по выбору Аут_км_" Далее в этой статье. Если вы предпочитаете перенос, ознакомьтесь со статьей [Миграция из AD RMS в Azure Information Protection.](https://docs.microsoft.com/azure/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
+ **ВНИМАНИЕ!** Если вы используете службы управления правами Active Directory (AD RMS) в локальной среде, вам следует либо отказаться от этого изменения немедленно, либо перенести его в Azure Information Protection, прежде чем мы истечением этого изменения в течение следующих 30 дней. Сведения о том, как отказаться от использования AD RMS, как отказаться от использования AD RMS. Далее в этой статье. Если вы предпочитаете перенос, ознакомьтесь со статьей [Миграция из AD RMS в Azure Information Protection.](https://docs.microsoft.com/azure/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
   
 ## <a name="can-i-use-azure-information-protection-with-active-directory-rights-management-services-ad-rms"></a>Можно ли использовать Azure Information Protection со службами Active Directory Rights Management (AD RMS)?
 
-Нет. Это не поддерживаемый сценарий развертывания. Не изменяя дополнительные шаги, некоторые компьютеры могут автоматически начать использовать службу управления правами Azure, а также подключиться к кластеру службы управления правами Active Directory. Этот сценарий не поддерживается и содержит недостоверные результаты, поэтому важно отказаться от этого изменения в течение следующих 30 дней, прежде чем мы разбирали новые функции. Сведения о том, как отказаться от отказа, приведены в разделе "использование AD RMS, инструкции по выбору Аут_км_" Далее в этой статье. Если вы предпочитаете перенос, ознакомьтесь со статьей [Миграция из AD RMS в Azure Information Protection.](https://docs.microsoft.com/azure/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
+Нет. Это не поддерживаемый сценарий развертывания. Не изменяя дополнительные шаги, некоторые компьютеры могут автоматически начать использовать службу управления правами Azure, а также подключиться к кластеру службы управления правами Active Directory. Этот сценарий не поддерживается и содержит недостоверные результаты, поэтому важно отказаться от этого изменения в течение следующих 30 дней, прежде чем мы разбирали новые функции. Сведения о том, как отказаться от использования AD RMS, как отказаться от использования AD RMS. Далее в этой статье. Если вы предпочитаете перенос, ознакомьтесь со статьей [Миграция из AD RMS в Azure Information Protection.](https://docs.microsoft.com/azure/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
   
 ## <a name="how-do-i-know-if-im-using-ad-rms"></a>Как узнать, используется ли AD RMS?
 

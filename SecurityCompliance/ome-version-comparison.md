@@ -11,11 +11,11 @@ search.appverid:
 - MET150
 description: Помогает объяснить различия в функциях, доставляемых с помощью различных версий Office 365, а также о том, как эти два по-прежнему работают вместе.
 ms.openlocfilehash: bb13208e2b630c8a6217b78b48a4cd3bb4b0de79
-ms.sourcegitcommit: 895f67531f2b4afe46c7487ca5b44555ca791bae
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31836843"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262331"
 ---
 # <a name="compare-versions-of-ome"></a>Сравнение версий OME
 

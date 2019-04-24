@@ -11,11 +11,11 @@ search.appverid:
 - MET150
 description: Администратор Office 365 может отозвать определенные сообщения электронной почты, зашифрованные с помощью шифрования сообщений Office 365.
 ms.openlocfilehash: 75b5e46e25f447ddac0de5a7911d0df8385da6b9
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214899"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32264830"
 ---
 # <a name="office-365-message-encryption-email-revocation"></a>Отзыв электронной почты по шифрованию сообщений Office 365
 
@@ -39,7 +39,7 @@ ms.locfileid: "30214899"
 
 ## <a name="how-to-revoke-an-encrypted-email"></a>Отзыв зашифрованного сообщения электронной почты
 
-### <a name="step-1-obtain-the-message-id-of-the-email"></a>Шаг 1. Получение идентификатора сообщения электронной почты
+### <a name="step-1-obtain-the-message-id-of-the-email"></a>Действие 1. Получение идентификатора сообщения электронной почты
 
 Прежде чем отозвать зашифрованную почту, необходимо собрать идентификатор сообщения. MessageId обычно имеет следующий формат:
 
@@ -58,7 +58,7 @@ ms.locfileid: "30214899"
 2. Выберите таблицу **Просмотр сведений** и определите сообщение, которое нужно отозвать.
 3. Дважды щелкните сообщение, чтобы просмотреть сведения, содержащие идентификатор сообщения.
 
-### <a name="step-2-verify-that-the-mail-is-revocable"></a>Шаг 2. Проверка подлинности почты ревокабле
+### <a name="step-2-verify-that-the-mail-is-revocable"></a>Действие 2. Проверка подлинности почты ревокабле
 
 Чтобы проверить, можно ли отозвать конкретное сообщение электронной почты, выполните указанные ниже действия.
 
@@ -69,7 +69,7 @@ ms.locfileid: "30214899"
      Get-OMEMessageStatus -MessageId "<messagieid>" | ft -a  Subject, IsRevocable
      ```
 
-   Возвращает тему сообщения и о том, является ли сообщение ревокабле. Например
+   Возвращает тему сообщения и о том, является ли сообщение ревокабле. For example,
 
      ```text
      Subject IsRevocable
@@ -77,11 +77,11 @@ ms.locfileid: "30214899"
      “Test message”  True
      ```
 
-### <a name="step-3-revoke-the-mail"></a>Шаг 3. Отзыв почты  
+### <a name="step-3-revoke-the-mail"></a>Действие 3. Отзыв почты  
 
 Зная идентификатор сообщения, которое вы хотите отозвать, и убедитесь, что оно ревокабле, вы можете отозвать сообщение электронной почты с помощью командлета Set-Омемессажеревокатион.
 
-1. [Подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
+1. [Подключитесь к Exchange Online PowerShell](https://aka.ms/exopowershell).
 
 2. Выполните командлет Set – Омемессажеревокатион следующим образом:
 

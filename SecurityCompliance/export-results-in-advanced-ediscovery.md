@@ -13,11 +13,11 @@ search.appverid:
 ms.assetid: a9951a07-10b3-48cb-b37a-0ffaa24931ad
 description: 'Узнайте, как определить параметры экспорта результатов из Office 365 Advanced eDiscovery, включая процедуру указания параметров для пакета экспорта. '
 ms.openlocfilehash: a2528c3eab0bc9c06a592b972a3bc602174458d3
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000912"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32255869"
 ---
 # <a name="export-results-in-office-365-advanced-ediscovery"></a>Экспорт результатов в Office 365 Advanced eDiscovery
 

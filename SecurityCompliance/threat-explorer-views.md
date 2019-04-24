@@ -13,11 +13,11 @@ ms.collection:
 - M365-security-compliance
 description: Узнайте о различных видах представлений, доступных в проводнике (также называемом обозревателем угроз) в составе Office 365 Advanced Threat Protection Plan 2.
 ms.openlocfilehash: bcfa044db6844d9459b3dd62d9ced1cd37a999ec
-ms.sourcegitcommit: a56128c7be5d59e976851c27301031e19fa1997d
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30736469"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32260629"
 ---
 # <a name="threat-explorer-views"></a>Представления обозревателя угроз
 

@@ -11,17 +11,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 description: Выполните следующие действия, чтобы настроить приложения Azure AD Office 365 для управления приложением Office 365 Cloud App Security.
 ms.openlocfilehash: 72be95b3213b90cfe60d851d0852d465cdbe6ef9
-ms.sourcegitcommit: 866d8cab6bcfdd124516a8369e47ec797bc7cf8a
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30312076"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32263119"
 ---
 # <a name="deploy-conditional-access-app-control-for-office-365-apps"></a>Развертывание управления условным доступом к приложениям для приложений Office 365
 
 |Ознакомительная версия * *\>**|Планирование * *\>**|Развертывание * *\>**|Использование * * * *|
 |:-----|:-----|:-----|:-----|
-|[Начало оценки](office-365-cas-overview.md) <br/> |[Начало планирования](get-ready-for-office-365-cas.md) <br/> |Вот что вам!  <br/> [Следующее действие](ocas-session-policies.md) <br/> |[Начало использования](utilization-activities-for-ocas.md) <br/> |
+|[Начало оценки](office-365-cas-overview.md) <br/> |[Начало планирования](get-ready-for-office-365-cas.md) <br/> |Вот что вам!  <br/> [Следующий шаг](ocas-session-policies.md) <br/> |[Начало использования](utilization-activities-for-ocas.md) <br/> |
 
 Выполните следующие действия, чтобы настроить приложения Azure AD Office 365 для управления приложением Office 365 Cloud App Security.
 

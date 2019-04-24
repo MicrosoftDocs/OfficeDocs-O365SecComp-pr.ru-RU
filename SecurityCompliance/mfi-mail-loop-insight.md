@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: cb801985-3c89-4979-9c18-17829a4cb563
 description: Администраторы могут узнать о цикле обработки почты в панели мониторинга почтовых ящиков в центре безопасности _Амп_ соответствия требованиям.
 ms.openlocfilehash: 7229f8ebfc9ca1a46d91acc210199a3a6002c01e
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000322"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32267086"
 ---
 # <a name="mail-loop-insight"></a>Аналитика почтового цикла
 

@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: ''
 description: В этой статье содержатся заметки о выпуске для расширенного обнаружения электронных данных (Предварительная версия).
 ms.openlocfilehash: 32a02c16fd30e740fcc6e1c99b46775b97590a28
-ms.sourcegitcommit: 15202bba32313534da2478b0cd215f32a10c9ef4
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30684358"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32240944"
 ---
 # <a name="release-notes-for-advanced-ediscovery-preview"></a>Заметки о выПуске для расширенного обнаружения электронных данных (Предварительная версия)
 

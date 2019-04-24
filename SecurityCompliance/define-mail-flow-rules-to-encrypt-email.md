@@ -15,15 +15,15 @@ ms.collection:
 - M365-security-compliance
 description: Администраторы могут научиться создавать правила для поток обработки почты (правила транспорта) для шифрования и расшифровки сообщений, использующих шифрование сообщений Office 365.
 ms.openlocfilehash: 1f5b0ff9be5994f036d2367d0b15744c24f2bbe0
-ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30357560"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32257707"
 ---
 # <a name="define-mail-flow-rules-to-encrypt-email-messages-in-office-365"></a>Определение правил потока обработки почты для шифрования сообщений электронной почты в Office 365
 
-Как глобальный администратор Office 365 вы можете создавать правила для поток обработки почты (также называемые правилами транспорта), чтобы защитить отправляемые и получаемые сообщения электронной почты. Вы можете настроить правила для шифрования всех исходящих сообщений электронной почты и удаления шифрования из зашифрованных сообщений, поступающих из вашей организации, или из ответов на зашифрованные сообщения, отправленные из вашей организации. Для создания этих правил можно использовать центр администрирования Exchange или Exchange Online PowerShell. Кроме общих правил шифрования, вы также можете включить или отключить параметры шифрования отдельных сообщений для конечных пользователей.
+Как глобальный администратор Office 365 вы можете создавать правила для поток обработки почты (также называемые правилами транспорта), чтобы защитить отправляемые и получаемые сообщения электронной почты. Вы можете настроить правила для шифрования всех исходящих сообщений электронной почты и удаления шифрования из зашифрованных сообщений, поступающих из вашей организации, или из ответов на зашифрованные сообщения, отправленные из вашей организации. Для создания этих правил можно использовать центр администрирования Exchange или Exchange Online PowerShell. Помимо общих правил шифрования, вы также можете включить или отключить параметры шифрования сообщений для отдельных пользователей.
 
 ||
 |:-----|
@@ -81,7 +81,7 @@ ms.locfileid: "30357560"
 
 3. Откроется Центр администрирования Office 365. Здесь выберите последовательно элементы **Центры администрирования** \> **Exchange**.
 
-4. В центре администрирования Exchange перейдите в раздел **Поток обработки почты** \> **Правила**.
+4. В Центре администрирования Exchange перейдите в раздел **Поток обработки почты** \> **Правила**.
 
 5. В списке правил для почтового процесса выберите правило, которое нужно изменить, чтобы использовать новые возможности OME, а затем нажмите кнопку **изменить** ![значок](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)редактирования.
 
@@ -133,7 +133,7 @@ ms.locfileid: "30357560"
 
 ### <a name="use-exchange-online-powershell-to-create-a-mail-flow-rule-for-encrypting-email-messages-without-the-new-ome-capabilities"></a>Использование Exchange Online PowerShell для создания правила обработки почтового ящика для шифрования сообщений электронной почты без новых возможностей OME
 
-1. Подключитесь к Exchange Online PowerShell. Дополнительные сведения [можно найти в статье подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+1. Подключитесь к Exchange Online PowerShell. Дополнительные сведения см. в статье [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
 
 2. Создайте правило с помощью командлета **New – TransportRule** и задайте для `$true`параметра _апплйоме_ значение.
 
@@ -143,7 +143,7 @@ ms.locfileid: "30357560"
    New-TransportRule -Name "Encrypt rule for Dr Toni Ramos" -SentTo "DrToniRamos@hotmail.com" -SentToScope "NotinOrganization" -ApplyOME $true
    ```
 
-   **Примечания.**
+   **Примечания**:
 
    - Уникальное имя нового правила: "шифрование правила для Dr Тони Рамос".
 
@@ -151,11 +151,11 @@ ms.locfileid: "30357560"
 
    - Параметр _SentToScope_ указывает расположение получателей сообщения. В этом примере почтовый ящик получателя находится в службе Hotmail и не входит в состав организации Office 365, поэтому используется значение `NotInOrganization` .
 
-   Подробный синтаксис и информацию о параметрах см. в статье [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/New-TransportRule).
+   Дополнительные сведения о синтаксисе и параметрах см. в разделе [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/New-TransportRule).
 
 ### <a name="remove-encryption-from-email-replies-encrypted-without-the-new-ome-capabilities"></a>Удалить шифрование ответов электронной почты, зашифрованных без новых возможностей OME
 
-Когда пользователи электронной почты отправляют зашифрованные сообщения, получатели этих сообщений могут отвечать на зашифрованные ответы. Вы можете создать правила для обработки почтового ящика, чтобы автоматически удалить шифрование из ответов, чтобы пользователи электронной почты из вашей организации не могли войти на портал шифрования для их просмотра. Для определения этих правил можно использовать командлеты центра администрирования Exchange или Windows PowerShell. Если вы еще не используете новые возможности OME, вы можете расшифровывать только те сообщения, которые отправляются из вашей организации или из сообщений, которые отправляются в сообщения, отправленные из вашей организации. Вы не можете расшифровывать зашифрованные сообщения, полученные из других организаций.
+Когда пользователи отправляют зашифрованные сообщения, их получатели могут ответить также зашифрованными сообщениями. Вы можете создать правила для обработки почтового ящика, чтобы автоматически удалить шифрование из ответов, чтобы пользователи электронной почты из вашей организации не могли войти на портал шифрования для их просмотра. Для определения этих правил можно использовать командлеты центра администрирования Exchange или Windows PowerShell. Если вы еще не используете новые возможности OME, вы можете расшифровывать только те сообщения, которые отправляются из вашей организации или из сообщений, которые отправляются в сообщения, отправленные из вашей организации. Вы не можете расшифровывать зашифрованные сообщения, полученные из других организаций.
 
 #### <a name="use-the-eac-to-create-a-rule-for-removing-encryption-from-email-replies-encrypted-without-the-new-ome-capabilities"></a>Использование центра администрирования Exchange для создания правила удаления шифрования из электронных ответов, зашифрованных без новых возможностей OME
 
@@ -173,11 +173,11 @@ ms.locfileid: "30357560"
 
 7. В разделе **выполните следующие действия**выберите **изменить безопасность** \> сообщений **, удалить предыдущую версию OME**.
 
-8. Нажмите кнопку **Сохранить**.
+8. Нажмите кнопку **сохранить**.
 
 #### <a name="use-exchange-online-powershell-to-create-a-rule-to-remove-encryption-from-email-replies-encrypted-without-the-new-ome-capabilities"></a>Создание правила для удаления шифрования из ответов на сообщения электронной почты, зашифрованных без новых возможностей OME, с помощью Exchange Online PowerShell
 
-1. Подключитесь к Exchange Online PowerShell. Дополнительные сведения [можно найти в статье подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+1. Подключитесь к Exchange Online PowerShell. Дополнительные сведения см. в статье [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
 
 2. Создайте правило с помощью командлета **New – TransportRule** и задайте для `$true`параметра _RemoveOME_ значение.
 
@@ -187,7 +187,7 @@ ms.locfileid: "30357560"
    New-TransportRule -Name "Remove encryption from incoming mail" -SentToScope "InOrganization" -RemoveOME $true
    ```
 
-   **Примечания.**
+   **Примечания**:
 
    - Уникальное имя нового правила: "удалить шифрование из входящей почты".
 
@@ -195,11 +195,11 @@ ms.locfileid: "30357560"
 
      - Получатель — это почтовый ящик, почтовый пользователь, группа или общедоступная папка с включенной поддержкой почты в Организации.
 
-       или
+       Кроме того:
 
      - Адрес электронной почты получателя находится в обслуживаемом домене, настроенном в качестве уполномоченного домена или в домене внутренней ретрансляции в Организации, _а_ сообщение было отправлено или получено по проверенному подключению.
 
-Подробный синтаксис и информацию о параметрах см. в статье [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/New-TransportRule).
+Дополнительные сведения о синтаксисе и параметрах см. в разделе [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/New-TransportRule).
 
 ## <a name="related-topics"></a>Статьи по теме
 
@@ -207,7 +207,7 @@ ms.locfileid: "30357560"
 
 [Настройка новых возможностей шифрования сообщений Office 365](set-up-new-message-encryption-capabilities.md)
 
-[Добавление фирменной символики в зашифрованные сообщения](add-your-organization-brand-to-encrypted-messages.md)
+[Добавлять фирменную символику в зашифрованные сообщения](add-your-organization-brand-to-encrypted-messages.md)
 
 [Правила потока обработки почты (правила транспорта) в Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=506707)
 

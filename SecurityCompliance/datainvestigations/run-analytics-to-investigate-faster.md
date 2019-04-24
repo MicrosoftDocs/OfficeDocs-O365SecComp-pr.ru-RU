@@ -1,5 +1,5 @@
 ---
-title: Запуск аналитики для более быстрого исследования
+title: Запуск аналитики для ускорения исследования
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -15,13 +15,13 @@ search.appverid:
 ms.assetid: ''
 description: ''
 ms.openlocfilehash: 9516035fb6c758fdff1852249fff2815f19af559
-ms.sourcegitcommit: 2c5834235c32b2616e1813ce24eeb3419a09629f
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31030423"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32257617"
 ---
-# <a name="run-analytics-to-investigate-faster"></a>Запуск аналитики для более быстрого исследования
+# <a name="run-analytics-to-investigate-faster"></a>Запуск аналитики для ускорения исследования
 
 Если коллекция свидетельств велика, ее может быть трудно Просмотреть все. Набор свидетельств часто включает несколько копий одинаковых или похожих сообщений электронной почты или документов. Анализ данных (Предварительная версия) предоставляет ряд средств анализа, которые помогут вам уменьшить объем документов, которые необходимо проанализировать без потери данных. Чтобы узнать больше об этих возможностях, ознакомьтесь со статьей:
 

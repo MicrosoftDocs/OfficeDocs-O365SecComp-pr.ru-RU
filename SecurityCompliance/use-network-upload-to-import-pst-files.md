@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: 103f940c-0468-4e1a-b527-cc8ad13a5ea6
 description: 'Для администраторов: Узнайте, как использовать отправку по сети для массового импорта нескольких PST-файлов в почтовые ящики пользователей в Office 365.'
 ms.openlocfilehash: 73123d5f36a01b31cfc38e6404bd400bb722fb36
-ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31958580"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32264262"
 ---
 # <a name="use-network-upload-to-import-your-organization-pst-files-to-office-365"></a>Импорт PST-файлов Организации в Office 365 с помощью отправки по сети
 
@@ -44,7 +44,7 @@ ms.locfileid: "31958580"
 
 Обратите внимание, что для импорта PST-файлов в почтовые ящики Office 365 необходимо выполнить шаг 1 только один раз. После выполнения этих действий выполните действия 2 – 6 для каждого файла, чтобы отправить и импортировать пакет PST-файлов.
 
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>До начала работы
   
 - Необходимо назначить роль экспорта для импорта поЧтовых ящиков в Exchange Online, чтобы импортировать PST-файлы в почтовые ящики Office 365. По умолчанию эта роль не назначается ни одной группе ролей в Exchange Online. You can add the Mailbox Import Export role to the Organization Management role group. Or you can create a new role group, assign the Mailbox Import Export role, and then add yourself as a member. Дополнительные сведения можно найти в разделах "Добавление роли в группу ролей" или "Создание группы ролей" в разделе [Управление группами ролей](https://go.microsoft.com/fwlink/p/?LinkId=730688).
     

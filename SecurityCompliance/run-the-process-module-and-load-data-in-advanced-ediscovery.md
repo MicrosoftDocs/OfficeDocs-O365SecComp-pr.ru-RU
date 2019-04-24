@@ -1,5 +1,5 @@
 ---
-title: Запуск модуля обработки и загрузка данных в Office 365 Advanced eDiscovery
+title: Запуск модуля процесса и загрузка данных в Office 365 Advanced eDiscovery
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,13 +14,13 @@ search.appverid:
 ms.assetid: c87bb0e5-301c-4d1d-958e-aabeb7990f44
 description: 'Узнайте, как использовать центр соответствия требованиям безопасности &amp; Office 365 для доступа к Office 365 Advanced eDiscovery и запуска модуля Process для случая.  '
 ms.openlocfilehash: 95c73c034ed2ffa1c45f9aacd8463c497a842859
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30217609"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261415"
 ---
-# <a name="run-the-process-module-and-load-data-in-office-365-advanced-ediscovery"></a>Запуск модуля обработки и загрузка данных в Office 365 Advanced eDiscovery
+# <a name="run-the-process-module-and-load-data-in-office-365-advanced-ediscovery"></a>Запуск модуля процесса и загрузка данных в Office 365 Advanced eDiscovery
 
 > [!NOTE]
 > Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 

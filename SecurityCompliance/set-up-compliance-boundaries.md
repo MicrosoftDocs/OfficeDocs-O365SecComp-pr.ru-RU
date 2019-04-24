@@ -16,11 +16,11 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: Используйте границы соответствия требованиям для создания логических границ в организации Office 365, которые управляют расположениями пользователей, которые диспетчер обнаружения электронных данных может выполнять поиск. Ограничения на соответствие требованиям — фильтрация разрешений на поиск (также называемая фильтрами безопасности соответствия) для управления почтовыми ящиками, сайтами SharePoint и учетными записями OneDrive для поиска определенных пользователей.
 ms.openlocfilehash: b23c6d0c96874fb7e6205de6bf8a7f4eb00e4254
-ms.sourcegitcommit: 691370682825a7601bd4b77d0a8c4b51ed15682f
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "31014028"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32264669"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations-in-office-365"></a>Настройка границ соответствия для расследований дел обнаружения электронных данных в Office 365
 
@@ -56,7 +56,7 @@ ms.locfileid: "31014028"
   
 Ниже приведен список атрибутов пользователей Azure Active Directory, которые можно использовать для ограничения соответствия требованиям:
   
-- Company
+- Организация
     
 - CustomAttribute1 — CustomAttribute15
     

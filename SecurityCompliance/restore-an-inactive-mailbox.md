@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: 97e06a7a-ef9a-4ce8-baea-18b9e20449a3
 description: Если новому сотруднику или другому пользователю требуется доступ к содержимому неактивного почтового ящика в Office 365, можно восстановить (или объединить) содержимое неактивного почтового ящика в существующий почтовый ящик.
 ms.openlocfilehash: 1b80cf5bf9361959f1622b7b42f5c7598609539c
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30999312"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32264929"
 ---
 # <a name="restore-an-inactive-mailbox-in-office-365"></a>Восстановление неактивного почтового ящика в Office 365
 
@@ -31,7 +31,7 @@ ms.locfileid: "30999312"
     
 В разделе **Дополнительные сведения** этой статьи представлены дополнительные сведения о различиях между восстановлением и восстановлением неактивного почтового ящика. 
   
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>До начала работы
 
 - Для восстановления неактивного почтового ящика необходимо использовать Exchange Online PowerShell. Вы не можете сделать этого в Центре администрирования Exchange (EAC). Пошаговые инструкции приведены [в статье подключение к Exchange Online PowerShell](https://go.microsoft.com/fwlink/?linkid=396554).
     

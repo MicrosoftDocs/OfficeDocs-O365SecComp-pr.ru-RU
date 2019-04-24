@@ -3,23 +3,22 @@ title: Изоляция клиентов в Office 365
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Сводка о том, как корпорация Майкрософт обеспечивает изоляцию клиентов для Office 365.
-ms.openlocfilehash: dceff3b73ac01d3e0422a190d450ee28f7fdfb27
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 87fd8cddce830ef58bcaa08462d6bcb120d1e05f
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220279"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262381"
 ---
 # <a name="tenant-isolation-in-office-365"></a>Изоляция клиентов в Office 365
 
@@ -39,7 +38,7 @@ ms.locfileid: "30220279"
 
 В совокупности перечисленные выше меры безопасности предоставляют надежные логические элементы управления, которые обеспечивают защиту от угроз и эквиваленты смягчения, предоставляемые физической изоляцией.
 
-## <a name="related-links"></a>Связанные ссылки
+## <a name="related-links"></a>Дополнительные ссылки
 - [Изоляция и управление доступом в Azure Active Directory](office-365-isolation-in-azure-active-directory.md)
 - [Изоляция клиента в Office Graph и Delve](office-365-isolation-in-graph-and-delve.md)
 - [Изоляция клиента в поиске Office 365](office-365-isolation-in-office-365-search.md)

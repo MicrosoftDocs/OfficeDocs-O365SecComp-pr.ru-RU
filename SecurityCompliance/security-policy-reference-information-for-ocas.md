@@ -14,17 +14,17 @@ search.appverid:
 ms.assetid: aef6c88f-7f47-40ef-9503-2b400e3bc6fd
 description: Справка по политикам действий для Office 365 и политикам обнаружения аномалий.
 ms.openlocfilehash: db44b6cbf5b8c2783cba9862107120d2c33c1559
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215619"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32264631"
 ---
 # <a name="security-policy-reference-information-for-office-365-cloud-app-security"></a>Справочные сведения о политике безопасности для Office 365 Cloud App Security
   
 |Ознакомительная версия * *\>**|Планирование * *\>**|Развертывание * *\>**|Использование * * * *|
 |:-----|:-----|:-----|:-----|
-|[Начало оценки](office-365-cas-overview.md) <br/> |[Начало планирования](get-ready-for-office-365-cas.md) <br/> |Вот что вам!  <br/> [Следующее действие](review-office-365-cas-alerts.md) <br/> |[Начало использования](utilization-activities-for-ocas.md) <br/> |
+|[Начало оценки](office-365-cas-overview.md) <br/> |[Начало планирования](get-ready-for-office-365-cas.md) <br/> |Вот что вам!  <br/> [Следующий шаг](review-office-365-cas-alerts.md) <br/> |[Начало использования](utilization-activities-for-ocas.md) <br/> |
    
 Если вы являетесь глобальным администратором или администратором безопасности, в Office 365 вы можете определить или изменить политики двух типов в Организации:
   

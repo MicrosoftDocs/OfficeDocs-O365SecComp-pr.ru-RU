@@ -16,11 +16,11 @@ search.appverid:
 ms.assetid: 84a595b8-cd77-4f66-ac52-57a33ddd4773
 description: Узнайте, как использовать отправку по сети для импорта PST-файлов, зашифрованных RMS, в почтовые ящики пользователей в Office 365.
 ms.openlocfilehash: 46f77f3fe173da23e08284884bb85c69ab53f710
-ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31958300"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32263715"
 ---
 # <a name="use-network-upload-to-import-rms-encrypted-pst-files-to-office-365"></a>Импорт зашифрованных с помощью RMS PST-файлов в Office 365 с помощью отправки по сети
 
@@ -51,7 +51,7 @@ ms.locfileid: "31958300"
   
 Дополнительные сведения об импорте данных в Office 365 приведены в статье [Обзор импорта PST-файлов Организации в office 365](importing-pst-files-to-office-365.md).
   
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>До начала работы
 
 - Необходимо назначить роль экспорта для импорта поЧтовых ящиков в Exchange Online, чтобы импортировать PST-файлы в почтовые ящики Office 365. По умолчанию эта роль не назначается ни одной группе ролей в Exchange Online. You can add the Mailbox Import Export role to the Organization Management role group. Or you can create a new role group, assign the Mailbox Import Export role, and then add yourself as a member. Дополнительные сведения можно найти в разделах "Добавление роли в группу ролей" или "Создание группы ролей" в разделе [Управление группами ролей](https://go.microsoft.com/fwlink/p/?LinkId=730688).
     

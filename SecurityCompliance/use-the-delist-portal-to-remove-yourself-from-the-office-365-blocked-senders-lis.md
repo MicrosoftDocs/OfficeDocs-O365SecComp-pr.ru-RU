@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: Вы получаете сообщение об ошибке каждый раз, когда пытаетесь отправить сообщение получателю, адрес электронной почты которого зарегистрирован в Office 365? Если вы считаете, что это недоразумение, воспользуйтесь порталом удаления из списка, чтобы удалить себя из списка заблокированных отправителей Office 365.
 ms.openlocfilehash: b63459fe7c3a16486210a7f35de6f5fc23a19b30
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692658"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32243889"
 ---
 # <a name="use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-list"></a>Удаление себя из списка заблокированных отправителей Office 365 с помощью портала удаления из списка
 

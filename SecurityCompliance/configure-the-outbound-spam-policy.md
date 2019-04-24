@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: Фильтрация исходящей нежелательной почты всегда включена, если эта служба используется для отправки исходящей почты, тем самым помогая защищать организации, использующие эту службу, и их получателей.
 ms.openlocfilehash: af48962879dd4ee1e5bbbe832f221e88900faa75
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692808"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32258414"
 ---
 # <a name="configure-the-outbound-spam-policy"></a>Настройка правил защиты от спама для исходящих сообщений
 

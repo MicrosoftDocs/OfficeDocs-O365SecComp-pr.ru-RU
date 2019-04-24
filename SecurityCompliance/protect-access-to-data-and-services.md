@@ -1,7 +1,7 @@
 ---
-title: Защита доступа к данным и службам в Office 365
-ms.author: chrfox
-author: chrfox
+title: Защита доступа пользователей и устройств
+ms.author: bcarter
+author: brendacarter
 manager: laurawi
 ms.date: 4/17/2018
 ms.audience: Admin
@@ -13,14 +13,14 @@ search.appverid:
 - MET150
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
 description: Целевая страница для защиты доступа к данным и службам O365
-ms.openlocfilehash: 95933c5a7bc95f9fd70e8f3470055b57193971d4
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: e1b529a641d25f82521c40d0df9d091e0ebb5d90
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30213539"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32265231"
 ---
-# <a name="protect-access-to-data-and-services-in-office-365"></a>Защита доступа к данным и службам в Office 365
+# <a name="protect-user-and-device-access"></a>Защита доступа пользователей и устройств
 
 Защита доступа к данным и службам Office 365 важна для защиты от кибератак-атак и защиты от потери данных. Одни и те же защиты можно применять к другим приложениям SaaS в среде и даже к локальным приложениям, публикуемым с помощью прокси-сервера приложения Azure Active Directory.
   
@@ -30,65 +30,39 @@ ms.locfileid: "30213539"
   
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=841656) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=841657) | [Другие языки](https://www.microsoft.com/download/details.aspx?id=55032)
   
-## <a name="step-2-configure-mfa"></a>Шаг 2: Настройка MFA
+## <a name="step-2-protect-administrator-accounts-and-access"></a>Шаг 2: защита учетных записей администраторов и доступа
+Административные учетные записи, используемые для управления средой Office 365, включают повышенные привилегии. Это ценные цели для хакеров и кибератакных злоумышленников. 
 
-Используйте эти ресурсы для ориентации себя на MFA, выберите нужную версию, а затем запланируйте и разверните MFA для своей среды.
-  
-- [Что такое многофакторная проверка подлинности Azure?](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication)
-    
-- [Выбор решения многофакторной проверки подлинности Azure](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started)
-    
-- [Получение многофакторной проверки подлинности Azure](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-versions-plans)
-    
-- [Планирование многофакторной проверки подлинности для развертываний Office 365](https://support.office.com/article/043807b2-21db-4d5c-b430-c8a6dee0e6ba)
-    
-- [Настройка многофакторной проверки подлинности для пользователей Office 365](https://support.office.com/article/8f0454b2-f51a-4d9c-bcde-2c48e41621c6)
-    
-- [Планирование развертывания MFA, облака или локальной](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started)
-    
-- [Настройка параметров многофакторной проверки подлинности Azure](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-whats-next)
-    
-## <a name="step-3-enforce-mfa-with-azure-ad-conditional-access-rules"></a>Шаг 3: принудительное применение MFA с правилами условного доступа Azure AD
+Начните с использования учетных записей администраторов только для администрирования. Администраторы должны иметь отдельную учетную запись пользователя для обычного, не административного использования и использовать учетную запись администратора только при необходимости выполнения задачи, связанной с должностной функцией.
 
-Если вы используете Azure AD для Azure, создайте правило условного доступа, чтобы оно требовало использования MFA для доступа к Office 365 и другим приложениям SaaS в вашей среде.
-  
-- [Условный доступ в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal)
-    
-## <a name="step-4-configure-privileged-access-management"></a>Шаг 4: Настройка управления привилегированным доступом
+Защитите учетные записи администратора с помощью многофакторной проверки подлинности и условного доступа. Дополнительные сведения можно найти в статье [Защита учетных записей администраторов](https://docs.microsoft.com/en-us/microsoft-365/enterprise/identity-access-prerequisites#protecting-administrator-accounts). 
 
-Управление привилегированным доступом позволяет осуществлять детализированный контроль над задачами привилегированного администрирования в Office 365.  Это помогает защитить организацию от нарушений, которые могут использовать существующие привилегированные учетные записи администраторов с ограниченным доступом к конфиденциальным данным или к критическим параметрам конфигурации.
+Затем настройте управление привилегированным доступом в Office 365. Управление привилегированным доступом позволяет осуществлять детализированный контроль над задачами привилегированного администрирования в Office 365. Это помогает защитить организацию от нарушений, которые могут использовать существующие привилегированные учетные записи администраторов с ограниченным доступом к конфиденциальным данным или к критическим параметрам конфигурации.
 
 - [Общие сведения об управлении привилегированным доступом](privileged-access-management-overview.md)
 - [Настройка управления привилегированным доступом](privileged-access-management-configuration.md)
 
-## <a name="step-5-configure-sharepoint-device-access-policies"></a>Шаг 5: Настройка политик доступа к устройствам SharePoint
+Еще одной рекомендацией является использование рабочих станций, специально настроенных для административной работы. Это выделенные устройства, которые используются только для задач администрирования. Обратитесь [к разделу защита привилегированного доступа](https://docs.microsoft.com/en-us/windows-server/identity/securing-privileged-access/securing-privileged-access).
 
-Политики доступа к устройствам для SharePoint Online и OneDrive для бизнеса рекомендуются для защиты конфиденциальных, классифицированных и регулируемых данных. Появилась возможность применять политики доступа к устройствам к отдельным сайтам групп.
-  
-- [Управление доступом с неуправляемых устройств](https://support.office.com/article/Control-access-from-unmanaged-devices-5ae550c4-bd20-4257-847b-5c20fb053622?ui=en-US&amp;rs=en-US&amp;ad=US)
-    
-## <a name="step-6-configure-app-and-data-protection-for-devices"></a>Шаг 6: Настройка защиты приложений и данных для устройств
+Наконец, вы можете уменьшить влияние непреднамеренного отсутствия административного доступа, создав две или более учетных записей для аварийного доступа в клиенте. Обратитесь к разделу [Управление учетными записями аварийного доступа в Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-emergency-access). 
 
-Вы можете управлять приложениями на мобильных устройствах независимо от того, зарегистрированы ли устройства для управления мобильными устройствами. Это обеспечивает защиту от случайного утечки данных в Office 365, в том числе почты и файлов.
-  
-- Для iOS и Android: [Защита данных приложений с помощью политик защиты приложений с помощью Microsoft Intune](https://docs.microsoft.com/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)
-    
-Для Windows 10 настройте Windows Information Protection (WIP), чтобы предотвратить случайные утечки данных.
-  
-- Для управляемых устройств: [Создание Windows Information Protection (WIP) с политикой регистрации с помощью портала Azure для Microsoft Intune](https://docs.microsoft.com/windows/threat-protection/windows-information-protection/create-wip-policy-using-intune-azure)
-    
-- Для неуправляемых устройств: [Создание и развертывание политики защиты приложений Windows Information Protection (WIP) с помощью Intune](https://docs.microsoft.com/intune/windows-information-protection-policy-create)
-    
-## <a name="step-7-manage-devices-with-intune"></a>Шаг 7: Управление устройствами с помощью Intune
+## <a name="step-3-configure-recommended-identity-and-device-access-policies"></a>Шаг 3: Настройка рекомендуемых политик доступа к удостоверениям и устройствам
+Многофакторная проверка подлинности (MFA) и политики условного доступа являются мощными средствами для устранения скомпрометированных учетных записей и несанкционированного доступа. Мы рекомендуем реализовать набор политик, которые были проверены вместе. Дополнительные сведения, в том числе этапы развертывания, приведены в разделе [Конфигурация доступа к удостоверениям и устройствам](https://docs.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-policies-configurations).
 
-Управление устройствами позволяет убедиться, что они являются работоспособными и совместимыми, прежде чем разрешить им доступ к ресурсам в вашей среде. Правила условного доступа на основе устройств гарантируют, что злоумышленники не смогут получить доступ к ресурсам из неуправляемых устройств.
-  
-- [Регистрация устройств для управления в Intune](https://docs.microsoft.com/intune-classic/deploy-use/enroll-devices-in-microsoft-intune)
-    
-## <a name="step-8-configure-additional-intune-policies-and-conditional-access-rules-for-your-environment"></a>Шаг 8: Настройка дополнительных политик Intune и правил условного доступа для среды
+ Эти политики реализуют следующие возможности:
+- Мулт Factoring Authentication (проверка подлинности)
+- Условный доступ
+- Защита приложений в Intune (защита приложений и данных для устройств)
+- Соответствие устройства Intune
+- Защита идентификации Azure AD
 
-Используйте эти Рекомендуемые конфигурации в качестве отправной точки для сценариев масштаба предприятия или сложных сценариев безопасности доступа.
-  
-- [Безопасные политики электронной почты и конфигурации](https://docs.microsoft.com/azure/active-directory/secure-email-introduction)
+Для обеспечения соответствия требованиям устройств Имплеметнинг Intune требуется регистрация устройств. Управление устройствами позволяет убедиться, что они являются работоспособными и совместимыми, прежде чем разрешить им доступ к ресурсам в вашей среде. [В разделе Регистрация устройств для управления в Intune](https://docs.microsoft.com/intune-classic/deploy-use/enroll-devices-in-microsoft-intune)
+
+## <a name="step-4-configure-sharepoint-device-access-policies"></a>Шаг 4: Настройка политик доступа к устройствам SharePoint
+
+Корпорация Майкрософт рекомендует защищать контент на сайтах SharePoint с помощью конфиденциального и строго регулируемого контента с помощью управления доступом к устройствам. Для получения дополнительных сведений см. [рекомендации по политике по обеспечению безопасности сайтов и файлов SharePoint](https://docs.microsoft.com/en-us/microsoft-365/enterprise/sharepoint-file-access-policies).
+
+
+
     
 

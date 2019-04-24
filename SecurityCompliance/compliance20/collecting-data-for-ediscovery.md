@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: ''
 description: ''
 ms.openlocfilehash: fb4b36841394576c44667f9677507c5655179e45
-ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30455421"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242557"
 ---
 # <a name="collect-data-for-a-case-in-advanced-ediscovery-preview"></a>Сбор данных для обращения в Advanced eDiscovery (Предварительная версия)
 
@@ -40,7 +40,7 @@ ms.locfileid: "30455421"
 
 - Сводка
 - Основные расположения
-- Queries
+- Запросы
 
 Дополнительные сведения о статистике поиска можно найти в статье [Статистика поиска](search-statistics.md).
 

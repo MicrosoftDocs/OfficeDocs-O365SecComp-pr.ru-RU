@@ -1,9 +1,8 @@
 ---
-title: Экспорт данных дела в Office 365 Advanced eDiscovery
+title: Экспорт данных вариантов в Office 365 Advanced eDiscovery
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 9/14/2017
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,14 +12,14 @@ search.appverid:
 - MET150
 ms.assetid: c3198d1c-51b4-4280-87c5-269b47246d33
 description: 'Ознакомьтесь с рекомендациями по экспорту данных дел обнаружения электронных данных и результатов для проверки с помощью процесса экспорта в Office 365 Advanced eDiscovery.  '
-ms.openlocfilehash: 01997d3c799eeabc9686e3d747652d54fc963d26
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 8c9f4c31d5c48ab0d9884e14321471d45c927ecd
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215579"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32255477"
 ---
-# <a name="export-case-data-in-office-365-advanced-ediscovery"></a>Экспорт данных дела в Office 365 Advanced eDiscovery
+# <a name="export-case-data-in-office-365-advanced-ediscovery"></a>Экспорт данных вариантов в Office 365 Advanced eDiscovery
 
 > [!NOTE]
 > Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 

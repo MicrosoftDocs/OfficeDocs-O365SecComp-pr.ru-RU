@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 003d7a74-3e16-4453-ae0c-9dbae51f66d1
 description: Отчеты аудита в Microsoft Exchange Online Protection (EOP) помогут вам следить за выполнением требований соответствия, требований для судебного разбирательства и нормативных требований в организации. Вы можете получать отчеты аудита в любое время, чтобы определять изменения, внесенные в конфигурацию EOP. Эти отчеты позволяют устранять неполадки конфигурации и определять причины проблем, связанных с обеспечением защиты или соблюдением требований.
 ms.openlocfilehash: b2b62939d4330b62e3cb78d682f6ac62251bb5bb
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692278"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256657"
 ---
 # <a name="auditing-reports-in-eop"></a>Отчеты аудита в EOP
 

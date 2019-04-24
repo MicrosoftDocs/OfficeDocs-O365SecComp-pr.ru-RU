@@ -13,11 +13,11 @@ search.appverid:
 ms.assetid: 2c956776-0016-4be6-b4cd-133a237f4a9e
 description: Электронная почта часто используется для обмена конфиденциальными сведениями, такими как финансовые данные, контракты, конфиденциальные сведения о продуктах, прогнозы объема реализации и отчеты о продажах, сведения о пациентах, а также данные о клиентах и сотрудниках. В результате почтовые ящики превратились в хранилища, содержащие большое количество потенциально конфиденциальных сведений, и утечка информации становится серьезной угрозой для организаций.
 ms.openlocfilehash: aef3acaba6b0efe4550958ce1d98add371069648
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692348"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32253987"
 ---
 # <a name="information-rights-management-in-exchange-online"></a>Управление правами на доступ к данным в Exchange Online
 

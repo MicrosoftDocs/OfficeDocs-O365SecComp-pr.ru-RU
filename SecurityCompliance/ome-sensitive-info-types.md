@@ -14,11 +14,11 @@ search.appverid:
 ms.collection: Strat_O365_Enterprise
 description: Сводка. Политика шифрования сообщений Office 365 для типов конфиденциальной информации теперь доступны.
 ms.openlocfilehash: 99cb7a9f94c9cf4036c11b74a5208ddf0e819ceb
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30213984"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261267"
 ---
 # <a name="office-365-message-encryption-policy-for-sensitive-information"></a>Политика шифрования сообщений Office 365 для конфиденциальной информации
 
@@ -50,7 +50,7 @@ Update (1/30/19): в октябре 2018 мы работали с небольш
 - Номер маршрутизации код банка ABA
 - Номер кредитной карты
 - Номер агентства для применения наркотиков (DEA)
-- Номер паспорта для США и Великобритании
+- США/ВЕЛИКОБРИТАНИЯ passport number
 - Номер банковского счета США
 - Идентификационный номер налогоплательщика для США (ITIN)
 - Страховой номер для США (SSN)

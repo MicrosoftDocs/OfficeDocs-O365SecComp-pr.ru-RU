@@ -11,11 +11,11 @@ ms.collection:
 - M365-security-compliance
 description: Узнайте больше о принципах и рекомендациях по обеспечению безопасности модернизации в Организации.
 ms.openlocfilehash: e9d3d650517e590100f4e812f46e91ccb265dcaa
-ms.sourcegitcommit: d3e3ce391130f209f4d63c2528e1da8342cd732f
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "31908307"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32243330"
 ---
 # <a name="ciso-workshop-module-4a-threat-protection-strategy"></a>Модуль ЦИСО Workshop 4A: стратегия защиты от угроз
 

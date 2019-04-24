@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: 40829b57-793c-4d41-b171-e9270129173d
 description: 'Для администраторов: Узнайте, как массово импортировать PST-файлы вашей организации в почтовые ящики Office 365, скопировав PST-файлы на жесткий диск и отгрузите его в корпорацию Майкрософт. '
 ms.openlocfilehash: 5f04cc0a29fce7b607920253adb10aefb640c914
-ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31958610"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32264806"
 ---
 # <a name="use-drive-shipping-to-import-your-organization-pst-files-to-office-365"></a>Использование доставки дисков для импорта PST-файлов Организации в Office 365
 
@@ -48,7 +48,7 @@ ms.locfileid: "31958610"
   
 Часто задаваемые вопросы об использовании доставки дисков для импорта PST-файлов в Office 365 приведены в статье [вопросы и ответы по использованию функции доставки дисков для импорта PST-файлов](faqimporting-pst-files-to-office-365.md#using-drive-shipping-to-import-pst-files). 
   
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>До начала работы
 
 - Необходимо назначить роль экспорта для импорта поЧтовых ящиков в Exchange Online, чтобы импортировать PST-файлы в почтовые ящики Office 365. По умолчанию эта роль не назначается ни одной группе ролей в Exchange Online. You can add the Mailbox Import Export role to the Organization Management role group. Or you can create a new role group, assign the Mailbox Import Export role, and then add yourself as a member. Дополнительные сведения можно найти в разделах "Добавление роли в группу ролей" или "Создание группы ролей" в разделе [Управление группами ролей](https://go.microsoft.com/fwlink/p/?LinkId=730688).
     

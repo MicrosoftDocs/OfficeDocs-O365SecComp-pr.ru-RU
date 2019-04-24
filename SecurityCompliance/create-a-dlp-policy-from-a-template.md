@@ -16,11 +16,11 @@ search.appverid:
 - MET150
 description: 'Самый простой и распространенный способ приступить к работе с политиками защиты от потери данных — использовать один из шаблонов, включенных в Office 365. '
 ms.openlocfilehash: 7ebb2a77e8f1f9fa47882fcbb758b34cd40daee9
-ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30639106"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32258585"
 ---
 # <a name="create-a-dlp-policy-from-a-template"></a>Создание политики защиты от потери данных на основе шаблона
 

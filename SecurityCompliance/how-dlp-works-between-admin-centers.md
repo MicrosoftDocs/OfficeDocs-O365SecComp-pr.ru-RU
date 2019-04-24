@@ -1,5 +1,5 @@
 ---
-title: Взаимодействие DLP между центром безопасности _Амп_ и центром администрирования Exchange
+title: Принципы работы защиты от потери данных в Центре безопасности и соответствия требованиям и Центре администрирования Exchange
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
@@ -16,13 +16,13 @@ search.appverid:
 ms.assetid: a7e4342a-a0a1-4b43-b166-3d7eecf5d2fd
 description: Узнайте, как система защиты от потери данных в центре безопасности _Амп_ соответствует правилам защиты от потери данных и почтовых ящиков (правила транспорта) в центре администрирования Exchange.
 ms.openlocfilehash: 66dceb447e02eb01810997c23644c76f68795844
-ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30639006"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32254936"
 ---
-# <a name="how-dlp-works-between-the-security--compliance-center-and-exchange-admin-center"></a>Взаимодействие DLP между центром безопасности _Амп_ и центром администрирования Exchange
+# <a name="how-dlp-works-between-the-security--compliance-center-and-exchange-admin-center"></a>Принципы работы защиты от потери данных в Центре безопасности и соответствия требованиям и Центре администрирования Exchange
 
 В Office 365 вы можете создать политику защиты от потери данных (DLP) в двух разных центрах администрирования:
   

@@ -18,11 +18,11 @@ ms.collection:
 - M365-security-compliance
 description: Даже если вы планируете размещать некоторые или все почтовые ящики в локальной среде, вы все равно можете защитить почтовые ящики с помощью Exchange Online Protection (EOP). Чтобы вы могли настраивать соединители, у вашей учетной записи должны быть права глобального администратора Office 365 или администратора организации Exchange (группа ролей "Управление организацией"). Сведения о том, как разрешения Office 365 относятся к разрешениям Exchange, приведены в статье назначение ролей администратора в Office 365 под управлением 21Vianet. Если все почтовые ящики Exchange находятся на локальном сервере, выполните указанные ниже действия, чтобы настроить службу EOP.
 ms.openlocfilehash: 4331bf5574122efb50bb9dda9c7c0386df5683f7
-ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30670504"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261557"
 ---
 # <a name="protect-on-premises-mailboxes-with-exchange-online-protection"></a>Защита локальных почтовых ящиков с помощью Exchange Online Protection
 

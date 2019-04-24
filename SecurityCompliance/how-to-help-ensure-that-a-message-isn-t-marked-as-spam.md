@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: Администратор Exchange Online или Exchange Online Protection (EOP) может исключить отнесение сообщений к спаму при передаче их через эту службу. Для этого в статье Использование списка надежных отправителей и других приемов для предотвращения ложных срабатываний при пометке сообщений как спама приведены обновленные подсказки и процедуры.
 ms.openlocfilehash: bfd0ea72facbf5675e47177c7757ff5fe168ffe7
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30691788"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32255217"
 ---
 # <a name="how-to-help-ensure-that-a-message-isnt-marked-as-spam"></a>Как помочь гарантировать, что сообщение не будет помечено как спам
 

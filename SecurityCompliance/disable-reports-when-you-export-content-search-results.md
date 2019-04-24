@@ -12,11 +12,11 @@ search.appverid: MOE150
 ms.assetid: c9b0ff0c-282b-4a44-b43f-cfc5b96557f9
 description: ОтРедактируйте реестр Windows на локальном компьютере, чтобы отключить отчеты при экспорте результатов поиска контента из центра безопасности _Амп_ соответствия требованиям в Office 365. Отключение этих отчетов может ускорить загрузку и сэкономить место на диске.
 ms.openlocfilehash: 19d97bbc95be5db6540e6822721752ca62adebfc
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30998769"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256857"
 ---
 # <a name="disable-reports-when-you-export-content-search-results"></a>Отключение отчетов при экспорте результатов поиска контента
 

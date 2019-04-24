@@ -13,11 +13,11 @@ ms.custom: Adm_O365
 ms.assetid: f30e2353-0bd6-41ed-8347-eea1fb8d2662
 description: Для получения отчетов о соответствии сторонних производителей для Office 365, Azure и Dynamics 365 Online, а также для получения информации о том, как корпорация Майкрософт обеспечивает безопасность данных клиентов и как вы можете соответствовать стандартам ISO, HIPAA, NIST, ФИНРА, GDPR и FedRAMP при использовании этих веб-служб.
 ms.openlocfilehash: ff14f1b88dbde06dbfd17a87bb94c3f32ddff81b
-ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30647339"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32254331"
 ---
 # <a name="get-started-with-the-microsoft-service-trust-portal"></a>Начало работы с порталом доверия службы (Майкрософт)
 
@@ -31,7 +31,7 @@ ms.locfileid: "30647339"
   
 - Office 365
 
-- Dynamics 365
+- Dynamics 365
 
 - Azure
     
@@ -118,7 +118,7 @@ ms.locfileid: "30647339"
   
  На странице **Параметры** можно назначить ролевой доступ к диспетчеру соответствия требованиям. Дополнительные сведения можно найти в разделе "Управление доступом и управление доступом на основе ролей" в [диспетчере соответствия требованиям, чтобы обеспечить соответствие требованиям к защите данных и нормативным требованиям при использовании облачных служб Майкрософт](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#permissions-and-role-based-access-control).
   
-### <a name="search"></a>Сервер поиска
+### <a name="search"></a>Поиск
 
 Щелкните значок лупы в правом верхнем углу страницы "портал доверия службы", чтобы развернуть поле, введите поисковые условия и нажмите клавишу **Ввод**.
 

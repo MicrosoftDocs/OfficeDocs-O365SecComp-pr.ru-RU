@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: 862cbe93-4268-4ef9-ba79-277545ecf221
 description: Ознакомьтесь с техническими сведениями о енциптион в Office 365.
 ms.openlocfilehash: afe077fdedb3e01e5658d27a13e17ae3a3ab5929
-ms.sourcegitcommit: 1261a37c414111f869df5791548a768d853fda60
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31004256"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32260297"
 ---
 # <a name="technical-reference-details-about-encryption-in-office-365"></a>Технические сведения о шифровании в Office 365
 
@@ -92,7 +92,7 @@ ms.locfileid: "31004256"
 |TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_256_CBC_SHA  <br/> |RSA/112  <br/> |Нет  <br/> |RSA/112  <br/> |AES/256  <br/> |
 |TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_128_CBC_SHA  <br/> |RSA/112  <br/> |Нет  <br/> |RSA/112  <br/> |AES/128  <br/> |
    
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 [Комплекты шифров TLS в Windows 10 v1607](https://docs.microsoft.com/windows/desktop/SecAuthN/tls-cipher-suites-in-windows-10-v1607)
 
 [Шифрование в Office 365](encryption.md)

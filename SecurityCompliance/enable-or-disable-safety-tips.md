@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: Сообщает администраторам Office 365 и EOP, как включать и отключать советы по безопасности в сообщениях электронной почты.
 ms.openlocfilehash: 9be9c4cd7fc8e94208aac2ad8812c93a3465f58b
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693438"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256964"
 ---
 # <a name="enable-or-disable-safety-tips-in-office-365"></a>Включение и отключение советов по безопасности в Office 365
 
@@ -40,7 +40,7 @@ Office 365 предоставляет советы по безопасности
 
 1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
     
-2. Войдите в Office 365 с помощью своей рабочей или учебной учетной записи.
+2. Войдите в Office 365 с рабочей или учебной учетной записью.
     
 3. Выберите **Политика** **управления** \> угрозами. 
     
@@ -69,7 +69,7 @@ Office 365 предоставляет советы по безопасности
 
 Администраторы могут использовать Exchange Online PowerShell для включения или отключения советов по безопасности. Используйте командлет Set – HostedContentFilterPolicy для включения или отключения советов по безопасности в политике фильтрации нежелательной почты.
   
-1. Подключение к Exchange Online PowerShell. Дополнительные сведения можно найти [в статье подключение к Exchange Online PowerShell](http://go.microsoft.com/fwlink/p/?LinkId=396554).
+1. Подключитесь к Exchange Online PowerShell. Дополнительные сведения можно найти [в статье подключение к Exchange Online PowerShell](http://go.microsoft.com/fwlink/p/?LinkId=396554).
     
 2. Выполните командлет Set – HostedContentFilterPolicy, чтобы включить или отключить советы по безопасности:
     
@@ -93,7 +93,7 @@ Office 365 предоставляет советы по безопасности
 
 Дополнительные сведения об этом командлете приведены в разделе [Set – HostedContentFilterPolicy](https://technet.microsoft.com/library/jj200781.aspx).
     
-## <a name="still-need-help"></a>Есть дополнительные вопросы?
+## <a name="still-need-help"></a>Остались вопросы?
 <a name="pshellsafetytip"> </a>
 
 Если вы отключили советы по безопасности, но не видите их в сообщениях электронной почты, проверьте следующие моменты.

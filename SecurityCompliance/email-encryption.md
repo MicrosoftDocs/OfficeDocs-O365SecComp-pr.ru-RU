@@ -16,11 +16,11 @@ ms.collection:
 - M365-security-compliance
 description: Сравните параметры шифрования в Office 365, в том числе шифрование сообщений Office (OME), S/MIME, управление правами на доступ к данным (IRM) и сведения о ПРОТОКОЛе TLS (Transport Layer Security).
 ms.openlocfilehash: 18f3d5098557f65a0738254b57882689c013d677
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692468"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256794"
 ---
 # <a name="email-encryption-in-office-365"></a>Шифрование электронной почты в Office 365
 

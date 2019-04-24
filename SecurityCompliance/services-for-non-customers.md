@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: Чтобы обеспечить доверие пользователю при использовании электронной почты, корпорация Майкрософт разместит различные политики и технологии для защиты пользователей.
 ms.openlocfilehash: 540610fc3d1b53692688c729b714c839bf436e24
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692398"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32260877"
 ---
 # <a name="services-for-non-customers-sending-mail-to-office-365"></a>Службы для лиц, не являющихся клиентами и отправляющих почту в Office 365
   

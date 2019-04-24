@@ -13,11 +13,11 @@ ms.collection:
 - M365-security-compliance
 description: 'Надстройка сообщения о нежелательной почте для Microsoft Outlook позволяет пользователям Exchange Online и Exchange Online Protection легко сообщать о нежелательной почте (спаме), чтобы корпорация Майкрософт могла проанализировать данные и сократить число и влияние будущих нежелательных сообщений, фильтруемых службой. Надстройка совместима с Microsoft Outlook 2013, Outlook 2010 и Outlook 2007 в операционных системах Windows 7, 8 или 10. Она предоставляет следующие преимущества:'
 ms.openlocfilehash: fd8db743daff164d18b4067004fcb23b48393d66
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693348"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32253907"
 ---
 # <a name="junk-email-reporting-add-in-for-microsoft-outlook"></a>Надстройка для создания отчетов о нежелательной почте для Microsoft Outlook
 

@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: ''
 description: ''
 ms.openlocfilehash: e9e34d112cb84c27fec35e752eb2bfcbfe3136a3
-ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31958240"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32243445"
 ---
 # <a name="add-data-to-a-working-set-from-another-working-set"></a>Добавление данных в рабочий набор из другого рабочего набора
 В некоторых случаях может потребоваться создавайте часть документов из одного рабочего набора и работать с ними по отдельности в другом рабочем наборе.  Это особенно полезно, если вы использи контент из рабочего множества и хотите запустить аналитику для подмножества данных.

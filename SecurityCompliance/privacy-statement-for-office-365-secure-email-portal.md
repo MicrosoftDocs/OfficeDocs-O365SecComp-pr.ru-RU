@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: 'Последнее обновление: Май 2017'
 ms.openlocfilehash: 5e7927bacb6513f01a276ef6487346f319ffb704
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30275959"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32265271"
 ---
 # <a name="privacy-statement-for-office-365-secure-email-portal"></a>Заявление о конфиденциальности для Office 365 Secure email Portal
 
@@ -49,8 +49,8 @@ One Microsoft Way
   
 Redmond, Washington 98052 USA
   
-## <a name="changes"></a>Изменений
+## <a name="changes"></a>Изменения
 
-Если мы публикуем изменения, внесенные в этот оператор, мы будем изменять последние обновленные данные в начале оператора. Изучите организацию, предоставляющую доступ к своим службам, чтобы узнать больше об изменениях в рекомендациях по обеспечению конфиденциальности.
+Если мы публикуем изменения, внесенные в этот оператор, мы будем изменять последние обновленные данные в начале оператора. Чтобы узнать об изменениях, касающихся методов обеспечения конфиденциальности, свяжитесь с компанией, которая предоставляет вам доступ к своим службам.
   
 

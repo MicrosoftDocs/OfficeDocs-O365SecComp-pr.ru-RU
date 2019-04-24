@@ -13,12 +13,12 @@ search.appverid:
 - MOP150
 ms.assetid: bed936bc-0969-4a6d-a7a5-66305c14e958
 description: Узнайте, как администраторы могут использовать Exchange Online PowerShell и CSV-файл для массового импорта внешних контактов в глобальный список адресов.
-ms.openlocfilehash: f95adcd54ebf2194536a199bca6fecf417064882
-ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
+ms.openlocfilehash: 2948332d7cdf2d1364b2b563f94efdb3e8d0672d
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30862501"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32244511"
 ---
 # <a name="bulk-import-external-contacts-to-exchange-online"></a>Массовый импорт внешних контактов в Exchange Online
 
@@ -91,7 +91,7 @@ ms.locfileid: "30862501"
     Импортированные контакты будут отображаться в общей адресной книге Outlook и Outlook в Интернете.
     
     > [!NOTE]
-    > вы также можете просмотреть контакты в центре администрирования Office 365, перейдя к **списку контактов** **пользователей** \> . 
+    > вы также можете просмотреть контакты в центре администрирования Microsoft 365, перейдя к **списку контактов** **пользователей** \> . 
 
 ## <a name="step-3-add-information-to-the-properties-of-the-external-contacts"></a>Шаг 3: Добавление сведений в свойства внешних контактов
 
@@ -134,7 +134,7 @@ ms.locfileid: "30862501"
   
 ## <a name="hide-external-contacts-from-the-shared-address-book"></a>Скрытие внешних контактов из общего адреса Бук_гт_
 
-Некоторые компании могут использовать только внешние контакты, чтобы их можно было добавить в качестве членов групп рассылки. В этом сценарии может потребоваться скрыть внешние контакты из общей адресной книги. Вот как это сделать.
+Некоторые компании могут использовать только внешние контакты, чтобы их можно было добавить в качестве членов групп рассылки. В этом сценарии может потребоваться скрыть внешние контакты из общей адресной книги. Вот как это сделать:
   
 1.  Подключите PowerShell к организации Exchange Online. Пошаговые инструкции приведены [в статье подключение к Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).
     

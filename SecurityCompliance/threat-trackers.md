@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: Сведения о средствах отслеживания угроз, в том числе о новых отслеживаемых средствах отслеживания, которые помогут Организации в курсе проблем с безопасностью.
 ms.openlocfilehash: 4a12a1cfe68f8ebcfae640a65d0eca68e36fb04c
-ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30862531"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32260060"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>Средства отслеживания угроз — новые и полезные
 

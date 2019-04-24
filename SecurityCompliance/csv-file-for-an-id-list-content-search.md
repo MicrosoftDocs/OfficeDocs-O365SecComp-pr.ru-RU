@@ -13,11 +13,11 @@ search.appverid: MOE150
 ms.assetid: 82c97bb4-2b64-4edc-804d-cedbda525d22
 description: Используйте CSV-файл Results. CSV или неиндексированные элементы из существующего поиска контента, чтобы создать поиск списка ИДЕНТИФИКАТОРов, который возвращает определенные сообщения электронной почты. Поиск в списке ИДЕНТИФИКАТОРов обычно используется для возврата частично индексированных элементов почтового ящика.
 ms.openlocfilehash: fc26f8dab11f1121deb11dd93b2cd0c70a1d629c
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30999682"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32265468"
 ---
 # <a name="prepare-a-csv-file-for-an-id-list-content-search-in-office-365"></a>Подготовка CSV-файла для поиска контента списка ИДЕНТИФИКАТОРов в Office 365
 

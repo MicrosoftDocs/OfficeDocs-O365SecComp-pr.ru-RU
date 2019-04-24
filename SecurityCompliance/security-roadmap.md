@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: 28c86a1c-e4dd-4aad-a2a6-c768a21cb352
 description: 'Основные рекомендации от группы циберсекурити корпорации Майкрософт для реализации возможностей обеспечения безопасности, защищающих среду Office 365. '
 ms.openlocfilehash: ba74827c34a869ee11553f02d9085b6f015b2d9d
-ms.sourcegitcommit: 54d58da1777eb83adb82826d1bb1adb94903c8e1
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955172"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32260927"
 ---
 # <a name="office-365-security-roadmap---top-priorities-for-the-first-30-days-90-days-and-beyond"></a>План безопасности Office 365 — основные приоритеты для первых 30 дней, 90 дней и более поздних
 
@@ -58,7 +58,7 @@ ms.locfileid: "30955172"
   
 |||
 |:-----|:-----|
-|Область  <br/> |Задачи  <br/> |
+|Area  <br/> |Задачи  <br/> |
 |Управление безопасностью  <br/> |• Проверьте контрольный рейтинг и запишите текущую оценку ( [https://securescore.office.com](https://securescore.office.com)).  <br/>  • Включите ведение журнала аудита для Office 365. Обратитесь [к разделу Поиск в журнале аудита](search-the-audit-log-in-security-and-compliance.md).  <br/> • [Настройте клиент Office 365 для повышения безопасности](tenant-wide-setup-for-increased-security.md) .  <br/>  • Регулярно изучите панели мониторинга и отчеты в центре безопасности Майкрософт 365 и в Cloud App Security.  <br/> |
 |Защита от угроз  <br/> |[Подключите Office 365 к Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security) , чтобы начать мониторинг с использованием политик обнаружения угроз по умолчанию для аномальных поведений. Создание базового плана для обнаружения аномалий занимает семь дней.  <br><br/>  Реализация защиты для учетных записей администраторов:  <br/> • Используйте выделенные учетные записи администраторов для действий администратора.  <br/>  • Примените многофакторную проверку подлинности (MFA) для учетных записей администраторов.  <br/>  • Используйте [строго безопасное устройство Windows 10](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-highly-secure) для действий администратора.  <br/> |
 |Управление удостоверениями и доступом  <br/> |• [Включите защиту удостоверенИй Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection-enable).  <br/> • Для сред федеративных удостоверений Применяйте безопасность учетных записей (длина пароля, возраст, сложность и т. д.).  <br/> |
@@ -71,7 +71,7 @@ ms.locfileid: "30955172"
   
 |||
 |:-----|:-----|
-|Область  <br/> |Задача  <br/> |
+|Area  <br/> |Задача  <br/> |
 |Управление безопасностью  <br/> | • Проверьте безопасность оценки для рекомендуемых действий в среде ( [https://securescore.office.com](https://securescore.office.com)).  <br/>  • Продолжайте регулярно просматривать панели мониторинга и отчеты в центре безопасности Microsoft 365, Cloud App Security и средствах SIEM.  <br/>  • Ищите и реализуйте обновления программного обеспечения.  <br/>  • Имитация атак для спеар-фишинга, пароля и атаки методом прямого доступа с помощью [симулятора атак](https://support.office.com/article/attack-simulator-office-365-da5845db-c578-4a41-b2cb-5a09689a551b) (входит в состав [Office 365 Threat Intelligence](office-365-ti.md)).  <br/>  • Ищите общий риск, изучив встроенные отчеты в Cloud App Security (на вкладке "исследование").  <br/>  • Установите флажок в [диспетчере соответствия требованиям](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md) , чтобы просмотреть состояние нормативных актов, относящихся к вашей организации (например, GDPR, NIST 800-171).  <br/> |
 |Защита от угроз  <br/> | Реализация расширенной защиты для учетных записей администраторов:  <br/>  • Настройте [привилегированНые рабочие станции доступа](https://docs.microsoft.com/windows-server/identity/securing-privileged-access/privileged-access-workstations) (павс) для действий администратора.  <br/>  • Настройка [службы управления удостоверенИями Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure).  <br/>  • Настройте средство управления сведениями о безопасности и событиями (SIEM) для сбора данных ведения журнала из Office 365, Cloud App Security и других служб, включая AD FS. В журнале аудита Office 365 данные хранятся только в течение 90 дней. Захват этих данных в инструменте SIEM позволяет хранить данные в течение более длительного времени.  <br/> |
 |Управление удостоверениями и доступом  <br/> | • Включите и примените MFA для всех пользователей.  <br/>  • Реализуйте набор [условного доступа и связанных политик](https://docs.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-policies-configurations). |
@@ -84,7 +84,7 @@ ms.locfileid: "30955172"
   
 |||
 |:-----|:-----|
-|Область  <br/> |Задача  <br/> |
+|Area  <br/> |Задача  <br/> |
 |Управление безопасностью  <br/> |• Продолжайте планировать дальнейшие действия с помощью параметра Secure [https://securescore.office.com](https://securescore.office.com)Score ().  <br/>  • Продолжайте регулярно просматривать панели мониторинга и отчеты в центре безопасности Microsoft 365, Cloud App Security и средствах SIEM.  <br/>  • Продолжайте искать и внедрять обновления программного обеспечения.  <br/>  • Интегрируйте обнаружение электронных данных с вашими юридическими и безугрозными процессами.  <br/> |
 |Защита от угроз  <br/> | • Реализуйте [защищенНый привилегированНый доступ](https://docs.microsoft.com/windows-server/identity/securing-privileged-access/securing-privileged-access) (SPA) для компонентов удостоверения в локальной среде (AD, AD FS).  <br/>  • Используйте Cloud App Security для отслеживания угроз для предварительной оценки.  <br/>  • Обнаружение теневой ИТ, использование SaaS с помощью Cloud App Security.  <br/> |
 |Управление удостоверениями и доступом  <br/> | • Уточнение политик защиты информации:  <br/>  • Защита информации Azure и защита от потери данных в Office 365 (DLP).  <br/>  • Политики безопасности облачных приложений и оповещения.  <br/> |

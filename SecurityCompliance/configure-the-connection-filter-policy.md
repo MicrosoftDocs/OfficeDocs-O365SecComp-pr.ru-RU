@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: Чтобы убедиться, что электронная почта, отправленная от пользователей, которым вы доверяете, не заблокирована, можно использовать политику фильтра подключений, чтобы создать список разрешенных IP-адресов, который также называется надежным списком отправителей. Вы также можете создать список заблокированных отправителей.
 ms.openlocfilehash: 5ca6ad6721ac03e5ae62b40dda219671bde3e1c1
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693548"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32259016"
 ---
 # <a name="configure-the-connection-filter-policy"></a>Настройка политики фильтров подключений
  

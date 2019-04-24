@@ -15,11 +15,11 @@ search.appverid:
 - MET150
 description: С предотвращением потери данных (DLP) в SharePoint Online вы можете находить документы, содержащие конфиденциальные данные в клиенте. После обнаружения документов можно работать с владельцами документов для защиты данных. Эта статья поможет вам сформировать запрос на поиск конфиденциальных данных.
 ms.openlocfilehash: 8ecce920810d52fadb311c6c4925c9fa4b6fb2b1
-ms.sourcegitcommit: c0d4fe3e43e22353f30034567ade28330266bcf7
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30900058"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32255546"
 ---
 # <a name="form-a-query-to-find-sensitive-data-stored-on-sites"></a>Формирование запроса для поиска конфиденциальных данных, которые хранятся на сайтах
 

@@ -16,18 +16,18 @@ ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection включает в себя безопасные вложения, безопасные ссылки, расширенные средства защиты от фишинга, средства создания отчетов и возможности анализа угроз.
 ms.openlocfilehash: 402110fa7b835cd86ffbcf14439304d364cf03dd
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31001182"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262951"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
 > [!IMPORTANT]
 > Эта статья предназначена для корпоративных клиентов Office 365 Enterprise и Microsoft 365. Если вы используете Outlook.com, Office 365 Home или Office 365 Personal, а вы ищете сведения о безОпасных ссылках в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
 
-## <a name="overview"></a>Общие сведения
+## <a name="overview"></a>Обзор
 
 Office 365 Advanced Threat protection (ATP) защищает организацию от вредоносных угроз, исносящихся к сообщениям электронной почты, ссылкам (URL-адресам) и средствам совместной работы. Пакет ATP включает в себя:
 

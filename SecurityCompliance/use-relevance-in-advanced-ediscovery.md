@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 5d671821-d188-42da-a9ce-9cfe92beedfd
 description: 'Узнайте о модуле релевантности в Office 365 Advanced eDiscovery, в том числе о рабочем процессе и рекомендациях по обучению и проверке файлов.  '
 ms.openlocfilehash: ad44066c8b00bccacf1f4fe2088aa84096c4db84
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30217459"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32263791"
 ---
 # <a name="use-the-relevance-module-in-office-365-advanced-ediscovery"></a>Использование модуля релевантности в Office 365 Advanced eDiscovery
 

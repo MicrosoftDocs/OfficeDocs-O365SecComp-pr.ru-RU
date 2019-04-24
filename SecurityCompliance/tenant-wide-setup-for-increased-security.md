@@ -16,11 +16,11 @@ search.appverid: MET150
 ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
 description: В этой статье рассказывается о рекомендуемой настройке параметров на уровне клиента, влияющих на безопасность среды Office 365. Для обеспечения безопасности может потребоваться больше или меньше безопасности. Используйте эти рекомендации в качестве отправной точки.
 ms.openlocfilehash: 91471f5e4b16f6950b1f74d747ebce3f802e4890
-ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31958540"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32260285"
 ---
 # <a name="configure-your-office-365-tenant-for-increased-security"></a>Настройка клиента Office 365 для улучшения безопасности
 

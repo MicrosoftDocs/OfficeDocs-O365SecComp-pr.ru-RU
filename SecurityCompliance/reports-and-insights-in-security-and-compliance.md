@@ -1,5 +1,5 @@
 ---
-title: Интеллектуальные отчеты и аналитика в центре безопасности _Амп_ соответствие требованиям
+title: Интеллектуальные отчеты и аналитика в Центре безопасности и соответствия требованиям
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
@@ -16,11 +16,11 @@ ms.collection:
 - M365-security-compliance
 description: Общие сведения о отчетах и Insights авиалабле в центре безопасности &amp; и соответствия требованиям.
 ms.openlocfilehash: fff1fac7d35a4e12e66f27ac0069d34eb86f3fe0
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30999322"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261517"
 ---
 # <a name="smart-reports-and-insights-in-the-office-365-security-amp-compliance-center"></a>Интеллектуальные отчеты и аналитика в центре безопасности &amp; и соответствия требованиям Office 365
 
@@ -71,7 +71,7 @@ ms.locfileid: "30999322"
     
 - [Загрузка существующих отчетов в центре безопасности &amp; и соответствия требованиям](download-existing-reports.md)
     
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Мониторинг безопасности и соответствия требованиям в Office 365](monitor-security-and-compliance.md)
   

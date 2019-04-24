@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: ''
 description: Использование ключевых слов и условий для сужения области поиска при использовании расследования данных в Microsoft 365.
 ms.openlocfilehash: eeca1bf7ff89d1b7f79ceeed3334668e354f035a
-ms.sourcegitcommit: 2c5834235c32b2616e1813ce24eeb3419a09629f
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31030454"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262899"
 ---
 # <a name="build-search-queries"></a>Создание поисковых запросов
 

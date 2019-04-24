@@ -1,5 +1,5 @@
 ---
-title: Настройка загрузок для добавления импортированных файлов в Office 365 Advanced eDiscovery
+title: Настройка нагрузок для добавления импортированных файлов в Office 365 Advanced eDiscovery
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,13 +14,13 @@ search.appverid:
 ms.assetid: 0e0a9d04-294f-4f54-8bf1-b32d81345126
 description: 'Ознакомьтесь с инструкциями по добавлению импортированных файлов в последнюю заданную загрузку или пакет, прежде чем выполнять обучение по релевантности в Office 365 Advanced eDiscovery.  '
 ms.openlocfilehash: 8c5101628b468719f8aa4f81a4c73cbbb226105f
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215989"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32260746"
 ---
-# <a name="set-up-loads-to-add-imported-files-in-office-365-advanced-ediscovery"></a>Настройка загрузок для добавления импортированных файлов в Office 365 Advanced eDiscovery
+# <a name="set-up-loads-to-add-imported-files-in-office-365-advanced-ediscovery"></a>Настройка нагрузок для добавления импортированных файлов в Office 365 Advanced eDiscovery
 
 > [!NOTE]
 > Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -96,7 +96,7 @@ ms.locfileid: "30215989"
     
 2. В разделе **Загрузка управления**щелкните **+** значок, чтобы добавить нагрузку. Отобразится сообщение С запросом на подтверждение. 
     
-3. Нажмите кнопку **Да** , чтобы продолжить. Откроется диалоговое окно **Добавление новой нагрузки** . 
+3. Чтобы продолжить, нажмите кнопку **Да**. Откроется диалоговое окно **Добавление новой нагрузки** . 
     
     > [!NOTE]
     > Добавить новую нагрузку можно только в том случае, если действия были выполнены над предыдущей нагрузкой. 

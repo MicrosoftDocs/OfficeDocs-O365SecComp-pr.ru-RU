@@ -1,5 +1,5 @@
 ---
-title: Добавление тегов и обучение в модуле релевантности в Office 365 Advanced eDiscovery
+title: Маркировка и обучение по релевантности в Office 365 Advanced eDiscovery
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,13 +14,13 @@ search.appverid:
 ms.assetid: 8576cc86-d51b-4285-b54b-67184714cc62
 description: 'В этой статье рассказывается о том, как пометить и затем работать с обучающим образцом, в котором находится 40 файлов, на этапе обучения для Office 365 Advanced eDiscovery.  '
 ms.openlocfilehash: e8c9c02d72a756565f6fe59011a6788f592463eb
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30221069"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32260424"
 ---
-# <a name="tagging-and-relevance-training-in-office-365-advanced-ediscovery"></a>Добавление тегов и обучение в модуле релевантности в Office 365 Advanced eDiscovery
+# <a name="tagging-and-relevance-training-in-office-365-advanced-ediscovery"></a>Маркировка и обучение по релевантности в Office 365 Advanced eDiscovery
 
 > [!NOTE]
 > Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -66,7 +66,7 @@ ms.locfileid: "30221069"
     
     Пропущенные файлы не будут учитываться для обучения релевантности и оценки релевантности.
     
-3. Комментарии с произвольным текстом, связанные с файлом, можно просматривать и редактировать с помощью параметра **Комментарий** в раскрывающемся списке области слева. необязательно 
+3. Комментарии с произвольным текстом, связанные с файлом, можно просматривать и редактировать с помощью параметра **Комментарий** в раскрывающемся списке области слева. (необязательный) 
     
 4. Инструкции по разметке можно просмотреть, выбрав параметр **рекомендации** по разметке в раскрывающемся списке области слева. 
     

@@ -19,11 +19,11 @@ search.appverid:
 ms.assetid: 522b43f4-a2ff-46f6-962a-dd4f47e546a7
 description: Для управления устройствами iOS, такими как iPad и iPhone, в управлении мобильными устройствами для Office 365, выполните следующие действия, чтобы создать сертификат APNs.
 ms.openlocfilehash: 5f82690f0add5f1aae95a089d9cdfc0b320ae596
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220459"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32258643"
 ---
 # <a name="create-an-apns-certificate-for-ios-devices"></a>Создание сертификата APNs для устройств с iOS
 
@@ -33,41 +33,41 @@ ms.locfileid: "30220459"
   
 ![Настройка необходимых действий для управления мобильными устройствами и рекомендации](media/d71e3c76-b6b9-4549-ade6-cbfab846d908.png)
   
-1. Далее, чтобы **настроить сертификат APNs для устройств с iOS**, нажмите кнопку **настроить**.
+1. Next to **Configure a APNs Certificate for iOS devices**, select **Set up**.
     
-2. Выберите **загрузить файл CSR** и сохранить запрос подписи сертификата в любом месте на вашем компьютере, который вы забудете запомнить. 
+2. Select **Download your CSR file** and save the Certificate signing request to a somewhere on your computer that you'll remember. 
     
     ![Диалоговое окно установки сертификата точки доступа](media/03aa8a24-e95c-4077-9b6b-ef76a86bafd7.png)
   
-3. Нажмите **Далее**.
+3.  Select **Next**. 
     
-4. Создайте сертификат APN.
+4.  Create an APN certificate.
     
-  - Выберите **портал Apple APNs** , чтобы открыть портал Apple Push Certificate. 
+  - Select **Apple APNS Portal** to open the Apple Push Certificates Portal.  
     
     ![Диалоговое окно установки сертификата уведомления об APN с выбранным порталом Apple APNS](media/ce19f53c-f44a-470b-baf3-9278dfda2ba5.png)
   
-  - Выполните вход с помощью идентификатора Apple ID.
+  - Sign in with an Apple ID.
     
     > [!IMPORTANT]
-    > Используйте идентификатор Apple ID, связанный с учетной записью электронной почты, которая останется в вашей организации, даже если пользователь, управляющий учетной записью, не покидает ее. Сохраните этот идентификатор, так как вам потребуется использовать тот же идентификатор при продлении сертификата. 
+    > Use a company Apple ID associated with an email account that will remain with your organization even if the user who manages the account leaves. Save this ID because you'll need to use the same ID when it's time to renew the certificate. 
   
-  - Выберите **создать сертификат** и принять **условия использования**.
+  - Select **Create a Certificate** and accept the **Terms of Use**.
     
-  - **Перейдите** к запросу подписи сертификата, загруженному на компьютер, из Office 365 и нажмите кнопку **Отправить**.
+  - **Browse** to the Certificate signing request you downloaded to your computer from Office 365 and select **Upload**.
     
-  - **Скачайте** сертификат APN, созданный порталом сертификатов Apple Push на ваш компьютер. 
+  - **Download** the APN certificate created by the Apple Push Certificate Portal to your computer. 
     
     > [!TIP]
-    > Если у вас возникли проблемы с загрузкой сертификата, обновите браузер. 
+    > If you're having trouble downloading the certificate, refresh your browser. 
   
-5. Вернитесь в Office 365 и нажмите кнопку **Далее** , чтобы перейти на страницу **отправить сертификат APNs** . 
+5. Go back to Office 365 and select **Next** to get to the **Upload APNS certificate** page. 
     
-6. Перейдите к сертификату APN, скачанному с портала Push-сертификатов Apple.
+6.  Browse to the APN certificate you downloaded from the Apple Push Certificates Portal.
     
     ![Нажмите кнопку "Обзор", чтобы выбрать сертификат APNS, загруженный с Apple](media/afe2849d-af23-4c55-9009-d8f25edaf6c0.png)
   
-7. Нажмите кнопку **Готово**.
+7. Select **Finish**.
     
 Вернитесь к \> **политикам** \> безопасности **центра соответствия требованиям &amp; безопасности** **Управление** \> устройствами **Управление параметрами** для завершения установки. 
   

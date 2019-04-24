@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 1372da29-f3ab-49d7-8c02-eb9305bb5fd8
 description: Узнайте, как скачать один или несколько существующих отчетов в центре безопасности &amp; и соответствия требованиям.
 ms.openlocfilehash: 0ea48eca0744dbcf663d15f52342546a54a85af2
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30219129"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256927"
 ---
 # <a name="download-existing-reports-in-the-security-amp-compliance-center"></a>Загрузка существующих отчетов в центре безопасности &amp; и соответствия требованиям
 

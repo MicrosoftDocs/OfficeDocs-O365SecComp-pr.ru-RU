@@ -14,11 +14,11 @@ ms.collection:
 - M365-security-compliance
 description: Как мягкое и жесткое удаление данных обрабатывается в Exchange Online.
 ms.openlocfilehash: 977beb41469e0015e22aea6750cfd657d9ee3b39
-ms.sourcegitcommit: 1261a37c414111f869df5791548a768d853fda60
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31004196"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262691"
 ---
 # <a name="exchange-online-data-deletion-in-office-365"></a>Удаление данных Exchange Online в Office 365
 В Exchange Online существует два типа удалений: "обратимое удаление" и "окончательное удаление". Это относится как к почтовым ящикам, так и к элементам в почтовом ящике.

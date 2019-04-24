@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: 2fe71b05-f5a2-4182-ade7-4dc5cabdfd51
 description: 'Часто задаваемые вопросы для администраторов об использовании службы импорта Office 365 для импорта PST-файлов организаитон в почтовые ящики Office 365. '
 ms.openlocfilehash: 69767353a574336351b01fdc42a9c6117c5c31ed
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30999592"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32255437"
 ---
 # <a name="faq-about-importing-pst-files-to-office-365"></a>ВОПРОСЫ и ответы об импорте PST-файлов в Office 365
 
@@ -39,7 +39,7 @@ ms.locfileid: "30999592"
   
 - Вы должны быть назначены роли получателей почты в Exchange Online. By default, this role is assigned to the Organization Management and Recipient Management roles groups.
     
-    Или
+    ИЛИ
     
 - Вам необходимо быть глобальным администратором в организации Office 365.
     
@@ -110,7 +110,7 @@ Yes, this capability is now available.
   
 - Вы должны быть назначены роли получателей почты в Exchange Online. By default, this role is assigned to the Organization Management and Recipient Management roles groups.
     
-    Или
+    ИЛИ
     
 - Вам необходимо быть глобальным администратором в организации Office 365.
     

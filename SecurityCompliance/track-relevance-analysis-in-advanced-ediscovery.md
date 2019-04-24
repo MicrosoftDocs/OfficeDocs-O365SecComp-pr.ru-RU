@@ -1,5 +1,5 @@
 ---
-title: Отслеживание анализа релевантности в Office 365 Advanced eDiscovery
+title: Отслеживание релевантности в Office 365 Advanced eDiscovery
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,13 +14,13 @@ search.appverid:
 ms.assetid: 3ab1e2c3-28cf-4bf5-b0a8-c0222f32bdf5
 description: 'Сведения о том, как просматривать и интерпретировать состояние обучения релевантности и результаты для проблем с обращениями в Office 365 Advanced eDiscovery.  '
 ms.openlocfilehash: 8bdfd2ddb88215b7217d1cc4cdacf2e775a0d977
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218179"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32264435"
 ---
-# <a name="track-relevance-analysis-in-office-365-advanced-ediscovery"></a>Отслеживание анализа релевантности в Office 365 Advanced eDiscovery
+# <a name="track-relevance-analysis-in-office-365-advanced-ediscovery"></a>Отслеживание релевантности в Office 365 Advanced eDiscovery
 
 > [!NOTE]
 > Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 

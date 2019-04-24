@@ -14,11 +14,11 @@ ms.collection:
 - M365-security-compliance
 description: Обзор атак типа "отказ в обслуживании" (DoS).
 ms.openlocfilehash: a7e67fcc87867190f345c5dad14e38a473420eab
-ms.sourcegitcommit: 1261a37c414111f869df5791548a768d853fda60
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31004076"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262821"
 ---
 # <a name="defending-against-denial-of-service-attacks-in-office-365"></a>Защита от атак типа "отказ в обслуживании" в Office 365
 

@@ -13,11 +13,11 @@ search.appverid:
 ms.assetid: aac65513-e75e-4c82-a668-9a6604dd9f9d
 description: Обзор отчетов обнаружения приложений в Office 365 Cloud App Security поможет вам узнать больше об использовании облачных приложений для пользователей в вашей организации. После создания отчетов об обнаружении приложений с помощью файлов журнала, полученных от брандмауэров и прокси-серверов, просмотрите результаты в панели мониторинга обнаружения приложений.
 ms.openlocfilehash: f50ad372450b2a1404829eeb6f6964c1d954dccd
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216259"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32264987"
 ---
 # <a name="review-app-discovery-findings-in-office-365-cloud-app-security"></a>Просмотр результатов обнаружения приложений в Office 365 Cloud App Security
   
@@ -81,7 +81,7 @@ ms.locfileid: "30216259"
     
 4. Укажите пользователей или IP-адреса, а в поле **Комментарии** введите сведения о причинах исключения этих пользователей или IP-адресов. 
     
-5. Выберите **Add** (Добавить).
+5. Нажмите кнопку **Добавить**.
     
 ## <a name="next-steps"></a>Дальнейшие действия
 

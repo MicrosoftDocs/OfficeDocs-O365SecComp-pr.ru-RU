@@ -15,11 +15,11 @@ ms.custom:
 ms.assetid: d1795031-beef-49ea-a6fc-5da5450d320d
 description: Сводка. Настройте сайт группы SharePoint Online, изолированный от остальной организации, в среде Office 365 для разработки и тестирования.
 ms.openlocfilehash: 56c10b1a3871014f26a4d2fd98d9b4139d19ac47
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000232"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32254375"
 ---
 # <a name="isolated-sharepoint-online-team-site-devtest-environment"></a>Среда разработки и тестирования изолированного сайта группы SharePoint Online
 
@@ -141,7 +141,7 @@ Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $
     
 На рисунке 1 показаны группы доступа и их членство.
   
-**Рис. 1**
+**Рисунок 1**
 
 ![Группы Office 365 и их членство для изолированного сайта группы SharePoint Online](media/5b7373b9-2a80-4880-afe5-63ffb17237e6.png)
   
@@ -279,7 +279,7 @@ Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $
     
 Теперь изолированный сайт SharePoint Online готов к выполнению дополнительного эксперимента.
   
-## <a name="next-step"></a>Следующий этап
+## <a name="next-step"></a>Дальнейшие действия
 
 Когда вы будете готовы выполнить развертывание изолированного сайта группы SharePoint Online в рабочей среде, просмотрите подробные инструкции из статьи [Разработка изолированного сайта группы SharePoint Online](design-an-isolated-sharepoint-online-team-site.md).
   

@@ -18,11 +18,11 @@ ms.collection:
 - M365-security-compliance
 description: Политики управления сведениями позволяют организации контролировать продолжительность хранения контента, проверять, какие люди работают с контентом, а также добавлять в документы штрих-коды или метки. Политика позволяет обеспечить соответствие юридическим и государственным нормам и внутренним бизнес-процессам. Как администратор вы можете настроить политику для управления отслеживанием документов и продолжительностью хранения документов.
 ms.openlocfilehash: 1d17dd8cadb721478831ab8fe77413c08f959f29
-ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30862571"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32258855"
 ---
 # <a name="create-and-apply-information-management-policies"></a>Создание и применение политик управления сведениями
 

@@ -13,17 +13,17 @@ search.appverid:
 ms.assetid: dd6d2417-49c4-4de6-9294-67fdabbf8532
 description: Вы можете интегрировать сервер SIEM с Office 365 Cloud App Security. В этой статье приводятся общие сведения о том, как она работает и как ее настроить.
 ms.openlocfilehash: 82b5e0e6467bd42acba3c40d67e4e0363a7e0f72
-ms.sourcegitcommit: 4abcc03497478abf1ae7fc84792f44360d8e59c1
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "30548589"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32254803"
 ---
 # <a name="integrate-your-siem-server-with-office-365-cloud-app-security"></a>Интеграция сервера SIEM с Office 365 Cloud App Security
   
 |Ознакомительная версия * *\>**|Планирование * *\>**|Развертывание * *\>**|Использование * * * *|
 |:-----|:-----|:-----|:-----|
-|[Начало оценки](office-365-cas-overview.md) <br/> |[Начало планирования](get-ready-for-office-365-cas.md) <br/> |Вот что вам!  <br/> [Следующее действие](utilization-activities-for-ocas.md) <br/> |[Начало использования](utilization-activities-for-ocas.md) <br/> |
+|[Начало оценки](office-365-cas-overview.md) <br/> |[Начало планирования](get-ready-for-office-365-cas.md) <br/> |Вот что вам!  <br/> [Следующий шаг](utilization-activities-for-ocas.md) <br/> |[Начало использования](utilization-activities-for-ocas.md) <br/> |
    
 ## <a name="overview-and-prerequisites"></a>Общие сведения и необходимые условия
 

@@ -18,11 +18,11 @@ ms.collection:
 - M365-security-compliance
 description: Политика управления сведениями представляет собой набор правил для определенного типа контента. С помощью политик управления сведениями организации могут контролировать и отслеживать ряд аспектов, например период хранения контента или действия над ним, которые доступны пользователям. Эти политики могут помочь организациям в соблюдении правовых норм и правительственных постановлений или же просто в реализации внутренних бизнес-процессов.
 ms.openlocfilehash: 23662c555dfc19b2fc83b0364d93724e922c7c97
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30275759"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32254262"
 ---
 # <a name="introduction-to-information-management-policies"></a>Введение в политики управления сведениями
 

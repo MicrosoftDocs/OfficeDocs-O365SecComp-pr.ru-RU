@@ -13,11 +13,11 @@ localization_priority: Normal
 ms.assetid: 61852fd9-fe8a-4880-a339-cb19ed3bff4a
 description: 'Используйте поиск контента в центре безопасности _Амп_ соответствия требованиям, чтобы искать почтовые ящики, сайты SharePoint Online и расположения OneDrive для бизнеса. '
 ms.openlocfilehash: 4c3d9cc024a495ff8464e1117d5f46c13c1b9a08
-ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31958280"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261778"
 ---
 # <a name="run-a-content-search-in-the-security--compliance-center"></a>Поиск контента в Центре безопасности и соответствия требованиям
 
@@ -51,7 +51,7 @@ ms.locfileid: "31958280"
   
 
   
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>До начала работы
 
 - Сведения и рекомендации по созданию запросов поиска и использованию логических операторов поиска в разделе [запросы на ключевые слова и условия поиска контента](keyword-queries-and-search-conditions.md). Кроме того, в этой статье содержатся сведения о поиске конфиденциальных типов сведений и поиске контента, доступ к которому предоставлен пользователям в Организации и за ее пределами.
     

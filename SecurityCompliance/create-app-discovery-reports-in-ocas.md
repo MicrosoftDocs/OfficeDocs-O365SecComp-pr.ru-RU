@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 3e68e691-1fc4-4d3e-a2c0-d3134eb64055
 description: Создавайте отчеты с помощью Office 365 Cloud App Security, которые позволяют узнать, как пользователи в вашей организации используют Office 365 и другие приложения.
 ms.openlocfilehash: 23165a52a09e5bcde46ee3ab2110dc17d0faf7f4
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220299"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32259646"
 ---
 # <a name="create-app-discovery-reports-using-office-365-cloud-app-security"></a>Создание отчетов об обнаружении приложений с помощью Office 365 Cloud App Security
 

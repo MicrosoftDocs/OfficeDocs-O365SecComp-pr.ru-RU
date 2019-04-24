@@ -13,11 +13,11 @@ search.appverid:
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: Используйте средства обнаружения электронных данных и поиска Office 365 для управления инцидентом переноса данных в Организации и реагирования на них.
 ms.openlocfilehash: 50078e3f22ede8a1af2a252a7a6f75710534c062
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000152"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32258962"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>серия решений обнаружения электронных данных: сценарий для переноса данных — поиск и очистка
 
@@ -170,7 +170,7 @@ ms.locfileid: "31000152"
 
 С помощью расположений, собранных и подготовленных на шаге 6, а также запроса поиска, созданного и уточненных на шаге 3 для поиска сообщений электронной почты, содержащих перенесенные данные, вы можете удалить их навсегда. Как описывалось ранее, вам необходимо назначить роль импорта поЧтовых ящиков в Exchange Online, чтобы удалить сообщения, используя следующую процедуру.
   
-1. [Подключение к Exchange Online PowerShell](https://go.microsoft.com/fwlink/?linkid=396554).
+1. [Подключитесь к Exchange Online PowerShell](https://go.microsoft.com/fwlink/?linkid=396554).
     
 2. Выполните следующую команду.
     

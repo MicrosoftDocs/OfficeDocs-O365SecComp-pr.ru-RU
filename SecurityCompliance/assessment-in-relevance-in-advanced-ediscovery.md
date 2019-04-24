@@ -1,5 +1,5 @@
 ---
-title: Сведения об оценке в модуле релевантности в Office 365 Advanced eDiscovery
+title: Оценка соответствия в Office 365 Advanced eDiscovery
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,13 +14,13 @@ search.appverid:
 ms.assetid: 1d33d4fb-91ed-41c0-b72e-5a26eca3a2a7
 description: Ознакомьтесь с обзором этапа оценки и его роли в определении богатости проблем во время обучения по релевантности в Office 365 Advanced eDiscovery.
 ms.openlocfilehash: 1ddaa7ef37f762d7b63bb6c0c51193ff382b8d6b
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30212979"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32250206"
 ---
-# <a name="understand-assessment-in-relevance-in-office-365-advanced-ediscovery"></a>Сведения об оценке в модуле релевантности в Office 365 Advanced eDiscovery
+# <a name="understand-assessment-in-relevance-in-office-365-advanced-ediscovery"></a>Оценка соответствия в Office 365 Advanced eDiscovery
 
 > [!NOTE]
 > Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 

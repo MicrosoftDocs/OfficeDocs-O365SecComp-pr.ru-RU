@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: a797682f-ad85-4c08-a354-3850ba2237ee
 description: 'Узнайте, как настроить дополнительные параметры, включая почти повторяющиеся, почтовые потоки и темы для процесса анализа в Office 365 Advanced eDiscovery. '
 ms.openlocfilehash: d8dfb9f3ecfcda0f267dfccdc716eda40fe450b2
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220089"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32260866"
 ---
 # <a name="set-analyze-advanced-settings-in-office-365-advanced-ediscovery"></a>Настройка дополнительных параметров анализа в Office 365 Advanced eDiscovery
 

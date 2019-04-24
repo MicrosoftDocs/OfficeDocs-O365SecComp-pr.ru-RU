@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: ''
 description: В этой статье описывается новое средство расследования данных (Preview) в Microsoft 365.
 ms.openlocfilehash: 11ba4d0870461695d327577396ccd535ac4340e1
-ms.sourcegitcommit: 2c5834235c32b2616e1813ce24eeb3419a09629f
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31030461"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32257726"
 ---
 # <a name="overview-of-data-investigations-preview-in-microsoft-365"></a>Общие сведения о расследовании данных (Предварительная версия) в Microsoft 365
 
@@ -45,7 +45,7 @@ ms.locfileid: "31030461"
 
   - [Просмотр данных в свидетельстве](review-data-in-evidence.md)
 
-  - [Запуск аналитики для более быстрого исследования](run-analytics-to-investigate-faster.md)
+  - [Запуск аналитики для ускорения исследования](run-analytics-to-investigate-faster.md)
 
 
 ## <a name="managing-people-of-interest"></a>Управление интересными людьми

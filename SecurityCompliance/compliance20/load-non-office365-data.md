@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: ''
 description: ''
 ms.openlocfilehash: 2ac12cf8c447e3341724d9e853da0f32b7c232fb
-ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31958700"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242964"
 ---
 # <a name="load-non-office-365-data-into-a-working-set"></a>Загрузка не относящихся к Office 365 данных в рабочий набор
 
@@ -28,7 +28,7 @@ ms.locfileid: "31958700"
 >[!Note]
 >Для расширенного обнаружения электронных данных требуется Office 365 E3 с дополнительным соответствием или подпиской на систему с дополнительным соответствием в вашей организации. Если у вас нет этого плана и вы хотите попытаться использовать Расширенное обнаружение электронных данных, вы можете зарегистрироваться в пробной версии Office 365 Enterprise ~.
 
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>До начала работы
 Для использования функции отправки, отличной от Office 365, описанной в этой процедуре, необходимо следующее:
 
 - Office 365 E3 с дополнительным подпискум на надстройку или на дополнительные требования.

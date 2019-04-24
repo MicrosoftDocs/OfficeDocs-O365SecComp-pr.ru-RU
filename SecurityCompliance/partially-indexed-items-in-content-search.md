@@ -20,11 +20,11 @@ search.appverid:
 ms.assetid: d1691de4-ca0d-446f-a0d0-373a4fc8487b
 description: 'Сведения о неиндексированных элементах в Exchange и SharePoint, которые можно включить в поиск контента с помощью центра безопасности _Амп_ соответствия требованиям. '
 ms.openlocfilehash: da51788b3f017811756c3c07294bf6e2712e2e2c
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30999222"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262321"
 ---
 # <a name="partially-indexed-items-in-content-search-in-office-365"></a>Частично индексированные элементы в средстве "Поиск контента" в Office 365
 

@@ -1,5 +1,5 @@
 ---
-title: Проверка анализа релевантности в Office 365 Advanced eDiscovery
+title: Анализ релевантности тестирования в Office 365 Advanced eDiscovery
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,13 +14,13 @@ search.appverid:
 ms.assetid: 1b092f7c-ea55-44f5-b419-63f3458fd7e0
 description: 'Узнайте, как использовать вкладку тест после вычисления пакетов в Office 365 Advanced eDiscovery для тестирования, сравнения и проверки общего качества обработки.  '
 ms.openlocfilehash: 735a6d8088b4696e2ebc348db435a11914bd0b10
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215839"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32259985"
 ---
-# <a name="test-relevance-analysis-in-office-365-advanced-ediscovery"></a>Проверка анализа релевантности в Office 365 Advanced eDiscovery
+# <a name="test-relevance-analysis-in-office-365-advanced-ediscovery"></a>Анализ релевантности тестирования в Office 365 Advanced eDiscovery
 
 > [!NOTE]
 > Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 

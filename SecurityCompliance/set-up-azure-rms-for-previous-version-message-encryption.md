@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 2cba47b3-f09e-4911-9207-ac056fcb9db7
 description: Предыдущая версия шифрования сообщений Office 365 зависит от Microsoft Azure Rights Management (ранее известной как Windows Azure Active Directory Rights Management).
 ms.openlocfilehash: 89b86035f57699457c86fefb49888b8428f4e01c
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214379"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32266891"
 ---
 # <a name="set-up-azure-rights-management-for-the-previous-version-of-office-365-message-encryption"></a>Настройка Microsoft Azure AD Rights Management для предыдущей версии шифрования сообщений Office 365
 
@@ -36,7 +36,7 @@ ms.locfileid: "30214379"
 
 - Если у вас нет подписки Azure RMS для Exchange Online или Exchange Online Protection, вы должны приобрести подписку и активировать ее первым.
 
-    Сведения о приобретении подписки на Azure Rights Management можно найти в статье [Управление правами Azure](https://portal.office.com/Signup/MainSignUp15.aspx?&amp;OfferId=9DF77AF9-DAAE-4d51-8E0E-EEEADD4866B8&amp;dl=RIGHTSMANAGEMENT). В следующем разделе представлены сведения об активации Azure Rights Management.
+    Сведения о приобретении подписки на Azure Rights Management можно найти в статье [Управление правами Azure](https://portal.office.com/Signup/MainSignUp15.aspx?&amp;OfferId=9DF77AF9-DAAE-4d51-8E0E-EEEADD4866B8&amp;dl=RIGHTSMANAGEMENT). В следующем разделе приводятся сведения об активации службы управления правами Azure.
 
 - Если у вас есть служба управления правами Azure, но она не настроена для Exchange Online или Exchange Online Protection, в этой статье описывается активация службы управления правами Azure, а затем описывается лучший способ настройки OME для работы с управлением правами Azure.
 
@@ -59,13 +59,13 @@ TPD — это XML-файл, который содержит сведения о
 
 2. Выберите URL-адрес для общего доступа к ключам, соответствующий географическому расположению организации Office 365:
 
-|**Расположение**|**URL-адрес расположения для общего доступа к ключам**|
+|**Location**|**URL-адрес расположения для общего доступа к ключам**|
 |:-----|:-----|
 |Северная Америка  <br/> |https://sp-rms.na.aadrm.com/TenantManagement/ServicePartner.svc  <br/> |
 |Европейский Союз  <br/> |https://sp-rms.eu.aadrm.com/TenantManagement/ServicePartner.svc  <br/> |
-|Азия  <br/> |https://sp-rms.ap.aadrm.com/TenantManagement/ServicePartner.svc  <br/> |
+|Региона  <br/> |https://sp-rms.ap.aadrm.com/TenantManagement/ServicePartner.svc  <br/> |
 |Южная Америка  <br/> |https://sp-rms.sa.aadrm.com/TenantManagement/ServicePartner.svc  <br/> |
-|Office 365 для государственных учреждений (облако сообщества госучреждений)  <br/> Это расположение для общего доступа к ключам RMS зарезервировано для клиентов, которые приобрели Office 365 для государственных учреждений.  <br/> |https://sp-rms.govus.aadrm.com/TenantManagement/ServicePartner.svc  <br/> |
+|Office 365 для государственных организаций (облако сообщества госучреждений)  <br/> Это расположение для общего доступа к ключам RMS зарезервировано для клиентов, которые приобрели Office 365 для государственных учреждений.  <br/> |https://sp-rms.govus.aadrm.com/TenantManagement/ServicePartner.svc  <br/> |
    
 3. Настройте расположение для общего доступа к ключам, выполнив командлет [Set – IRMConfiguration](https://technet.microsoft.com/library/dd979792%28v=exchg.160%29.aspx) следующим образом: 
     
@@ -121,7 +121,7 @@ TPD — это XML-файл, который содержит сведения о
   
 После настройки организации для использования новых возможностей OME вы можете [определить правила обработки почты для защиты сообщений электронной почты с помощью новых возможностей OME](define-mail-flow-rules-to-encrypt-email.md).
   
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 <a name="importTPDs"> </a>
 
 [Шифрование в Office 365](encryption.md)

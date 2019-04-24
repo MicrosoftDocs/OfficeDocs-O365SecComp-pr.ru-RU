@@ -1,5 +1,5 @@
 ---
-title: Просмотр журнала пакетов и экспорт старых результатов в Office 365 Advanced eDiscovery
+title: Просмотр истории пакетов и экспорт прошлых результатов в Office 365 Advanced eDiscovery
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,13 +14,13 @@ search.appverid:
 ms.assetid: 35d52b41-75ab-4144-9edf-31e11453bd5d
 description: 'Узнайте, как просмотреть подробные сведения о выбранных сеансах пакетного экспорта и как отменить последний сеанс экспорта в Office 365 Advanced eDiscovery.  '
 ms.openlocfilehash: a55f299669c2a404ee176153aa766210a3141199
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214949"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32243523"
 ---
-# <a name="view-batch-history-and-export-past-results-in-office-365-advanced-ediscovery"></a>Просмотр журнала пакетов и экспорт старых результатов в Office 365 Advanced eDiscovery
+# <a name="view-batch-history-and-export-past-results-in-office-365-advanced-ediscovery"></a>Просмотр истории пакетов и экспорт прошлых результатов в Office 365 Advanced eDiscovery
 
 > [!NOTE]
 > Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -55,7 +55,7 @@ ms.locfileid: "30214949"
     
 2. Нажмите кнопку **Обзор** , чтобы выбрать целевое расположение для хранения скачанных файлов экспорта на локальном компьютере. 
     
-3. Нажмите кнопку **Пуск**. Экспортируемые файлы загружаются на локальный компьютер. 
+3. Нажмите **Запуск**. Экспортируемые файлы загружаются на локальный компьютер. 
     
 ## <a name="see-also"></a>См. также
 

@@ -16,11 +16,11 @@ search.appverid:
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: Используйте функцию поиска и очистки в центре безопасности _Амп_ соответствия требованиям в Office 365, чтобы искать и удалять сообщение электронной почты из всех почтовых ящиков в Организации.
 ms.openlocfilehash: c6fa0d09852016b918375dbff5a19468886d86b3
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000272"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32265351"
 ---
 # <a name="search-for-and-delete-email-messages-in-your-office-365-organization---admin-help"></a>Поиск и удаление сообщений электронной почты в организации Office 365 — Справка для администраторов
 
@@ -37,7 +37,7 @@ ms.locfileid: "31000272"
 > [!CAUTION]
 > Поиск и очистка — это мощный компонент, который позволяет всем пользователям, которым назначены необходимые разрешения, удалять сообщения электронной почты из почтовых ящиков в Организации. 
   
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>До начала работы
 
 - Чтобы создать и запустить поиск контента, необходимо быть членом группы ролей " **Диспетчер eDiscovery** " или назначить роль управления **поиском соответствия требованиям** . Чтобы удалить сообщения, необходимо быть членом группы ролей **Управление организацией** или назначить роль управления **поиска и очистки** . Сведения о добавлении пользователей в группу ролей приведены в статье [предоставление пользователям доступа к центру безопасности и соответствия требованиям](grant-access-to-the-security-and-compliance-center.md).
     
@@ -118,7 +118,7 @@ New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeTy
   
 Дополнительные сведения см. в статье [New – ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/New-ComplianceSearchAction).
 
-## <a name="more-information"></a>Дополнительные сведения
+## <a name="more-information"></a>Дополнительная информация
 
 - **Как получить состояние операции поиска и удаления?**
 

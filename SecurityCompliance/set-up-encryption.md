@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: e86fc991-0161-4f01-9c1c-d25e87733d06
 description: В Office 365 некоторые возможности шифрования включены по умолчанию; другие возможности можно настроить в соответствии с определенными требованиями соответствия требованиям или юридическим требованиям.
 ms.openlocfilehash: 1bc4ceb7762c96f55c03f89e7c448f9e4073063e
-ms.sourcegitcommit: e24f70699021c4f4ba56508ad0afb6f65010c357
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2019
-ms.locfileid: "31479645"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32260797"
 ---
 # <a name="set-up-encryption-in-office-365-enterprise"></a>Настройка шифрования в Office 365 корпоративный
 

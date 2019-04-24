@@ -1,5 +1,5 @@
 ---
-title: Добавление тегов и оценка в Office 365 Advanced eDiscovery
+title: Маркировка и оценка в Office 365 Advanced eDiscovery
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,13 +14,13 @@ search.appverid:
 ms.assetid: b5c82de7-ed2f-4cc6-becd-db403faf4d18
 description: 'ИзУчите шаги, необходимые для проведения обучения, в том числе файлов тегирования, и просмотра результатов оценки в Office 365 Advanced eDiscovery. '
 ms.openlocfilehash: 02dae23b6489b40243272beea1d79e871ca6a911
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30217939"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32260382"
 ---
-# <a name="tagging-and-assessment-in-office-365-advanced-ediscovery"></a>Добавление тегов и оценка в Office 365 Advanced eDiscovery
+# <a name="tagging-and-assessment-in-office-365-advanced-ediscovery"></a>Маркировка и оценка в Office 365 Advanced eDiscovery
 
 > [!NOTE]
 > Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 

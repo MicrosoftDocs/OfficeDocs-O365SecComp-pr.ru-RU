@@ -14,11 +14,11 @@ ms.collection:
 - M365-security-compliance
 description: Описание различных аспектов обеспечения устойчивости данных в Exchange Online и Office 365.
 ms.openlocfilehash: 9e61efaf95d466fcb268e12317c7feab0701c062
-ms.sourcegitcommit: 1261a37c414111f869df5791548a768d853fda60
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31004236"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262761"
 ---
 # <a name="exchange-online-data-resiliency-in-office-365"></a>Устойчивость данных Exchange Online в Office 365
 

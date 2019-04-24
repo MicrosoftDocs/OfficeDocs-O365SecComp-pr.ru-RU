@@ -3,23 +3,22 @@ title: Технологические элементы управления в O
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Сводка. обзор методик управления технологиями Майкрософт для Office 365.
-ms.openlocfilehash: 77dee44ec648ea2aa1dab61776089bf7d9e2580a
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: a8dcb65880fc729fc067b2f2bcf25c7db76dbca9
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220379"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262341"
 ---
 # <a name="office-365-technology-controls"></a>Технологические элементы управления в Office 365 
 
@@ -34,7 +33,7 @@ ms.locfileid: "30220379"
 
 Служба защищенного хранилища для Office 365 поможет вам выполнить обязательства по обеспечению соответствия требованиям, например, в FedRAMP и HIPAA, если вам понадобятся процедуры для явной авторизации доступа к данным. В редких случаях, когда специалисту службы Microsoft требуется доступ к данным, предоставляется доступ только к данным, необходимым для устранения проблемы, и в течение ограниченного периода времени. Действия, выполняемые инженером службы поддержки, записываются в журнал для целей аудита и доступны через [API действий управления Office 365](https://msdn.microsoft.com/library/office/dn707383.aspx) и [Центр безопасности и соответствия требованиям](http://protection.office.com/). Защищенный клиентский доступ вставляет пользователя в процесс утверждения защищенного хранилища и предоставляет им возможность управлять авторизацией Microsoft Access на доступ к содержимому Exchange Online или SharePoint Online для операций служб.
 
->**Примечание**. защищенное хранилище для клиентов доступно в [Office 365 корпоративный](https://products.office.com/business/office-365-enterprise-e5-business-software) , а также в качестве надстройки, но в центре администрирования Office 365 необходимо вручную предпринять действия (в разделе Параметры службы | Защищенное хранилище клиента), чтобы включить его. Для получения дополнительных сведений ознакомьтесь с разпрограммными [запросами Office 365 для клиентского хранилища](https://support.office.com/article/Office-365-Customer-Lockbox-Requests-36f9cdd1-e64c-421b-a7e4-4a54d16440a2).
+>**Примечание**. защищенное хранилище для клиентов доступно в [Office 365 корпоративный](https://products.office.com/business/office-365-enterprise-e5-business-software) , а также в качестве надстройки, но действие вручную необходимо выполнить в центре администрирования Microsoft 365 (в разделе Параметры службы | Защищенное хранилище клиента), чтобы включить его. Для получения дополнительных сведений ознакомьтесь с разпрограммными [запросами Office 365 для клиентского хранилища](https://support.office.com/article/Office-365-Customer-Lockbox-Requests-36f9cdd1-e64c-421b-a7e4-4a54d16440a2).
 
 Все запросы службы для Exchange Online и SharePoint Online обрабатываются системой защищенного хранилища. И с помощью защищенного хранилища клиентов любая операция службы, требующая доступа к этим службам с учетом данных клиентов, проходит через процесс утверждения защищенного хранилища, а затем позволяет клиенту утверждать или отклонять запрос позже.
  

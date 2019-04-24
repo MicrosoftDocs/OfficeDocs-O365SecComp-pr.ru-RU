@@ -16,11 +16,11 @@ ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 description: Данные, созданные облачными приложениями в Office 365, хранятся в почтовом ящике Exchange Online пользователя в Microsoft Cloud.
 ms.openlocfilehash: 6f7a81842df5972a03648a2f93d4bd6fbd738fec
-ms.sourcegitcommit: 7a6c742a81bc8ebd55b5a437e835bcb85485cf99
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31520252"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32266901"
 ---
 # <a name="content-stored-in-exchange-online-mailboxes"></a>Контент, хранящийся в почтовых ящиках Exchange Online
 

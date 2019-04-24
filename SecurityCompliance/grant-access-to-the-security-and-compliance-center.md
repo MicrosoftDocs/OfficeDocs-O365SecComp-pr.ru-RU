@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
 description: Пользователям необходимо назначить разрешения в центре безопасности &amp; Office 365, чтобы они могли управлять любыми функциями обеспечения безопасности или соответствия требованиям.
 ms.openlocfilehash: 08b3781ceb48b9a8d5933a075106d7bd3b9ab17d
-ms.sourcegitcommit: 799a958fcac643f62dfac6fa04020f2f4758635c
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30997242"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32253976"
 ---
 # <a name="give-users-access-to-the-office-365-security-amp-compliance-center"></a>Предоставление пользователям доступа к центру безопасности &amp; и соответствия требованиям Office 365
 
@@ -29,7 +29,7 @@ ms.locfileid: "30997242"
   
 Для получения дополнительных сведений о различных разрешениях, которые вы можете предоставить пользователям &amp; в центре безопасности, ознакомьтесь с разрешениями [в центре &amp; безопасности и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md).
   
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
 - Для выполнения действий, описанных в данной статье, необходимо быть глобальным администратором Office 365 или членом &amp; группы ролей Организатионманажемент в центре безопасности.
     
@@ -80,7 +80,7 @@ ms.locfileid: "30997242"
     
 Подробную информацию о синтаксисе и параметрах можно узнать в статье [Add/RoleGroupMember](https://go.microsoft.com/fwlink/p/?LinkId=510859).
   
-### <a name="how-do-you-know-this-worked"></a>Как проверить, все ли получилось?
+### <a name="how-do-you-know-this-worked"></a>Как убедиться, что все получилось?
 
 Чтобы убедиться, что у пользователей есть доступ к центру соответствия &amp; требованиям безопасности, используйте командлет **Get – RoleGroupMember** для просмотра членов группы ролей "Управление организацией", как показано в следующем примере. 
   

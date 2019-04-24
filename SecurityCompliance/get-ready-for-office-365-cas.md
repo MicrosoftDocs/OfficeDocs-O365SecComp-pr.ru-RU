@@ -14,17 +14,17 @@ search.appverid:
 ms.assetid: d9ee4d67-f2b3-42b4-9c9e-c4529904990a
 description: Начало работы с Office 365 Cloud App Security
 ms.openlocfilehash: 89718adcbb7c77735db3009937d887e88d4a8bc3
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30223718"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32254034"
 ---
 # <a name="get-ready-for-office-365-cloud-app-security"></a>Подготовка к использованию Office 365 Cloud App Security
   
 |Ознакомительная версия * *\>**|Планирование * *\>**|Развертывание * *\>**|Использование * * * *|
 |:-----|:-----|:-----|:-----|
-|[Начало оценки](office-365-cas-overview.md) <br/> |Вот что вам!  <br/> [Следующее действие](turn-on-office-365-cas.md) <br/> |[Начало развертывания](turn-on-office-365-cas.md) <br/> |[Начало использования](utilization-activities-for-ocas.md) <br/> |
+|[Начало оценки](office-365-cas-overview.md) <br/> |Вот что вам!  <br/> [Следующий шаг](turn-on-office-365-cas.md) <br/> |[Начало развертывания](turn-on-office-365-cas.md) <br/> |[Начало использования](utilization-activities-for-ocas.md) <br/> |
    
 При подготовке к включению и внедрению Microsoft Office 365 Cloud App Security для вашей организации необходимо учесть несколько моментов. Используйте эту статью в качестве руководства по планированию Office 365 Cloud App Security.
     
@@ -46,7 +46,7 @@ ms.locfileid: "30223718"
 
 Вы также можете получить его из центра безопасности &amp; Office 365. Вот один хороший способ выполнения этой задачи:
 
-1. Перейдите на [https://protection.office.com](https://protection.office.com) страницу и выполните вход. (откроется центр соответствия требованиям безопасности &amp; .)
+1. Перейдите на [https://protection.office.com](https://protection.office.com) страницу и войдите в нее. (Откроется центр соответствия требованиям безопасности &amp; .)
     
 2. Перейдите к разделу **оповещения** \> **Управление расширенными оповещениями**.
     
@@ -99,7 +99,8 @@ ms.locfileid: "30223718"
   
 ## <a name="step-8-create-a-maintenance-plan"></a>Шаг 8: создание плана обслуживания
 
-После настройки и настройки Office 365 Cloud App Security вы захотите выполнить определенные задачи в качестве глобального администратора Office или администратора безопасности для вашей организации. Выполняя эти задачи, вы можете убедиться, что Office 365 Cloud App Security настроен правильно, ваши политики обновлены, а ваша организация понимает значение из Office 365. Используйте эту статью в качестве руководства по планированию этих задач. Ознакомьтесь с действиями по [использованию после развертывания Office 365 Cloud App Security](utilization-activities-for-ocas.md).
+После настройки и настройки Office 365 Cloud App Security вы захотите выполнить определенные задачи в качестве глобального администратора Office или администратора безопасности для вашей организации.
+Выполняя эти задачи, вы можете убедиться, что Office 365 Cloud App Security настроен правильно, ваши политики обновлены, а ваша организация понимает значение из Office 365. Используйте эту статью в качестве руководства по планированию этих задач. Ознакомьтесь с действиями по [использованию после развертывания Office 365 Cloud App Security](utilization-activities-for-ocas.md).
 
 ## <a name="optional-step-9-use-your-siem-server-with-office-365-cloud-app-security"></a>Необязательно Шаг 9: использование сервера SIEM с Office 365 Cloud App Security
 
@@ -107,7 +108,7 @@ ms.locfileid: "30223718"
   
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- [Включение Office 365 Cloud App Security](turn-on-office-365-cas.md)
+- [Включение Cloud App Security для Office 365](turn-on-office-365-cas.md)
     
 - Ознакомьтесь с [руководством по лаборатории тестирования](https://docs.microsoft.com/office365/enterprise/cloud-app-security-for-your-office-365-dev-test-environment) , где вы можете продемонстрировать мощные функции Office 365 Cloud App Security и создать эксперимент. 
     

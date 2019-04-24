@@ -1,5 +1,5 @@
 ---
-title: Сведения о поЧтовых процессах в центре безопасности _Амп_ соответствие требованиям
+title: Аналитика потока обработки почты в Центре безопасности и соответствия требованиям
 ms.author: chrisda
 author: chrisda
 manager: serdars
@@ -11,13 +11,13 @@ ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
 description: Администраторы могут ознакомиться с информационной панелью почтовых ящиков в центре безопасности _Амп_ соответствие требованиям.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 4af35fea640c1f4c43464d1adf2e4a9f3b4f780d
-ms.sourcegitcommit: fec1010e405f14e792d650aee0312b78fced3343
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30723038"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32252116"
 ---
-# <a name="mail-flow-insights-in-the-security--compliance-center"></a>Сведения о поЧтовых процессах в центре безопасности _Амп_ соответствие требованиям
+# <a name="mail-flow-insights-in-the-security--compliance-center"></a>Аналитика потока обработки почты в Центре безопасности и соответствия требованиям
 
 > [!NOTE]
 > Функции, описанные в этом разделе, не были развернуты во всех организациях Office 365 и могут быть изменены.

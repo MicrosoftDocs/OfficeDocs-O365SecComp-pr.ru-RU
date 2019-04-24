@@ -13,11 +13,11 @@ search.appverid: MOE150
 ms.assetid: c4c8f689-9d52-4e80-ae4b-1411ee9efc43
 description: Узнайте, как настроить реестр Windows, чтобы увеличить пропускную способность данных при загрузке результатов поиска и данных поиска из центра безопасности _Амп_ соответствия требованиям и расширенного обнаружения электронных данных в Office 365.
 ms.openlocfilehash: 10eff929d6b668d5e2bc22d8ee7f223da4943326
-ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31958630"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256517"
 ---
 # <a name="increase-the-download-speed-when-exporting-ediscovery-search-results-from-office-365"></a>Увеличение скорости загрузки при экспорте результатов поиска обнаружения электронных данных из Office 365
 

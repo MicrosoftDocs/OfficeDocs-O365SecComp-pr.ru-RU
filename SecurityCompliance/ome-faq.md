@@ -13,11 +13,11 @@ search.appverid:
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: У вас есть вопрос о том, как работают новые возможности защиты сообщений в Office 365? Проверьте ответ здесь.
 ms.openlocfilehash: 2c140ef476b5fe19ef3655b062a3f197d36222e7
-ms.sourcegitcommit: 8a65a29aa3bfe5dcad0ff152a7cd795e02877dd9
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30936789"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261297"
 ---
 # <a name="office-365-message-encryption-faq"></a>Вопросы и ответы по шифрованию сообщений Office 365
 

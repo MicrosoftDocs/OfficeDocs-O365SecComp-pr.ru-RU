@@ -16,11 +16,11 @@ ms.collection:
 - M365-security-compliance
 description: Чтобы защититься от фишинга, Office 365 и Outlook.com теперь требуют соответствия требованиям RFC для адресов:.
 ms.openlocfilehash: e540e56a7a40d13a92719865fccefefa61de47c2
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30276149"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32253937"
 ---
 # <a name="how-office-365-validates-the-from-address-to-prevent-phishing"></a>Как Office 365 проверяет адрес отПравителя для предотвращения фишинга
 
@@ -35,7 +35,7 @@ ms.locfileid: "30276149"
   
 ## <a name="how-office-365-enforces-the-use-of-a-valid-from-address-to-prevent-phishing-attacks"></a>Как Office 365 обеспечивает использование допустимого адреса от: для предотвращения фишинговых атак
 
-Office 365 вносит изменения в способ применения адреса "от:" в сообщениях, которые он получает для лучшей защиты от фишинговых атак. В этой статье:
+Office 365 вносит изменения в способ применения адреса "от:" в сообщениях, которые он получает для лучшей защиты от фишинговых атак. В этой статье
   
 - [Все сообщения должны включать допустимый адрес от:](how-office-365-validates-the-from-address.md#MustIncludeFromAddress)
     
@@ -121,7 +121,7 @@ From: "Office 365" <sender@contoso.com> (Sent by a process)
 
 Для: адреса, включающие значение для отображаемого имени, применяются следующие правила.
   
-- Если адрес отправителя включает отображаемое имя, а отображаемое имя содержит запятую, отображаемое имя необходимо заключить в кавычки. Например:
+- Если адрес отправителя включает отображаемое имя, а отображаемое имя содержит запятую, отображаемое имя необходимо заключить в кавычки. Пример:
     
     Приведенный ниже пример является допустимым:
     

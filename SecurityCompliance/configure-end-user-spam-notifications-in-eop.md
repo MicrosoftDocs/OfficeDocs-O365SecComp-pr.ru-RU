@@ -14,11 +14,11 @@ ms.collection:
 - M365-security-compliance
 description: Вы можете настроить уведомления пользователя о нежелательной почте для используемой по умолчанию политики фильтрации содержимого в компании или для настраиваемых политик фильтрации содержимого, которые применяются к доменам.
 ms.openlocfilehash: 09ddd7fd2800e4038e354e53da53320184da3e77
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692578"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32259627"
 ---
 # <a name="configure-end-user-spam-notifications-in-eop"></a>Настройка уведомлений пользователей о спаме в службе EOP
   

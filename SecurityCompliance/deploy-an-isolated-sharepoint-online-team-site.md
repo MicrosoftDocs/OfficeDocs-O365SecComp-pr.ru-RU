@@ -12,12 +12,12 @@ ms.collection: Ent_O365
 ms.custom: Ent_Solutions
 ms.assetid: 3033614b-e23b-4f68-9701-f62525eafaab
 description: Сводка. С помощью этих пошаговых инструкций можно развернуть новый изолированный сайт группы SharePoint Online.
-ms.openlocfilehash: e59c92ff488f82f4ea042364d742f7418da50167
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: 4cb60cd55f526592cb469d80a061375a4f556afe
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000191"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32257024"
 ---
 # <a name="deploy-an-isolated-sharepoint-online-team-site"></a>Развертывание изолированного сайта группы SharePoint Online
 
@@ -83,7 +83,7 @@ ms.locfileid: "31000191"
 6. Повторите шаги 3-5 для дополнительных групп.
     
 > [!NOTE]
-> Для создания групп с включенными функциями Office необходимо использовать портал Azure. Если изолированный сайт SharePoint Online позже настраивается как сайт с строго конфиденциальной информацией с меткой АДМИНИСТРАТИВной защиты Azure (АДМИНИСТРАТИВной защиты) для шифрования файлов и назначения разрешений определенным группам, разрешенные группы должны быть созданы с помощью компонентов Office. доступ. После создания группы Azure AD невозможно изменить параметр компонентов Office для группы Azure AD. 
+> Для создания групп с включенными функциями Office необходимо использовать портал Azure. Если изолированный сайт SharePoint Online позже настраивается как сайт с строго конфиденциальной информацией с меткой Azure Information Protection для шифрования файлов и назначения разрешений определенным группам, разрешенные группы должны быть созданы с включенными функциями Office. После создания группы Azure AD невозможно изменить параметр компонентов Office для группы Azure AD. 
   
 Ниже показана итоговая конфигурация с тремя группами доступа к сайту.
   
@@ -105,7 +105,7 @@ ms.locfileid: "31000191"
   
 В центре администрирования Office Войдите с помощью учетной записи пользователя, которой назначена роль администратора учетной записи пользователя или администратора организации, и используйте группы, чтобы добавить соответствующие учетные записи пользователей и группы в соответствующие группы доступа.
   
-Если вы используете PowerShell, сначала [подключитесь с помощью модуля Azure Active Directory PowerShell 2](https://go.microsoft.com/fwlink/?linkid=842218).
+Для PowerShell сначала подключитесь к [модулю PowerShell Azure Active Directory PowerShell для Graph](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
   
 Затем используйте следующий блок команд для добавления отдельной учетной записи пользователя в группу доступа:
   
@@ -161,7 +161,7 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
   
 Сначала создайте сайт группы SharePoint Online, следуя приведенным ниже инструкциям.
   
-1. Войдите в центр администрирования, используя учетную запись, которая также будет использоваться для администрирования сайта группы SharePoint Online (администратор SharePoint Online). Чтобы получить справку, Узнайте, [где войти в Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. Войдите в Центр администрирования с помощью учетной записи, которая также используется для администрирования сайта группы SharePoint Online (учетной записи администратора SharePoint Online). Дополнительные сведения см. в статье [Вход в Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
     
 2. В списке плиток выберите **SharePoint**.
     
@@ -209,7 +209,7 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
     
 15. В диалоговом окне **для предоставления общего доступа к элементу** введите имя группы доступа для читателей сайта, выберите ее и нажмите **Поделиться**.
     
-16. Закройте вкладку **Разрешения**.
+16. Закройте вкладку браузера **Разрешения**.
     
 Ознакомьтесь с результатами настройки разрешений.
   

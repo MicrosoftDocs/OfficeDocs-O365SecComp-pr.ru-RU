@@ -16,11 +16,11 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Используйте центр соответствия требованиям по безопасности _Амп_ для поиска действий пользователей и администраторов в организации Office 365 в едином журнале аудита. '
 ms.openlocfilehash: d7dc3849a0a12c52979c46b9ac16cfb0a7cd1f3d
-ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31958641"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32264887"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Поиск в журнале аудита в центре безопасности _Амп_ соответствия требованиям
 
@@ -62,7 +62,7 @@ ms.locfileid: "31958641"
 - Действия пользователей и администраторов в Microsoft PowerApps
     
    
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>До начала работы
 
 Прежде чем начать поиск в журнале аудита Office 365, обязательно прочитайте следующие элементы:
   

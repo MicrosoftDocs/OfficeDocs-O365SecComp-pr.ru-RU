@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: Сводка. в этой статье описывается, как обновить запись службы доменных имен (DNS), чтобы можно было использовать инфраструктуру политики отправителей (SPF) с настраиваемым доменом в Office 365. С помощью инфраструктуры политики отправителей можно проверять почту, отправляемую из личного домена.
 ms.openlocfilehash: 039a09e7dac307ead156eac47699edbd2350b304
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692838"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32260717"
 ---
 # <a name="set-up-spf-in-office-365-to-help-prevent-spoofing"></a>Настройка инфраструктуры политики отправителей в Office 365 для предотвращения спуфинга
 

@@ -1,5 +1,5 @@
 ---
-title: Запуск модуля обработки в Office 365 Advanced eDiscovery
+title: Запуск модуля Process в Office 365 Advanced eDiscovery
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,13 +14,13 @@ search.appverid:
 ms.assetid: dbc1e251-0596-443b-ac9b-f398ba955b73
 description: 'ИзУчите рекомендации по подготовке файлов Office 365 для анализа с помощью Office 365 Advanced eDiscovery.  '
 ms.openlocfilehash: 19d50bda21f752ec7c22fe52b6fa7272592de128
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216119"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261037"
 ---
-# <a name="run-the-process-module-in-office-365-advanced-ediscovery"></a>Запуск модуля обработки в Office 365 Advanced eDiscovery
+# <a name="run-the-process-module-in-office-365-advanced-ediscovery"></a>Запуск модуля Process в Office 365 Advanced eDiscovery
 
 Файлы Case загружаются в Расширенное обнаружение электронных данных при **подготовке** \> **процесса**подготовки. 
   
@@ -39,7 +39,7 @@ ms.locfileid: "30216119"
     
 - **Тип и имя файла**:
     
-  - Расширенные функции обнаружения электронных данных могут обрабатывать файлы различных форматов и извлекать файлы, загруженные из машинного \*кода, в стандартный формат, например. TXT, HTML или. XML. обработка текстовых файлов выполняется быстрее, чем у собственных файлов. Извлеченные текстовые файлы хранятся в папке "Case".
+  - Расширенные функции обнаружения электронных данных могут обрабатывать файлы различных форматов и извлекать файлы, загруженные из машинного \*кода, в стандартный формат, например. TXT, HTML или. Язык. Обработка текстовых файлов выполняется быстрее, чем у собственных файлов. Извлеченные текстовые файлы хранятся в папке "Case".
     
   - Не загружайте файлы, которые не удается извлечь, например системные файлы или графические изображения. Эти файлы могут отложить обработку.
     

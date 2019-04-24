@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 60ffd80b-4376-419d-b6e4-a72029b9907c
 description: 'Сведения о настройке ролей пользователей, создании обращений и назначении пользователям обращений в Office 365 Advanced eDiscovery.  '
 ms.openlocfilehash: 5a22e0683e49ebdaf8391e092aeb101386e0636b
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30999272"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32260707"
 ---
 # <a name="set-up-users-and-cases-in-office-365-advanced-ediscovery"></a>Настройка пользователей и обращений в Office 365 Advanced eDiscovery
 

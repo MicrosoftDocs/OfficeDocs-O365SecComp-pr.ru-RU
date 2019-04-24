@@ -17,11 +17,11 @@ ms.collection:
 - M365-security-compliance
 description: Вы можете настроить карантин для входящих сообщений электронной почты в Office 365, где входящие сообщения электронной почты, которые были отфильтрованы как спам, массовые, фишинговую почту и вредоносные программы, можно хранить для последующего просмотра.
 ms.openlocfilehash: 37d573dda0065ce00b0b838bad56c5d9b1979477
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30275769"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32266833"
 ---
 # <a name="quarantine-email-messages-in-office-365"></a>Карантин сообщений электронной почты в Office 365
 

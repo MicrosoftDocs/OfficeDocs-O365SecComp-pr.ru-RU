@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 8c36bb03-e716-4fdd-9958-4aa7a2a1db42
 description: Администраторы могут использовать командлет Search-Mailbox для поиска и удаления сообщений в почтовых ящиках пользователей.
 ms.openlocfilehash: abf7e7f39fe719ecc6c23565e284c01aed8822ee
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693488"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32260987"
 ---
 # <a name="search-for-and-delete-messages---admin-help"></a>Поиск и удаление сообщений (справка администратора)
   
@@ -28,7 +28,7 @@ ms.locfileid: "30693488"
   
 В целях дополнительной защиты данных можно предварительно скопировать сообщения в другой почтовый ящик с помощью параметров  _TargetMailbox_ и  _TargetFolder_. Благодаря этому сохранится копия удаленных сообщений на случай необходимости доступа к ним в будущем. 
   
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>До начала работы
 
 - Предполагаемое время выполнения: 10 минут. Фактическое время зависит от размера почтового ящика и запроса поиска.
     

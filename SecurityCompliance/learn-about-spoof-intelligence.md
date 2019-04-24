@@ -1,5 +1,5 @@
 ---
-title: Дополнительные сведения об аналитике спуфинга
+title: Дополнительные сведения об анализе подделок
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
@@ -16,13 +16,13 @@ ms.collection:
 - M365-security-compliance
 description: Используйте аналитику подделки в &amp; центре безопасности и соответствия требованиям на странице Параметры защиты от нежелательной почты, чтобы просмотреть всех отправителей, которые подделывать домены, являющиеся частью Организации, или подменить внешние домены. Аналитика подДелки доступна в составе Office 365 Enterprise, а также в рамках расширенной защиты от угроз и Exchange Online Protection.
 ms.openlocfilehash: 0d18b5f011597266a3a975d49722e88b411c52d8
-ms.sourcegitcommit: 8a65a29aa3bfe5dcad0ff152a7cd795e02877dd9
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30936739"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32252282"
 ---
-# <a name="learn-more-about-spoof-intelligence"></a>Дополнительные сведения об аналитике спуфинга
+# <a name="learn-more-about-spoof-intelligence"></a>Дополнительные сведения об анализе подделок
 
 Используйте аналитику подделки в &amp; центре безопасности и соответствия требованиям на **странице Параметры защиты от нежелательной почты** , чтобы просмотреть всех отправителей, которые подделывать домены, являющиеся частью Организации, или подменить внешние домены. Аналитика подДелки доступна в составе Office 365 Enterprise, а также по отдельности в рамках Advanced Threat protection (ATP) и в октябре 2018 Exchange Online Protection (EOP). 
   

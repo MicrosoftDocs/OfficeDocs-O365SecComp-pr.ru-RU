@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: ''
 description: ''
 ms.openlocfilehash: 7955debee750019d60b8016d736ba50f1ff70bce
-ms.sourcegitcommit: cf9d9b545a7c153d314aa9c08c7fb16fcd785b3e
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30737709"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32240894"
 ---
 # <a name="supported-file-types-in-advanced-ediscovery-preview"></a>Поддерживаемые типы файлов в Advanced eDiscovery (Предварительная версия)
 
@@ -57,9 +57,9 @@ ms.locfileid: "30737709"
 | приложение/ZIP-индекс | Архив/контейнер | Нет | Нет | Нет | Да | ZIP- |
 | Image/BMP | Изображение | Да | Да | Да | Нет | BMP |
 | Image/EMF | Изображение | Да | Да | Да | Нет | EMF |
-| image/gif | Document | Да | Да | Да | Нет | . gif |
+| image/gif | Document | Да | Да | Да | Нет | GIF |
 | image/jpeg | Изображение | Да | Да | Да | Нет | JPG;. JPEG;. dat;. жпгт |
-| image/png | Изображение | Да | Да | Да | Нет | . png |
+| image/png | Изображение | Да | Да | Да | Нет | PNG |
 | Image/TIFF | Изображение | Да | Да | Да | Нет | TIF |
 | Image/ВНД. DWG | Document | Да | Да | Да | Нет | . DWG;. DXF |
 | Image/WMF | Document | Да | Да | Да | Нет | . WMF |

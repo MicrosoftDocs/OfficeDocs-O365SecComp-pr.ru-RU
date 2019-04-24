@@ -3,7 +3,7 @@ title: Просмотр отчетов для Office 365 Advanced Threat protect
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/19/2019
+ms.date: 04/01/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как найти и использовать отчеты для Office 365 Advanced Threat Protection в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: 53d31bf05401d80e79f0d73c191d69fe378f98cb
-ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
+ms.openlocfilehash: ff80191ae75a37994d1ad08f587fa07f72b88f24
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30862491"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32267566"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Просмотр отчетов для Office 365 Advanced Threat protection
 
@@ -81,8 +81,9 @@ ms.locfileid: "30862491"
 
 Помимо отчетов ATP, описанных в этой статье, доступны некоторые другие отчеты, описанные в следующей таблице.
 
-|Тип отчета  |Дополнительные сведения  |
+|Отчет (ы)  |Подробно  |
 |---------|---------|
+|**Трассировка URL-адресов для безопасных ссылок ATP** (Это отчет, созданный с помощью PowerShell.) В этом отчете представлены результаты действий безОпасных ссылок ATP за прошедшие семь (7) дней. |[Справочные материалы по командлету Get – Урлтраце](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-urltrace?view=exchange-ps) |
 |**Отчеты о безопасности электронной почты**, например отчет о самых отправителях и получателях, отчет о поддельной почте и отчет об обнаруженИи нежелательной почты. | [Просмотр отчетов о безопасности электронной почты в &amp; центре безопасности и соответствия требованиям](view-email-security-reports.md)        |
 |**Explorer** (также называется проводником по угрозам, это включено в [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md))     | [Использование проводника в центре безопасности &amp; и соответствия требованиям](use-explorer-in-security-and-compliance.md)        |
 |**Результаты EOP и ATP** (Это настраиваемый отчет, созданный с помощью PowerShell). Этот отчет содержит такие сведения, как домен, Дата, тип события, направление, действие и количество сообщений.  | [Справочные материалы по командлету Get – Маилтраффикатпрепорт](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-mailtrafficatpreport?view=exchange-ps) |

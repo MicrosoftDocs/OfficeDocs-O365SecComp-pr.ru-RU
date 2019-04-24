@@ -1,5 +1,5 @@
 ---
-title: Включение Office 365 Cloud App Security
+title: Включение Cloud App Security для Office 365
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
@@ -13,19 +13,19 @@ search.appverid:
 ms.assetid: ba919c73-d021-404d-9850-eec57e78678c
 description: В этой статье рассказывается, как включить Office 365 Cloud App Security, на платформе Cloud App Security в Microsoft Azure.
 ms.openlocfilehash: 1227545b1e4d1521dc1820342f09aabdf16ec2c6
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220369"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32264131"
 ---
-# <a name="turn-on-office-365-cloud-app-security"></a>Включение Office 365 Cloud App Security
+# <a name="turn-on-office-365-cloud-app-security"></a>Включение Cloud App Security для Office 365
   
 |Ознакомительная версия * *\>**|Планирование * *\>**|Развертывание * *\>**|Использование * * * *|
 |:-----|:-----|:-----|:-----|
-|[Начало оценки](office-365-cas-overview.md) <br/> |[Начало планирования](get-ready-for-office-365-cas.md) <br/> |Вот что вам!  <br/> [Следующее действие](activity-policies-and-alerts.md) <br/> |[Начало использования](utilization-activities-for-ocas.md) <br/> |
+|[Начало оценки](office-365-cas-overview.md) <br/> |[Начало планирования](get-ready-for-office-365-cas.md) <br/> |Вот что вам!  <br/> [Следующий шаг](activity-policies-and-alerts.md) <br/> |[Начало использования](utilization-activities-for-ocas.md) <br/> |
   
-## <a name="turn-on-office-365-cloud-app-security"></a>Включение Office 365 Cloud App Security
+## <a name="turn-on-office-365-cloud-app-security"></a>Включение Cloud App Security для Office 365
 
 > [!IMPORTANT]
 > Для выполнения следующей задачи необходимо быть глобальным администратором или администратором безопасности. Чтобы узнать больше, ознакомьтесь с разРешениями [в центре &amp; безопасности и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md). Для правильной работы Office 365 Cloud App Security **необходимо включить ведение журнала аудита** для среды Office 365. Дополнительную информацию можно узнать [в статье Включение и отключение поиска в журнале аудита Office 365](turn-audit-log-search-on-or-off.md). 

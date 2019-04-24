@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 86f414ad-81de-4703-b40a-c6615bbe9108
 description: После настройки и развертывания Office 365 Cloud App Security вам потребуется выполнить определенные задачи, чтобы убедиться, что конфигурация правильная и что вы готовы к обычным проверкам.
 ms.openlocfilehash: 232de4df1d1eb4debdddcee2c1d8672d1aeb4b21
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30999952"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242547"
 ---
 # <a name="utilization-activities-after-rolling-out-office-365-cloud-app-security"></a>Действия, связанные с использованием, после развертывания Office 365 Cloud App Security
   

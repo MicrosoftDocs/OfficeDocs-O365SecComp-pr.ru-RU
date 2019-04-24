@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 5974f3c2-89fe-4c5f-ac7b-57f214437f7e
 description: 'Сведения о том, как просматривать результаты анализа в Office 365 Advanced eDiscovery, включая определения отображаемых параметров задачи.  '
 ms.openlocfilehash: 990bcbb3c6626521d40f7ce057c764200d5047b5
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218829"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32267117"
 ---
 # <a name="view-analyze-results-in-office-365-advanced-ediscovery"></a>Просмотр результатов анализа в Office 365 Advanced eDiscovery
 

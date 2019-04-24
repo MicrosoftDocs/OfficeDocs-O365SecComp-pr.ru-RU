@@ -12,11 +12,11 @@ ms.collection:
 - M365-security-compliance
 description: Как администратор Office 365, вы можете отключить возможность отправки отчетов о нежелательной почте для пользователей.
 ms.openlocfilehash: f3e8a8cf837e7923d3c7241852ab2acd375492b8
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692558"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32264171"
 ---
 # <a name="turn-off-junk-email-reporting-in-outlook-on-the-web"></a>Отключение отчетов о нежелательной почте в Outlook в Интернете
 
@@ -29,7 +29,7 @@ ms.locfileid: "30692558"
     
 - Для выполнения этих процедур необходимы соответствующие разрешения. Чтобы просмотреть необходимые разрешения, обратитесь к разделу "политики почтовых ящиков Outlook в Интернете" в разделе [Outlook в Интернете](http://technet.microsoft.com/library/57eca42a-5a7f-4c65-89f0-7a84f2dbea19.aspx#OutlookWebApp) . 
 
-- Чтобы подключиться к Exchange Online PowerShell, ознакомьтесь [со статьЕй подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+- Сведения о подключении к Exchange Online PowerShell см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
 
 ## <a name="turn-off-junk-phishing-and-not-junk-reporting-to-microsoft"></a>Отключение нежелательных сообщений, фишинговых и нежелательных отчетов в Майкрософт
 <a name="sectionSection1"> </a>

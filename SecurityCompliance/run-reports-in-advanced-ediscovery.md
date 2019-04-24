@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: b270243e-99a0-4c34-9b21-acb1512d56c6
 description: 'Узнайте, как запустить отчет, а затем скачать его CSV-файл в Office 365 Advanced eDiscovery.  '
 ms.openlocfilehash: c6b70700d785c2616f984f3902fbc543d1ae26b3
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216979"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261216"
 ---
 # <a name="run-reports-in-office-365-advanced-ediscovery"></a>Запуск отчетов в Office 365 Advanced eDiscovery
 

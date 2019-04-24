@@ -13,11 +13,11 @@ search.appverid:
 ms.assetid: f87cb016-7876-4317-ae3c-9169b311ff8a
 description: С помощью шифрования сообщений Office 365 ваша организация может отправлять и получать зашифрованные сообщения электронной почты между людьми в Организации и за ее пределами. Шифрование сообщений электронной почты гарантирует, что только предназначенные для получателей сообщения могут просматривать содержимое сообщения.
 ms.openlocfilehash: 06c43bcb3364b83114e2d7b1a2ef0273858cffb0
-ms.sourcegitcommit: 895f67531f2b4afe46c7487ca5b44555ca791bae
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31836813"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261317"
 ---
 # <a name="office-365-message-encryption"></a>Шифрование сообщений Office 365
 

@@ -3,25 +3,24 @@ title: Изоляция клиента Office 365 в Office 365 видео
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Сводка. Описание изоляции клиентов в Office 365 Video.
-ms.openlocfilehash: ffdc87c0a5e63336552268dafab1293699f262ba
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 071a71266191748db8f6cb27ae86e1f65dcb4d1d
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220119"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262591"
 ---
-# <a name="tenant-isolation-in-office-365-video"></a>Изоляция клиента в Office 365 Видео
+# <a name="tenant-isolation-in-office-365-video"></a>Изоляция клиента в Office 365 - Видео
 
 > [!NOTE]
 > Видео Office 365 будет заменено на Microsoft Stream. Чтобы узнать больше о новой службе Enterprise Video, которая добавляет логику к совместной работе с видео и Узнайте о планах перехода для текущих пользователей Office 365 видео, ознакомьтесь со статьей [Переход в поток из Office 365 Video](https://docs.microsoft.com/stream/).
@@ -31,7 +30,7 @@ ms.locfileid: "30220119"
 
 Системы, управляющие доступом к клиентским средам (например, портал Azure, СМАПИ и т. д.), изолированы в рамках приложения Azure, предоставляемого корпорацией Майкрософт. Это логически отделяет инфраструктуру клиентского доступа от приложений клиента и уровня хранилища.
 
-## <a name="tenant-isolation-in-office-365-video"></a>Изоляция клиента в Office 365 Видео
+## <a name="tenant-isolation-in-office-365-video"></a>Изоляция клиента в Office 365 - Видео
 [Office 365 Video](https://support.office.com/article/Meet-Office-365-Video-ca1cc1a9-a615-46e1-b6a3-40dbd99939a6) — это корпоративный портал, который предоставляет организациям очень безопасное и ориентированное на всю организацию место для публикации, совместного использования и обнаружения видеоконтентов. В Office 365 видео видеоролики хранятся изолированными и шифруются во всех расположениях и доступны только пользователям, прошедшим проверку подлинности и имеющим разрешения на доступ к видеороликам Организации. Для выполнения этой задачи в Office 365 видео используется комбинация технологий.
 - SharePoint Online используется для хранения видеофайла и метаданных (название видеоролика, описание и т. д.). Он также обеспечивает уровень безопасности и соответствия требованиям (включая проверку подлинности) и функции поиска.
 - Службы мультимедиа Azure обеспечивают перекодировку, адаптивную потоковую передачу, безопасную доставку (с использованием шифрования AES) и функции эскизов.

@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: a8bdcbdd-9298-462f-b889-df26037a990c
 description: 'Включите архивный почтовый ящик и включите автоматическое расширение архивации, чтобы увеличить размер папки "элементы с возможностью восстановления" для почтового ящика в Office 365. '
 ms.openlocfilehash: f419da5b1b42d52433e9fc288aa5b401a2123c1c
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30998972"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32254405"
 ---
 # <a name="increase-the-recoverable-items-quota-for-mailboxes-on-hold"></a>Увеличение квоты для папки "Элементы с возможностью восстановления" для почтовых ящиков на удержании
 

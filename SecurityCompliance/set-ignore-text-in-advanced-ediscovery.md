@@ -1,5 +1,5 @@
 ---
-title: Настройка параметра "Игнорировать текст" для анализа в Office 365 Advanced eDiscovery
+title: Установка параметра игнорировать текст для анализа в Office 365 Advanced eDiscovery
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,13 +14,13 @@ search.appverid:
 ms.assetid: 44055727-56e8-42d7-9dc3-fb942f3901cc
 description: 'Узнайте, как определить правило для игнорирования определенного текста при использовании модулей анализа и обработки в Office 365 Advanced eDiscovery.  '
 ms.openlocfilehash: 3a4c1d17a9a56d3018509a8dcfd6b49abb951676
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214249"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32260835"
 ---
-# <a name="set-ignore-text-option-for-analyze-in-office-365-advanced-ediscovery"></a>Настройка параметра "Игнорировать текст" для анализа в Office 365 Advanced eDiscovery
+# <a name="set-ignore-text-option-for-analyze-in-office-365-advanced-ediscovery"></a>Установка параметра игнорировать текст для анализа в Office 365 Advanced eDiscovery
 
 > [!NOTE]
 > Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -37,7 +37,7 @@ ms.locfileid: "30214249"
   
 ||||
 |:-----|:-----|:-----|
-|**Игнорировать текстовые записи** <br/> |**==\>** <br/> |**Результаты** <br/> |
+|**Игнорировать текстовые записи** <br/> |**==\>** <br/> |**Results** <br/> |
 |"АЛИСА", "БОБ, ИВАН"  <br/> |==\>  <br/> |"КАНУН ДЕНИСА"  <br/> |
 |"АЛИСА", "БОБ ALICE"  <br/> |==\>  <br/> |"ДЕНИСА ИВАН, КАНУН"  <br/> |
    

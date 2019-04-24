@@ -14,11 +14,11 @@ ms.collection:
 - M365-security-compliance
 description: Сводка. В этой статье описано, как обеспечить доверие целевых почтовых систем к сообщениям, отправляемым из личного домена, с помощью технологии DKIM (DomainKeys Identified Mail) в Office 365.
 ms.openlocfilehash: fc2a509aacdaac0aeef22696d85512f91957502f
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693468"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32263750"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain-in-office-365"></a>Проверка исходящей электронной почты, отправляемой с личного домена в Office 365, с помощью DKIM
 
@@ -152,9 +152,9 @@ TTL:                3600
     
 #### <a name="to-enable-dkim-signing-for-your-custom-domain-by-using-powershell"></a>Как включить подпись с помощью DKIM для личного домена, используя PowerShell
 
-1. [Подключение к Exchange Online PowerShell](https://technet.microsoft.com/library/jj984289.aspx).
+1. [Подключитесь к Exchange Online PowerShell](https://technet.microsoft.com/library/jj984289.aspx).
     
-2. Выполните следующую команду:
+2. Выполните следующую команду.
     
     ```
     New-DkimSigningConfig -DomainName <domain> -Enabled $true
@@ -203,7 +203,7 @@ TTL:                3600
   
 ### <a name="to-disable-the-dkim-signing-policy-by-using-windows-powershell"></a>Отключение политики подписывания DKIM с помощью Windows PowerShell
 
-1. [Подключение к Exchange Online PowerShell](https://technet.microsoft.com/library/jj984289.aspx).
+1. [Подключитесь к Exchange Online PowerShell](https://technet.microsoft.com/library/jj984289.aspx).
     
 2. Выполните одну из указанных ниже команд для каждого домена, для которого требуется отключить подпись с помощью DKIM.
     

@@ -15,11 +15,11 @@ ms.collection:
 - Strat_O365_Enterprise
 description: Общие сведения о шифровании в Microsoft Cloud.
 ms.openlocfilehash: 36bb50cda5f39461401b14ca3e7ada77a6e2cc0d
-ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30357520"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262781"
 ---
 # <a name="encryption-in-the-microsoft-cloud"></a>Шифрование в Microsoft Cloud
 
@@ -49,7 +49,7 @@ FIPS 140-2 — это стандарт, разработанный специа�
 
 (Все серверы с отсчетом на клиентах согласовываются с ПРОТОКОЛом TLS 1,2 по умолчанию, но при необходимости также поддерживается согласование с более низким стандартом.)
 
-## <a name="related-links"></a>Связанные ссылки
+## <a name="related-links"></a>Дополнительные ссылки
 
 - [Шифрование в Azure](office-365-azure-encryption.md)
 - [BitLocker и распределенный диспетчер ключей (DKM) для шифрования](office-365-bitlocker-and-distributed-key-manager-for-encryption.md)

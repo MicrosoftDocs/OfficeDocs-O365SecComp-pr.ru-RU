@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: ''
 description: ''
 ms.openlocfilehash: 7c9d1a52acef48d96816fefbb1c836032d262b93
-ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454681"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32240981"
 ---
 # <a name="themes"></a>Темы
 Как пользователь пишет документ? Как правило, они начинаются с одной или нескольких идей, которые необходимо передать в документ, а также состоят из слов, которые соответствуют идеям. Более распространенная идея — более частые слова, которые связаны с этой идеей. В этой процедуре сообщается, как люди используют документы и. важно знать, что документ пытается передать, а какие идеи и какие связи между идеями появятся в документе.

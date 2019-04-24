@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: Защита от потери данных (DLP) в центре безопасности &amp; Office 365 включает в себя 80 типов конфиденциальной информации, готовых к использованию в политиках защиты от потери данных. В этой статье перечислены все эти типы конфиденциальной информации и показано, каким именно образом политика защиты от потери данных выявляет каждый тип.
 ms.openlocfilehash: d161435c75149183289cfbfd6abe79d55e371e31
-ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30639196"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32266875"
 ---
 # <a name="what-the-sensitive-information-types-look-for"></a>Что позволяют искать типы конфиденциальной информации
 
@@ -1220,7 +1220,7 @@ OR
 - Legal entities 
 - Registration Status 
 - Бизнес 
-- Company
+- Организация
 - CNPJ 
 - Cadastro Nacional da Pessoa Jurídica 
 - Cadastro Geral de Contribuintes 
@@ -1841,7 +1841,7 @@ Registro de identidade (RIC) (новый формат):
 - drivers licence 
 - ДОБ 
 - Birthdate 
-- День рождения 
+- День рождения  
 - Date of Birth 
    
 ## <a name="chile-identity-card-number"></a>	Номер удостоверения личности для Чили
@@ -2992,7 +2992,7 @@ OR
 
 Должен соответствовать одному из двух шаблонов:
 - 13 цифр, за которыми следует пробел, за которым следуют две цифры.<br/>
- или 
+Кроме того:
 - 15 последовательных цифр.
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -6054,11 +6054,11 @@ OR
 
 #### <a name="keyworditincollaborative"></a>Кэйворд_итин_коллаборативе
 
-- License 
+- Лицензия 
 - DL 
 - ДОБ 
 - Birthdate 
-- День рождения 
+- День рождения  
 - Date of Birth 
    
 ## <a name="us-social-security-number-ssn"></a>Страховой номер для США (SSN)

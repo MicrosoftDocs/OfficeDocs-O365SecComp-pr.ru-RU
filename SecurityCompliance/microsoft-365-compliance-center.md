@@ -10,11 +10,11 @@ ms.service: o365-seccomp
 localization_priority: Normal
 description: Узнайте о новом центре соответствия требованиям Microsoft 365, в том числе о том, что оно содержит, как получить его и выполнить следующие действия.
 ms.openlocfilehash: ae608d1aafb803fabe6ed1eba3804b9921bac7b2
-ms.sourcegitcommit: 48b77ec6fb499175507fc08f11dc9f5efe6c4858
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31518389"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32265585"
 ---
 # <a name="overview-of-the-all-new-microsoft-365-compliance-center"></a>Обзор нового нового центра соответствия требованиям Microsoft 365
 
@@ -24,7 +24,7 @@ ms.locfileid: "31518389"
 
 Ознакомьтесь с этой статьей, чтобы ознакомиться с центром соответствия требованиям Microsoft 365, [о том, как получить его](#how-do-i-get-this), [часто задаваемые вопросы](#frequently-asked-questions)и выполнить [следующие действия](#next-steps).
 
-[![Mцентр соответствия требованиям Microsoft 365(media/m365-compliance-center.png)](https://compliance.microsoft.com)
+[![Центр соответствия требованиям Microsoft 365](media/m365-compliance-center.png)](https://compliance.microsoft.com)
 
 ## <a name="welcome-to-microsoft-365-compliance"></a>Добро поЖаловать в соответствие Microsoft 365
 

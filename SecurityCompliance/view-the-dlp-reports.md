@@ -15,11 +15,11 @@ search.appverid:
 - MET150
 description: С помощью отчетов DLP в Office 365 вы можете быстро просмотреть количество совпадений политики защиты от потери данных, переопределений или ложных срабатываний. Проверьте, не заходите ли они вверх или вниз по времени; отфильтровать отчет различными способами; и просмотрите дополнительные сведения, выбрав точку на линии на диаграмме.
 ms.openlocfilehash: 447245f945bd777f56cca71320a72a9d9dd8720e
-ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30639026"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32267309"
 ---
 # <a name="view-the-reports-for-data-loss-prevention"></a>Просмотр отчетов о защите от потери данных
 

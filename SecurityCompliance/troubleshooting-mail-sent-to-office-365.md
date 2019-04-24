@@ -15,13 +15,13 @@ ms.collection:
 - M365-security-compliance
 description: В этой статье приведены сведения об устранении неполадок при отправке почты в почтовые ящики в Office 365 и рекомендации по массовой рассылке почты клиентам Office 365.
 ms.openlocfilehash: ac465e7ef42b9cfeb2587481202fab1b5adb5f75
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692108"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32265911"
 ---
-# <a name="troubleshooting-mail-sent-to-office-365"></a>Устранение неполадок с отправкой почты в Office 365
+# <a name="troubleshooting-mail-sent-to-office-365"></a>Устранение неполадок с отправкой почты в Office 365
 
 В этой статье приведены сведения об устранении неполадок при отправке почты в почтовые ящики в Office 365 и рекомендации по массовой рассылке почты клиентам Office 365.
   

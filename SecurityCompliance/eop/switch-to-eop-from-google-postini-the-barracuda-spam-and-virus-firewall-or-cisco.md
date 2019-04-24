@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 81b75194-3b04-48da-8b81-951afbabedde
 description: "Задача этого раздела \x97 помочь понять процесс перехода на Exchange Online Protection (EOP) со средств локальной санации электронной почты или облачных служб защиты и рассказать о ресурсах справки, с которых можно начать работу."
 ms.openlocfilehash: 0c33d89be5cb4ebf7719e6742532ebfc7a2e5c20
-ms.sourcegitcommit: c0d4fe3e43e22353f30034567ade28330266bcf7
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899958"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256207"
 ---
 # <a name="switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco-ironport"></a>Переход на EOP с Google Postini, Barracuda Spam and Virus Firewall или Cisco IronPort
 

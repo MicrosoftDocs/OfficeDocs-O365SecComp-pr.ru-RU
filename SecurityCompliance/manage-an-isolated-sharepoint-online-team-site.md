@@ -12,12 +12,12 @@ ms.collection: Ent_O365
 ms.custom: Ent_Solutions
 ms.assetid: 79a61003-4905-4ba8-9e8a-16def7add37c
 description: Сводка. Управляйте изолированным сайтом группы SharePoint Online с помощью этих процедур.
-ms.openlocfilehash: 81a6fcd80bb3e4950eb7b783d1ad964b9bc67cc5
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: f8531c4922f6ee6a86e32e646692825e71fafec2
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214489"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32251996"
 ---
 # <a name="manage-an-isolated-sharepoint-online-team-site"></a>Управление изолированным сайтом группы SharePoint Online
 
@@ -41,7 +41,7 @@ ms.locfileid: "30214489"
   
 - Войдите в Центр администрирования Office, используя учетную запись, которой назначена роль администратора учетных записей пользователей или администратора организации, и выберите раздел "Группы", чтобы добавить пользователей в соответствующие группы доступа.
     
-- Сначала [подключитесь к модулю Azure Active Directory 2 для PowerShell](https://go.microsoft.com/fwlink/?linkid=842218). Чтобы добавить учетную запись пользователя в группу доступа по имени участника-пользователя, используйте следующий блок команд PowerShell:
+- Для PowerShell сначала подключитесь к [модулю PowerShell Azure Active Directory PowerShell для Graph](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module). Чтобы добавить учетную запись пользователя в группу доступа по имени участника-пользователя (UPN), используйте следующий блок команд PowerShell:
     
 ```
 $userUPN="<UPN of the user account>"
@@ -76,7 +76,8 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
   
 - Войдите в Центр администрирования Office, используя учетную запись, которой назначена роль администратора учетных записей пользователей или администратора организации, и выберите раздел "Группы", чтобы добавить группы в соответствующие группы доступа.
     
-- Сначала [подключитесь к модулю Azure Active Directory 2 для PowerShell](https://go.microsoft.com/fwlink/?linkid=842218). После этого используйте следующие команды PowerShell:
+- Для PowerShell сначала подключитесь к [модулю PowerShell Azure Active Directory PowerShell для Graph](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
+ Затем используйте следующие команды PowerShell:
  
 ```
 $newGroupName="<display name of the new group to add>"
@@ -100,7 +101,8 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADGroup | Where { $_.DisplayName -
   
 - Войдите в Центр администрирования Office, используя учетную запись, которой назначена роль администратора учетных записей пользователей или администратора организации, и выберите раздел "Группы", чтобы удалить пользователей из соответствующих групп доступа.
     
-- Сначала [подключитесь к модулю Azure Active Directory 2 для PowerShell](https://go.microsoft.com/fwlink/?linkid=842218). Чтобы удалить учетную запись пользователя из группы доступа по имени участника-пользователя, используйте следующий блок команд PowerShell:
+- Для PowerShell сначала подключитесь к [модулю PowerShell Azure Active Directory PowerShell для Graph](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
+Чтобы удалить учетную запись пользователя из группы доступа по имени участника-пользователя, используйте следующий блок команд PowerShell:
     
 ```
 $userUPN="<UPN of the user account>"
@@ -132,7 +134,7 @@ Remove-AzureADGroupMember -MemberId (Get-AzureADUser | Where { $_.DisplayName -e
   
 - Войдите в Центр администрирования Office, используя учетную запись, которой назначена роль администратора учетных записей пользователей или администратора организации, и выберите раздел "Группы", чтобы удалить группы из соответствующих групп доступа.
     
-- Если вы используете PowerShell, сначала [подключитесь с помощью модуля Azure Active Directory PowerShell 2](https://go.microsoft.com/fwlink/?linkid=842218).    
+- Для PowerShell сначала подключитесь к [модулю PowerShell Azure Active Directory PowerShell для Graph](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).    
 Чтобы удалить группу из группы доступа по отображаемому имени, используйте следующий блок команд PowerShell:
     
 ```

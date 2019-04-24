@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 15fa4545-28b4-4dd4-bf85-88e0926bd5fc
 description: 'С помощью Office 365 Cloud App Security вы можете узнать, что происходит в вашей среде Office 365, проанализировать и изучить действия и учетные записи. '
 ms.openlocfilehash: 0cc3860d953b40b0b0c247af6fb2b157d1abb235
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218969"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32254845"
 ---
 # <a name="investigate-an-activity-in-office-365-cloud-app-security"></a>Анализ действий в Office 365 Cloud App Security
   

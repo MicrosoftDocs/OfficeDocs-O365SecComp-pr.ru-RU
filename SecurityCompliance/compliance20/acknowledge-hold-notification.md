@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: ''
 description: ''
 ms.openlocfilehash: 048c85c7b8d77b9c7d3b9527640648b9ebe463d0
-ms.sourcegitcommit: 5d6be2b208dbe28d5d5da057c60cf97729799c1b
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465456"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32243643"
 ---
 # <a name="acknowledge-a-hold-notification"></a>Подтверждение уведомления об удержании 
 При ответе на нормативный запрос или исследование вам может потребоваться уведомить custodians о своих обязательствах, чтобы сохранить электронную информацию (РАЗБИРАТЕЛЬСТВАХ), а также все материалы, которые могут быть релевантны в активном или приближенном юридическом лице. После того как вы отправили, юридические команды должны знать, что каждый хранитель получил, прочитал и понят, а также соответствует указанным инструкциям.

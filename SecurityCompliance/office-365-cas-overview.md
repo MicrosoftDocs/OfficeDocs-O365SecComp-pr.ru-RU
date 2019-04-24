@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: 81f0ee9a-9645-45ab-ba56-de9cbccab475
 description: 'Office 365 Cloud App Security предоставляет вам информацию о подозрительных действиях в Office 365, чтобы можно было исследовать потенциально проблематичные ситуации и при необходимости предпринять меры по устранению проблем с безопасностью. '
 ms.openlocfilehash: 960e4c75a4da13e1a0365f75d290cd18587abd58
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31001212"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32263087"
 ---
 # <a name="overview-of-office-365-cloud-app-security"></a>Overview of Office 365 Cloud App Security
   
