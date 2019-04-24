@@ -14,21 +14,23 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: efdadd2769bf2b812d3642184fc7fd4ae1cbc8c2
-ms.sourcegitcommit: 9f38ba72eba0b656e507860ca228726e4199f7ec
+ms.openlocfilehash: 0798cb66729b215a50b21a29494183f7eed5d1d6
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30475689"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256177"
 ---
-# <a name="export-case-data-in-advanced-ediscovery-preview"></a><span data-ttu-id="c1a8e-102">Экспорт данных обращений в Advanced eDiscovery (Предварительная версия)</span><span class="sxs-lookup"><span data-stu-id="c1a8e-102">Export case data in Advanced eDiscovery (Preview)</span></span>
+# <a name="export-case-data-in-advanced-ediscovery-preview"></a><span data-ttu-id="04e35-102">Экспорт данных обращений в Advanced eDiscovery (Предварительная версия)</span><span class="sxs-lookup"><span data-stu-id="04e35-102">Export case data in Advanced eDiscovery (Preview)</span></span>
 
-<span data-ttu-id="c1a8e-103">Экспорт выполняется в рабочем наборе, чтобы обеспечить полную видимость экспортируемого из клиента.</span><span class="sxs-lookup"><span data-stu-id="c1a8e-103">Exporting is accomplished within a working set in order to provide full visibility into what is being exported from a tenant.</span></span> <span data-ttu-id="c1a8e-104">Существует три отдельных метода для экспорта контента:</span><span class="sxs-lookup"><span data-stu-id="c1a8e-104">There are three separate methods to export content:</span></span>
+<span data-ttu-id="04e35-103">Существует три способа экспорта данных из рабочего набора:</span><span class="sxs-lookup"><span data-stu-id="04e35-103">There are three ways to export data from a working set:</span></span>
 
-<span data-ttu-id="c1a8e-105">Download — позволяет пользователю загрузить небольшой набор собственных файлов через браузер.</span><span class="sxs-lookup"><span data-stu-id="c1a8e-105">Download – allows a user to download a small set of native files via the browser.</span></span>
+<span data-ttu-id="04e35-104">**Скачать** — используйте для скачивания (с помощью браузера) небольшой набор собственных файлов.</span><span class="sxs-lookup"><span data-stu-id="04e35-104">**Download** – Use to download (by using a browser) a small set of native files.</span></span> <span data-ttu-id="04e35-105">Это самый быстрый способ экспорта небольшого набора данных.</span><span class="sxs-lookup"><span data-stu-id="04e35-105">This is the quickest was to export a small set of data.</span></span>
 
-<span data-ttu-id="c1a8e-106">Export — Настройка экспорта включение дополнительного контента, включая файл метаданных, записанных в файлах отредактировал и текстовых файлах.</span><span class="sxs-lookup"><span data-stu-id="c1a8e-106">Export – customize export to include additional content including a metadata file, burned in redacted files and text files.</span></span>
+<span data-ttu-id="04e35-106">**Export** — используется для настройки экспортируемых данных, в том числе экспорта файлов метаданных, собственных файлов, текстовых файлов и документов отредактировал, сохраненных в PDF-файл.</span><span class="sxs-lookup"><span data-stu-id="04e35-106">**Export** – Use to customize what data is exported, including the export of metadata files, native files, text files, and redacted documents that have been saved to a PDF file.</span></span> <span data-ttu-id="04e35-107">После того как экспортированные данные передаются в хранилище Azure, их необходимо загрузить на локальный компьютер.</span><span class="sxs-lookup"><span data-stu-id="04e35-107">After exported data is uploaded Azure storage location, you have to download it to a local computer.</span></span> <span data-ttu-id="04e35-108">Дополнительные сведения см. в следующих разделах:</span><span class="sxs-lookup"><span data-stu-id="04e35-108">For more information, see:</span></span> 
 
-<span data-ttu-id="c1a8e-107">Working Set — позволяет пользователю экспортировать контент из одного рабочего набора в другой рабочий набор.</span><span class="sxs-lookup"><span data-stu-id="c1a8e-107">Working Set – allows a user to export content from one working set to another working set.</span></span>
+   - [<span data-ttu-id="04e35-109">Экспорт документов из рабочего набора</span><span class="sxs-lookup"><span data-stu-id="04e35-109">Export documents from a working set</span></span>](export-documents-from-working-set.md)
 
-<span data-ttu-id="c1a8e-108">После завершения экспорта содержимое помещается в большой двоичный объект Microsoft Azure.</span><span class="sxs-lookup"><span data-stu-id="c1a8e-108">Once export is complete, the content is placed in a Microsoft Azure blob.</span></span> <span data-ttu-id="c1a8e-109">Доступ к содержимому можно получить с помощью сведений на вкладке экспорты. Дополнительные сведения см \[. в статье ссылка для скачивания заданий экспорта\]</span><span class="sxs-lookup"><span data-stu-id="c1a8e-109">The content can be reached by using the information in the Exports tab. For more information, see \[link to download export jobs\]</span></span>
+   - [<span data-ttu-id="04e35-110">Скачивание заданий экспорта</span><span class="sxs-lookup"><span data-stu-id="04e35-110">Download export jobs</span></span>](download-export-jobs.md)
+
+<span data-ttu-id="04e35-111">**Добавить в другой рабочий набор** — используйте для копирования данных из одного рабочего набора в другой рабочий набор.</span><span class="sxs-lookup"><span data-stu-id="04e35-111">**Add to another working set** – Use to copy data from one working set to a different working set.</span></span> <span data-ttu-id="04e35-112">Дополнительные сведения см. [в статье Добавление данных из одного рабочего набора в другой рабочий набор](add-data-to-working-set-from-another-working-set.md).</span><span class="sxs-lookup"><span data-stu-id="04e35-112">For more information, see [Add data from one working set to another working set](add-data-to-working-set-from-another-working-set.md).</span></span> 

@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: ''
 description: ''
 ms.openlocfilehash: ab437eda6731181deb783146e4df23f437279444
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30297082"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242752"
 ---
-# <a name="configure-case-settings-in-advanced-ediscovery-preview"></a><span data-ttu-id="80b80-102">Настройка параметров обращений в Advanced eDiscovery (Предварительная версия)</span><span class="sxs-lookup"><span data-stu-id="80b80-102">Configure case settings in Advanced eDiscovery (Preview)</span></span>
+# <a name="configure-case-settings-in-advanced-ediscovery-preview"></a><span data-ttu-id="d180a-102">Настройка параметров обращений в Advanced eDiscovery (Предварительная версия)</span><span class="sxs-lookup"><span data-stu-id="d180a-102">Configure case settings in Advanced eDiscovery (Preview)</span></span>
 
-<span data-ttu-id="80b80-103">Содержимое появится в ближайшее время.</span><span class="sxs-lookup"><span data-stu-id="80b80-103">Content coming soon.</span></span>
+<span data-ttu-id="d180a-103">Содержимое появится в ближайшее время.</span><span class="sxs-lookup"><span data-stu-id="d180a-103">Content coming soon.</span></span>
