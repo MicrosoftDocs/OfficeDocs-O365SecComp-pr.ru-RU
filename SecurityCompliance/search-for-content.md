@@ -3,7 +3,7 @@ title: Поиск содержимого в Office 365
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 4/4/2018
+ms.date: ''
 ms.audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
@@ -11,12 +11,12 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: df2d1e0f-b476-42c9-aade-4a260b24f193
 description: С помощью средства обнаружения электронных данных поиска контента в центре безопасности _Амп_ соответствие требованиям можно быстро находить электронную почту в почтовых ящиках Exchange, документов на сайтах SharePoint и в папках OneDrive, а также беседах в Skype для бизнеса.
-ms.openlocfilehash: fc0bea90ce9cbfc27f894985c7d3083756ab108a
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 3e8e0594cac700fe37ee7a4a6c889dbf862cd0fb
+ms.sourcegitcommit: 3509e324952aee703f3ced5b950dd53cb5f974ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32261357"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33248304"
 ---
 # <a name="search-for-content-in-office-365"></a>Поиск содержимого в Office 365
 
@@ -42,7 +42,10 @@ ms.locfileid: "32261357"
     
 - [Массовое изменение](bulk-edit-content-searches.md) расположения запросов и контента для нескольких поисков 
     
+- [ПовторНый поиск контента](retry-failed-content-search.md) для устранения ошибки размещения контента
+
 - [Сохранение получателей скрытОй копии](https://docs.microsoft.com/exchange/policy-and-compliance/holds/preserve-bcc-recipients-and-group-members) , чтобы их можно было искать 
+
 
 ## <a name="perform-actions-on-content-you-find"></a>Выполнение действий над контентом, который вы находите
 
@@ -58,7 +61,7 @@ ms.locfileid: "32261357"
     
 ## <a name="learn-more-about-content-search"></a>Дополнительные сведения о поиске контента
 
-Поиск контента легко использовать, но он также является мощным средством. В фоновом режиме есть много. Чем больше вы узнаете о нем и узнаете о его поведении и ограничениях, тем выше успех будет использоваться для поиска и исследования вашей организации. Узнайте, как выполнять указанные ниже действия.
+Поиск контента легко использовать, но он также является мощным средством. В фоновом режиме есть много. Чем больше вы узнаете о нем и узнаете о его поведении и ограничениях, тем выше успех будет использоваться для поиска и исследования вашей организации. Дополнительные сведения:
   
 - [Частично индексированные элементы в Exchange и SharePoint](partially-indexed-items-in-content-search.md) , а также включение и исключение их при экспорте и загрузке результатов поиска 
     
