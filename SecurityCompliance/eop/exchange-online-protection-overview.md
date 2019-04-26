@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 1270a65f-ddc3-4430-b500-4d3a481efb1e
 description: Microsoft Exchange Online Protection (EOP) — это облачная служба фильтрации электронной почты, которая помогает защитить организацию от нежелательной почты и вредоносных программ, а также включает функции, позволяющие защитить организацию от нарушения политики обмена сообщениями.
-ms.openlocfilehash: c8450d5204635788a044538d701e23f4f77d1e0f
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: a0b736eb9773ace87f32f1272b3f4326532206d2
+ms.sourcegitcommit: eca85431f4e57878a8c160b7620adf5c44ef40e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32256166"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33306583"
 ---
 # <a name="exchange-online-protection-overview"></a>Обзор Exchange Online Protection
 
@@ -25,9 +25,11 @@ Microsoft Exchange Online Protection (EOP)  это облачная служб
   
 - **В изолированном сценарии** EOP предоставляет облачную защиту электронной почты для локальной среды Microsoft Exchange Server 2013, устаревших версий Exchange Server или для любого другого локального решения электронной почты SMTP. 
     
-- **Как часть Microsoft Exchange Online** По умолчанию EOP защищает облачные почтовые ящики Microsoft Exchange Online. 
+- **Как часть Microsoft Exchange Online** По умолчанию EOP защищает облачные почтовые ящики Microsoft Exchange Online. Сведения о том, как настроить эти возможности Exchange Online, можно найти в статье [Защита от угроз](../protect-against-threats.md) . 
     
-- **В гибридном развертывании** EOP можно настроить для защиты среды обмена сообщениями и управления маршрутизацией почты, когда имеется набор локальных и облачных почтовых ящиков. 
+- **В гибридном развертывании** EOP можно настроить для защиты среды обмена сообщениями и управления маршрутизацией почты, когда есть набор локальных и облачных почтовых ящиков. 
+
+Эти статьи Exchange Online Protection применяются к гибридным и локальным средам. 
     
 ## <a name="how-eop-works"></a>Как работает EOP
 
