@@ -12,11 +12,11 @@ ms.collection:
 localization_priority: Normal
 description: Подготовьтесь к работе с всеми новыми центрами безопасности и соответствия требованиям Microsoft 365
 ms.openlocfilehash: a64c64756f0c4588efcc6e467316b90aa1aabc3f
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.sourcegitcommit: e23b84ef4eee9cccec7205826b71ddfe9aaac2f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32265499"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33402997"
 ---
 # <a name="the-new-microsoft-365-security-center-and-microsoft-365-compliance-center-are-now-generally-available"></a>Новый центр безопасности Microsoft 365 и центр соответствия требованиям корпорации Майкрософт 365, как правило, доступны
 
@@ -66,7 +66,7 @@ ms.locfileid: "32265499"
 
 Вы можете ожидать плавного перехода на новые центры. В конечном итоге, бывший центр соответствия требованиям Microsoft 365 Security _Амп_[https://protection.microsoft.com](https://protection.microsoft.com)() будет снят. Несмотря на то, что взаимодействие с администратором изменится, это не повлияет на текущие настройки безопасности и соответствия требованиям. Если у вашей организации есть Microsoft 365 корпоративный E3 или "е", администраторы безопасности и соответствия требованиям могут:
 
-- Перейти непосредственно к [https://security.microsoft.com](https://security.microsoft.com) разделу и [https://compliance.microsoft.com](https://compliance.microsoft.com); <br>Кроме того:  
+- Перейти непосредственно к [https://security.microsoft.com](https://security.microsoft.com) разделу и [https://compliance.microsoft.com](https://compliance.microsoft.com); <br>или  
 - Перейдите в[https://admin.microsoft.com](https://admin.microsoft.com)центр администрирования Microsoft 365 () и перейдите к нему (в области навигации щелкните **Показать все**, а затем выберите **Безопасность** или **соответствие требованиям**).
 
 Кроме того, вы по-прежнему можете настраивать параметры и управлять ими в существующем центре соответствия требованиям Office 365[https://protection.office.com](http://protection.office.com)Security _амп_ (). Ваши конфигурации будут поддерживаться как в существующем центре безопасности Office 365 Security _Амп_, так и в новом центре безопасности Microsoft 365 и в центре обеспечения соответствия требованиям Microsoft 365.  
@@ -104,7 +104,7 @@ ms.locfileid: "32265499"
 |[Защита удостоверений](https://docs.microsoft.com/azure/active-directory/identity-protection)     |Да |Да |Нет |
 |[Управление привилегированными пользователями (PIM)](https://docs.microsoft.com/azure/active-directory/privileged-identity-management)     |Да |Да |Нет |
 |[Intune](https://docs.microsoft.com/intune)     |Да |Да |Да |
-|[Защита облачных приложений](https://docs.microsoft.com/cloud-app-security/)     |Да |Да |Да |
+|[Cloud App Security](https://docs.microsoft.com/cloud-app-security/)     |Да |Да |Да |
 |[Оценка безопасности](https://docs.microsoft.com/office365/securitycompliance/office-365-secure-score)     |Да |Да |Нет |
 |[Exchange](https://docs.microsoft.com/exchange/)     |Да |Да |Да |
 

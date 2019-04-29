@@ -485,7 +485,7 @@
 | 3/29/2019 | [Действия, связанные с использованием, после развертывания Office 365 Cloud App Security](/Office365/SecurityCompliance/utilization-activities-for-ocas) | Изменено |
 | 3/29/2019 | [Просмотр статистики ключевых слов для результатов поиска контента](/Office365/SecurityCompliance/view-keyword-statistics-for-content-search) | Изменено |
 | 3/29/2019 | [Заголовки сообщений о защите от нежелательной почты](/Office365/SecurityCompliance/anti-spam-message-headers) | Изменено |
-| 3/29/2019 | Office 365: безопасность и соответствие требованиям | удалены |
+| 3/29/2019 | Безопасность и соответствие требованиям в Office 365 | удалены |
 | 3/29/2019 | [Административные элементы управления доступом в Office 365](/Office365/SecurityCompliance/office-365-administrative-access-controls-overview) | Изменено |
 | 3/29/2019 | [Основные принципы защиты от атак типа "отказ в обслуживании" для Office 365](/Office365/SecurityCompliance/office-365-core-principles-of-defense-against-dos-attacks) | Изменено |
 | 3/29/2019 | [Уничтожение данных в Office 365](/Office365/SecurityCompliance/office-365-data-destruction) | Изменено |

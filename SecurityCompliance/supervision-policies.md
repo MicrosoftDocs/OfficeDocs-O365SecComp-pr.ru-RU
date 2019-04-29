@@ -18,11 +18,11 @@ search.appverid:
 ms.assetid: d14ae7c3-fcb0-4a03-967b-cbed861bb086
 description: Общие сведения о политиках контроля в Office 365
 ms.openlocfilehash: 091f5b1f31fcf59162df6ded6a6b07fb501834c7
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.sourcegitcommit: e23b84ef4eee9cccec7205826b71ddfe9aaac2f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32260327"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33403047"
 ---
 # <a name="supervision-policies-in-office-365"></a>Политики контроля в Office 365
 
@@ -111,7 +111,7 @@ ms.locfileid: "32260327"
 
 В следующей таблице приводятся более подробные сведения о каждом условии.
   
-|**Condition**|**Как использовать это условие**|
+|**Условие**|**Как использовать это условие**|
 |:-----|:-----|
 | Сообщение получено из любого из этих доменов  <br><br> Сообщение не получено ни из одного из этих доменов | Чтобы применить политику при включении или исключении определенных доменов в полученном сообщении, введите каждый домен и разделяйте несколько доменов запятыми. Каждый введенный домен применяется отдельно (для применения к сообщению политики должны применяться только один из этих доменов). |
 | Сообщение отправляется любому из этих доменов  <br><br> Сообщение не отправлено ни одному из этих доменов | Чтобы применить политику при включении или исключении определенных доменов в отправленном сообщении, введите каждый домен и разделяйте несколько доменов запятыми. Каждый введенный домен будет применяться отдельно (для применения к сообщению политики необходимо только один из этих доменов). |
@@ -249,7 +249,7 @@ ms.locfileid: "32260327"
 
 Следующие действия политики наблюдения подлежат аудиту и доступны в единых журналах аудита Office 365:
 
-|**Действие**|**Связанные команды**|
+|**Действия**|**Связанные команды**|
 |:-----|:-----|
 | Создание политики | [New — SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewpolicyv2) <br> [New — Супервисориревиевруле](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewrule) |
 | Изменение политики | [Set — SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewpolicyv2) <br> [Set — Супервисориревиевруле](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewrule) |

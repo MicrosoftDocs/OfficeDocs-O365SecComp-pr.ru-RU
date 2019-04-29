@@ -17,11 +17,11 @@ search.appverid: MET150
 ms.assetid: ba688e0a-0fcb-4bd7-8e57-2b669564ea84
 description: 'Для администраторов: сведения об использовании службы импорта в центре безопасности _Амп_ соответствие требованиям для массового импорта данных электронной почты (PST-файлов) в почтовые ящики пользователей в Exchange Online. В этом разделе приведены часто заДаваемые вопросы и сведения о том, как работает процесс импорта PST-файлов.'
 ms.openlocfilehash: afe19076f2b0cd8dd5dfe3a596d80a7b65e8a891
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.sourcegitcommit: e23b84ef4eee9cccec7205826b71ddfe9aaac2f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32254914"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33403027"
 ---
 # <a name="overview-of-importing-your-organization-pst-files-to-office-365"></a>Overview of importing your organization PST files to Office 365
 
@@ -133,7 +133,7 @@ ms.locfileid: "32254914"
   
 - Вы должны быть назначены роли получателей почты в Exchange Online. By default, this role is assigned to the Organization Management and Recipient Management roles groups.
     
-    ИЛИ
+    Или
     
 - Вам необходимо быть глобальным администратором в организации Office 365.
     
@@ -202,7 +202,7 @@ Yes, this capability is now available.
   
 - Вы должны быть назначены роли получателей почты в Exchange Online. By default, this role is assigned to the Organization Management and Recipient Management roles groups.
     
-    ИЛИ
+    Или
     
 - Вам необходимо быть глобальным администратором в организации Office 365.
     
