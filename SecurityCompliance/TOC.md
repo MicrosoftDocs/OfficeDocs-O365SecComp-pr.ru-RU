@@ -24,7 +24,7 @@
 ## [Управление привилегированным доступом](privileged-access-management-overview.md)
 ## [Настройка управления привилегированным доступом](privileged-access-management-configuration.md)
 
-# Защита информации
+# [Защита информации](protect-information.md)
 ## [Метки конфиденциальности](sensitivity-labels.md)
 ### [Ограничение доступа к контенту с помощью шифрования в метках конфиденциальности](encryption-sensitivity-labels.md)
 ### [Автоматическое применение метки конфиденциальности к содержимому](apply_sensitivity_label_automatically.md)
@@ -33,18 +33,19 @@
 ## [Защита от потери данных (DLP)](data-loss-prevention-policies.md)
 ### [DLP и Microsoft Teams](dlp-microsoft-teams.md)
 ### [Расширенный обзор защиты от потери данных](https://channel9.msdn.com/events/ignite/microsoft-ignite-orlando-2017/brk3111)
-## Настройка защиты от потери данных
-### [Начало работы с рекомендациями политик защиты от потери данных](get-started-with-dlp-policy-recommendations.md)
-### [Начало работы со стандартной политикой защиты от потери данных](get-started-with-the-default-dlp-policy.md)
-### [Создание политики защиты от потери данных на основе шаблона](create-a-dlp-policy-from-a-template.md)
-### [Создание, тестирование и настройка политики защиты от потери данных](create-test-tune-dlp-policy.md)
-### [Использование уведомлений и подсказок политики в политиках DLP](use-notifications-and-policy-tips.md)
-### [Что входит в шаблоны политик защиты от потери данных](what-the-dlp-policy-templates-include.md)
-### [Создание политики защиты от потери данных для защиты документов с помощью FCI или других свойств](protect-documents-that-have-fci-or-other-properties.md)
-### [Просмотр отчетов о защите от потери данных](view-the-dlp-reports.md)
-### [Формирование запроса для поиска конфиденциальных данных, которые хранятся на сайтах](form-a-query-to-find-sensitive-data-stored-on-sites.md)
-### [Принципы работы защиты от потери данных в Центре безопасности и соответствия требованиям и Центре администрирования Exchange](how-dlp-works-between-admin-centers.md)
-## Использование типов конфиденциальной информации
+### Настройка защиты от потери данных
+#### [Начало работы с рекомендациями политик защиты от потери данных](get-started-with-dlp-policy-recommendations.md)
+#### [Начало работы со стандартной политикой защиты от потери данных](get-started-with-the-default-dlp-policy.md)
+#### [Создание политики защиты от потери данных на основе шаблона](create-a-dlp-policy-from-a-template.md)
+#### [Создание, тестирование и настройка политики защиты от потери данных](create-test-tune-dlp-policy.md)
+#### [Использование уведомлений и подсказок политики в политиках DLP](use-notifications-and-policy-tips.md)
+#### [Что входит в шаблоны политик защиты от потери данных](what-the-dlp-policy-templates-include.md)
+#### [Создание политики защиты от потери данных для защиты документов с помощью FCI или других свойств](protect-documents-that-have-fci-or-other-properties.md)
+#### [Просмотр отчетов о защите от потери данных](view-the-dlp-reports.md)
+#### [Формирование запроса для поиска конфиденциальных данных, которые хранятся на сайтах](form-a-query-to-find-sensitive-data-stored-on-sites.md)
+#### [Принципы работы защиты от потери данных в Центре безопасности и соответствия требованиям и Центре администрирования Exchange](how-dlp-works-between-admin-centers.md)
+
+## Типы конфиденциальной информации
 ### [Что позволяют искать типы конфиденциальной информации](what-the-sensitive-information-types-look-for.md)
 ### [Сведения, для обнаружения которых используются функции защиты от потери данных](what-the-dlp-functions-look-for.md)
 ### [Расширенный обзор настройки защиты от потери данных](https://go.microsoft.com/fwlink/?linkid=852306)
@@ -54,6 +55,19 @@
 ### [Создание словаря ключевых слов](create-a-keyword-dictionary.md)
 ### [Создание отпечатка документа](document-fingerprinting.md)
 
+## [Шифрование сообщений Office 365 (OME)](ome.md)
+### [Шифрование электронной почты в Office 365](email-encryption.md)
+### [Сравнение версий OME](ome-version-comparison.md)
+### [Настройка новых возможностей шифрования сообщений Office 365](set-up-new-message-encryption-capabilities.md)
+### [Определение правил потока обработки почты для шифрования сообщений электронной почты в Office 365](define-mail-flow-rules-to-encrypt-email.md)
+### [Управление шифрованием сообщений Office 365](manage-office-365-message-encryption.md)
+### [Вопросы и ответы по шифрованию сообщений Office 365](ome-faq.md)
+### [Отзыв электронных писем, зашифрованных с помощью шифрования сообщений Office 365](revoke-ome-encrypted-mail.md)
+### [Добавление фирменной символики организации в зашифрованные сообщения](add-your-organization-brand-to-encrypted-messages.md)
+### [Сведения об устаревших продуктах для службы шифрования сообщений Office 365](legacy-information-for-message-encryption.md)
+### [Настройка Microsoft Azure AD Rights Management для предыдущей версии шифрования сообщений Office 365](set-up-azure-rms-for-previous-version-message-encryption.md)
+#### [Заявление о конфиденциальности портала просмотра защищенных сообщений Office 365](protected-message-viewer-portal-privacy-statement.md)
+
 # Управление записями
 ## [Диспетчер планов хранения](file-plan-manager.md)
 ## [Метки хранения](labels.md)
@@ -62,7 +76,6 @@
 ## [Хранение на основе событий](event-driven-retention.md)
 ### [Автоматизация хранения на основе событий](automate-event-driven-retention.md)
 ## [Проверки перед ликвидацией](disposition-reviews.md)
-## [Политики хранения](retention-policies.md)
 ## Мониторинг управления записями
 ### [Просмотр отчетов об управлении данными](view-the-data-governance-reports.md)
 ### [Просмотр действий с метками для документов](view-label-activity-for-documents.md)
@@ -181,36 +194,6 @@
 ### [Защита от спуфинга в Office 365](anti-spoofing-protection.md)
 #### [Дополнительные сведения об аналитике спуфинга](learn-about-spoof-intelligence.md)
 #### [Определение подозрительных сообщений в Outlook.com и Outlook в Интернете](unverified-sender-feature.md)
-
-## [Шифрование в Office 365](encryption.md)
-### [Настройка шифрования в Office 365 корпоративный](set-up-encryption.md)
-### [Шифрование электронной почты в Office 365](email-encryption.md)
-### [Шифрование сообщений Office 365 (OME)](ome.md)
-#### [Сравнение версий OME](ome-version-comparison.md)
-#### [Настройка новых возможностей шифрования сообщений Office 365](set-up-new-message-encryption-capabilities.md)
-#### [Определение правил потока обработки почты для шифрования сообщений электронной почты в Office 365](define-mail-flow-rules-to-encrypt-email.md)
-#### [Управление шифрованием сообщений Office 365](manage-office-365-message-encryption.md)
-#### [Вопросы и ответы по шифрованию сообщений Office 365](ome-faq.md)
-#### [Отзыв электронных писем, зашифрованных с помощью шифрования сообщений Office 365](revoke-ome-encrypted-mail.md)
-#### [Добавление фирменной символики организации в зашифрованные сообщения](add-your-organization-brand-to-encrypted-messages.md)
-#### [Сведения об устаревших продуктах для службы шифрования сообщений Office 365](legacy-information-for-message-encryption.md)
-#### [Настройка Microsoft Azure AD Rights Management для предыдущей версии шифрования сообщений Office 365](set-up-azure-rms-for-previous-version-message-encryption.md)
-#### [Заявление о конфиденциальности портала просмотра защищенных сообщений Office 365](protected-message-viewer-portal-privacy-statement.md)
-### [Управление правами на доступ к данным](information-rights-management-in-exchange-online.md)
-#### [Управление правами на доступ к данным в Exchange Online](information-rights-management-in-exchange-online.md)
-#### [Настройка управления правами на доступ к данным для использования локального сервера службы управления правами Active Directory](configure-irm-to-use-an-on-premises-ad-rms-server.md)
-### [S/MIME](s-mime-for-message-signing-and-encryption.md)
-#### [S/MIME для подписи и шифрования сообщений](s-mime-for-message-signing-and-encryption.md)
-#### [Настройка параметров S/MIME для Outlook в Интернете](configure-s-mime-settings-for-outlook-web-app.md)
-#### [Отправка и получение электронной почты, подписанной и зашифрованной с помощью S/MIME](send-and-receive-s-mime-signed-and-encrypted-email.md)
-#### [Синхронизация сертификатов пользователей с Office 365 для S/MIME](sync-user-certificates-to-office-365-for-s-mime.md)
-#### [Настройка коллекции виртуальных сертификатов для проверки S/MIME](set-up-virtual-certificate-collection-to-validate-s-mime.md)
-### [Как Exchange Online защищает секреты вашей электронной почты](exchange-online-secures-email-secrets.md)
-### [Контроль данных в Office 365 с помощью ключа клиента](controlling-your-data-using-customer-key.md)
-### [Вопросы и ответы о службе шифрования с помощью ключа клиента для Office 365](service-encryption-with-customer-key-faq.md)
-### [Технические сведения о шифровании в Office 365](technical-reference-details-about-encryption.md)
-### [Использование протокола TLS службой Exchange Online для защиты электронной почты в Office 365](exchange-online-uses-tls-to-secure-email-connections.md)
-
 
 ## [Отслеживание и управление доступом к данным с помощью Office 365 Cloud App Security](office-365-cas-overview.md)
 ### [Новые возможности Cloud App Security](new-in-office-365-cas.md)
@@ -491,7 +474,14 @@
 
 # Решения для соответствия требованиям
 ## [Microsoft Service Trust Portal](get-started-with-service-trust-portal.md)
-## [Диспетчер соответствия требованиям](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
+## [Диспетчер соответствия требованиям (классический)](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
+## [Диспетчер соответствия требованиям (предварительная версия)](compliance-manager-overview.md)
+### [Что изменилось в диспетчере соответствия требованиям (предварительная версия)](compliance-manager-release-notes.md)
+### [Работа с диспетчером соответствия требованиям (предварительная версия)](working-with-compliance-manager.md)
+### [Принцип вычисления рейтинга (предварительная версия)](compliance-score-methodology.md)
+## Ключ клиента
+### [Контроль данных в Office 365 с помощью ключа клиента](controlling-your-data-using-customer-key.md)
+### [Вопросы и ответы о службе шифрования с помощью ключа клиента для Office 365](service-encryption-with-customer-key-faq.md)
 ## [Средство запросов субъектов данных GDPR](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)
 ## [Защита информации в Office 365 в соответствии с GDPR](office-365-information-protection-for-gdpr.md)
 ### [Обзор защиты в Office 365 в соответствии с GDPR](office-365-info-protection-for-gdpr-overview.md)
@@ -551,6 +541,9 @@
 ### [Возможности шифрования под управлением клиента](office-365-customer-managed-encryption-features.md)
 ### [Риски шифрования и средства защиты](office-365-encryption-risks-and-protections.md)
 ### [Шифрование для Skype для бизнеса, OneDrive для бизнеса, SharePoint Online и Exchange Online](office-365-encryption-for-skype-onedrive-sharepoint-and-exchange.md)
+### [Как Exchange Online защищает секреты вашей электронной почты](exchange-online-secures-email-secrets.md)
+### [Использование протокола TLS службой Exchange Online для защиты электронной почты в Office 365](exchange-online-uses-tls-to-secure-email-connections.md)
+### [Техническая справка по шифрованию в Office 365](technical-reference-details-about-encryption.md)
 ### [BitLocker и распределенный диспетчер ключей (DKM) для шифрования](office-365-bitlocker-and-distributed-key-manager-for-encryption.md)
 ### [Шифрование в Microsoft Dynamics 365](office-365-encryption-in-microsoft-dynamics-365.md)
 ### [Шифрование в Azure](office-365-azure-encryption.md)
@@ -564,6 +557,9 @@
 ### [Изоляция клиента в Office Graph и Delve](office-365-isolation-in-graph-and-delve.md)
 
 # Гибридные возможности защиты
+## [Шифрование почты Exchange Online с помощью AD RMS](information-rights-management-in-exchange-online.md)
+### [Настройка управления правами на доступ к данным для использования локального сервера AD RMS](configure-irm-to-use-an-on-premises-ad-rms-server.md)
+
 ## [Exchange Online Protection](eop/exchange-online-protection-overview.md)
 ### [Функции EOP](eop/eop-features.md)
 ### [Разрешения на функции в службе EOP](eop/feature-permissions-in-eop.md)
@@ -606,6 +602,15 @@
 #### [Специальные возможности для людей с ограниченными возможностями](eop/accessibility-for-people-with-disabilities.md)
 #### [Отправка почты в Office 365](sending-mail-to-office-365.md)
 #### [Службы для лиц, не являющихся клиентами](services-for-non-customers.md)
+
+# Устаревшие возможности безопасности и соответствия требованиям
+## [S/MIME](s-mime-for-message-signing-and-encryption.md)
+### [S/MIME для подписи и шифрования сообщений](s-mime-for-message-signing-and-encryption.md)
+### [Настройка параметров S/MIME для Outlook в Интернете](configure-s-mime-settings-for-outlook-web-app.md)
+### [Отправка и получение электронной почты, подписанной и зашифрованной с помощью S/MIME](send-and-receive-s-mime-signed-and-encrypted-email.md)
+### [Синхронизация сертификатов пользователей с Office 365 для S/MIME](sync-user-certificates-to-office-365-for-s-mime.md)
+### [Настройка коллекции виртуальных сертификатов для проверки S/MIME](set-up-virtual-certificate-collection-to-validate-s-mime.md)
+
 # [Office 365 корпоративный](https://docs.microsoft.com/Office365/Enterprise)
 # [Office 365 для бизнеса](https://docs.microsoft.com/office365/admin/admin-home)
 # [Microsoft 365](https://docs.microsoft.com/microsoft-365/)
