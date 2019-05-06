@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: Сводка. Сведения о создании пробных подписок на Office 365 и Enterprise Mobility + Security (EMS) с пользователями и группами в случае среды разработки и тестирования для политической кампании.
-ms.openlocfilehash: 0b2bf64a408eeee457dfc6c2ac8565e91c927f72
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: bd491bf34f8625b9ed03ce32c8edcc2f446e2464
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000142"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32259616"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>Настройка групп и пользователей в случае среды разработки и тестирования для политической кампании
 
@@ -130,7 +130,7 @@ ms.locfileid: "31000142"
 
 На этом этапе добавляются демонстрационные учетные записи пользователей для политической кампании.
   
-Вначале [подключитесь с использованием модуля Azure Active Directory 2 для PowerShell](https://go.microsoft.com/fwlink/?linkid=842218).
+Прежде всего [подключитесь к модулю PowerShell Azure Active Directory для Graph](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
   
 Затем введите название организации, адрес и общий пароль и выполните эти команды в командной строке PowerShell или интегрированной среде сценариев (ISE):
   

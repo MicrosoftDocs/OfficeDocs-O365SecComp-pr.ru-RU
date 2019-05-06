@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Узнайте, как использовать метки Office для защиты данных в соответствии с регламентом GDPR.
-ms.openlocfilehash: 32f94e02dac81abaef46ef5495701e5037ff8c6b
-ms.sourcegitcommit: 54d58da1777eb83adb82826d1bb1adb94903c8e1
+ms.openlocfilehash: a5ffcca94ea98a3d6426dc60fae0f6cb98d0029d
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955202"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32244177"
 ---
 # <a name="apply-labels-to-personal-data-in-office-365"></a>Применение меток к персональным данным в Office 365
 
@@ -34,7 +34,7 @@ ms.locfileid: "30955202"
 
 Cloud App Security сейчас не поддерживает метки хранения, но вы можете использовать типы конфиденциальной информации Office 365 с Cloud App Security для отслеживания персональных данных, которые хранятся в других приложениях SaaS.
 
-В настоящее время [метки конфиденциальности](sensitivity-labels.md) рекомендуется использовать для применения меток к файлам в локальной среде, других облачных службах и поставщиках, а также шифрования файлов Office 365 с помощью Azure Information Protection (AIP), например файлов с коммерческими тайнами.
+В настоящее время [метки конфиденциальности](sensitivity-labels.md) рекомендуется использовать для применения меток к файлам в локальной среде, других облачных службах и поставщиках, Их также рекомендуется использовать для файлов в Office 365, требующих защиты данных с помощью шифрования Azure Information Protection. Например, такие файлы могут содержать коммерческую тайну.
 
 Сейчас Azure Information Protection не рекомендуется использовать для шифрования файлов Office 365 с данными, на которые распространяется регламент GDPR. Службы Office 365 в настоящее время не могут считывать файлы, зашифрованные с использованием AIP, поэтому не могут находить конфиденциальные данные в этих файлах.
 

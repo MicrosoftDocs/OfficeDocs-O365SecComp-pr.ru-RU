@@ -260,22 +260,8 @@
 ### [Клонирование поиска контента](clone-a-content-search.md)
 
 # [Управление расследованиями](manage-legal-investigations.md)
-## [Создание дел обнаружения электронных данных и управление ими](ediscovery-cases.md)
-## [Назначение разрешений на обнаружение электронных данных](assign-ediscovery-permissions.md)
-## [Настройка границ соответствия для расследований дел обнаружения электронных данных в Office 365](set-up-compliance-boundaries.md)
-## [Серия решений для обнаружения электронных данных. Поиск и очистка в сценарии утечки данных](data-spillage-scenariosearch-and-purge.md)
-## [Подготовка результатов поиска для Advanced eDiscovery](prepare-search-results-for-advanced-ediscovery.md)
-## [Использование сценария для добавления пользователей в состояние удержания в деле обнаружения электронных данных](use-a-script-to-add-users-to-a-hold-in-ediscovery.md)
-## [Создание отчета об удержаниях в делах обнаружения электронных данных](create-a-report-on-holds-in-ediscovery-cases.md)
-## Управление случаями удержания
-### [Создание запроса на удержание в случае обнаружения электронных данных](ediscovery-cases.md#step-4-place-content-locations-on-hold)
-### [Создание запроса на хранение для судебного разбирательства](create-a-litigation-hold.md)
-### [Удаление элементов в папке "Элементы с возможностью восстановления" облачных почтовых ящиков на удержании](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md)
-### [Увеличение квоты для папки "Элементы с возможностью восстановления" для почтовых ящиков на удержании](increase-the-recoverable-quota-for-mailboxes-on-hold.md)
-### [Как определить тип удержания, примененного для почтового ящика Exchange Online](identify-a-hold-on-an-exchange-online-mailbox.md)
-### [Сохранение скрытых копий и получателей расширенной группы рассылки](preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md)
 
-## [Advanced eDiscovery (предварительная версия) в Microsoft 365](compliance20/overview-ediscovery-20.md)
+## [Решение Advanced eDiscovery в Microsoft 365](compliance20/overview-ediscovery-20.md)
 ### [Заметки о выпуске](compliance20/release-notes-ediscovery20.md)
 ### [Создание нового дела](compliance20/create-new-ediscovery-case.md)
 
@@ -300,26 +286,26 @@
 #### [Создание поискового запроса для сбора данных](compliance20/create-search-to-collect-data.md)
 #### [Создание поисковых запросов](compliance20/building-search-queries.md)
 #### [Статистика поиска](compliance20/search-statistics.md)
-#### [Добавление результатов поиска в рабочий набор](compliance20/add-data-to-working-set.md)
+#### [Добавление результатов поиска в набор для проверки](compliance20/add-data-to-review-set.md)
 
-### [Управление рабочими наборами](compliance20/managing-working-sets.md)
-#### [Загрузка не относящихся к Office 365 данных в рабочий набор](compliance20/load-non-office365-data.md)
-#### [Добавление данных в другой рабочий набор](compliance20/add-data-to-working-set-from-another-working-set.md)
+### [Управление наборами для проверки](compliance20/managing-review-sets.md)
+#### [Загрузка не относящихся к Office 365 данных в набор для проверки](compliance20/load-non-office365-data.md)
+#### [Добавление данных в другой набор для проверки](compliance20/add-data-to-review-set-from-another-review-set.md)
 #### [Управление наборами загрузки](compliance20/manage-load-sets.md)
 
-### [Просмотр данных дела](compliance20/reviewing-data-in-working-set.md)
-#### [Просмотр документов в рабочем наборе](compliance20/view-documents-in-working-set.md)
-#### [Запрос данных в рабочем наборе](compliance20/working-set-search.md)
-#### [Добавление тегов к документам в рабочем наборе](compliance20/tagging-documents.md)
+### [Просмотр данных дела](compliance20/reviewing-data-in-review-set.md)
+#### [Просмотр документов в наборе для проверки](compliance20/view-documents-in-review-set.md)
+#### [Запрос данных в наборе для проверки](compliance20/review-set-search.md)
+#### [Добавление тегов к документам в наборе для проверки](compliance20/tagging-documents.md)
 
-### [Анализ данных дела](compliance20/analyzing-data-in-working-set.md)
+### [Анализ данных дела](compliance20/analyzing-data-in-review-set.md)
 #### [Обнаружение схожих документов (почти дубликатов)](compliance20/near-duplicates.md)
 #### [Потоки почты](compliance20/email-threading.md)
 #### [Темы](compliance20/themes.md)
 #### [Использование модуля релевантности для анализа данных](compliance20/using-relevance.md)
 
 ### [Экспорт данных дела](compliance20/exporting-data-ediscover20.md)
-#### [Экспорт документов из рабочего набора](compliance20/export-documents-from-working-set.md)
+#### [Экспорт документов из набора для проверки](compliance20/export-documents-from-review-set.md)
 #### [Скачивание заданий экспорта](compliance20/download-export-jobs.md)
 
 ### [Управление заданиями](compliance20/managing-jobs-ediscovery20.md)
@@ -329,58 +315,76 @@
 #### [Добавление и удаление участников дела](compliance20/add-remove-members.md)
 #### [Настройка параметров поиска и аналитики](compliance20/configure-search-analytics-settings.md)
 
-### Справочник по Advanced eDiscovery (предварительная версия)
-#### [Ограничения в Advanced eDiscovery (предварительная версия)](compliance20/limits-ediscovery20.md)
+### Справочник по Advanced eDiscovery
+#### [Ограничения в Advanced eDiscovery](compliance20/limits-ediscovery20.md)
 #### [Поддерживаемые типы файлов](compliance20/supported-filetypes-ediscovery20.md)
 #### [Поля метаданных документа](compliance20/document-metadata-fields.md)
 #### [Устранение неполадок AzCopy](compliance20/troubleshooting-azcopy.md)
 
-## [Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
-### [Начало работы в Advanced eDiscovery](quick-setup-for-advanced-ediscovery.md)
 
-### [Настройка дел](set-up-users-and-cases-in-advanced-ediscovery.md)
-#### [Определение проблем для дела](define-issues-and-assign-users.md)
+## [Управление делами по обнаружению электронных данных](ediscovery-cases.md)
+### [Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+#### [Начало работы в Advanced eDiscovery](quick-setup-for-advanced-ediscovery.md)
 
-### Сбор данных дела
-#### [Подготовка данных для Advanced eDiscovery](prepare-data-for-advanced-ediscovery.md)
-#### [Импорт не связанного с Office 365 содержимого для дела](import-non-office-365-data-into-advanced-ediscovery.md)
+#### [Настройка дел](set-up-users-and-cases-in-advanced-ediscovery.md)
+##### [Определение проблем для дела](define-issues-and-assign-users.md)
 
-### [Обработка данных дела](run-the-process-module-in-advanced-ediscovery.md)
-#### [Запуск модуля обработки и загрузка данных](run-the-process-module-and-load-data-in-advanced-ediscovery.md)
-#### [Просмотр результатов модуля обработки](view-process-module-results-in-advanced-ediscovery.md)
+#### Сбор данных дела
+##### [Подготовка результатов поиска для Advanced eDiscovery](prepare-search-results-for-advanced-ediscovery.md)
+##### [Загрузка данных в Advanced eDiscovery](prepare-data-for-advanced-ediscovery.md)
+##### [Импорт не связанного с Office 365 содержимого для дела](import-non-office-365-data-into-advanced-ediscovery.md)
 
-### Просмотр данных дела
-#### [Поиск и пометка тегом данных дела](search-and-tagging.md)
-#### [Принятие решений о наборе для проверки](decision-based-on-the-results-in-advanced-ediscovery.md)
+#### [Обработка данных дела](run-the-process-module-in-advanced-ediscovery.md)
+##### [Запуск модуля обработки и загрузка данных](run-the-process-module-and-load-data-in-advanced-ediscovery.md)
+##### [Просмотр результатов модуля обработки](view-process-module-results-in-advanced-ediscovery.md)
 
-### [Анализ данных дела](analyze-case-data-with-advanced-ediscovery.md)
-#### [Запуск экспресс-анализа](use-express-analysis-in-advanced-ediscovery.md)
-#### [Общие сведения о схожести документов (почти дубликатов)](understand-document-similarity-in-advanced-ediscovery.md)
-#### [Просмотр результатов анализа](view-analyze-results-in-advanced-ediscovery.md)
+#### Просмотр данных дела
+##### [Поиск и пометка тегом данных дела](search-and-tagging.md)
+##### [Принятие решений о наборе для проверки](decision-based-on-the-results-in-advanced-ediscovery.md)
 
-### [Использование модуля релевантности](use-relevance-in-advanced-ediscovery.md)
-#### [Общие сведения об оценки релевантности](assessment-in-relevance-in-advanced-ediscovery.md)
-#### [Выполнение оценки релевантности и добавление тегов](tagging-and-assessment-in-advanced-ediscovery.md)
-#### [Настройка обучения релевантности](manage-relevance-setup-in-advanced-ediscovery.md)
-#### [Проведение обучения релевантности и добавление тегов](tagging-and-relevance-training-in-advanced-ediscovery.md)
-#### [Отслеживание процесса обучения релевантности](track-relevance-analysis-in-advanced-ediscovery.md)
-#### [Проверка результатов анализа релевантности](test-relevance-analysis-in-advanced-ediscovery.md)
-#### [Загрузка дополнительных данных для обучения релевантности](set-up-loads-to-add-imported-files.md)
+#### [Анализ данных дела](analyze-case-data-with-advanced-ediscovery.md)
+##### [Запуск экспресс-анализа](use-express-analysis-in-advanced-ediscovery.md)
+##### [Общие сведения о схожести документов (почти дубликатов)](understand-document-similarity-in-advanced-ediscovery.md)
+##### [Просмотр результатов анализа](view-analyze-results-in-advanced-ediscovery.md)
 
-### [Экспорт данных дела](export-case-data-in-advanced-ediscovery.md)
-#### [Экспорт данных](export-results-in-advanced-ediscovery.md)
-#### [Экспорт полей отчетов](export-report-fields-in-advanced-ediscovery.md)
-#### [Просмотр журнала пакетов и экспорт старых результатов](view-batch-history-and-export-past-results.md)
+#### [Использование модуля релевантности](use-relevance-in-advanced-ediscovery.md)
+##### [Общие сведения об оценки релевантности](assessment-in-relevance-in-advanced-ediscovery.md)
+##### [Выполнение оценки релевантности и добавление тегов](tagging-and-assessment-in-advanced-ediscovery.md)
+##### [Настройка обучения релевантности](manage-relevance-setup-in-advanced-ediscovery.md)
+##### [Проведение обучения релевантности и добавление тегов](tagging-and-relevance-training-in-advanced-ediscovery.md)
+##### [Отслеживание процесса обучения релевантности](track-relevance-analysis-in-advanced-ediscovery.md)
+##### [Проверка результатов анализа релевантности](test-relevance-analysis-in-advanced-ediscovery.md)
+##### [Загрузка дополнительных данных для обучения релевантности](set-up-loads-to-add-imported-files.md)
 
-### Настройка Advanced eDiscovery
-#### [Настройка параметров дела и организации](define-case-and-tenant-settings-in-advanced-ediscovery.md)
-#### [Настройка параметров анализа](set-analyze-options-in-advanced-ediscovery.md)
-#### [Настройка параметров пропуска текста](set-ignore-text-in-advanced-ediscovery.md)
-#### [Настройка выделенных ключевых слов и других параметров релевантности](define-highlighted-keywords-and-advanced-options.md)
+#### [Экспорт данных дела](export-case-data-in-advanced-ediscovery.md)
+##### [Экспорт данных](export-results-in-advanced-ediscovery.md)
+##### [Экспорт полей отчетов](export-report-fields-in-advanced-ediscovery.md)
+##### [Просмотр журнала пакетов и экспорт старых результатов](view-batch-history-and-export-past-results.md)
 
-### Справочник по Advanced eDiscovery
-#### [Использование служебных программ Advanced eDiscovery](use-advanced-ediscovery-utilities.md)
-#### [Запуск отчетов](run-reports-in-advanced-ediscovery.md)
+#### Настройка Advanced eDiscovery
+##### [Настройка параметров дела и организации](define-case-and-tenant-settings-in-advanced-ediscovery.md)
+##### [Настройка параметров анализа](set-analyze-options-in-advanced-ediscovery.md)
+##### [Настройка параметров пропуска текста](set-ignore-text-in-advanced-ediscovery.md)
+##### [Настройка выделенных ключевых слов и других параметров релевантности](define-highlighted-keywords-and-advanced-options.md)
+
+#### Справочник по Advanced eDiscovery
+##### [Использование служебных программ Advanced eDiscovery](use-advanced-ediscovery-utilities.md)
+##### [Запуск отчетов](run-reports-in-advanced-ediscovery.md)
+
+### [Использование сценария для добавления пользователей в состояние удержания в деле обнаружения электронных данных](use-a-script-to-add-users-to-a-hold-in-ediscovery.md)
+### [Создание отчета об удержаниях в делах обнаружения электронных данных](create-a-report-on-holds-in-ediscovery-cases.md)
+
+## [Назначение разрешений на обнаружение электронных данных](assign-ediscovery-permissions.md)
+## [Настройка границ соответствия для расследований дел обнаружения электронных данных в Office 365](set-up-compliance-boundaries.md)
+## [Серия решений для обнаружения электронных данных. Поиск и очистка в сценарии утечки данных](data-spillage-scenariosearch-and-purge.md)
+
+## Управление случаями удержания
+### [Создание запроса на удержание в случае обнаружения электронных данных](ediscovery-cases.md#step-4-place-content-locations-on-hold)
+### [Создание запроса на хранение для судебного разбирательства](create-a-litigation-hold.md)
+### [Удаление элементов в папке "Элементы с возможностью восстановления" облачных почтовых ящиков на удержании](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md)
+### [Увеличение квоты для папки "Элементы с возможностью восстановления" для почтовых ящиков на удержании](increase-the-recoverable-quota-for-mailboxes-on-hold.md)
+### [Как определить тип удержания, примененного для почтового ящика Exchange Online](identify-a-hold-on-an-exchange-online-mailbox.md)
+### [Сохранение скрытых копий и получателей расширенной группы рассылки](preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md)
 
 # [Управление исследованиями данных](datainvestigations/overview-data-investigations.md)
 ## [Заметки о выпуске](datainvestigations/data-investigations-release-notes.md)
