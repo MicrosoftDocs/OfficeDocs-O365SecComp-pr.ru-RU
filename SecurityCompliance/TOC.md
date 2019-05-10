@@ -5,7 +5,6 @@
 ### [Центр соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md)
 ### [Центр безопасности Microsoft 365](overview-security-center.md)
 ### [Оценка безопасности (Майкрософт)](microsoft-secure-score.md)
-### [Оценка безопасности Office 365](office-365-secure-score.md)
 ## [Переход в Центр безопасности и соответствия требованиям](go-to-the-securitycompliance-center.md)
 ### [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md)
 ### [Предоставление пользователям доступа к Центру безопасности и соответствия требованиям](grant-access-to-the-security-and-compliance-center.md)
@@ -71,68 +70,13 @@
 #### [Сведения об устаревших продуктах для службы шифрования сообщений Office 365](legacy-information-for-message-encryption.md)
 #### [Настройка Microsoft Azure AD Rights Management для предыдущей версии шифрования сообщений Office 365](set-up-azure-rms-for-previous-version-message-encryption.md)
 
-# Управление записями
-## [Диспетчер планов хранения](file-plan-manager.md)
-## [Метки хранения](labels.md)
-### [Соблюдение правила 17a-4 SEC](use-exchange-online-to-comply-with-sec-rule-17a-4.md)
-### [Создание и публикация меток хранения с помощью PowerShell](https://docs.microsoft.com/ru-RU/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
-## [Хранение на основе событий](event-driven-retention.md)
-### [Автоматизация хранения на основе событий](automate-event-driven-retention.md)
-## [Проверки перед ликвидацией](disposition-reviews.md)
-## Мониторинг управления записями
-### [Просмотр отчетов об управлении данными](view-the-data-governance-reports.md)
-### [Просмотр действий с метками для документов](view-label-activity-for-documents.md)
-### [Просмотр использования меток с помощью Аналитики меток](label-analytics.md)
-## Дополнительные сведения об управлении записями
-### [Просмотр видеороликов от группы управления данными Майкрософт](https://go.microsoft.com/fwlink/?linkid=867039)
-
-# Управление данными
-## [Импорт данных](importing-pst-files-to-office-365.md)
-### [Импорт PST-файлов с помощью отправки по сети](use-network-upload-to-import-pst-files.md)
-### [Импорт PST-файлов с помощью отправки дисков](use-drive-shipping-to-import-pst-files-to-office-365.md)
-### [Поиск, копирование и удаление PST-файлов с помощью средства сбора PST-файлов](find-copy-and-delete-pst-files-in-your-organization.md)
-### [Фильтрация данных при импорте PST-файлов](filter-data-when-importing-pst-files.md)
-### [Импорт зашифрованных с использованием RMS PST-файлов с помощью отправки по сети](use-network-upload-to-import-rms-encrypted-pst-files.md)
-### [Вопросы и ответы об импорте PST-файлов](faqimporting-pst-files-to-office-365.md)
-### [Архивация сторонних данных в Office 365](archiving-third-party-data.md)
-#### [Использование примеров соединителей для архивации сторонних данных](archive-third-party-data-with-sample-connector.md)
-#### [Архивация сторонних данных при помощи партнера](work-with-partner-to-archive-third-party-data.md)
-## Сохранение данных
-### [Включение архивных почтовых ящиков](enable-archive-mailboxes.md)
-### [Общие сведения о неограниченной архивации](unlimited-archiving.md)
-### [Включение неограниченной архивации](enable-unlimited-archiving.md)
-### [Настройка политики архивации и удаления для почтовых ящиков](set-up-an-archive-and-deletion-policy-for-mailboxes.md)
-## Хранение данных
-### [Политики хранения](retention-policies.md)
-### [Диспетчер планов хранения](file-plan-manager.md)
-### [Метки хранения](labels.md)
-### [Соблюдение правила 17a-4 SEC](use-exchange-online-to-comply-with-sec-rule-17a-4.md)
-### [Создание и публикация меток хранения с помощью PowerShell](https://docs.microsoft.com/ru-RU/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
-### [Хранение на основе событий](event-driven-retention.md)
-### [Автоматизация хранения на основе событий](automate-event-driven-retention.md)
-## [Удаление данных](disposition-reviews.md)
-## [Контроль взаимодействия](supervision-policies.md)
-### [Настройка политик контроля для организации](configure-supervision-policies.md)
-## [Управление неактивными почтовыми ящиками](inactive-mailboxes-in-office-365.md)
-### [Создание неактивных почтовых ящиков и управление ими](create-and-manage-inactive-mailboxes.md)
-### [Изменение срока хранения неактивного почтового ящика](change-the-hold-duration-for-an-inactive-mailbox.md)
-### [Возврат неактивного почтового ящика](recover-an-inactive-mailbox.md)
-### [Восстановление неактивного почтового ящика](restore-an-inactive-mailbox.md)
-### [Удаление неактивного почтового ящика](delete-an-inactive-mailbox.md)
-## Контроль управления данными
-### [Просмотр действий с метками для документов](view-label-activity-for-documents.md)
-### [Просмотр использования меток с помощью Аналитики меток](label-analytics.md)
-### [Просмотр отчетов об управлении данными](view-the-data-governance-reports.md)
-## Дополнительные сведения об управлении данными
-### [Просмотр видеороликов от группы управления данными Майкрософт](https://go.microsoft.com/fwlink/?linkid=867039)
-
 # [Защита от угроз](protect-against-threats.md)
 
 ## [Выслеживание в Microsoft 365](hunting.md)
 
 ## [Использование аналитики угроз для знакомства с последними атаками](latest-attack-campaigns.md)
 
-## [Расширенная защита от угроз](office-365-atp.md)
+## [Расширенная защита от угроз в Office 365](office-365-atp.md)
 ### [Безопасные ссылки ATP](atp-safe-links.md)
 #### [Настройка политик безопасных ссылок ATP](set-up-atp-safe-links-policies.md)
 #### [Создание настраиваемого списка URL-адресов, не подлежащих переопределению](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)
@@ -226,6 +170,66 @@
 ### [Вопросы и ответы о карантине для Office 365](quarantine-faq.md)
 ### [Использование уведомлений пользователей о спаме для освобождения сообщений из карантина и создания отчетов о них в Office 365](use-spam-notifications-to-release-and-report-quarantined-messages.md)
 
+# Управление инцидентами, связанными с безопасностью
+## [Реагирование на инциденты, связанные с безопасностью, в Office 365](office365-security-incident-response-overview.md)
+## [Обнаружение случаев незаконного предоставления разрешений и устранение их последствий в Office 365](detect-and-remediate-illicit-consent-grants.md)
+## [Обнаружение атак с внедрением правил и пользовательских форм Outlook и устранение их последствий в Office 365](detect-and-remediate-outlook-rules-forms-attack.md)
+## [Реагирование на компрометацию учетной записи электронной почты в Office 365](responding-to-a-compromised-email-account.md)
+
+# Управление записями
+## [Диспетчер планов хранения](file-plan-manager.md)
+## [Метки хранения](labels.md)
+### [Соблюдение правила 17a-4 SEC](use-exchange-online-to-comply-with-sec-rule-17a-4.md)
+### [Создание и публикация меток хранения с помощью PowerShell](https://docs.microsoft.com/ru-RU/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
+## [Хранение на основе событий](event-driven-retention.md)
+### [Автоматизация хранения на основе событий](automate-event-driven-retention.md)
+## [Проверки перед ликвидацией](disposition-reviews.md)
+## Мониторинг управления записями
+### [Просмотр отчетов об управлении данными](view-the-data-governance-reports.md)
+### [Просмотр действий с метками для документов](view-label-activity-for-documents.md)
+### [Просмотр использования меток с помощью Аналитики меток](label-analytics.md)
+## Дополнительные сведения об управлении записями
+### [Просмотр видеороликов от группы управления данными Майкрософт](https://go.microsoft.com/fwlink/?linkid=867039)
+
+# Управление данными
+## [Импорт данных](importing-pst-files-to-office-365.md)
+### [Импорт PST-файлов с помощью отправки по сети](use-network-upload-to-import-pst-files.md)
+### [Импорт PST-файлов с помощью отправки дисков](use-drive-shipping-to-import-pst-files-to-office-365.md)
+### [Поиск, копирование и удаление PST-файлов с помощью средства сбора PST-файлов](find-copy-and-delete-pst-files-in-your-organization.md)
+### [Фильтрация данных при импорте PST-файлов](filter-data-when-importing-pst-files.md)
+### [Импорт зашифрованных с использованием RMS PST-файлов с помощью отправки по сети](use-network-upload-to-import-rms-encrypted-pst-files.md)
+### [Вопросы и ответы об импорте PST-файлов](faqimporting-pst-files-to-office-365.md)
+### [Архивация сторонних данных в Office 365](archiving-third-party-data.md)
+#### [Использование примеров соединителей для архивации сторонних данных](archive-third-party-data-with-sample-connector.md)
+#### [Архивация сторонних данных при помощи партнера](work-with-partner-to-archive-third-party-data.md)
+## Сохранение данных
+### [Включение архивных почтовых ящиков](enable-archive-mailboxes.md)
+### [Общие сведения о неограниченной архивации](unlimited-archiving.md)
+### [Включение неограниченной архивации](enable-unlimited-archiving.md)
+### [Настройка политики архивации и удаления для почтовых ящиков](set-up-an-archive-and-deletion-policy-for-mailboxes.md)
+## Хранение данных
+### [Политики хранения](retention-policies.md)
+### [Диспетчер планов хранения](file-plan-manager.md)
+### [Метки хранения](labels.md)
+### [Соблюдение правила 17a-4 SEC](use-exchange-online-to-comply-with-sec-rule-17a-4.md)
+### [Создание и публикация меток хранения с помощью PowerShell](https://docs.microsoft.com/ru-RU/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
+### [Хранение на основе событий](event-driven-retention.md)
+### [Автоматизация хранения на основе событий](automate-event-driven-retention.md)
+## [Удаление данных](disposition-reviews.md)
+## [Контроль взаимодействия](supervision-policies.md)
+### [Настройка политик контроля для организации](configure-supervision-policies.md)
+## [Управление неактивными почтовыми ящиками](inactive-mailboxes-in-office-365.md)
+### [Создание неактивных почтовых ящиков и управление ими](create-and-manage-inactive-mailboxes.md)
+### [Изменение срока хранения неактивного почтового ящика](change-the-hold-duration-for-an-inactive-mailbox.md)
+### [Возврат неактивного почтового ящика](recover-an-inactive-mailbox.md)
+### [Восстановление неактивного почтового ящика](restore-an-inactive-mailbox.md)
+### [Удаление неактивного почтового ящика](delete-an-inactive-mailbox.md)
+## Контроль управления данными
+### [Просмотр действий с метками для документов](view-label-activity-for-documents.md)
+### [Просмотр использования меток с помощью Аналитики меток](label-analytics.md)
+### [Просмотр отчетов об управлении данными](view-the-data-governance-reports.md)
+## Дополнительные сведения об управлении данными
+### [Просмотр видеороликов от группы управления данными Майкрософт](https://go.microsoft.com/fwlink/?linkid=867039)
 
 # [Поиск контента](search-for-content.md)
 ## [Использование поиска контента](content-search.md)
@@ -479,7 +483,7 @@
 ### [Среда разработки и тестирования изолированного сайта группы SharePoint Online](isolated-sharepoint-online-team-site-dev-test-environment.md)
 ## [Интеграция сервера SIEM](siem-server-integration.md)
 
-# Решения для соответствия требованиям
+# Решения для соблюдения регулятивных норм
 ## [Microsoft Service Trust Portal](get-started-with-service-trust-portal.md)
 ## [Диспетчер соответствия требованиям (классический)](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
 ## [Диспетчер соответствия требованиям (предварительная версия)](compliance-manager-overview.md)
@@ -506,12 +510,6 @@
 ### [GDPR для Project Server](gdpr-for-project-server.md)
 ### [GDPR для сервера Office Web Apps и Office Online Server](gdpr-for-office-online-server.md)
 ### [GDPR для локальных общих папок Windows Server](gdpr-for-on-premises-file-shares.md)
-
-# Управление инцидентами, связанными с безопасностью
-## [Реагирование на инциденты, связанные с безопасностью, в Office 365](office365-security-incident-response-overview.md)
-## [Обнаружение случаев незаконного предоставления разрешений и устранение их последствий в Office 365](detect-and-remediate-illicit-consent-grants.md)
-## [Обнаружение атак с внедрением правил и пользовательских форм Outlook и устранение их последствий в Office 365](detect-and-remediate-outlook-rules-forms-attack.md)
-## [Реагирование на компрометацию учетной записи электронной почты в Office 365](responding-to-a-compromised-email-account.md)
 
 # Контроль качества обслуживания
 ## [Контроль качества обслуживания в Центре безопасности и соответствия требованиям Office 365](service-assurance.md)
