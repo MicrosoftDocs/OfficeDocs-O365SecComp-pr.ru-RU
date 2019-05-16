@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.date: 04/19/2019
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
 ms.collection:
@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: a7e4342a-a0a1-4b43-b166-3d7eecf5d2fd
 description: Узнайте, как система защиты от потери данных в центре безопасности _Амп_ соответствует правилам защиты от потери данных и почтовых ящиков (правила транспорта) в центре администрирования Exchange.
-ms.openlocfilehash: efe8fb733417275a259a472db3444b8f6cad1f92
-ms.sourcegitcommit: e23b84ef4eee9cccec7205826b71ddfe9aaac2f8
+ms.openlocfilehash: 96fd329ce134b9a9c47b80b846ebb6050c855319
+ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362037"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34077565"
 ---
 # <a name="how-dlp-works-between-the-security--compliance-center-and-exchange-admin-center"></a>Принципы работы защиты от потери данных в Центре безопасности и соответствия требованиям и Центре администрирования Exchange
 

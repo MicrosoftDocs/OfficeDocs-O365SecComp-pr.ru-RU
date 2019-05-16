@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.date: 03/31/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,12 +15,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: Сведения о проводнике (также называемом обозревателе угроз) в центре &amp; безопасности и соответствия требованиям.
-ms.openlocfilehash: c782e5962164b7d35947befe526c20f7dc0943d5
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 30f3759b6eb35508a9de8c03abb72562417aa04f
+ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32264744"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34077335"
 ---
 # <a name="use-threat-explorer-in-the-security-amp-compliance-center"></a>Использование обозревателя угроз в центре безопасности &amp; и соответствия требованиям
 
@@ -36,7 +36,7 @@ Explorer — это мощное средство в режиме реально
 
 ## <a name="see-malware-detected-in-email-by-technology"></a>Просмотр вредоносных программ, обнаруженных технологией
 
-Предположим, вы хотите просмотреть вредоносные программы, обнаруженные в электронной почте, и технологии в Office 365. Для этого воспользуйтесь представлением [вредоносНых программ электронной почты _гт_](threat-explorer-views.md#email--malware) в проводнике.
+Предположим, вы хотите просмотреть вредоносные программы, обнаруженные в электронной почте, и технологии в Office 365. Для этого воспользуйтесь представлением [вредоносных программ электронной почты _гт_](threat-explorer-views.md#email--malware) в проводнике.
 
 1. В центре безопасности _амп_ соответствие требованиям ([https://protection.office.com](https://protection.office.com)) выберите Обозреватель **управления** > **** угрозами.
 2. В меню **вид** выберите пункт **Электронная почта** > ****.<br/>![Меню "вид" для проводника](media/ExplorerViewEmailMalwareMenu.png)<br/>
@@ -66,7 +66,7 @@ Explorer — это мощное средство в режиме реально
 
 ## <a name="review-email-messages-reported-by-users"></a>Просмотр сообщений электронной почты, сообщаемых пользователями
 
-Предположим, вы хотите видеть сообщения электронной почты, которые пользователи в организации сообщают как неЖелательные, не спам или фишинг с помощью [надстройки сообщения отчета для Outlook и Outlook в Интернете](enable-the-report-message-add-in.md). Для этого воспользуйтесь представлением _Гт_, представленным [пользователем электронной почты](threat-explorer-views.md#email--user-reported) , в проводнике.
+Предположим, вы хотите видеть сообщения электронной почты, которые пользователи в организации сообщают как нежелательные, не спам или фишинг с помощью [надстройки сообщения отчета для Outlook и Outlook в Интернете](enable-the-report-message-add-in.md). Для этого воспользуйтесь представлением _Гт_, представленным [пользователем электронной почты](threat-explorer-views.md#email--user-reported) , в проводнике.
 
 1. В центре безопасности _амп_ соответствие требованиям ([https://protection.office.com](https://protection.office.com)) выберите Обозреватель **управления** > **** угрозами.
 2. В меню **вид** выберите **Электронная почта** > ,**отчет о пользователях**.<br/>![Меню "вид" для проводника](media/ExplorerViewMenuEmailUserReported.png)<br/>

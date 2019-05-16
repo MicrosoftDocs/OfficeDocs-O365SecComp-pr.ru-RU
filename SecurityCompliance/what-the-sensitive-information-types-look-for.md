@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 search.appverid: MET150
 ms.topic: reference
 f1_keywords:
@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Защита от потери данных (DLP) в центре безопасности &amp; Office 365 включает в себя 80 типов конфиденциальной информации, готовых к использованию в политиках защиты от потери данных. В этой статье перечислены все эти типы конфиденциальной информации и показано, каким именно образом политика защиты от потери данных выявляет каждый тип.
-ms.openlocfilehash: d161435c75149183289cfbfd6abe79d55e371e31
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: dc2958af5b64f9e9318faab5d55ed340404f1857
+ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32266875"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34077555"
 ---
 # <a name="what-the-sensitive-information-types-look-for"></a>Что позволяют искать типы конфиденциальной информации
 
@@ -125,7 +125,7 @@ ms.locfileid: "32266875"
 #### <a name="keywordargentinanationalid"></a>Кэйворд_аржентина_натионал_ид
 
 - Argentina National Identity number 
-- Идентификация 
+- Удостоверение 
 - Идентификация национальной идентификационной карточки 
 - DNI 
 - Национальная реестр пользователей NIC 
@@ -567,7 +567,7 @@ OR
 - 8888888888
 - 9999999999
 
-## <a name="azure-documentdb-auth-key"></a>Ключ проверки поДлинности Azure DocumentDB
+## <a name="azure-documentdb-auth-key"></a>Ключ проверки подлинности Azure DocumentDB
 
 ### <a name="format"></a>Format
 
@@ -1076,10 +1076,10 @@ OR
 
 #### <a name="keywordbelgiumnationalnumber"></a>Кэйворд_белгиум_натионал_нумбер
 
-- Идентификация
+- Удостоверение
 - Зарегистрировал
 - Процедура 
-- ИД 
+- ID 
 - Идентитеитскаарт
 - Registratie nummer 
 - Identificatie nummer 
@@ -1220,7 +1220,7 @@ OR
 - Legal entities 
 - Registration Status 
 - Бизнес 
-- Организация
+- Company
 - CNPJ 
 - Cadastro Nacional da Pessoa Jurídica 
 - Cadastro Geral de Contribuintes 
@@ -1895,7 +1895,7 @@ Registro de identidade (RIC) (новый формат):
 
 - National Identification Number 
 - Identity card 
-- ИД 
+- ID 
 - Процедура 
 - Rol Único Nacional 
 - ВЫПОЛНЯЕМ 
@@ -2016,8 +2016,8 @@ Registro de identidade (RIC) (новый формат):
 - card identification number
 - КВН
 - cid
-- CVC2
-- CVV2
+- cvc2
+- cvv2
 - pin block
 - security code
 - security number
@@ -2678,12 +2678,12 @@ OR
 - криттограмма 
 - криптограм 
 - криптограмме 
-- CV2 
+- cv2 
 - КВК 
-- CVC2 
+- cvc2 
 - КВН 
 - КВВ 
-- CVV2 
+- cvv2 
 - cód seguranca 
 - cód segurança 
 - кóд. сегуранка 
@@ -2778,7 +2778,7 @@ OR
   
 ## <a name="eu-national-identification-number"></a>Национальный идентификационный номер ЕС
 
-Чтобы узнать больше, ознакомьтесь со статьей [тип конфиденциальной информации для национального идентификационНого номера ЕС](eu-national-identification-number.md).
+Чтобы узнать больше, ознакомьтесь со статьей [тип конфиденциальной информации для национального идентификационного номера ЕС](eu-national-identification-number.md).
   
 ## <a name="eu-passport-number"></a>Номер паспорта ЕС
 
@@ -2790,7 +2790,7 @@ OR
   
 ## <a name="eu-tax-identification-number"></a>Идентификационный номер налогоплательщика ЕС
 
-Чтобы узнать больше, ознакомьтесь со статьей [тип конфиденциальной информации для налогОвого кода ЕС](eu-tax-identification-number.md).
+Чтобы узнать больше, ознакомьтесь со статьей [тип конфиденциальной информации для налогового кода ЕС](eu-tax-identification-number.md).
   
 ## <a name="finland-national-id"></a>Национальный идентификатор, Финляндия
 
@@ -2992,7 +2992,7 @@ OR
 
 Должен соответствовать одному из двух шаблонов:
 - 13 цифр, за которыми следует пробел, за которым следуют две цифры.<br/>
-Кроме того:
+или
 - 15 последовательных цифр.
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -3325,7 +3325,7 @@ No — Реисепасс НР — Реисепасс
 #### <a name="keywordgermanyidcard"></a>Кэйворд_жермани_ид_кард
 
 - Identity Card
-- ИД
+- ID
 - Процедура
 - Персоналаусвеис
 - Идентифизиерунгснуммер
@@ -3728,7 +3728,7 @@ Dictionary
 
 Ключевые слова
 
-Любой термин из словаря ключевых слов Dictionary_icd_10_cm, основанный на [международной классификации Diseases, десятОй редакции Клиникал модификации (ICD-10-cm)](https://go.microsoft.com/fwlink/?linkid=852604). Этот тип ищет только термин, а не коды страхования.
+Любой термин из словаря ключевых слов Dictionary_icd_10_cm, основанный на [международной классификации Diseases, десятой редакции Клиникал модификации (ICD-10-cm)](https://go.microsoft.com/fwlink/?linkid=852604). Этот тип ищет только термин, а не коды страхования.
 
    
 ## <a name="international-classification-of-diseases-icd-9-cm"></a>Международная классификация Diseases (ICD-9-CM)
@@ -3760,7 +3760,7 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-Любой термин из словаря ключевых слов Dictionary_icd_9_cm, основанный на [международной классификации Diseases, девятОй редакции, Клиникал модификации (ICD-9-cm)](https://go.microsoft.com/fwlink/?linkid=852605). Этот тип ищет только термин, а не коды страхования.
+Любой термин из словаря ключевых слов Dictionary_icd_9_cm, основанный на [международной классификации Diseases, девятой редакции, Клиникал модификации (ICD-9-cm)](https://go.microsoft.com/fwlink/?linkid=852605). Этот тип ищет только термин, а не коды страхования.
    
 ## <a name="ireland-personal-public-service-pps-number"></a>Индивидуальный социальный номер (PPS) для Ирландии
 
@@ -4873,7 +4873,7 @@ Dictionary
 #### <a name="keywordsouthafricaidentificationnumber"></a>Кэйворд_саус_африка_идентификатион_нумбер
 
 - Identity card
-- ИД
+- ID
 - Процедура 
    
 ## <a name="south-korea-resident-registration-number"></a>Регистрационный номер жителя Южной Кореи
@@ -5871,7 +5871,7 @@ OR
 - БИБЛИОТЕК 
 - КДЛ 
 - КДЛС 
-- ИД 
+- ID 
 - Идентификаторы 
 - DL 
 - БИБЛИОТЕК 

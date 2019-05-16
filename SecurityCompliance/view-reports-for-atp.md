@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.date: 04/01/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,12 +15,12 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как найти и использовать отчеты для Office 365 Advanced Threat Protection в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: ff80191ae75a37994d1ad08f587fa07f72b88f24
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 3525c71f8a627d930afbf94f5f0d12e55f19a0b6
+ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32267566"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34077325"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Просмотр отчетов для Office 365 Advanced Threat protection
 
@@ -55,13 +55,13 @@ ms.locfileid: "32267566"
   
 ## <a name="atp-file-types-report"></a>Отчет о типах файлов ATP
 
-В отчете " **типы файлов ATP** " отображаются типы файлов, обнаруженных в качестве вредоносНых при [безопасном вложении ATP](atp-safe-attachments.md).
+В отчете " **типы файлов ATP** " отображаются типы файлов, обнаруженных в качестве вредоносных при [безопасном вложении ATP](atp-safe-attachments.md).
   
 Чтобы просмотреть этот отчет, в [центре безопасности &amp; и соответствия требованиям](https://protection.office.com)перейдите к **типам файлов** **панели мониторинга** \> **отчетов** \> ATP.
   
 ![Отчет о типах файлов ATP](media/6e3f5d33-79aa-4b2d-938c-6ef135d9e54c.png)
   
-Если навести указатель мыши на определенный день, можно увидеть разбивку типов вредоносных файлов, обнаруженных безопасными [вложенияМи ATP](atp-safe-attachments.md) и защитой от нежелательной [почты &amp; в Office 365](anti-spam-and-anti-malware-protection.md).
+Если навести указатель мыши на определенный день, можно увидеть разбивку типов вредоносных файлов, обнаруженных безопасными [вложениями ATP](atp-safe-attachments.md) и защитой от нежелательной [почты &amp; в Office 365](anti-spam-and-anti-malware-protection.md).
   
 ![Данные о типах файлов ATP в день](media/10d18428-699a-41d2-a73e-be3a8214ada1.png)
   
@@ -81,10 +81,10 @@ ms.locfileid: "32267566"
 
 Помимо отчетов ATP, описанных в этой статье, доступны некоторые другие отчеты, описанные в следующей таблице.
 
-|Отчет (ы)  |Подробно  |
+|Отчет (ы)  |Сведения  |
 |---------|---------|
-|**Трассировка URL-адресов для безопасных ссылок ATP** (Это отчет, созданный с помощью PowerShell.) В этом отчете представлены результаты действий безОпасных ссылок ATP за прошедшие семь (7) дней. |[Справочные материалы по командлету Get – Урлтраце](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-urltrace?view=exchange-ps) |
-|**Отчеты о безопасности электронной почты**, например отчет о самых отправителях и получателях, отчет о поддельной почте и отчет об обнаруженИи нежелательной почты. | [Просмотр отчетов о безопасности электронной почты в &amp; центре безопасности и соответствия требованиям](view-email-security-reports.md)        |
+|**Трассировка URL-адресов для безопасных ссылок ATP** (Это отчет, созданный с помощью PowerShell.) В этом отчете представлены результаты действий безопасных ссылок ATP за прошедшие семь (7) дней. |[Справочные материалы по командлету Get – Урлтраце](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-urltrace?view=exchange-ps) |
+|**Отчеты о безопасности электронной почты**, например отчет о самых отправителях и получателях, отчет о поддельной почте и отчет об обнаружении нежелательной почты. | [Просмотр отчетов о безопасности электронной почты в &amp; центре безопасности и соответствия требованиям](view-email-security-reports.md)        |
 |**Explorer** (также называется проводником по угрозам, это включено в [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md))     | [Использование проводника в центре безопасности &amp; и соответствия требованиям](use-explorer-in-security-and-compliance.md)        |
 |**Результаты EOP и ATP** (Это настраиваемый отчет, созданный с помощью PowerShell). Этот отчет содержит такие сведения, как домен, Дата, тип события, направление, действие и количество сообщений.  | [Справочные материалы по командлету Get – Маилтраффикатпрепорт](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-mailtrafficatpreport?view=exchange-ps) |
 |**Обнаружения EOP и ATP** (Это настраиваемый отчет, созданный с помощью PowerShell). Этот отчет содержит сведения о вредоносных файлах или URL-адресах, фишинговых попытках, олицетворении и других потенциальных угрозах в электронной почте или файлах.   | [Справочные материалы по командлету Get – Маилдетаилатпрепорт](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-maildetailatpreport?view=exchange-ps)        |
@@ -113,9 +113,9 @@ ms.locfileid: "32267566"
    
 ## <a name="what-if-the-reports-arent-showing-data"></a>Что делать, если в отчетах данные не отображаются?
 
-Если вы не видите данные в отчетах ATP, дважды проверьте правильность настройки политик. Для вашей организации должны быть определены политики [безопасных ссылок ATP](set-up-atp-safe-links-policies.md) и [политики безОпасных вложений ATP](set-up-atp-safe-attachments-policies.md) для обеспечения безопасности ATP. Кроме того, вы можете увидеть защиту от нежелательной [почты и вредоносных программ в Office 365](anti-spam-and-anti-malware-protection.md).
+Если вы не видите данные в отчетах ATP, дважды проверьте правильность настройки политик. Для вашей организации должны быть определены политики [безопасных ссылок ATP](set-up-atp-safe-links-policies.md) и [политики безопасных вложений ATP](set-up-atp-safe-attachments-policies.md) для обеспечения безопасности ATP. Кроме того, вы можете увидеть защиту от нежелательной [почты и вредоносных программ в Office 365](anti-spam-and-anti-malware-protection.md).
   
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Отчеты и аналитика в центре безопасности &amp; и соответствия требованиям Office 365](reports-and-insights-in-security-and-compliance.md)
   

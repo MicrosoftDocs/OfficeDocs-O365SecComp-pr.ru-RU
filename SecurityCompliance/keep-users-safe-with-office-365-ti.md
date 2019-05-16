@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.date: 02/13/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,12 +15,12 @@ ms.assetid: 3387bfc3-028a-42f4-8133-4cbecfaab812
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как исследование угроз для Office 365 и возможности реагирования могут помочь вашей организации обнаруживать проникновения и угрозы, а также быстро устранять угрозы и восстанавливать их от угроз.
-ms.openlocfilehash: 9ed20713cac07631e63b969efea402e8dbeb8f6d
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 51d776fe2ed5957016028451c1f7dcd1812973c3
+ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32254065"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34077265"
 ---
 # <a name="keep-your-office-365-users-safe-with-office-365-threat-investigation-and-response-capabilities"></a>Обеспечение безопасности Office 365 для пользователей с помощью Office 365 Threat расследования и возможности реагирования
 
@@ -28,7 +28,7 @@ ms.locfileid: "32254065"
 
 Знаете ли вы, какие пользователи Office 365 подвержены атакам или хуже их безопасности? Знаете, как устранять и устранять атаки, предназначенные для пользователей? Знаете ли вы, что именно это можно сделать с возможностями безопасности, которые уже доступны в Office 365? 
   
-[Исследование угроз для office 365 и ответ](office-365-ti.md) — это набор возможностей, включенных в вашу подПиску на Office 365 (в составе Office 365 Advanced Threat Protection Plan 2). Исследование угроз для Office 365 и возможности реагирования помогают корпорации Майкрософт уменьшить среднее время на решение проблем с социальным проектированием на 80%, а повышенную пропускную способность — 37% в месяц по сравнению с предыдущими 2 кварталами. 
+[Исследование угроз для office 365 и ответ](office-365-ti.md) — это набор возможностей, включенных в вашу подписку на Office 365 (в составе Office 365 Advanced Threat Protection Plan 2). Исследование угроз для Office 365 и возможности реагирования помогают корпорации Майкрософт уменьшить среднее время на решение проблем с социальным проектированием на 80%, а повышенную пропускную способность — 37% в месяц по сравнению с предыдущими 2 кварталами. 
 
 > [!IMPORTANT]
 > Средства расследования и реагирования на угрозы (ранее известное как Office 365 Threat Intelligence) теперь входят в план 2 Office 365 Advanced Threat protection (план 2), а также дополнительные возможности защиты от угроз. Чтобы узнать больше, ознакомьтесь со статьями [office 365 Advanced Threat protection Plans and ценах](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
@@ -41,7 +41,7 @@ ms.locfileid: "32254065"
   
 Кроме того, проводник позволяет администраторам перемещаться по связям между пользователями и почтой. Знаете ли вы какую бы то ни было неисправное сообщение? Найдите его, чтобы узнать, какие пользователи получали почту, а затем выполните ряд событий и посмотрите, что именно эти пользователи сделали.
 
-Если у вас еще нет этих капабилтиес, [попробуйте сейчас](https://aka.ms/tryo365threatintel3). [Узнайте больше о расследованИи угроз и ответе Office 365](https://aka.ms/readmoreabouto365threatintel).
+Если у вас еще нет этих капабилтиес, [попробуйте сейчас](https://aka.ms/tryo365threatintel3). [Узнайте больше о расследовании угроз и ответе Office 365](https://aka.ms/readmoreabouto365threatintel).
   
 ![Снимок экрана: обозреватель угроз в Office 365, цветовая кодировка для семейства вредоносных программ](media/591338dd-252a-437d-b5f2-87aa42e74b0c.png)
   
@@ -66,7 +66,7 @@ ms.locfileid: "32254065"
   
 ## <a name="whats-next"></a>Что дальше
 
-- Дополнительные сведения о расследовании угроз Office 365 и возможностях реагирования в этом записанном сеансе: [оставайтеСь впереди кибератаки с Office 365](https://myignite.microsoft.com/videos/53723)
+- Дополнительные сведения о расследовании угроз Office 365 и возможностях реагирования в этом записанном сеансе: [Оставайтесь впереди кибератаки с Office 365](https://myignite.microsoft.com/videos/53723)
     
 - [Опробуйте office 365 Threat расследования и возможности реагирования сейчас](https://aka.ms/tryo365threatintel3) или начать пробную версию Office для выхода на сегодня! 
     

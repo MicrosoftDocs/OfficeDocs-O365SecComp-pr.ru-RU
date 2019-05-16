@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.date: 03/05/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,12 +15,12 @@ ms.assetid: da5845db-c578-4a41-b2cb-5a09689a551b
 ms.collection:
 - M365-security-compliance
 description: В качестве глобального администратора Office 365 вы можете использовать Симуляторы для атаки, чтобы выполнять реальные сценарии атак в Организации. Это поможет определить и найти уязвимых пользователей, прежде чем реальная атака будет возобновлением вашей компании.
-ms.openlocfilehash: 88e71fe2db0ed9149ab84bb99e8b04910afdc265
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: a39259cdcc47e2c881b3977aa570b1f221f0b2bd
+ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32249728"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34077625"
 ---
 # <a name="attack-simulator-in-office-365"></a>Имитатор атак в Office 365
 
@@ -54,7 +54,7 @@ ms.locfileid: "32249728"
     
 - Многофакторная ** [Проверка](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide) подлинности (MFA) включена, по крайней мере, для учетной записи глобального администратора Office 365**. (В идеале MFA включается для всех пользователей в Организации.)
  
-- в **вашей организации имеется [Office 365 Advanced Threat Protection (план 2](office-365-ti.md)**) с симулятором атак, &amp; видимым в центре безопасности и соответствия требованиям (перейти к **симулятору атаки** **управления** \> угрозами)<br/>![Управление угрозами — симулятор атак](media/ThreatMgmt-AttackSimulator.png)
+- В **вашей организации имеется [Office 365 Advanced Threat protection (план 2](office-365-ti.md)**) с симулятором атак, &amp; видимым в центре безопасности и соответствия требованиям (перейти к **симулятору атаки** **управления** \> угрозами)<br/>![Управление угрозами — симулятор атак](media/ThreatMgmt-AttackSimulator.png)
 
     
 ## <a name="display-name-spear-phishing-attack"></a>Отображаемое имя спеар — Фишинговая атака
@@ -77,7 +77,7 @@ ms.locfileid: "32249728"
   
 4. Настройте сведения об фишинговых сообщениях. <br/>![Настройка сведений об электронной почте](media/f043608f-f8ce-4aae-be28-86e8ecc524a9.jpg)<br/>Форматирование HTML может быть как сложным, так и базовым по отношению к потребностям кампании. Как и формат электронной почты HTML, вы можете вставить изображения и текст, чтобы улучшить белиевабилити. Вы можете управлять тем, как будет выглядеть полученное сообщение в принимающем почтовом клиенте.
     
-5. Укажите текст для поля " **от" (имя)** . Это поле показывается в **отображаемОм имени** принимающего почтового клиента. 
+5. Укажите текст для поля " **от" (имя)** . Это поле показывается в **отображаемом имени** принимающего почтового клиента. 
     
 6. Укажите текст или поле " **от** ". Это поле, которое отображается в качестве адреса электронной почты отправителя в принимающем почтовом клиенте. <br/>Вы можете ввести существующее пространство имен электронной почты в своей организации (это сделает адрес электронной почты действительно в принимающем клиенте, который упрощает модель доверенности), или вы можете ввести внешний адрес электронной почты. Указанный адрес электронной почты не обязательно должен существовать, но необходимо отформатировать допустимый SMTP-адрес, например user @ ИмяДомена. extension. 
   
@@ -139,7 +139,7 @@ ms.locfileid: "32249728"
 
 [Служба Advanced Threat protection Десриптион для Office 365](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
 
-[Office 365 Advanced Threat Protection](office-365-atp.md)
+[Office 365 Advanced Threat protection](office-365-atp.md)
 
 
 

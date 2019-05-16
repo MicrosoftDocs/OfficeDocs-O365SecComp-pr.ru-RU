@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.date: 03/19/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,12 +15,12 @@ ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как использовать функции расследования и реагирования на угрозы для поиска и изучения вредоносных сообщений электронной почты.
-ms.openlocfilehash: d19833a5d2acf69b79cca7e58c5796d967337c9f
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 6eec99f5b2872a63efab619e9814ab0fa625ca49
+ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32254661"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34077275"
 ---
 # <a name="find-and-investigate-malicious-email-that-was-delivered-office-365-advanced-threat-protection-plan-2"></a>Поиск и исследование вредоносных сообщений электронной почты, которые были доставлены (Office 365 Advanced Threat Protection, план 2)
 
@@ -39,7 +39,7 @@ ms.locfileid: "32254661"
     
 - В организации определены политики для защиты от нежелательной почты, защиты от вредоносных программ, защиты от фишинга и т. д. Ознакомьтесь со статьей [Office 365 Advanced Threat protection](office-365-atp.md).
     
-- Вы являетесь глобальным администратором Office 365 или администратором безопасности или ролью поиска и очистки, назначенными в центре безопасности &amp; и соответствия требованиям. Ознакомьтесь с разРешениями [в центре &amp; безопасности и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md).
+- Вы являетесь глобальным администратором Office 365 или администратором безопасности или ролью поиска и очистки, назначенными в центре безопасности &amp; и соответствия требованиям. Ознакомьтесь с разрешениями [в центре &amp; безопасности и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md).
     
 ## <a name="dealing-with-suspicious-emails"></a>Работа с подозрительными сообщениями электронной почты
 
@@ -68,7 +68,7 @@ ms.locfileid: "32254661"
     
 9. Чтобы применить действие (например, **переместиться к удаленным** элементам), используйте список " **+ Actions** ". Это приведет к удалению выбранных сообщений из почтовых ящиков получателей.<br/>![При выборе одного или нескольких сообщений электронной почты можно выбрать один из нескольких доступных действий](media/ef12e10c-60a7-4f66-8f76-68d77ae26de1.png)
   
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Office 365 Advanced Threat protection (план 2)](office-365-ti.md)
   

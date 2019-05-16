@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.date: 6/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 3384c6f1-ffc0-4120-a211-1991aca51663
 description: Сведения о том, как просматривать, редактировать и управлять расписаниями для отчетов в &amp; центре безопасности и соответствия требованиям.
-ms.openlocfilehash: 045f539345613774fa38fe921e668e1dce7f2e7a
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: a8f230ddf9442ba0a29d5fdaeba40bc8524405b5
+ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32256336"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34077595"
 ---
 # <a name="manage-schedules-for-multiple-reports-in-the-security-amp-compliance-center"></a>Управление расписаниями для нескольких отчетов в центре &amp; безопасности и соответствия требованиям
 
@@ -41,7 +41,7 @@ ms.locfileid: "32256336"
     
 5. При необходимости измените или удалите расписание, а затем нажмите кнопку **Закрыть**.
     
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Отчеты и аналитика в центре безопасности &amp; и соответствия требованиям Office 365](reports-and-insights-in-security-and-compliance.md)
   

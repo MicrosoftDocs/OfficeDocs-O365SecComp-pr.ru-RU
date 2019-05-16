@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.date: 6/7/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 ms.collection:
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: С помощью отчетов DLP в Office 365 вы можете быстро просмотреть количество совпадений политики защиты от потери данных, переопределений или ложных срабатываний. Проверьте, не заходите ли они вверх или вниз по времени; отфильтровать отчет различными способами; и просмотрите дополнительные сведения, выбрав точку на линии на диаграмме.
-ms.openlocfilehash: 447245f945bd777f56cca71320a72a9d9dd8720e
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: edca8ad8ae970453e6baf9c1910e17cc62568af5
+ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32267309"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34077305"
 ---
 # <a name="view-the-reports-for-data-loss-prevention"></a>Просмотр отчетов о защите от потери данных
 
@@ -63,7 +63,7 @@ ms.locfileid: "32267309"
 
 Если политика защиты от потери данных позволяет пользователям переопределять ее, можно использовать отчет о ложных срабатываниях и переопределении для просмотра текста, отправленного пользователями в подсказке политики.
   
-![Поле обОснования в подробностях отчета о положительном и переопределении DLP](media/e11e3126-026d-4e77-a16d-74a0686d1fa3.png)
+![Поле обоснования в подробностях отчета о положительном и переопределении DLP](media/e11e3126-026d-4e77-a16d-74a0686d1fa3.png)
   
 ## <a name="take-action-on-insights-and-recommendations"></a>Выполнение действий с подробностями и рекомендациями
 
@@ -87,7 +87,7 @@ ms.locfileid: "32267309"
   
 1. [Подключитесь к Центру безопасности и соответствия требованиям Office 365 с помощью удаленного сеанса PowerShell](http://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409).
     
-2. Используйте любой из этих [командлетОв центра &amp; безопасности и соответствия требованиям Office 365](http://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409)
+2. Используйте любой из этих [командлетов центра &amp; безопасности и соответствия требованиям Office 365](http://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409)
     
 Однако отчеты DLP требуют извлечения данных из Office 365, в том числе Exchange Online. По этой причине командлеты для отчетов DLP доступны в Exchange Online PowerShell, а не в интерфейсе PowerShell &amp; центра соответствия требованиям безопасности. Таким образом, чтобы использовать командлеты для отчетов DLP, необходимо выполнить следующие действия:
   

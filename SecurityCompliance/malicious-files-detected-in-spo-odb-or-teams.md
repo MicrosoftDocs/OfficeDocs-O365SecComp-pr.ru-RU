@@ -3,7 +3,7 @@ title: Просмотр сведений о вредоносных файлах,
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ ms.assetid: 5ed8abf1-c0e9-4e5b-a5b7-2059cea50b61
 ms.collection:
 - M365-security-compliance
 description: Сведения о том, как перейти к сведениям о вредоносных файлах, обнаруженных в SharePoint, OneDrive или Teams, а также о том, как выполнять действия с этими файлами.
-ms.openlocfilehash: f5304f78ddec884748dd7d1090e2a7895044d045
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 070640d9aa1d28cc1a49a9d8b88e5bf5780d3622
+ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32259837"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34077585"
 ---
 # <a name="view-information-about-malicious-files-detected-in-sharepoint-onedrive-or-microsoft-teams"></a>Просмотр сведений о вредоносных файлах, обнаруженных в SharePoint, OneDrive или Microsoft Teams
 
@@ -31,7 +31,7 @@ ms.locfileid: "32259837"
 
 Чтобы просмотреть состояние и подробные сведения о файлах, обнаруженных в Office 365 ATP, вы можете использовать отчет о состоянии защиты от угроз.
   
-1. в [центре безопасности &amp; и соответствия требованиям Office 365](https://protection.office.com)выберите **состояние защиты от угроз**для **панели мониторинга** \> **отчетов** \> .
+1. В [центре безопасности &amp; и соответствия требованиям Office 365](https://protection.office.com)выберите **состояние защиты от угроз**для **панели мониторинга** \> **отчетов** \> .
     
 2. В правом верхнем углу отчета выберите пункт **Просмотреть таблицу сведений**.
     
@@ -43,7 +43,7 @@ ms.locfileid: "32259837"
   
 ## <a name="view-and-take-action-on-files-in-quarantine"></a>Просмотр и инициация действий с файлами в карантине
 
-1. в центре безопасности &amp; и соответствия требованиям Office 365 выберите **карантин** **обзор** \> **управления** \> угрозами.
+1. В центре безопасности &amp; и соответствия требованиям Office 365 выберите **Карантин** **Обзор** \> **управления** \> угрозами.
     
 2. В левом верхнем углу измените фильтр с " **Электронная почта** " на " **содержимое**".
     
