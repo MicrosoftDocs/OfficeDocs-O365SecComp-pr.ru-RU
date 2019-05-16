@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.date: 04/03/2019
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: При поиске конфиденциальных данных в содержимом необходимо описать эти данные в правиле. Коллекция для защиты от потери данных (DLP) содержит правила для самых распространенных типов конфиденциальных данных, которые вы можете сразу использовать, включив их в политику. Иногда эти встроенные правила требуется скорректировать в соответствии с потребностями организации. Чтобы сделать это, нужно создать специальный тип конфиденциальных данных. В этой статье показано, как изменить XML-файл, содержащий существующую коллекцию правил, для обнаружения более широкого круга данных кредитных карт.
-ms.openlocfilehash: a4e9a6e981889bd2be19451127fc96b351b4b00f
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: ddfd8bd82164fde6d2121b37d867caaa69355b4b
+ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32258147"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34077205"
 ---
 # <a name="customize-a-built-in-sensitive-information-type"></a>Настройка встроенных типов конфиденциальных данных
 
