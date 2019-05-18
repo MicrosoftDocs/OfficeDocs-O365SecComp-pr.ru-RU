@@ -1,10 +1,10 @@
 ---
-title: Экспортные пределы в Advanced eDiscovery (Предварительная версия)
+title: Экспортные пределы в Advanced eDiscovery
 ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,13 +14,13 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 3f273152d4242e8ce3f9990dc01927edf105f3dc
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 90d25153b37df68f89020558d1fce9c1b213de71
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32251977"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34151751"
 ---
-# <a name="export-limits-in-advanced-ediscovery-preview"></a>Экспортные пределы в Advanced eDiscovery (Предварительная версия)
+# <a name="export-limits-in-advanced-ediscovery"></a>Экспортные пределы в Advanced eDiscovery
 
 Содержимое появится в ближайшее время.

@@ -3,7 +3,7 @@ title: Обнаружение, защита и создание отчетов �
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.collection:
 - Ent_O365
@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: В этой статье рассказывается, как продемонстрировать возможности для выполнения требований GDPR, имеющиеся в Office 365.
-ms.openlocfilehash: aea1fec29da352285a59ac9286fc053ca10ec746
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 102c0b43eacafc6c1af5596e70b1dd2cec47487e
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32243010"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34150081"
 ---
 # <a name="gdpr-discovery-protection-and-reporting-in-the-office-365-devtest-environment"></a>Обнаружение, защита и создание отчетов в рамках GDPR в среде разработки и тестирования Office 365
 

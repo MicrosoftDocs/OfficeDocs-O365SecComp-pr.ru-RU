@@ -4,7 +4,7 @@ ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: После создания меток хранения и меток конфиденциальности рекомендуется просматривать, как они используется в клиенте. С помощью аналитики меток в Центре соответствия требованиям Microsoft 365 и Центре безопасности Microsoft 365 можно быстро просмотреть, какие метки используются чаще всего и где они применяются.
-ms.openlocfilehash: d0289eb79dca04262ef61d58a8e622ae6d7cbe93
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 297987d420b5ed05bf4fdeb86513bc7c4ddec609
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32254590"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34150231"
 ---
 # <a name="view-label-usage-with-label-analytics"></a>Просмотр использования меток с помощью аналитики меток
 

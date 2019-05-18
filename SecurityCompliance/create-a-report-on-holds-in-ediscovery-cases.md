@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 9/11/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,12 +12,12 @@ ms.collection: M365-security-compliance
 search.appverid: MOE150
 ms.assetid: cca08d26-6fbf-4b2c-b102-b226e4cd7381
 description: Используйте сценарий, приведенный в этой статье, для создания отчета, который содержит сведения обо всех удержаниях, связанных с вариантами обнаружения электронных данных в центре соответствия требованиям в Office 365 или Microsoft 365.
-ms.openlocfilehash: db5a462087dd20ed71f87efe2fd83b821654f1b9
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 7118b62dcd42413309e33c45e80516c8822faeff
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32258776"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34151291"
 ---
 # <a name="create-a-report-on-holds-in-ediscovery-cases-in-office-365"></a>Создание отчета о удержаниях в случаях обнаружения электронных данных в Office 365
   
@@ -25,7 +25,7 @@ ms.locfileid: "32258776"
 
 Подробное описание сведений, включенных в отчет, представлено в разделе [Дополнительные сведения](#more-information) . 
   
-## <a name="before-you-begin"></a>До начала работы
+## <a name="before-you-begin"></a>Перед началом работы
 
 - Чтобы создать отчет по всем случаям обнаружения электронных данных в Организации, необходимо быть администратором обнаружения электронных данных в Организации. Если вы являетесь диспетчером обнаружения электронных данных, отчет будет содержать только сведения о случаях, к которым вы можете получить доступ. Дополнительные сведения о разрешениях обнаружения электронных данных приведены в разделе [Назначение разрешений обнаружения электронных](assign-ediscovery-permissions.md)данных.
     
@@ -174,7 +174,7 @@ Write-host "Script complete! Report files saved to this folder: '$Path'"
     
     ![Выходные данные после выполнения сценария Касехолдсрепорт. ps1](media/7d312ed5-505e-4ec5-8f06-3571e3524a1a.png)
   
-## <a name="more-information"></a>Дополнительная информация
+## <a name="more-information"></a>Дополнительные сведения
 
 Отчет о наличии содержит отчет, который создается при выполнении сценария, описанного в этой статье, содержит следующие сведения о каждом удержании. Как было сказано ранее, администратор обнаружения электронных данных должен получить сведения для всех удержаний в Организации. Дополнительные сведения о удержании [дел](ediscovery-cases.md)см.
   

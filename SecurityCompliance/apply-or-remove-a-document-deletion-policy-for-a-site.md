@@ -4,7 +4,7 @@ ms.author: stephow
 author: stephow-msft
 manager: laurawi
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: e3e92668-f9b2-46ee-8e5e-c623870588b6
 description: Организациям часто приходится хранить документы в течение определенного периода времени в соответствии с нормативными, законодательными или другими требованиями. Однако хранение документов дольше, чем требуется, может привести к возникновению юридических рисков. Поэтому организации могут создать политику удаления документов для сайта. Например, общие бизнес-документы могут в обязательном порядке удаляться через пять лет после их создания.
-ms.openlocfilehash: c00298a177ac405181ab2b2d9642b631e60a8a92
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: c826d6c9e163e79c4e72510e3362328ae902c80c
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32243305"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34152291"
 ---
 # <a name="apply-or-remove-a-document-deletion-policy-for-a-site"></a>Применение или удаление политики удаления документов для сайта
 
@@ -87,7 +87,7 @@ ms.locfileid: "32243305"
     
     Как владелец сайта вы можете отказаться от политики удаления документов, если определите, что такая политика неприменима к контенту вашего сайта. Однако невозможно отказаться от политики, которая помечена как **Обязательная**.
     
-    ![Вариант отКазаться](media/efac709c-bef7-4a02-a09d-5bc7d2b4ec63.png)
+    ![Вариант отказаться](media/efac709c-bef7-4a02-a09d-5bc7d2b4ec63.png)
   
 ## <a name="document-deletion-policies-override-other-policies"></a>Политики удаления документов переопределяют другие политики
 

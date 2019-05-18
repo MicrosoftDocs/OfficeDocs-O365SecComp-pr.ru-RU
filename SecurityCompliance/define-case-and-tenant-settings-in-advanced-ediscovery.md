@@ -3,7 +3,7 @@ title: Определение параметров дел и клиента в O
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 383809de-7f5e-4a1d-9098-c525f67b7a9a
 description: 'Сведения о метках, кроссном модуле и параметрах клиента, которые можно определить на уровне вариантов в Office 365 Advanced eDiscovery.  '
-ms.openlocfilehash: 2e95984651bf4da86bd64cfc3730fae75391410d
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 69e6e824a7c6a5698e9dc25095d4fab49e369490
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32256917"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34150601"
 ---
 # <a name="define-case-and-tenant-settings-in-office-365-advanced-ediscovery"></a>Определение параметров дел и клиента в Office 365 Advanced eDiscovery
 

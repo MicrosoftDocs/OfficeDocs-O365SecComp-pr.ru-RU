@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: В этой статье описывается использование нового средства расследования данных (Предварительная версия) в центре обеспечения безопасности _Амп_ для управления инцидентом с продолжением данных.
-ms.openlocfilehash: eef273bd1690845be61b6aec5918dcc0870ed6b2
-ms.sourcegitcommit: 09fd88272187f82b6e635af83edabea08c2cc49c
+ms.openlocfilehash: 7aada296566bb5312ab56680485798323d0ab096
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33884767"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34150751"
 ---
 # <a name="manage-a-data-spillage-incident-in-microsoft-365"></a>Управление инцидентом переноса данных в Microsoft 365
 
@@ -54,7 +54,7 @@ ms.locfileid: "33884767"
 5.  Закройте или удалите расследования.
 
 
-## <a name="before-you-begin"></a>Подготовка к работе
+## <a name="before-you-begin"></a>Перед началом работы
 
 - Используйте средство расследования данных (Предварительная версия) в центре безопасности _Амп_ соответствие требованиям для создания расследования, поиска перенесенных данных, а также для просмотра и анализа. Затем вы будете использовать _Амп_ безопасности центра соответствия требованиям PowerShell для окончательного удаления перенесенных данных из Office 365. 
 

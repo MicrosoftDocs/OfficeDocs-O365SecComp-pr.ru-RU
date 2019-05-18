@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: a6240692916d1b38ccbdae272fcd7a9b4292b376
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: ff11d03adf8afb0ce76151ff67a238cce342f9df
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32258739"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34150741"
 ---
 # <a name="data-investigations-preview-limits"></a>Пределы расследования данных (Предварительная версия)
 
@@ -33,7 +33,7 @@ ms.locfileid: "32258739"
   |:-----|:-----|
   |Максимальное количество расследований.  <br/> |50  <br/> |
   |Общее число документов, которые можно добавить в исследование (для всех наборов свидетельств в расследовании).  <br/> |1 миллион  <br/> |
-  |Общий размер файлов по каждой нагрузке.  <br/> |100 ГБ  <br/> |
+  |Общий размер файлов по каждой нагрузке.  <br/> |100 ГБ  <br/> |
   |Максимальный размер одного файла.   <br/> |100 МБ <sup>1</sup> <br/> |
   |Максимальное число символов, извлеченных из одного файла.  <br/> |10 000 000 <sup>1</sup> <br/> |
   |Глубина внедренных элементов в отдельном файле.  <br/> |25 <sup>1</sup> <br/> |

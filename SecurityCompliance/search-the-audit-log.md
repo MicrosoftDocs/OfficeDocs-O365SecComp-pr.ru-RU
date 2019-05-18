@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 5/18/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,12 +12,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 search.appverid: MOE150
 ms.assetid: 57ca5138-0ae0-4d34-bd40-240441ef2fb6
 description: 'Журнал аудита Office 365 является единым журналом аудита. Зачем нужен единый журнал аудита? Поскольку события из большинства служб Office 365, на которые вы подписаны, записываются в один журнал аудита, который можно найти. Это означает, что вы можете выполнять поиск действий пользователей и администраторов в следующих службах:'
-ms.openlocfilehash: d964a1404dd022ba9b56e5d86766c5fc6eabf10a
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 1d3f45d24a8d1a83c20f5d36b12ced761e00f936
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32265861"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158781"
 ---
 # <a name="search-the-audit-log-for-user-and-admin-activity-in-office-365"></a>Поиск действий пользователей и администраторов в журнале аудита в Office 365
 
@@ -28,7 +28,7 @@ ms.locfileid: "32265861"
 - Exchange
 - Azure Active Directory
 - Microsoft Teams
-- Обнаружение электронных данных
+- Обнаружение электронных данных (eDiscovery)
 - Power BI
 - Yammer
 - Sway

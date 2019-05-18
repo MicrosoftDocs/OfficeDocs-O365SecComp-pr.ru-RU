@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 1/14/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,12 +12,12 @@ ms.assetid: 4650fec1-4ee3-4659-abbc-bf091718cb26
 ms.collection:
 - M365-security-compliance
 description: 'Надстройка сообщения о нежелательной почте для Microsoft Outlook позволяет пользователям Exchange Online и Exchange Online Protection легко сообщать о нежелательной почте (спаме), чтобы корпорация Майкрософт могла проанализировать данные и сократить число и влияние будущих нежелательных сообщений, фильтруемых службой. Надстройка совместима с Microsoft Outlook 2013, Outlook 2010 и Outlook 2007 в операционных системах Windows 7, 8 или 10. Она предоставляет следующие преимущества:'
-ms.openlocfilehash: fd8db743daff164d18b4067004fcb23b48393d66
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 2304aa96d90629b95348ad59e8a6b45ad5ab1eae
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32253907"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34152551"
 ---
 # <a name="junk-email-reporting-add-in-for-microsoft-outlook"></a>Надстройка для создания отчетов о нежелательной почте для Microsoft Outlook
 
@@ -37,6 +37,6 @@ ms.locfileid: "32253907"
     
 - [Отправка отчетов о нежелательных сообщениях корпорации Майкрософт](report-junk-email-messages-to-microsoft.md) Сведения для конечных пользователей о применении надстройки для передачи сведений о нежелательной почте корпорации Майкрософт. 
     
-- [Сведения об устраненИи неполадок и поддержке](troubleshooting-and-support-information.md) Сведения об устранении неполадок для конечных пользователей и администраторов, а также о том, как обратиться за помощью в службу технической поддержки. 
+- [Сведения об устранении неполадок и поддержке](troubleshooting-and-support-information.md) Сведения об устранении неполадок для конечных пользователей и администраторов, а также о том, как обратиться за помощью в службу технической поддержки. 
     
 

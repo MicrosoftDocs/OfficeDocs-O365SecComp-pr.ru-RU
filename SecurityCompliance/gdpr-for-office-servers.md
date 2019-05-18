@@ -3,17 +3,17 @@ title: GDPR для серверов Office
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
 description: Узнайте, как обеспечивать соблюдение требований GDPR на локальных серверах Office.
-ms.openlocfilehash: 9b1c7eb4313d1c33e273b6ac0d494c2359c40f00
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 3c6c7aa30d4d55262cef1edabc528d6644b340c1
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32255766"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34150111"
 ---
 # <a name="gdpr-for-office-on-premises-servers"></a>GDPR для локальных серверов Office
 
@@ -31,7 +31,7 @@ ms.locfileid: "32255766"
 
 -   [Локальные общие папки](gdpr-for-on-premises-file-shares.md)
 
-Дополнительные сведения о GDPR и поддержке, которую может оказать вам корпорация Майкрософт см. в [центре управления безопасностью (Майкрософт)](https://www.microsoft.com/ru-RU/TrustCenter/Privacy/gdpr/default.aspx).
+Дополнительные сведения о GDPR и поддержке, которую может оказать вам корпорация Майкрософт см. в [центре управления безопасностью (Майкрософт)](https://www.microsoft.com/en-us/TrustCenter/Privacy/gdpr/default.aspx).
 
 Прежде чем выполнять какие-либо действия с локальными данными, проконсультируйтесь с вашими юристами и группой по обеспечению соответствия требованиям, чтобы получить рекомендации и сведения о существующих схемах классификации и подходах к работе с персональными данными. Рекомендации по разработке и расширению схем классификации корпорации Майкрософт представлены в наборе средств для обнаружения данных GDPR по адресу [http://aka.ms/gdprpartners](<http://aka.ms/gdprpartners>). В этом наборе средств также описываются способы перемещения локальных данных в облако, где можно использовать более сложные функции для управления данными. В статьях из этого раздела представлены рекомендации по работе с данными, которые должны оставаться в локальной среде.
 
