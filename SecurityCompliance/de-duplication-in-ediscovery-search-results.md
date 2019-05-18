@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 12/21/2016
-ms.audience: Admin
+audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: 5af334b6-a15d-4f73-97f8-1423457d9f6b
 description: Можно отменить экспортированные результаты поиска обнаружения электронных данных, чтобы экспортировать только одну копию сообщения электронной почты, несмотря на то, что в разных почтовых ящиках могут быть найдены несколько экземпляров одного и того же сообщения.
-ms.openlocfilehash: b3810e3568bd2c7aa1628bcfcebbad5a87468ff8
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 98639bd23b3d7c99b91a193c2651ff2fad677eeb
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32258085"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34150661"
 ---
 # <a name="de-duplication-in-ediscovery-search-results"></a>Дедупликация результатов поиска, выполненного с помощью функции обнаружения электронных данных
 
@@ -62,7 +62,7 @@ ms.locfileid: "32258085"
 > [!IMPORTANT]
 > Если ограничения алгоритма отмены дублирования могут повлиять на качество результатов поиска, то при экспорте элементов не следует включать дедупликацию. Если проблемы, описанные в этом разделе, не являются фактором в результатах поиска, и вы хотите уменьшить количество элементов, которые, скорее всего, будут повторяться, следует рассмотреть возможность включение отмены дублирования. 
   
-## <a name="more-information"></a>Дополнительная информация
+## <a name="more-information"></a>Дополнительные сведения
 
 - Сведения, приведенные в этой статье, применяются при экспорте результатов поиска с помощью одного из следующих средств обнаружения электронных данных:
     

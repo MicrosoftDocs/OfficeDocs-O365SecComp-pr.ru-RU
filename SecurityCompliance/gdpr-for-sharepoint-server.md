@@ -3,17 +3,17 @@ title: GDPR для SharePoint Server
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
 description: Узнайте, как обеспечить соблюдение требований GDPR в локальном развертывании SharePoint Server.
-ms.openlocfilehash: 84692799222be595d69f7a33a31b0ec3fe767c3d
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 6da9d635506eafc2b976cf6a87f68370f40e327a
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32253897"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34152741"
 ---
 # <a name="gdpr-for-sharepoint-server"></a>GDPR для SharePoint Server
 
@@ -35,7 +35,9 @@ ms.locfileid: "32253897"
 
 Рекомендуемый подход для общих папок, а также сайтов и библиотек SharePoint включает следующие действия:
 
-1.  **[Установите и настройте сканер Azure Information Protection.](https://docs.microsoft.com/ru-RU/azure/information-protection/rms-client/client-admin-guide-install#options-to-install-the-azure-information-protection-client-for-users)**
+1.  
+  **
+  [Установите и настройте сканер Azure Information Protection.](https://docs.microsoft.com/ru-RU/azure/information-protection/rms-client/client-admin-guide-install#options-to-install-the-azure-information-protection-client-for-users)**
 
     -   Выберите необходимые типы конфиденциальных данных.
 

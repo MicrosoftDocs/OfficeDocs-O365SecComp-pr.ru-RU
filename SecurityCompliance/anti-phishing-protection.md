@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 10/11/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,12 +15,12 @@ ms.custom: TopSMBIssues
 ms.collection:
 - M365-security-compliance
 description: Office 365 предлагает разнообразные возможности защиты от фишинговых атак по умолчанию, а также дополнительные предложения, такие как Антифишинговый протокол ATP. В этом разделе представлены ресурсы в Интернете, которые можно использовать для изучения и реализации параметров и стратегий защиты от фишинга в Office 365.
-ms.openlocfilehash: cceae7d316d89325fa37688995555c9e449ac422
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: a002002967e3e529cada587f9b0bd29fa867e06e
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32242587"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155671"
 ---
 # <a name="anti-phishing-protection-in-office-365"></a>Защита от фишинга в Office 365
 
@@ -38,13 +38,13 @@ Office 365 предлагает разнообразные возможност�
   
 Дополнительные сведения о том, как Office 365 настроен по умолчанию для защиты от фишинговых атак, Узнайте, [как Office 365 проверяется на соответствие адресу: адрес для предотвращения фишинга](how-office-365-validates-the-from-address.md).
   
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Как Office 365 проверяет адрес отправителя, чтобы предотвратить фишинг](how-office-365-validates-the-from-address.md)
   
 [Защита себя от фишинговых схем и других форм Интернет-мошенничества](https://support.office.com/article/f84750b4-2f2c-46c3-89f6-e65f7f8c3546)
   
-[Office 365 Advanced Threat Protection](office-365-atp.md)
+[Office 365 Advanced Threat protection](office-365-atp.md)
   
 [Возможности ATP для защиты от фишинга в Office 365](atp-anti-phishing.md)
   

@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 143b3ab8-8cb0-4036-a5fc-6536d837bfce
 description: Office 365 предлагает ряд различных средств обнаружения электронных данных, которые можно использовать для поиска и хранения контента, находящихся в различных расположениях, таких как почтовые ящики Exchange, SharePoint и OneDrive для бизнеса, группы Office 365 и беседы Skype для бизнеса.
-ms.openlocfilehash: 51ef4e744f2347fe3cdaff757131baf0c5fe83bf
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 300de1a767e9ab3f6be81974a704506d367d68b4
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32256807"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34153321"
 ---
 # <a name="ediscovery-in-office-365"></a>Обнаружение электронных данных в Office 365
 
@@ -87,7 +87,7 @@ Office 365 предоставляет следующие средства обн
 |[Быстрая настройка для расширенного обнаружения электронных данных](quick-setup-for-advanced-ediscovery.md) <br/> |Узнайте, как приступить к работе с расширенным обнаружением электронных данных.  <br/> |
 |[Подготовка результатов поиска для анализа в Office 365 Advanced eDiscovery](prepare-search-results-for-advanced-ediscovery.md) <br/> |Сведения о подготовке результатов поиска контента для анализа в Advanced eDiscovery.  <br/> |
 |[Настройка пользователей и обращений в Office 365 Advanced eDiscovery](set-up-users-and-cases-in-advanced-ediscovery.md) <br/> |Сведения о настройке ролей пользователей, создании обращений и назначении пользователям обращений в Advanced eDiscovery.  <br/> |
-|[Запуск модуля Process и загрузка данных](run-the-process-module-and-load-data-in-advanced-ediscovery.md) <br/> |ИзУчите рекомендации по подготовке файлов обращений для анализа с помощью расширенного обнаружения электронных данных.  <br/> |
+|[Запуск модуля Process и загрузка данных](run-the-process-module-and-load-data-in-advanced-ediscovery.md) <br/> |Изучите рекомендации по подготовке файлов обращений для анализа с помощью расширенного обнаружения электронных данных.  <br/> |
 |[Использование Express Analysis в Office 365 Advanced eDiscovery](use-express-analysis-in-advanced-ediscovery.md) <br/> |Узнайте, как запустить режим Экспресс — Расширенное обнаружение электронных данных, чтобы быстро проанализировать обращение и экспортировать результаты.  <br/> |
 |[Анализ данных обращений с помощью расширенного обнаружения электронных данных](analyze-case-data-with-advanced-ediscovery.md) <br/> |Обзор процесса анализа, который позволяет задавать параметры, параметры запуска и просматривать результаты в Advanced eDiscovery.  <br/> |
 |[Управление расширенной настройкой соответствия eDiscovery](manage-relevance-setup-in-advanced-ediscovery.md) <br/> |Ознакомьтесь с рекомендациями по настройке углубленного изучения в Advanced eDiscovery для оценки файлов по релевантности и формированию аналитических результатов.  <br/> |

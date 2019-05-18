@@ -4,18 +4,18 @@ ms.author: krowley
 author: kccross
 manager: laurawi
 ms.date: 12/9/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: hub-page
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 70ab4af2-fec4-4886-8e12-27d348649204
 description: Прежде чем приступить к работе с EOP, необходимо знать несколько моментов.
-ms.openlocfilehash: fdaeba4f38d2e7676b336519f6d04649ee9d8137
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 3bf4874e3ab445813ee03de4def23ed12f66f537
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32256467"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154671"
 ---
 # <a name="exchange-online-protection"></a>Exchange Online Protection 
 
@@ -70,7 +70,7 @@ ms.locfileid: "32256467"
     
 - [Submitting malware and non-malware to Microsoft for analysis](../submitting-malware-and-non-malware-to-microsoft-for-analysis.md) Описание процедуры отправки пользователями вредоносных программ, которые прошли фильтры, а также отправки файла, который был неправильно определен как вредоносный. 
     
-- Конечные пользователи могут добавлять определенных пользователей или домены в список надежных отправителей или список заблокированных отправителей, настраивая параметры нежелательной почты в Outlook или Outlook в Интернете. Обратите внимание, что сообщения, отправленные из заблокированных отправителей, помечаются как нежелательная почта, а не отклоняются, что позволяет получать их из папки неЖелательной почты или из карантина (в зависимости от того, где администратор настроил службу для отправки спама). Дополнительные сведения см. [в статье Использование надстройки Report Message](https://support.office.com/article/addin-b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
+- Конечные пользователи могут добавлять определенных пользователей или домены в список надежных отправителей или список заблокированных отправителей, настраивая параметры нежелательной почты в Outlook или Outlook в Интернете. Обратите внимание, что сообщения, отправленные из заблокированных отправителей, помечаются как нежелательная почта, а не отклоняются, что позволяет получать их из папки нежелательной почты или из карантина (в зависимости от того, где администратор настроил службу для отправки спама). Дополнительные сведения см. [в статье Использование надстройки Report Message](https://support.office.com/article/addin-b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
     
 - [Справка и поддержка для EOP](help-and-support-for-eop.md) В этом разделе представлены сведения о том, как получить помощь и техническую поддержку. 
     

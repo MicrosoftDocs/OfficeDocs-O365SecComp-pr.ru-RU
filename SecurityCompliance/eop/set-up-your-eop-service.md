@@ -4,18 +4,18 @@ ms.author: krowley
 author: kccross
 manager: laurawi
 ms.date: 10/23/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
 description: В этом разделе объясняется, как настроить Microsoft Exchange Online Protection (EOP). Если вы приступите отсюда в мастере доменов Office 365, вернитесь к мастеру доменов Office 365, если вы не хотите использовать Exchange Online Protection. Если вы ищете дополнительные сведения о настройке соединителей, обратитесь к разделу Настройка обработки почты с помощью соединителей в Office 365.
-ms.openlocfilehash: 496a249f1dc269151dad4b93d2b5cf30fa6ec91b
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 93c6cbe41177103778bf96ca652d9d2889849372
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32256597"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34153061"
 ---
 # <a name="set-up-your-eop-service"></a>Настройка службы EOP
 
@@ -73,7 +73,7 @@ ms.locfileid: "32256597"
 
 Чтобы проверить, правильно ли нежелательная почта маршрутизируется в соответствующие папки каждого пользователя, необходимо выполнить несколько действий по настройке. Эти действия предназначены [для обеспечения маршрутизации спама в папку нежелательной почты каждого пользователя](../ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).
   
-Если вы не хотите перемещать сообщения в папку неЖелательной почты каждого пользователя, вы можете выбрать другое действие, отредактировав политики фильтрации содержимого в центре администрирования Exchange. Дополнительные сведения см. в статье [Configure your spam filter policies](../configure-your-spam-filter-policies.md).
+Если вы не хотите перемещать сообщения в папку нежелательной почты каждого пользователя, вы можете выбрать другое действие, отредактировав политики фильтрации содержимого в центре администрирования Exchange. Дополнительные сведения см. в статье [Configure your spam filter policies](../configure-your-spam-filter-policies.md).
   
 ### <a name="step-6-use-the-microsoft-365-admin-center-to-point-your-mx-record-to-eop"></a>Шаг 6: использование центра администрирования Microsoft 365 для направления записи MX на EOP
 

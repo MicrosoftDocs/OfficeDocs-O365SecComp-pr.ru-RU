@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 9/5/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: f5caf497-5e8d-4b7a-bfff-d02942f38150
 description: Если вы больше не хотите сохранять содержимое неактивного почтового ящика Office 365, можно удалить неактивный почтовый ящик окончательно, удалив удержание. После удаления удержания неактивный почтовый ящик помечается для удаления и безвозвратно удаляется после его обработки.
-ms.openlocfilehash: f1aa29b0e40d02e4b6450202c0b2a34ae3075677
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: b6cea7284ccb930ef10ec96c082291acb9f66f2f
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32257116"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34150471"
 ---
 # <a name="delete-an-inactive-mailbox-in-office-365"></a>Удаление неактивного почтового ящика в Office 365
 
@@ -38,7 +38,7 @@ ms.locfileid: "32257116"
     
 - Если удалить политику хранения или политику хранения Office 365 из неактивного почтового ящика и срок хранения обратимо удаленного почтового ящика для почтового ящика, то почтовый ящик будет окончательно удален. После удаления его невозможно будет восстановить. Прежде чем удалять инцидент удержания, убедитесь, что вам больше не требуется содержимое почтового ящика. Если вы захотите повторно активировать неактивный почтовый ящик, его можно восстановить. Дополнительные сведения см. [в статье восстановление неактивного почтового ящика в Office 365](recover-an-inactive-mailbox.md).
     
-- Дополнительные сведения о неактивных почтовых ящиках приведены в статье неАктивные почтовые [ящики в Office 365](inactive-mailboxes-in-office-365.md)
+- Дополнительные сведения о неактивных почтовых ящиках приведены в статье Неактивные почтовые [ящики в Office 365](inactive-mailboxes-in-office-365.md)
     
 ## <a name="step-1-identify-the-holds-on-an-inactive-mailbox"></a>Этап 1. Определение инцидентов удержания для неактивного почтового ящика
 
@@ -67,7 +67,7 @@ InPlaceHolds          : {c0ba3ce811b6432a8751430937152491, ba6f4ba25b62490aaaa25
 ```
 
 > [!TIP]
-> Если для неактивного почтового ящика применено множество инцидентов хранения на месте, будут показаны не все идентификаторы GUID хранения. Для отображения всех ИДЕНТИФИКАТОРов GUID хранения на месте можно выполнить следующую команду:`Get-Mailbox -InactiveMailboxOnly -Identity <identity of inactive mailbox> | Select-Object -ExpandProperty InPlaceHolds`
+> Если для неактивного почтового ящика применено множество инцидентов хранения на месте, будут показаны не все идентификаторы GUID хранения. Для отображения всех идентификаторов GUID хранения на месте можно выполнить следующую команду:`Get-Mailbox -InactiveMailboxOnly -Identity <identity of inactive mailbox> | Select-Object -ExpandProperty InPlaceHolds`
   
 ## <a name="step-2-remove-a-hold-from-an-inactive-mailbox"></a>Действие 2. Удаление инцидента удержания неактивного почтового ящика
 
@@ -201,7 +201,7 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
   Get-MailboxSearch $InPlaceHold.Name | FL Sources
 ```
 
-## <a name="more-information"></a>Дополнительная информация
+## <a name="more-information"></a>Дополнительные сведения
 
 - **Неактивный почтовый ящик  это тип обратимо удаленного почтового ящика.** В Exchange Online обратимо удаленный почтовый ящик  это удаленный ящик, который можно восстановить в течение определенного периода. Срок хранения обратимо удаленного почтового ящика в Exchange Online составляет 30 дней. Это значит, что почтовый ящик можно восстановить в течение 30 дней после обратимого удаления. Через 30 дней обратимо удаленный почтовый ящик помечается для окончательного удаления без возможности восстановления. 
     

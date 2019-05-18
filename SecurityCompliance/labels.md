@@ -4,7 +4,7 @@ ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Priority
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Метки хранения в Office 365 помогут вам выполнять с контентом действия, соответствующие его характеру. Используя метки хранения, вы можете классифицировать данные в организации для системы управления и применять правила хранения на основе этой классификации. Вы также можете использовать метки хранения для управления записями в Office 365.
-ms.openlocfilehash: e13c73e95a2b8bc25df0031a9bd94da4feb54b23
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: b6e0263b02c6395d7f8d9ccb68d04b82aa84fe29
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32255172"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154351"
 ---
 # <a name="overview-of-retention-labels"></a>Обзор меток хранения
 
@@ -279,12 +279,14 @@ ms.locfileid: "32255172"
 
 Дополнительные сведения о синтаксисе запросов см. в статье:
 
-- [Руководство по синтаксису языка запросов по ключевым словам (KQL)](https://docs.microsoft.com/ru-RU/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
+- 
+  [Руководство по синтаксису языка запросов по ключевым словам (KQL)](https://docs.microsoft.com/ru-RU/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
 
 Метки на основе запросов используют индекс поиска для определения контента. Дополнительные сведения о допустимых свойствах, доступных для поиска, см. в статьях:
 
 - [Запросы ключевых слов и условия поиска контента](keyword-queries-and-search-conditions.md)
-- [Обзор свойств для обхода и управляемых свойств в SharePoint Server](https://docs.microsoft.com/ru-RU/SharePoint/technical-reference/crawled-and-managed-properties-overview)
+- 
+  [Обзор свойств для обхода и управляемых свойств в SharePoint Server](https://docs.microsoft.com/ru-RU/SharePoint/technical-reference/crawled-and-managed-properties-overview)
 
 Примеры запросов:
 

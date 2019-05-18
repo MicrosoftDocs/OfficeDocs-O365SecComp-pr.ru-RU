@@ -1,10 +1,10 @@
 ---
-title: Работа с ошибками обработки в Advanced eDiscovery (Предварительная версия)
+title: Работа с ошибками обработки в Advanced eDiscovery
 ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,20 +14,20 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 918a49859d3e3a10d14b346860027a1b434c73e9
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 4631a60554f463cf6403807ec04b40690e591ecb
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32240914"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34151561"
 ---
-# <a name="work-with-processing-errors-in-advanced-ediscovery-preview"></a>Работа с ошибками обработки в Advanced eDiscovery (Предварительная версия)
+# <a name="work-with-processing-errors-in-advanced-ediscovery"></a>Работа с ошибками обработки в Advanced eDiscovery
 
 Обработка — это процесс идентификации файлов, расширения внедренных документов и вложений, извлечение текста, распознавание текста (оптическое распознавание текста) файлов изображений и индексирование этого контента.  
 
-Когда хранитель добавляется в дело со вкладки **custodians** , все частично индексированные элементы из Office 365 обрабатываются, чтобы сделать их полным поиском.  Аналогично, когда содержимое добавляется в рабочий набор из источников данных Office 365 или других источников данных, отличных от Office 365, также обрабатывается контент.
+Когда хранитель добавляется в дело со вкладки **custodians** , все частично индексированные элементы из Office 365 обрабатываются, чтобы сделать их полным поиском.  Аналогично, когда содержимое добавляется в набор проверки из источников данных Office 365 или источников данных, отличных от Office 365, также обрабатывается контент.
 
-Вкладка **Обработка** в Advanced EDiscovery (Предварительная версия) обеспечивает прозрачность в состоянии *расширенной индексации* для всех этих сценариев.
+Вкладка **Обработка** в Advanced eDiscovery обеспечивает прозрачность в состоянии расширенной *индексации* для всех этих сценариев.
 
 Для получения дополнительных сведений ознакомьтесь со следующими статьями.
 

@@ -4,18 +4,18 @@ ms.author: krowley
 author: kccross
 manager: laurawi
 ms.date: 12/9/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: "Определение почтовых пользователей \x97 важный этап управления службой Exchange Online Protection (EOP)."
-ms.openlocfilehash: 2e266d4dd31c3bd614c1b4f8afa17ca747890385
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 769ab13f99d7faae42bbdbed5b2b95bd37cfd55e
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32256457"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34150241"
 ---
 # <a name="manage-mail-users-in-eop"></a>Управление почтовыми пользователями в EOP
 
@@ -30,7 +30,7 @@ ms.locfileid: "32256457"
 > [!NOTE]
 > Вы можете добавлять пользователей в центре администрирования Microsoft 365, но эти пользователи не могут использоваться в качестве получателей почты. 
   
-## <a name="before-you-begin"></a>До начала работы
+## <a name="before-you-begin"></a>Перед началом работы
 
 - Для процедур в этом разделе требуются особые разрешения. См. информацию о разрешениях по каждой процедуре.
     

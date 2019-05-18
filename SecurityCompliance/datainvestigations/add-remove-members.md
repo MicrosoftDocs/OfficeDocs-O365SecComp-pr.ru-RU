@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,18 +14,18 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 9910e3c283aa0e25803d136061ca9d38930e8970
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: b5fabd3b0a1e6e1951143b1a3778ced4e01a6288
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32258747"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34151077"
 ---
 # <a name="add-or-remove-members-from-a-data-investigation"></a>Добавление и удаление участников из расследования данных
 
 Вы можете добавить или удалить участников, чтобы управлять тем, кто может получить доступ к расследованию. Чтобы просмотреть и получить доступ к расследованию данных, участники должны быть частью группы ролей Data Инвестигатор или пользовательской группы ролей с назначенной ролью управления расследованиями данных. Инвестигатор данных, создавших исследование, автоматически добавляется в качестве участника.
 
-1. На странице **расследования данных (предварительНая версия)** перейдите к вашему исследованию.
+1. На странице **расследования данных (Предварительная версия)** перейдите к вашему исследованию.
 
 2. Перейдите в раздел **Параметры** и выберите пункт "разрешения доступа _амп_".
  

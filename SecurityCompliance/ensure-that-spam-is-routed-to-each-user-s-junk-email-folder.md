@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 7/16/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,22 +13,22 @@ search.appverid:
 ms.assetid: 0cbaccf8-4afc-47e3-a36d-a84598a55fb8
 ms.collection:
 - M365-security-compliance
-description: Администраторы могут научиться маршрутизировать нежелательную почту в папки неЖелательной почты пользователя в Exchange Online Protection.
-ms.openlocfilehash: 30b115b5d7f8f02767e3e380b672341765052a9c
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+description: Администраторы могут научиться маршрутизировать нежелательную почту в папки нежелательной почты пользователя в Exchange Online Protection.
+ms.openlocfilehash: 390ba26167521ccea7b69e7fac21924c0b9ec7de
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32256667"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34153219"
 ---
 # <a name="ensure-that-spam-is-routed-to-each-users-junk-email-folder"></a>Настройка гарантированной отправки нежелательной почты в соответствующую папку каждого пользователя
 
 > [!IMPORTANT]
 > Сведения, представленные в этом разделе, касаются только пользователей Exchange Online Protection (EOP), чьи почтовые ящики размещаются локально в гибридном развертывании. Пользователям Exchange Online, чьи почтовые ящики размещаются в Office 365, не нужно выполнять эти команды. 
   
-Для пользователей EOP нежелательная почта по умолчанию перемещается в соответствующую папку получателя. Чтобы это действие работало с локальными почтовыми ящиками, необходимо настроить правила для почтовых ящиков Exchange (также называемые правилами транспорта) на локальных поГраничных серверах или серверах-концентраторах, чтобы обнаружить заголовки нежелательной почты, добавленные EOP. Эти правила для этих почтовых ящиков устанавливают степень вероятности нежелательной почты (SCL), используемую свойством SclJunkThreshold командлета Set-OrganizationConfig, для перемещения спама в папку неЖелательной почты каждого почтового ящика. 
+Для пользователей EOP нежелательная почта по умолчанию перемещается в соответствующую папку получателя. Чтобы это действие работало с локальными почтовыми ящиками, необходимо настроить правила для почтовых ящиков Exchange (также называемые правилами транспорта) на локальных пограничных серверах или серверах-концентраторах, чтобы обнаружить заголовки нежелательной почты, добавленные EOP. Эти правила для этих почтовых ящиков устанавливают степень вероятности нежелательной почты (SCL), используемую свойством SclJunkThreshold командлета Set-OrganizationConfig, для перемещения спама в папку нежелательной почты каждого почтового ящика. 
   
-### <a name="to-add-mail-flow-rules-to-ensure-spam-is-moved-to-the-junk-email-folder-by-using-windows-powershell"></a>Добавление правил для почтового процесса для перемещения спама в папку неЖелательной почты с помощью Windows PowerShell
+### <a name="to-add-mail-flow-rules-to-ensure-spam-is-moved-to-the-junk-email-folder-by-using-windows-powershell"></a>Добавление правил для почтового процесса для перемещения спама в папку нежелательной почты с помощью Windows PowerShell
 
 1. Откройте командную консоль Exchange для локального сервера Exchange Server. Сведения о том, как открыть командную консоль Exchange в локальной организации Exchange, см. в статье **Open the Shell**.
     

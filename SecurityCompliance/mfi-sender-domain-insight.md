@@ -3,18 +3,18 @@ title: Исправление сведений о домене отправит�
 ms.author: chrisda
 author: chrisda
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: Администраторы могут узнать об исправлении домена отправителя в панели мониторинга почтовых ящиков в центре безопасности _Амп_ соответствия требованиям.
-ms.openlocfilehash: a285a1c744ca540cc58b9408b4ee31e768f89479
-ms.sourcegitcommit: e05e83212e7ca4e84f2ddb0de0297895b995338d
+ms.openlocfilehash: 181f224064b5f31fd17c348cc4547826fbcd29a9
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868567"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158711"
 ---
 # <a name="fix-sender-domain-insight"></a>Исправление сведений о домене отправителя
 

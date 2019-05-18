@@ -4,19 +4,19 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: df2d1e0f-b476-42c9-aade-4a260b24f193
 description: С помощью средства обнаружения электронных данных поиска контента в центре безопасности _Амп_ соответствие требованиям можно быстро находить электронную почту в почтовых ящиках Exchange, документов на сайтах SharePoint и в папках OneDrive, а также беседах в Skype для бизнеса.
-ms.openlocfilehash: 3e8e0594cac700fe37ee7a4a6c889dbf862cd0fb
-ms.sourcegitcommit: e23b84ef4eee9cccec7205826b71ddfe9aaac2f8
+ms.openlocfilehash: 9978262223de059511a011358764069ef23d4340
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33403017"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158751"
 ---
 # <a name="search-for-content-in-office-365"></a>Поиск содержимого в Office 365
 
@@ -42,9 +42,9 @@ ms.locfileid: "33403017"
     
 - [Массовое изменение](bulk-edit-content-searches.md) расположения запросов и контента для нескольких поисков 
     
-- [ПовторНый поиск контента](retry-failed-content-search.md) для устранения ошибки размещения контента
+- [Повторный поиск контента](retry-failed-content-search.md) для устранения ошибки размещения контента
 
-- [Сохранение получателей скрытОй копии](https://docs.microsoft.com/exchange/policy-and-compliance/holds/preserve-bcc-recipients-and-group-members) , чтобы их можно было искать 
+- [Сохранение получателей скрытой копии](https://docs.microsoft.com/exchange/policy-and-compliance/holds/preserve-bcc-recipients-and-group-members) , чтобы их можно было искать 
 
 
 ## <a name="perform-actions-on-content-you-find"></a>Выполнение действий над контентом, который вы находите

@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 12/13/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ ms.assetid: 1b1f8c8b-f3b4-439b-910c-cf2f89a07a15
 ms.collection:
 - M365-security-compliance
 description: Благодаря выпуску новых возможностей для шифрования сообщений Office 365 (OME) больше не нужно настраивать IRM отдельно. Корпорация Майкрософт не рекомендует настраивать новые развертывания при использовании устаревших версий OME и IRM с Azure Rights Management. Дополнительные сведения о новых возможностях OME можно найти в статье вопросы и ответы по шифрованию сообщений в Office 365. Если вы готовы приступить к работе с новыми возможностями OME в вашей организации, ознакомьтесь со статьей Настройка новых возможностей шифрования сообщений Office 365, созданных на основе Azure Information Protection.
-ms.openlocfilehash: 7902eafd45e90a9aa5ac4c34fbeec066425473b4
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: f98af39c9339743dc97ed26c1a866ba1f474882b
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32259497"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34151421"
 ---
 # <a name="configure-irm-to-use-azure-rights-management"></a>Настройка IRM для использования службы Azure Rights Management
 

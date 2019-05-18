@@ -3,7 +3,7 @@ title: Экспорт данных вариантов в Office 365 Advanced eDi
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: c3198d1c-51b4-4280-87c5-269b47246d33
 description: 'Ознакомьтесь с рекомендациями по экспорту данных дел обнаружения электронных данных и результатов для проверки с помощью процесса экспорта в Office 365 Advanced eDiscovery.  '
-ms.openlocfilehash: 8c9f4c31d5c48ab0d9884e14321471d45c927ecd
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 936a9e15c2a8ad4ad6698c1145d969ec76810010
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32255477"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34152911"
 ---
 # <a name="export-case-data-in-office-365-advanced-ediscovery"></a>Экспорт данных вариантов в Office 365 Advanced eDiscovery
 

@@ -3,19 +3,19 @@ title: 'Семинар по информационному директоре п
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: tutorial
 ms.service: o365-seccomp
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Узнайте больше о принципах и рекомендациях по обеспечению безопасности модернизации в Организации.
-ms.openlocfilehash: bbe28d89280826202c9d338827ac2b1469c8a632
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: f5b296351ed0fe076f22c148487ed1044da3ae4f
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32243370"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34152141"
 ---
 # <a name="ciso-workshop-module-4b-threat-protection-strategy"></a>Модуль ЦИСО Workshop 4b: стратегия защиты от угроз 
 
@@ -56,7 +56,7 @@ ms.locfileid: "32243370"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtYMz]
 
-## <a name="part-8-dark-markets-and-criminal-forums-919"></a>Часть 8: темные рынки и противоЗаконные форумы (9:19)
+## <a name="part-8-dark-markets-and-criminal-forums-919"></a>Часть 8: темные рынки и противозаконные форумы (9:19)
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtYMn]
 

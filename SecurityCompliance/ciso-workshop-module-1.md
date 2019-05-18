@@ -3,19 +3,19 @@ title: 'Семинар по информационному директоре п
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: tutorial
 ms.service: o365-seccomp
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Узнайте больше о принципах и рекомендациях по обеспечению безопасности модернизации в Организации.
-ms.openlocfilehash: 08a0a3fc93745ec32459746fce737ac9e9e164ef
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 35f3feca7597eb3e80076eccc36e00debd754d01
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32244000"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34152161"
 ---
 # <a name="ciso-workshop-module-1-microsoft-cybersecurity-briefing"></a>Модуль семинара ЦИСО 1: Microsoft Циберсекурити Brief
 
@@ -36,7 +36,7 @@ ms.locfileid: "32244000"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtT8P]
 
-## <a name="part-4-critical-security-hygiene-and-technical-debt-403"></a>Часть 4: критическая безопасность санацией и техническое заДолженность (4:03)
+## <a name="part-4-critical-security-hygiene-and-technical-debt-403"></a>Часть 4: критическая безопасность санацией и техническое задолженность (4:03)
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtVXF]
 

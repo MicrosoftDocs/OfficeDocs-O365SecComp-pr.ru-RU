@@ -1,10 +1,10 @@
 ---
-title: Добавление результатов поиска в набор проверки
+title: Добавление результатов поиска в набор для проверки
 ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: fc32836026d1a2c449e73a28eafc2f5a631a1705
-ms.sourcegitcommit: 4ce350f8f3eb597587945a8ac9b33e9793440c64
+ms.openlocfilehash: 4de390972672509422e055cd3fd6a9f65d54a7ba
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33527271"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155241"
 ---
-# <a name="add-search-results-to-a-review-set"></a>Добавление результатов поиска в набор проверки
+# <a name="add-search-results-to-a-review-set"></a>Добавление результатов поиска в набор для проверки
 
 При удовлетворении результатов поиска и готовности к просмотру и анализу этих результатов поиска их можно добавить в набор проверки в случае. Копирование исходных данных в набор рецензирования также упрощает процесс анализа и анализа, предоставляя расширенные средства анализа, такие как обнаружение тем, обнаружение близких копий и идентификация цепочки сообщений электронной почты. Вы также можете добавлять данные из источников данных, отличных от Office 365, в набор проверки, чтобы вы могли просматривать эти данные в дополнение к данным, собранным из Office 365.
 

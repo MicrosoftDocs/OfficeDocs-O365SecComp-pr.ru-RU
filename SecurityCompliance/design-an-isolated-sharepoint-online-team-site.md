@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 12/15/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ ms.collection: Ent_O365
 ms.custom: Ent_Solutions
 ms.assetid: 775a4e9e-3135-4a48-b32f-bbdd9f2bd0aa
 description: Сводка. Пошаговое руководство по разработке изолированных сайтов групп SharePoint Online.
-ms.openlocfilehash: 09748fcc22a4a48efc4346ff75a225db612a0ef4
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 04634052354de47a09aa3b13e2c82d97be22f4d2
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32257189"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34150321"
 ---
 # <a name="design-an-isolated-sharepoint-online-team-site"></a>Разработка изолированного сайта группы SharePoint Online
 
@@ -43,7 +43,7 @@ ms.locfileid: "32257189"
   
 |**Группа SharePoint**|**Уровень разрешений**|
 |:-----|:-----|
-|\<Элементы сайта Наме_гт_  <br/> |Изменить  <br/> |
+|\<Элементы сайта Наме_гт_  <br/> |Edit  <br/> |
 |\<Посетители сайта Наме_гт_  <br/> |Чтение  <br/> |
 |\<Владельцы сайта Наме_гт_  <br/> |Полный доступ  <br/> |
    
@@ -83,7 +83,7 @@ ms.locfileid: "32257189"
   
 |**Группа SharePoint**|**Группа доступа на основе Azure AD**|**Уровень разрешений**|
 |:-----|:-----|:-----|
-|\<Элементы сайта Наме_гт_  <br/> |\<Элементы сайта Наме_гт_  <br/> |Изменить  <br/> |
+|\<Элементы сайта Наме_гт_  <br/> |\<Элементы сайта Наме_гт_  <br/> |Edit  <br/> |
 |\<Посетители сайта Наме_гт_  <br/> |\<Средства просмотра Наме_гт_ для сайта  <br/> |Чтение  <br/> |
 |\<Владельцы сайта Наме_гт_  <br/> |\<Администраторы Наме_гт_ сайта  <br/> |Полный доступ  <br/> |
    
@@ -128,7 +128,7 @@ ms.locfileid: "32257189"
   
 Так как все учетные записи пользователей в группах "исследование", "Проектирование" и "руководители проектов" предназначены для участников сайта, проще добавить свои группы Azure AD в группу доступа к участникам ProjectX.
   
-## <a name="next-step"></a>Следующее действие
+## <a name="next-step"></a>Следующий шаг
 
 Сведения о создании и настройке изолированного сайта в рабочей среде см. в статье [Deploy an isolated SharePoint Online team site](deploy-an-isolated-sharepoint-online-team-site.md).
   
