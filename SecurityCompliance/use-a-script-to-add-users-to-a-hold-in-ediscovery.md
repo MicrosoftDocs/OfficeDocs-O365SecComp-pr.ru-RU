@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 1/23/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ search.appverid:
 - MBS150
 ms.assetid: bad352ff-d5d2-45d8-ac2a-6cb832f10e73
 description: Запустите сценарий, чтобы быстро добавить почтовые ящики и сайты OneDrive для бизнеса в новое удержание, связанное с вариантом обнаружения электронных данных в центре обеспечения безопасности _Амп_.
-ms.openlocfilehash: 992fddad3bfbc9f08855bd85d87b0edf92b3cdbe
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: c680e584a6f729b3d6d0d74b84ddd0e03da6dc9a
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32263981"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156231"
 ---
 # <a name="use-a-script-to-add-users-to-a-hold-in-an-ediscovery-case-in-the-security--compliance-center"></a>Использование скрипта для добавления пользователей в удержание в случае обнаружения электронных данных в центре безопасности _Амп_ соответствия требованиям
 
@@ -35,7 +35,7 @@ ms.locfileid: "32263981"
   
 [Шаг 3: запуск скрипта для создания удержания и добавления пользователей](use-a-script-to-add-users-to-a-hold-in-ediscovery.md#step3)
   
-## <a name="before-you-begin"></a>До начала работы
+## <a name="before-you-begin"></a>Перед началом работы
 
 - Вы должны быть участником группы ролей "Диспетчер обнаружения электронных данных" в центре обеспечения безопасности _Амп_ и глобальном администраторе SharePoint Online для запуска сценария на шаге 3. Дополнительные сведения см в разделе [Назначение разрешений обнаружения электронных данных в центре безопасности _амп_ для Office 365](assign-ediscovery-permissions.md).
     

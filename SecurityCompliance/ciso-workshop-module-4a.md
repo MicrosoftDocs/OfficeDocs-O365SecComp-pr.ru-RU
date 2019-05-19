@@ -3,23 +3,23 @@ title: 'Семинар по информационному директоре п
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: tutorial
 ms.service: o365-seccomp
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Узнайте больше о принципах и рекомендациях по обеспечению безопасности модернизации в Организации.
-ms.openlocfilehash: e9d3d650517e590100f4e812f46e91ccb265dcaa
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: c9d418254db4a11716b4d1e58ecd683b92fdfd18
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32243330"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155491"
 ---
 # <a name="ciso-workshop-module-4a-threat-protection-strategy"></a>Модуль ЦИСО Workshop 4A: стратегия защиты от угроз
 
-ИзУчите основные сведения о защите от угроз, развитии безопасности, стратегиях и картах безопасности.
+Изучите основные сведения о защите от угроз, развитии безопасности, стратегиях и картах безопасности.
 
 - Загрузка PDF-файла: [модуль 4A: стратегия защиты от угроз](media/ciso-workshop-4a-threat-protection.pdf)
 - Загрузка сводки по PowerPoint: [модуль 4A: стратегия защиты от угроз](https://docs.microsoft.com/office365/securitycompliance/media/ciso-workshop-4a-threat-protection.pptx)

@@ -4,7 +4,7 @@ ms.author: chrfox
 author: chrfox
 manager: laurawi
 ms.date: 9/14/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,13 +12,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: b5c82de7-ed2f-4cc6-becd-db403faf4d18
-description: 'ИзУчите шаги, необходимые для проведения обучения, в том числе файлов тегирования, и просмотра результатов оценки в Office 365 Advanced eDiscovery. '
-ms.openlocfilehash: 02dae23b6489b40243272beea1d79e871ca6a911
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+description: 'Изучите шаги, необходимые для проведения обучения, в том числе файлов тегирования, и просмотра результатов оценки в Office 365 Advanced eDiscovery. '
+ms.openlocfilehash: 15463ac841e2fbbafe1fe502657a659f4a9e1883
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32260382"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156411"
 ---
 # <a name="tagging-and-assessment-in-office-365-advanced-ediscovery"></a>Маркировка и оценка в Office 365 Advanced eDiscovery
 
@@ -126,7 +126,7 @@ ms.locfileid: "32260382"
   
 [Понимание оценки релевантности](assessment-in-relevance-in-advanced-ediscovery.md)
   
-[РасСтановка тегов и релевантности](tagging-and-relevance-training-in-advanced-ediscovery.md)
+[Расстановка тегов и релевантности](tagging-and-relevance-training-in-advanced-ediscovery.md)
   
 [Анализ релевантности отслеживания](track-relevance-analysis-in-advanced-ediscovery.md)
   

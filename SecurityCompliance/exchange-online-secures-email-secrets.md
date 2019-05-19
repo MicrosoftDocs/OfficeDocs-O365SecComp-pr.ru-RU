@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 5/24/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ ms.assetid: 989ba10c-f73f-4efb-ad1b-af3322e5f376
 ms.collection:
 - M365-security-compliance
 description: Помимо центра управления безопасностью Office 365, который предоставляет сведения о безопасности, конфиденциальности и совместимости для Office 365, вы можете узнать, как Office 365 помогает защитить секреты, предоставляемые в центрах обработки данных. Мы используем технологию, именуемую диспетчером распределенных ключей (DKM).
-ms.openlocfilehash: ba4c661899273f5e07c2468631298f5500d0e32f
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 609d59b6e4da779e0fa663b40fdbf26036753669
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32255487"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154591"
 ---
 # <a name="how-exchange-online-secures-your-email-secrets"></a>Как Exchange Online защищает секреты вашей электронной почты
 
@@ -43,11 +43,11 @@ ms.locfileid: "32255487"
     
 - Корневые ключи службы управления правами (RMS). Это ключи клиентов, которые импортируются из Azure RMS или из локальных развертываний службы управления правами доменных служб Active Directory клиента, которые используются для шифрования и расшифровки электронных сообщений с помощью RMS или Microsoft 365 Message encryption (OME).
     
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Шифрование в Office 365](encryption.md)
   
-[Технические сведения о шифровании в Office 365](technical-reference-details-about-encryption.md)
+[Техническая справка по шифрованию в Office 365](technical-reference-details-about-encryption.md)
   
 [Гарантия обслуживания в центре безопасности &amp; Office 365](https://go.microsoft.com/fwlink/?linkid=874645)
   

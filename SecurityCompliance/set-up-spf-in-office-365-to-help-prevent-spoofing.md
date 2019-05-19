@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 2/19/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ ms.assetid: 71373291-83d2-466f-86ea-fc61493743a6
 ms.collection:
 - M365-security-compliance
 description: Сводка. в этой статье описывается, как обновить запись службы доменных имен (DNS), чтобы можно было использовать инфраструктуру политики отправителей (SPF) с настраиваемым доменом в Office 365. С помощью инфраструктуры политики отправителей можно проверять почту, отправляемую из личного домена.
-ms.openlocfilehash: 039a09e7dac307ead156eac47699edbd2350b304
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 5194a9a8a8b694bc2dbac0eaf9b50517e46a9064
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32260717"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158201"
 ---
 # <a name="set-up-spf-in-office-365-to-help-prevent-spoofing"></a>Настройка инфраструктуры политики отправителей в Office 365 для предотвращения спуфинга
 
@@ -64,8 +64,8 @@ ms.locfileid: "32260717"
 |4  <br/> |Только для Exchange Online  <br/> |Нераспространенная  <br/> |IP4:23.103.224.0/19 IP4:206.191.224.0/19 IP4:40.103.0.0/16 включают:SPF. Protection. Outlook. com  <br/> |
 |SP4  <br/> |Office 365 Germany, только Microsoft Cloud Germany  <br/> |Нераспространенная  <br/> |Включите:SPF. Protection. Outlook. de  <br/> |
 |17:00  <br/> |Сторонняя почтовая система  <br/> |Нераспространенная  <br/> |include:\<доменное имя\>,  <br/> Where domain name is the domain name of the third party email system.  <br/> |
-|ICMPv6  <br/> |Локальная почтовая система, например Exchange Online Protection с другой почтовой системой  <br/> |Нераспространенная  <br/> | Используйте один из следующих параметров для каждой дополнительной почтовой системы:  <br/>  ip4:\<  _IP address_\>  <br/>  ip6:\<  _IP address_\>  <br/>  include:\<  _domain name_\>  <br/>  где значение \<  _IP address_\>  это IP-адрес другой почтовой системы, а \< _domain name_\>  доменное имя другой почтовой системы, которая отправляет сообщения от имени вашего домена.  <br/> |
-|см  <br/> |Любая почтовая система (обязательно)  <br/> |Распространенная. Все записи SPF TXT заканчиваются этим значением  <br/> |\< _enforcement rule_\>  <br/> Это может быть одно из нескольких значений. Рекомендуем использовать значение **-all**.  <br/> |
+|6   <br/> |Локальная почтовая система, например Exchange Online Protection с другой почтовой системой  <br/> |Нераспространенная  <br/> | Используйте один из следующих параметров для каждой дополнительной почтовой системы:  <br/>  ip4:\<  _IP address_\>  <br/>  ip6:\<  _IP address_\>  <br/>  include:\<  _domain name_\>  <br/>  где значение \<  _IP address_\>  это IP-адрес другой почтовой системы, а \< _domain name_\>  доменное имя другой почтовой системы, которая отправляет сообщения от имени вашего домена.  <br/> |
+|7   <br/> |Любая почтовая система (обязательно)  <br/> |Распространенная. Все записи SPF TXT заканчиваются этим значением  <br/> |\< _enforcement rule_\>  <br/> Это может быть одно из нескольких значений. Рекомендуем использовать значение **-all**.  <br/> |
    
 1,1 например, если вы полностью размещены в Office 365, то есть у вас нет локальных почтовых серверов, запись SPF TXT будет содержать строки 1, 2 и 7 и будет выглядеть следующим образом:
     

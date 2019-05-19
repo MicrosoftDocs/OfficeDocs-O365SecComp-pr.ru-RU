@@ -4,7 +4,7 @@ ms.author: bcarter
 author: brendacarter
 manager: laurawi
 ms.date: 2/7/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.collection:
 - Ent_O365
@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Узнайте, как находить персональные данные в Office 365.
-ms.openlocfilehash: 3c2981116e2abb3518a132084a697618ef3261cc
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: b63cf930a38feab6df815b5350d60184a6339927
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32265341"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158521"
 ---
 # <a name="search-for-and-find-personal-data"></a>Поиск персональных данных
 
@@ -97,7 +97,7 @@ ms.locfileid: "32265341"
 <tbody>
 <tr class="odd"><td align="left"><p>Переход в раздел "Поиск контента" в Центре безопасности и соответствия требованиям</p></td>
 <td align="left"><p>В расположенной слева области Центра безопасности и соответствия требованиям щелкните **Поиск и исследования** &gt; **Поиск контента**.</p>
-<p>См. статью <a href="https://support.office.com/en-us/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a">Поиск содержимого в Центре безопасности и соответствия требованиям Office 365</a>.</p></td>
+<p>См. статью <a href="https://support.office.com/ru-RU/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a">Поиск содержимого в Центре безопасности и соответствия требованиям Office 365</a>.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>Создание искомого элемента для каждого типа конфиденциальной информации</p></td>
@@ -117,7 +117,7 @@ ms.locfileid: "32265341"
 <td align="left"><p>Проверьте запрос на наличие проблем следующего характера, чтобы убедиться в его точности:</p>
 <p><li>большое количество ложных срабатываний;</li></p>
 <p><li>отсутствие известных экземпляров данных.</li></p>
-<p>См. статью <a href="https://support.office.com/en-us/article/Export-Content-Search-results-from-the-Office-365-Security-Compliance-Center-ed48d448-3714-4c42-85f5-10f75f6a4278">Экспорт результатов поиска контента из Центра безопасности и соответствия требованиям Office 365</a>.</p>
+<p>См. статью <a href="https://support.office.com/ru-RU/article/Export-Content-Search-results-from-the-Office-365-Security-Compliance-Center-ed48d448-3714-4c42-85f5-10f75f6a4278">Экспорт результатов поиска контента из Центра безопасности и соответствия требованиям Office 365</a>.</p>
 <p>Примечание. Если вы используете Mozilla Firefox или Chrome, возможно, вам потребуется сначала скачать отчеты с помощью браузера Internet Explorer или Edge, чтобы установить необходимую надстройку.</p></td>
 </tr>
 </tbody>

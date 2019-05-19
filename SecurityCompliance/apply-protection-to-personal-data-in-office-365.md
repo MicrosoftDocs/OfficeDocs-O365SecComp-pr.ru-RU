@@ -4,7 +4,7 @@ ms.author: bcarter
 author: brendacarter
 manager: laurawi
 ms.date: 2/7/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.collection:
 - Ent_O365
@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Узнайте, как использовать политики защиты от потери данных для защиты персональных данных в Office 365.
-ms.openlocfilehash: 97a8c584cd010ae10a0416e47d8184c84f1e1ab9
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: b4754f5b8627b398c92d36baf2d48b04e67edcf9
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32243226"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155601"
 ---
 # <a name="apply-protection-to-personal-data-in-office-365"></a>Применение защиты к персональным данным в Office 365
 
@@ -142,7 +142,7 @@ ms.locfileid: "32243226"
 <tr class="odd">
 <td align="left">Уведомление пользователей о соответствии содержимого параметрам политики</td>
 <td align="left"><p>Установите этот флажок ("Отображать подсказки политик пользователям и отправлять уведомление по электронной почте").</p>
-<p>Щелкните "Настройка подсказки и уведомления по электронной почте" и обновите эти элементы в своей среде. Описание стандартных уведомлений см. в статье <a href="https://support.office.com/en-us/article/Send-email-notifications-and-show-policy-tips-for-DLP-policies-87496bc5-9601-4473-8021-cb05c71369c1?ui=en-US&amp;rs=en-US&amp;ad=US">Отправка уведомлений и отображение подсказок для политик защиты от потери данных</a>.</p></td>
+<p>Щелкните "Настройка подсказки и уведомления по электронной почте" и обновите эти элементы в своей среде. Описание стандартных уведомлений см. в статье <a href="https://support.office.com/ru-RU/article/Send-email-notifications-and-show-policy-tips-for-DLP-policies-87496bc5-9601-4473-8021-cb05c71369c1?ui=en-US&amp;rs=en-US&amp;ad=US">Отправка уведомлений и отображение подсказок для политик защиты от потери данных</a>.</p></td>
 </tr>
 <tr class="even">
 <td align="left">Обнаружение случаев одновременного предоставления общего доступа к конфиденциальной информации в определенном объеме</td>
@@ -248,9 +248,11 @@ ms.locfileid: "32243226"
 
 Дополнительные сведения:
 
--   [Уровни разрешений в SharePoint](https://support.office.com/ru-RU/article/Understanding-permission-levels-in-SharePoint-87ecbb0e-6550-491a-8826-c075e4859848)
+-   
+  [Уровни разрешений в SharePoint](https://support.office.com/ru-RU/article/Understanding-permission-levels-in-SharePoint-87ecbb0e-6550-491a-8826-c075e4859848)
 
--   [Общие сведения о группах SharePoint](https://support.office.com/ru-RU/article/Understanding-SharePoint-groups-94d9b261-161e-4ace-829e-eca1c8cd2eb8)
+-   
+  [Общие сведения о группах SharePoint](https://support.office.com/ru-RU/article/Understanding-SharePoint-groups-94d9b261-161e-4ace-829e-eca1c8cd2eb8)
 
 ### <a name="external-sharing-policies-for-sharepoint-and-onedrive-for-business-libraries"></a>Политики внешнего общего доступа для библиотек SharePoint и OneDrive для бизнеса
 
@@ -301,9 +303,10 @@ ms.locfileid: "32243226"
 Дополнительные сведения:
 
 -   
-  [Управление внешним доступом для среды SharePoint Online](https://support.office.com/en-us/article/Manage-external-sharing-for-your-SharePoint-Online-environment-C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85?ui=en-US&rs=en-US&ad=US)
+  [Управление внешним доступом для среды SharePoint Online](https://support.office.com/ru-RU/article/Manage-external-sharing-for-your-SharePoint-Online-environment-C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85?ui=en-US&rs=en-US&ad=US)
 
--   [Предоставление общего доступа к сайтам и документам пользователям за пределами организации](https://support.office.com/ru-RU/article/Share-sites-or-documents-with-people-outside-your-organization-80e49744-e30f-44db-8d51-16661b1d4232)
+-   
+  [Предоставление общего доступа к сайтам и документам пользователям за пределами организации](https://support.office.com/ru-RU/article/Share-sites-or-documents-with-people-outside-your-organization-80e49744-e30f-44db-8d51-16661b1d4232)
 
 ### <a name="site-level-device-access-policies"></a>Политики доступа к устройствам на уровне сайта
 
@@ -352,7 +355,7 @@ ms.locfileid: "32243226"
 </tbody>
 </table>
 
-Дополнительные сведения: [Центр администрирования SharePoint Online. Управление доступом с неуправляемых устройств](https://support.office.com/en-us/article/Control-access-from-unmanaged-devices-5ae550c4-bd20-4257-847b-5c20fb053622?ui=en-US&rs=en-US&ad=US).
+Дополнительные сведения: [Центр администрирования SharePoint Online. Управление доступом с неуправляемых устройств](https://support.office.com/ru-RU/article/Control-access-from-unmanaged-devices-5ae550c4-bd20-4257-847b-5c20fb053622?ui=en-US&rs=en-US&ad=US).
 
 ## <a name="service-access-protection-for-identities-and-devices"></a>Защита при доступе к службам для пользователей и устройств
 

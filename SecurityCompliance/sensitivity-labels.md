@@ -4,7 +4,7 @@ ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Priority
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: С помощью меток конфиденциальности вы можете классифицировать и защищать конфиденциальное содержимое, не мешая совместной работе и производительности пользователей. Метки конфиденциальности можно использовать для применения параметров защиты, например шифрования или подложек для содержимого с метками.
-ms.openlocfilehash: f8442bc9fbeb32cb71fb46c4e5a54c9e1f0dce4b
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 21b325454c659d72e27349ede9015a0f4bde6dcb
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32265825"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155981"
 ---
 # <a name="overview-of-sensitivity-labels"></a>Обзор меток конфиденциальности
 
@@ -75,7 +75,7 @@ ms.locfileid: "32265825"
     ![Подложка и верхний колонтитул, примененные к документу](media/Sensitivity_label_watermark_header.png)
 
 - 
-  **Предотвращать потерю данных**, включив защиту конечных точек в Intune. При скачивании конфиденциального контента можно обеспечить защиту от потери данных с устройств с Windows. Например, вы не можете копировать помеченный контент в Dropbox, Gmail или USB-носитель. Прежде чем метки конфиденциальности смогут использовать Windows Information Protection (WIP), необходимо создать политику защиты приложений на портале Azure. Дополнительные сведения см. в статье [Как Windows Information Protection защищает файлы с меткой конфиденциальности](https://docs.microsoft.com/en-us/windows/security/information-protection/windows-information-protection/how-wip-works-with-labels?branch=vsts17546553).
+  **Предотвращать потерю данных**, включив защиту конечных точек в Intune. При скачивании конфиденциального контента можно обеспечить защиту от потери данных с устройств с Windows. Например, вы не можете копировать помеченный контент в Dropbox, Gmail или USB-носитель. Прежде чем метки конфиденциальности смогут использовать Windows Information Protection (WIP), необходимо создать политику защиты приложений на портале Azure. Дополнительные сведения см. в статье [Как Windows Information Protection защищает файлы с меткой конфиденциальности](https://docs.microsoft.com/ru-RU/windows/security/information-protection/windows-information-protection/how-wip-works-with-labels?branch=vsts17546553).
 
 - **Автоматически присваивать метку содержимому с конфиденциальной информацией.** Вы можете выбрать, какие типы конфиденциальной информации нужно помечать. Метку можно присваивать автоматически, или можно отображать для пользователей запрос на присвоение рекомендуемой метки. Если вы рекомендуете метку, текст запроса может быть любым. Дополнительные сведения см. в статье [Автоматическое применение метки конфиденциальности к содержимому](apply_sensitivity_label_automatically.md).
 
@@ -185,8 +185,10 @@ ms.locfileid: "32265825"
 
 ### <a name="more-information-on-sensitivity-labels-in-office-apps"></a>Дополнительные сведения о метках конфиденциальности в приложениях Office
 
-- [Присваивание меток конфиденциальности документам и сообщениям электронной почты в Office](https://support.office.com/ru-RU/article/apply-sensitivity-labels-to-your-documents-and-email-within-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
-- [Известные проблемы при присваивании меток конфиденциальности файлам Office](https://support.office.com/ru-RU/article/known-issues-when-you-apply-sensitivity-labels-to-your-office-files-b169d687-2bbd-4e21-a440-7da1b2743edc)
+- 
+  [Присваивание меток конфиденциальности документам и сообщениям электронной почты в Office](https://support.office.com/ru-RU/article/apply-sensitivity-labels-to-your-documents-and-email-within-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
+- 
+  [Известные проблемы при присваивании меток конфиденциальности файлам Office](https://support.office.com/ru-RU/article/known-issues-when-you-apply-sensitivity-labels-to-your-office-files-b169d687-2bbd-4e21-a440-7da1b2743edc)
 
 ## <a name="how-sensitivity-labels-work-with-existing-azure-information-protection-labels"></a>Как метки конфиденциальности взаимодействуют с существующими метками Azure Information Protection
 
@@ -215,13 +217,16 @@ ms.locfileid: "32265825"
 
 ### <a name="important-prerequisites"></a>Важные предварительные условия
 
-Прежде чем метки конфиденциальности смогут использовать WIP, требуется выполнить предварительные условия, описанные в статье [Как Windows Information Protection защищает файлы с метками конфиденциальности](https://docs.microsoft.com/en-us/windows/security/information-protection/windows-information-protection/how-wip-works-with-labels?branch=vsts17546553). В ней описаны следующие предварительные условия.
+Прежде чем метки конфиденциальности смогут использовать WIP, требуется выполнить предварительные условия, описанные в статье [Как Windows Information Protection защищает файлы с метками конфиденциальности](https://docs.microsoft.com/ru-RU/windows/security/information-protection/windows-information-protection/how-wip-works-with-labels?branch=vsts17546553). В ней описаны следующие предварительные условия.
 
 - Подтверждение использования операционной системы Windows 10 версии 1809 или более поздней версии.
-- [Настройка защиты Advanced Threat Protection в Защитнике Windows (WDATP)](https://docs.microsoft.com/ru-RU/windows/security/threat-protection/windows-defender-atp/get-started), которая проверяет контент на наличие метки и применяет соответствующую защиту WIP. ATP выполняет некоторые действия независимо от WIP, например сообщает об аномалиях.
+- 
+  [Настройка защиты Advanced Threat Protection в Защитнике Windows (WDATP)](https://docs.microsoft.com/ru-RU/windows/security/threat-protection/windows-defender-atp/get-started), которая проверяет контент на наличие метки и применяет соответствующую защиту WIP. ATP выполняет некоторые действия независимо от WIP, например сообщает об аномалиях.
 - Создание политики Windows Information Protection (WIP), применяемой к устройствам конечных точек. Это можно выполнить в любом из этих расположений:
-    - [Создание политики Windows Information Protection (WIP) с использованием MDM с помощью портала Azure для Microsoft Intune](https://docs.microsoft.com/ru-RU/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure)
-    - [Создание и развертывание политики Windows Information Protection (WIP) с помощью System Center Configuration Manager](https://docs.microsoft.com/ru-RU/windows/security/information-protection/windows-information-protection/create-wip-policy-using-sccm)
+    - 
+  [Создание политики Windows Information Protection (WIP) с использованием MDM с помощью портала Azure для Microsoft Intune](https://docs.microsoft.com/ru-RU/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure)
+    - 
+  [Создание и развертывание политики Windows Information Protection (WIP) с помощью System Center Configuration Manager](https://docs.microsoft.com/ru-RU/windows/security/information-protection/windows-information-protection/create-wip-policy-using-sccm)
 
 ## <a name="protect-content-in-third-party-apps-and-services-by-using-microsoft-cloud-app-security"></a>Защита содержимого в сторонних приложениях и службах с помощью Microsoft Cloud App Security
 
@@ -233,8 +238,10 @@ ms.locfileid: "32265825"
 
 Прежде чем метки конфиденциальности смогут использовать CAS, требуется выполнить предварительные условия, описанные в статье [Автоматическое применение меток классификации Azure Information Protection](https://docs.microsoft.com/ru-RU/cloud-app-security/use-case-information-protection). В ней описаны следующие предварительные условия:
 
-- [Включение Cloud App Security и Azure Information Protection](https://docs.microsoft.com/ru-RU/cloud-app-security/azip-integration) для вашего клиента.
-- [Подключение приложения](https://docs.microsoft.com/ru-RU/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps) к Cloud App Security.
+- 
+  [Включение Cloud App Security и Azure Information Protection](https://docs.microsoft.com/ru-RU/cloud-app-security/azip-integration) для вашего клиента.
+- 
+  [Подключение приложения](https://docs.microsoft.com/ru-RU/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps) к Cloud App Security.
 
 ## <a name="extend-sensitivity-labels-to-third-party-apps-and-services-by-using-the-microsoft-information-protection-sdk"></a>Расширение применения меток конфиденциальности для сторонних приложений и служб с помощью SDK Microsoft Information Protection
 

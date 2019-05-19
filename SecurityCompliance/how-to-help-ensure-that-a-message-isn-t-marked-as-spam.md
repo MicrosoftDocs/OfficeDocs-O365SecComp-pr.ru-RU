@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 12/9/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ ms.assetid: ceeda109-6c24-4270-bd09-a36959417276
 ms.collection:
 - M365-security-compliance
 description: Администратор Exchange Online или Exchange Online Protection (EOP) может исключить отнесение сообщений к спаму при передаче их через эту службу. Для этого в статье Использование списка надежных отправителей и других приемов для предотвращения ложных срабатываний при пометке сообщений как спама приведены обновленные подсказки и процедуры.
-ms.openlocfilehash: bfd0ea72facbf5675e47177c7757ff5fe168ffe7
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: fc441242a9c90be8733cebf49bc5d6f5ccae1aaa
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32255217"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154251"
 ---
 # <a name="how-to-help-ensure-that-a-message-isnt-marked-as-spam"></a>Как помочь гарантировать, что сообщение не будет помечено как спам
 

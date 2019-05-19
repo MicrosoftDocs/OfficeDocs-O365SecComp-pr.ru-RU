@@ -3,7 +3,7 @@ title: Управление юридическим расследованиям 
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e
 description: Используйте случаи обнаружения электронных данных в центре безопасности _Амп_ соответствия требованиям в Office 365, чтобы управлять юридическим исследованием Организации. Если у вас есть подписка на "а", вы можете проанализировать данные дела с помощью аналитики текста, машинного обучения и прогнозирования возможностей кодирования расширенного обнаружения электронных данных.
-ms.openlocfilehash: 5bfa4719f2bb065a7064e7dc9d02778a4d032da8
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 6f5b7bc7b1c8d672efe60629b1ccf1315c8b74dd
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32252097"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155731"
 ---
 # <a name="manage-legal-investigations-in-office-365"></a>Управление юридическим расследованиям в Office 365
 
@@ -42,7 +42,7 @@ ms.locfileid: "32252097"
     
 - [Поиск контента](search-for-content.md) в Организации 
     
-- [Подготовить содержимое к обращению для расширенНого обнаружения электронных данных](prepare-search-results-for-advanced-ediscovery.md) , чтобы можно было выполнить анализ с помощью расширенных аналитических средств обнаружения электронных данных, таких как распознавание текста, цепочки электронной почты и прогнозирование кода 
+- [Подготовить содержимое к обращению для расширенного обнаружения электронных данных](prepare-search-results-for-advanced-ediscovery.md) , чтобы можно было выполнить анализ с помощью расширенных аналитических средств обнаружения электронных данных, таких как распознавание текста, цепочки электронной почты и прогнозирование кода 
     
 ### <a name="use-scripts-for-advanced-scenarios"></a>Использование сценариев в сложных сценариях
 
@@ -50,7 +50,7 @@ ms.locfileid: "32252097"
   
 - [Создание отчета о удержаниях электронных](create-a-report-on-holds-in-ediscovery-cases.md) данных, который содержит сведения обо всех удержаниях, связанных с делами обнаружения электронных данных в Организации 
     
-- [Добавление почтовых ящиков и расположенИй OneDrive](use-a-script-to-add-users-to-a-hold-in-ediscovery.md) для списка пользователей в удержание eDiscovery 
+- [Добавление почтовых ящиков и расположений OneDrive](use-a-script-to-add-users-to-a-hold-in-ediscovery.md) для списка пользователей в удержание eDiscovery 
   
 ## <a name="analyze-case-data-using-office-365-advanced-ediscovery"></a>Анализ данных о делах с помощью Office 365 Advanced eDiscovery
 

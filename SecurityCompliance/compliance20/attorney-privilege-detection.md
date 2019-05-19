@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 description: ''
-ms.openlocfilehash: 6838203a500a4fe600d8186a4b848beed0730665
-ms.sourcegitcommit: 865b3dc071150b20bf3967e1263fc54e75898284
+ms.openlocfilehash: ee5f2257e73467c50a0ecc296d8d3b70b7c3d0f8
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835069"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155191"
 ---
 # <a name="set-up-attorney-client-privilege-detection-preview-in-advanced-ediscovery"></a>Настройка юриста — обнаружение прав клиента (Предварительная версия) в Advanced eDiscovery
 
@@ -65,7 +65,7 @@ ms.locfileid: "33835069"
 
 ### <a name="step-2-create-a-smart-tag-group-with-attorney-client-privilege-detection-model"></a>Шаг 2: создание группы смарт-тегов с использованием доверенности — модели обнаружения прав клиентов
 
-С помощью группы смарт-тегов один из основных способов использования результатов обнаружения доверенности клиента в процессе проверки заключается в использовании группы смарт-тегов. Группы смарт-тегов получают результаты модели ML и отображают результаты модели в строке рядом с тегами, чтобы можно было легко использовать результаты модели, в том числе и теги в процессе проверки, так же, как и любые другие теги на панели маркировки.
+С помощью группы смарт-тегов один из основных способов использования результатов обнаружения доверенности клиента в процессе проверки заключается в использовании группы смарт-тегов. Группы смарт-тегов получают результаты модели ML и отображают результаты модели в строке рядом с тегами, чтобы можно было легко использовать результаты модели, в том числе и теги в процессе проверки, так же, как и любые другие теги на панели маркировки. Дополнительные сведения можно найти в статье [Настройка смарт-тегов для экспертной проверки в Advanced eDiscovery](smart-tags.md) .
 
 - В разделе "Управление тегами" щелкните ссылку "добавить раздел смарт-тега".
 

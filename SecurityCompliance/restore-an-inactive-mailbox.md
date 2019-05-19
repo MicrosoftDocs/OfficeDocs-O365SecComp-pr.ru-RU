@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 8/28/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 97e06a7a-ef9a-4ce8-baea-18b9e20449a3
 description: Если новому сотруднику или другому пользователю требуется доступ к содержимому неактивного почтового ящика в Office 365, можно восстановить (или объединить) содержимое неактивного почтового ящика в существующий почтовый ящик.
-ms.openlocfilehash: 1b80cf5bf9361959f1622b7b42f5c7598609539c
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 6bd147296e4324c5f75ff808768f8899cf9b59fd
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32264929"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157311"
 ---
 # <a name="restore-an-inactive-mailbox-in-office-365"></a>Восстановление неактивного почтового ящика в Office 365
 
@@ -31,7 +31,7 @@ ms.locfileid: "32264929"
     
 В разделе **Дополнительные сведения** этой статьи представлены дополнительные сведения о различиях между восстановлением и восстановлением неактивного почтового ящика. 
   
-## <a name="before-you-begin"></a>До начала работы
+## <a name="before-you-begin"></a>Перед началом работы
 
 - Для восстановления неактивного почтового ящика необходимо использовать Exchange Online PowerShell. Вы не можете сделать этого в Центре администрирования Exchange (EAC). Пошаговые инструкции приведены [в статье подключение к Exchange Online PowerShell](https://go.microsoft.com/fwlink/?linkid=396554).
     
@@ -43,7 +43,7 @@ ms.locfileid: "32264929"
 
      Используйте полученную информацию для восстановления определенного неактивного почтового ящика.
     
-- Дополнительные сведения о неактивных почтовых ящиках приведены в статье неАктивные почтовые [ящики в Office 365](inactive-mailboxes-in-office-365.md)
+- Дополнительные сведения о неактивных почтовых ящиках приведены в статье Неактивные почтовые [ящики в Office 365](inactive-mailboxes-in-office-365.md)
     
 ## <a name="restore-an-inactive-mailbox"></a>Восстановление неактивного почтового ящика
 

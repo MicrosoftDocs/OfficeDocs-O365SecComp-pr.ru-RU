@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 6/8/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority\
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: d104fb44-1c42-4541-89a6-1f67be22e4ad
 description: Сведения о том, как получать доступ к Azure Active Directory в составе платной подписки организации на Office 365.
-ms.openlocfilehash: c49f6ca6aba109346ceea4558fe050b0cc561600
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: a816e4e3d945ba361cc027658a977765190d0df2
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32242606"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157841"
 ---
 # <a name="use-your-free-azure-active-directory-subscription-in-office-365"></a>Использование бесплатной подписки на Azure Active Directory в Office 365
 
@@ -41,6 +41,6 @@ ms.locfileid: "32242606"
     
 ## <a name="more-information"></a>Дополнительные сведения
 
-- Вы также можете получить доступ к центру администрирования **Azure Active Directory** из центра администрирования Microsoft 365. в левой области навигации центра администрирования Microsoft 365 щелкните **центр** \> администрирования **Azure Active Directory**.
+- Вы также можете получить доступ к центру администрирования **Azure Active Directory** из центра администрирования Microsoft 365. В левой области навигации центра администрирования Microsoft 365 щелкните **центр** \> администрирования **Azure Active Directory**.
     
 - Сведения об управлении пользователями и группами, а также о выполнении других задач по управлению каталогом см. в статье [Управление каталогом Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-administer).

@@ -4,7 +4,7 @@ ms.author: krowley
 author: kccross
 manager: laurawi
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,16 +13,16 @@ search.appverid:
 - MET150
 ms.assetid: 239ce6eb-4e81-42db-bf86-a01362fed65c
 description: Узнайте, как использовать IRM SharePoint Online с помощью службы управления правами (RMS) Microsoft Azure Active Directory для защиты списков и библиотек документов SharePoint.
-ms.openlocfilehash: 6b68135720846a0e74f5b0272dc5f25272381284
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 0df2639a12472ab6452afb7d9b66bc48beb9ba1f
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32260776"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156561"
 ---
 # <a name="set-up-information-rights-management-irm-in-sharepoint-admin-center"></a>Set up Information Rights Management (IRM) in SharePoint admin center
 
-## <a name="introduction"></a>Введение
+## <a name="introduction"></a>Общие сведения
 
 В SharePoint Online защита IRM применяется к файлам на уровне списка и библиотеки. Прежде чем ваша организация сможет использовать защиту IRM, сначала необходимо настроить управление правами. Служба управления правами на доступ к данным Azure использует службу управления правами Azure из Azure Information Protection для шифрования и назначения ограничений на использование. Некоторые планы Office 365 включают в себя управление правами Azure, но не все. Чтобы узнать больше, прочитайте [о том, как приложения и службы Office поддерживают управление правами Azure](https://docs.microsoft.com/azure/information-protection/understand-explore/office-apps-services-support).
   
@@ -70,7 +70,7 @@ SharePoint Online поддерживает шифрование следующи
 
 После включения службы управления правами на доступ к данным для SharePoint Online можно приступить к применению управления правами к спискам и библиотекам. Сведения см. в статье [применение управления правами на доступ к данным для списка или библиотеки](apply-irm-to-a-list-or-library.md).
   
-Новый клиент синхронизации OneDrive для Windows теперь поддерживает синхронизацию библиотек документов SharePoint, защищенных с помощью IRM, и расположений OneDrive (при условии, что для параметра IRM для библиотеки не задан срок действия прав доступа к документу). Чтобы получить дополнительные сведения или приступить к развертыванию нового клиента синхронизации, ознакомьтесь [со статьЕй развертывание нового клиента синхронизации OneDrive для Windows](https://support.office.com/article/3f3a511c-30c6-404a-98bf-76f95c519668).
+Новый клиент синхронизации OneDrive для Windows теперь поддерживает синхронизацию библиотек документов SharePoint, защищенных с помощью IRM, и расположений OneDrive (при условии, что для параметра IRM для библиотеки не задан срок действия прав доступа к документу). Чтобы получить дополнительные сведения или приступить к развертыванию нового клиента синхронизации, ознакомьтесь [со статьей развертывание нового клиента синхронизации OneDrive для Windows](https://support.office.com/article/3f3a511c-30c6-404a-98bf-76f95c519668).
   
 [Top of page](#introduction)  
 

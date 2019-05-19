@@ -3,7 +3,7 @@ title: Аналитика поток почты в Office 365
 ms.author: chrisda
 author: chrisda
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -11,12 +11,12 @@ search.appverid:
 - MET150
 ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: Администраторы могут узнать о кодах ошибок, связанных с доставкой сообщений с помощью соединителей в Office 365 (также известной как логика обработки почтового процесса).
-ms.openlocfilehash: d9ddfdf7c54c8dc709c3d5ae03d9fbd76a153f7e
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 224940b84480b694188bd3047829d4896cc2584e
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32252506"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155871"
 ---
 # <a name="mail-flow-intelligence-in-office-365"></a>Логика потока обработки почты в Office 365
 
@@ -124,7 +124,7 @@ Office 365 генерирует ошибку, когда сообщение не
 
 ### <a name="how-do-i-fix-error-code-450-47320"></a>Как исправить ошибку с кодом 450 4.7.320?
 
-- ИсПравьте сертификат или параметры на соединителе, чтобы можно было доставить сообщения в очереди в Office 365.
+- Исправьте сертификат или параметры на соединителе, чтобы можно было доставить сообщения в очереди в Office 365.
 
 - Если ошибка связана с партнерской организацией (например, сторонним поставщиком облачных служб), свяжитесь с ней, чтобы решить проблему.
 

@@ -4,7 +4,7 @@ ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Priority
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'С помощью политики хранения вы можете заблаговременно решить, как поступить с содержимым. Она позволяет следующее: хранить содержимое, удалить или удалить через какое-то время; применить единую политику ко всей организации или только к некоторым расположениям либо пользователям; применить политику ко всему содержимому или только такому, которое удовлетворяет определенным условиям.'
-ms.openlocfilehash: 55680f16e92d33c2cbf612b6aabae1f51778f93a
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 43948106c69f2a49ce36631acc9d14365d8a2eb9
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32265205"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156971"
 ---
 # <a name="overview-of-retention-policies"></a>Общие сведения о политиках хранения
 

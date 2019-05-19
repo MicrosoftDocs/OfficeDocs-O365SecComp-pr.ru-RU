@@ -3,7 +3,7 @@ title: Повторный поиск контента для устранени�
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Используйте кнопку Retry (повторить) для разрешения поиска контента с ошибками расположения контента.
-ms.openlocfilehash: 0963bccfe88a74b82ec3155469ca6d892bf2f7d8
-ms.sourcegitcommit: 72e8a74b55fe7f56b50e30ff10a635734b5a3220
+ms.openlocfilehash: ab6f33e00a057ccd9ee7b80e0499b2838855ac83
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2019
-ms.locfileid: "33472384"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157071"
 ---
 # <a name="retry-a-content-search-to-resolve-a-content-location-error"></a>Повторный поиск контента для устранения ошибки размещения контента
 

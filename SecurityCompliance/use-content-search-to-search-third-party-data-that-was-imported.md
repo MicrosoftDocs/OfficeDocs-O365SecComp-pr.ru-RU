@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 10/27/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
@@ -12,12 +12,12 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: ec2677ff-c4d7-4363-a9e7-22c80e015688
 description: Воспользуйтесь средством поиска обнаружения электронных данных поиска контента для поиска элементов, импортированных в почтовые ящики в Office 365, из стороннего источника данных. Можно создать запрос для поиска всех импортированных элементов или создать запрос для поиска определенных типов данных третьих сторон. В этой статье перечислены значения, которые можно использовать в запросе с ключевыми словами для поиска в сторонних типах данных, которые можно импортировать в Office 365.
-ms.openlocfilehash: c71472b5e6d9b992196780aba55e3775823447ab
-ms.sourcegitcommit: e23b84ef4eee9cccec7205826b71ddfe9aaac2f8
+ms.openlocfilehash: 4a611ed04cc102aad4d978a379efbf46a0bd70e2
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402907"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156211"
 ---
 # <a name="use-content-search-to-search-third-party-data-that-was-imported-to-office-365"></a>Поиск данных третьих сторон, импортированных в Office 365, с помощью поиска контента
 
@@ -63,7 +63,7 @@ itemclass:ipm.externaldata.Facebook* AND subject:contoso
 |Axs Encrypted;  <br/> | `ipm.externaldata.AxsEncrypted*` <br/> |
 |Axs Exchange;  <br/> | `ipm.externaldata.AxsExchange*` <br/> |
 |Axs Local Archive;  <br/> | `ipm.externaldata.AxsLocalArchive*` <br/> |
-|ЗаПолнитель AXS  <br/> | `ipm.externaldata.AxsPlaceHolder*` <br/> |
+|Заполнитель AXS  <br/> | `ipm.externaldata.AxsPlaceHolder*` <br/> |
 |Axs Signed;  <br/> | `ipm.externaldata.AxsSigned*` <br/> |
 |Базаарвоице  <br/> | `ipm.externaldata.Bazaarvoice*` <br/> |
 |Беаршаре  <br/> | `ipm.externaldata.Bearshare*` <br/> |
@@ -77,7 +77,7 @@ itemclass:ipm.externaldata.Facebook* AND subject:contoso
 |Bloomberg Mail;  <br/> | `ipm.externaldata.BloombergMail*` <br/> |
 |Обмен сообщениями Bloomberg  <br/> | `ipm.externaldata.BloombergMessaging*` <br/> |
 |Box  <br/> | `ipm.externaldata.Box*` <br/> |
-|Сервер присутствия &amp; для обмена МГНОВЕНными сообщениями Cisco  <br/> | `ipm.externaldata.Jabber.IM` <br/> |
+|Сервер присутствия &amp; для обмена мгновенными сообщениями Cisco  <br/> | `ipm.externaldata.Jabber.IM` <br/> |
 |Cisco Jabber;  <br/> | `ipm.externaldata.Jabber*` <br/> |
 |CipherCloud для Salesforce Chatter;  <br/> | `ipm.externaldata.Chatter.Post` <br/>  `ipm.externaldata.Chatter.Comment` <br/> |
 |Direct Connect;  <br/> | `ipm.externaldata.DirectConnect*` <br/> |
@@ -106,7 +106,7 @@ itemclass:ipm.externaldata.Facebook* AND subject:contoso
 |LinkedIn  <br/> | `ipm.externaldata.LinkedIn*` <br/> |
 |МФТП  <br/> | `ipm.externaldata.MFTP*` <br/> |
 |Microsoft UC  <br/> | `ipm.externaldata.MicrosoftUC*` <br/> |
-|ВыРовнять по расМнению  <br/> | `ipm.externaldata.MindAlign*` <br/> |
+|Выровнять по расмнению  <br/> | `ipm.externaldata.MindAlign*` <br/> |
 |Mobile Guard;  <br/> | `ipm.externaldata.MobileGuard*` <br/> |
 |СЕТЬЮ  <br/> | `ipm.externaldata.MSN*` <br/> |
 |Миспаце  <br/> | `ipm.externaldata.MySpace*` <br/> |

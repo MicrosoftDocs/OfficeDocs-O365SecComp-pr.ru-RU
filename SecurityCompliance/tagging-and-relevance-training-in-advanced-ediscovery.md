@@ -4,7 +4,7 @@ ms.author: chrfox
 author: chrfox
 manager: laurawi
 ms.date: 9/14/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 8576cc86-d51b-4285-b54b-67184714cc62
 description: 'В этой статье рассказывается о том, как пометить и затем работать с обучающим образцом, в котором находится 40 файлов, на этапе обучения для Office 365 Advanced eDiscovery.  '
-ms.openlocfilehash: e8c9c02d72a756565f6fe59011a6788f592463eb
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 82380acc2ea90a600a3dd14f58c6d9bf0a06a1a6
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32260424"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158351"
 ---
 # <a name="tagging-and-relevance-training-in-office-365-advanced-ediscovery"></a>Маркировка и обучение по релевантности в Office 365 Advanced eDiscovery
 
@@ -70,7 +70,7 @@ ms.locfileid: "32260424"
     
 4. Инструкции по разметке можно просмотреть, выбрав параметр **рекомендации** по разметке в раскрывающемся списке области слева. 
     
-5. После того как вы закончите маркировку всех файлов в списке и будете готовы вычислить результаты, нажмите кнопку выЧислить. **** Отображается вкладка **Отслеживание** . 
+5. После того как вы закончите маркировку всех файлов в списке и будете готовы вычислить результаты, нажмите кнопку вычислить. **** Отображается вкладка **Отслеживание** . 
     
 ## <a name="working-with-the-sample-files-list"></a>Работа со списком образцов файлов
 

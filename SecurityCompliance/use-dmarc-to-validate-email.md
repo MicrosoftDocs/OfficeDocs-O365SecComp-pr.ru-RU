@@ -3,7 +3,7 @@ title: Использование протокола DMARC для проверк
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,17 +12,17 @@ search.appverid:
 ms.assetid: 4a05898c-b8e4-4eab-bd70-ee912e349737
 ms.collection:
 - M365-security-compliance
-description: Узнайте, как настроить проверку поДлинности на основе домена, создание отчетов и соответствие DMARC для проверки сообщений, отправленных из вашей организации Office 365.
-ms.openlocfilehash: de92825726225549fda1b0dc57d737763f273043
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+description: Узнайте, как настроить проверку подлинности на основе домена, создание отчетов и соответствие DMARC для проверки сообщений, отправленных из вашей организации Office 365.
+ms.openlocfilehash: 9e3c2cd21e411d775f621c8b353bee9e6b0e235e
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32263731"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156191"
 ---
 # <a name="use-dmarc-to-validate-email-in-office-365"></a>Использование протокола DMARC для проверки электронной почты в Office 365
 
-Проверка поДлинности на основе доменов, составление отчетов и обеспечение соответствия ([DMARC](https://dmarc.org)) осуществляется с помощью инфраструктуры политики отправителей (SPF) и идентифицированной почты DOMAINKEYS identified mail (DKIM) для проверки подлинности отправителей почты и отправки сообщений о доверии конечным системам электронной почты от Ваш домен. Реализация DMARC в сочетании с SPF и DKIM обеспечивает дополнительную защиту от спуфинга и фишинга. DMARC помогает получающим почтовым системам определить, что делать с сообщениями, отправленными из вашего домена, которые не прошли проверки SPF или DKIM.
+Проверка подлинности на основе доменов, составление отчетов и обеспечение соответствия ([DMARC](https://dmarc.org)) осуществляется с помощью инфраструктуры политики отправителей (SPF) и идентифицированной почты DOMAINKEYS identified mail (DKIM) для проверки подлинности отправителей почты и отправки сообщений о доверии конечным системам электронной почты от Ваш домен. Реализация DMARC в сочетании с SPF и DKIM обеспечивает дополнительную защиту от спуфинга и фишинга. DMARC помогает получающим почтовым системам определить, что делать с сообщениями, отправленными из вашего домена, которые не прошли проверки SPF или DKIM.
   
 ## <a name="how-do-spf-and-dmarc-work-together-to-protect-email-in-office-365"></a>Как SPF в сочетании с протоколом DMARC обеспечивают защиту электронной почты в Office 365?
 <a name="SPFandDMARC"> </a>

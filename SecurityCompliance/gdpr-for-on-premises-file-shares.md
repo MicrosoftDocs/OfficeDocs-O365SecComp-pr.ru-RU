@@ -3,17 +3,17 @@ title: GDPR для локальных общих папок
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
 description: Узнайте, как обеспечивать соблюдение требований GDPR в локальных общих папках Windows Server.
-ms.openlocfilehash: 14af73a2ff2a162f2f3e621c2efeb5d9050c069a
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: b5d5023ec8a052dc51575fa01f9cb77c4bf001c4
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32255227"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34152701"
 ---
 # <a name="gdpr-for-on-premises-windows-server-file-shares"></a>GDPR для локальных общих папок Windows Server
 

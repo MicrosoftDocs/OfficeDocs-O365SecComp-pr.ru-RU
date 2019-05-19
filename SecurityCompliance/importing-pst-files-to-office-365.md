@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: overview
 f1_keywords:
 - ms.o365.cc.IngestionHelp
@@ -15,13 +15,13 @@ ms.collection:
 - M365-security-compliance
 search.appverid: MET150
 ms.assetid: ba688e0a-0fcb-4bd7-8e57-2b669564ea84
-description: 'Для администраторов: сведения об использовании службы импорта в центре безопасности _Амп_ соответствие требованиям для массового импорта данных электронной почты (PST-файлов) в почтовые ящики пользователей в Exchange Online. В этом разделе приведены часто заДаваемые вопросы и сведения о том, как работает процесс импорта PST-файлов.'
-ms.openlocfilehash: afe19076f2b0cd8dd5dfe3a596d80a7b65e8a891
-ms.sourcegitcommit: e23b84ef4eee9cccec7205826b71ddfe9aaac2f8
+description: 'Для администраторов: сведения об использовании службы импорта в центре безопасности _Амп_ соответствие требованиям для массового импорта данных электронной почты (PST-файлов) в почтовые ящики пользователей в Exchange Online. В этом разделе приведены часто задаваемые вопросы и сведения о том, как работает процесс импорта PST-файлов.'
+ms.openlocfilehash: ab623c531f5e322a99aef5c8c33f110fc140a6f7
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33403027"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154229"
 ---
 # <a name="overview-of-importing-your-organization-pst-files-to-office-365"></a>Overview of importing your organization PST files to Office 365
 
@@ -82,7 +82,7 @@ ms.locfileid: "33403027"
 
 - Импорт PST-файлов в почтовые ящики пользователей — это один из способов переноса электронной почты организации в Office 365.
     
-- С помощью функции [интеллектуальнОго импорта](filter-data-when-importing-pst-files.md) можно отфильтровать элементы в PST-файлах, которые фактически импортируются в целевые почтовые ящики. Это позволяет обрезать импортируемые данные, устанавливая фильтры, которые контролируют, какие данные следует импортировать. 
+- С помощью функции [интеллектуального импорта](filter-data-when-importing-pst-files.md) можно отфильтровать элементы в PST-файлах, которые фактически импортируются в целевые почтовые ящики. Это позволяет обрезать импортируемые данные, устанавливая фильтры, которые контролируют, какие данные следует импортировать. 
     
 - Импорт данных электронной почты в Office 365 помогает устранить требования вашей организации, предоставляя следующие возможности:
     
@@ -92,7 +92,7 @@ ms.locfileid: "33403027"
     
   - Используйте [средство "поиск контента](content-search.md) " для поиска содержимого почтового ящика. 
     
-  - Использование [обращенИй eDiscovery](ediscovery-cases.md) для работы с юридическими исследованиями Организации 
+  - Использование [обращений eDiscovery](ediscovery-cases.md) для работы с юридическими исследованиями Организации 
     
   - Используйте [политики хранения](retention-policies.md) в центре безопасности _Амп_ соответствие требованиям для управления продолжительностью хранения содержимого почтового ящика и удаления контента по истечении срока хранения. 
 
@@ -127,18 +127,18 @@ ms.locfileid: "33403027"
 
  **Какие разрешения необходимы для создания заданий импорта в службе импорта Office 365?**
   
-Необходимо назначить роль экспорта для импорта поЧтовых ящиков в Exchange Online, чтобы импортировать PST-файлы в почтовые ящики Office 365. По умолчанию эта роль не назначается ни одной группе ролей в Exchange Online. You can add the Mailbox Import Export role to the Organization Management role group. Or you can create a new role group, assign the Mailbox Import Export role, and then add yourself or other users as a member. Дополнительные сведения можно найти в разделах "Добавление роли в группу ролей" или "Создание группы ролей" в разделе [Управление группами ролей в Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=730688).
+Необходимо назначить роль экспорта для импорта почтовых ящиков в Exchange Online, чтобы импортировать PST-файлы в почтовые ящики Office 365. По умолчанию эта роль не назначается ни одной группе ролей в Exchange Online. You can add the Mailbox Import Export role to the Organization Management role group. Or you can create a new role group, assign the Mailbox Import Export role, and then add yourself or other users as a member. Дополнительные сведения можно найти в разделах "Добавление роли в группу ролей" или "Создание группы ролей" в разделе [Управление группами ролей в Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=730688).
   
 Кроме того, для создания заданий импорта в центре безопасности _Амп_ соответствия требованиям необходимо выполнить одно из следующих условий:
   
 - Вы должны быть назначены роли получателей почты в Exchange Online. By default, this role is assigned to the Organization Management and Recipient Management roles groups.
     
-    Или
+    или
     
 - Вам необходимо быть глобальным администратором в организации Office 365.
     
 > [!TIP]
-> РасСмотрите возможность создания новой группы ролей в Exchange Online, специально предназначенной для импорта PST-файлов в Office 365. Для доступа к минимальному уровню привилегий, необходимых для импорта PST-файлов, назначьте роли "Импорт импорта почтового ящика" и "Получатели почты" новой группе ролей, а затем добавьте участников. 
+> Рассмотрите возможность создания новой группы ролей в Exchange Online, специально предназначенной для импорта PST-файлов в Office 365. Для доступа к минимальному уровню привилегий, необходимых для импорта PST-файлов, назначьте роли "Импорт импорта почтового ящика" и "Получатели почты" новой группе ролей, а затем добавьте участников. 
   
  **Где доступна отправка по сети?**
   
@@ -152,7 +152,7 @@ Using network upload to import PST files is free.
   
  **What version of the PST file format is supported for importing to Office 365?**
   
-There are two versions of the PST file format: ANSI and Unicode. We recommend importing files that use the Unicode PST file format. Тем не менее файлы, в которых используется формат PST-файлов в формате ANSI (например, для языков, использующих ДВУХБАЙТОВУЮ кодировку (DBCS)), также можно импортировать в Office 365. Дополнительные сведения об импорте PST-файлов в формате ANSI приведены в разделе Шаг 4 раздела [Использование отправки по сети для импорта PST-файлов в Office 365](https://go.microsoft.com/fwlink/p/?LinkId=823074).
+There are two versions of the PST file format: ANSI and Unicode. We recommend importing files that use the Unicode PST file format. Тем не менее файлы, в которых используется формат PST-файлов в формате ANSI (например, для языков, использующих двухбайтовую кодировку (DBCS)), также можно импортировать в Office 365. Дополнительные сведения об импорте PST-файлов в формате ANSI приведены в разделе Шаг 4 раздела [Использование отправки по сети для импорта PST-файлов в Office 365](https://go.microsoft.com/fwlink/p/?LinkId=823074).
   
 Additionally, PST files from Outlook 2007 and later versions can be imported to Office 365.
   
@@ -202,12 +202,12 @@ Yes, this capability is now available.
   
 - Вы должны быть назначены роли получателей почты в Exchange Online. By default, this role is assigned to the Organization Management and Recipient Management roles groups.
     
-    Или
+    или
     
 - Вам необходимо быть глобальным администратором в организации Office 365.
     
 > [!TIP]
-> РасСмотрите возможность создания новой группы ролей в Exchange Online, специально предназначенной для импорта PST-файлов в Office 365. Для доступа к минимальному уровню привилегий, необходимых для импорта PST-файлов, назначьте роли "Импорт импорта почтового ящика" и "Получатели почты" новой группе ролей, а затем добавьте участников. 
+> Рассмотрите возможность создания новой группы ролей в Exchange Online, специально предназначенной для импорта PST-файлов в Office 365. Для доступа к минимальному уровню привилегий, необходимых для импорта PST-файлов, назначьте роли "Импорт импорта почтового ящика" и "Получатели почты" новой группе ролей, а затем добавьте участников. 
   
  **Где доступна доставка накопителей?**
   
@@ -223,7 +223,7 @@ The cost to use drive shipping to import PST files to Office 365 mailboxes is $2
   
  **What kind of hard drives are supported for drive shipping?**
   
-Для службы импорта Office 365 поддерживаются только диски с твердотельными накопителями 2,5 дюймов (SSDs) или 2,5 или 3,5 дюймов для жестких дисков SATA II/III. You can use hard drives up to 10 TB. Для заданий импорта будет обработано только первый том данных на жестком диске. The data volume must be formatted with NTFS. При копировании данных на жесткий диск вы можете присоединить его непосредственно с помощью соединителя SATA II или 2,5 или 3,5 дюйма или с помощью разъема SATA II/III или с внешним подключением с помощью USB-адаптера SATA II/III или 2,5 с SATA II/III.
+Для службы импорта Office 365 поддерживаются только диски с твердотельными накопителями 2,5 дюймов (SSDs) или 2,5 или 3,5 дюймов для жестких дисков SATA II/III. You can use hard drives up to 10 TB. Для заданий импорта будет обработано только первый том данных на жестком диске. The data volume must be formatted with NTFS. При копировании данных на жесткий диск вы можете присоединить его непосредственно с помощью соединителя SATA II 2,5 или 2,5 или 3,5 дюйма или с 2,5 помощью разъема SATA II/III или с внешним подключением с помощью USB-адаптера SATA II/III или 2,5 с SATA II/III.
   
 > [!IMPORTANT]
 > Внешние жесткие диски, которые поставляются со встроенным USB-адаптером, не поддерживаются службой импорта Office 365. Additionally, the disk inside the casing of an external hard drive can't be used. Please don't ship external hard drives. 
@@ -254,7 +254,7 @@ If different PST files are imported to different target mailboxes, the import pr
   
  **What version of the PST file format is supported for importing to Office 365?**
   
-There are two versions of the PST file format: ANSI and Unicode. We recommend importing files that use the Unicode PST file format. Тем не менее файлы, в которых используется формат PST-файлов в формате ANSI (например, для языков, использующих ДВУХБАЙТОВУЮ кодировку (DBCS)), также можно импортировать в Office 365. Дополнительные сведения об импорте PST-файлов в формате ANSI приведены в разделе Шаг 3 в разделе [Использование доставки дисков для импорта PST-файлов Организации в Office 365](use-drive-shipping-to-import-pst-files-to-office-365.md#step-3-create-the-pst-import-mapping-file).
+There are two versions of the PST file format: ANSI and Unicode. We recommend importing files that use the Unicode PST file format. Тем не менее файлы, в которых используется формат PST-файлов в формате ANSI (например, для языков, использующих двухбайтовую кодировку (DBCS)), также можно импортировать в Office 365. Дополнительные сведения об импорте PST-файлов в формате ANSI приведены в разделе Шаг 3 в разделе [Использование доставки дисков для импорта PST-файлов Организации в Office 365](use-drive-shipping-to-import-pst-files-to-office-365.md#step-3-create-the-pst-import-mapping-file).
   
 Additionally, PST files from Outlook 2007 and later versions can be imported to Office 365.
   
@@ -298,7 +298,7 @@ If you're a customer in the United States or Europe, Microsoft uses FedEx to ret
   
 Return shipping costs vary, depending on your proximity to the Microsoft data center that you shipped your hard drive to. Microsoft will bill your FedEx or DHL account to return your hard drive. The cost of return shipping is your responsibility.
   
- **Можно ли использовать пользовательскую службу доставки курьеров, например Федекс настраиваемую отГрузку, для доставки жесткого диска в корпорацию Майкрософт?**
+ **Можно ли использовать пользовательскую службу доставки курьеров, например Федекс настраиваемую отгрузку, для доставки жесткого диска в корпорацию Майкрософт?**
   
 Да.
   
