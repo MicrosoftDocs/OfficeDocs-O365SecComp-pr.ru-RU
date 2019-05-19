@@ -4,18 +4,18 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 12/30/2016
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 55f31488-288a-473a-9b9e-831a11e3711a
 description: 'Используйте сценарий PowerShell для создания поискового запроса на обнаружение электронных данных на месте в Exchange Online на основе поиска, созданного в центре безопасности _Амп_. '
-ms.openlocfilehash: 2e4f1b3570ce2400472a0b2a9ddee886ffc4bab3
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: d021836a735d5c5dd12124e16e348729d88e6022
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32263801"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157981"
 ---
 # <a name="use-content-search-in-your-ediscovery-workflow"></a>Поиск содержимого при обнаружении электронных данных
 

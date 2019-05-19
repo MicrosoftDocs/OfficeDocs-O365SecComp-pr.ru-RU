@@ -4,7 +4,7 @@ ms.author: chrfox
 author: chrfox
 manager: laurawi
 ms.date: 04/27/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.collection:
 - o365_security_incident_response
@@ -14,12 +14,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: В этом решении рассказывается о том, как наиболее распространенные атаки с кибератак по безопасности могут выглядеть в Office 365, а также о том, как реагировать на них.
-ms.openlocfilehash: 13e57d914138edc44d0001781459852fba994f61
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 900022d97c974bdf84d3077c1127e715c06fa5de
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32262361"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157681"
 ---
 # <a name="office-365-security-incident-response"></a>Реагирование на инциденты, связанные с безопасностью, в Office 365
 

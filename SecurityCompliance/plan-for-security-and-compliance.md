@@ -4,7 +4,7 @@ ms.author: chrfox
 author: chrfox
 manager: laurawi
 ms.date: 3/15/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ search.appverid:
 ms.assetid: dc4f704c-6fcc-4cab-9a02-95a824e4fb57
 description: Целевая страница для плана безопасности и соответствия требованиям
 ms.collection: M365-security-compliance
-ms.openlocfilehash: b0c7af13a78499f3ee8af5b902bc4c8db85aca32
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: c125bd36494e26d9603b565dc5154b975604f2b3
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32265871"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157511"
 ---
 # <a name="plan-for-security-amp-compliance-in-office-365"></a>Планирование соответствия требованиям &amp; безопасности в Office 365
 
@@ -27,7 +27,7 @@ ms.locfileid: "32265871"
   
 ## <a name="step-1-review-capabilities"></a>Шаг 1: Проверка возможностей
 
-ПоОриентировать на возможности защиты информации в Office 365 плакат. 
+Поориентировать на возможности защиты информации в Office 365 плакат. 
   
 [PDF](https://download.microsoft.com/download/2/3/D/23D91386-8349-4F7A-9470-FD5AED861F16/MSFT_cloud_architecture_informationprotection.pdf) | [Visio](https://download.microsoft.com/download/2/3/D/23D91386-8349-4F7A-9470-FD5AED861F16/MSFT_cloud_architecture_informationprotection.vsd)
   
@@ -35,7 +35,7 @@ ms.locfileid: "32265871"
 
 После настройки подписки на Office 365 запишите начальную оценку. Показатель безопасности предоставляет предложения по настройке Office 365, которые можно использовать для увеличения оценки. Цель — знать о возможностях, которые можно использовать для защиты среды, которая не оказывает негативного влияния на производительность пользователей.
   
-- [Знакомство с показателем безопасности Office 365](office-365-secure-score.md)
+- [Знакомство с показателем безопасности Office 365](microsoft-secure-score.md)
     
 ## <a name="step-3-plan-access-protection-for-identity-and-devices"></a>Шаг 3: Планирование защиты доступа для удостоверений и устройств
 
@@ -75,10 +75,10 @@ ms.locfileid: "32265871"
 
 Настройте параметры безопасности и соответствия требованиям в этих центрах администрирования и панелях мониторинга, чтобы защитить среду Office 365
   
-|**Подписка**|**URL-адрес управления**|**Панели мониторинга и центры администрирования**|
+|**Подписки**|**URL-адрес управления**|**Панели мониторинга и центры администрирования**|
 |:-----|:-----|:-----|
 |Office 365  <br/> |`https://admin.microsoft.com`  <br/> | Центр администрирования Microsoft 365  <br/>  Security &amp; Compliance Center  <br/>  Центр администрирования Exchange  <br/>  Центр администрирования SharePoint и центр администрирования OneDrive для бизнеса  <br/> |
-|Enterprise Mobility + Security  <br/> |`https://portal.azure.com`  <br/> | Azure Active Directory  <br/>  Управление мобильными приложениями Майкрософт  <br/>  Microsoft Intune  <br/> |
-|Enterprise Mobility + Security  <br/> |`https://portal.cloudappsecurity.com`  <br/> | Cloud App Security  <br/> |
+|Enterprise Mobility + Security;  <br/> |`https://portal.azure.com`  <br/> | Azure Active Directory  <br/>  Управление мобильными приложениями Майкрософт  <br/>  Microsoft Intune  <br/> |
+|Enterprise Mobility + Security;  <br/> |`https://portal.cloudappsecurity.com`  <br/> | Cloud App Security  <br/> |
    
 

@@ -4,7 +4,7 @@ ms.author: bcarter
 author: BrendaCarter
 manager: laurawi
 ms.date: 10/11/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
 description: В этой статье рассказывается о рекомендуемой настройке параметров на уровне клиента, влияющих на безопасность среды Office 365. Для обеспечения безопасности может потребоваться больше или меньше безопасности. Используйте эти рекомендации в качестве отправной точки.
-ms.openlocfilehash: f9d0eb9cec597c44781539fa9231c5bf2b3cfe16
-ms.sourcegitcommit: c7989a8ead235aaebb2503abbde598f2c26c0056
+ms.openlocfilehash: d5e84bfe5994d1f17ddc75bcb1141fb4f4beace3
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33979475"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158261"
 ---
 # <a name="configure-your-office-365-tenant-for-increased-security"></a>Настройка клиента Office 365 для улучшения безопасности
 

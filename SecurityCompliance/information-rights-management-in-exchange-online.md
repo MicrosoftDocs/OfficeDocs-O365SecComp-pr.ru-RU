@@ -1,10 +1,10 @@
 ---
-title: Шифрование почты Exchange Online с помощью службы управления правами Active Directory
+title: Шифрование почты Exchange Online с помощью AD RMS
 ms.author: krowley
 author: kccross
 manager: laurawi
 ms.date: 12/13/2017
-ms.audience: End User
+audience: End User
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,16 +12,16 @@ search.appverid:
 - MET150
 ms.assetid: 2c956776-0016-4be6-b4cd-133a237f4a9e
 description: Вы можете настроить службу управления правами Exchange Online для использования локальной службы управления правами Active Directory (AD RMS), если это необходимо, для удовлетворения требований Организации. Это нетипичный сценарий. Если у вас нет требования использовать службу управления правами Active Directory, используйте шифрование сообщений Office.
-ms.openlocfilehash: 423c6008a55539123b76225458a39c4f98e7725d
-ms.sourcegitcommit: 696c1ed6b270be3f9da7395b49a7d8fec98e6db0
+ms.openlocfilehash: f5611ca7efeae0ab60ef90ebf4f8a225ea1332e7
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "33470389"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154271"
 ---
-# <a name="exchange-online-mail-encryption-with-ad-rms"></a>Шифрование почты Exchange Online с помощью службы управления правами Active Directory
+# <a name="exchange-online-mail-encryption-with-ad-rms"></a>Шифрование почты Exchange Online с помощью AD RMS
 
-Чтобы предотвратить утечку информации, служба Exchange Online использует функцию управления правами на доступ к данным (IRM), которая обеспечивает защиту сообщений и вложений в сети и вне сети. Вы можете настроить службу управления правами Exchange Online для использования локальной службы управления правами Active Directory (AD RMS), если это необходимо, для удовлетворения требований Организации. Это нетипичный сценарий. Если у вас нет требования использовать службу управления правами Active Directory, используйте [Шифрование сообщений Office](ome.md) . 
+Чтобы предотвратить утечку информации, служба Exchange Online использует функцию управления правами на доступ к данным (IRM), которая обеспечивает защиту сообщений и вложений в сети и вне сети. Вы можете настроить службу управления правами Exchange Online для использования локальной службы управления правами Active Directory (AD RMS), если это необходимо, для удовлетворения требований Организации. Это нетипичный сценарий. Если у вас нет требования использовать службу управления правами Active Directory, используйте [Шифрование сообщений Office 365](ome.md) . 
 
 Защиту IRM могут применять пользователи (в Microsoft Outlook или Outlook в Интернете) и администраторы (с помощью правил защиты транспорта или правил защиты Outlook). IRM помогает администраторам и пользователям указывать, кто может открывать, пересылать, печатать и копировать конфиденциальные данные из электронной переписки.
   

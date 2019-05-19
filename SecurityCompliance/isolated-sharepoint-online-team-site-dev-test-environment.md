@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 12/15/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: d1795031-beef-49ea-a6fc-5da5450d320d
 description: Сводка. Настройте сайт группы SharePoint Online, изолированный от остальной организации, в среде Office 365 для разработки и тестирования.
-ms.openlocfilehash: 56c10b1a3871014f26a4d2fd98d9b4139d19ac47
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 23b734e55e8c68cdc42f41b4e61bdfe152fb01e0
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32254375"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34152591"
 ---
 # <a name="isolated-sharepoint-online-team-site-devtest-environment"></a>Среда разработки и тестирования изолированного сайта группы SharePoint Online
 
@@ -63,7 +63,7 @@ ms.locfileid: "32254375"
   
 ## <a name="phase-2-create-user-accounts-and-access-groups"></a>Этап 2: создание учетных записей пользователей и групп доступа
 
-Воспользуйтесь инструкциями из статьи [Подключение к office 365 PowerShell](https://technet.microsoft.com/library/dn975125.aspx) , чтобы подключиться к вашей подПиске на Office 365 с учетной записью глобального администратора из:
+Воспользуйтесь инструкциями из статьи [Подключение к office 365 PowerShell](https://technet.microsoft.com/library/dn975125.aspx) , чтобы подключиться к вашей подписке на Office 365 с учетной записью глобального администратора из:
   
 - компьютера (для упрощенной среды разработки и тестирования Office 365);
     
@@ -279,7 +279,7 @@ Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $
     
 Теперь изолированный сайт SharePoint Online готов к выполнению дополнительного эксперимента.
   
-## <a name="next-step"></a>Дальнейшие действия
+## <a name="next-step"></a>Следующий этап
 
 Когда вы будете готовы выполнить развертывание изолированного сайта группы SharePoint Online в рабочей среде, просмотрите подробные инструкции из статьи [Разработка изолированного сайта группы SharePoint Online](design-an-isolated-sharepoint-online-team-site.md).
   

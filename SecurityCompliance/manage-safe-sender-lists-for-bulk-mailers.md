@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 11/17/2014
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ ms.assetid: d48db4a3-9fbe-45e2-bbaa-1017ffdf96f8
 ms.collection:
 - M365-security-compliance
 description: При использовании списков надежных отправителей следует учитывать, что обработка в службе Exchange Online Protection (EOP) и программе Outlook несколько отличается. Служба рассматривает надежных отправителей и домены, проверяя RFC-адреса 5321.MailFrom и 5322.From, в то время как программа Outlook добавляет RFC-адрес 5322.From в список надежных отправителей пользователя. (Примечание. Для заблокированных пользователей и доменов служба проверяет адреса 5321.MailFrom и 5322.From.)
-ms.openlocfilehash: 006c2b9520f1e1f71f5ec745baaf84f906f31eb4
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 198697ad9ff4967ba55e138eb177095b355f97d2
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32259657"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155661"
 ---
 # <a name="manage-safe-sender-lists-for-bulk-mailers"></a>Управление списками надежных отправителей при массовой рассылке почты
 
