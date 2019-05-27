@@ -164,6 +164,7 @@
 ## [Реагирование на компрометацию учетной записи электронной почты в Office 365](responding-to-a-compromised-email-account.md)
 
 # Управление записями
+## [управление записями](records-management.md)
 ## План хранения
 ### [Диспетчер планов хранения](file-plan-manager.md)
 ### [Метки хранения](labels.md)
