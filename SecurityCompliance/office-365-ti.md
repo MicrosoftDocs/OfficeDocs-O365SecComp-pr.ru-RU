@@ -1,10 +1,10 @@
 ---
-title: Исследование угроз для Office 365 и ответ на них
+title: Анализ угроз и реагирование на них в Office 365
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.date: 03/18/2019
-ms.audience: Admin
+audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,14 +15,14 @@ ms.assetid: 32405da5-bee1-4a4b-82e5-8399df94c512
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как функции интеллектуального анализа в Office 365 Advanced Threat protection помогают находить угрозы в Организации, отвечать на вредоносные программы, фишингы и другие атаки, обнаруженные в Office 365 от вашего имени, и искать угрозу показател.
-ms.openlocfilehash: 6f7e6e0a49bb4035458af2e9d7e45fd954a1f9fc
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 3a1ccc3d3e37b9b1433e8e339709d09ba56970b0
+ms.sourcegitcommit: 2b46fba650df8d252b1dd2b3c3f080a383183a06
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32265401"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "34408364"
 ---
-# <a name="office-365-threat-investigation-and-response"></a>Исследование угроз для Office 365 и ответ на них
+# <a name="office-365-threat-investigation-and-response"></a>Анализ угроз и реагирование на них в Office 365
 
 Исследование угроз и возможности реагирования в [Office 365 Advanced Threat protection](office-365-atp.md) помогают аналитикам безопасности и администраторам защищать пользователей Office 365 в Организации, выполнив следующие действия:
   
@@ -61,23 +61,23 @@ ms.locfileid: "32265401"
     
 - [Сведения о средствах отслеживания угроз — новые и полезные](threat-trackers.md)
 
-- [Автоматизированное исследование и реагирование (AIR) с помощью логики операций с угрозами Office 365](automated-investigation-response-office.md)
+- [Экономия времени и усилий с помощью автоматизированного расследования и возможностей реагирования (AIR)](automated-investigation-response-office.md)
 
-- [Использование обозревателя угроз в центре безопасности &amp; и соответствия требованиям](use-explorer-in-security-and-compliance.md)
+- [Использование обозревателя угроз (или обнаружения в режиме реального времени) для идентификации и исследования вредоносного содержимого в электронной почте и файлах](threat-explorer.md)
     
 - [Ищите и изучайте нежелательную почту, которая былы доставлена](investigate-malicious-email-that-was-delivered.md)
     
-- [Использование симулятора атак](attack-simulator.md)
+- [Использование симулятора атак для имитации атак и повышения осведомленности пользователей](attack-simulator.md)
     
-- [Интеграция расследования угроз и ответа с помощью Advanced Threat Protection в Защитнике Windows](integrate-office-365-ti-with-wdatp.md)
+- [Интеграция средств расследования и реагирования на угрозы с помощью Advanced Threat Protection в Защитнике Windows](integrate-office-365-ti-with-wdatp.md)
     
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Представления обозревателя угроз](threat-explorer-views.md)
 
 [Защита от угроз в Office 365](protect-against-threats.md)
   
-[Office 365 Advanced Threat Protection](office-365-atp.md)
+[Office 365 Advanced Threat protection](office-365-atp.md)
   
 [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
  
