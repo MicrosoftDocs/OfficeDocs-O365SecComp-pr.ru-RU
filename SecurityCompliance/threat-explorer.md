@@ -15,16 +15,16 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: Сведения о проводнике (и обнаружения в реальном времени) в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: 62ba70cb62b0c92cf65d77dfaf3eb7306e93fa98
-ms.sourcegitcommit: 2b46fba650df8d252b1dd2b3c3f080a383183a06
+ms.openlocfilehash: 030f866c5e86daa3dc543bddae7152e19f377d3b
+ms.sourcegitcommit: 6c0fcb82178a4ac26375545f328389a6852a81be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34415737"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34490535"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Обозреватель угроз (и обнаружение в режиме реального времени)
 
-Если в вашей организации используется [office 365 Advanced Threat protection](office-365-atp.md) (Office 365 ATP), а у вас есть [необходимые разрешения](#required-licenses-and-permissions), то у вас есть **проводник** или **Обнаружение в режиме реального времени** (ранее отчеты в режиме реального времени — [Просмотреть новые возможности ](#new-features-in-real-time-detections)!). В центре безопасности _Амп_ соответствие требованиям откройте раздел **Управление угрозами**, а затем выберите **проводник** или **Обнаружение в режиме реального времени**. 
+Если в вашей организации [используется office 365 Advanced Threat protection](office-365-atp.md) (Office 365 ATP), а у вас [есть необходимые разрешения](#required-licenses-and-permissions), то у вас есть **проводник** или **Обнаружение в режиме реального времени** (ранее отчеты в *режиме реального времени* — [см. что нового](#new-features-in-real-time-detections)!). В центре безопасности _Амп_ соответствие требованиям откройте раздел **Управление угрозами**, а затем выберите **проводник** или **Обнаружение в режиме реального времени**. 
 
 |В плане ATP 2 вы увидите:  |В плане ATP 1 вы увидите:  |
 |---------|---------|
