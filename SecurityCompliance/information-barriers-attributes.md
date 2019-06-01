@@ -1,0 +1,93 @@
+---
+title: Атрибуты политик барьера информации
+ms.author: deniseb
+author: denisebmsft
+manager: laurawi
+ms.date: 05/31/2019
+ms.audience: ITPro
+ms.topic: article
+ms.service: O365-seccomp
+ms.collection:
+- M365-security-compliance
+localization_priority: None
+description: Используйте эту статью в качестве справки по различным атрибутам, которые можно использовать в политиках барьера информации.
+ms.openlocfilehash: e72e37950442974897de479c7c11f0053a578d1c
+ms.sourcegitcommit: 4fedeb06a6e7796096fc6279cfb091c7b89d484d
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34668336"
+---
+# <a name="attributes-for-information-barrier-policies-preview"></a><span data-ttu-id="b283d-103">Атрибуты политик барьера информации (Предварительная версия)</span><span class="sxs-lookup"><span data-stu-id="b283d-103">Attributes for information barrier policies (Preview)</span></span>
+
+<span data-ttu-id="b283d-104">Некоторые атрибуты в Azure Active Directory можно использовать для сегментирования пользователей.</span><span class="sxs-lookup"><span data-stu-id="b283d-104">Certain attributes in Azure Active Directory can be used to segment users.</span></span> <span data-ttu-id="b283d-105">Сегменты затем используются в качестве фильтров для политик барьера данных.</span><span class="sxs-lookup"><span data-stu-id="b283d-105">Segments are then used as filters for information barrier policies.</span></span> <span data-ttu-id="b283d-106">Например, вы можете использовать **Отдел** , чтобы определять сегменты пользователей по Отделу в Организации (предполагается, что ни один сотрудник не работает одновременно для двух отделов).</span><span class="sxs-lookup"><span data-stu-id="b283d-106">For example, you might use **Department** to define segments of users by department within your organization (assuming no single employee works for two departments at the same time).</span></span> 
+
+<span data-ttu-id="b283d-107">В этой статье представлен список атрибутов, которые можно использовать.</span><span class="sxs-lookup"><span data-stu-id="b283d-107">This article provides a list of attributes that can be used.</span></span> <span data-ttu-id="b283d-108">Дополнительные сведения о барьерах информации можно найти в следующих ресурсах:</span><span class="sxs-lookup"><span data-stu-id="b283d-108">To learn more about information barriers, see the following resources:</span></span>
+- [<span data-ttu-id="b283d-109">Препятствия для информационных заданных (Предварительная версия)</span><span class="sxs-lookup"><span data-stu-id="b283d-109">Information barriers (Preview)</span></span>](information-barriers.md)
+- [<span data-ttu-id="b283d-110">Определение политик для барьеров информации в Microsoft Teams (Предварительная версия)</span><span class="sxs-lookup"><span data-stu-id="b283d-110">Define policies for information barriers in Microsoft Teams (Preview)</span></span>](information-barriers-policies.md)
+
+## <a name="how-to-use-attributes-in-information-barrier-policies"></a><span data-ttu-id="b283d-111">Использование атрибутов в политиках барьера информационных заданных</span><span class="sxs-lookup"><span data-stu-id="b283d-111">How to use attributes in information barrier policies</span></span>
+
+<span data-ttu-id="b283d-112">Атрибуты, приведенные в этой статье, можно использовать для определения (или изменения) сегментов пользователей.</span><span class="sxs-lookup"><span data-stu-id="b283d-112">The attributes listed in this article can be used to define (or edit) segments of users.</span></span> <span data-ttu-id="b283d-113">Сегменты используются в качестве параметров (Усерграупфилтер) в политиках барьера данных, как показано в следующих примерах:</span><span class="sxs-lookup"><span data-stu-id="b283d-113">Segments are used as parameters (UserGroupFilter) in information barrier policies, as shown in the following examples:</span></span>
+
+|<span data-ttu-id="b283d-114">Пример</span><span class="sxs-lookup"><span data-stu-id="b283d-114">Example</span></span>  |<span data-ttu-id="b283d-115">Командлет</span><span class="sxs-lookup"><span data-stu-id="b283d-115">Cmdlet</span></span>  |
+|---------|---------|
+|<span data-ttu-id="b283d-116">Определите сегмент под названием Segment1 с помощью атрибута Department</span><span class="sxs-lookup"><span data-stu-id="b283d-116">Define a segment called Segment1 using the Department attribute</span></span>     | `New-OrganizationSegment -Name "Segment1" -UserGroupFilter "Department -eq 'Department1'"`        |
+|<span data-ttu-id="b283d-117">Определите сегмент с именем Segment с помощью атрибута MemberOf (предположим, что этот атрибут содержит имена групп, например, "Блуеграуп").</span><span class="sxs-lookup"><span data-stu-id="b283d-117">Define a segment called SegmentA using the MemberOf attribute (suppose this attribute contains group names, such as "BlueGroup")</span></span>     | `New-OrganizationSegment -Name "SegmentA" -UserGroupFilter "MemberOf -eq 'BlueGroup'"`        |
+|<span data-ttu-id="b283d-118">Определите сегмент с именем Дайтрадерс, используя от extensionattribute1 (предположим, что этот атрибут содержит заголовки заданий, например "Дайтрадер").</span><span class="sxs-lookup"><span data-stu-id="b283d-118">Define a segment called DayTraders using ExtensionAttribute1 (suppose this attribute contains job titles, such as "DayTrader")</span></span>|`New-OrganizationSegment -Name "DayTraders" -UserGroupFilter "ExtensionAttribute1 -eq 'DayTrader'"` |
+
+<span data-ttu-id="b283d-119">При определении сегментов используйте один и тот же атрибут для всех сегментов.</span><span class="sxs-lookup"><span data-stu-id="b283d-119">When you define segments, use the same attribute for all your segments.</span></span> <span data-ttu-id="b283d-120">Например, если вы определили некоторые сегменты с помощью *отдела*, определите все сегменты с помощью *отдела*.</span><span class="sxs-lookup"><span data-stu-id="b283d-120">For example, if you define some segments using *Department*, define all of the segments using *Department*.</span></span> <span data-ttu-id="b283d-121">Не определяйте некоторые сегменты, используя *Отдел* и другие, используя *MemberOf*.</span><span class="sxs-lookup"><span data-stu-id="b283d-121">Don't define some segments using *Department* and others using *MemberOf*.</span></span> <span data-ttu-id="b283d-122">Убедитесь, что сегменты не перекрываются; Каждый пользователь должен быть назначен только одному сегменту.</span><span class="sxs-lookup"><span data-stu-id="b283d-122">Make sure your segments do not overlap; each user should be assigned to exactly one segment.</span></span> 
+
+<span data-ttu-id="b283d-123">Дополнительную информацию можно узнать в статье [Определение сегментов с помощью PowerShell](information-barriers-policies.md#define-segments-using-powershell).</span><span class="sxs-lookup"><span data-stu-id="b283d-123">To learn more, see [Define segments using PowerShell](information-barriers-policies.md#define-segments-using-powershell).</span></span>
+
+## <a name="reference"></a><span data-ttu-id="b283d-124">Справочные материалы</span><span class="sxs-lookup"><span data-stu-id="b283d-124">Reference</span></span>
+
+<span data-ttu-id="b283d-125">В следующей таблице перечислены атрибуты, которые можно использовать с барьерами информации.</span><span class="sxs-lookup"><span data-stu-id="b283d-125">The following table lists the attributes that you can use with information barriers.</span></span>
+
+|<span data-ttu-id="b283d-126">Имя свойства Azure Active Directory (отображаемое имя LDAP)</span><span class="sxs-lookup"><span data-stu-id="b283d-126">Azure Active Directory property name (LDAP display name)</span></span>  |<span data-ttu-id="b283d-127">Имя свойства Exchange</span><span class="sxs-lookup"><span data-stu-id="b283d-127">Exchange property name</span></span>  |
+|---------|---------|
+|<span data-ttu-id="b283d-128">Управляющ</span><span class="sxs-lookup"><span data-stu-id="b283d-128">Co</span></span>       | <span data-ttu-id="b283d-129">Управляющ</span><span class="sxs-lookup"><span data-stu-id="b283d-129">Co</span></span>        |
+|<span data-ttu-id="b283d-130">Company</span><span class="sxs-lookup"><span data-stu-id="b283d-130">Company</span></span>     |<span data-ttu-id="b283d-131">Company</span><span class="sxs-lookup"><span data-stu-id="b283d-131">Company</span></span>         |
+|<span data-ttu-id="b283d-132">Отдел</span><span class="sxs-lookup"><span data-stu-id="b283d-132">Department</span></span>     |<span data-ttu-id="b283d-133">Отдел</span><span class="sxs-lookup"><span data-stu-id="b283d-133">Department</span></span>         |
+|<span data-ttu-id="b283d-134">От extensionattribute1</span><span class="sxs-lookup"><span data-stu-id="b283d-134">ExtensionAttribute1</span></span> |<span data-ttu-id="b283d-135">CustomAttribute1</span><span class="sxs-lookup"><span data-stu-id="b283d-135">CustomAttribute1</span></span>  |
+|<span data-ttu-id="b283d-136">ExtensionAttribute2</span><span class="sxs-lookup"><span data-stu-id="b283d-136">ExtensionAttribute2</span></span> |<span data-ttu-id="b283d-137">CustomAttribute2</span><span class="sxs-lookup"><span data-stu-id="b283d-137">CustomAttribute2</span></span>  |
+|<span data-ttu-id="b283d-138">ExtensionAttribute3</span><span class="sxs-lookup"><span data-stu-id="b283d-138">ExtensionAttribute3</span></span> |<span data-ttu-id="b283d-139">CustomAttribute3</span><span class="sxs-lookup"><span data-stu-id="b283d-139">CustomAttribute3</span></span>  |
+|<span data-ttu-id="b283d-140">ExtensionAttribute4</span><span class="sxs-lookup"><span data-stu-id="b283d-140">ExtensionAttribute4</span></span> |<span data-ttu-id="b283d-141">CustomAttribute4</span><span class="sxs-lookup"><span data-stu-id="b283d-141">CustomAttribute4</span></span>  |
+|<span data-ttu-id="b283d-142">ExtensionAttribute5</span><span class="sxs-lookup"><span data-stu-id="b283d-142">ExtensionAttribute5</span></span> |<span data-ttu-id="b283d-143">CustomAttribute5</span><span class="sxs-lookup"><span data-stu-id="b283d-143">CustomAttribute5</span></span>  |
+|<span data-ttu-id="b283d-144">ExtensionAttribute6</span><span class="sxs-lookup"><span data-stu-id="b283d-144">ExtensionAttribute6</span></span> |<span data-ttu-id="b283d-145">CustomAttribute6</span><span class="sxs-lookup"><span data-stu-id="b283d-145">CustomAttribute6</span></span>  |
+|<span data-ttu-id="b283d-146">ExtensionAttribute7</span><span class="sxs-lookup"><span data-stu-id="b283d-146">ExtensionAttribute7</span></span> |<span data-ttu-id="b283d-147">CustomAttribute7</span><span class="sxs-lookup"><span data-stu-id="b283d-147">CustomAttribute7</span></span>  |
+|<span data-ttu-id="b283d-148">ExtensionAttribute8</span><span class="sxs-lookup"><span data-stu-id="b283d-148">ExtensionAttribute8</span></span> |<span data-ttu-id="b283d-149">CustomAttribute8</span><span class="sxs-lookup"><span data-stu-id="b283d-149">CustomAttribute8</span></span>  |
+|<span data-ttu-id="b283d-150">ExtensionAttribute9</span><span class="sxs-lookup"><span data-stu-id="b283d-150">ExtensionAttribute9</span></span> |<span data-ttu-id="b283d-151">CustomAttribute9</span><span class="sxs-lookup"><span data-stu-id="b283d-151">CustomAttribute9</span></span>  |
+|<span data-ttu-id="b283d-152">ExtensionAttribute10</span><span class="sxs-lookup"><span data-stu-id="b283d-152">ExtensionAttribute10</span></span> |<span data-ttu-id="b283d-153">CustomAttribute10</span><span class="sxs-lookup"><span data-stu-id="b283d-153">CustomAttribute10</span></span>  |
+|<span data-ttu-id="b283d-154">ExtensionAttribute11</span><span class="sxs-lookup"><span data-stu-id="b283d-154">ExtensionAttribute11</span></span> |<span data-ttu-id="b283d-155">CustomAttribute11</span><span class="sxs-lookup"><span data-stu-id="b283d-155">CustomAttribute11</span></span>  |
+|<span data-ttu-id="b283d-156">ExtensionAttribute12</span><span class="sxs-lookup"><span data-stu-id="b283d-156">ExtensionAttribute12</span></span> |<span data-ttu-id="b283d-157">CustomAttribute12</span><span class="sxs-lookup"><span data-stu-id="b283d-157">CustomAttribute12</span></span>  |
+|<span data-ttu-id="b283d-158">ExtensionAttribute13</span><span class="sxs-lookup"><span data-stu-id="b283d-158">ExtensionAttribute13</span></span> |<span data-ttu-id="b283d-159">CustomAttribute13</span><span class="sxs-lookup"><span data-stu-id="b283d-159">CustomAttribute13</span></span>  |
+|<span data-ttu-id="b283d-160">ExtensionAttribute14</span><span class="sxs-lookup"><span data-stu-id="b283d-160">ExtensionAttribute14</span></span> |<span data-ttu-id="b283d-161">CustomAttribute14</span><span class="sxs-lookup"><span data-stu-id="b283d-161">CustomAttribute14</span></span>  |
+|<span data-ttu-id="b283d-162">ExtensionAttribute15</span><span class="sxs-lookup"><span data-stu-id="b283d-162">ExtensionAttribute15</span></span> |<span data-ttu-id="b283d-163">CustomAttribute15</span><span class="sxs-lookup"><span data-stu-id="b283d-163">CustomAttribute15</span></span>  |
+|<span data-ttu-id="b283d-164">От msexchextensioncustomattribute1</span><span class="sxs-lookup"><span data-stu-id="b283d-164">MSExchExtensionCustomAttribute1</span></span> |<span data-ttu-id="b283d-165">ExtensionCustomAttribute1</span><span class="sxs-lookup"><span data-stu-id="b283d-165">ExtensionCustomAttribute1</span></span> |
+|<span data-ttu-id="b283d-166">MSExchExtensionCustomAttribute2</span><span class="sxs-lookup"><span data-stu-id="b283d-166">MSExchExtensionCustomAttribute2</span></span> |<span data-ttu-id="b283d-167">ExtensionCustomAttribute2</span><span class="sxs-lookup"><span data-stu-id="b283d-167">ExtensionCustomAttribute2</span></span> |
+|<span data-ttu-id="b283d-168">MSExchExtensionCustomAttribute3</span><span class="sxs-lookup"><span data-stu-id="b283d-168">MSExchExtensionCustomAttribute3</span></span> |<span data-ttu-id="b283d-169">ExtensionCustomAttribute3</span><span class="sxs-lookup"><span data-stu-id="b283d-169">ExtensionCustomAttribute3</span></span> |
+|<span data-ttu-id="b283d-170">MSExchExtensionCustomAttribute4</span><span class="sxs-lookup"><span data-stu-id="b283d-170">MSExchExtensionCustomAttribute4</span></span> |<span data-ttu-id="b283d-171">ExtensionCustomAttribute4</span><span class="sxs-lookup"><span data-stu-id="b283d-171">ExtensionCustomAttribute4</span></span> |
+|<span data-ttu-id="b283d-172">MSExchExtensionCustomAttribute5</span><span class="sxs-lookup"><span data-stu-id="b283d-172">MSExchExtensionCustomAttribute5</span></span> |<span data-ttu-id="b283d-173">ExtensionCustomAttribute5</span><span class="sxs-lookup"><span data-stu-id="b283d-173">ExtensionCustomAttribute5</span></span> |
+|<span data-ttu-id="b283d-174">MailNickname</span><span class="sxs-lookup"><span data-stu-id="b283d-174">MailNickname</span></span> |<span data-ttu-id="b283d-175">Псевдоним</span><span class="sxs-lookup"><span data-stu-id="b283d-175">Alias</span></span> |
+|<span data-ttu-id="b283d-176">Фисикалделиверйоффиценаме</span><span class="sxs-lookup"><span data-stu-id="b283d-176">PhysicalDeliveryOfficeName</span></span> |<span data-ttu-id="b283d-177">Office</span><span class="sxs-lookup"><span data-stu-id="b283d-177">Office</span></span> |
+|<span data-ttu-id="b283d-178">PostalCode</span><span class="sxs-lookup"><span data-stu-id="b283d-178">PostalCode</span></span> |<span data-ttu-id="b283d-179">PostalCode</span><span class="sxs-lookup"><span data-stu-id="b283d-179">PostalCode</span></span> |
+|<span data-ttu-id="b283d-180">ProxyAddresses</span><span class="sxs-lookup"><span data-stu-id="b283d-180">ProxyAddresses</span></span> |<span data-ttu-id="b283d-181">EmailAddresses</span><span class="sxs-lookup"><span data-stu-id="b283d-181">EmailAddresses</span></span> |
+|<span data-ttu-id="b283d-182">StreetAddress</span><span class="sxs-lookup"><span data-stu-id="b283d-182">StreetAddress</span></span> |<span data-ttu-id="b283d-183">StreetAddress</span><span class="sxs-lookup"><span data-stu-id="b283d-183">StreetAddress</span></span> |
+|<span data-ttu-id="b283d-184">TargetAddress</span><span class="sxs-lookup"><span data-stu-id="b283d-184">TargetAddress</span></span> |<span data-ttu-id="b283d-185">ExternalEmailAddress</span><span class="sxs-lookup"><span data-stu-id="b283d-185">ExternalEmailAddress</span></span> |
+|<span data-ttu-id="b283d-186">UsageLocation</span><span class="sxs-lookup"><span data-stu-id="b283d-186">UsageLocation</span></span> |<span data-ttu-id="b283d-187">UsageLocation</span><span class="sxs-lookup"><span data-stu-id="b283d-187">UsageLocation</span></span> |
+|<span data-ttu-id="b283d-188">UserPrincipalName</span><span class="sxs-lookup"><span data-stu-id="b283d-188">UserPrincipalName</span></span>  |<span data-ttu-id="b283d-189">UserPrincipalName</span><span class="sxs-lookup"><span data-stu-id="b283d-189">UserPrincipalName</span></span>  |
+|<span data-ttu-id="b283d-190">Почта</span><span class="sxs-lookup"><span data-stu-id="b283d-190">Mail</span></span>   |<span data-ttu-id="b283d-191">WindowsEmailAddress</span><span class="sxs-lookup"><span data-stu-id="b283d-191">WindowsEmailAddress</span></span>    |
+|<span data-ttu-id="b283d-192">Описание</span><span class="sxs-lookup"><span data-stu-id="b283d-192">Description</span></span>    |<span data-ttu-id="b283d-193">Описание</span><span class="sxs-lookup"><span data-stu-id="b283d-193">Description</span></span>    |
+|<span data-ttu-id="b283d-194">Групп</span><span class="sxs-lookup"><span data-stu-id="b283d-194">MemberOf</span></span>   |<span data-ttu-id="b283d-195">Мемберофграуп</span><span class="sxs-lookup"><span data-stu-id="b283d-195">MemberOfGroup</span></span>  |
+
+## <a name="related-topics"></a><span data-ttu-id="b283d-196">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="b283d-196">Related topics</span></span>
+
+[<span data-ttu-id="b283d-197">Определение политик для барьеров информации в Microsoft Teams (Предварительная версия)</span><span class="sxs-lookup"><span data-stu-id="b283d-197">Define policies for information barriers in Microsoft Teams (Preview)</span></span>](information-barriers-policies.md)
+
+[<span data-ttu-id="b283d-198">Препятствия информации об устранении неполадок (Предварительная версия)</span><span class="sxs-lookup"><span data-stu-id="b283d-198">Troubleshooting information barriers (Preview)</span></span>](information-barriers-troubleshooting.md)
+
+[<span data-ttu-id="b283d-199">Препятствия для информационных заданных (Предварительная версия)</span><span class="sxs-lookup"><span data-stu-id="b283d-199">Information barriers (Preview)</span></span>](information-barriers.md)
+
+
+
