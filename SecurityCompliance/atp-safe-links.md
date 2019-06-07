@@ -22,12 +22,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: Функция "безопасные ссылки" обеспечивает проверку гиперссылок в документах Office и в сообщениях электронной почты. Используйте безопасные ссылки, чтобы защитить организацию от фишинга и других атак.
-ms.openlocfilehash: 1be7db8ad96a5fd0b46500288e674946e763385a
-ms.sourcegitcommit: 4fedeb06a6e7796096fc6279cfb091c7b89d484d
+ms.openlocfilehash: 4f1449fb97ad8d8f263073c917eed2c399bf4f22
+ms.sourcegitcommit: ff1d18aaddde2048f1cf88338c916295cf8c354e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34652532"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "34748582"
 ---
 # <a name="office-365-atp-safe-links"></a>Безопасные ссылки Office 365 ATP
 
@@ -40,7 +40,7 @@ Office 365 ATP Safe Links (часть [Advanced Threat protection](office-365-at
   
 После включения политик безопасных ссылок на ATP в Office 365 глобальные администраторы, администраторы безопасности и средства чтения безопасности могут [просматривать отчеты для Advanced Threat protection](view-reports-for-atp.md). Сведения, содержащиеся в этих отчетах, помогут вашей группе по обеспечению безопасности выполнить дальнейшие действия по защите Организации или исследованию инцидентов безопасности.
 
-По мере [добавления новых функций в ATP](office-365-atp.md#new-features-in-office-365-atp)группа безопасности Office 365 может добавить или изменить [политики безопасных ссылок ATP](set-up-atp-safe-links-policies.md)в Организации. Кроме того, вы можете заметить изменения и улучшения, такие как новые пересмотренные [страницы предупреждений](atp-safe-links-warning-pages.md) и визуализация собственных ссылок в Outlook.
+По мере [добавления новых функций в ATP](office-365-atp.md#new-features-in-office-365-atp)группа безопасности Office 365 может добавить или изменить [политики безопасных ссылок ATP](set-up-atp-safe-links-policies.md)в Организации. Кроме того, вы можете заметить изменения и улучшения, такие как новые пересмотренные [страницы предупреждений](atp-safe-links-warning-pages.md) и визуализация собственных ссылок в Outlook (впервые появилась в Office 365 proplus версии 1809).
          
 ## <a name="how-to-get-atp-safe-links-protection"></a>Как получить защиту от безопасных ссылок ATP
 

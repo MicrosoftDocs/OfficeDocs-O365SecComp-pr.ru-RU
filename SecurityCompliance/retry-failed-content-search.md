@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Используйте кнопку Retry (повторить) для разрешения поиска контента с ошибками расположения контента.
-ms.openlocfilehash: ab6f33e00a057ccd9ee7b80e0499b2838855ac83
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 91c656a05111391ad93e03946cf367133f2c25a2
+ms.sourcegitcommit: ff1d18aaddde2048f1cf88338c916295cf8c354e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34157071"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "34748572"
 ---
 # <a name="retry-a-content-search-to-resolve-a-content-location-error"></a>Повторный поиск контента для устранения ошибки размещения контента
 
@@ -34,7 +34,7 @@ User1@contoso.com: Problem in processing the request. Please try again later. If
 User2@contoso.com: Application error occurred. Please try again later. (CS012-002)
 ```
 
-Эти ошибки (коды ошибок CS008-009 и CS012-002) указывают на то, что при поиске контента не удалось выполнить поиск определенных расположений содержимого; в этом примере не выполнялся поиск двух почтовых ящиков. Эти ошибки отображаются на всплывающей странице "сведения о состоянии" для поиска контента.
+Эти ошибки (коды ошибок CS001-002, CS003-002, CS008-009, CS012-002 и другие ошибки формы CS0XX-0XX) указывают на то, что при поиске контента не удалось выполнить поиск определенных расположений контента; в этом примере не выполнялся поиск двух почтовых ящиков. Эти ошибки отображаются на всплывающей странице "сведения о состоянии" для поиска контента.
 
 ## <a name="cause-of-content-location-errors"></a>Причина ошибок расположения контента
 
