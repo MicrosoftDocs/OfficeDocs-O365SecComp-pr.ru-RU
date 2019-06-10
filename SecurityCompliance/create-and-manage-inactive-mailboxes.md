@@ -3,7 +3,7 @@ title: Создание неактивных почтовых ящиков и у
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 6/29/2018
+ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 296a02bd-ebde-4022-900e-547acf38ddd7
 description: Для создания неактивного почтового ящика в Office 365 примените политику хранения хранения или Office 365 к почтовому ящику, а затем удалите соответствующую учетную запись пользователя Office 365. Элементы в неактивном почтовом ящике хранятся в течение срока хранения или политики хранения, которая была применена к нему до того, как она была сделана неактивной. Для окончательного удаления неактивного почтового ящика просто удалите политику удержания или хранения.
-ms.openlocfilehash: 1a2eb5a998de7f31bcf531aacf22dca51c71acb8
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: e07b062f6b77f18589334b141e38edddc5ea18c5
+ms.sourcegitcommit: f88f14999aeb70ecf265cd98eb09a3304b150be8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34151231"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "34768954"
 ---
 # <a name="create-and-manage-inactive-mailboxes-in-office-365"></a>Создание неактивных почтовых ящиков и управление ими в Office 365
 
@@ -36,7 +36,7 @@ Office 365 предоставляет возможность сохранять 
     
 - Лицензия, связанная с удаленным почтовым ящиком Exchange Online, будет доступна после удаления соответствующей учетной записи пользователя Office 365. Затем вы можете [назначить лицензии пользователям Office 365 для бизнеса](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) другому пользователю. 
     
-- Если перед удалением к почтовому ящику не применено хранение для судебного разбирательства или политика хранения Office 365, его содержимое нельзя будет найти. Однако удаленный почтовый ящик можно восстановить в течение 30 дней с момента удаления, после этого срока почтовый ящик и его содержимое будут удалены окончательно.
+- Если политика хранения для судебного разбирательства или политика хранения Office 365 (которая настроена для сохранения или сохранения контента) не применяются к почтовому ящику перед его удалением, то содержимое почтового ящика не будет сохранено или будет недоступно для обнаружения. Однако удаленный почтовый ящик можно восстановить в течение 30 дней с момента удаления, после этого срока почтовый ящик и его содержимое будут удалены окончательно.
     
 - For more information about Litigation Hold, see [In-Place Hold and Litigation Hold](https://go.microsoft.com/fwlink/p/?LinkId=846124). Дополнительные сведения о политиках хранения Office 365 см. в статье [Общие сведения о политиках хранения в Office 365](retention-policies.md).
   
@@ -46,7 +46,7 @@ Office 365 предоставляет возможность сохранять 
   
 ### <a name="step-1-place-a-mailbox-on-litigation-hold-or-apply-an-office-365-retention-policy"></a>Шаг 1. Помещение почтового ящика на хранение для судебного разбирательства или применение политики хранения Office 365
 
-Поместив почтовый ящик на хранение для судебного разбирательства или применив политику хранения Office 365 перед его удалением, вы сможете сохранить его содержимое. При этом сохраняется все содержимое почтового ящика, в том числе удаленные элементы и исходные версии измененных элементов. Удаленные и измененные элементы хранятся в неактивном почтовом ящике в течение указанного срока или до тех пор, пока вы не отключите удержание или примененную политику хранения.
+Помещение почтового ящика на хранение для судебного разбирательства или применение политики хранения Office 365 (которая настроена для сохранения или сохранения контента) сохраняет содержимое почтового ящика перед его удалением. При этом сохраняется все содержимое почтового ящика, в том числе удаленные элементы и исходные версии измененных элементов. Удаленные и измененные элементы хранятся в неактивном почтовом ящике в течение указанного срока или до тех пор, пока вы не отключите удержание или примененную политику хранения.
   
 Если почтовый ящик уже поставлен на удержание или к нему применена политика хранения Office 365, остается только удалить соответствующую учетную запись пользователя Office 365, как описано в шаге 2.
   
@@ -102,7 +102,7 @@ Get-Mailbox -InactiveMailboxOnly | Select Displayname,PrimarySMTPAddress,Disting
   
 ## <a name="search-and-export-the-contents-of-an-inactive-mailbox"></a>Поиск и экспорт содержимого неактивного почтового ящика
 
-Получить доступ к содержимому неактивного почтового ящика можно с помощью средства "поиск контента" в центре безопасности _Амп_ соответствия требованиям. When you search an inactive mailbox, you can create a keyword search query to search for specific items or you can return the entire contents of the inactive mailbox. You can preview the search results or export the search results to an Outlook Data (PST) file or as individual email messages. For step-by-step procedures for searching mailboxes and exporting search results, see the following topics:
+Получить доступ к содержимому неактивного почтового ящика можно с помощью средства "поиск контента" в центре безопасности & соответствия требованиям. When you search an inactive mailbox, you can create a keyword search query to search for specific items or you can return the entire contents of the inactive mailbox. You can preview the search results or export the search results to an Outlook Data (PST) file or as individual email messages. For step-by-step procedures for searching mailboxes and exporting search results, see the following topics:
   
 - [Поиск контента в Office 365](content-search.md)
     
