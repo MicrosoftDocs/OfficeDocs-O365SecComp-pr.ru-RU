@@ -15,16 +15,16 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: После завершения настройки шифрования сообщений Office 365 (OME) можно настроить конфигурацию развертывания несколькими способами. Например, вы можете включить одноразовые коды проходов, отобразить кнопку Защита в Outlook в Интернете и многое другое. Задачи, описанные в этой статье, описывают, как.
-ms.openlocfilehash: 5c498c648fb28e6538bfc2fde8bdf50e8e02cbfc
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: f19556f88783eed86bd33a7fdcbd1efae18c3ef3
+ms.sourcegitcommit: b9d8a43cb3afcdc8820bc9470c5707eff8fc6616
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34155751"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34852533"
 ---
 # <a name="manage-office-365-message-encryption"></a>Управление шифрованием сообщений Office 365
 
-После завершения настройки шифрования сообщений Office 365 (OME) можно настроить конфигурацию развертывания несколькими способами. Например, вы можете включить одноразовые коды проходов, отобразить кнопку **Защита** в Outlook в Интернете и многое другое. Задачи, описанные в этой статье, описывают, как.
+После завершения настройки шифрования сообщений Office 365 (OME) можно настроить конфигурацию развертывания несколькими способами. Например, можно включить одноразовые коды проходов, отобразить кнопку **шифрования** в Outlook в Интернете и т. д. Задачи, описанные в этой статье, описывают, как.
 
 ## <a name="manage-whether-google-yahoo-and-microsoft-account-recipients-can-use-these-accounts-to-sign-in-to-the-office-365-message-encryption-portal"></a>Управление тем, могут ли получатели учетной записи Google, Yahoo и Майкрософт использовать эти учетные записи для входа на портал Office 365 для шифрования сообщений
 
@@ -78,11 +78,11 @@ ms.locfileid: "34155751"
    Set-OMEConfiguration -Identity "OME Configuration" -OTPEnabled $true
    ```
 
-## <a name="manage-the-display-of-the-protect-button-in-outlook-on-the-web"></a>Управление отображением кнопки "Защита" в Outlook в Интернете
+## <a name="manage-the-display-of-the-encrypt-button-in-outlook-on-the-web"></a>Управление отображением кнопки шифрования в Outlook в Интернете
 
-Кнопка **защитить** в Outlook в Интернете отключается при настройке OME. Как администратор, вы можете управлять тем, отображается ли эта кнопка для конечных пользователей.
+Как администратор, вы можете управлять тем, отображается ли эта кнопка для конечных пользователей.
   
-### <a name="to-manage-whether-the-protect-button-appears-in-outlook-on-the-web"></a>Управление отображением кнопки "Защита" в Outlook в Интернете
+### <a name="to-manage-whether-the-encrypt-button-appears-in-outlook-on-the-web"></a>Управление отображением кнопки "шифровать" в Outlook в Интернете
   
 1. Используйте рабочую или учебную учетную запись с разрешениями глобального администратора в организации Office 365 и запустите сеанс Windows PowerShell и подключитесь к Exchange Online. Инструкции можно найти [в статье подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
 
@@ -92,13 +92,13 @@ ms.locfileid: "34155751"
    Set-IRMConfiguration -SimplifiedClientAccessEnabled <$true|$false>
    ```
 
-   Например, чтобы отключить кнопку **защитить** :
+   Например, чтобы отключить кнопку " **шифровать** ":
 
    ```powershell
    Set-IRMConfiguration -SimplifiedClientAccessEnabled $false
    ```
 
-   Чтобы включить кнопку **защитить** :
+   Чтобы включить кнопку " **шифровать** ":
 
    ```powershell
    Set-IRMConfiguration -SimplifiedClientAccessEnabled $true
@@ -226,7 +226,7 @@ ms.locfileid: "34155751"
   
 1. С помощью рабочей или учебной учетной записи с разрешениями глобального администратора в организации Office 365 запустите сеанс Windows PowerShell и подключитесь к Exchange Online. Инструкции можно найти [в статье подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
 
-2. Если вы включили кнопку **Защита** в Outlook в Интернете, отключите ее, выполнив командлет Set-IRMConfiguration с параметром симплифиедклиентакцессенаблед. В противном случае пропустите этот шаг.
+2. Если вы включили кнопку **шифровать** в Outlook в Интернете, отключите ее, выполнив командлет Set-IRMConfiguration с параметром симплифиедклиентакцессенаблед. В противном случае пропустите этот шаг.
 
    ```powershell
    Set-IRMConfiguration -SimplifiedClientAccessEnabled $false
