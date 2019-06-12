@@ -1,7 +1,7 @@
 ---
 title: Узнайте о новейших кампаниях и методиках атак с помощью средства аналитики угроз
 description: Описание интерактивных отчетов по анализу угроз
-keywords: безопасность, вредоносные программы, Microsoft 365, M365, центр безопасности, анализ угроз, анализ угроз, кибератак, безопасность, новые угрозы
+keywords: безопасность, вредоносные программы, Microsoft 365, M365, центр безопасности, анализ угроз, служба защитника Майкрософт, кибератак, безопасность, новые угрозы
 ms.prod: w10
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -12,17 +12,17 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: e3644f5ace35a574613447ae30b6fa3c665662fe
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 24d4e5c227ddcb3366e5573b8b04b04a52437873
+ms.sourcegitcommit: b9d8a43cb3afcdc8820bc9470c5707eff8fc6616
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32251957"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34852553"
 ---
-# <a name="understand-the-latest-attack-campaigns-and-techniques-with-threat-analytics"></a><span data-ttu-id="20e95-104">Узнайте о новейших кампаниях и методиках атак с помощью средства анализа угроз</span><span class="sxs-lookup"><span data-stu-id="20e95-104">Understand the latest attack campaigns and techniques with threat analytics</span></span>
+# <a name="understand-the-latest-attack-campaigns-and-techniques-with-threat-analytics"></a><span data-ttu-id="f6fda-104">Узнайте о новейших кампаниях и методиках атак с помощью средства анализа угроз</span><span class="sxs-lookup"><span data-stu-id="f6fda-104">Understand the latest attack campaigns and techniques with threat analytics</span></span>
 
-<span data-ttu-id="20e95-105">Угрозы кибератак становятся более частыми и изощренными.</span><span class="sxs-lookup"><span data-stu-id="20e95-105">Cyber threats are becoming more frequent and sophisticated.</span></span> <span data-ttu-id="20e95-106">Организациям важно быстро оценить безопасность и устойчивость к определенным вредоносным угрозам.</span><span class="sxs-lookup"><span data-stu-id="20e95-106">It’s critical for organizations to quickly assess their security posture and resilience against specific emerging threats.</span></span>
+<span data-ttu-id="f6fda-105">Угрозы кибератак становятся более частыми и изощренными.</span><span class="sxs-lookup"><span data-stu-id="f6fda-105">Cyber threats are becoming more frequent and sophisticated.</span></span> <span data-ttu-id="f6fda-106">Организациям важно быстро оценить безопасность и устойчивость к определенным вредоносным угрозам.</span><span class="sxs-lookup"><span data-stu-id="f6fda-106">It’s critical for organizations to quickly assess their security posture and resilience against specific emerging threats.</span></span>
 
-<span data-ttu-id="20e95-107">Средство **анализа угроз** — это набор интерактивных отчетов, опубликованных сразу же после создания угроз — помечаются новые методы, кампании по атакам и эпидемии вредоносных программ.</span><span class="sxs-lookup"><span data-stu-id="20e95-107">**Threat analytics** is a set of interactive reports published as soon as emerging threats—new techniques, attack campaigns, and malware outbreaks—are identified.</span></span> <span data-ttu-id="20e95-108">Отчеты помогают оценить влияние угроз на среду и предоставляет рекомендуемые действия для хранения, повышения устойчивости организации и предотвращения определенных угроз.</span><span class="sxs-lookup"><span data-stu-id="20e95-108">The reports help you the assess impact of threats to your environment and provides recommended actions to contain, increase organizational resilience, and prevent specific threats.</span></span>
+<span data-ttu-id="f6fda-107">Средство **анализа угроз** — это набор интерактивных отчетов, опубликованных сразу же после создания угроз — помечаются новые методы, кампании по атакам и эпидемии вредоносных программ.</span><span class="sxs-lookup"><span data-stu-id="f6fda-107">**Threat analytics** is a set of interactive reports published as soon as emerging threats—new techniques, attack campaigns, and malware outbreaks—are identified.</span></span> <span data-ttu-id="f6fda-108">Отчеты помогают оценить влияние угроз на среду и предоставляет рекомендуемые действия для хранения, повышения устойчивости организации и предотвращения определенных угроз.</span><span class="sxs-lookup"><span data-stu-id="f6fda-108">The reports help you the assess impact of threats to your environment and provides recommended actions to contain, increase organizational resilience, and prevent specific threats.</span></span>
 
-<span data-ttu-id="20e95-109">[Узнайте больше о службе анализа угроз в Windows Defender ATP](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-atp/threat-analytics).</span><span class="sxs-lookup"><span data-stu-id="20e95-109">[Learn more about threat analytics in Windows Defender ATP](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-atp/threat-analytics).</span></span>  
+<span data-ttu-id="f6fda-109">[Узнайте больше о службе анализа угроз в средстве анализа угроз Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-analytics).</span><span class="sxs-lookup"><span data-stu-id="f6fda-109">[Learn more about threat analytics in Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-analytics).</span></span>  
