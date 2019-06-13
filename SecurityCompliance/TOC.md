@@ -100,8 +100,8 @@
 ### [Импорт зашифрованных с использованием RMS PST-файлов с помощью отправки по сети](use-network-upload-to-import-rms-encrypted-pst-files.md)
 ### [Вопросы и ответы об импорте PST-файлов](faqimporting-pst-files-to-office-365.md)
 ### [Архивация сторонних данных в Office 365](archiving-third-party-data.md)
-#### [Использование примера соединителя для архивации данных Facebook в Office 365 (предварительная версия)](archive-facebook-data-with-sample-connector.md)
-#### [Использование примера соединителя для архивации данных Twitter](archive-twitter-data-with-sample-connector.md)
+#### [Использование образца соединителя для архивации данных Facebook](archive-facebook-data-with-sample-connector.md)
+#### [Использование образца соединителя для архивации данных Twitter](archive-twitter-data-with-sample-connector.md)
 #### [Архивация сторонних данных при помощи партнера](work-with-partner-to-archive-third-party-data.md)
 ## Сохранение данных
 ### [Включение архивных почтовых ящиков](enable-archive-mailboxes.md)
@@ -153,6 +153,7 @@
 ### [Настройка политики защиты от нежелательной почты для исходящих сообщений](configure-the-outbound-spam-policy.md)
 ### [Удаление пользователя с портала "Пользователи с ограниченным доступом" после отправки нежелательной почты](removing-user-from-restricted-users-portal-after-spam.md)
 ### [Вероятность нежелательной почты](spam-confidence-levels.md)
+### [Исправление ошибки с кодом 5.7.7xx в Exchange Online](fix-error-code-5-7-7xx-in-exchange-online.md)
 #### [Указание вероятности нежелательной почты (SCL) в сообщениях с помощью правил потока обработки почты](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)
 #### [Отправка обычных, нежелательных и фишинговых сообщений в корпорацию Майкрософт для анализа](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)
 #### [Отправка обычных и вредоносных программ в корпорацию Майкрософт для анализа](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)
@@ -204,7 +205,7 @@
 #### [ATP для SharePoint, OneDrive и Microsoft Teams](atp-for-spo-odb-and-teams.md)
 ## Управление безопасностью — ATP после настройки
 ## [Использование аналитики угроз для знакомства с последними атаками](latest-attack-campaigns.md)
-## [Поиск в Microsoft 365 ATP](hunting.md)
+## [Выслеживание в Microsoft 365](hunting.md)
 ## [Просмотр и чтение отчетов ATP](view-reports-for-atp.md)
 ## [Значение страниц предупреждения безопасных ссылок ATP](atp-safe-links-warning-pages.md)
 ## [Использование журналов учета угроз](threat-trackers.md)
@@ -214,8 +215,8 @@
 ## [Обозреватель угроз (и обнаружение в режиме реального времени)](threat-explorer.md)
 ### [Представления обозревателя угроз](threat-explorer-views.md)
 ## Интеграция для повышения безопасности
-### [Интеграция Office 365 ATP с Advanced Threat Protection в Защитнике Windows](integrate-office-365-ti-with-wdatp.md)
-### [Интеграция SIEM с Office 365 ATP](siem-integration-with-office-365-ti.md)
+### [Интеграция ATP Office 365 с ATP в Microsoft Defender](integrate-office-365-ti-with-wdatp.md)
+### [Интеграция SIEM с ATP Office 365](siem-integration-with-office-365-ti.md)
 ## Как работает ATP
 ### [Как работают безопасные ссылки ATP](how-atp-safe-links-works.md)
 ### [Как работают безопасные вложения ATP](how-atp-safe-attachments-works.md)
@@ -484,11 +485,12 @@
 ## [Поиск действий по обнаружению электронных данных в журнале аудита](search-for-ediscovery-activities-in-the-audit-log.md)
 
 # Мониторинг безопасности и соответствия требованиям
-## [Мониторинг и отчетность Центра безопасности Microsoft 365](monitoring-and-reporting.md)
-### [Мониторинг и отчеты по удостоверениям в Центре безопасности Microsoft 365](monitor-and-report-identities.md)
-### [Мониторинг данных в Центре безопасности Microsoft 365](monitor-data.md)
-### [Мониторинг устройств в Центре безопасности Microsoft 365](monitor-devices.md)
-### [Мониторинг приложений в Центре безопасности Microsoft 365](monitor-apps.md)
+## Центр безопасности Microsoft 365
+### [Мониторинг и просмотр отчетов](monitoring-and-reporting.md)
+### [Мониторинг удостоверений и создание отчетов](monitor-and-report-identities.md)
+### [Мониторинг данных и создание отчетов](monitor-data.md)
+### [Мониторинг устройств и создание отчетов](monitor-devices.md)
+### [Мониторинг приложений и создание отчетов](monitor-apps.md)
 ## [Политики оповещений](alert-policies.md)
 
 # Поток обработки почты
