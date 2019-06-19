@@ -101,7 +101,8 @@
 ### [Вопросы и ответы об импорте PST-файлов](faqimporting-pst-files-to-office-365.md)
 ### [Архивация сторонних данных в Office 365](archiving-third-party-data.md)
 #### [Использование образца соединителя для архивации данных Facebook](archive-facebook-data-with-sample-connector.md)
-#### [Использование образца соединителя для архивации данных Twitter](archive-twitter-data-with-sample-connector.md)
+#### [Использование примера соединителя для архивации данных Twitter](archive-twitter-data-with-sample-connector.md)
+#### [Настройка соединителя для архивации данных LinkedIn](archive-linkedin-data.md)
 #### [Архивация сторонних данных при помощи партнера](work-with-partner-to-archive-third-party-data.md)
 ## Сохранение данных
 ### [Включение архивных почтовых ящиков](enable-archive-mailboxes.md)
@@ -242,7 +243,8 @@
 ### [Вопросы и ответы об импорте PST-файлов](faqimporting-pst-files-to-office-365.md)
 ### [Архивация сторонних данных в Office 365](archiving-third-party-data.md)
 #### [Использование образца соединителя для архивации данных Facebook](archive-facebook-data-with-sample-connector.md)
-#### [Использование образца соединителя для архивации данных Twitter](archive-twitter-data-with-sample-connector.md)
+#### [Использование примера соединителя для архивации данных Twitter](archive-twitter-data-with-sample-connector.md)
+#### [Настройка соединителя для архивации данных LinkedIn](archive-linkedin-data.md)
 #### [Архивация сторонних данных при помощи партнера](work-with-partner-to-archive-third-party-data.md)
 ## Сохранение данных
 ### [Включение архивных почтовых ящиков](enable-archive-mailboxes.md)
