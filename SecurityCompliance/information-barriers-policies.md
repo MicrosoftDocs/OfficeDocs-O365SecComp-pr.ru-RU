@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Узнайте, как определить политики для барьеров информации в Microsoft Teams.
-ms.openlocfilehash: fb162e380fa467cf3e832bd7bbdafcde136b1db6
-ms.sourcegitcommit: 087cf1a022b13c46e207270d6837f09a9752c972
+ms.openlocfilehash: fd091ce213159363a11d9dce378e38f55e132c89
+ms.sourcegitcommit: b00c8fe1827d24f055a3076c10f284ff9ee3e04b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/20/2019
-ms.locfileid: "35083867"
+ms.locfileid: "35113253"
 ---
 # <a name="define-policies-for-information-barriers-preview"></a>Определение политик для барьеров информации (Предварительная версия)
 
@@ -134,7 +134,7 @@ ms.locfileid: "35083867"
 
 ### <a name="using-equals-and-not-equals-in-segment-definitions"></a>Использование "Equals" и "Not Equals" в определениях сегментов
 
-В первом примере, показанном выше, мы определили сегмент, включающий логику, *Отдел которой РАВЕН HR*. Кроме того, можно определить сегменты с помощью параметра "Not Equals", как показано в следующем примере:
+В первом примере, показанном выше, мы определили сегмент, который "Отдел равняется HR". Этот сегмент включал параметр "Equals". Кроме того, можно определить сегменты с помощью параметра "Not Equals", как показано в следующем примере:
 
 Инструкции`New-OrganizationSegment -Name "segmentname" -UserGroupFilter "attribute -ne 'attributevalue'"`
 
