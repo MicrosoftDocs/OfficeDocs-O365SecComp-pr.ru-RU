@@ -27,7 +27,7 @@
 # [Защита информации](protect-information.md)
 ## [Метки конфиденциальности](sensitivity-labels.md)
 ### [Ограничение доступа к контенту с помощью шифрования в метках конфиденциальности](encryption-sensitivity-labels.md)
-### [Автоматическое применение метки конфиденциальности к содержимому](apply_sensitivity_label_automatically.md)
+### [Автоматическое применение метки конфиденциальности к содержимому](apply-sensitivity-label-automatically.md)
 ### [Просмотр использования меток с помощью Аналитики меток](label-analytics.md)
 
 ## [Защита от потери данных (DLP)](data-loss-prevention-policies.md)
@@ -538,6 +538,8 @@
 ### [Определение политик информационных барьеров (предварительная версия)](information-barriers-policies.md)
 ### [Атрибуты для политик информационных барьеров (предварительная версия)](information-barriers-attributes.md)
 ### [Устранение проблем с информационными барьерами (предварительная версия)](information-barriers-troubleshooting.md)
+### [Изменение и удаление политик информационных барьеров (предварительная версия)](information-barriers-edit-segments-policies.md.md)
+
 
 ## Ключ клиента
 ### [Контроль данных в Office 365 с помощью ключа клиента](controlling-your-data-using-customer-key.md)
