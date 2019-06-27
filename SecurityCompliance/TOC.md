@@ -331,7 +331,7 @@
 #### [Исправление ошибок при обработке данных](compliance20/error-remediation.md)
 
 ### [Сбор данных для дела](compliance20/collecting-data-for-ediscovery.md)
-#### [Создание поискового запроса для сбора данных](compliance20/create-search-to-collect-data.md)
+#### [Создание поискового запроса](compliance20/create-search-to-collect-data.md)
 #### [Создание поисковых запросов](compliance20/building-search-queries.md)
 #### [Статистика поиска](compliance20/search-statistics.md)
 #### [Добавление результатов поиска в набор для проверки](compliance20/add-data-to-review-set.md)
@@ -538,7 +538,7 @@
 ### [Определение политик информационных барьеров (предварительная версия)](information-barriers-policies.md)
 ### [Атрибуты для политик информационных барьеров (предварительная версия)](information-barriers-attributes.md)
 ### [Устранение проблем с информационными барьерами (предварительная версия)](information-barriers-troubleshooting.md)
-### [Изменение и удаление политик информационных барьеров (предварительная версия)](information-barriers-edit-segments-policies.md.md)
+### [Изменение политик информационных барьеров (предварительная версия)](information-barriers-edit-segments-policies.md.md)
 
 
 ## Ключ клиента
