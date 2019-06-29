@@ -3,7 +3,7 @@ title: Определение политик барьера информации
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 06/26/2019
+ms.date: 06/28/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Узнайте, как определить политики для барьеров информации в Microsoft Teams.
-ms.openlocfilehash: 0603b5339672be3b4ac6ad4a18c6032f563acf27
-ms.sourcegitcommit: 1c254108c522d0cb44023565268b5041d07748aa
+ms.openlocfilehash: 844e01fc1df96e9de62b1830c2825db15426f7f4
+ms.sourcegitcommit: 011bfa60cafdf47900aadf96a17eb275efa877c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "35279467"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394324"
 ---
 # <a name="define-policies-for-information-barriers-preview"></a>Определение политик для барьеров информации (Предварительная версия)
 
@@ -29,11 +29,25 @@ ms.locfileid: "35279467"
 > [!TIP]
 > Эта статья включает [Пример сценария](#example-contosos-departments-segments-and-policies) и загружаемую [книгу Excel](https://github.com/MicrosoftDocs/OfficeDocs-O365SecComp/raw/public/SecurityCompliance/media/InfoBarriers-PowerShellGenerator.xlsx) , которая поможет вам спланировать и определить политики барьера информации.
 
+## <a name="concepts-of-information-barrier-policies"></a>Основные сведения о политиках для работы с информационными барьерами
+
+При определении политик для барьеров информации вы будете работать с атрибутами учетных записей, сегментами, политиками "Block" и "разрешить" и приложением политики.
+
+- **Атрибуты учетной записи пользователя** определены в Azure Active Directory (или Exchange Online). Эти атрибуты могут включать сведения о отделе, должности, местоположении, именах рабочих групп и другие сведения о профилях заданий. 
+
+- **Сегменты** — это наборы пользователей, которые определены в центре безопасности Office 365 & соответствие требованиям с помощью выбранного **атрибута учетной записи пользователя**. (См. [список поддерживаемых атрибутов](information-barriers-attributes.md)). 
+
+- **Политики для информационных барьеров** определяют ограничения на связь или ограничения. При определении политик барьера информации вы выбираете один из двух типов политик:
+    - Политики "блокировать" предотвращают связь одного сегмента с другим сегментом.
+    - Политики "разрешить" позволяют одному сегменту связываться только с определенными другими сегментами.
+
+- **Применение политики** выполняется после определения всех политик барьера информации и готовности к их применению в Организации.
+
 ## <a name="the-work-flow-at-a-glance"></a>Краткий обзор рабочего процесса
 
 |Этап    |Что участвует  |
 |---------|---------|
-|[Убедитесь, что выполнены необходимые условия](#prerequisites)     |— Убедитесь, что у вас есть [необходимые лицензии и разрешения](information-barriers.md#required-licenses-and-permissions) .<br/>— Убедитесь, что каталог содержит данные для сегментирования пользователей.<br/>— Разрешить поиск в каталоге для Microsoft Teams<br/>-Убедитесь, что ведение журнала аудита включено<br/>-Использование PowerShell (примеры приведены)<br/>Предоставление согласия администратора для Microsoft Teams (включены шаги)          |
+|[Убедитесь, что выполнены необходимые условия](#prerequisites)     |— Убедитесь, что у вас есть [необходимые лицензии и разрешения](information-barriers.md#required-licenses-and-permissions) .<br/>— Убедитесь, что каталог содержит данные для сегментирования пользователей.<br/>— Разрешить поиск в каталоге для Microsoft Teams<br/>-Убедитесь, что ведение журнала аудита включено<br/>Убедитесь, что не заданы политики адресных книг Exchange.<br/>-Использование PowerShell (примеры приведены)<br/>Предоставление согласия администратора для Microsoft Teams (включены шаги)          |
 |[Часть 1: сегментирование пользователей в Организации](#part-1-segment-users)     |Определение необходимых политик<br/>Создание списка сегментов для определения<br/>— Определение используемых атрибутов<br/>— Определение сегментов с точки зрения фильтров политик        |
 |[Часть 2: определение политик барьера информации](#part-2-define-information-barrier-policies)     |-Определение политик (еще не применяйте их)<br/>-Выбрать один из двух типов (блокировать или разрешить) |
 |[Часть 3: применение политик барьера информации](#part-3-apply-information-barrier-policies)     |— Установка политик в состояние "активно"<br/>— Запуск приложения политики<br/>— Просмотр состояния политики         |
@@ -52,6 +66,8 @@ ms.locfileid: "35279467"
 - **Поиск в каталоге**с заданной областью. Перед определением политики барьера первой информации Организации необходимо [включить поиск в каталоге в Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-scoped-directory-search). Подождите как минимум 24 часа после включения поиска в каталоге с областью действия перед настройкой или определением политик барьера информации.
 
 - **Ведение журнала аудита**. Для поиска состояния приложения политики необходимо включить ведение журнала аудита. Мы рекомендуем сделать это, прежде чем приступать к определению сегментов или политик. Чтобы узнать больше, ознакомьтесь [со статьей включение и отключение поиска в журнале аудита Office 365](turn-audit-log-search-on-or-off.md).
+
+- **Нет политик адресных книг**. Прежде чем приступать к определению и применению политик барьера информации, убедитесь, что не заданы политики адресных книг Exchange. При наличии таких политик обязательно сначала [удалите политики адресных книг](https://docs.microsoft.com/exchange/address-books/address-book-policies/remove-an-address-book-policy) .
 
 - **PowerShell**. В настоящее время политики информационных барьеров определяются и управляются в центре безопасности & безопасности Office 365 с помощью командлетов PowerShell. Хотя в этой статье представлено несколько примеров, необходимо ознакомиться с командлетами и параметрами PowerShell. Кроме того, вам потребуется модуль Азурерм.
     - [Подключитесь к PowerShell Центра безопасности и соответствия требованиям Office 365.](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
@@ -101,22 +117,21 @@ ms.locfileid: "35279467"
 
 ### <a name="define-segments-using-powershell"></a>Определение сегментов с помощью PowerShell
 
-> [!IMPORTANT]
-> **Убедитесь, что ваши сегменты не**перекрываются. Каждый пользователь, к которому будут применяться барьеры информации, должен принадлежать одному (и только одному) сегменту. Ни один пользователь не должен принадлежать к двум или более сегментам. ( [Пример: определенные](#contosos-defined-segments) в этой статье сегменты contoso.)
-
 Определение сегментов не влияет на пользователей; Он просто задается, а затем применяется к рабочей области для политик информационных барьеров.
 
 1. Используйте командлет **New – организатионсегмент** с параметром **усерграупфилтер** , который соответствует атрибуту [](information-barriers-attributes.md) , который необходимо использовать.
-    
-    Инструкции`New-OrganizationSegment -Name "segmentname" -UserGroupFilter "attribute -eq 'attributevalue'"`
-    
-    Пример: `New-OrganizationSegment -Name "HR" -UserGroupFilter "Department -eq 'HR'"`
-    
-    В этом примере сегмент под названием *HR* определяется с помощью *HR*, значение в атрибуте *Department* . Часть командлета **– EQ** — "Equals". (Кроме того, можно использовать параметр **-Ne** для обозначения "Not Equals". [В определениях сегментов показано использование "Equals" и "Not Equals"](#using-equals-and-not-equals-in-segment-definitions).
+
+    |Синтаксис   |Пример  |
+    |---------|---------|
+    |`New-OrganizationSegment -Name "segmentname" -UserGroupFilter "attribute -eq 'attributevalue'"`     |`New-OrganizationSegment -Name "HR" -UserGroupFilter "Department -eq 'HR'"` <p>В этом примере сегмент под названием *HR* определяется с помощью *HR*, значение в атрибуте *Department* . Часть командлета **– EQ** — "Equals". (Кроме того, можно использовать параметр **-Ne** для обозначения "Not Equals". [В определениях сегментов показано использование "Equals" и "Not Equals"](#using-equals-and-not-equals-in-segment-definitions).        |
 
     После выполнения каждого командлета должен отобразиться список сведений о новом сегменте. Сведения включают тип сегмента, кто создал или последним изменил его и т. д. 
 
 2. Повторите этот процесс для каждого сегмента, который необходимо определить.
+
+    > [!IMPORTANT]
+    > **Убедитесь, что ваши сегменты не**перекрываются. Каждый пользователь, к которому будут применяться барьеры информации, должен принадлежать одному (и только одному) сегменту. Ни один пользователь не должен принадлежать к двум или более сегментам. ( [Пример: определенные](#contosos-defined-segments) в этой статье сегменты contoso.)
+
 
 Определив сегменты, перейдите к разделу [Определение политик барьера информации](#part-2-define-information-barrier-policies).
 
@@ -124,23 +139,25 @@ ms.locfileid: "35279467"
 
 В следующем примере мы определяем сегмент, для которого "Отдел равняется HR". 
 
-**Пример**: `New-OrganizationSegment -Name "HR" -UserGroupFilter "Department -eq 'HR'"`.
+|Пример  |
+|---------|
+|`New-OrganizationSegment -Name "HR" -UserGroupFilter "Department -eq 'HR'"` <p>Обратите внимание, что в этом примере определение сегмента включает параметр "Equals", обозначенный как " **– EQ**". 
+  |
 
-Обратите внимание, что определение сегмента включает параметр "Equals", обозначенный как " **– EQ**". 
+Кроме того, можно определить сегменты с помощью параметра "Not Equals", обозначенного как " **– Ne**", как показано в следующей таблице:
 
-Кроме того, можно определить сегменты с помощью параметра "Not Equals", обозначенного как " **– Ne**", как показано в следующем примере:
-
-**Синтаксис**:`New-OrganizationSegment -Name "segmentname" -UserGroupFilter "attribute -ne 'attributevalue'"`
-
-**Пример**: `New-OrganizationSegment -Name "NotSales" -UserGroupFilter "Department -ne 'Sales'"`.
-
-В этом примере мы определили сегмент под названием *нотсалес* , включающий всех пользователей, не включенных в *продажу*. Часть командлета **—** это "Not Equals".
+|Синтаксис  |Пример  |
+|---------|---------|
+|`New-OrganizationSegment -Name "segmentname" -UserGroupFilter "attribute -ne 'attributevalue'"`    |`New-OrganizationSegment -Name "NotSales" -UserGroupFilter "Department -ne 'Sales'"` <p>В этом примере мы определили сегмент под названием *нотсалес* , включающий всех пользователей, не включенных в *продажу*. Часть командлета **—** это "Not Equals".  |
 
 В дополнение к определению сегментов, использующих "Equals" или "Not Equals", можно определить сегмент, используя параметры "EQUAL" и "Not Equals".
 
-**Пример**: `New-OrganizationSegment -Name "LocalFTE" -UserGroupFilter "Location -eq 'Local'" and "Position -ne 'Temporary'"`.
+|Пример  |
+|---------|
+|`New-OrganizationSegment -Name "LocalFTE" -UserGroupFilter "Location -eq 'Local'" and "Position -ne 'Temporary'"` <p>В этом примере мы определили сегмент под названием *локалфте* , включающий людей, которые находятся в локальной среде, а позиции не указаны как *временные*.    |
 
-В этом примере мы определили сегмент под названием *локалфте* , включающий людей, которые находятся в локальной среде, а позиции не указаны как *временные*.
+> [!TIP]
+> Если это возможно, используйте определения сегментов, включающие "– EQ" или "$ NE". Старайтесь не определять сложные определения сегментов. 
 
 ## <a name="part-2-define-information-barrier-policies"></a>Часть 2: определение политик барьера информации
 
@@ -164,18 +181,16 @@ ms.locfileid: "35279467"
 
 1. Чтобы определить первую политику блокировки, используйте командлет **New – информатионбарриерполици** с параметром **сегментсблоккед** . 
 
-    Инструкции`New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsBlocked "segment2name"`
-
-    Пример: `New-InformationBarrierPolicy -Name "Sales-Research" -AssignedSegment "Sales" -SegmentsBlocked "Research" -State Inactive`
-
-    В этом примере мы определили политику с названием *Sales — исследование* для сегмента под названием *Sales*. Если политика активна и применена, эта политика ** запрещает людям в продажах в сегменте, именуемом *исследованием*, взаимодействовать с людьми.
+    |Синтаксис  |Пример  |
+    |---------|---------|
+    |`New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsBlocked "segment2name"`     |`New-InformationBarrierPolicy -Name "Sales-Research" -AssignedSegment "Sales" -SegmentsBlocked "Research" -State Inactive` <p>    В этом примере мы определили политику с названием *Sales — исследование* для сегмента под названием *Sales*. Если политика активна и применена, эта политика ** запрещает людям в продажах в сегменте, именуемом *исследованием*, взаимодействовать с людьми.         |
 
 2. Чтобы определить второй блокирующий сегмент, снова используйте командлет **New – информатионбарриерполици** с параметром **сегментсблоккед** , на этот раз отменяя сегменты.
 
-    Пример: `New-InformationBarrierPolicy -Name "Research-Sales" -AssignedSegment "Research" -SegmentsBlocked "Sales" -State Inactive`
+    |Пример  |
+    |---------|
+    |`New-InformationBarrierPolicy -Name "Research-Sales" -AssignedSegment "Research" -SegmentsBlocked "Sales" -State Inactive` <p>    В этом примере мы определили политику, именуемую *исследованием продаж* , чтобы запретить *исследование* связи с *продажами*.     |
 
-    В этом примере мы определили политику, именуемую *исследованием продаж* , чтобы запретить *исследование* связи с *продажами*.
- 
 2. Выполните одно из следующих действий.
 
    - (При необходимости) [Определение политики, позволяющей сегменту общаться только с одним сегментом](#scenario-2-allow-a-segment-to-communicate-only-with-one-other-segment) 
@@ -185,21 +200,15 @@ ms.locfileid: "35279467"
 
 1. Чтобы разрешить одному сегменту общаться только с одним сегментом, используйте командлет **New – информатионбарриерполици** с параметром **сегментсалловед** . 
 
-    Инструкции`New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsAllowed "segment2name"`
-
-    Пример: `New-InformationBarrierPolicy -Name "Manufacturing-HR" -AssignedSegment "Manufacturing" -SegmentsAllowed "HR" -State Inactive`
-
-    В этом примере мы определили политику под названием " *производство — HR* " для сегмента под названием " *производство*". Если политика активна и применена, эта политика позволяет людям в *производстве* общаться только с людьми в сегменте под названием *HR*. (В этом случае *производство* не сможет общаться с пользователями, не входящими в *HR*.)
+    |Синтаксис  |Пример  |
+    |---------|---------|
+    |`New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsAllowed "segment2name"`     |`New-InformationBarrierPolicy -Name "Manufacturing-HR" -AssignedSegment "Manufacturing" -SegmentsAllowed "HR" -State Inactive` <p>    В этом примере мы определили политику под названием " *производство — HR* " для сегмента под названием " *производство*". Если политика активна и применена, эта политика позволяет людям в *производстве* общаться только с людьми в сегменте под названием *HR*. (В этом случае *производство* не сможет общаться с пользователями, не входящими в *HR*.)         |
 
     **При необходимости вы можете указать несколько сегментов с помощью этого командлета, как показано в следующем примере.**
 
-    Инструкции`New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsAllowed "segment2name", "segment3name"`
-
-    **Пример 2: определение политики, позволяющей сегменту общаться только с двумя другими сегментами**    
-
-    `New-InformationBarrierPolicy -Name "Research-HRManufacturing" -AssignedSegment "Research" -SegmentsAllowed "HR","Manufacturing" -State Inactive`
-
-    В этом примере мы определили политику, которая позволяет сегменту *исследований* общаться только с *персоналом* и *производством*.
+    |Синтаксис  |Пример  |
+    |---------|---------|
+    |`New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsAllowed "segment2name", "segment3name"`     |`New-InformationBarrierPolicy -Name "Research-HRManufacturing" -AssignedSegment "Research" -SegmentsAllowed "HR","Manufacturing" -State Inactive` <p>В этом примере мы определили политику, которая позволяет сегменту *исследований* общаться только с *персоналом* и *производством*.        |
 
     Повторите это действие для каждой политики, которую необходимо определить, чтобы разрешить определенным сегментам общаться только с определенными сегментами.
 
@@ -218,11 +227,9 @@ ms.locfileid: "35279467"
 
 2. Чтобы задать для политики состояние "активно", используйте командлет **Set – информатионбарриерполици** с параметром **Identity** , а параметр **State** имеет значение **Active**. 
 
-    Инструкции`Set-InformationBarrierPolicy -Identity GUID -State Active`
-
-    Пример: `Set-InformationBarrierPolicy -Identity 43c37853-ea10-4b90-a23d-ab8c93772471 -State Active`
-    
-    В этом примере мы настроили политику информационного барьера с идентификатором GUID *43c37853-EA10-4b90-a23d-ab8c93772471* в активное состояние.
+    |Синтаксис  |Пример  |
+    |---------|---------|
+    |`Set-InformationBarrierPolicy -Identity GUID -State Active`     |`Set-InformationBarrierPolicy -Identity 43c37853-ea10-4b90-a23d-ab8c93772471 -State Active` <p>    В этом примере мы настроили политику информационного барьера с идентификатором GUID *43c37853-EA10-4b90-a23d-ab8c93772471* в активное состояние.   |
 
     Повторите этот шаг в соответствии с каждой политикой.
 
@@ -244,6 +251,17 @@ ms.locfileid: "35279467"
 |Последнее приложение политики барьера информации     | Используйте командлет **Get – информатионбарриерполиЦиесаппликатионстатус** . <p>Инструкции`Get-InformationBarrierPoliciesApplicationStatus`<p>    При этом будут отображены сведения о том, завершено ли выполнение приложения политики, оно завершилось сбоем или находится в процессе выполнения.       |
 |Все приложения политики барьера для информационных заданных|Используйте`Get-InformationBarrierPoliciesApplicationStatus -All $true`<p>При этом будут отображены сведения о том, завершено ли выполнение приложения политики, оно завершилось сбоем или находится в процессе выполнения.|
 
+## <a name="what-if-i-need-to-remove-or-change-policies"></a>Что делать, если нужно удалить или изменить политики?
+
+Доступны ресурсы, которые помогут вам управлять политиками барьера информации.
+
+- Если что-то пошло не так с барьерами информации, ознакомьтесь с разделом [Устранение неполадок (Предварительная версия)](information-barriers-troubleshooting.md)
+
+- Чтобы остановить применение политик, ознакомьтесь со [статьей остановка применения политики](information-barriers-edit-segments-policies.md.md#stop-a-policy-application).
+
+- Чтобы удалить политику барьера информации, ознакомьтесь [со статьей удаление политики](information-barriers-edit-segments-policies.md.md#remove-a-policy).
+
+- Чтобы внести изменения в сегменты или политики, ознакомьтесь со статьей [изменение (или удаление) политик барьера информации (Предварительная версия)](information-barriers-edit-segments-policies.md.md).
 
 ## <a name="example-contosos-departments-segments-and-policies"></a>Пример: отделы, сегменты и политики contoso
 
@@ -298,12 +316,6 @@ Contoso будет использовать атрибут Department в Azure A
 
 ## <a name="related-articles"></a>Статьи по теме
 
-[Изменение или удаление политик барьера информации (Предварительная версия)](information-barriers-edit-segments-policies.md.md)
+- [Обзор барьеров для информационных барьеров (Предварительная версия)](information-barriers.md)
 
-[Обзор информационных препятствий](information-barriers.md)
-
-[Дополнительные сведения об барьерах информации в Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/information-barriers-in-teams)
-
-[Атрибуты политик барьера информации (Предварительная версия)](information-barriers-attributes.md)
-
-[Препятствия информации об устранении неполадок (Предварительная версия)](information-barriers-troubleshooting.md)
+- [Информационные барьеры в Microsoft Teams Preview](https://docs.microsoft.com/MicrosoftTeams/information-barriers-in-teams)
