@@ -3,7 +3,7 @@ title: Создание пользовательского типа конфид
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
@@ -13,18 +13,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте, как создавать и импортировать пользовательский тип конфиденциальных данных для защиты от потери данных в Центре безопасности и соответствия требованиям.
-ms.openlocfilehash: 7a21b62ddaf4d24793d4479d0d6270a18cc50532
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: b036d308a55dbd557c6b3dd5e0d5315d0d26bc83
+ms.sourcegitcommit: cc1b0281fa594cbb7c09f3e419df21aec9557831
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32259162"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417411"
 ---
 # <a name="create-a-custom-sensitive-information-type-in-security--compliance-center-powershell"></a>Создание пользовательского типа конфиденциальной информации в PowerShell Центра безопасности и соответствия требованиям
 
 DLP в Office 365 включает много встроенных [типов конфиденциальной информации](what-the-sensitive-information-types-look-for.md), которые вы можете использовать в своих политиках защиты от потери данных. С помощью этих типов можно обнаруживать и защищать номера кредитных карт, банковских счетов, паспортов и многие другие сведения. 
   
-Если вам необходимо обнаруживать и защищать конфиденциальные сведения другого типа, например идентификаторы сотрудников, для которых в вашей организации используется особый формат, вы можете создать пользовательский тип конфиденциальных данных. Для определения типа конфиденциальных данных используется XML-файл, который называется _пакетом правил_.
+Если вам необходимо обнаруживать и защищать конфиденциальные сведения другого типа, например идентификаторы сотрудников, для которых в вашей организации используется особый формат, вы можете создать пользовательский тип конфиденциальных данных, определяемый в XML-файле, который называется *пакетом правил*.
   
 В этой статье рассказывается, как создать XML-файл, в котором вы можете определить собственный пользовательский тип конфиденциальных данных. Для этого вы должны уметь создавать регулярные выражения. В качестве примера здесь описан процесс создания пользовательского типа конфиденциальных данных, с помощью которого можно обнаруживать идентификаторы сотрудников. Вы можете использовать этот пример XML-файла в качестве основы для собственного XML-файла.
   
@@ -228,14 +228,26 @@ DLP в Office 365 включает много встроенных [типов 
 ### <a name="match-at-least-one-child-match-element"></a>Совпадение для хотя бы одного дочернего элемента Match
 
 Если необходимо, чтобы выполнялось только минимальное количество элементов Match, можно использовать атрибут minMatches. По сути, эти элементы Match соединены неявным оператором OR. Этот элемент Any выполняется при обнаружении даты в формате США или ключевого слова из любого списка.
-  
-![Разметка XML, в которой используется элемент Any с атрибутом minMatches](media/385db1b1-571b-4a05-81b3-db28f5099c17.png)
-  
+
+```
+<Any minMatches="1" >
+     <Match idRef="Func_us_date" />
+     <Match idRef="Keyword_employee" />
+     <Match idRef="Keyword_badge" />
+</Any>
+```
+    
 ### <a name="match-an-exact-subset-of-any-children-match-elements"></a>Точное соответствие подмножеству любых дочерних элементов Match
 
 Если необходимо, чтобы выполнялось строго определенное количество элементов Match, вы можете задать одинаковые значения для элементов minMatches и maxMatches. Этот элемент Any будет выполняться только при обнаружении строго одной даты или одного ключевого слова. При обнаружении нескольких дат или ключевых слов шаблон не сработает.
-  
-![Разметка XML, в которой используется элемент Any с атрибутами minMatches и maxMatches](media/97b10002-7781-42e8-ac5a-20ad8c5a887e.png)
+
+```
+<Any minMatches="1" maxMatches="1" >
+     <Match idRef="Func_us_date" />
+     <Match idRef="Keyword_employee" />
+     <Match idRef="Keyword_badge" />
+</Any>
+```
   
 ### <a name="match-none-of-children-match-elements"></a>Несоответствие никаким дочерним элементам Match
 
@@ -243,7 +255,25 @@ DLP в Office 365 включает много встроенных [типов 
   
 Например, объект идентификатора сотрудника выполняет поиск ключевого слова "карта", так как это слово может быть связано с выражением "идентификационная карта". Тем не менее если слово "карта" появляется только во фразе "кредитная карта", то в этом контексте маловероятно, что оно будет означать "идентификационная карта". Поэтому вы можете добавить выражение "кредитная карта" в качестве ключевого слова в список терминов, для которых не должно быть совпадений, чтобы сработал шаблон.
   
-![Разметка XML, в которой атрибут maxMatches имеет значение 0](media/f81d44e5-3db8-48a8-8919-f483a386afdf.png)
+```
+<Any minMatches="0" maxMatches="0" >
+    <Match idRef="Keyword_false_positives_local" />
+    <Match idRef="Keyword_false_positives_intl" />
+</Any>
+```
+
+### <a name="match-a-number-of-unique-terms"></a>Соответствие нескольким уникальным терминам
+
+Если нужно обеспечить соответствие нескольким уникальными терминам, используйте параметр *uniqueResults*, присвоив ему значение *true*, как показано в следующем примере.
+
+```
+<Pattern confidenceLevel="75">
+    <IdMatch idRef="Salary_Revision_terms" />
+    <Match idRef=" Salary_Revision_ID " minCount="3" uniqueResults="true" />
+</Pattern>
+```
+
+В этом примере определен шаблон для исправления заработной платы с использованием не менее трех уникальных совпадений. 
   
 ## <a name="how-close-to-the-entity-must-the-other-evidence-be-patternsproximity-attribute"></a>Насколько близко к объекту должен находиться другой признак? [Атрибут patternsProximity]
 
@@ -321,7 +351,7 @@ DLP в Office 365 включает много встроенных [типов 
 
 Ранее вы, возможно, использовали PowerShell в Exchange Online для импорта своих пользовательских типов конфиденциальных данных для системы защиты от потери данных. Теперь ваши пользовательские типы конфиденциальных данных можно использовать и в Центре администрирования Exchange, и в Центре безопасности и соответствия требованиям. В рамках этого усовершенствования вам следует использовать Центр безопасности и соответствия требованиям для импорта своих пользовательских типов конфиденциальных данных: вам больше не удастся импортировать их из PowerShell в Exchange. Ваши пользовательские типы конфиденциальных данных будут работать, как и раньше. Тем не менее может потребоваться до одного часа, чтобы пользовательские типы конфиденциальных данных в Центре безопасности и соответствия требованиям появились в Центре администрирования Exchange.
   
-Обратите внимание, что для отправки пакета правил в Центре безопасности и соответствия требованиям необходимо использовать командлет `DlpSensitiveInformationTypeRulePackage`. Ранее в Центре администрирования Exchange вы использовали командлет `ClassificationRuleCollection`. 
+Обратите внимание, что для отправки пакета правил в Центре безопасности и соответствия требованиям необходимо использовать командлет **[New-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/new-dlpsensitiveinformationtyperulepackage?view=exchange-ps)**. (Ранее в Центре администрирования Exchange вы использовали командлет **ClassificationRuleCollection**.) 
   
 ## <a name="upload-your-rule-package"></a>Отправка пакета правил
 
@@ -347,13 +377,13 @@ DLP в Office 365 включает много встроенных [типов 
 
 5. Чтобы убедиться в успешном создании нового типа конфиденциальных данных, выполните любое из указанных ниже действий.
 
-  - Выполните следующую команду и проверьте наличие нового пакета правил:
+  - Выполните командлет [Get-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/get-dlpsensitiveinformationtyperulepackage?view=exchange-ps), чтобы проверить наличие нового пакета правил:
 
     ```
     Get-DlpSensitiveInformationTypeRulePackage
     ``` 
 
-  - Выполните следующую команду и проверьте наличие типа конфиденциальных данных:
+  - Выполните командлет [Get-DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/get-dlpsensitiveinformationtype?view=exchange-ps), чтобы проверить наличие типа конфиденциальных данных:
 
     ```
     Get-DlpSensitiveInformationType
@@ -361,7 +391,7 @@ DLP в Office 365 включает много встроенных [типов 
 
     Для пользовательских типов конфиденциальных данных значение свойства Publisher будет отличаться от "Корпорация Майкрософт".
 
-  - Замените \<Name\> значением Name типа конфиденциальных данных (например, Employee ID) и выполните следующую команду:
+  - Замените \<Name\> значением Name типа конфиденциальных данных (например, Employee ID) и выполните командлет [Get-DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/get-dlpsensitiveinformationtype?view=exchange-ps):
 
     ```
     Get-DlpSensitiveInformationType -Identity "<Name>"
@@ -407,11 +437,12 @@ DLP в Office 365 включает много встроенных [типов 
 
 Система защиты от потери данных использует программу-обходчик поиска для обнаружения и классификации конфиденциальных данных в контенте сайта. Повторный обход контента на сайтах SharePoint Online и OneDrive для бизнеса выполняется автоматически при обновлении контента. Чтобы можно было обнаруживать конфиденциальные данные вашего нового пользовательского типа во всем существующем контенте, необходимо выполнить повторный обход этого контента.
   
-В Office 365 вам не удастся вручную запросить повторный обход всего клиента, но вы можете сделать это для семейства веб-сайтов, списка или библиотеки. См. статью [Ручной запрос обхода контента и переиндексации сайта, библиотеки или списка](https://support.office.com/article/9afa977d-39de-4321-b4ca-8c7c7e6d264e).
+В Office 365 вам не удастся вручную запросить повторный обход всего клиента, но вы можете сделать это для семейства веб-сайтов, списка или библиотеки. См. статью [Ручной запрос обхода контента и переиндексации сайта, библиотеки или списка](https://docs.microsoft.com/sharepoint/crawl-site-content).
   
 ## <a name="remove-a-custom-sensitive-information-type"></a>Удаление пользовательского типа конфиденциальных данных
 
-**Примечание**. Перед удалением пользовательского типа конфиденциальных данных, проверьте, что политики защиты от потери данных и правила потока обработки почты Exchange (также называемые правилами транспорта) не ссылаются на тип конфиденциальных данных.
+> [!NOTE]
+> Перед удалением пользовательского типа конфиденциальной информации убедитесь, что политики защиты от потери данных и правила потока обработки почты Exchange (также называемые правилами транспорта) не ссылаются на этот тип.
 
 В PowerShell Центра безопасности и соответствия требованиям пользовательские типы конфиденциальных данных можно удалить двумя способами.
 
@@ -421,7 +452,7 @@ DLP в Office 365 включает много встроенных [типов 
 
 1. [Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](http://go.microsoft.com/fwlink/p/?LinkID=799771)
 
-2. Чтобы удалить пакет настраиваемых правил, используйте указанный ниже синтаксис.
+2. Чтобы удалить пакет настраиваемых правил, используйте командлет [Remove-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/remove-dlpsensitiveinformationtyperulepackage?view=exchange-ps):
 
     ```
     Remove-DlpSensitiveInformationTypeRulePackage -Identity "RulePackageIdentity"
@@ -439,13 +470,13 @@ DLP в Office 365 включает много встроенных [типов 
 
 3. Чтобы убедиться в успешном удалении пользовательского типа конфиденциальных данных, выполните одно из указанных ниже действий.
 
-  - Выполните следующую команду и убедитесь в отсутствии пакета правил:
+  - Выполните командлет [Get-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/get-dlpsensitiveinformationtyperulepackage?view=exchange-ps) и убедитесь в отсутствии пакета правил:
 
     ```
     Get-DlpSensitiveInformationTypeRulePackage
     ``` 
 
-  - Выполните следующую команду и убедитесь в отсутствии типов конфиденциальных данных в удаленном пакете правил:
+  - Выполните командлет [Get-DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/get-dlpsensitiveinformationtype?view=exchange-ps), чтобы убедиться в отсутствии типов конфиденциальных данных в удаленном пакете правил:
 
     ```
     Get-DlpSensitiveInformationType
@@ -453,7 +484,7 @@ DLP в Office 365 включает много встроенных [типов 
 
     Для пользовательских типов конфиденциальных данных значение свойства Publisher будет отличаться от "Корпорация Майкрософт".
 
-  - Замените \<Name\> значением Name типа конфиденциальных данных (например, Employee ID) и выполните следующую команду, чтобы убедиться в отсутствии типа конфиденциальных данных:
+  - Замените \<Name\> значением Name типа конфиденциальных данных (например, Employee ID) и запустите командлет [Get-DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/get-dlpsensitiveinformationtype?view=exchange-ps), чтобы убедиться в отсутствии типа конфиденциальных данных:
 
     ```
     Get-DlpSensitiveInformationType -Identity "<Name>"
@@ -473,9 +504,10 @@ DLP в Office 365 включает много встроенных [типов 
 
 #### <a name="step-1-export-the-existing-rule-package-to-an-xml-file"></a>Этап 1. Экспорт существующего пакета правил в XML-файл
 
-**Примечание**. Если у вас есть копия XML-файла (например, вы только что создали и импортировали его), вы можете перейти к следующему этапу по изменению XML-файла.
+> [!NOTE]
+> Если у вас есть копия XML-файла (например, вы только что создали и импортировали его), вы можете перейти к следующему этапу по изменению XML-файла.
 
-1. Если вы еще не знаете имени пакета настраиваемых правил, выполните следующую команду, чтобы найти его:
+1. Если вы еще не знаете имени пакета настраиваемых правил, выполните командлет [Get-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/get-dlpsensitiveinformationtype?view=exchange-ps), чтобы найти его:
 
     ```
     Get-DlpSensitiveInformationTypeRulePackage
@@ -483,19 +515,19 @@ DLP в Office 365 включает много встроенных [типов 
 
     **Примечание**. Пакет встроенных правил, содержащий встроенные типы конфиденциальных данных, называется пакетом правил Майкрософт. Пакет правил, содержащий пользовательские типы конфиденциальных данных, которые созданы в интерфейсе Центра безопасности и соответствия требованиям называется Microsoft.SCCManaged.CustomRulePack.
 
-2. Чтобы сохранить пакет настраиваемых правил в переменной, используйте указанный ниже синтаксис.
+2. Чтобы сохранить пакет настраиваемых правил в переменной, используйте командлет [Get-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/get-dlpsensitiveinformationtyperulepackage?view=exchange-ps):
 
     ```
     $rulepak = Get-DlpSensitiveInformationTypeRulePackage -Identity "RulePackageName"
     ```
 
-   Например, если пакет правил называется "Employee ID Custom Rule Pack", выполните следующую команду:
+   Например, если пакет правил называется "Employee ID Custom Rule Pack", выполните следующий командлет:
 
     ```
     $rulepak = Get-DlpSensitiveInformationTypeRulePackage -Identity "Employee ID Custom Rule Pack"
     ```
 
-3. Чтобы экспортировать пакет настраиваемых правил в XML-файл, используйте указанный ниже синтаксис.
+3. Чтобы экспортировать пакет настраиваемых правил в XML-файл, используйте командлет [Set-Content](https://docs.microsoft.com/powershell/module/microsoft.powershell.management/set-content?view=powershell-6).
 
     ```
     Set-Content -Path "XMLFileAndPath" -Encoding Byte -Value $rulepak.SerializedClassificationRuleCollection
@@ -513,18 +545,10 @@ DLP в Office 365 включает много встроенных [типов 
 
 #### <a name="step-3-import-the-updated-xml-file-back-into-the-existing-rule-package"></a>Этап 3. Импорт обновленного XML-файла обратно в существующий пакет правил
 
-Чтобы импортировать обновленный XML-файл обратно в существующий пакет правил, используйте указанный ниже синтаксис.
+Чтобы импортировать обновленный XML-файл обратно в существующий пакет правил, используйте командлет [Set-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/set-dlpsensitiveinformationtyperulepackage?view=exchange-ps):
 
 ```
-Set-DlpSensitiveInformationTypeRulePackage -Identity "RulePackageIdentity" -FileData (Get-Content -Path "PathToUnicodeXMLFile" -Encoding Byte)
-```
-
-Для определения пакета правил можно использовать значение Name или значение `RulePack id` (GUID).
-
-В этом примере выполняется отправка обновленного XML-файла с кодировкой Юникод под названием MyUpdatedRulePack.xml из папки C:\My Documents в существующий пакет правил с именем "Employee ID Custom Rule Pack".
-
-```
-Set-DlpSensitiveInformationTypeRulePackage -Identity "Employee ID Custom Rule Pack" -FileData (Get-Content -Path "C:\My Documents\MyUpdatedRulePack.xml" -Encoding Byte)
+Set-DlpSensitiveInformationTypeRulePackage -FileData ([Byte[]]$(Get-Content -Path "C:\My Documents\External Sensitive Info Type Rule Collection.xml" -Encoding Byte -ReadCount 0))
 ```
 
 Дополнительные сведения о синтаксисе и параметрах см. в статье [Set-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/set-dlpsensitiveinformationtyperulepackage).
