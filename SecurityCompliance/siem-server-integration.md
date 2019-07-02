@@ -5,7 +5,7 @@ author: denisebmsft
 manager: laurawi
 audience: ITPro
 ms.topic: article
-ms.date: 10/29/2018
+ms.date: 06/17/2019
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.custom:
 - Ent_Solutions
 - SIEM
 description: Сводка. Ознакомьтесь с этой статьей, чтобы получить обзор интеграции сервера SIEM с Microsoft 365.
-ms.openlocfilehash: cfa9c6c3ae501515f61799fdd480fc569918935f
-ms.sourcegitcommit: b9d8a43cb3afcdc8820bc9470c5707eff8fc6616
+ms.openlocfilehash: 9138cbc395b90f50fa60bf545066c17cf26d7edf
+ms.sourcegitcommit: f2798d46acfbd56314e809cd3fe0350be807e420
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34852693"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35014768"
 ---
 # <a name="siem-server-integration-with-microsoft-365-services-and-applications"></a>Интеграция сервера SIEM со службами и приложениями Microsoft 365
 
@@ -33,13 +33,13 @@ ms.locfileid: "34852693"
 
 | Служба или приложение Microsoft 365 | Входные данные сервера SIEM | Ресурсы для получения дополнительных сведений |
 | --- | --- | --- |
-| [Office 365 Advanced Threat protection](office-365-atp.md) <br/>   или   <br/>[Office 365 Threat Intelligence](office-365-ti.md) | Журналы аудита | [Интеграция SIEM с Office 365 Advanced Threat protection](siem-integration-with-office-365-ti.md) |
+| [Office 365 Advanced Threat protection](office-365-atp.md) <br/>или<br/>[Office 365 Threat Intelligence](office-365-ti.md) | Журналы аудита | [Интеграция SIEM с Office 365 Advanced Threat protection](siem-integration-with-office-365-ti.md) |
 | [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) | Интеграция журналов | [Интеграция SIEM с Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/siem) |
-| [Office 365 Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) | Интеграция журналов | [Интеграция сервера SIEM с Cloud App Security](https://docs.microsoft.com/cloud-app-security/siem) |
 | [Защита от угроз Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/) | Интеграция журналов | [Получение оповещений о средствах SIEM](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-siem) |
 | [Центр безопасности Azure](https://docs.microsoft.com/azure/security-center/security-center-intro) (Защита от угроз и обнаружение угроз) | Оповещения | [Экспорт данных безопасности Azure в SIEM — Настройка конвейера — Предварительная версия](https://docs.microsoft.com/azure/security-center/security-center-export-data-to-siem) |
-| [Защита идентификации Azure Active Directory](https://docs.microsoft.com/azure/active-directory/identity-protection/overview) | Журналы аудита | [Интеграция журналов аудита Azure Active Directory](https://docs.microsoft.com/azure/security/security-azure-log-integration-ad) |
-| [Служба Advanced Threat Analytics для Azure](https://docs.microsoft.com/azure/security/azure-threat-detection) | Интеграция журналов | [Справочник по журналам ATA SIEM](https://docs.microsoft.com/advanced-threat-analytics/cef-format-sa) |
+|[Служба Advanced Threat Analytics для Azure](https://docs.microsoft.com/azure/security/azure-threat-detection) | Azure Monitor | [Блог Интеграция средств SIEM с помощью Azure Monitor](https://azure.microsoft.com/blog/use-azure-monitor-to-integrate-with-siem-tools) |
+|[Защита идентификации Azure Active Directory](https://docs.microsoft.com/azure/active-directory/identity-protection/overview) |Интеграция журналов |[Интеграция оповещений API безопасности Microsoft Graph с SIEM](https://docs.microsoft.com/graph/security-siemintegration) |
+
 
 ## <a name="audit-logging-must-be-turned-on"></a>Необходимо включить ведение журнала аудита
 

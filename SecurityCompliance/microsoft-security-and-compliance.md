@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: Normal
 description: Подготовьтесь к работе с всеми новыми центрами безопасности и соответствия требованиям Microsoft 365
-ms.openlocfilehash: 0bb30ef3cd6f7d35e0f5a86842a8638e87e89773
-ms.sourcegitcommit: 4fedeb06a6e7796096fc6279cfb091c7b89d484d
+ms.openlocfilehash: 435030c9ab5d9b62c54483dd2ca072999d539712
+ms.sourcegitcommit: b9d8a43cb3afcdc8820bc9470c5707eff8fc6616
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34652492"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34852773"
 ---
 # <a name="the-new-microsoft-365-security-center-and-microsoft-365-compliance-center-are-now-generally-available"></a>Новый центр безопасности Microsoft 365 и центр соответствия требованиям корпорации Майкрософт 365, как правило, доступны
 
@@ -102,7 +102,7 @@ ms.locfileid: "34652492"
 |[Azure Information Protection](https://docs.microsoft.com/azure/information-protection) |Да |Да |Нет |
 |[Центр безопасности Azure](https://docs.microsoft.com/azure/security-center/)  |Да |Да |Нет |
 |[Расширенная защита от угроз Azure](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp)  |Да |Да |Нет |
-|[ATP в Защитнике Windows](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection?ocid=tia-260153000#windows-defender-atp) |Да |Да |Нет |
+|[Пакет ATP для защитника Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) |Да |Да |Нет |
 |[Защита удостоверений](https://docs.microsoft.com/azure/active-directory/identity-protection)     |Да |Да |Нет |
 |[Управление привилегированными пользователями (PIM)](https://docs.microsoft.com/azure/active-directory/privileged-identity-management)     |Да |Да |Нет |
 |[Intune](https://docs.microsoft.com/intune)     |Да |Да |Да |

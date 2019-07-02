@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.date: 03/26/2019
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,17 +15,17 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: Сведения о том, как включить надстройку сообщения отчета для Outlook и Outlook в Интернете для отдельных пользователей или всей Организации.
-ms.openlocfilehash: 3c476a6e097307b1aabc3580b598bb91a4407731
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: d74772502f5ffd7e274574075604c2fc0c235f30
+ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32257531"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34077955"
 ---
 # <a name="enable-the-report-message-add-in"></a>Включение надстройки Report Message
 
 > [!NOTE]
-> Надстройка сообщения отчета для Outlook и Outlook в Интернете — это не то же самое, что и [Фильтр нежелательной почты Outlook](https://support.office.com/article/Overview-of-the-Junk-Email-Filter-5ae3ea8e-cf41-4fa0-b02a-3b96e21de089), хотя они могут быть использованы для пометки почты как нежелательных, нежелательных или фишинговых атак. Разница заключается в том, что надстройка Message Report для Outlook и Outlook в Интернете уведомляет Майкрософт о неклассифицированных сообщениях электронной почты, а фильтр неЖелательной почты Outlook используется для упорядочения сообщений электронной почты в почтовом ящике пользователя. 
+> Надстройка сообщения отчета для Outlook и Outlook в Интернете — это не то же самое, что и [Фильтр нежелательной почты Outlook](https://support.office.com/article/Overview-of-the-Junk-Email-Filter-5ae3ea8e-cf41-4fa0-b02a-3b96e21de089), хотя они могут быть использованы для пометки почты как нежелательных, нежелательных или фишинговых атак. Разница заключается в том, что надстройка Message Report для Outlook и Outlook в Интернете уведомляет Майкрософт о неклассифицированных сообщениях электронной почты, а фильтр нежелательной почты Outlook используется для упорядочения сообщений электронной почты в почтовом ящике пользователя. 
 
 ## <a name="overview"></a>Обзор
 
@@ -67,9 +67,9 @@ ms.locfileid: "32257531"
 ## <a name="get-and-enable-the-report-message-add-in-for-your-organization"></a>Получение и включение надстройки сообщений отчета для Организации
 
 > [!IMPORTANT]
-> Для выполнения этой задачи необходимо быть глобальным администратором Office 365 или администратором Exchange Online. Кроме того, для получения дополнительных сведений в Exchange необходимо настроить проверку подлинности OAuth, используя [требования Exchange (централизованНое Развертывание надстроек)](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins). 
+> Для выполнения этой задачи необходимо быть глобальным администратором Office 365 или администратором Exchange Online. Кроме того, для получения дополнительных сведений в Exchange необходимо настроить проверку подлинности OAuth, используя [требования Exchange (централизованное развертывание надстроек)](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins). 
 
-1. Перейдите на [страницу "службы" _амп_](https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns) "надстройки" в центре администрирования Microsoft 365.<br/>![Страница "службы и надстройки" в новом центре администрирования Microsoft 365](media/ServicesAddInsPageNewM365AdminCenter.png)<br/> 
+1. Перейдите на [страницу "службы &](https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns) надстроек" центра администрирования Microsoft 365.<br/>![Страница "службы и надстройки" в новом центре администрирования Microsoft 365](media/ServicesAddInsPageNewM365AdminCenter.png)<br/> 
     
 2. Выберите **+ развернуть надстройку**.<br/>![Выбор варианта развертывания надстройки](media/ServicesAddIns-ChooseDeployAddIn.png)<br/> 
     
@@ -131,18 +131,18 @@ ms.locfileid: "32257531"
 
 ## <a name="review-or-edit-settings-for-the-report-message-add-in"></a>Просмотр или изменение параметров для надстройки "сообщение отчета"
 
-Вы можете просмотреть и изменить параметры по умолчанию для надстройки "сообщения отчета" на [странице "службы" _амп_](https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns)"надстройки". 
+Вы можете просмотреть и изменить параметры по умолчанию для надстройки "сообщения отчета" на [странице "службы & надстроек](https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns)". 
 
 > [!IMPORTANT]
 > Для выполнения этой задачи необходимо быть глобальным администратором Office 365 или администратором Exchange Online.
     
-1. Перейдите на [страницу "службы" _амп_](https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns) "надстройки" в центре администрирования Microsoft 365.<br/>![Страница "службы и надстройки" в новом центре администрирования Microsoft 365](media/ServicesAddInsPageNewM365AdminCenter.png)<br/>
+1. Перейдите на [страницу "службы &](https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns) надстроек" центра администрирования Microsoft 365.<br/>![Страница "службы и надстройки" в новом центре администрирования Microsoft 365](media/ServicesAddInsPageNewM365AdminCenter.png)<br/>
 
 2. Найдите и выберите надстройку сообщения отчета.<br/>![Поиск и выбор надстройки "сообщение отчета"](media/FindReportMessageAddIn.png)<br/> 
     
 3. На экране сообщения отчета просмотрите и измените параметры в соответствии с требованиями Организации.<br/>![Параметры для надстройки сообщений отчета](media/EditReportMessageAddIn.png)<br/> 
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Использование надстройки "сообщение отчета"](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
   

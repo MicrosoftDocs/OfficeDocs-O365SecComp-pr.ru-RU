@@ -15,12 +15,12 @@ ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как использовать функции расследования и реагирования на угрозы для поиска и изучения вредоносных сообщений электронной почты.
-ms.openlocfilehash: 5f8c615bed07b75cd3c06ec48f5ba73586f0f6d5
-ms.sourcegitcommit: 011bfa60cafdf47900aadf96a17eb275efa877c4
+ms.openlocfilehash: febcf6704b1ba9dc23bf4e698715fb4b929b998b
+ms.sourcegitcommit: d3b2bffa8af5f19d97fe9771068c80705b890e85
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394294"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "35414809"
 ---
 # <a name="find-and-investigate-malicious-email-that-was-delivered-office-365-advanced-threat-protection-plan-2"></a>Поиск и исследование вредоносных сообщений электронной почты, которые были доставлены (Office 365 Advanced Threat Protection, план 2)
 
@@ -78,10 +78,9 @@ ms.locfileid: "35394294"
 1. Перейдите к [https://protection.office.com](https://protection.office.com) рабочей или учебной учетной записи Office 365 и войдите в нее с помощью рабочей или учебной учетной записи. Откроется центр соответствия требованиям безопасности &amp; . 
     
 2. В области навигации слева выберите Обозреватель **управления** \> **** угрозами.
-
-![Снимок экрана обозревателя угроз.](media/Threat Explorer Delivery Action and Delivery Location.PNG)
-
 <!--Comment>
+![Threat Explorer with Delivery Action and Delivery Location fields.](media/ThreatExFields.PNG)
+
     
 3. In the View menu, choose **All email**.<br/>![Use the View menu to choose between Email and Content reports](media/d39013ff-93b6-42f6-bee5-628895c251c2.png)
   

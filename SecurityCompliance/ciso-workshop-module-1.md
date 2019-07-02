@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Узнайте больше о принципах и рекомендациях по обеспечению безопасности модернизации в Организации.
-ms.openlocfilehash: 35f3feca7597eb3e80076eccc36e00debd754d01
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 90844018e12a165e57b41153cb2042967ffee641
+ms.sourcegitcommit: 6bb40cf53374eaaae8da0a469f0248b1163184a4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34152161"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "34767320"
 ---
 # <a name="ciso-workshop-module-1-microsoft-cybersecurity-briefing"></a>Модуль семинара ЦИСО 1: Microsoft Циберсекурити Brief
 
@@ -40,17 +40,17 @@ ms.locfileid: "34152161"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtVXF]
 
-## <a name="part-5-microsoft-cybersecurity-reference-architecture-2430"></a>Часть 5: Эталонная архитектура Microsoft Циберсекурити (24:30)
+## <a name="part-5-microsoft-cybersecurity-reference-architecture-2114"></a>Часть 5: Эталонная архитектура Microsoft Циберсекурити (21:14)
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtQL2]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE36ldf]
 
 ## <a name="part-6-reference-architecture-for-identity-and-access-725"></a>Часть 6: Эталонная архитектура для удостоверений и доступа (7:25)
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtITd]
 
-## <a name="part-7-reference-architecture-for-security-operations-center-739"></a>Часть 7: Эталонная архитектура для центра обеспечения безопасности (7:39)
+## <a name="part-7-reference-architecture-for-security-operations-center-937"></a>Часть 7: Эталонная архитектура для центра обеспечения безопасности (9:37)
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtYM6]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE36dlc]
 
 ## <a name="part-8-reference-architecture-for-pc-and-mobile-devices-452"></a>Часть 8: Эталонная архитектура для ПК и мобильных устройств (4:52)
 

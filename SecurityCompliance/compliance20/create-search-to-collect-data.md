@@ -1,5 +1,5 @@
 ---
-title: Создание поискового запроса для сбора данных
+title: Create a search
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,24 +14,24 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 360ba6a67d43a0b78b1104ae64885697009bb222
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 1aa4ce6e406e4b3a3b72b9d93f651416b1fc65f9
+ms.sourcegitcommit: 803baca9f99a6691fb41a3308e799752e4d8f20c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34155111"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222253"
 ---
-# <a name="create-a-search-to-collect-data"></a>Создание поискового запроса для сбора данных
+# <a name="create-a-search"></a>Create a search
 
 На вкладке **поиски** можно создать новый поиск, нажав кнопку **Новый поиск** и следуя инструкциям мастера.
 
-## <a name="name-your-search-and-give-description"></a>Назвать Поиск и присвоить описание
+## <a name="name-your-search-and-give-it-a-description"></a>Назовите Поиск и присвойте ему описание
 
 Каждый Поиск с обращением должен иметь уникальное имя. При необходимости можно ввести описание поиска. 
 
-## <a name="define-your-conditions"></a>Определение условий
+## <a name="define-your-search-query-and-conditions"></a>Определение запросов и условий поиска
 
-Вы можете определить условия поиска с помощью встроенных карточек условий или с помощью языка запросов по ключевым словам (KQL). Более подробную информацию можно узнать в статье [Создание поисковых запросов](building-search-queries.md).
+Вы можете определить запрос ключевых слов и условия поиска с помощью встроенных карточек условий или с помощью языка запросов по ключевым словам (KQL). Более подробную информацию можно узнать в статье [Создание поисковых запросов](building-search-queries.md).
 
 ## <a name="choose-the-custodians-to-search-from"></a>Выбор custodians для поиска
 

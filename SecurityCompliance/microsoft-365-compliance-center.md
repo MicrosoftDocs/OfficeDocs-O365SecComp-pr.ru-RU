@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: o365-seccomp
 localization_priority: Normal
 description: Узнайте о новом центре соответствия требованиям Microsoft 365, в том числе о том, что оно содержит, как получить его и выполнить следующие действия.
-ms.openlocfilehash: 149058d6204b7ad9d33fe656a8176609cfda5991
-ms.sourcegitcommit: 6eb51931242d07abde2e37f1bd57d13bc724f0de
+ms.openlocfilehash: fc6ab6893e142b3beb5289c8430477727b3844ac
+ms.sourcegitcommit: b9d8a43cb3afcdc8820bc9470c5707eff8fc6616
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34547932"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34852793"
 ---
 # <a name="overview-of-the-all-new-microsoft-365-compliance-center"></a>Обзор нового нового центра соответствия требованиям Microsoft 365
 
@@ -68,7 +68,7 @@ ms.locfileid: "34547932"
 
 |  |  |
 |---------|---------|
-|![Навигация в центре соответствия требованиям Microsoft 365](media/m365-compliance-center-leftnav.png)  |<br/><br/> Переход на страницу **оповещения** для просмотра и разрешения [оповещений](alerts.md)<br/><br/>Посетите страницу **мониторинга _амп_ Reports** , чтобы просмотреть данные об [использовании и хранении меток](sensitivity-labels.md), [политиках защиты от потери данных и](view-the-dlp-reports.md)переопределениях, [Общие файлы](https://docs.microsoft.com/cloud-app-security/file-filters), [сторонние приложения](https://docs.microsoft.com/cloud-app-security/discovered-apps)и многое другое.<br/><br/>Разверните раздел **классификация** , чтобы получить доступ к [меткам](labels.md), [политикам меток](sensitivity-labels.md#what-label-policies-can-do), [типам конфиденциальных сведений](what-the-sensitive-information-types-look-for.md)и [аналитике меток](view-label-activity-for-documents.md).<br/><br/>Перейдите в раздел **политики** для просмотра [оповещений](alerts.md) и доступа к политикам защиты от [потери](data-loss-prevention-policies.md) данных и политик [хранения](retention-policies.md) .<br/><br/> Используйте ссылки в разделе **решения** , чтобы получить доступ к решениям по обеспечению соответствия требованиям в Организации. К ним относятся: <br/>[Расстановки _Гт_ управления данными](disposition-reviews.md)<br/>[Обнаружение электронных данных (Предварительная версия)](compliance20/overview-ediscovery-20.md)<br/>[Контроля](supervision-policies.md)<br/>[Расследования данных](datainvestigations/overview-data-investigations.md)<br/>[Запросы субъектов данных](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)        |
+|![Навигация в центре соответствия требованиям Microsoft 365](media/m365-compliance-center-leftnav.png)  |<br/><br/> Переход на страницу **оповещения** для просмотра и разрешения [оповещений](alerts.md)<br/><br/>**Отчеты** для просмотра данных об [использовании и хранении подписей](sensitivity-labels.md), [политиках защиты от потери](view-the-dlp-reports.md)данных, [Общие файлы](https://docs.microsoft.com/cloud-app-security/file-filters), [сторонние приложения](https://docs.microsoft.com/cloud-app-security/discovered-apps)и т. д.<br/><br/>Разверните раздел **классификация** , чтобы получить доступ к [меткам](labels.md), [политикам меток](sensitivity-labels.md#what-label-policies-can-do), [типам конфиденциальных сведений](what-the-sensitive-information-types-look-for.md)и [аналитике меток](view-label-activity-for-documents.md).<br/><br/>Перейдите в раздел **политики** для просмотра [оповещений](alerts.md) и доступа к политикам защиты от [потери](data-loss-prevention-policies.md) данных и политик [хранения](retention-policies.md) .<br/><br/> Используйте ссылки в разделе **решения** , чтобы получить доступ к решениям по обеспечению соответствия требованиям в Организации. К ним относятся: <br/>[Положения > управления данными](disposition-reviews.md)<br/>[Обнаружение электронных данных (Предварительная версия)](compliance20/overview-ediscovery-20.md)<br/>[Контроля](supervision-policies.md)<br/>[Расследования данных](datainvestigations/overview-data-investigations.md)<br/>[Запросы субъектов данных](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)        |
 
 
 ## <a name="how-do-i-get-this"></a>Как это сделать?
@@ -81,9 +81,9 @@ ms.locfileid: "34547932"
 
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
 
-### <a name="why-am-i-taken-to-the-office-365-security--compliance-center-to-perform-some-tasks-such-as-defining-certain-policies"></a>Почему центр соответствия требованиям Office 365 Security _Амп_ для выполнения некоторых задач, например для определения определенных политик?
+### <a name="why-am-i-taken-to-the-office-365-security--compliance-center-to-perform-some-tasks-such-as-defining-certain-policies"></a>Почему в центре безопасности Office 365 & для выполнения некоторых задач, например для определения определенных политик?
 
-Мы по-прежнему разрабатываем центр соответствия требованиям Microsoft 365, и в течение ближайших месяцев мы будем добавлять дополнительные функции и решения. Кроме того, существует несколько задач, которые необходимо выполнить в центре безопасности _Амп_ по безопасности Office 365 ([https://protection.office.com](https://protection.office.com)). В этих случаях вы будете автоматически направлены к расположению, в котором можно выполнить поставленную задачу, например создание или изменение политики контроля.
+Мы по-прежнему разрабатываем центр соответствия требованиям Microsoft 365, и в течение ближайших месяцев мы будем добавлять дополнительные функции и решения. Кроме того, существует несколько задач, которые необходимо выполнить в центре безопасности & безопасности Office 365 ([https://protection.office.com](https://protection.office.com)). В этих случаях вы будете автоматически направлены к расположению, в котором можно выполнить поставленную задачу, например создание или изменение политики контроля.
 
 ### <a name="why-dont-i-see-the-new-microsoft-365-compliance-center-yet"></a>Почему я еще не вижу нового центра соответствия требованиям Microsoft 365?
 
@@ -91,9 +91,9 @@ ms.locfileid: "34547932"
 
 ### <a name="some-of-my-compliance-features-are-not-available-in-the-microsoft-365-compliance-center-what-do-i-do"></a>Некоторые функции соответствия требованиям недоступны в центре соответствия требованиям Microsoft 365. What do I do?
 
-Мы по-прежнему добавляем функциональные возможности в центр соответствия требованиям Microsoft 365. Если вы не можете найти чего-либо, например, поиск в журнале аудита, воспользуйтесь центром безопасности Office 365[https://protection.office.com](https://protection.office.com)Security _амп_ (). Ваши конфигурации будут сохранены как в существующем центре соответствия требованиям Office 365 Security _Амп_, так и в новом центре соответствия требованиям корпорации Майкрософт 365.
+Мы по-прежнему добавляем функциональные возможности в центр соответствия требованиям Microsoft 365. Если вы не можете найти чего-либо, например, поиск в журнале аудита, воспользуйтесь центром безопасности & безопасности[https://protection.office.com](https://protection.office.com)Office 365 (). Ваши конфигурации будут сохранены в существующем центре безопасности Office 365 & соответствия требованиям и автоматически в новом центре соответствия требованиям Microsoft 365.
 
-Чтобы перейти в нее, в центре соответствия требованиям Microsoft 365 в области навигации в левой части экрана выберите пункт **Дополнительные ресурсы**, а затем в разделе **центр безопасности Office 365 _амп_ соответствие требованиям**нажмите кнопку **Открыть**.
+Чтобы перейти в нее, в центре соответствия требованиям Microsoft 365 в области навигации в левой части экрана выберите пункт **Дополнительные ресурсы**, а затем в разделе **Центр безопасности & безопасности Office 365**нажмите кнопку **Открыть**.
 
 ![Дополнительные ресурсы](media/MoreResourcesShowAll.png)
 

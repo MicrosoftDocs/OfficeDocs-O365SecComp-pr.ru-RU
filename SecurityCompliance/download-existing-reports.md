@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.date: 6/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1372da29-f3ab-49d7-8c02-eb9305bb5fd8
 description: Узнайте, как скачать один или несколько существующих отчетов в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: 0ea48eca0744dbcf663d15f52342546a54a85af2
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 19bae24fd72cb6414f015218db1e2737d1fcd0d6
+ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32256927"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34077845"
 ---
 # <a name="download-existing-reports-in-the-security-amp-compliance-center"></a>Загрузка существующих отчетов в центре безопасности &amp; и соответствия требованиям
 
@@ -35,7 +35,7 @@ ms.locfileid: "32256927"
     
 3. Нажмите кнопку **скачать отчет**, а затем нажмите кнопку **Закрыть**.
     
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Отчеты и аналитика в центре безопасности &amp; и соответствия требованиям Office 365](reports-and-insights-in-security-and-compliance.md)
   

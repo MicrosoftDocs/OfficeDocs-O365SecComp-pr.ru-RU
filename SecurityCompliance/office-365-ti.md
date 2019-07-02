@@ -15,12 +15,12 @@ ms.assetid: 32405da5-bee1-4a4b-82e5-8399df94c512
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как функции интеллектуального анализа в Office 365 Advanced Threat protection помогают находить угрозы в Организации, отвечать на вредоносные программы, фишингы и другие атаки, обнаруженные в Office 365 от вашего имени, и искать угрозу показател.
-ms.openlocfilehash: 3a1ccc3d3e37b9b1433e8e339709d09ba56970b0
-ms.sourcegitcommit: 2b46fba650df8d252b1dd2b3c3f080a383183a06
+ms.openlocfilehash: c8b0815368e80151f8ee55161b9bcbaa98065228
+ms.sourcegitcommit: b9d8a43cb3afcdc8820bc9470c5707eff8fc6616
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34408364"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34852813"
 ---
 # <a name="office-365-threat-investigation-and-response"></a>Анализ угроз и реагирование на них в Office 365
 
@@ -35,17 +35,17 @@ ms.locfileid: "34408364"
 4. Автоматическое исследование и ответ на критические угрозы электронной почты
     
 > [!IMPORTANT]
-> **Office 365 Advanced Threat Protection и Threat расследования и ответ (ранее известного как office 365 Threat Intelligence) теперь являются office 365 Advanced Threat Protection Plan 2**, а также дополнительные возможности защиты от угроз, включенные в Некоторые подписки, такие как [microsoft 365 корпоративный](https://www.microsoft.com/microsoft-365/enterprise/home), [Microsoft 365 бизнес](https://www.microsoft.com/microsoft-365/business), Office 365 Enterprise и Office 365, образование A5 и т. д. Если в вашей организации есть подписка, не включающая в себя Office 365 ATP, вы можете приобрести ATP как надстройку. Дополнительные сведения см. в статье [office 365 Advanced Threat protection Plans and ценах](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp). 
+> **Office 365 Advanced Threat Protection и Threat расследования и ответ (ранее известного как office 365 Threat Intelligence) теперь являются office 365 Advanced Threat Protection Plan 2**, а также дополнительные возможности защиты от угроз, включенные в Некоторые подписки, такие как [microsoft 365](https://www.microsoft.com/microsoft-365/enterprise/home), [Microsoft 365 бизнес](https://www.microsoft.com/microsoft-365/business), office 365, Office 365 A5 и т. д. Если в вашей организации есть подписка, не включающая в себя Office 365 ATP, вы можете приобрести ATP как надстройку. Дополнительные сведения см. в статье [office 365 Advanced Threat protection Plans and ценах](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp). 
   
 ## <a name="whats-changing"></a>Что изменилось?
 
-Ранее в подписках на Office 365 включена логика защиты от угроз, например Office 365 корпоративный. По-прежнему существует ситуация, когда исследование угроз и возможности реагирования теперь входят в план 2 Office 365 Advanced Threat protection (план 2) (а также в Office 365 Enterprise ~). 
+Ранее в подписках на Office 365 включена логика угроз Office, например Office 365 в. По-прежнему существует ситуация, когда исследование угроз и возможности реагирования теперь входят в план 2 Office 365 Advanced Threat protection (план 2) (и это относится к Office 365 "+ 1"). 
 
 Кроме того, в качестве надстройки для клиентов Office 365 для бизнеса вы ранее приобрели систему анализа угроз для Office 365. Теперь эти возможности включены в Office 365 Advanced Threat Protection Plan 2 (вместе со всеми функциями в Office 365 Advanced Threat Protection Plan 1). Чтобы узнать больше, ознакомьтесь со статьями [Office 365 Advanced Threat protection Plans and ценах](https://products.office.com/exchange/advance-threat-protection).
 
 Вот что это означает:
 
-- **Если в вашей организации уже есть Office 365 корпоративный**, то у вас уже есть Advanced Threat protection (план 2), и это относится к расследованию угроз и возможностям реагирования.
+- **Если в вашей организации уже есть Office 365**, то у вас уже есть Advanced Threat protection (план 2), и это относится к расследованию угроз и возможностям реагирования.
 
 - **Если в вашей организации ранее имела значение office 365 Threat Intelligence (но не office 365 Advanced Threat protection) в качестве надстройки** к другой подписке на Office 365, теперь у вас будет Office 365 Advanced Threat Protection Plan 2, который включает Исследование угроз и возможности реагирования. 
 
@@ -69,7 +69,7 @@ ms.locfileid: "34408364"
     
 - [Использование симулятора атак для имитации атак и повышения осведомленности пользователей](attack-simulator.md)
     
-- [Интеграция средств расследования и реагирования на угрозы с помощью Advanced Threat Protection в Защитнике Windows](integrate-office-365-ti-with-wdatp.md)
+- [Интеграция средств расследования и реагирования на угрозы с помощью Advanced Threat Protection в защитнике Майкрософт](integrate-office-365-ti-with-wdatp.md)
     
 ## <a name="related-topics"></a>Статьи по теме
 

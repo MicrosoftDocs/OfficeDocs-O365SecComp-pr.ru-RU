@@ -16,12 +16,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Как глобальный администратор Office 365 вы можете применить фирменную символику вашей организации к зашифрованным сообщениям электронной почты в Организации и содержимому портала шифрования.
-ms.openlocfilehash: 6b51aefc10c0070749fcf4bc8c2d56c7ff7a3ef3
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 19f227971c522f9d92aec343f1865ab7f23c13aa
+ms.sourcegitcommit: b0ea2d66bc4c7f2fc0a8abab28d2ae652b1c4b73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34152471"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "34721376"
 ---
 # <a name="add-your-organizations-brand-to-your-encrypted-messages"></a>Добавление фирменной символики организации в зашифрованные сообщения
 
@@ -75,7 +75,7 @@ ms.locfileid: "34152471"
    For example,
 
    ```powershell
-   New-OMEConfiguration -Identity <Branding template 1>
+   New-OMEConfiguration -Identity "Branding template 1"
    ```
 
 3. Определите настройки для шаблона, который вы только что определили с помощью командлета Set – OMEConfiguration, как описано в командлете [Set – OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/Set-OMEConfiguration) , или используйте приведенную ниже таблицу для указания рекомендаций.

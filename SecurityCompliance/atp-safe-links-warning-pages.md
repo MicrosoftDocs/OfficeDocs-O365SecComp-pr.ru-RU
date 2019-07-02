@@ -1,9 +1,9 @@
 ---
-title: Страницы предупреждений для безОпасных ссылок на Office 365 ATP
+title: Страницы предупреждений для безопасных ссылок на Office 365 ATP
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.audience: IT Pro
+audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,17 +14,17 @@ ms.assetid: fc4e6ebb-5acc-4bc5-bad8-4f3407d1d3f4
 ms.collection:
 - M365-security-compliance
 description: Получите обзор страниц предупреждений, которые могут отображаться при работе с Office 365 Advanced Threat protection.
-ms.openlocfilehash: e90951a010ff5de4d3b292259e9c4596b6cc8e89
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 70bd93aead82a867936031f754d172fdeb22f421
+ms.sourcegitcommit: f96029928a6cdd141783026d57bc2179d7963af6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32251319"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35017631"
 ---
-# <a name="office-365-atp-safe-links-warning-pages"></a>Страницы предупреждений для безОпасных ссылок на Office 365 ATP
+# <a name="office-365-atp-safe-links-warning-pages"></a>Страницы предупреждений для безопасных ссылок на Office 365 ATP
 
 > [!IMPORTANT]
-> Эта статья предназначена для корпоративных клиентов Office 365. Если вы используете Outlook.com, Office 365 Home или Office 365 Personal, а вы ищете сведения о безОпасных ссылках в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
+> Эта статья предназначена для корпоративных клиентов, у которых есть [Office 365 Advanced Threat protection](office-365-atp.md). Если вы используете Outlook.com, Office 365 Home или Office 365 Personal, а вы ищете сведения о безопасных ссылках в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 [Office 365 Advanced Threat protection](office-365-atp.md) (ATP) помогает защитить организацию от фишинговых атак и вредоносных программ с помощью функций, таких как [безопасные ссылки ATP](atp-safe-links.md), [безопасные вложения ATP](atp-safe-attachments.md)и [Защита от фишинга](anti-phishing-protection.md). При наличии защиты проверяются ссылки (URL-адреса) в сообщениях электронной почты и документах Office. Если URL-адрес определен как подозрительный или вредоносный, при щелчке этого URL-адреса может быть заблокировано открытие этого URL-адреса. Вместо того чтобы переходить непосредственно на сайт, может отображаться страница предупреждения. 
   
@@ -92,11 +92,11 @@ URL-адрес заблокирован для вашей организации
 
 ![Этот сайт определен как вредоносный](media/058883c8-23f0-4672-9c1c-66b084796177.png)
 
-### <a name="blocked-url-warning"></a>Предупреждение о заблокированном URL-АДРЕСе
+### <a name="blocked-url-warning"></a>Предупреждение о заблокированном URL-адресе
 
 Исходная страница предупреждения:
 
-![Исходная страница предупреждения об заблокированном URL-АДРЕСе](media/3d6ba028-30bf-45fc-958e-d3aad3defc83.png)
+![Исходная страница предупреждения об заблокированном URL-адресе](media/3d6ba028-30bf-45fc-958e-d3aad3defc83.png)
 
 Обновленная страница предупреждения:
 
