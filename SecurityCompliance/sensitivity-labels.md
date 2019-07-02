@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: С помощью меток конфиденциальности вы можете классифицировать и защищать конфиденциальное содержимое, не мешая совместной работе и производительности пользователей. Метки конфиденциальности можно использовать для применения параметров защиты, например шифрования или подложек для содержимого с метками.
-ms.openlocfilehash: 63470a4375c1a3cc1420b64725d6741aa8e95af4
-ms.sourcegitcommit: 28d5972adef5bbe1377d89ff9962c531f5f08dbf
+ms.openlocfilehash: df8caa3708a07859f0bfd058a1bd09ee38dc65ea
+ms.sourcegitcommit: 044003455eb36071806c9f008ac631d54c64dde6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2019
-ms.locfileid: "34166933"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35199982"
 ---
 # <a name="overview-of-sensitivity-labels"></a>Обзор меток конфиденциальности
 
@@ -26,7 +26,7 @@ ms.locfileid: "34166933"
 
 С помощью меток конфиденциальности вы можете классифицировать и защищать конфиденциальное содержимое, не мешая совместной работе и производительности пользователей.
 
-![Метки конфиденциальности в ленте и строке состояния Excel](media/Sensitivity_label_in_Excel.png)
+![Метки конфиденциальности в ленте и строке состояния Excel](media/Sensitivity-label-in-Excel.png)
 
 Вы можете использовать метки конфиденциальности, чтобы:
   
@@ -62,7 +62,7 @@ ms.locfileid: "34166933"
 
 К каждому элементу контента может применяться одна метка конфиденциальности. Однако обратите внимание, что к элементу может быть применена одна метка конфиденциальности и одна [метка хранения](labels.md) одновременно.
 
-![Метка конфиденциальности, примененная к сообщению электронной почты](media/Sensitivity_label_on_email.png)
+![Метка конфиденциальности, примененная к сообщению электронной почты](media/Sensitivity-label-on-email.png)
 
 ## <a name="what-sensitivity-labels-can-do"></a>Возможности меток конфиденциальности
 
@@ -72,19 +72,18 @@ ms.locfileid: "34166933"
 
 - **Помечать содержимое**, добавляя настраиваемые подложки, верхние или нижние колонтитулы в электронные сообщения или документы с примененной меткой. Обратите внимание, что подложки ограничиваются 255 символами и применяются только к документам, а не сообщениям. Кроме того, верхние и нижние колонтитулы ограничиваются 1024 символами, за исключением Excel, где они ограничены 255 символами или даже меньшим количеством символов (это зависит от того, содержит ли документ другие верхние или нижние колонтитулы, и от других факторов).
 
-    ![Подложка и верхний колонтитул, примененные к документу](media/Sensitivity_label_watermark_header.png)
+    ![Подложка и верхний колонтитул, примененные к документу](media/Sensitivity-label-watermark-header.png)
 
-- 
-  **Предотвращать потерю данных**, включив защиту конечных точек в Intune. При скачивании конфиденциального контента можно обеспечить защиту от потери данных с устройств с Windows. Например, вы не можете копировать помеченный контент в Dropbox, Gmail или USB-носитель. Прежде чем метки конфиденциальности смогут использовать Windows Information Protection (WIP), необходимо создать политику защиты приложений на портале Azure. Дополнительные сведения см. в статье [Как Windows Information Protection защищает файлы с меткой конфиденциальности](https://docs.microsoft.com/ru-RU/windows/security/information-protection/windows-information-protection/how-wip-works-with-labels?branch=vsts17546553).
+- **Предотвращать потерю данных**, включив защиту конечных точек в Intune. При скачивании конфиденциального контента можно обеспечить защиту от потери данных с устройств с Windows. Например, вы не можете копировать помеченный контент в Dropbox, Gmail или USB-носитель. Прежде чем метки конфиденциальности смогут использовать Windows Information Protection (WIP), необходимо создать политику защиты приложений на портале Azure. Дополнительные сведения см. в статье [Как Windows Information Protection защищает файлы с меткой конфиденциальности](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/how-wip-works-with-labels?branch=vsts17546553).
 
-- **Автоматически присваивать метку содержимому с конфиденциальной информацией.** Вы можете выбрать, какие типы конфиденциальной информации нужно помечать. Метку можно присваивать автоматически, или можно отображать для пользователей запрос на присвоение рекомендуемой метки. Если вы рекомендуете метку, текст запроса может быть любым. Дополнительные сведения см. в статье [Автоматическое применение метки конфиденциальности к содержимому](apply_sensitivity_label_automatically.md).
+- **Автоматически присваивать метку содержимому с конфиденциальной информацией.** Вы можете выбрать, какие типы конфиденциальной информации нужно помечать. Метку можно присваивать автоматически, или можно отображать для пользователей запрос на присвоение рекомендуемой метки. Если вы рекомендуете метку, текст запроса может быть любым. Дополнительные сведения см. в статье [Автоматическое применение метки конфиденциальности к содержимому](apply-sensitivity-label-automatically.md).
 
-    ![Запрос на назначение обязательной метки](media/Sensitivity_label_Prompt_for_required_label.png)
+    ![Запрос на назначение обязательной метки](media/Sensitivity-label-Prompt-for-required-label.png)
 
 
 Все эти параметры доступны при создании метки конфиденциальности.
 
-![Параметры при создании метки конфиденциальности](media/Sensitivity_label_create_options.png)
+![Параметры при создании метки конфиденциальности](media/Sensitivity-label-create-options.png)
 
 ### <a name="label-priority-order-matters"></a>Приоритет метки (важен порядок)
 
@@ -92,9 +91,9 @@ ms.locfileid: "34166933"
 
 К документу или электронному сообщению может применяться только одна метка конфиденциальности. Если от пользователей требуется обоснование для изменения метки со снижением уровня классификации, порядок этого списка определяет, что является снижением уровня классификации.
 
-![Возможность создания подчиненной метки](media/Sensitivity_label_sublabel_options.png)
+![Возможность создания подчиненной метки](media/Sensitivity-label-sublabel-options.png)
 
-Обратите внимание, что важен не только приоритет меток, но и порядок политик меток — см. [в этом разделе ниже](#sensitivity-label-priority-order-matters).
+Обратите внимание, что важен не только приоритет меток, но и порядок политик меток — см. раздел [Приоритет политики меток (важен порядок)](#label-policy-priority-order-matters).
 
 ### <a name="sublabels-grouping-labels"></a>Подчиненные метки (метки группирования)
 
@@ -104,7 +103,7 @@ ms.locfileid: "34166933"
 
 (Кроме того, не следует выбирать родительскую метку в качестве используемой по умолчанию (см. следующий раздел) или настраивать ее на автоматическое применение или в качестве рекомендуемой, так как родительская метка не применяется к содержимому в приложениях Office, использующих унифицированный клиент присвоения меток Azure Information Protection).
 
-![Сгруппированные подчиненные метки на ленте](media/Sensitivity_label_grouped_labels.png)
+![Сгруппированные подчиненные метки на ленте](media/Sensitivity-label-grouped-labels.png)
 
 ### <a name="editing-or-deleting-a-sensitivity-label"></a>Изменение и удаление метки конфиденциальности
 
@@ -124,24 +123,24 @@ ms.locfileid: "34166933"
 
 - **Требовать обоснование для изменения метки.** Если контент помечен меткой "Конфиденциально", и пользователь хочет удалить эту метку или заменить ее со снижением уровня классификации (например, меткой "Общедоступно"), вы можете потребовать у пользователя предоставить обоснование при выполнении этого действия. Эти обоснования будут доступны для проверки администратором. В настоящее время мы работаем над отчетом, где администраторы смогут просматривать обоснования пользователей.
 
-    ![Запрос, куда пользователи вводят обоснование](media/Sensitivity_label_justification_required.png)
+    ![Запрос, куда пользователи вводят обоснование](media/Sensitivity-label-justification-required.png)
 
 - **Требовать от пользователей применения метки к их почте и документам.** Если нужно помечать все содержимое пользователя, вы можете потребовать обязательное применение меток ко всем сохраняемым документам и отправляемым письмам. Метка может присваиваться вручную пользователем, автоматически в результате применения условия или назначаться по умолчанию (вариант применения метки по умолчанию описан выше). Ниже представлен запрос, отображаемый в Outlook, когда пользователь должен назначить метку.
 
     > [!NOTE]
-    > Для обязательного применения меток требуется подписка Azure Information Protection. Также для этого необходимо скачать и установить [клиент Azure Information Protection](https://www.microsoft.com/en-us/download/details.aspx?id=53018) или [унифицированный клиент присвоения меток Azure Information Protection](https://docs.microsoft.com/ru-RU/azure/information-protection/rms-client/install-unifiedlabelingclient-app). Мы работаем над встроенной поддержкой этой возможности в приложениях Office, чтобы можно было обойтись без клиента Azure Information Protection. Кроме того, этот клиент работает только в Windows, поэтому такая возможность пока не поддерживается в Mac, iOS и Android.
+    > Для обязательного применения меток требуется подписка Azure Information Protection. Также для этого необходимо скачать и установить [клиент Azure Information Protection](https://www.microsoft.com/download/details.aspx?id=53018) или [унифицированный клиент присвоения меток Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/install-unifiedlabelingclient-app). Мы работаем над встроенной поддержкой этой возможности в приложениях Office, чтобы можно было обойтись без клиента Azure Information Protection. Кроме того, этот клиент работает только в Windows, поэтому такая возможность пока не поддерживается в Mac, iOS и Android.
 
-    ![Запрос в Outlook на присвоение пользователем обязательной метки](media/sensitivity_labels_mandatory_prompt_aipv2_outlook.PNG)
+    ![Запрос в Outlook на присвоение пользователем обязательной метки](media/sensitivity-labels-mandatory-prompt-aipv2-outlook.PNG)
 
 - **Предоставить справочную ссылку на специальную страницу справки.** Если пользователи не уверены, что означают метки конфиденциальности или как их следует применять, вы можете предоставить URL-адрес с дополнительными сведениями, который отображается в нижней части меню метки конфиденциальности в приложениях Office.
 
-    ![Ссылка на дополнительные сведения на кнопке конфиденциальности ленты](media/Sensitivity_label_learn_more.png)
+    ![Ссылка на дополнительные сведения на кнопке конфиденциальности ленты](media/Sensitivity-label-learn-more.png)
 
 После создания политики меток и назначения меток конфиденциальности пользователям и группам эти метки станут доступны для сотрудников в приложениях Office через час или меньше.
 
 ### <a name="label-policy-priority-order-matters"></a>Приоритет политики меток (важен порядок)
 
-Чтобы сделать метки конфиденциальности доступными для пользователей, нужно опубликовать метки в политике меток конфиденциальности, список которых отображается на вкладке **Политики конфиденциальности** на странице **Политики меток**. Для политик меток конфиденциальности, как и для меток конфиденциальности, важен порядок (см. [раздел выше](#sensitivity-label-priority-order-matters)), поскольку приоритет зависит от порядка. Политика меток с низшим приоритетом отображается **сверху**, а политика меток с высшим приоритетом отображается **снизу**.
+Чтобы сделать метки конфиденциальности доступными для пользователей, нужно опубликовать метки в политике меток конфиденциальности, список которых отображается на вкладке **Политики конфиденциальности** на странице **Политики меток**. Для политик меток конфиденциальности, как и для меток конфиденциальности, важен порядок (см. выше раздел [Приоритет метки (важен порядок)](#label-priority-order-matters)), так как приоритет зависит от порядка. Политика меток с низшим приоритетом отображается **сверху**, а политика меток с высшим приоритетом отображается **снизу**.
 
 Политика меток состоит из следующих элементов:
 
@@ -149,7 +148,7 @@ ms.locfileid: "34166933"
 - Область действия политики меток, то есть пользователи и группы, включенные в эту политику.
 - Параметры политики меток, описанные выше (метка по умолчанию, обоснование, обязательная метка, ссылка на справку).
 
-Можно включить одного пользователя в несколько политик меток. Этот пользователь будет видеть все метки конфиденциальности этих политик. При этом пользователь увидит только параметры политики меток с высшим приоритетом.
+Можно включить одного пользователя в несколько политик меток. Этот пользователь будет видеть все метки конфиденциальности этих политик. При этом пользователь увидит параметры политики только для меток с высшим приоритетом.
 
 Если пользователь или группа в вашей организации не видят нужный вариант в политике меток, например, метку по умолчанию или обязательную метку, проверьте порядок политик меток конфиденциальности. Чтобы изменить порядок политик меток, выберите политику меток конфиденциальности, нажмите многоточие справа и выберите **Вниз** или **Вверх**.
 
@@ -169,11 +168,11 @@ ms.locfileid: "34166933"
 
 Ниже показан основной процесс действий администратора, пользователя и приложения Office по присвоению меток конфиденциальности.
 
-![Схема, демонстрирующая рабочий процесс для меток конфиденциальности](media/Sensitivity_label_flow.png)
+![Схема, демонстрирующая рабочий процесс для меток конфиденциальности](media/Sensitivity-label-flow.png)
 
 ## <a name="where-sensitivity-labels-can-appear"></a>Где могут отображаться метки конфиденциальности
 
-Метки конфиденциальности отображаются в пользовательском интерфейсе приложений Office. Чтобы просмотреть текущую доступность для конкретных приложений и платформ, см. раздел **[Где эта функция доступна прямо сейчас?](https://support.office.com/ru-RU/article/apply-sensitivity-labels-to-your-documents-and-email-within-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9?ad=US&ui=en-US&rs=en-US#bkmk_whereavailable)**
+Метки конфиденциальности отображаются в пользовательском интерфейсе приложений Office. Чтобы просмотреть текущую доступность для конкретных приложений и платформ, см. раздел **[Где эта функция доступна прямо сейчас?](https://support.office.com/article/apply-sensitivity-labels-to-your-documents-and-email-within-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9?ad=US&ui=en-US&rs=en-US#bkmk_whereavailable)**
 
 ### <a name="office-apps-on-windows"></a>Приложения Office в Windows
 
@@ -181,34 +180,32 @@ ms.locfileid: "34166933"
 
 Встроенная поддержка меток конфиденциальности в приложениях Office для Windows ожидается в ближайшее время.
 
-Существующие клиенты Azure Information Protection могут развернуть клиент унифицированного присвоения меток Azure Information Protection, который поддерживает метки конфиденциальности. Дополнительные сведения о скачивании клиента см. в статье [Клиент унифицированного присвоения меток Azure Information Protection: сведения о выпуске версии](https://docs.microsoft.com/ru-RU/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history). В настоящее время мы работаем над встроенной поддержкой меток конфиденциальности в приложениях Office для Windows, чтобы этот клиент больше не требовался.
+Существующие клиенты Azure Information Protection могут развернуть клиент унифицированного присвоения меток Azure Information Protection, который поддерживает метки конфиденциальности. Дополнительные сведения о скачивании клиента см. в статье [Клиент унифицированного присвоения меток Azure Information Protection: сведения о выпуске версии](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history). В настоящее время мы работаем над встроенной поддержкой меток конфиденциальности в приложениях Office для Windows, чтобы этот клиент больше не требовался.
 
-![Кнопка "Конфиденциальность" на ленте Excel в Windows](media/Sensitivity_label_Sensitivity_button.png)
+![Кнопка "Конфиденциальность" на ленте Excel в Windows](media/Sensitivity-label-Sensitivity-button.png)
 
 ### <a name="office-apps-on-mac"></a>Приложения Office в Mac
 
 В приложениях Office на устройствах Mac метки конфиденциальности отображаются на кнопке **Конфиденциальность** вкладки **Главная** на ленте. Примененная метка также отображается в строке состояния в нижней части окна.
 
-![Кнопка "Конфиденциальность" на ленте Office в Mac](media/Sensitivity_label_on_Mac.png)
+![Кнопка "Конфиденциальность" на ленте Office в Mac](media/Sensitivity-label-on-Mac.png)
 
 ### <a name="office-apps-on-ios"></a>Приложения Office в iOS
 
 В приложениях Office на устройствах iOS метки конфиденциальности отображаются на кнопке **Конфиденциальность** вкладки **Главная** на ленте. Примененная метка также отображается в строке состояния в нижней части окна.
 
-![Кнопка "Конфиденциальность" на ленте Office в iOS](media/Sensitivity_label_on_iOS.png)
+![Кнопка "Конфиденциальность" на ленте Office в iOS](media/Sensitivity-label-on-iOS.png)
 
 ### <a name="office-apps-on-android"></a>Приложения Office в Android
 
 В приложениях Office на устройствах Android метки конфиденциальности отображаются на кнопке **Конфиденциальность** вкладки **Главная** на ленте. Примененная метка также отображается в строке состояния в нижней части окна.
 
-![Кнопка "Конфиденциальность" на ленте Office в Android](media/Sensitivity_label_on_Android.png)
+![Кнопка "Конфиденциальность" на ленте Office в Android](media/Sensitivity-label-on-Android.png)
 
 ### <a name="more-information-on-sensitivity-labels-in-office-apps"></a>Дополнительные сведения о метках конфиденциальности в приложениях Office
 
-- 
-  [Присваивание меток конфиденциальности документам и сообщениям электронной почты в Office](https://support.office.com/ru-RU/article/apply-sensitivity-labels-to-your-documents-and-email-within-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
-- 
-  [Известные проблемы при присваивании меток конфиденциальности файлам Office](https://support.office.com/ru-RU/article/known-issues-when-you-apply-sensitivity-labels-to-your-office-files-b169d687-2bbd-4e21-a440-7da1b2743edc)
+- [Присваивание меток конфиденциальности документам и сообщениям электронной почты в Office](https://support.office.com/article/apply-sensitivity-labels-to-your-documents-and-email-within-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
+- [Известные проблемы при присваивании меток конфиденциальности файлам Office](https://support.office.com/article/known-issues-when-you-apply-sensitivity-labels-to-your-office-files-b169d687-2bbd-4e21-a440-7da1b2743edc)
 
 ## <a name="how-sensitivity-labels-work-with-existing-azure-information-protection-labels"></a>Как метки конфиденциальности взаимодействуют с существующими метками Azure Information Protection
 
@@ -217,7 +214,7 @@ ms.locfileid: "34166933"
 - сохранить существующие метки Azure Information Protection в документах и электронных сообщениях;
 - сохранить существующую конфигурацию меток Azure Information Protection.
 
-При использовании меток Azure Information Protection в настоящее время рекомендуется избегать создания новых меток в других центрах администрирования до завершения миграции. В [статье о миграции Azure Information Protection](https://docs.microsoft.com/ru-RU/azure/information-protection/configure-policy-migrate-labels) содержатся важные сведения и некоторые конкретные предупреждения. Если вы еще не готовы перевести клиентов организации на метки конфиденциальности, не стоит беспокоиться, в настоящее время пользователи могут продолжать использовать клиент Azure Information Protection, а администраторы могут продолжать использовать портал Azure для управления.
+При использовании меток Azure Information Protection в настоящее время рекомендуется избегать создания новых меток в других центрах администрирования до завершения миграции. В [статье о миграции Azure Information Protection](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels) содержатся важные сведения и некоторые конкретные предупреждения. Если вы еще не готовы перевести клиентов организации на метки конфиденциальности, не стоит беспокоиться, в настоящее время пользователи могут продолжать использовать клиент Azure Information Protection, а администраторы могут продолжать использовать портал Azure для управления.
 
 ## <a name="protect-content-on-windows-devices-by-using-endpoint-protection-in-microsoft-intune"></a>Защита контента на устройствах с Windows с помощью защиты конечных точек в Microsoft Intune
 
@@ -229,45 +226,40 @@ ms.locfileid: "34166933"
 
 Если пользователь попытается отправить контент с меткой в личную учетную запись Gmail, появится следующее сообщение.
 
-![Сообщение о невозможности копирования в Gmail контента с меткой](media/Sensitivity_label_WIP_Gmail.png)
+![Сообщение о невозможности копирования в Gmail контента с меткой](media/Sensitivity-label-WIP-Gmail.png)
 
 Если пользователь попытается сохранить контент с меткой на USB-накопителе, появится следующее сообщение.
 
-![Сообщение о невозможности копирования на USB-накопитель контента с меткой](media/Sensitivity_label_WIP_USB_drive.png)
+![Сообщение о невозможности копирования на USB-накопитель контента с меткой](media/Sensitivity-label-WIP-USB-drive.png)
 
 ### <a name="important-prerequisites"></a>Важные предварительные условия
 
-Прежде чем метки конфиденциальности смогут использовать WIP, требуется выполнить предварительные условия, описанные в статье [Как Windows Information Protection защищает файлы с метками конфиденциальности](https://docs.microsoft.com/ru-RU/windows/security/information-protection/windows-information-protection/how-wip-works-with-labels?branch=vsts17546553). В ней описаны следующие предварительные условия.
+Прежде чем метки конфиденциальности смогут использовать WIP, требуется выполнить предварительные условия, описанные в статье [Как Windows Information Protection защищает файлы с метками конфиденциальности](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/how-wip-works-with-labels?branch=vsts17546553). В ней описаны следующие предварительные условия.
 
 - Подтверждение использования операционной системы Windows 10 версии 1809 или более поздней версии.
-- 
-  [Настройка защиты Advanced Threat Protection в Защитнике Windows (WDATP)](https://docs.microsoft.com/ru-RU/windows/security/threat-protection/windows-defender-atp/get-started), которая проверяет контент на наличие метки и применяет соответствующую защиту WIP. ATP выполняет некоторые действия независимо от WIP, например сообщает об аномалиях.
+- [Настройка защиты Advanced Threat Protection в Защитнике Windows (ATP в Защитнике Windows)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/get-started), которая проверяет контент на наличие метки и применяет соответствующую защиту WIP. ATP выполняет некоторые действия независимо от WIP, например сообщает об аномалиях.
 - Создание политики Windows Information Protection (WIP), применяемой к устройствам конечных точек. Это можно выполнить в любом из этих расположений:
-    - 
-  [Создание политики Windows Information Protection (WIP) с использованием MDM с помощью портала Azure для Microsoft Intune](https://docs.microsoft.com/ru-RU/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure)
-    - 
-  [Создание и развертывание политики Windows Information Protection (WIP) с помощью System Center Configuration Manager](https://docs.microsoft.com/ru-RU/windows/security/information-protection/windows-information-protection/create-wip-policy-using-sccm)
+    - [Создание политики Windows Information Protection (WIP) с использованием MDM с помощью портала Azure для Microsoft Intune](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure)
+    - [Создание и развертывание политики Windows Information Protection (WIP) с помощью System Center Configuration Manager](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/create-wip-policy-using-sccm)
 
 ## <a name="protect-content-in-third-party-apps-and-services-by-using-microsoft-cloud-app-security"></a>Защита содержимого в сторонних приложениях и службах с помощью Microsoft Cloud App Security
 
 Защитите содержимое в сторонних приложениях и службах, используя Cloud App Security (CAS). С помощью CAS можно определять, классифицировать, помечать и защищать контент в сторонних приложениях и службах, таких как SalesForce, Box или Dropbox. Например, Dropbox может не распознать метку конфиденциальности, но служба CAS обеспечит защиту помеченного контента в этом расположении.
 
-Дополнительные сведения см. в статье [Автоматическое применение меток классификации Azure Information Protection](https://docs.microsoft.com/ru-RU/cloud-app-security/use-case-information-protection).
+Дополнительные сведения см. в статье [Автоматическое применение меток классификации Azure Information Protection](https://docs.microsoft.com/cloud-app-security/use-case-information-protection).
 
 ### <a name="important-prerequisites"></a>Важные предварительные условия
 
-Прежде чем метки конфиденциальности смогут использовать CAS, требуется выполнить предварительные условия, описанные в статье [Автоматическое применение меток классификации Azure Information Protection](https://docs.microsoft.com/ru-RU/cloud-app-security/use-case-information-protection). В ней описаны следующие предварительные условия:
+Прежде чем метки конфиденциальности смогут использовать CAS, требуется выполнить предварительные условия, описанные в статье [Автоматическое применение меток классификации Azure Information Protection](https://docs.microsoft.com/cloud-app-security/use-case-information-protection). В ней описаны следующие предварительные условия:
 
-- 
-  [Включение Cloud App Security и Azure Information Protection](https://docs.microsoft.com/ru-RU/cloud-app-security/azip-integration) для вашего клиента.
-- 
-  [Подключение приложения](https://docs.microsoft.com/ru-RU/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps) к Cloud App Security.
+- [Включение Cloud App Security и Azure Information Protection](https://docs.microsoft.com/cloud-app-security/azip-integration) для вашего клиента.
+- [Подключение приложения](https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps) к Cloud App Security.
 
 ## <a name="extend-sensitivity-labels-to-third-party-apps-and-services-by-using-the-microsoft-information-protection-sdk"></a>Расширение применения меток конфиденциальности для сторонних приложений и служб с помощью SDK Microsoft Information Protection
 
 Поскольку метка конфиденциальности сохраняется как обычный текст в метаданных документа, сторонние приложения и службы могут поддерживать определение и защиту контента, содержащего такую метку. Поддержка в других приложениях и службах всегда расширяется.
 
-С помощью [SDK Microsoft Information Protection](https://docs.microsoft.com/ru-RU/information-protection/develop/) сторонние приложения и службы могут считывать и применять метки конфиденциальности и защиту для документов. Пакет SDK поддерживает приложения на Windows, Mac и Linux. В ближайшее время ожидается поддержка приложений для iOS и Android.
+С помощью [SDK Microsoft Information Protection](https://docs.microsoft.com/information-protection/develop/) сторонние приложения и службы могут считывать и применять метки конфиденциальности и защиту для документов. Пакет SDK поддерживает приложения на Windows, Mac и Linux. В ближайшее время ожидается поддержка приложений для iOS и Android.
 
 С помощью пакета SDK можно помечать и защищать контент способом, совместимым с другими приложениями и службами Microsoft Information Protection, такими как приложения Office, службы Office 365, сканер Azure Information Protection, Microsoft Cloud App Security и несколько других решений партнеров. Для примера можно ознакомиться с [поддержкой меток конфиденциальности в Adobe Acrobat](https://techcommunity.microsoft.com/t5/Azure-Information-Protection/Starting-October-use-Adobe-Acrobat-Reader-for-PDFs-protected-by/ba-p/262738).
 
