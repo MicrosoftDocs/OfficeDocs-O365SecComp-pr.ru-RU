@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Используйте эту статью в качестве справки по различным атрибутам, которые можно использовать в политиках барьера информации.
-ms.openlocfilehash: 896b87a3ccc696d3a8193e37237fe555d326ca52
-ms.sourcegitcommit: 011bfa60cafdf47900aadf96a17eb275efa877c4
+ms.openlocfilehash: 1537dae2c99555a9257bbe5c3f9754a1f975fbbe
+ms.sourcegitcommit: 8f399f260687d17a497a15bcc644187c277ea8fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394314"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "35462410"
 ---
 # <a name="attributes-for-information-barrier-policies-preview"></a>Атрибуты политик барьера информации (Предварительная версия)
 
@@ -35,9 +35,9 @@ ms.locfileid: "35394314"
 
 2. Убедитесь, что учетные записи пользователей имеют значения, заполненные для атрибутов, выбранных на шаге 1. Просмотр сведений об учетной записи пользователя и, при необходимости, изменение учетных записей пользователей для включения значений атрибутов. 
 
-    Чтобы сделать это с помощью PowerShell, ознакомьтесь со статьей [Настройка свойств учетной записи пользователя с помощью Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell).
+    - Чтобы изменить несколько учетных записей (или с помощью PowerShell для редактирования одной учетной записи), ознакомьтесь со статьей [Настройка свойств учетной записи пользователя с помощью Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell).
 
-    Чтобы сделать это в Azure Active Directory, ознакомьтесь со статьей [Добавление или обновление данных профиля пользователя с помощью Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal).
+    - Чтобы изменить одну учетную запись, ознакомьтесь со статьей [Добавление или обновление данных профиля пользователя с помощью Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal).
 
 3. [Определите сегменты с помощью PowerShell](information-barriers-policies.md#define-segments-using-powershell), как показано в следующих примерах:
 
@@ -54,7 +54,7 @@ ms.locfileid: "35394314"
 
 В следующей таблице перечислены атрибуты, которые можно использовать с барьерами информации.
 
-|Имя свойства Azure Active Directory (отображаемое имя LDAP)  |Имя свойства Exchange  |
+|Имя свойства Azure Active Directory<br/>(Отображаемое имя LDAP)  |Имя свойства Exchange  |
 |---------|---------|
 |Управляющ       | Управляющ        |
 |Company     |Company         |
