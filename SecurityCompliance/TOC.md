@@ -103,6 +103,7 @@
 #### [Использование образца соединителя для архивации данных Facebook](archive-facebook-data-with-sample-connector.md)
 #### [Использование примера соединителя для архивации данных Twitter](archive-twitter-data-with-sample-connector.md)
 #### [Настройка соединителя для архивации данных LinkedIn](archive-linkedin-data.md)
+#### [Настройка соединителя для архивации данных Instant Bloomberg](archive-instant-bloomberg-data.md)
 #### [Архивация сторонних данных при помощи партнера](work-with-partner-to-archive-third-party-data.md)
 ## Сохранение данных
 ### [Включение архивных почтовых ящиков](enable-archive-mailboxes.md)
@@ -245,6 +246,7 @@
 #### [Использование образца соединителя для архивации данных Facebook](archive-facebook-data-with-sample-connector.md)
 #### [Использование примера соединителя для архивации данных Twitter](archive-twitter-data-with-sample-connector.md)
 #### [Настройка соединителя для архивации данных LinkedIn](archive-linkedin-data.md)
+#### [Настройка соединителя для архивации данных Instant Bloomberg](archive-instant-bloomberg-data.md)
 #### [Архивация сторонних данных при помощи партнера](work-with-partner-to-archive-third-party-data.md)
 ## Сохранение данных
 ### [Включение архивных почтовых ящиков](enable-archive-mailboxes.md)
@@ -482,6 +484,7 @@
 ## [Включение и отключение поиска в журнале аудита](turn-audit-log-search-on-or-off.md)
 ## [Управление аудитом почтовых ящиков](enable-mailbox-auditing.md)
 ## [Подробные свойства в журнале аудита](detailed-properties-in-the-office-365-audit-log.md)
+## [Экспорт, настройка и просмотр записей журнала аудита](export-view-audit-log-records.md)
 ## [Использование журнала аудита для устранения неполадок в типовых сценариях](auditing-troubleshooting-scenarios.md)
 ## [Использование аудита общего доступа в журнале аудита](use-sharing-auditing.md)
 ## [Поиск действий по обнаружению электронных данных в журнале аудита](search-for-ediscovery-activities-in-the-audit-log.md)
