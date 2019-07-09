@@ -3,7 +3,7 @@ title: Определение политик барьера информации
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 06/28/2019
+ms.date: 07/08/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -11,14 +11,14 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Узнайте, как определить политики для барьеров информации в Microsoft Teams.
-ms.openlocfilehash: 844e01fc1df96e9de62b1830c2825db15426f7f4
-ms.sourcegitcommit: 011bfa60cafdf47900aadf96a17eb275efa877c4
+ms.openlocfilehash: 527f059eb0bccb97429c649d055496c06710c2a9
+ms.sourcegitcommit: a6f046f1529b0515f4f0e918a19ec83f4138b871
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394324"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "35587088"
 ---
-# <a name="define-policies-for-information-barriers-preview"></a>Определение политик для барьеров информации (Предварительная версия)
+# <a name="define-policies-for-information-barriers"></a>Определение политик для барьеров информации
 
 ## <a name="overview"></a>Обзор
 
@@ -59,7 +59,7 @@ ms.locfileid: "35394324"
 В дополнение к [необходимым лицензиям и](information-barriers.md#required-licenses-and-permissions)разрешениям убедитесь, что выполнены следующие требования: 
      
 - **Данные каталога**. Убедитесь, что структура Организации отражается в данных каталога. Для этого убедитесь, что атрибуты учетной записи пользователя, такие как членство в группах, название отдела и т. д., правильно заполнены в Azure Active Directory (или Exchange Online). Чтобы узнать больше, ознакомьтесь со следующими материалами:
-  - [Атрибуты политик барьера информации (Предварительная версия)](information-barriers-attributes.md)
+  - [Атрибуты политик барьера информации](information-barriers-attributes.md)
   - [Добавление или обновление сведений о профиле пользователя с помощью Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
   - [Настройка параметров учетной записи пользователя с помощью PowerShell для Office 365](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell)
 
@@ -67,7 +67,7 @@ ms.locfileid: "35394324"
 
 - **Ведение журнала аудита**. Для поиска состояния приложения политики необходимо включить ведение журнала аудита. Мы рекомендуем сделать это, прежде чем приступать к определению сегментов или политик. Чтобы узнать больше, ознакомьтесь [со статьей включение и отключение поиска в журнале аудита Office 365](turn-audit-log-search-on-or-off.md).
 
-- **Нет политик адресных книг**. Прежде чем приступать к определению и применению политик барьера информации, убедитесь, что не заданы политики адресных книг Exchange. При наличии таких политик обязательно сначала [удалите политики адресных книг](https://docs.microsoft.com/exchange/address-books/address-book-policies/remove-an-address-book-policy) .
+- **Нет политик адресных книг**. Прежде чем приступать к определению и применению политик барьера информации, убедитесь, что не заданы политики адресных книг Exchange. (Барьеры на основе информации основываются на политиках адресных книг, но два типа политик не являются взаимозаменяемыми.) При наличии таких политик обязательно сначала [удалите политики адресных книг](https://docs.microsoft.com/exchange/address-books/address-book-policies/remove-an-address-book-policy) .
 
 - **PowerShell**. В настоящее время политики информационных барьеров определяются и управляются в центре безопасности & безопасности Office 365 с помощью командлетов PowerShell. Хотя в этой статье представлено несколько примеров, необходимо ознакомиться с командлетами и параметрами PowerShell. Кроме того, вам потребуется модуль Азурерм.
     - [Подключитесь к PowerShell Центра безопасности и соответствия требованиям Office 365.](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
@@ -110,7 +110,7 @@ ms.locfileid: "35394324"
 
 В дополнение к начальному списку политик создайте список сегментов для Организации. Пользователи, которые будут включены в политики барьера информации, должны относиться к сегменту, и ни один пользователь не должен быть относиться к двум или более сегментам. Каждый сегмент может иметь только одну политику, применяемую к информационным барьерам. 
 
-Определите атрибуты данных каталога вашей организации, которые будут использоваться для определения сегментов. Можно использовать *Отдел*, *MemberOf*или любой из поддерживаемых атрибутов. Убедитесь, что в атрибуте, выбранном для пользователей, есть значения. [Просмотрите список поддерживаемых атрибутов барьеров информации (Предварительная версия)](information-barriers-attributes.md).
+Определите атрибуты данных каталога вашей организации, которые будут использоваться для определения сегментов. Можно использовать *Отдел*, *MemberOf*или любой из поддерживаемых атрибутов. Убедитесь, что в атрибуте, выбранном для пользователей, есть значения. [Просмотрите список поддерживаемых атрибутов барьеров информации](information-barriers-attributes.md).
 
 > [!IMPORTANT]
 > **Прежде чем переходить к следующему разделу, убедитесь, что данные каталога имеют значения для атрибутов, которые можно использовать для определения сегментов**. Если у данных каталога нет значений для нужных атрибутов, необходимо обновить учетные записи пользователей, чтобы они включали эти сведения, прежде чем приступать к работе с информационной барьерной настройкой. Чтобы получить помощь по этой статье, ознакомьтесь со следующими материалами:<br/>- [Настройка свойств учетных записей пользователей с помощью PowerShell в Office 365](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell)<br/>- [Добавление или обновление сведений о профиле пользователя с помощью Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
@@ -255,13 +255,13 @@ ms.locfileid: "35394324"
 
 Доступны ресурсы, которые помогут вам управлять политиками барьера информации.
 
-- Если что-то пошло не так с барьерами информации, ознакомьтесь с разделом [Устранение неполадок (Предварительная версия)](information-barriers-troubleshooting.md)
+- Если что-то пошло не так с барьерами информации, ознакомьтесь с разделом [Устранение неполадок](information-barriers-troubleshooting.md).
 
 - Чтобы остановить применение политик, ознакомьтесь со [статьей остановка применения политики](information-barriers-edit-segments-policies.md.md#stop-a-policy-application).
 
 - Чтобы удалить политику барьера информации, ознакомьтесь [со статьей удаление политики](information-barriers-edit-segments-policies.md.md#remove-a-policy).
 
-- Чтобы внести изменения в сегменты или политики, ознакомьтесь со статьей [изменение (или удаление) политик барьера информации (Предварительная версия)](information-barriers-edit-segments-policies.md.md).
+- Чтобы внести изменения в сегменты или политики, ознакомьтесь со статьей [изменение или удаление политик барьера информации](information-barriers-edit-segments-policies.md.md).
 
 ## <a name="example-contosos-departments-segments-and-policies"></a>Пример: отделы, сегменты и политики contoso
 
@@ -316,6 +316,6 @@ Contoso будет использовать атрибут Department в Azure A
 
 ## <a name="related-articles"></a>Статьи по теме
 
-- [Обзор барьеров для информационных барьеров (Предварительная версия)](information-barriers.md)
+- [Обзор информационных препятствий](information-barriers.md)
 
-- [Информационные барьеры в Microsoft Teams Preview](https://docs.microsoft.com/MicrosoftTeams/information-barriers-in-teams)
+- [Информационные барьеры в Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/information-barriers-in-teams)

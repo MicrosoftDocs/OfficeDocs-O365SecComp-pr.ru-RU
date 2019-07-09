@@ -3,48 +3,6 @@
 
 
 
-## <a name="week-of-may-27-2019"></a>Неделя с 27 мая 2019 г.
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
-| 5/28/2019 | [Использование образца соединителя для архивации данных Twitter в Office 365 (Предварительная версия)](/Office365/SecurityCompliance/archive-twitter-data-with-sample-connector) | Изменено |
-| 5/28/2019 | [Настройка политик фильтрации нежелательной почты](/Office365/SecurityCompliance/configure-your-spam-filter-policies) | Изменено |
-| 5/28/2019 | [Развертывание соединителя для архивации данных Twitter в Office 365](/Office365/SecurityCompliance/deploy-twitter-connector) | Изменено |
-| 5/28/2019 | [Поиск в журнале аудита в центре безопасности & соответствия требованиям](/Office365/SecurityCompliance/search-the-audit-log-in-security-and-compliance) | Изменено |
-| 5/28/2019 | [Обозреватель угроз (и обнаружение в режиме реального времени)](/Office365/SecurityCompliance/threat-explorer) | Изменено |
-| 5/29/2019 | [Политики оповещений в центре безопасности и соответствия требованиям](/Office365/SecurityCompliance/alert-policies) | Изменено |
-| 5/29/2019 | [Поиск в журнале аудита в центре безопасности & соответствия требованиям](/Office365/SecurityCompliance/search-the-audit-log-in-security-and-compliance) | Изменено |
-| 5/29/2019 | [Исправление ошибок при обработке данных](/Office365/SecurityCompliance/compliance20/error-remediation) | Изменено |
-| 5/29/2019 | [Устранение ошибок при обработке данных для расследования](/Office365/SecurityCompliance/datainvestigations/error-remediation) | Изменено |
-| 5/29/2019 | [Общие сведения о расследовании данных (Предварительная версия) в Microsoft 365](/Office365/SecurityCompliance/datainvestigations/overview-data-investigations) | Изменено |
-| 5/29/2019 | [Общие сведения о диспетчере плана файлов](/Office365/SecurityCompliance/file-plan-manager) | Изменено |
-| 5/29/2019 | [Обзор нового центра соответствия требованиям Microsoft 365](/Office365/SecurityCompliance/microsoft-365-compliance-center) | Изменено |
-| 5/29/2019 | [Новый центр безопасности Microsoft 365 и центр соответствия требованиям корпорации Майкрософт 365, как правило, доступны](/Office365/SecurityCompliance/microsoft-security-and-compliance) | Изменено |
-| 5/29/2019 | [Управление записями в Microsoft 365](/Office365/SecurityCompliance/records-management) | Изменено |
-| 5/29/2019 | [Обзор меток хранения](/Office365/SecurityCompliance/labels) | Изменено |
-| 5/30/2019 | [Безопасные вложения Office 365 ATP](/Office365/SecurityCompliance/atp-safe-attachments) | Изменено |
-| 5/30/2019 | [Безопасные ссылки Office 365 ATP](/Office365/SecurityCompliance/atp-safe-links) | Изменено |
-| 5/30/2019 | [Пакетное создание и публикация меток хранения с помощью PowerShell](/Office365/SecurityCompliance/bulk-create-publish-labels-using-powershell) | Изменено |
-| 5/30/2019 | [Защита от угроз в Office 365](/Office365/SecurityCompliance/protect-against-threats) | Изменено |
-| 5/31/2019 | [Назначение разрешений на расследования данных (Предварительная версия)](/Office365/SecurityCompliance/datainvestigations/permissions) | Изменено |
-| 5/31/2019 | [Поиск в журнале аудита в центре безопасности & соответствия требованиям](/Office365/SecurityCompliance/search-the-audit-log-in-security-and-compliance) | Изменено |
-| 5/31/2019 | [Безопасные вложения Office 365 ATP](/Office365/SecurityCompliance/atp-safe-attachments) | Изменено |
-| 5/31/2019 | [Страницы предупреждений для безопасных ссылок на Office 365 ATP](/Office365/SecurityCompliance/atp-safe-links-warning-pages) | Изменено |
-| 5/31/2019 | [Безопасные ссылки Office 365 ATP](/Office365/SecurityCompliance/atp-safe-links) | Изменено |
-| 5/31/2019 | [Интеграция Office 365 Advanced Threat protection с Advanced Threat Protection в Защитнике Windows](/Office365/SecurityCompliance/integrate-office-365-ti-with-wdatp) | Изменено |
-| 5/31/2019 | [Новый центр безопасности Microsoft 365 и центр соответствия требованиям корпорации Майкрософт 365, как правило, доступны](/Office365/SecurityCompliance/microsoft-security-and-compliance) | Изменено |
-| 5/31/2019 | [Office 365 Advanced Threat protection](/Office365/SecurityCompliance/office-365-atp) | Изменено |
-| 5/31/2019 | [Анализ угроз и реагирование на них в Office 365](/Office365/SecurityCompliance/office-365-ti) | Изменено |
-| 5/31/2019 | [Обзор панели мониторинга безопасности](/Office365/SecurityCompliance/security-dashboard) | Изменено |
-| 5/31/2019 | [Настройка настраиваемого списка заблокированных URL-адресов с помощью безопасных ссылок Office 365 ATP](/Office365/SecurityCompliance/set-up-a-custom-blocked-urls-list-wtih-atp) | Изменено |
-| 5/31/2019 | [Настройка настраиваемого списка "не перезаписывать URL-адреса" с помощью безопасных ссылок Office 365 ATP](/Office365/SecurityCompliance/set-up-a-custom-do-not-rewrite-urls-list-with-atp) | Изменено |
-| 5/31/2019 | [Настройка политик безопасных вложений Office 365 ATP](/Office365/SecurityCompliance/set-up-atp-safe-attachments-policies) | Изменено |
-| 5/31/2019 | [Настройка политик безопасных ссылок на Office 365 ATP](/Office365/SecurityCompliance/set-up-atp-safe-links-policies) | Изменено |
-| 5/31/2019 | [Интеграция сервера SIEM с Microsoft 365](/Office365/SecurityCompliance/siem-server-integration) | Изменено |
-| 5/31/2019 | [Включение Office 365 ATP для SharePoint, OneDrive и Microsoft Teams](/Office365/SecurityCompliance/turn-on-atp-for-spo-odb-and-teams) | Изменено |
-
-
 ## <a name="week-of-june-03-2019"></a>Неделя с 3 июня 2019 г.
 
 
@@ -218,3 +176,27 @@
 | 6/28/2019 | [Определение политик барьера информации](/Office365/SecurityCompliance/information-barriers-policies) | Изменено |
 | 6/28/2019 | [Устранение неполадок, связанных с информацией](/Office365/SecurityCompliance/information-barriers-troubleshooting) | Изменено |
 | 6/28/2019 | [Общие сведения о барьерах](/Office365/SecurityCompliance/information-barriers) | Изменено |
+
+
+## <a name="week-of-july-01-2019"></a>Неделя с 01 июля 2019 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 7/1/2019 | [Поиск и исследование вредоносных сообщений электронной почты, которые были доставлены (Office 365: исследование угроз и реагирование на них](/Office365/SecurityCompliance/investigate-malicious-email-that-was-delivered) | Изменено |
+| 7/1/2019 | [Разрешения в центре безопасности Office 365 & соответствия требованиям](/Office365/SecurityCompliance/permissions-in-the-security-and-compliance-center) | Изменено |
+| 7/1/2019 | [Создание пользовательского типа конфиденциальной информации в PowerShell центра безопасности & соответствия требованиям](/Office365/SecurityCompliance/create-a-custom-sensitive-information-type-in-scc-powershell) | Изменено |
+| 7/1/2019 | [Защита от потери данных и Microsoft Teams](/Office365/SecurityCompliance/dlp-microsoft-teams) | Изменено |
+| 7/2/2019 | [Архивация сторонних данных в Office 365](/Office365/SecurityCompliance/archiving-third-party-data) | Изменено |
+| 7/2/2019 | [Как Exchange Online защищает секреты вашей электронной почты](/Office365/SecurityCompliance/exchange-online-secures-email-secrets) | Изменено |
+| 7/2/2019 | [Поиск данных сторонних поставщиков, импортированных в Office 365, с помощью поиска контента](/Office365/SecurityCompliance/use-content-search-to-search-third-party-data-that-was-imported) | Изменено |
+| 7/2/2019 | [Защита от потери данных и Microsoft Teams](/Office365/SecurityCompliance/dlp-microsoft-teams) | Изменено |
+| 7/2/2019 | [Массовое изменение результатов поиска контента](/Office365/SecurityCompliance/bulk-edit-content-searches) | Изменено |
+| 7/2/2019 | [Подробные свойства в журнале аудита Office 365](/Office365/SecurityCompliance/detailed-properties-in-the-office-365-audit-log) | Изменено |
+| 7/2/2019 | [Обнаружение электронных данных в Office 365](/Office365/SecurityCompliance/ediscovery) | Изменено |
+| 7/2/2019 | [Обзор политик хранения](/Office365/SecurityCompliance/retention-policies) | Изменено |
+| 7/2/2019 | [Поиск в журнале аудита в центре безопасности & соответствия требованиям](/Office365/SecurityCompliance/search-the-audit-log-in-security-and-compliance) | Изменено |
+| 7/2/2019 | [Поиск списка пользователей в почтовом ящике и на сайте OneDrive для бизнеса с помощью поиска контента](/Office365/SecurityCompliance/search-the-mailbox-and-onedrive-for-business-for-a-list-of-users) | Изменено |
+| 7/2/2019 | [Аудит общего доступа с помощью журнала аудита Office 365](/Office365/SecurityCompliance/use-sharing-auditing) | Изменено |
+| 7/2/2019 | [Атрибуты политик барьера информации](/Office365/SecurityCompliance/information-barriers-attributes) | Изменено |
+| 7/3/2019 | [Политики оповещений в центре безопасности и соответствия требованиям](/Office365/SecurityCompliance/alert-policies) | Изменено |
