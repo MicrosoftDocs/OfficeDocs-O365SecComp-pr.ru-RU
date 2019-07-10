@@ -537,11 +537,11 @@
 ### [Что изменилось в диспетчере соответствия требованиям (предварительная версия)](compliance-manager-release-notes.md)
 ### [Работа с диспетчером соответствия требованиям (предварительная версия)](working-with-compliance-manager.md)
 ### [Принцип вычисления рейтинга (предварительная версия)](compliance-score-methodology.md)
-## [Информационные барьеры (предварительная версия)](information-barriers.md)
-### [Определение политик информационных барьеров (предварительная версия)](information-barriers-policies.md)
-### [Атрибуты для политик информационных барьеров (предварительная версия)](information-barriers-attributes.md)
-### [Устранение проблем с информационными барьерами (предварительная версия)](information-barriers-troubleshooting.md)
-### [Изменение политик информационных барьеров (предварительная версия)](information-barriers-edit-segments-policies.md.md)
+## [Информационные барьеры](information-barriers.md)
+### [Определение политик информационных барьеров](information-barriers-policies.md)
+### [Атрибуты для политик информационных барьеров](information-barriers-attributes.md)
+### [Устранение проблем с информационными барьерами](information-barriers-troubleshooting.md)
+### [Изменение политик информационных барьеров](information-barriers-edit-segments-policies.md.md)
 
 
 ## Ключ клиента
