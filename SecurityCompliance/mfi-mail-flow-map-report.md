@@ -2,52 +2,52 @@
 title: Отчет о карте почтового процесса
 ms.author: chrisda
 author: chrisda
-manager: serdars
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
-description: Администраторы могут узнать о отчете карты почтовых ящиков в панели мониторинга "Управление почтовыми сообщениями" в центре безопасности _Амп_ соответствия требованиям.
-ms.openlocfilehash: 6b8c63f25e143c7b27202141362a4dada82b7a4d
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+description: Администраторы могут узнать о отчете карты почтовых ящиков в панели мониторинга "Управление почтовыми сообщениями" в центре безопасности & соответствия требованиям.
+ms.openlocfilehash: 04ffbdc339a084f3ae2bf9947469966f1a868d02
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34158691"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35601026"
 ---
-# <a name="mail-flow-map-report"></a><span data-ttu-id="c7961-103">Отчет о карте почтового процесса</span><span class="sxs-lookup"><span data-stu-id="c7961-103">Mail flow map report</span></span>
+# <a name="mail-flow-map-report"></a><span data-ttu-id="48c20-103">Отчет о карте почтового процесса</span><span class="sxs-lookup"><span data-stu-id="48c20-103">Mail flow map report</span></span>
 
-<span data-ttu-id="c7961-104">Этот отчет предоставляет подробные сведения о том, как почтовые сообщения проходят через организацию Office 365.</span><span class="sxs-lookup"><span data-stu-id="c7961-104">This report gives insights as to how mail flows through your Office 365 organization.</span></span> <span data-ttu-id="c7961-105">Вы можете использовать эти сведения для изучения шаблонов, выявления аномалий и устранения проблем по мере их возникновения.</span><span class="sxs-lookup"><span data-stu-id="c7961-105">You can use this information to learn patterns, identify anomalies, and fix issues as they arise.</span></span>
+<span data-ttu-id="48c20-104">Этот отчет предоставляет подробные сведения о том, как почтовые сообщения проходят через организацию Office 365.</span><span class="sxs-lookup"><span data-stu-id="48c20-104">This report gives insights as to how mail flows through your Office 365 organization.</span></span> <span data-ttu-id="48c20-105">Вы можете использовать эти сведения для изучения шаблонов, выявления аномалий и устранения проблем по мере их возникновения.</span><span class="sxs-lookup"><span data-stu-id="48c20-105">You can use this information to learn patterns, identify anomalies, and fix issues as they arise.</span></span>
 
-![Отчет карты почтовых ящиков на панели мониторинга "почтовые потоки" в центре безопасности _Амп_ соответствия требованиям](media/mail-flow-map-selected.png)
+![Отчет карты почтовых ящиков в панели мониторинга "Управление почтовыми сообщениями" в центре безопасности & соответствия требованиям](media/mail-flow-map-selected.png)
 
-## <a name="mail-flow-map-widget"></a><span data-ttu-id="c7961-107">Мини-приложение карты почтовых ящиков</span><span class="sxs-lookup"><span data-stu-id="c7961-107">Mail flow map widget</span></span>
+## <a name="mail-flow-map-widget"></a><span data-ttu-id="48c20-107">Мини-приложение карты почтовых ящиков</span><span class="sxs-lookup"><span data-stu-id="48c20-107">Mail flow map widget</span></span>
 
-<span data-ttu-id="c7961-108">По умолчанию в карте почтовых ящиков показан шаблон почтовых ящиков высокого уровня с предыдущего дня.</span><span class="sxs-lookup"><span data-stu-id="c7961-108">By default, the mail flow map shows the high level mail flow pattern from the previous day.</span></span> <span data-ttu-id="c7961-109">Для разных дней можно использовать стрелки влево и вправо.</span><span class="sxs-lookup"><span data-stu-id="c7961-109">You can use the left and right arrows for different days.</span></span> <span data-ttu-id="c7961-110">При наведении курсора мыши на каждую область в отчете будет показан объем почты в организации Office 365, как показано на следующей схеме:</span><span class="sxs-lookup"><span data-stu-id="c7961-110">Hovering your mouse cursor over each area in the report will show the volume of mail to and from your Office 365 organization as shown in the following diagram:</span></span>
+<span data-ttu-id="48c20-108">По умолчанию в карте почтовых ящиков показан шаблон почтовых ящиков высокого уровня с предыдущего дня.</span><span class="sxs-lookup"><span data-stu-id="48c20-108">By default, the mail flow map shows the high level mail flow pattern from the previous day.</span></span> <span data-ttu-id="48c20-109">Для разных дней можно использовать стрелки влево и вправо.</span><span class="sxs-lookup"><span data-stu-id="48c20-109">You can use the left and right arrows for different days.</span></span> <span data-ttu-id="48c20-110">При наведении курсора мыши на каждую область в отчете будет показан объем почты в организации Office 365, как показано на следующей схеме:</span><span class="sxs-lookup"><span data-stu-id="48c20-110">Hovering your mouse cursor over each area in the report will show the volume of mail to and from your Office 365 organization as shown in the following diagram:</span></span>
 
 ![Стрелки влево и вправо в мини-приложении "карта процесса почты"](media/mail-flow-map-widget.png)
 
-## <a name="overview"></a><span data-ttu-id="c7961-112">Обзор</span><span class="sxs-lookup"><span data-stu-id="c7961-112">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="48c20-112">Обзор</span><span class="sxs-lookup"><span data-stu-id="48c20-112">Overview</span></span>
 
-<span data-ttu-id="c7961-113">Щелкнув мини-приложение **карты** почтовых ящиков, вы перейдете к отчету **карты процесса обработки почты** .</span><span class="sxs-lookup"><span data-stu-id="c7961-113">Clicking on the **Mail flow map** widget will take you to the **Mail flow map** report.</span></span> <span data-ttu-id="c7961-114">Вы можете увидеть более детализированный уровень отчетов, щелкнув таблица Просмотр сведений для просмотра подробных данных.</span><span class="sxs-lookup"><span data-stu-id="c7961-114">Here you can see more granular level of report, you can click View details table to see detailed data.</span></span> <span data-ttu-id="c7961-115">Вы также можете скачать подробный отчет, щелкнув запрос отчет.</span><span class="sxs-lookup"><span data-stu-id="c7961-115">You can also download the detailed report by clicking Request report.</span></span>
+<span data-ttu-id="48c20-113">Щелкнув мини-приложение **карты** почтовых ящиков, вы перейдете к отчету **карты процесса обработки почты** .</span><span class="sxs-lookup"><span data-stu-id="48c20-113">Clicking on the **Mail flow map** widget will take you to the **Mail flow map** report.</span></span> <span data-ttu-id="48c20-114">Вы можете увидеть более детализированный уровень отчетов, щелкнув таблица Просмотр сведений для просмотра подробных данных.</span><span class="sxs-lookup"><span data-stu-id="48c20-114">Here you can see more granular level of report, you can click View details table to see detailed data.</span></span> <span data-ttu-id="48c20-115">Вы также можете скачать подробный отчет, щелкнув запрос отчет.</span><span class="sxs-lookup"><span data-stu-id="48c20-115">You can also download the detailed report by clicking Request report.</span></span>
 
 ![Представление "Обзор" в отчете карты почтовых ящиков](media/mail-flow-map-overview.png)
 
-## <a name="details"></a><span data-ttu-id="c7961-117">Сведения</span><span class="sxs-lookup"><span data-stu-id="c7961-117">Details</span></span>
+## <a name="details"></a><span data-ttu-id="48c20-117">Сведения</span><span class="sxs-lookup"><span data-stu-id="48c20-117">Details</span></span>
 
-<span data-ttu-id="c7961-118">По умолчанию для параметра **Показать данные** задано значение **Обзор**.</span><span class="sxs-lookup"><span data-stu-id="c7961-118">By default, **Show data for** is set to the value **Overview**.</span></span> <span data-ttu-id="c7961-119">Если щелкнуть раскрывающийся список и выбрать **сведения**, представление будет переключаться на сведения о уровне домена.</span><span class="sxs-lookup"><span data-stu-id="c7961-119">When you click on the drop down and select **Detail**, the view switches to the domain level detail.</span></span>
+<span data-ttu-id="48c20-118">По умолчанию для параметра **Показать данные** задано значение **Обзор**.</span><span class="sxs-lookup"><span data-stu-id="48c20-118">By default, **Show data for** is set to the value **Overview**.</span></span> <span data-ttu-id="48c20-119">Если щелкнуть раскрывающийся список и выбрать **сведения**, представление будет переключаться на сведения о уровне домена.</span><span class="sxs-lookup"><span data-stu-id="48c20-119">When you click on the drop down and select **Detail**, the view switches to the domain level detail.</span></span>
 
 ![Выбор параметра "сведения в представлении" Показать данные для в обзоре в отчете карты почтовых ящиков "](media/mail-flow-map-select-detail.png)
 
-<span data-ttu-id="c7961-121">Отображаются домены верхнего отправителя и получателя, и остальные домены будут помещены в **другие** , как показано на следующих схемах:</span><span class="sxs-lookup"><span data-stu-id="c7961-121">The top sender and recipient domains are listed, and the rest will be put in **Others** as shown in the following diagrams:</span></span>
+<span data-ttu-id="48c20-121">Отображаются домены верхнего отправителя и получателя, и остальные домены будут помещены в **другие** , как показано на следующих схемах:</span><span class="sxs-lookup"><span data-stu-id="48c20-121">The top sender and recipient domains are listed, and the rest will be put in **Others** as shown in the following diagrams:</span></span>
 
 ![Представление "сведения" в отчете о схеме почтового процесса](media/mail-flow-map-detail.png)
 
-## <a name="related-insights"></a><span data-ttu-id="c7961-123">Связанная аналитика</span><span class="sxs-lookup"><span data-stu-id="c7961-123">Related insights</span></span>
+## <a name="related-insights"></a><span data-ttu-id="48c20-123">Связанная аналитика</span><span class="sxs-lookup"><span data-stu-id="48c20-123">Related insights</span></span>
 
-<span data-ttu-id="c7961-124">Связанные сведения отображаются под схемой почтовых процессов, если они доступны (например, для получения сведений о домене отправителя или в цикле обработки почты).</span><span class="sxs-lookup"><span data-stu-id="c7961-124">Related insights are shown beneath the Mail flow map if they're available (for example, the Sender domain insight or the Mail loop insight).</span></span>
+<span data-ttu-id="48c20-124">Связанные сведения отображаются под схемой почтовых процессов, если они доступны (например, для получения сведений о домене отправителя или в цикле обработки почты).</span><span class="sxs-lookup"><span data-stu-id="48c20-124">Related insights are shown beneath the Mail flow map if they're available (for example, the Sender domain insight or the Mail loop insight).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="c7961-125">См. также</span><span class="sxs-lookup"><span data-stu-id="c7961-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="48c20-125">См. также</span><span class="sxs-lookup"><span data-stu-id="48c20-125">See also</span></span>
 
-<span data-ttu-id="c7961-126">Для получения дополнительных сведений о других аналитиках почтовых ящиков в панели мониторинга для почтового процесса ознакомьтесь с разрешениями почтовых ящиков [в центре безопасности _Амп_ соответствия требованиям](mail-flow-insights-v2.md).</span><span class="sxs-lookup"><span data-stu-id="c7961-126">For more information about other mail flow insights in the mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>
+<span data-ttu-id="48c20-126">Для получения дополнительных сведений о других аналитиках почтовых ящиков в панели мониторинга обработки почты ознакомьтесь с разрешениями почтовых ящиков [в центре безопасности & соответствия требованиям](mail-flow-insights-v2.md).</span><span class="sxs-lookup"><span data-stu-id="48c20-126">For more information about other mail flow insights in the mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>

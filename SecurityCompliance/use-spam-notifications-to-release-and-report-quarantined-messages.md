@@ -2,7 +2,7 @@
 title: Использование уведомлений пользователей о спаме для освобождения сообщений из карантина и создания отчетов о них в Office 365
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 03/14/2019
 audience: Admin
 ms.topic: article
@@ -16,48 +16,48 @@ ms.assetid: 56de4ed5-b0aa-4195-9f46-033d7cc086bc
 ms.collection:
 - M365-security-compliance
 description: Если администратор включает уведомления для пользователей, вы получите сообщение с уведомлением о том, что сообщения, отправленные в ваш почтовый ящик, были идентифицированы как спам, массовые или фишинговые сообщения. Вы можете отпустить или отправить отчет о сообщениях после получения уведомления.
-ms.openlocfilehash: eb16e6a24bb4a2f30b7bcb33051b62afdeb9e250
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 887dab0df489e6f71266a6fdabfdd04f26a14ded
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34156041"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598445"
 ---
-# <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages-in-office-365"></a><span data-ttu-id="d7a35-104">Использование уведомлений пользователей о спаме для освобождения сообщений из карантина и создания отчетов о них в Office 365</span><span class="sxs-lookup"><span data-stu-id="d7a35-104">Use user spam notifications to release and report quarantined messages in Office 365</span></span>
+# <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages-in-office-365"></a><span data-ttu-id="a9220-104">Использование уведомлений пользователей о спаме для освобождения сообщений из карантина и создания отчетов о них в Office 365</span><span class="sxs-lookup"><span data-stu-id="a9220-104">Use user spam notifications to release and report quarantined messages in Office 365</span></span>
 
-<span data-ttu-id="d7a35-105">Если администратор включает уведомления о нежелательной почте для пользователей, вы получите сообщение с уведомлением, в котором перечисляются сообщения, адресованные почтовому ящику, которые были идентифицированы как спам и помещены в карантин.</span><span class="sxs-lookup"><span data-stu-id="d7a35-105">If your admin enables spam notifications for users, you'll receive a notification message that lists messages addressed to your mailbox that were identified as spam and quarantined instead.</span></span>
+<span data-ttu-id="a9220-105">Если администратор включает уведомления о нежелательной почте для пользователей, вы получите сообщение с уведомлением, в котором перечисляются сообщения, адресованные почтовому ящику, которые были идентифицированы как спам и помещены в карантин.</span><span class="sxs-lookup"><span data-stu-id="a9220-105">If your admin enables spam notifications for users, you'll receive a notification message that lists messages addressed to your mailbox that were identified as spam and quarantined instead.</span></span>
   
 > [!TIP]
-> <span data-ttu-id="d7a35-106">Если вы являетесь администратором и хотите включить эту функцию, вы можете выбрать параметр при [изменении политики защиты от нежелательной почты по умолчанию](https://go.microsoft.com/fwlink/?LinkId=800313).</span><span class="sxs-lookup"><span data-stu-id="d7a35-106">If you're an administrator and want to enable this feature, you can choose the option when you [modify a default anti-spam policy](https://go.microsoft.com/fwlink/?LinkId=800313).</span></span> 
+> <span data-ttu-id="a9220-106">Если вы являетесь администратором и хотите включить эту функцию, вы можете выбрать параметр при [изменении политики защиты от нежелательной почты по умолчанию](https://go.microsoft.com/fwlink/?LinkId=800313).</span><span class="sxs-lookup"><span data-stu-id="a9220-106">If you're an administrator and want to enable this feature, you can choose the option when you [modify a default anti-spam policy](https://go.microsoft.com/fwlink/?LinkId=800313).</span></span> 
   
-<span data-ttu-id="d7a35-107">Полученное сообщение включает в себя количество сообщений, помещенных в карантин нежелательной почты, а также дату и время (в формате UTC) последнего сообщения в списке.</span><span class="sxs-lookup"><span data-stu-id="d7a35-107">The message you receive includes the number of spam-quarantined messages you have, and the date and time (in Universal Coordinated Time or UTC) of the last message in the list.</span></span> <span data-ttu-id="d7a35-108">Список содержит следующие сведения для каждого сообщения:</span><span class="sxs-lookup"><span data-stu-id="d7a35-108">The list includes the following for each message:</span></span>
+<span data-ttu-id="a9220-107">Полученное сообщение включает в себя количество сообщений, помещенных в карантин нежелательной почты, а также дату и время (в формате UTC) последнего сообщения в списке.</span><span class="sxs-lookup"><span data-stu-id="a9220-107">The message you receive includes the number of spam-quarantined messages you have, and the date and time (in Universal Coordinated Time or UTC) of the last message in the list.</span></span> <span data-ttu-id="a9220-108">Список содержит следующие сведения для каждого сообщения:</span><span class="sxs-lookup"><span data-stu-id="a9220-108">The list includes the following for each message:</span></span>
   
-- <span data-ttu-id="d7a35-109">**Sender** (отправитель) Имя отправителя и адрес электронной почты почтового сообщения, помещенного в карантин.</span><span class="sxs-lookup"><span data-stu-id="d7a35-109">**Sender** The send name and email address of the quarantined message.</span></span> 
+- <span data-ttu-id="a9220-109">**Sender** (отправитель) Имя отправителя и адрес электронной почты почтового сообщения, помещенного в карантин.</span><span class="sxs-lookup"><span data-stu-id="a9220-109">**Sender** The send name and email address of the quarantined message.</span></span> 
     
-- <span data-ttu-id="d7a35-110">**Тема.** Текст в строке темы помещенного в карантин сообщения.</span><span class="sxs-lookup"><span data-stu-id="d7a35-110">**Subject** The subject line text of the quarantined message.</span></span> 
+- <span data-ttu-id="a9220-110">**Тема.** Текст в строке темы помещенного в карантин сообщения.</span><span class="sxs-lookup"><span data-stu-id="a9220-110">**Subject** The subject line text of the quarantined message.</span></span> 
     
-- <span data-ttu-id="d7a35-111">**Дата.** Дата и время (в формате UTC) помещения сообщения в карантин.</span><span class="sxs-lookup"><span data-stu-id="d7a35-111">**Date** The date and time (in UTC) that the message was quarantined.</span></span> 
+- <span data-ttu-id="a9220-111">**Дата.** Дата и время (в формате UTC) помещения сообщения в карантин.</span><span class="sxs-lookup"><span data-stu-id="a9220-111">**Date** The date and time (in UTC) that the message was quarantined.</span></span> 
     
-- <span data-ttu-id="d7a35-112">**Size (размер** ) Размер сообщения в килобайтах (КБ).</span><span class="sxs-lookup"><span data-stu-id="d7a35-112">**Size** The size of the message, in kilobytes (KBs).</span></span> 
+- <span data-ttu-id="a9220-112">**Size (размер** ) Размер сообщения в килобайтах (КБ).</span><span class="sxs-lookup"><span data-stu-id="a9220-112">**Size** The size of the message, in kilobytes (KBs).</span></span> 
     
-<span data-ttu-id="d7a35-113">Ниже приведены действия, которые можно выполнить с сообщением в карантине.</span><span class="sxs-lookup"><span data-stu-id="d7a35-113">These are the actions that you can take with a quarantined message:</span></span>
+<span data-ttu-id="a9220-113">Ниже приведены действия, которые можно выполнить с сообщением в карантине.</span><span class="sxs-lookup"><span data-stu-id="a9220-113">These are the actions that you can take with a quarantined message:</span></span>
 
-- <span data-ttu-id="d7a35-114">**Просмотрите** сообщение, если вы хотите предварительно просмотреть содержимое или заголовок, прежде чем предпринимать действия.</span><span class="sxs-lookup"><span data-stu-id="d7a35-114">**Preview** the message if you would like to preview the content or header prior to taking action.</span></span>
+- <span data-ttu-id="a9220-114">**Просмотрите** сообщение, если вы хотите предварительно просмотреть содержимое или заголовок, прежде чем предпринимать действия.</span><span class="sxs-lookup"><span data-stu-id="a9220-114">**Preview** the message if you would like to preview the content or header prior to taking action.</span></span>
 
-- <span data-ttu-id="d7a35-115">**Скачайте** сообщение, если вы хотите просмотреть сообщение и вложения (если они есть) на устройстве, прежде чем предпринимать действия.</span><span class="sxs-lookup"><span data-stu-id="d7a35-115">**Download** the message if you would like to review the message and attachments (if any) on your device prior to taking action.</span></span>
+- <span data-ttu-id="a9220-115">**Скачайте** сообщение, если вы хотите просмотреть сообщение и вложения (если они есть) на устройстве, прежде чем предпринимать действия.</span><span class="sxs-lookup"><span data-stu-id="a9220-115">**Download** the message if you would like to review the message and attachments (if any) on your device prior to taking action.</span></span>
 
-- <span data-ttu-id="d7a35-116">**Отпустите** , если сообщение не является спамом и вы хотите, чтобы Office 365 отправлял сообщение в ваш почтовый ящик.</span><span class="sxs-lookup"><span data-stu-id="d7a35-116">**Release** if the message isn’t spam and you want Office 365 to send the message to your mailbox.</span></span>
+- <span data-ttu-id="a9220-116">**Отпустите** , если сообщение не является спамом и вы хотите, чтобы Office 365 отправлял сообщение в ваш почтовый ящик.</span><span class="sxs-lookup"><span data-stu-id="a9220-116">**Release** if the message isn’t spam and you want Office 365 to send the message to your mailbox.</span></span>
 
-- <span data-ttu-id="d7a35-117">**Выпуск _Амп_ разрешить отправителю** , если сообщение не является нежелательным, и вы хотите, чтобы Office 365 добавить отправителя в список надежных отправителей и получателей для будущих сообщений.</span><span class="sxs-lookup"><span data-stu-id="d7a35-117">**Release & Allow Sender** if the message isn’t spam and you want Office 365 to add the sender to your safe senders and recipients list for future emails.</span></span> <span data-ttu-id="d7a35-118">Имейте в виду, что у администратора могут быть другие конфигурации разрешений и блокировок в Организации, которые переопределяют список надежных отправителей.</span><span class="sxs-lookup"><span data-stu-id="d7a35-118">Keep in mind that your admin may have other organization wide allow/block configurations that override your safe sender list.</span></span>
+- <span data-ttu-id="a9220-117">**Отпустите & разрешить отправителю** , если сообщение не является спамом и вы хотите, чтобы Office 365 добавить отправителя в список надежных отправителей и получателей для будущих сообщений.</span><span class="sxs-lookup"><span data-stu-id="a9220-117">**Release & Allow Sender** if the message isn’t spam and you want Office 365 to add the sender to your safe senders and recipients list for future emails.</span></span> <span data-ttu-id="a9220-118">Имейте в виду, что у администратора могут быть другие конфигурации разрешений и блокировок в Организации, которые переопределяют список надежных отправителей.</span><span class="sxs-lookup"><span data-stu-id="a9220-118">Keep in mind that your admin may have other organization wide allow/block configurations that override your safe sender list.</span></span>
 
-- <span data-ttu-id="d7a35-119">**Выпустите _Амп_ отчет**, если сообщение не спама и вы хотите отправить его в свой почтовый ящик и сообщить в корпорацию Майкрософт для анализа.</span><span class="sxs-lookup"><span data-stu-id="d7a35-119">**Release & Report**, if the message isn’t spam and you want to send the message to your mailbox and report it to Microsoft for analysis.</span></span>
+- <span data-ttu-id="a9220-119">**Выпустите & отчет**, если сообщение не спама и вы хотите отправить его в свой почтовый ящик и сообщить в корпорацию Майкрософт для анализа.</span><span class="sxs-lookup"><span data-stu-id="a9220-119">**Release & Report**, if the message isn’t spam and you want to send the message to your mailbox and report it to Microsoft for analysis.</span></span>
 
-- <span data-ttu-id="d7a35-120">\*\*\*\* Заблокируйте, если вы хотите, чтобы Office 365 добавить отправителя в список заблокированных отправителей.</span><span class="sxs-lookup"><span data-stu-id="d7a35-120">**Block** if you want Office 365 to add the sender to your blocked senders list.</span></span>
+- <span data-ttu-id="a9220-120">\*\*\*\* Заблокируйте, если вы хотите, чтобы Office 365 добавить отправителя в список заблокированных отправителей.</span><span class="sxs-lookup"><span data-stu-id="a9220-120">**Block** if you want Office 365 to add the sender to your blocked senders list.</span></span>
 
-<span data-ttu-id="d7a35-121">Необходимо учитывать следующие моменты.</span><span class="sxs-lookup"><span data-stu-id="d7a35-121">Be aware of the following:</span></span>
+<span data-ttu-id="a9220-121">Необходимо учитывать следующие моменты.</span><span class="sxs-lookup"><span data-stu-id="a9220-121">Be aware of the following:</span></span>
   
-- <span data-ttu-id="d7a35-122">Сообщения, помещенные в карантин, так как они отвечают правилу обработки почты, не включаются в сообщения, помещенные в карантин пользователя.</span><span class="sxs-lookup"><span data-stu-id="d7a35-122">Messages that are quarantined because they matched a mail flow rule are not included in user quarantined messages.</span></span> <span data-ttu-id="d7a35-123">В список включаются только помещенные в карантин нежелательные сообщения.</span><span class="sxs-lookup"><span data-stu-id="d7a35-123">Only spam-quarantined messages are listed.</span></span>
+- <span data-ttu-id="a9220-122">Сообщения, помещенные в карантин, так как они отвечают правилу обработки почты, не включаются в сообщения, помещенные в карантин пользователя.</span><span class="sxs-lookup"><span data-stu-id="a9220-122">Messages that are quarantined because they matched a mail flow rule are not included in user quarantined messages.</span></span> <span data-ttu-id="a9220-123">В список включаются только помещенные в карантин нежелательные сообщения.</span><span class="sxs-lookup"><span data-stu-id="a9220-123">Only spam-quarantined messages are listed.</span></span>
     
-- <span data-ttu-id="d7a35-124">Освободить сообщение и сообщить о ложном срабатывании (о том, что сообщение не является нежелательным) можно только один раз.</span><span class="sxs-lookup"><span data-stu-id="d7a35-124">You can only release a message and report it as a false positive (not junk) once.</span></span>
+- <span data-ttu-id="a9220-124">Освободить сообщение и сообщить о ложном срабатывании (о том, что сообщение не является нежелательным) можно только один раз.</span><span class="sxs-lookup"><span data-stu-id="a9220-124">You can only release a message and report it as a false positive (not junk) once.</span></span>
     
 
