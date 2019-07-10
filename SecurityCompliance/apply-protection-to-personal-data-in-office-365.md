@@ -3,7 +3,7 @@ title: Применение защиты к персональным данны�
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
-ms.date: 2/7/2018
+ms.date: 02/07/2018
 audience: ITPro
 ms.topic: overview
 ms.collection:
@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Узнайте, как использовать политики защиты от потери данных для защиты персональных данных в Office 365.
-ms.openlocfilehash: b4754f5b8627b398c92d36baf2d48b04e67edcf9
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: f6d6d69f7c776b9b49ea360367117a9ce86293b2
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34155601"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598715"
 ---
 # <a name="apply-protection-to-personal-data-in-office-365"></a>Применение защиты к персональным данным в Office 365
 
