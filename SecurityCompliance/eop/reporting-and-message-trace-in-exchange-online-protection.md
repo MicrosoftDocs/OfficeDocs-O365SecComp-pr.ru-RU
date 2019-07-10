@@ -2,7 +2,7 @@
 title: Отчеты и трассировка сообщений в Exchange Online Protection
 ms.author: chrisda
 author: chrisda
-manager: serdars
+manager: dansimp
 ms.date: 12/18/2017
 audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: f40253f2-50a1-426e-9979-be74ba74cb61
 description: В Microsoft Exchange Online Protection (EOP) доступно множество различных отчетов, с помощью которых вы сможете определить общее состояние и работоспособность вашей организации. Существуют также средства, позволяющие устранять неполадки с определенными событиями (например, если сообщение не приходит указанным получателям), а также отчеты аудита для целей соответствия требованиями. В следующей таблице описаны отчеты и средства устранения неполадок, доступные администраторам EOP.
-ms.openlocfilehash: 0dcacec586408bf98ad4c67c11ae3bde3a8e9315
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: d882319762fc963fd66cabdaf858d88cc1c8956a
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34154621"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599485"
 ---
 # <a name="reporting-and-message-trace-in-exchange-online-protection"></a>Отчеты и трассировка сообщений в Exchange Online Protection
 

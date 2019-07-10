@@ -2,8 +2,8 @@
 title: Устранение проблем с доставкой электронной почты для кода ошибки 5.7.7 XX в Exchange Online
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
-ms.date: 6/11/2019
+manager: dansimp
+ms.date: 06/11/2019
 audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -14,12 +14,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как устранить проблемы с сообщением об ошибке с кодом 5.7.7 XX в Exchange Online (клиент заблокирован от отправки почты).
-ms.openlocfilehash: dbdfdeb351125442018e520d72f953e116d8e1a8
-ms.sourcegitcommit: 5a93c2f3df35d06a59a7fbaff5c91f7afde11781
+ms.openlocfilehash: d55bc1f8a051a7f9932528a75aac8f1efa18911c
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34865516"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599335"
 ---
 # <a name="fix-email-delivery-issues-for-error-code-577xx-in-exchange-online"></a>Устранение проблем с доставкой электронной почты для кода ошибки 5.7.7 XX в Exchange Online
 

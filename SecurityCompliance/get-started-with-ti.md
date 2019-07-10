@@ -2,8 +2,8 @@
 title: Начало исследования и реагирования на угрозу безопасности Office 365
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
-ms.date: 03/19/2019
+manager: dansimp
+ms.date: 07/09/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,16 +15,16 @@ ms.assetid: 38e9b67f-d188-490f-bc91-a1ae4b270441
 ms.collection:
 - M365-security-compliance
 description: Узнайте о том, как начать исследование угроз и ответ на Office 365, а также как приступить к работе.
-ms.openlocfilehash: 9be8e33be6445dc960c12c308c56bf9afc7fdd12
-ms.sourcegitcommit: b9d8a43cb3afcdc8820bc9470c5707eff8fc6616
+ms.openlocfilehash: 8bd5e68abfa036d1257fb08fb1dd2b730f7de821
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34852583"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599255"
 ---
-# <a name="get-started-with-threat-investigation-and-response-office-365-advanced-threat-protection-plan-2"></a>Начало работы с исследованием угроз и ответом (Office 365 Advanced Threat Protection Plan 2)
+# <a name="get-started-with-threat-investigation-and-response-in-office-365-advanced-threat-protection"></a>Начало работы с расследованиям угроз и ответами в Office 365 Advanced Threat protection
 
-Если вы участвуете в группе безопасности Организации, вы можете использовать средства расследования и ответа Office 365 для защиты пользователей от атак. Office 365 Advanced Threat Protection Plan 2 (прежнее название Office 365 Threat Intelligence) помогает аналитикам и администраторам обеспечить безопасность пользователей с помощью восходящей маршрутизации и идентификации действий в зависимости от того, что происходит в вашей среде Office 365. Эти аналитические сведения основаны на всеобъемлющем репозитории данных и систем системы анализа угроз на шаблоны, соответствующие поведению атак и подозрительным действиям.
+Если вы участвуете в группе безопасности Организации, вы можете использовать средства расследования и ответа Office 365 для защиты пользователей от атак. Office 365 Advanced Threat Protection Plan 2 (ранее известной как Office 365 Threat Intelligence) помогает аналитикам и администраторам обеспечить безопасность пользователей с помощью восходящей маршрутизации и идентификации действий в зависимости от того, что происходит в Office 365 Environment. Эти аналитические сведения основаны на всеобъемлющем репозитории данных и систем системы анализа угроз на шаблоны, соответствующие поведению атак и подозрительным действиям.
   
 Прочитайте эту статью, чтобы узнать больше об расследовании угроз и ответе, а также о том, как приступить к работе.
   
@@ -32,9 +32,6 @@ ms.locfileid: "34852583"
 
 Средства расследования и реагирования на угрозы помогают получить представление о угрозах и связанных действиях откликов, доступных в центре &amp; безопасности Office 365. Эти сведения помогут группе безопасности вашей организации защитить пользователей Office 365 от атак по электронной почте или с помощью файлов. Сведения о возможностях отслеживания и сбора данных из нескольких источников, таких как действия пользователей, проверка подлинности, электронная почта, скомпрометированные компьютеры и инциденты безопасности. Сотрудники бизнес-решений и глобальные администраторы Office 365, администраторы безопасности и аналитики безопасности могут использовать эти сведения для анализа угроз и реагирования на них от пользователей Office 365 и защиты их интеллектуальной собственности.
 
-> [!IMPORTANT]
-> Анализ угроз для Office 365 теперь является Office 365 Advanced Threat Protection Plan 2, а также дополнительные возможности защиты от угроз. Чтобы узнать больше, ознакомьтесь со статьями [office 365 Advanced Threat protection Plans and ценах](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
-  
 ## <a name="get-acquainted-with-the-threat-dashboard-explorer-and-incidents"></a>Знакомство с панелью мониторинга угроз, проводником и происшествиями
 
 Эти средства расследования угроз и возможности реагирования в центре &amp; безопасности соответствуют требованиям в виде набора средств и рабочих процессов ответа, в том числе [панели мониторинга угроз](#threat-dashboard), [обозревателя угроз](#threat-explorer), [инцидентов](get-started-with-ti.md#incidents), [атак Имитатор](attack-simulator.md)и автоматическое расследование & ответа.
@@ -110,4 +107,8 @@ ms.locfileid: "34852583"
     
 - [Сведения о симуляторе атак](attack-simulator.md)
   
+## <a name="additional-information"></a>Дополнительные сведения
 
+- [Планы и цены Advanced Threat Protection в Office 365](https://products.office.com/exchange/advance-threat-protection) 
+
+- [Описание службы Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)

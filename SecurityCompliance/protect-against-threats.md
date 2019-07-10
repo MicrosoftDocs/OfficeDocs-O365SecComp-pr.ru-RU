@@ -2,7 +2,7 @@
 title: Защита от угроз в Office 365
 ms.author: tracyp
 author: msfttracyp
-manager: laurawi
+manager: dansimp
 audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
 description: Используйте эту статью в качестве руководства по настройке функций защиты от угроз.
-ms.openlocfilehash: 6700e2714ea607f675b487204404d53c1d51db93
-ms.sourcegitcommit: 424a614141c1f19a1c84a67ec2d71dd3d7ef6694
+ms.openlocfilehash: 950259bb11446c3b7f27606b69a44f07ad478e79
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34590582"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35600525"
 ---
 # <a name="protect-against-threats-in-office-365"></a>Защита от угроз в Office 365
 
@@ -47,7 +47,7 @@ Office 365 включает различные функции защиты от 
 
 ### <a name="roles-and-permissions"></a>Роли и разрешения
 
-Для настройки политик в [центре безопасности _Амп_ соответствия требованиям](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)необходимо назначить соответствующую роль. В следующей таблице приводятся некоторые примеры. 
+Необходимо назначить соответствующую роль для настройки политик в [центре безопасности & соответствия требованиям](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center). В следующей таблице приводятся некоторые примеры. 
 
 |Роль или группа ролей  |Дополнительные сведения  |
 |---------|---------|
@@ -61,7 +61,7 @@ Office 365 включает различные функции защиты от 
 
 [Защита от вредоносных программ](anti-malware-protection.md) доступна в подписках, включающих [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description). 
 
-1. В [центре безопасности _амп_ соответствие требованиям](https://protection.office.com)выберите**Политика** >  **управления** > угрозами для**защиты от вредоносных программ**.
+1. В [центре безопасности & соответствия требованиям](https://protection.office.com)выберите**политику** >  **управления** > угрозами для**защиты от вредоносных программ**.
 
 2. Дважды щелкните политику **по умолчанию** , а затем выберите **Параметры**.
 
@@ -83,7 +83,7 @@ Office 365 включает различные функции защиты от 
 
 Для настройки [безопасных вложений ATP](atp-safe-attachments.md)необходимо определить по крайней мере одну политику безопасных вложений ATP. 
 
-1. В [центре безопасности _амп_ соответствие требованиям](https://protection.office.com)выберите**Политика** >  **управления** > угрозами**безопасные вложения ATP**.
+1. В [центре безопасности & соответствия требованиям](https://protection.office.com)выберите**Политика** >  **управления** > угрозами**безопасные вложения ATP**.
 
 2. Выберите параметр **включить ATP для SharePoint, OneDrive и Microsoft Teams**.
 
@@ -109,7 +109,7 @@ Office 365 включает различные функции защиты от 
 
 Чтобы настроить [безопасные ссылки ATP](atp-safe-links.md), просмотрите и измените политику по умолчанию и добавьте политику для определенных пользователей.
 
-1. В [центре безопасности _амп_ соответствие требованиям](https://protection.office.com)выберите**Политика** >  **управления** > угрозой**безопасные ссылки ATP**.
+1. В [центре безопасности & соответствия требованиям](https://protection.office.com)выберите**политику** >  **управления** > угрозой**безопасные ссылки ATP**.
 
 2. Дважды щелкните политику **по умолчанию** .
 
@@ -141,7 +141,7 @@ Office 365 включает различные функции защиты от 
 
 [Защита от фишинга](anti-phishing-protection.md) доступна в подписках, включающих [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description). Расширенная защита от фишинга доступна в [ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description). В следующей процедуре описывается настройка антифишинговой политики ATP. Эти действия похожи на настройку антифишинговой политики (без ATP).
 
-1. В [центре безопасности _амп_ соответствие требованиям](https://protection.office.com)выберите**Политика** >  **управления** > угрозами для**защиты от фишинга ATP**.
+1. В [центре безопасности & соответствия требованиям](https://protection.office.com)выберите**политику** >  **управления** > угрозами для**защиты от фишинга ATP**.
 
 2. Щелкните **Политика по умолчанию**.
 
@@ -173,7 +173,7 @@ Office 365 включает различные функции защиты от 
 
 [Защита от нежелательной почты](anti-spam-protection.md) доступна в подписках, включающих [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description).
 
-1. В [центре безопасности _амп_ соответствие требованиям](https://protection.office.com)выберите**Политика** >  **управления** > угрозами**Защита от нежелательной почты**.
+1. В [центре безопасности & соответствия требованиям](https://protection.office.com)выберите**Политика** >  **управления** > угрозами**защиты от нежелательной почты**.
 
 2. На вкладке **Настройка** включите **пользовательские параметры** .
 

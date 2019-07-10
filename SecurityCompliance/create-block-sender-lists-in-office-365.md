@@ -2,7 +2,7 @@
 title: Создание списков заблокированных отправителей в Office 365
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 5/6/2019
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 search.appverid:
 - MET150s
 description: Параметр Блокировать список отправителей содержит списки заблокированных отправителей, отправители нежелательной почты и блокировки доменов, списки заблокированных IP-адресов и правила транспорта Exchange (ETR), также называемые правилами для обработки почты.
-ms.openlocfilehash: 9933cb79b7dce949384815a7b2ed8a9ac8a7824b
-ms.sourcegitcommit: f96029928a6cdd141783026d57bc2179d7963af6
+ms.openlocfilehash: 861fa0e47980a6bc295672cf1e8e35954c6f1dfb
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35017691"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599995"
 ---
 # <a name="create-block-sender-lists-in-office-365"></a>Создание списков заблокированных отправителей в Office 365
 
@@ -48,6 +48,8 @@ ms.locfileid: "35017691"
 ## <a name="use-anti-spam-policy-senderdomain-block-lists"></a>Использование списков политик защиты от нежелательной почты для списков отправителей и доменов
 
 Если повлияло несколько пользователей, область ограничена, и необходимо использовать политику защиты от нежелательной почты на уровне компании/домена. Подробные инструкции можно найти в разделе [Настройка документа политик фильтрации нежелательной почты](https://docs.microsoft.com/en-us/office365/securitycompliance/configure-your-spam-filter-policies) . Все сообщения, заблокированные с помощью этого метода, будут следовать действию нежелательной почты, настроенному в политике.
+
+Максимальное число таких списков составляет около 1000 записей.
 
 ## <a name="use-exchange-transport-rules-etrs-to-block-specific-senders"></a>Использование правил транспорта Exchange (ETR) для блокирования определенных отправителей
 

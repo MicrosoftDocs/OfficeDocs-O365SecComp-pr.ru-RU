@@ -2,7 +2,7 @@
 title: Возможности ATP для защиты от фишинга в Office 365
 ms.author: tracyp
 author: MSFTTracyp
-manager: laurawi
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,12 +13,12 @@ ms.assetid: 5076d0f6-7a59-4d6c-bd07-ba95033f0682
 ms.collection:
 - M365-security-compliance
 description: Защита от фишинга ATP входит в состав Office 365 Advanced Threat protection. При антифишинге ATP применяется набор моделей машинного обучения, а также алгоритмы обнаружения олицетворения для входящих сообщений, обеспечивающие защиту от фишинговых и спеар фишинговых атак. Все сообщения подчиняются обширному набору машинных моделей машинного обучения, предназначенному для обнаружения фишинговых сообщений, а также набора сложных алгоритмов, используемых для защиты от атак с использованием олицетворения пользователя и домена.
-ms.openlocfilehash: 0c17273d935dbdaec6d78a62a4edfa015b6b8efa
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: b2ce20d64952ecf489c2ccdbd5b4cafd16b8f64f
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34155551"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598625"
 ---
 # <a name="atp-anti-phishing-capabilities-in-office-365"></a>Возможности ATP для защиты от фишинга в Office 365
 

@@ -2,7 +2,7 @@
 title: Защита от спама в Office 365
 ms.author: krowley
 author: kccross
-manager: laurawi
+manager: dansimp
 ms.date: 6/29/2018
 audience: Admin
 ms.topic: overview
@@ -15,12 +15,12 @@ ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 ms.collection:
 - M365-security-compliance
 description: Сведения о параметрах и фильтрах защиты от нежелательной почты, которые помогут предотвратить нежелательную почту в Exchange Online и Office 365. Получение слишком большого количества спама в Office 365? Вы можете настроить фильтры нежелательной почты и параметры политики защиты от нежелательной почты.
-ms.openlocfilehash: 64048e2621082edae21285df8b8fd1bcbd2e7c4a
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: c82fc343d37c44352638cef71c5b34d28e091fb1
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34152331"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598275"
 ---
 # <a name="office-365-email-anti-spam-protection"></a>Защита от спама в Office 365
 

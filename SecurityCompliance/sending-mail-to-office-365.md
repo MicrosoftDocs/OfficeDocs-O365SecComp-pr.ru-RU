@@ -2,8 +2,8 @@
 title: Отправка почты в Office 365
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
-ms.date: 4/9/2016
+manager: dansimp
+ms.date: 04/09/2016
 audience: ITPro
 ms.topic: hub-page
 ms.service: O365-seccomp
@@ -14,12 +14,12 @@ ms.assetid: f9d4b5b6-8f4c-44df-9b06-2f9b3058ca20
 ms.collection:
 - M365-security-compliance
 description: В указанных ниже статьях рассказывается, как внешние отправители могут повысить свою репутацию и шансы на доставку своих сообщений пользователям в Office 365. В них также приведены сведения о том, как сообщить о спаме и фишинговых сообщениях, даже если вы не являетесь пользователем Office 365.
-ms.openlocfilehash: 963615fc6db4bc520b9d0c38d35b18a2a445e399
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 6ccc3a087ae0142081369592d79601102b3942d9
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34158801"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35600475"
 ---
 # <a name="sending-mail-to-office-365"></a>Отправка почты в Office 365
 

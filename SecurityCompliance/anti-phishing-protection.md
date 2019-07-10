@@ -2,7 +2,7 @@
 title: Защита от фишинга в Office 365
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 10/11/2018
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.custom: TopSMBIssues
 ms.collection:
 - M365-security-compliance
 description: Office 365 предлагает разнообразные возможности защиты от фишинговых атак по умолчанию, а также дополнительные предложения, такие как Антифишинговый протокол ATP. В этом разделе представлены ресурсы в Интернете, которые можно использовать для изучения и реализации параметров и стратегий защиты от фишинга в Office 365.
-ms.openlocfilehash: a002002967e3e529cada587f9b0bd29fa867e06e
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 56db0d4dd47947ffb8d16c96b7588ed4c59ef613
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34155671"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598285"
 ---
 # <a name="anti-phishing-protection-in-office-365"></a>Защита от фишинга в Office 365
 

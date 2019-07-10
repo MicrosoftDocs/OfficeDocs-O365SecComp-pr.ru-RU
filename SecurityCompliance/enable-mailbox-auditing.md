@@ -2,7 +2,7 @@
 title: Управление аудитом почтовых ящиков
 ms.author: chrisda
 author: chrisda
-manager: serdars
+manager: dansimp
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 description: Ведение журнала аудита почтовых ящиков включается по умолчанию в Microsoft 365 (также называемом по умолчанию аудитом почтовых ящиков по умолчанию). Это означает, что определенные действия, выполняемые владельцами почтовых ящиков, представителями и администраторами, автоматически регистрируются в журнале аудита почтовых ящиков, где можно выполнять поиск действий, выполняемых в почтовом ящике.
-ms.openlocfilehash: f100fa1eb8244aeaea463440025ee489ec019406
-ms.sourcegitcommit: ef2657e4221296be7032191f2d91e8ff727523c6
+ms.openlocfilehash: 7b50885379b7843ea1c602f08dc2976d5007d8ca
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35117694"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599925"
 ---
 # <a name="manage-mailbox-auditing"></a>Управление аудитом почтовых ящиков
 

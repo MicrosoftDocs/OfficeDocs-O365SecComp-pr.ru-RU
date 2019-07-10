@@ -2,7 +2,7 @@
 title: Обнаружение вирусов в SharePoint Online
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 01/14/2019
 audience: Admin
 ms.topic: reference
@@ -16,12 +16,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: Office 365 помогает защитить рабочую среду от вредоносных программ, обнаруживая вирусы в файлах, которые пользователи отправляют в SharePoint Online. Файлы проверяются на наличие вирусов после отправки. Если вирус заражен, для него задается соответствующее свойство, которое не позволяет пользователям скачать его из браузера или синхронизировать.
-ms.openlocfilehash: 463c2d21c92e5b71602cfe5158dbf6c82e8e7385
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 8b15ac8e82082c2c6d940986d2018fa559835146
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34157791"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598345"
 ---
 # <a name="virus-detection-in-sharepoint-online"></a>Обнаружение вирусов в SharePoint Online
 

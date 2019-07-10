@@ -2,7 +2,7 @@
 title: Отправка почтовых уведомлений и отображение подсказок для политик защиты от потери данных
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 ms.date: 06/14/2019
 audience: Admin
 ms.topic: article
@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Подсказка политики — это уведомление или предупреждение, которое появляется при работе с содержимым, которое противоречит политике защиты от потери данных. Вы можете использовать уведомления электронной почты и подсказки политики, чтобы увеличить осведомленность и помочь пользователям рассказать о политиках Организации. Кроме того, можно предоставить пользователям возможность переопределить политику, чтобы она не была заблокирована, если у них есть допустимые деловые нужды или если политика обнаруживает ложное срабатывание. '
-ms.openlocfilehash: 4de22c8ad8a45cf1489e72516d30f078889774e3
-ms.sourcegitcommit: 9df5bf99c1860ace0c5cc90647733d075be412ad
+ms.openlocfilehash: 524499c7d530115ad5938d0ec60616afe1d174ff
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "34948907"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35600605"
 ---
 # <a name="send-email-notifications-and-show-policy-tips-for-dlp-policies"></a>Отправка почтовых уведомлений и отображение подсказок для политик защиты от потери данных
 

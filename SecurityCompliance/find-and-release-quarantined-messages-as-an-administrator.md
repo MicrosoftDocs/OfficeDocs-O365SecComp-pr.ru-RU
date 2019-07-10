@@ -2,8 +2,8 @@
 title: Поиск и освобождение сообщений на карантине для администратора
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
-ms.date: 6/16/2017
+manager: dansimp
+ms.date: 06/16/2017
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,12 +14,12 @@ ms.assetid: ab95bf17-bb09-4dd1-9990-ddd02ddecf05
 ms.collection:
 - M365-security-compliance
 description: В этой статье описывается, как администраторы Exchange Online и Exchange Online Protection (EOP) могут находить и разблокировать сообщения в карантине, а также создавать по ним отчеты в Центре администрирования Exchange.
-ms.openlocfilehash: 7ac65ae5b4225e56861dacacdd61bf5a237f7ca8
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 1f2b3733cbba3c09e1ec7ca25377ac96d5c89147
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34154571"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599385"
 ---
 # <a name="find-and-release-quarantined-messages-as-an-administrator"></a>Поиск и освобождение сообщений на карантине для администратора
 

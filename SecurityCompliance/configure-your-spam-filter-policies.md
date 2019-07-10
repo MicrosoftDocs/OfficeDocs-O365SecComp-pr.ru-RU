@@ -2,7 +2,7 @@
 title: Настройте политики защиты от спама
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 12/05/2018
 audience: ITPro
 ms.topic: article
@@ -14,12 +14,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: К базовым параметрам фильтра нежелательной почты относятся выбор действий, выполняемых с сообщениями, которые определены как нежелательная почта.
-ms.openlocfilehash: be99c017a5038fbfb431edbcf2d65c877d92388c
-ms.sourcegitcommit: 5a93c2f3df35d06a59a7fbaff5c91f7afde11781
+ms.openlocfilehash: a59311ae6bccb1bcb1e949eb825cafc1a740c5da
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857659"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35600105"
 ---
 # <a name="configure-your-spam-filter-policies"></a>Настройка политики защиты от спама
 Параметры фильтра нежелательной почты включают выбор действий, выполняемых с сообщениями, которые определены как нежелательная почта. Параметры политики фильтрации нежелательной почты применяются только к входящим сообщениям и имеют два типа:

@@ -2,7 +2,7 @@
 title: Борьба со спамом, отправляемым в Office 365
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 12/9/2016
 audience: ITPro
 ms.topic: reference
@@ -14,12 +14,12 @@ ms.assetid: 5fd7d05b-96db-456f-81d6-1ac0e5bff530
 ms.collection:
 - M365-security-compliance
 description: "Стратегия корпорации Майкрософт по обеспечению безопасности почты включает не имеющий себе равных подход для нескольких продуктов. Используемые в Exchange Online Protection технологии защиты от спама и фишинга применяются на почтовых платформах Майкрософт и предоставляют пользователям инновации и последние средства защиты от спама и фишингом во всей сети. Цель EOP \x97 предложить функциональную и удобную почтовую службу, способную обнаруживать спам, мошеннические (фишинговые) сообщения и вредоносное программное обеспечение и защищать пользователей от них."
-ms.openlocfilehash: 9ef8433279137a91a52f6a149844eff9c567150c
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 0a73d428e952c0c0cb340d91a52768a42ae204a1
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34154521"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599395"
 ---
 # <a name="fighting-junk-email-sent-to-office-365"></a>Борьба со спамом, отправляемым в Office 365
 
