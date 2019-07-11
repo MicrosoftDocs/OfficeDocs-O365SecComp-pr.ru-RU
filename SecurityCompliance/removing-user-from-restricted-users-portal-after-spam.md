@@ -3,7 +3,7 @@ title: Удаление пользователя с портала "Пользо
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
-ms.date: 03/12/2019
+ms.date: 07/10/2019
 audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -16,12 +16,12 @@ ms.assetid: 712cfcc1-31e8-4e51-8561-b64258a8f1e5
 ms.collection:
 - M365-security-compliance
 description: Если пользователь постоянно отправляет электронные письма от Office 365, которые классифицируются как спам, они не смогут отправлять сообщения.
-ms.openlocfilehash: 80eb03ccb96f2178f168139234de8700b9b97e29
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+ms.openlocfilehash: 40d63bb452392041401fd1af6d0d6d4af67e5d2b
+ms.sourcegitcommit: 986f40a00ab454093b21e724d58594b8b8b4a9ba
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35601156"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "35613657"
 ---
 # <a name="removing-a-user-from-the-restricted-users-portal-after-sending-spam-email"></a>Удаление пользователя с портала "Пользователи с ограниченным доступом" после отправки нежелательной почты
 
@@ -71,6 +71,11 @@ ms.locfileid: "35601156"
 - Включение и отключение уведомлений по электронной почте
 - Отправка сообщений электронной почты обязательным получателям
 - Ограничить количество уведомлений, получаемых за день
+
+## <a name="checking-for-and-removing-restrictions-using-powershell"></a>Проверка и удаление ограничений с помощью PowerShell
+Команды PowerShell для пользователей с ограниченным доступом:
+- `Get-BlockedSenderAddress`: Запустите, чтобы получить список пользователей, для которых запрещено отправку электронной почты
+- `Remove-BlockedSenderAddress`: Запуск для удаления запрещенных пользователей
 
 ## <a name="for-more-information"></a>Дополнительные сведения
 
