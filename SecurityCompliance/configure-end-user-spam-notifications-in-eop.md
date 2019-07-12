@@ -13,12 +13,12 @@ ms.assetid: e9947db5-1dd1-4493-872d-7362b24c7ba0
 ms.collection:
 - M365-security-compliance
 description: Вы можете настроить уведомления пользователя о нежелательной почте для используемой по умолчанию политики фильтрации содержимого в компании или для настраиваемых политик фильтрации содержимого, которые применяются к доменам.
-ms.openlocfilehash: 761f8660dc19f2626ecb5331370f87e0f4c3963a
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+ms.openlocfilehash: 8e2c2bd6b3e5a29beccaccea032f650936584a06
+ms.sourcegitcommit: 9e2df36b05a2c93ce2629a7a5eda8f44159d114d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35600205"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "35628462"
 ---
 # <a name="configure-end-user-spam-notifications-in-eop"></a>Настройка уведомлений пользователей о спаме в службе EOP
   
@@ -41,7 +41,7 @@ ms.locfileid: "35600205"
 
 **Выпустите & отчет**, если сообщение не спама и вы хотите отправить его в свой почтовый ящик и сообщить в корпорацию Майкрософт для анализа.
 
-**** Заблокируйте, если вы хотите, чтобы Office 365 добавить отправителя в список заблокированных отправителей.
+**Блокировать отправителя** , если вы хотите, чтобы Office 365 добавить отправителя в список заблокированных отправителей.
   
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 <a name="sectionSection0"> </a>
