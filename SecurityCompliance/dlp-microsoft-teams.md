@@ -3,7 +3,7 @@ title: Защита от потери данных и Microsoft Teams
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 07/01/2019
+ms.date: 07/12/2019
 audience: ITPro
 ms.topic: conceptual
 ms.service: O365-seccomp
@@ -13,28 +13,28 @@ ms.collection:
 search.appverid:
 - MET150
 description: Теперь политики защиты от потери данных можно применять к разговорам и каналам Microsoft Teams. Прочтите эту статью, чтобы узнать больше о том, как она работает.
-ms.openlocfilehash: 3792fd6919749510ea20d4ff84b0249b16165a9f
-ms.sourcegitcommit: cc1b0281fa594cbb7c09f3e419df21aec9557831
+ms.openlocfilehash: 96ba26a4e155a976c2123cc44c3a8632092740ac
+ms.sourcegitcommit: ea630cf1cbaa98ede5ee320c71a0fad7d7def6fb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35417401"
+ms.lasthandoff: 07/13/2019
+ms.locfileid: "35672918"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>Защита от потери данных и Microsoft Teams
 
 > [!NOTE]
-> Добавлены возможности защиты от потери данных в Microsoft Teams в Office 365 и расширенное соответствие требованиям Office 365. Чтобы узнать больше о доступности функций, ознакомьтесь со статьей [office 365 Security description & центре безопасности office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center).
+> Возможности защиты от потери данных были недавно добавлены в беседы Microsoft Teams и каналы для пользователей, лицензированных для Office 365, который доступен как отдельный вариант и включен в Office 365 в "е" и "Майкрософт 365" для обеспечения соответствия требованиям. Для получения дополнительных сведений о требованиях к лицензированию ознакомьтесь [с руководством по лицензированию служб на уровне клиента Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance).
 
 ## <a name="overview-of-dlp-for-microsoft-teams"></a>Общие сведения о защите от потери данных для Microsoft Teams
 
-Недавно возможности защиты от [потери данных](data-loss-prevention-policies.md) (DLP) были расширены для включения Microsoft Teams. Если в вашей организации используется DLP, можно определить политики, которые не позволяют пользователям обмениваться конфиденциальной информацией в канале Microsoft Teams или сеансе чата. Ниже приведено несколько примеров работы этой защиты:
+Недавно возможности [защиты от потери данных](data-loss-prevention-policies.md) (DLP) были расширены для включения бесед Microsoft Teams и сообщений канала. Если в вашей организации используется DLP, можно определить политики, которые не позволяют пользователям обмениваться конфиденциальной информацией в канале Microsoft Teams или сеансе чата. Ниже приведено несколько примеров работы этой защиты:
 
 - **Пример 1: Защита конфиденциальной информации в сообщениях**. Предположим, что кто-то пытается поделиться конфиденциальной информацией в чате или канале с гостями (внешние пользователи). Если у вас есть политика защиты от потери данных, то сообщения с конфиденциальными сведениями, отправляемыми внешним пользователям, удаляются. Это происходит автоматически и в течение секунд в соответствии с настройками политики защиты от потери данных.
 
     > [!NOTE]
-    > DLP для Microsoft Teams блокирует конфиденциальный контент, если пользователи, имеющие [гостевой доступ](https://docs.microsoft.com/MicrosoftTeams/guest-access) в Teams и каналах, и пользователи с [внешним доступом](https://docs.microsoft.com/MicrosoftTeams/manage-external-access) в собраниях и сеансах чата. Если вы используете [Microsoft Teams вместе со Skype для бизнеса](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype), имейте в виду, что DLP для Teams не блокирует сообщения в сеансах взаимодействия или федеративных сеансов чата.
+    > DLP для Microsoft Teams блокирует конфиденциальное содержимое при совместной работе с пользователями Microsoft Teams, имеющими:<br/>- [гостевой доступ](https://docs.microsoft.com/MicrosoftTeams/guest-access) в Teams и каналах; также<br/>- [внешний доступ к](https://docs.microsoft.com/MicrosoftTeams/manage-external-access) собраниям и сеансам чата. <p>Защита от потери данных для внешних сеансов чата будет работать, только если отправитель и получатель находятся в режиме "только Teams" и используют [собственную федерацию Microsoft Teams](https://docs.microsoft.com/microsoftteams/manage-external-access). DLP для Teams не блокирует сообщения в [взаимодействии](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability#interoperability-of-teams-and-skype-for-business) со Skype для бизнеса или несобственным сеансом федеративного чата.
 
-- **Пример 2: Защита конфиденциальной информации в документах**. Предположим, что кто-то пытается поделиться документом с гостями в канале или чате Microsoft Teams, и документ содержит конфиденциальную информацию. Если у вас есть политика защиты от потери данных, этот документ не будет открыт для этих пользователей. Обратите внимание, что в этом случае политика защиты от потери данных должна включать SharePoint и OneDrive, чтобы защититься от использования. (Это пример защиты от потери данных для SharePoint, который отображается в Microsoft Teams.)
+- **Пример 2: Защита конфиденциальной информации в документах**. Предположим, что кто-то пытается поделиться документом с гостями в канале или чате Microsoft Teams, и документ содержит конфиденциальную информацию. Если у вас есть политика защиты от потери данных, этот документ не будет открыт для этих пользователей. Обратите внимание, что в этом случае политика защиты от потери данных должна включать SharePoint и OneDrive, чтобы защититься от использования. (Это пример защиты от потери данных для SharePoint, который показывается в Microsoft Teams и поэтому требует, чтобы пользователи были лицензированы для Office 365 DLP (входит в состав Office 365 E3), но не требуют, чтобы пользователи были лицензированы для Office 365 Advanced соответствие.)
 
 ## <a name="policy-tips-help-educate-users"></a>Подсказки политики помогают обучать пользователям
 
