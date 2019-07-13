@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
 description: Пользователям необходимо назначить разрешения в центре безопасности & безопасности Office 365, прежде чем они смогут управлять любыми функциями обеспечения безопасности и соответствия требованиям.
-ms.openlocfilehash: f11114ede37269f9b89c4d2b34c69f2d6db8a3f7
-ms.sourcegitcommit: 044003455eb36071806c9f008ac631d54c64dde6
+ms.openlocfilehash: 7963a8c3db64e83566960abe9298b9a2d636ae53
+ms.sourcegitcommit: 6302a43d947a908dd10a8e40550b806f491692fc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35199745"
+ms.lasthandoff: 07/13/2019
+ms.locfileid: "35645124"
 ---
 # <a name="give-users-access-to-the-office-365-security--compliance-center"></a>Предоставление пользователям доступа к Центру безопасности и соответствия требованиям Office 365
 
@@ -70,7 +70,7 @@ ms.locfileid: "35199745"
 2. Воспользуйтесь командой **Add-RoleGroupMember**, чтобы добавить пользователя в группу ролей Organization Management (Управление организацией), как показано в следующем примере.
 
    ```
-   Add-RoleGroupMember -Identity "OrganizationManagement" -Member MatildaS
+   Add-RoleGroupMember -Identity "Organization Management" -Member MatildaS
    ```
 
    **Параметры**:
@@ -86,7 +86,7 @@ ms.locfileid: "35199745"
 Чтобы убедиться, что у пользователей есть доступ к центру безопасности & соответствия требованиям, используйте командлет **Get – RoleGroupMember** для просмотра членов в группе ролей Управление организацией, как показано в следующем примере.
   
 ```
-Get-RoleGroupMember -Identity "OrganizationManagement"
+Get-RoleGroupMember -Identity "Organization Management"
 ```
 
 Подробную информацию о синтаксисе и параметрах можно найти в статье [Get – RoleGroupMember](https://go.microsoft.com/fwlink/p/?LinkId=510860).
