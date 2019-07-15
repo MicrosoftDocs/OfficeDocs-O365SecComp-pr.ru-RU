@@ -158,7 +158,7 @@
 ### [Исправление ошибки с кодом 5.7.7xx в Exchange Online](fix-error-code-5-7-7xx-in-exchange-online.md)
 ### [Указание вероятности нежелательной почты (SCL) в сообщениях с помощью правил потока обработки почты](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)
 ### [Отправка обычных, нежелательных и фишинговых сообщений в корпорацию Майкрософт для анализа](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)
-### [Отправка сообщений администраторами в Office 365 ATP](atp-admin-submission.md)
+### [Отправка администраторами в Office 365](admin-submission.md)
 ### [Отправка обычных и вредоносных программ в корпорацию Майкрософт для анализа](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)
 ### [Удаление себя из списка заблокированных отправителей Office 365 с помощью портала удаления из списка](use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md)
 ### [Заголовки сообщений о защите от нежелательной почты](anti-spam-message-headers.md)
@@ -372,6 +372,7 @@
 #### [Ограничения в Advanced eDiscovery](compliance20/limits-ediscovery20.md)
 #### [Поддерживаемые типы файлов](compliance20/supported-filetypes-ediscovery20.md)
 #### [Поля метаданных документа](compliance20/document-metadata-fields.md)
+#### [Наборы для проверки бесед](compliance20/conversation-review-sets.md)
 #### [Устранение неполадок AzCopy](compliance20/troubleshooting-azcopy.md)
 
 
