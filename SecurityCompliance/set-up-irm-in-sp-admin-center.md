@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 239ce6eb-4e81-42db-bf86-a01362fed65c
 description: Узнайте, как использовать IRM SharePoint Online с помощью службы управления правами (RMS) Microsoft Azure Active Directory для защиты списков и библиотек документов SharePoint.
-ms.openlocfilehash: 0df2639a12472ab6452afb7d9b66bc48beb9ba1f
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 16a76ecda37bd5480285dd70670843a88198bdb7
+ms.sourcegitcommit: a97e7da9a1f870540f0bdcba7be5fb6f8bd12f74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34156561"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "35756851"
 ---
 # <a name="set-up-information-rights-management-irm-in-sharepoint-admin-center"></a>Set up Information Rights Management (IRM) in SharePoint admin center
 
@@ -38,7 +38,7 @@ ms.locfileid: "34156561"
     
 3. В левой области выберите пункт **центры** \> администрирования **SharePoint**.
     
-4. В левой области выберите **Параметры**.
+4. В левой области выберите **Параметры**, а затем **Страница "классические параметры**".
     
 5. В разделе **Управление правами на доступ к данным (IRM)** выберите **использовать службу IRM, указанную в вашей конфигурации**, а затем нажмите кнопку **обновить параметры IRM**. После обновления параметров управления правами на доступ к данным в списках и библиотеках документов SharePoint в организации могут начать использоваться службы управления правами на доступ к данным. Однако параметры, необходимые для выполнения этих действий, могут потребоваться в течение часа, чтобы отобразить параметры библиотеки и параметры списка.
     
