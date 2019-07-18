@@ -587,7 +587,6 @@
 ### [Устойчивость данных Exchange Online](office-365-exchange-data-resiliency.md)
 ### [Защита от вредоносных программ и программ-шантажистов](office-365-malware-and-ransomware-protection.md)
 ### [Мониторинг и самовосстановление](office-365-monitoring-and-self-healing.md)
-### [Устойчивость данных SharePoint Online](office-365-sharepoint-data-resiliency.md)
 ## [Хранение, удаление и уничтожение данных в Office 365](office-365-data-retention-deletion-and-destruction-overview.md)
 ### [Уничтожение данных](office-365-data-destruction.md)
 ### [Неизменность данных в Office 365](office-365-data-immutability.md)
