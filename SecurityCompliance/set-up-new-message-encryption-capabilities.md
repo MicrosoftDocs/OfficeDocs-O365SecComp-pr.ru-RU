@@ -7,7 +7,7 @@ ms.date: 4/30/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+localization_priority: Priority
 search.appverid:
 - MET150
 ms.assetid: 7ff0c040-b25c-4378-9904-b1b50210d00e
@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Новые возможности шифрования сообщений Office 365, основанные на Azure Information Protection, ваша организация может использовать защищенную электронную связь с пользователями внутри и за пределами Организации. Новые возможности OME работают с другими организациями Office 365, Outlook.com, Gmail и другими почтовыми службами.
-ms.openlocfilehash: 415e598a28033271b115aff639fb1ddd7a6345af
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 835b1d6f40868684536dbea8f75dab0665950210
+ms.sourcegitcommit: 33c8e9c16143650ca443d73e91631f9180a9268e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34156511"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35854803"
 ---
 # <a name="set-up-new-office-365-message-encryption-capabilities"></a>Настройка новых возможностей шифрования сообщений Office 365
 
@@ -53,7 +53,7 @@ ms.locfileid: "34156511"
 
 Если вы отключили Azure RMS или она не была автоматически активирована по какой либо причине, ее можно активировать вручную в следующих случаях:
 
-- **Центр администрирования office 365**: в этой статье приведены инструкции по [активации Azure Rights Management из центра администрирования Office 365](https://docs.microsoft.com/en-us/azure/information-protection/activate-office365) .
+- **Центр администрирования Microsoft 365**: в этой статье приведены инструкции по [активации Azure Rights Management из центра администрирования](https://docs.microsoft.com/en-us/azure/information-protection/activate-office365) .
 - **Портал Azure**: Узнайте [, как активировать управление правами Azure на портале Azure](https://docs.microsoft.com/en-gb/azure/information-protection/activate-azure) для получения инструкций.
 
 ## <a name="configure-management-of-your-azure-information-protection-tenant-key"></a>Настройка управления ключом клиента Azure Information Protection
@@ -125,8 +125,8 @@ ms.locfileid: "34156511"
 
 Чтобы обновить существующие правила для использования новых возможностей OME:
 
-1. В центре администрирования Office 365 откройте центр **администрирования _Гт_ Exchange**.
-2. В центре администрирования Exchange перейдите к разделу **_Гт_ Mail Flow Rules**.
+1. В центре администрирования Microsoft 365 откройте центр **администрирования > Exchange**.
+2. В центре администрирования Exchange перейдите в раздел **поток обработки почты > Rules**.
 3. Для каждого правила **выполните следующие**действия:
     - Выберите **изменить безопасность сообщения**.
     - Выберите **применить шифрование сообщений Office 365 и защиту прав**.
