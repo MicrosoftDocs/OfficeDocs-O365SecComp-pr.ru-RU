@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 2c8378cf7b9bd21f901b1babbebdcb0b69a8ed73
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: eb8c84d696a05f86246a512f1867d8efc98881a0
+ms.sourcegitcommit: 73dcdafb15b462223d1a670c781db260eb73c2f5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34151521"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36048099"
 ---
 # <a name="troubleshoot-azcopy-in-advanced-ediscovery"></a>Устранение неполадок AzCopy в Advanced eDiscovery
 
@@ -27,7 +27,11 @@ ms.locfileid: "34151521"
 
 ![Отправка файлов, отличных от Office 365](../media/46ba68f6-af11-4e70-bb91-5fc7973516e3.png)
 
-В большинстве случаев предоставленная команда будет работать при запуске. Однако возможны случаи, когда отображаемая команда не запустится успешно. Вот несколько возможных причин.
+Обычно предоставленная команда работает при ее запуске. Однако возможны случаи, когда отображаемая команда не запустится успешно. Вот несколько возможных причин.
+
+## <a name="the-supported-version-of-azcopy-isnt-installed-on-the-local-computer"></a>Поддерживаемая версия AzCopy не установлена на локальном компьютере
+
+В настоящее время необходимо использовать AzCopy v 8.1 для загрузки данных 365, не относящихся к Office, в Advanced eDiscovery. Команда AzCopy, отображаемая на странице **отправки файлов** , показанная на предыдущем снимке экрана, возвращает ошибку, если вы не используете AzCopy v 8.1. Чтобы установить эту версию, просмотрите раздел [Передача данных с помощью AzCopy v 8.1 в Windows](https://docs.microsoft.com/previous-versions/azure/storage/storage-use-azcopy).
 
 ## <a name="azcopy-isnt-installed-on-the-local-computer-or-its-not-installed-in-the-default-location"></a>AzCopy не установлен на локальном компьютере, или он не установлен в расположении по умолчанию
 
@@ -35,10 +39,9 @@ ms.locfileid: "34151521"
 
     The system cannot find the path specified.
 
-Если AzCopy не установлен на локальном компьютере, можно выполнить установку отсюда (установите его в расположении по умолчанию): [https://docs.microsoft.com/azure/storage/common/storage-use-azcopy](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy).
+Если AzCopy не установлен на локальном компьютере, вы можете выполнить установку [отсюда](https://docs.microsoft.com/previous-versions/azure/storage/storage-use-azcopy). Обязательно установите его в расположении по умолчанию.
 
-
-Если AzCopy установлен, но он установлен в расположении, отличном от расположения по умолчанию, можно скопировать команду, вставить ее в текстовый файл, а затем изменить путь к расположению, где фактически устанавливается AzCopy. Например, если Azcopy находится в `%ProgramFiles%`, то вы можете заменить первую часть команды `%ProgramFiles(x86)%\Microsoft SDKs\Azure\AzCopy.exe` на. `%ProgramFiles%\Microsoft SDKs\Azure\AzCopy` После внесения изменений скопируйте его из текстового файла и запустите в командной строки.
+Если AzCopy установлен, но он установлен в расположении, отличном от расположения по умолчанию, можно скопировать команду, вставить ее в текстовый файл, а затем изменить путь к расположению, где установлен AzCopy. Например, если Azcopy находится в `%ProgramFiles%`, то вы можете заменить первую часть команды `%ProgramFiles(x86)%\Microsoft SDKs\Azure\AzCopy.exe` на. `%ProgramFiles%\Microsoft SDKs\Azure\AzCopy` После внесения изменений скопируйте его из текстового файла и запустите в командной строки.
 
 > [!TIP]
 > Если AzCopy установлен в расположении, отличном от местоположения установки по умолчанию, попробуйте удалить его, а затем повторно установить в расположении по умолчанию. Это позволит избежать этой ситуации в будущем.

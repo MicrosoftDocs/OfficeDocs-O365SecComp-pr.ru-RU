@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: o365-seccomp
 localization_priority: Normal
 description: Узнайте о новом центре соответствия требованиям Microsoft 365, в том числе о том, что оно содержит, как получить его и выполнить следующие действия.
-ms.openlocfilehash: fc6ab6893e142b3beb5289c8430477727b3844ac
-ms.sourcegitcommit: b9d8a43cb3afcdc8820bc9470c5707eff8fc6616
+ms.openlocfilehash: ec7dff8d230bc3b9e7ab1fd4a9348a1b8eb0ca9b
+ms.sourcegitcommit: 73dcdafb15b462223d1a670c781db260eb73c2f5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34852793"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36048231"
 ---
 # <a name="overview-of-the-all-new-microsoft-365-compliance-center"></a>Обзор нового нового центра соответствия требованиям Microsoft 365
 
@@ -68,7 +68,7 @@ ms.locfileid: "34852793"
 
 |  |  |
 |---------|---------|
-|![Навигация в центре соответствия требованиям Microsoft 365](media/m365-compliance-center-leftnav.png)  |<br/><br/> Переход на страницу **оповещения** для просмотра и разрешения [оповещений](alerts.md)<br/><br/>**Отчеты** для просмотра данных об [использовании и хранении подписей](sensitivity-labels.md), [политиках защиты от потери](view-the-dlp-reports.md)данных, [Общие файлы](https://docs.microsoft.com/cloud-app-security/file-filters), [сторонние приложения](https://docs.microsoft.com/cloud-app-security/discovered-apps)и т. д.<br/><br/>Разверните раздел **классификация** , чтобы получить доступ к [меткам](labels.md), [политикам меток](sensitivity-labels.md#what-label-policies-can-do), [типам конфиденциальных сведений](what-the-sensitive-information-types-look-for.md)и [аналитике меток](view-label-activity-for-documents.md).<br/><br/>Перейдите в раздел **политики** для просмотра [оповещений](alerts.md) и доступа к политикам защиты от [потери](data-loss-prevention-policies.md) данных и политик [хранения](retention-policies.md) .<br/><br/> Используйте ссылки в разделе **решения** , чтобы получить доступ к решениям по обеспечению соответствия требованиям в Организации. К ним относятся: <br/>[Положения > управления данными](disposition-reviews.md)<br/>[Обнаружение электронных данных (Предварительная версия)](compliance20/overview-ediscovery-20.md)<br/>[Контроля](supervision-policies.md)<br/>[Расследования данных](datainvestigations/overview-data-investigations.md)<br/>[Запросы субъектов данных](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)        |
+|![Навигация в центре соответствия требованиям Microsoft 365](media/m365-compliance-center-leftnav.png)  |<br/><br/> Переход на страницу **оповещения** для просмотра и разрешения [оповещений](alerts.md)<br/><br/>**Отчеты** для просмотра данных об [использовании и хранении подписей](sensitivity-labels.md), [политиках защиты от потери](view-the-dlp-reports.md)данных, [Общие файлы](https://docs.microsoft.com/cloud-app-security/file-filters), [сторонние приложения](https://docs.microsoft.com/cloud-app-security/discovered-apps)и т. д.<br/><br/>Разверните раздел **классификация** , чтобы получить доступ к [меткам](labels.md), [политикам меток](sensitivity-labels.md#what-label-policies-can-do), [типам конфиденциальных сведений](what-the-sensitive-information-types-look-for.md)и [аналитике меток](view-label-activity-for-documents.md).<br/><br/>Перейдите в раздел **политики** для просмотра [оповещений](alerts.md) и доступа к политикам защиты от [потери](data-loss-prevention-policies.md) данных и политик [хранения](retention-policies.md) .<br/><br/> Используйте ссылки в разделе **решения** , чтобы получить доступ к решениям по обеспечению соответствия требованиям в Организации. К ним относятся: <br/>[Положения > управления данными](disposition-reviews.md)<br/>[Обнаружение электронных данных](compliance20/overview-ediscovery-20.md)<br/>[Контроля](supervision-policies.md)<br/>[Расследования данных](datainvestigations/overview-data-investigations.md)<br/>[Запросы субъектов данных](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)        |
 
 
 ## <a name="how-do-i-get-this"></a>Как это сделать?
