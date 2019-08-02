@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: После завершения настройки шифрования сообщений Office 365 (OME) можно настроить конфигурацию развертывания несколькими способами. Например, вы можете включить одноразовые коды проходов, отобразить кнопку Защита в Outlook в Интернете и многое другое. Задачи, описанные в этой статье, описывают, как.
-ms.openlocfilehash: f19556f88783eed86bd33a7fdcbd1efae18c3ef3
-ms.sourcegitcommit: b9d8a43cb3afcdc8820bc9470c5707eff8fc6616
+ms.openlocfilehash: 9b59e352131121978ae6a523cc07ea40196e8038
+ms.sourcegitcommit: bc25ea19c0b6d318751eadc4f27902b0054d5e2b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34852533"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36054701"
 ---
 # <a name="manage-office-365-message-encryption"></a>Управление шифрованием сообщений Office 365
 
@@ -133,6 +133,9 @@ ms.locfileid: "34852533"
    ```powershell
    Set-ActiveSyncOrganizationSettings -AllowRMSSupportForUnenlightenedApps $false
    ```
+> [!NOTE]
+
+> Индивидуальные политики почтовых ящиков (OWA/ActiveSync) переопределяют эти параметры (например, если для параметра-IRMEnabled задано значение false в соответствующей политике почтовых ящиков OWA или политика почтовых ящиков ActiveSync, то эти конфигурации не применяются).
 
 ## <a name="enable-service-side-decryption-of-email-attachments-for-web-browser-mail-clients"></a>Включение расшифровки вложений электронной почты на стороне службы для почтовых клиентов веб-браузеров
 

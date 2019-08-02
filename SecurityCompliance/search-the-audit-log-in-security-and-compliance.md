@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Используйте центр безопасности & соответствия требованиям для поиска действий пользователей и администраторов в организации Office 365 в едином журнале аудита. '
-ms.openlocfilehash: 5ba3659f8e6b004020b5270b62a40415e64ba96c
-ms.sourcegitcommit: 33c8e9c16143650ca443d73e91631f9180a9268e
+ms.openlocfilehash: d2e099343581c8842551491eb885534cbcbc961b
+ms.sourcegitcommit: bc25ea19c0b6d318751eadc4f27902b0054d5e2b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "35854813"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36054781"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Поиск в журнале аудита в центре безопасности & соответствия требованиям
 
@@ -140,6 +140,9 @@ ms.locfileid: "35854813"
 [Шаг 3: Фильтрация результатов поиска](#step-3-filter-the-search-results)
 
 [Шаг 4: экспорт результатов поиска в файл](#step-4-export-the-search-results-to-a-file)
+
+
+
   
 ### <a name="step-1-run-an-audit-log-search"></a>Шаг 1: выполнение поиска в журнале аудита
 
@@ -787,6 +790,13 @@ ms.locfileid: "35854813"
   
 - Чтобы получить сведения о том, какой командлет был выполнен, какие параметры и значения параметров использовались и какие объекты были затронуты, вы можете экспортировать результаты поиска, выбрав параметр **скачать все результаты** . Дополнительные сведения можно найти в статье [Экспорт, Настройка и просмотр записей журнала аудита](export-view-audit-log-records.md). 
     
+
+- Вы также можете просматривать события в журнале аудита администратора Exchange с помощью центра администрирования Exchange. Инструкции приведены в разделе [Просмотр журнала аудита действий администратора](https://technet.microsoft.com/library/dn342832%28v=exchg.150%29.aspx).
+
+> [!IMPORTANT]
+>  Для поиска и отслеживания использования администратора Exchange Online привилегиес используйте командлет *Search-AdminAuditLog* над параметром *Search-UnifiedAuditLog*.
+
+
 - Вы также можете использовать `Search-UnifiedAuditLog -RecordType ExchangeAdmin` команду в Exchange Online PowerShell, чтобы получить только записи аудита из журнала аудита администратора Exchange. После выполнения командлета Exchange для возврата записи журнала аудита в результатах поиска может потребоваться до 30 минут. Дополнительные сведения см. в статье [Search — UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog). Сведения об экспорте результатов поиска, возвращаемых командлетом **Search-UnifiedAuditLog** в CSV-файл, можно найти в разделе "советы по экспорту и просмотру журнала аудита" в разделе [Экспорт, Настройка и просмотр записей журнала аудита](export-view-audit-log-records.md#tips-for-exporting-and-viewing-the-audit-log).
 
 - Вы также можете просматривать события в журнале аудита администратора Exchange с помощью центра администрирования Exchange или команды **Search-AdminAuditLog** в Exchange Online PowerShell. Инструкции можно найти в следующих статьях:

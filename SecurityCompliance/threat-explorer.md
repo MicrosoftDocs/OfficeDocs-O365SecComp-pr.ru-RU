@@ -15,12 +15,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: Сведения о проводнике (и обнаружения в реальном времени) в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: 127652ccb1c32ce84d8c80213d737b095913db40
-ms.sourcegitcommit: 5abe4c11bf3c0659180c7812dd26be9689ab01ca
+ms.openlocfilehash: dff1fae01aa525135226d88b305de7c7c3aefb7c
+ms.sourcegitcommit: bc25ea19c0b6d318751eadc4f27902b0054d5e2b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35605478"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36054761"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Обозреватель угроз (и обнаружение в режиме реального времени)
 
@@ -170,3 +170,8 @@ ms.locfileid: "35605478"
 - [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
 - [Разрешения компонентов в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
   
+## <a name="some-differences-between-real-time-detection-and-threat-exporter"></a>Некоторые различия между обнаружением в режиме реального времени и средство экспорта угроз.
+
+ - **Отчет об обнаружении в реальном времени** поставляется с подпиской ATP P1, а **Обозреватель угроз** поставляется с ATP P2.
+ - Отчет об обнаружении в **режиме реального времени** позволяет отображать определения в режиме реального времени, в то время как отчеты обозревателя угроз позволяют просматривать дополнительные сведения об атаках.
+ - Отчеты **проводника** по угрозе предоставляют различные наборы отчетов, которые улучшают работу с отчетами детекторов в **режиме реального времени** .
