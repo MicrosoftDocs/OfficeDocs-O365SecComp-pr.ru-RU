@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 description: 'Сведения об электронной почте и свойствах файлов, которые можно искать в почтовых ящиках Exchange Online и SharePoint или OneDrive для бизнеса с помощью средства поиска контента в центре безопасности & соответствия требованиям.  '
-ms.openlocfilehash: 2d9cc41b4e0f8139db385a9614d3022230cda50d
-ms.sourcegitcommit: f96029928a6cdd141783026d57bc2179d7963af6
+ms.openlocfilehash: 70f005d6875735dfe95e10bf4487c8e1373431ea
+ms.sourcegitcommit: 97b9f88b9beee23de13ecf6d0759ac0fad5cf08d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35017651"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "36168187"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search"></a>Запросы ключевых слов и условия поиска контента
 
@@ -70,7 +70,7 @@ ms.locfileid: "35017651"
 |||||
    
 > [!NOTE]
-> <sup>1</sup> в качестве значения свойства Recipient можно использовать адрес электронной почты (также называемый *именем участника-пользователя* или UPN), отображаемое имя или псевдоним для указания пользователя. Например, можно использовать значения annaye@contoso.com, annaye или "Анна Ермолаева".<br/><br/>При поиске в любом свойстве получателя (from, to, CC, BCC, участники и получатели) Office 365 пытается расширить удостоверение каждого пользователя, выполнив поиск по ним в Azure Active Directory.  Если пользователь находится в Azure Active Directory, запрос расширяется и включает адрес электронной почты пользователя (или имя участника-пользователя), псевдоним, отображаемое имя и LegacyExchangeDN.<br/><br/>Например, запрос, например, `participants:ronnie@contoso.com` расширяется до. `participants:ronnie@contoso.com OR participants:ronnie OR participants:"Ronald Nelson" OR participants:"<LegacyExchangeDN>"`
+> <sup>1</sup> в качестве значения свойства Recipient можно использовать адрес электронной почты (также называемый *именем участника-пользователя* или UPN), отображаемое имя или псевдоним для указания пользователя. Например, можно использовать значения annaye@contoso.com, annaye или "Анна Ермолаева".<br/><br/>При поиске в любом свойстве получателя (from, to, CC, BCC, участники и получатели) Office 365 пытается расширить удостоверение каждого пользователя, выполнив поиск по ним в Azure Active Directory.  Если пользователь находится в Azure Active Directory, запрос расширяется и включает адрес электронной почты пользователя (или имя участника-пользователя), псевдоним, отображаемое имя и LegacyExchangeDN.<br/><br/>Например, запрос, например, `participants:ronnie@contoso.com` расширяется до. `participants:ronnie@contoso.com OR participants:ronnie OR participants:"Ronald Nelson" OR participants:"<LegacyExchangeDN>"`<br/><br/>Для предотвращения расширения получателей можно добавить подстановочный знак (звездочка) в конце адреса электронной почты в запросе поиска; Пример: `participants:ronnie@contoso.com*`.
 
 ## <a name="searchable-site-properties"></a>Свойства сайтов, доступные для поиска
 
