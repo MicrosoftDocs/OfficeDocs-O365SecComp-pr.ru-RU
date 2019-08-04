@@ -3,7 +3,7 @@ title: Непроверенный отправитель
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
-ms.date: 04/25/2019
+ms.date: 07/11/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,14 +13,17 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Чтобы предотвратить доступ к почтовому ящику с помощью фишинговых сообщений, Outlook.com и Outlook в Интернете убедитесь, что отправитель говорят, что они говорят о них и помечают подозрительные сообщения как нежелательная почта.
-ms.openlocfilehash: a69af1efb634e1805f055d49ec5515f4b4252c3b
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+ms.openlocfilehash: 233474dbfff430be8dd95d513adeb257bb26c5c7
+ms.sourcegitcommit: 9e2df36b05a2c93ce2629a7a5eda8f44159d114d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35600265"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "35628512"
 ---
 # <a name="unverified-sender"></a>Непроверенный отправитель
+
+> [!NOTE] 
+> Эти обновления выводятся сейчас и могут быть недоступны для всех пользователей.
 
 Чтобы предотвратить доступ к почтовому ящику с помощью фишинговых сообщений, Outlook.com и Outlook в Интернете убедитесь, что отправитель говорят, что они говорят о них и помечают подозрительные сообщения как нежелательная почта.
 
@@ -35,7 +38,7 @@ Outlook.com и Outlook в Интернете показывают индикат
 
 Если вы являетесь клиентом Office 365, вы можете управлять этим компонентом с помощью центра безопасности & соответствия требованиям. 
 
-- В центре безопасности & безопасности Office 365 Администраторы клиентов могут включать или отключать эту функцию через защиту от спуфинга в соответствии с политикой защиты от фишинга. Кроме того, управлять ими можно с помощью командлета "Set – AntiPhishPolicy". Более подробную информацию можно узнать в статье Защита от фишинга в Office 365 и Set-AntiPhishPolicy.
+- В центре безопасности Office 365 &, глобальные администраторы и администраторы безопасности могут включать и отключать эту функцию с помощью защиты от спуфинга в политике защиты от фишинга. Кроме того, управлять ими можно с помощью командлета "Set – AntiPhishPolicy". Более подробную информацию можно узнать [в статье Защита от фишинга в Office 365](anti-phishing-protection.md) и [Set-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-antiphishpolicy?view=exchange-ps).
 
     ![Изменение отправителя, не прошедшего проверку подлинности, в графическом интерфейсе.](media/unverified-sender-article-editing-unauthenticated-senders.jpg)
 

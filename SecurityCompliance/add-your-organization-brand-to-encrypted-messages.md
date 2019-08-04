@@ -16,12 +16,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Как глобальный администратор Office 365 вы можете применить фирменную символику вашей организации к зашифрованным сообщениям электронной почты в Организации и содержимому портала шифрования.
-ms.openlocfilehash: 19f227971c522f9d92aec343f1865ab7f23c13aa
-ms.sourcegitcommit: b0ea2d66bc4c7f2fc0a8abab28d2ae652b1c4b73
+ms.openlocfilehash: dd08ffad4a50cafd90f2306645e93e623b8076cd
+ms.sourcegitcommit: 7c1cb9e8adb1c3e9c667f4cf02ca3cec3ec1e171
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "34721376"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792065"
 ---
 # <a name="add-your-organizations-brand-to-your-encrypted-messages"></a>Добавление фирменной символики организации в зашифрованные сообщения
 
@@ -122,7 +122,7 @@ ms.locfileid: "34721376"
 
 2. Выберите плитку **Администратор** .
 
-3. Откроется Центр администрирования Office 365. Здесь выберите последовательно элементы **Центры администрирования** \> **Exchange**.
+3. В центре администрирования Microsoft 365 выберите \> **Exchange** **центры администрирования** .
 
 4. В центре администрирования Exchange перейдите к разделу **правила** обработки **почтового процесса** \> и выберите **Новый** ![новый значок](media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **создать новое правило**. Дополнительные сведения об использовании [центра администрирования Exchange можно найти в центре администрирования Exchange в Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
 

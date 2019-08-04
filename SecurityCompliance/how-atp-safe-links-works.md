@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Функция "безопасные ссылки" обеспечивает проверку гиперссылок в документах Office и в сообщениях электронной почты. Прочтите эту статью, чтобы узнать, как работают безопасные ссылки ATP.
-ms.openlocfilehash: 7570fd65a9831a6436eec8c402a2bc0c2ae09b40
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+ms.openlocfilehash: 67779560e279028c158179c265196199b5d37d1c
+ms.sourcegitcommit: 7c1cb9e8adb1c3e9c667f4cf02ca3cec3ec1e171
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35599185"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792045"
 ---
 # <a name="how-office-365-atp-safe-links-works"></a>Как работают безопасные ссылки Office 365 ATP
          
@@ -49,9 +49,9 @@ ms.locfileid: "35599185"
     
 ## <a name="how-atp-safe-links-works-with-urls-in-office-documents"></a>Как безопасные ссылки ATP работают с URL-адресами в документах Office
 
-На высоком уровне ниже показано, как работает защита [ATP для безопасных ссылок](atp-safe-links.md) для URL-адресов в приложениях Office 365 ProPlus (текущие версии Word, Excel и PowerPoint для Windows или Mac, приложения Office на устройствах с iOS или Android, Visio в Windows, OneNote Online и Office). В сети):
+На высоком уровне ниже показано, как работает защита [ATP для безопасных ссылок](atp-safe-links.md) для URL-адресов в приложениях Office 365 ProPlus (текущие версии Word, Excel и PowerPoint для Windows или Mac, приложения Office на устройствах с iOS или Android, Visio в Windows, OneNote в браузере и Office в браузере):
   
-1. Пользователи установили Office 365 профессиональный плюс на своем компьютере, смартфоне или планшете. (Или в браузере используются Office Online.)
+1. Пользователи установили Office 365 профессиональный плюс на своем компьютере, смартфоне или планшете. (Или они используют Office в браузере.)
     
 2. Пользователь открывает Word, Excel, PowerPoint или Visio и входит в Office 365 корпоративный, используя рабочую или учебную учетную запись. Документ содержит URL-адреса.
     

@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Узнайте больше о принципах и рекомендациях по обеспечению безопасности модернизации в Организации.
-ms.openlocfilehash: 640fb15a6e28ee00bc383f6502c06d80db287135
-ms.sourcegitcommit: 6bb40cf53374eaaae8da0a469f0248b1163184a4
+ms.openlocfilehash: f4f2eb8c98575a03635ec69274396cdf8769e498
+ms.sourcegitcommit: f0d23e57b00f07cef5b1b2d366eaeeeacda37e3e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "34767300"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35786594"
 ---
 # <a name="ciso-workshop-module-4b-threat-protection-strategy"></a>Модуль ЦИСО Workshop 4b: стратегия защиты от угроз 
 
@@ -36,7 +36,7 @@ ms.locfileid: "34767300"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtDxA]
 
-## <a name="part-3-learnings-from-microsofts-corporate-it-soc-2207"></a>Часть 3: сведения о корпоративном ИТ-приложении корпорации Майкрософт (22:07)
+## <a name="part-3-learnings-from-microsoft-corporate-it-soc-2207"></a>Часть 3: сведения от Майкрософт для ИТ-компании SOC (22:07)
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE368fZ]
 

@@ -10,16 +10,16 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Узнайте больше о принципах и рекомендациях по обеспечению безопасности модернизации в Организации.
-ms.openlocfilehash: dccd34a6bed27ec3dbbca6c2affdc56234b1a21a
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 94602055ca42e0af154b5e33d3140baa8af0c446
+ms.sourcegitcommit: f0d23e57b00f07cef5b1b2d366eaeeeacda37e3e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34155511"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35786604"
 ---
 # <a name="ciso-workshop-module-5-information-protection"></a>Модуль семинара ЦИСО 5: защита информации
 
-Узнайте, как защищать конфиденциальные данные в любом месте с помощью автоматической классификации, постоянного шифрования на разных устройствах и непрерывного мониторинга данных на мобильных устройствах, облачных службах и других корпоративных ресурсах.
+Узнайте, как защищать конфиденциальные данные в любом месте с помощью автоматической классификации и постоянного шифрования на разных устройствах. Включает сведения о непрерывном мониторинге данных на мобильных устройствах, облачных службах и других корпоративных ресурсах.
 
 - Загрузите документ PDF: [модуль 5: Information Protection](media/ciso-workshop-5-information-protection-strategy.pdf)
 - Загрузка сводки PowerPoint: [модуль 5: информационная защита](https://docs.microsoft.com/office365/securitycompliance/media/ciso-workshop-5-information-protection-strategy.pptx)
