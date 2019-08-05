@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
 description: Узнайте, как обеспечивать соблюдение требований GDPR в локальном развертывании Exchange Server.
-ms.openlocfilehash: 96caf2793f11772aafd80124b03fd0cb32599442
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 9b15934f598adcd692d8c47358db357bcea58814
+ms.sourcegitcommit: 7c1cb9e8adb1c3e9c667f4cf02ca3cec3ec1e171
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34152761"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792055"
 ---
 # <a name="gdpr-for-office-web-apps-server-and-office-online-server"></a>GDPR для сервера Office Web Apps и Office Online Server
 
@@ -63,7 +63,7 @@ ms.locfileid: "34152761"
 
 ## <a name="types-of-data"></a>Типы данных
 
-Журналы Office Online содержат множество различных данных. Журналы ULS могут содержать следующие данные:
+Журналы Office содержат множество различных данных. Журналы ULS могут содержать следующие данные:
 
 -   коды ошибок, возникших во время использования продукта;
 
