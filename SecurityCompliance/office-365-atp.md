@@ -15,12 +15,12 @@ ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection включает в себя безопасные вложения, безопасные ссылки, расширенные средства защиты от фишинга, средства создания отчетов и возможности анализа угроз.
-ms.openlocfilehash: 96e79a8aabe0788388473da9fcd514b9285e1c00
-ms.sourcegitcommit: 33c8e9c16143650ca443d73e91631f9180a9268e
+ms.openlocfilehash: 7fe5abb65679a33b7895263137d43b0621fb04e6
+ms.sourcegitcommit: 6122eb026c558a5126c40845e656fbb0c40cb32a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "35854783"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36168157"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
@@ -41,7 +41,7 @@ Office 365 Advanced Threat protection (ATP) защищает организац�
 
 ## <a name="office-365-atp-plan-1-and-plan-2"></a>Office 365 ATP (план 1) и план 2
 
-ATP включена в Office 365 в ~; Тем не менее, план ATP и пакет ATP 2 доступны в качестве надстройки для некоторых подписок. Чтобы узнать больше, ознакомьтесь со статьей [доступность функций в планах ATP](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
+ATP включена в Office 365 в ~; Тем не менее, в качестве надстройки для некоторых подписок можно использовать пакет ATP 1 и пакет ATP (план 2). Чтобы узнать больше, ознакомьтесь со статьей [доступность функций в планах ATP](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
 
 ## <a name="configure-atp-policies"></a>Настройка политик ATP
 

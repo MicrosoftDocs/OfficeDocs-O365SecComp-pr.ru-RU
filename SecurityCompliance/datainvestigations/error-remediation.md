@@ -15,10 +15,10 @@ search.appverid:
 ms.assetid: ''
 description: ''
 ms.openlocfilehash: f8e253a3d38f0f4846485e3b88ea09914d9978ce
-ms.sourcegitcommit: 6eb51931242d07abde2e37f1bd57d13bc724f0de
+ms.sourcegitcommit: 6122eb026c558a5126c40845e656fbb0c40cb32a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "34547954"
 ---
 # <a name="error-remediation-when-processing-data-for-an-investigation"></a>Устранение ошибок при обработке данных для расследования
@@ -88,14 +88,14 @@ ms.locfileid: "34547954"
 
 При отправке исправленных файлов исходные метаданные сохраняются с исключением следующих полей: 
 
-- Екстрактедтекстсизе
+- екстрактедтекстсизе
 - HasText
-- Исеррорремедиате
-- Лоадид
-- Процессинжеррормессаже
-- Процессингстатус
+- исеррорремедиате
+- лоадид
+- процессинжеррормессаже
+- процессингстатус
 - Текст
 - WordCount
-- Воркингсетид
+- воркингсетид
 
 Определение всех полей метаданных документа в исследованиях данных (Предварительная версия) приведено в разделе [поля метаданных документа](document-metadata-fields.md).

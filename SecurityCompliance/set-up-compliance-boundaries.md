@@ -16,10 +16,10 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: Используйте границы соответствия требованиям для создания логических границ в организации Office 365, которые управляют расположениями пользователей, которые диспетчер обнаружения электронных данных может выполнять поиск. Ограничения на соответствие требованиям — фильтрация разрешений на поиск (также называемая фильтрами безопасности соответствия) для управления почтовыми ящиками, сайтами SharePoint и учетными записями OneDrive для поиска определенных пользователей.
 ms.openlocfilehash: 1926155a09ae9acdec09f6155fc753cb980e51de
-ms.sourcegitcommit: 97b9f88b9beee23de13ecf6d0759ac0fad5cf08d
+ms.sourcegitcommit: 6122eb026c558a5126c40845e656fbb0c40cb32a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36168167"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations-in-office-365"></a>Настройка границ соответствия для расследований дел обнаружения электронных данных в Office 365
