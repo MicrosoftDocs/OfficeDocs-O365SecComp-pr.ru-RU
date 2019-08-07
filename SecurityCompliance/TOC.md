@@ -9,6 +9,7 @@
 ### [Оценка безопасности (Майкрософт)](microsoft-secure-score.md)
 ## [Переход в Центр безопасности и соответствия требованиям](go-to-the-securitycompliance-center.md)
 ### [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md)
+### [Разрешения в Центре соответствия требованиям Microsoft 365 и Центре безопасности Microsoft 365](permissions-microsoft-365-compliance-security.md)
 ### [Предоставление пользователям доступа к Центру безопасности и соответствия требованиям](grant-access-to-the-security-and-compliance-center.md)
 ## [Использование бесплатной подписки на Azure Active Directory](use-your-free-azure-ad-subscription-in-office-365.md)
 ## [Планирование безопасности и соответствия требованиям в Office 365](plan-for-security-and-compliance.md)
