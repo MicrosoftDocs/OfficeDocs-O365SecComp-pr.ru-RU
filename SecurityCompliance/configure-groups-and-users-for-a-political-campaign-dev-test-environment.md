@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: Сводка. Сведения о создании пробных подписок на Office 365 и Enterprise Mobility + Security (EMS) с пользователями и группами в случае среды разработки и тестирования для политической кампании.
-ms.openlocfilehash: b81674723f1da5b4282a331207caad2fc6d3d0a0
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 53d6bc8a4cdba6dab33b963344a3bfabdb1e6a26
+ms.sourcegitcommit: 6122eb026c558a5126c40845e656fbb0c40cb32a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34151485"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36053146"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>Настройка групп и пользователей в случае среды разработки и тестирования для политической кампании
 
@@ -40,7 +40,7 @@ ms.locfileid: "34151485"
     
 2. Выберите плитку **Администрирование**.
     
-3. Открыв вкладку **Центр администрирования Office** в браузере, на панели навигации слева щелкните **Выставление счетов > Приобретение служб**.
+3. На вкладке **Центр администрирования Microsoft 365** в браузере, в области навигации слева, щелкните **Выставление счетов > Приобретение служб**.
     
 4. На странице **Приобретение служб** найдите элемент **Enterprise Mobility + Security E5**. Наведите на него указатель мыши и выберите **Начать бесплатный пробный период**.
     
@@ -170,7 +170,7 @@ foreach ($element in $userNames){ New-AzureADUser -DisplayName $element -Passwor
   
 1. На вкладке браузера **Домашняя страница Microsoft Office** щелкните плитку **Администрирование**.
     
-2. На новой вкладке браузера **Центр администрирования Office** щелкните **Пользователи**.
+2. На новой вкладке браузера**Центр администрирования Microsoft 365** щелкните **Пользователи**.
     
 3. В списке пользователей выберите **Кандидат**.
     
