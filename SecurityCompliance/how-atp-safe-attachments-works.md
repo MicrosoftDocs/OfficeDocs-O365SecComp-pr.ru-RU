@@ -1,7 +1,7 @@
 ---
 title: Принцип работы безопасных вложений Office 365 ATP
-ms.author: deniseb
-author: denisebmsft
+ms.author: tracyp
+author: msfttracyp
 manager: dansimp
 audience: Admin
 ms.date: 05/17/2019
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Функция "безопасные вложения" обеспечивает проверку подлинности вложений электронной почты при нажатии этой кнопки. Используйте безопасные вложения, чтобы защитить организацию от вредоносных файлов, отправляемых и получаемых в сообщениях электронной почты.
-ms.openlocfilehash: f0f117388957a14e3765b963a0e390ffb8fd7943
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+ms.openlocfilehash: 14db6bc51f2017388639eb4270d7c5fc67b4ff7d
+ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35599175"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36230613"
 ---
 # <a name="how-ffice-365-atp-safe-attachments-works"></a>Как работают безопасные вложения Office 365 ATP
 

@@ -1,9 +1,9 @@
 ---
-title: 'Поиск и исследование вредоносных сообщений электронной почты, которые были доставлены (Office 365: исследование угроз и реагирование на них'
+title: Поиск и исследование вредоносных сообщений электронной почты, которые были доставлены в Office 365
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 08/02/2019
+ms.date: 08/07/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,14 +15,14 @@ ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как использовать функции расследования и реагирования на угрозы для поиска и изучения вредоносных сообщений электронной почты.
-ms.openlocfilehash: 9a1e5e1bb571b3b5c517ae628c29c10b44987adb
-ms.sourcegitcommit: 6122eb026c558a5126c40845e656fbb0c40cb32a
+ms.openlocfilehash: 1f558614d77577408a824b3c6181aae22753ab0f
+ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36165675"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36230563"
 ---
-# <a name="find-and-investigate-malicious-email-that-was-delivered-office-365-advanced-threat-protection-plan-2"></a>Поиск и исследование вредоносных сообщений электронной почты, которые были доставлены (Office 365 Advanced Threat Protection, план 2)
+# <a name="find-and-investigate-malicious-email-that-was-delivered-in-office-365"></a>Поиск и исследование вредоносных сообщений электронной почты, которые были доставлены в Office 365
 
 [Office 365 Advanced Threat protection](office-365-atp.md) позволяет исследовать действия, которые могут привести к риску и предпринимать меры для защиты Организации. Например, если вы являетесь участником группы безопасности Организации, вы можете найти и изучить подозрительные сообщения электронной почты, которые были доставлены вашим пользователям. Это можно сделать с помощью [обозревателя угроз (или обнаружения в режиме реального времени)](threat-explorer.md).
   
@@ -30,7 +30,7 @@ ms.locfileid: "36165675"
 
 Убедитесь, что выполняются следующие требования:
   
-- У вашей организации есть [Office 365 Advanced Threat protection](office-365-atp.md) (план 2) и [лицензии, назначенные пользователям](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
+- Для организации назначены [Дополнительные возможности защиты от угроз для Office 365](office-365-atp.md) и [лицензии для пользователей](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
     
 - [Ведение журнала аудита Office 365](turn-audit-log-search-on-or-off.md) включено для вашей организации. 
     

@@ -1,7 +1,7 @@
 ---
 title: Что позволяют искать типы конфиденциальной информации
-ms.author: deniseb
-author: denisebmsft
+ms.author: chrfox
+author: chrfox
 manager: laurawi
 ms.date: 05/20/2019
 audience: Admin
@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Защита от потери данных (DLP) в центре безопасности &amp; Office 365 включает в себя 80 типов конфиденциальной информации, готовых к использованию в политиках защиты от потери данных. В этой статье перечислены все эти типы конфиденциальной информации и показано, каким именно образом политика защиты от потери данных выявляет каждый тип.
-ms.openlocfilehash: 1e1aeea164c15bb64c6040f7821bf006ee8ff42f
-ms.sourcegitcommit: b8737e52724a343d99082961bc113bba819d5681
+ms.openlocfilehash: 7f5c879b35f77ef142b8c45965357715f577832e
+ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34247302"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36230383"
 ---
 # <a name="what-the-sensitive-information-types-look-for"></a>Что позволяют искать типы конфиденциальной информации
 
@@ -65,13 +65,13 @@ ms.locfileid: "34247302"
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordabarouting"></a>Кэйворд_аба_раутинг
+#### <a name="keyword_aba_routing"></a>Keyword_ABA_Routing
 
 - код банка ABA
 - aba#
 - aba routing #
 - aba routing number
-- код банка ABA
+- код банка ABA #
 - абараутинг #
 - aba number
 - абараутингнумбер
@@ -83,7 +83,7 @@ ms.locfileid: "34247302"
 - банкраутинг #
 - банкраутингнумбер
 - routing transit number
-- РТН 
+- ртн 
    
 ## <a name="argentina-national-identity-dni-number"></a>Номер внутреннего удостоверения личности для Аргентины (DNI)
 
@@ -122,7 +122,7 @@ ms.locfileid: "34247302"
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordargentinanationalid"></a>Кэйворд_аржентина_натионал_ид
+#### <a name="keyword_argentina_national_id"></a>Keyword_argentina_national_id
 
 - Argentina National Identity number 
 - Удостоверение 
@@ -131,8 +131,8 @@ ms.locfileid: "34247302"
 - Национальная реестр пользователей NIC 
 - Documento Nacional de Identidad 
 - Registro Nacional de las Personas 
-- ИДЕНТИДАД 
-- ИдентификаЦиóн 
+- идентидад 
+- идентификаЦиóн 
    
 ## <a name="australia-bank-account-number"></a>Номер банковского счета для Австралии
 
@@ -180,7 +180,7 @@ ms.locfileid: "34247302"
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordaustraliabankaccountnumber"></a>Кэйворд_аустралиа_банк_аккаунт_нумбер
+#### <a name="keyword_australia_bank_account_number"></a>Keyword_australia_bank_account_number
 
 - swift bank code
 - correspondent bank
@@ -246,19 +246,19 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordaustraliadriverslicensenumber"></a>Кэйворд_аустралиа_дриверс_лиценсе_нумбер
+#### <a name="keyword_australia_drivers_license_number"></a>Keyword_australia_drivers_license_number
 
 - international driving permits
 - australian automobile association
 - international driving permit
-- Дриверлиценце
-- Дриверлиценцес
+- дриверлиценце
+- дриверлиценцес
 - Driver Lic
 - Driver Licence
 - Driver Licences
-- Дриверслик
-- Дриверслиценце
-- Дриверслиценцес
+- дриверслик
+- дриверслиценце
+- дриверслиценцес
 - Drivers Lic
 - Drivers Lics
 - Drivers Licence
@@ -271,80 +271,80 @@ OR
 - Driver' Lics
 - Driver' Licence
 - Driver' Licences
-- Дривер'слик
-- Дривер'сликс
-- Дривер'слиценце
-- Дривер'слиценцес
+- дривер'слик
+- дривер'сликс
+- дривер'слиценце
+- дривер'слиценцес
 - Driver's Lic
 - Driver's Lics
 - Driver's Licence
 - Driver's Licences
-- Дриверлик #
-- Дриверликс #
-- Дриверлиценце #
-- Дриверлиценцес #
+- дриверлик #
+- дриверликс #
+- дриверлиценце #
+- дриверлиценцес #
 - Driver Lic#
 - Driver Lics#
 - Driver Licence#
 - Driver Licences#
-- Дриверслик #
-- Дриверсликс #
-- Дриверслиценце #
-- Дриверслиценцес #
+- дриверслик #
+- дриверсликс #
+- дриверслиценце #
+- дриверслиценцес #
 - Drivers Lic#
 - Drivers Lics#
 - Drivers Licence#
 - Drivers Licences#
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' Licence
-- Driver ' Licences
+- Driver ' LIC #
+- Driver ' LICS #
+- Driver ' Licence #
+- Driver ' Licences #
 - Driver' Lic#
 - Driver' Lics#
 - Driver' Licence#
 - Driver' Licences#
-- Дривер'слик #
-- Дривер'сликс #
-- Дривер'слиценце #
-- Дривер'слиценцес #
+- дривер'слик #
+- дривер'сликс #
+- дривер'слиценце #
+- дривер'слиценцес #
 - Driver's Lic#
 - Driver's Lics#
 - Driver's Licence#
 - Driver's Licences# 
 
-#### <a name="keywordaustraliadriverslicensenumberexclusions"></a>Кэйворд_аустралиа_дриверс_лиценсе_нумбер_ексклусионс
+#### <a name="keyword_australia_drivers_license_number_exclusions"></a>Keyword_australia_drivers_license_number_exclusions
 
 - AAA
-- Дриверлиценсе
-- Дриверлиценсес
+- дриверлиценсе
+- дриверлиценсес
 - Driver License
 - Driver Licenses
-- Дриверслиценсе
-- Дриверслиценсес
+- дриверслиценсе
+- дриверслиценсес
 - Drivers License
 - Drivers Licenses
 - Driver ' License
 - Driver ' Licenses
 - Driver' License
 - Driver' Licenses
-- Дривер'слиценсе
-- Дривер'слиценсес
+- дривер'слиценсе
+- дривер'слиценсес
 - Driver's License
 - Driver's Licenses
-- Дриверлиценсе #
-- Дриверлиценсес #
+- дриверлиценсе #
+- дриверлиценсес #
 - Driver License#
 - Driver Licenses#
-- Дриверслиценсе #
-- Дриверслиценсес #
+- дриверслиценсе #
+- дриверслиценсес #
 - Drivers License#
 - Drivers Licenses#
-- Driver ' License
-- Driver ' Licenses
+- Driver ' License #
+- Driver ' Licenses #
 - Driver' License#
 - Driver' Licenses#
-- Дривер'слиценсе #
-- Дривер'слиценсес #
+- дривер'слиценсе #
+- дривер'слиценсес #
 - Driver's License#
 - Driver's Licenses#
    
@@ -397,7 +397,7 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordaustraliamedicalaccountnumber"></a>Кэйворд_аустралиа_медикал_аккаунт_нумбер
+#### <a name="keyword_australia_medical_account_number"></a>Keyword_Australia_Medical_Account_Number
 
 - bank account details
 - medicare payments
@@ -407,7 +407,7 @@ OR
 - credit card loan
 - department of human services
 - local service
-- Медикаре
+- медикаре
 
    
 ## <a name="australia-passport-number"></a>Номер паспорта гражданина Австралии
@@ -428,7 +428,7 @@ OR
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - регулярное выражение Regex_australia_passport_number находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Кэйворд_пасспорт или Кэйворд_аустралиа_пасспорт_нумбер.
+- Найдено ключевое слово из Keyword_passport или Keyword_australia_passport_number.
 
 ```
 <!-- Australia Passport Number -->
@@ -445,14 +445,14 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordpassport"></a>Кэйворд_пасспорт
+#### <a name="keyword_passport"></a>Keyword_passport
 
 - Passport Number
 - Passport No
 - Passport#
-- Службу
-- Пасспортид
-- Пасспортно
+- Службу #
+- пасспортид
+- пасспортно
 - пасспортнумбер
 - パスポート
 - パスポート番号
@@ -462,11 +462,11 @@ OR
 - Passeport n °
 - Passeport Non
 - Passeport#
-- Пассепорт #
-- Пассепортнон
+- пассепорт #
+- пассепортнон
 - Passeportn °
 
-#### <a name="keywordaustraliapassportnumber"></a>Кэйворд_аустралиа_пасспорт_нумбер
+#### <a name="keyword_australia_passport_number"></a>Keyword_australia_passport_number
 
 - службу
 - passport details
@@ -522,7 +522,7 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordaustraliataxfilenumber"></a>Кэйворд_аустралиа_такс_филе_нумбер
+#### <a name="keyword_australia_tax_file_number"></a>Keyword_Australia_Tax_File_Number
 
 - australian business number
 - marginal tax rate
@@ -533,7 +533,7 @@ OR
 - individual tax return
 - tax file number
 
-#### <a name="keywordnumberexclusions"></a>Кэйворд_нумбер_ексклусионс
+#### <a name="keyword_number_exclusions"></a>Keyword_number_exclusions
 
 - 00000001
 - 11111111
@@ -587,8 +587,8 @@ OR
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение Цеп_режекс_азуредокументдбаускэй находит содержимое, которое соответствует шаблону;
-- Регулярное выражение Цеп_коммонексамплекэйвордс не **** находит содержимое, которое соответствует шаблону.
+- Регулярное выражение CEP_Regex_AzureDocumentDBAuthKey находит содержимое, которое соответствует шаблону;
+- Регулярное выражение CEP_CommonExampleKeywords не **** находит содержимое, которое соответствует шаблону.
 
 ```
 <!-- Azure Document DB Auth Key -->
@@ -604,7 +604,7 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="cepcommonexamplekeywords"></a>Цеп_коммонексамплекэйвордс
+#### <a name="cep_commonexamplekeywords"></a>CEP_CommonExampleKeywords
 
 (Технически, обратите внимание, что этот тип конфиденциальной информации определяет эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
 
@@ -647,8 +647,8 @@ OR
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение Цеп_режекс_азуреконнектионстринг находит содержимое, которое соответствует шаблону;
-- Регулярное выражение Цеп_коммонексамплекэйвордс не **** находит содержимое, которое соответствует шаблону.
+- Регулярное выражение CEP_Regex_AzureConnectionString находит содержимое, которое соответствует шаблону;
+- Регулярное выражение CEP_CommonExampleKeywords не **** находит содержимое, которое соответствует шаблону.
 
 ```
 <!--Azure IAAS Database Connection String and Azure SQL Connection String-->
@@ -664,7 +664,7 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="cepcommonexamplekeywords"></a>Цеп_коммонексамплекэйвордс
+#### <a name="cep_commonexamplekeywords"></a>CEP_CommonExampleKeywords
 
 (Технически, обратите внимание, что этот тип конфиденциальной информации определяет эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
 
@@ -707,8 +707,8 @@ OR
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение Цеп_режекс_азуреиотконнектионстринг находит содержимое, которое соответствует шаблону;
-- Регулярное выражение Цеп_коммонексамплекэйвордс не **** находит содержимое, которое соответствует шаблону.
+- Регулярное выражение CEP_Regex_AzureIoTConnectionString находит содержимое, которое соответствует шаблону;
+- Регулярное выражение CEP_CommonExampleKeywords не **** находит содержимое, которое соответствует шаблону.
 
 ```
 <!--Azure IoT Connection String-->
@@ -724,7 +724,7 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="cepcommonexamplekeywords"></a>Цеп_коммонексамплекэйвордс
+#### <a name="cep_commonexamplekeywords"></a>CEP_CommonExampleKeywords
 
 (Технически, обратите внимание, что этот тип конфиденциальной информации определяет эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
 
@@ -757,8 +757,8 @@ OR
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение Цеп_режекс_азурепублишсеттингпассвордс находит содержимое, которое соответствует шаблону;
-- Регулярное выражение Цеп_коммонексамплекэйвордс не **** находит содержимое, которое соответствует шаблону.
+- Регулярное выражение CEP_Regex_AzurePublishSettingPasswords находит содержимое, которое соответствует шаблону;
+- Регулярное выражение CEP_CommonExampleKeywords не **** находит содержимое, которое соответствует шаблону.
 
 
 ```
@@ -775,7 +775,7 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="cepcommonexamplekeywords"></a>Цеп_коммонексамплекэйвордс
+#### <a name="cep_commonexamplekeywords"></a>CEP_CommonExampleKeywords
 
 (Технически, обратите внимание, что этот тип конфиденциальной информации определяет эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
 
@@ -813,8 +813,8 @@ OR
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение Цеп_режекс_азурередискачеконнектионстринг находит содержимое, которое соответствует шаблону..
-- Регулярное выражение Цеп_коммонексамплекэйвордс не **** находит содержимое, которое соответствует шаблону.
+- Регулярное выражение CEP_Regex_AzureRedisCacheConnectionString находит содержимое, которое соответствует шаблону..
+- Регулярное выражение CEP_CommonExampleKeywords не **** находит содержимое, которое соответствует шаблону.
 
 ```
 <!--Azure Redis Cache Connection String-->
@@ -830,7 +830,7 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="cepcommonexamplekeywords"></a>Цеп_коммонексамплекэйвордс
+#### <a name="cep_commonexamplekeywords"></a>CEP_CommonExampleKeywords
 
 (Технически, обратите внимание, что этот тип конфиденциальной информации определяет эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
 
@@ -867,7 +867,7 @@ OR
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение Цеп_режекс_азуресас находит содержимое, которое соответствует шаблону;
+- Регулярное выражение CEP_Regex_AzureSAS находит содержимое, которое соответствует шаблону;
 
 ```
 <!--Azure SAS-->
@@ -907,8 +907,8 @@ OR
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение Цеп_режекс_азуресервицебусконнектионстринг находит содержимое, которое соответствует шаблону..
-- Регулярное выражение Цеп_коммонексамплекэйвордс не **** находит содержимое, которое соответствует шаблону.
+- Регулярное выражение CEP_Regex_AzureServiceBusConnectionString находит содержимое, которое соответствует шаблону..
+- Регулярное выражение CEP_CommonExampleKeywords не **** находит содержимое, которое соответствует шаблону.
 
 ```
 <!--Azure Service Bus Connection String-->
@@ -924,7 +924,7 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="cepcommonexamplekeywords"></a>Цеп_коммонексамплекэйвордс
+#### <a name="cep_commonexamplekeywords"></a>CEP_CommonExampleKeywords
 
 (Технически, обратите внимание, что этот тип конфиденциальной информации определяет эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
 
@@ -965,9 +965,9 @@ OR
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение Цеп_режекс_азуресторажеаккаунткэй находит содержимое, которое соответствует шаблону;
-- Регулярное выражение Цеп_азуримулаторсторажеаккаунтфилтер не **** находит содержимое, которое соответствует шаблону.
-- Регулярное выражение Цеп_коммонексамплекэйвордс не **** находит содержимое, которое соответствует шаблону.
+- Регулярное выражение CEP_Regex_AzureStorageAccountKey находит содержимое, которое соответствует шаблону;
+- Регулярное выражение CEP_AzureEmulatorStorageAccountFilter не **** находит содержимое, которое соответствует шаблону.
+- Регулярное выражение CEP_CommonExampleKeywords не **** находит содержимое, которое соответствует шаблону.
 
 ```
 <!--Azure Storage Account Key-->
@@ -984,13 +984,13 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="cepazureemulatorstorageaccountfilter"></a>Цеп_азуримулаторсторажеаккаунтфилтер
+#### <a name="cep_azureemulatorstorageaccountfilter"></a>CEP_AzureEmulatorStorageAccountFilter
 
 (Технически, обратите внимание, что этот тип конфиденциальной информации определяет эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
 
 - Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/Кбхбексогмгв = =
 
-#### <a name="cepcommonexamplekeywords"></a>Цеп_коммонексамплекэйвордс
+#### <a name="cep_commonexamplekeywords"></a>CEP_CommonExampleKeywords
 
 (Технически, обратите внимание, что этот тип конфиденциальной информации определяет эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
 
@@ -1024,7 +1024,7 @@ OR
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение Цеп_режекс_азуресторажеаккаунткэйженерик находит содержимое, которое соответствует шаблону;
+- Регулярное выражение CEP_Regex_AzureStorageAccountKeyGeneric находит содержимое, которое соответствует шаблону;
 
 ```
 <!--Azure Storage Account Key (Generic)-->
@@ -1073,29 +1073,29 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordbelgiumnationalnumber"></a>Кэйворд_белгиум_натионал_нумбер
+#### <a name="keyword_belgium_national_number"></a>Keyword_belgium_national_number
 
 - Удостоверение
 - Зарегистрировал
 - Процедура 
 - ID 
-- Идентитеитскаарт
+- идентитеитскаарт
 - Registratie nummer 
 - Identificatie nummer 
-- Идентитеит
-- Регистратие
-- Идентификатие 
+- идентитеит
+- регистратие
+- идентификатие 
 - Carte d’identité 
 - numéro d'immatriculation
 - numéro d'identification
 - идентитé 
 - инскриптион 
-- Идентификатион
-- Идентифизиерунг
-- Идентификатионснуммер
-- Персоналаусвеис
-- Регистриерунг
-- Регистратионснуммер
+- идентификатион
+- идентифизиерунг
+- идентификатионснуммер
+- персоналаусвеис
+- регистриерунг
+- регистратионснуммер
 
    
 ## <a name="brazil-cpf-number"></a>Номер CPF для Бразилии
@@ -1148,17 +1148,17 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordbrazilcpf"></a>Кэйворд_бразил_кпф
+#### <a name="keyword_brazil_cpf"></a>Keyword_brazil_cpf
 
 - CPF
 - Процедура
 - Зарегистрировал
 - Реализации
 - Cadastro de Pessoas Físicas 
-- Импосто 
-- Идентификаçãо 
-- Инскриçãо 
-- Рецеита 
+- импосто 
+- идентификаçãо 
+- инскриçãо 
+- рецеита 
    
 ## <a name="brazil-legal-entity-number-cnpj"></a>Номер юридического лица для Бразилии (CNPJ)
 
@@ -1208,7 +1208,7 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordbrazilcnpj"></a>Кэйворд_бразил_кнпж
+#### <a name="keyword_brazil_cnpj"></a>Keyword_brazil_cnpj
 
 - CNPJ 
 - CNPJ/MF 
@@ -1223,12 +1223,12 @@ OR
 - CNPJ 
 - Cadastro Nacional da Pessoa Jurídica 
 - Cadastro Geral de Contribuintes 
-- КГК 
+- кгк 
 - Pessoa jurídica 
 - Pessoas jurídicas 
 - Situação cadastral 
-- Инскриçãо 
-- Емпреса 
+- инскриçãо 
+- емпреса 
    
 ## <a name="brazil-national-id-card-rg"></a>	Номер внутреннего удостоверения личности для Бразилии (RG)
 
@@ -1284,7 +1284,7 @@ Registro de identidade (RIC) (новый формат):
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordbrazilrg"></a>Кэйворд_бразил_рг
+#### <a name="keyword_brazil_rg"></a>Keyword_brazil_rg
 
 Кéдула de identidade Identity Card National ID нúмеро de ррегистро Registro de Иидентидаде Registro Geral RG (это ключевое слово учитывает регистр) RIC (это ключевое слово учитывает регистр). 
    
@@ -1337,7 +1337,7 @@ Registro de identidade (RIC) (новый формат):
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordcanadabankaccountnumber"></a>Кэйворд_канада_банк_аккаунт_нумбер
+#### <a name="keyword_canada_bank_account_number"></a>Keyword_canada_bank_account_number
 
 - canada savings bonds
 - canada revenue agency
@@ -1440,35 +1440,35 @@ Registro de identidade (RIC) (новый формат):
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordprovincenamedriverslicensename"></a>Кэйворд_ [провинце_наме] _дриверс_лиценсе_наме
+#### <a name="keyword_province_name_drivers_license_name"></a>Keyword_[province_name]_drivers_license_name
 
 - Аббревиатура провинции, например AB.
 - Название провинции, например Альберта.
 
-#### <a name="keywordcanadadriverslicense"></a>Кэйворд_канада_дриверс_лиценсе
+#### <a name="keyword_canada_drivers_license"></a>Keyword_canada_drivers_license
 
 - DL
 - БИБЛИОТЕК
-- КДЛ
-- КДЛС
-- Дриверлик
-- Дриверликс
-- Дриверлиценсе
-- Дриверлиценсес
-- Дриверлиценце
-- Дриверлиценцес
+- кдл
+- кдлс
+- дриверлик
+- дриверликс
+- дриверлиценсе
+- дриверлиценсес
+- дриверлиценце
+- дриверлиценцес
 - Driver Lic
 - Driver Lics
 - Driver License
 - Driver Licenses
 - Driver Licence
 - Driver Licences
-- Дриверслик
-- Дриверсликс
-- Дриверслиценце
-- Дриверслиценцес
-- Дриверслиценсе
-- Дриверслиценсес
+- дриверслик
+- дриверсликс
+- дриверслиценце
+- дриверслиценцес
+- дриверслиценсе
+- дриверслиценсес
 - Drivers Lic
 - Drivers Lics
 - Drivers License
@@ -1487,12 +1487,12 @@ Registro de identidade (RIC) (новый формат):
 - Driver' Licenses
 - Driver' Licence
 - Driver' Licences
-- Дривер'слик
-- Дривер'сликс
-- Дривер'слиценсе
-- Дривер'слиценсес
-- Дривер'слиценце
-- Дривер'слиценцес
+- дривер'слик
+- дривер'сликс
+- дривер'слиценсе
+- дривер'слиценсес
+- дривер'слиценце
+- дривер'слиценцес
 - Driver's Lic
 - Driver's Lics
 - Driver's License
@@ -1516,52 +1516,52 @@ Registro de identidade (RIC) (новый формат):
 - identification card
 - identification cards
 - процедура 
-- DL
-- БИБЛИОТЕК 
-- КДЛ # 
-- КДЛС # 
-- Дриверлик # 
-- Дриверликс # 
-- Дриверлиценсе # 
-- Дриверлиценсес # 
-- Дриверлиценце # 
-- Дриверлиценцес # 
+- DL #
+- БИБЛИОТЕК # 
+- кдл # 
+- кдлс # 
+- дриверлик # 
+- дриверликс # 
+- дриверлиценсе # 
+- дриверлиценсес # 
+- дриверлиценце # 
+- дриверлиценцес # 
 - Driver Lic#
 - Driver Lics# 
 - Driver License# 
 - Driver Licenses# 
 - Driver License# 
 - Driver Licences# 
-- Дриверслик # 
-- Дриверсликс # 
-- Дриверслиценсе # 
-- Дриверслиценсес # 
-- Дриверслиценце # 
-- Дриверслиценцес # 
+- дриверслик # 
+- дриверсликс # 
+- дриверслиценсе # 
+- дриверслиценсес # 
+- дриверслиценце # 
+- дриверслиценцес # 
 - Drivers Lic# 
 - Drivers Lics# 
 - Drivers License# 
 - Drivers Licenses# 
 - Drivers Licence# 
 - Drivers Licences# 
-- Driver ' LIC 
-- Driver ' LICS 
-- Driver ' License 
-- Driver ' Licenses 
-- Driver ' Licence 
-- Driver ' Licences 
+- Driver ' LIC # 
+- Driver ' LICS # 
+- Driver ' License # 
+- Driver ' Licenses # 
+- Driver ' Licence # 
+- Driver ' Licences # 
 - Driver' Lic# 
 - Driver' Lics# 
 - Driver' License# 
 - Driver' Licenses# 
 - Driver' Licence# 
 - Driver' Licences# 
-- Дривер'слик # 
-- Дривер'сликс # 
-- Дривер'слиценсе # 
-- Дривер'слиценсес # 
-- Дривер'слиценце # 
-- Дривер'слиценцес # 
+- дривер'слик # 
+- дривер'сликс # 
+- дривер'слиценсе # 
+- дривер'слиценсес # 
+- дривер'слиценце # 
+- дривер'слиценцес # 
 - Driver's Lic# 
 - Driver's Lics# 
 - Driver's License# 
@@ -1569,14 +1569,14 @@ Registro de identidade (RIC) (новый формат):
 - Driver's Licence# 
 - Driver's Licences# 
 - Permis de Conduire# 
-- кодов 
-- идентификаторы 
+- кодов # 
+- идентификаторы # 
 - idcard card# 
 - idcard cards# 
 - идкард # 
 - identification card# 
 - identification cards# 
-- процедура 
+- процедура # 
    
 ## <a name="canada-health-service-number"></a>Номер службы здравоохранения для Канады
 
@@ -1612,7 +1612,7 @@ Registro de identidade (RIC) (новый формат):
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordcanadahealthservicenumber"></a>Кэйворд_канада_хеалс_сервице_нумбер
+#### <a name="keyword_canada_health_service_number"></a>Keyword_canada_health_service_number
 
 - personal health number
 - patient information
@@ -1642,7 +1642,7 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - регулярное выражение Regex_canada_passport_number находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Кэйворд_канада_пасспорт_нумбер или Кэйворд_пасспорт.
+- Найдено ключевое слово из Keyword_canada_passport_number или Keyword_passport.
 
 ``` 
 <!-- Canada Passport Number -->
@@ -1659,7 +1659,7 @@ Registro de identidade (RIC) (новый формат):
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordcanadapassportnumber"></a>Кэйворд_канада_пасспорт_нумбер
+#### <a name="keyword_canada_passport_number"></a>Keyword_canada_passport_number
 
 - canadian citizenship
 - canadian passport
@@ -1670,14 +1670,14 @@ Registro de identidade (RIC) (новый формат):
 - processing times
 - renewal application
 
-#### <a name="keywordpassport"></a>Кэйворд_пасспорт
+#### <a name="keyword_passport"></a>Keyword_passport
 
 - Passport Number
 - Passport No
 - Passport#
-- Службу
-- Пасспортид
-- Пасспортно
+- Службу #
+- пасспортид
+- пасспортно
 - пасспортнумбер
 - パスポート
 - パスポート番号
@@ -1687,8 +1687,8 @@ Registro de identidade (RIC) (новый формат):
 - Passeport n °
 - Passeport Non
 - Passeport#
-- Пассепорт #
-- Пассепортнон
+- пассепорт #
+- пассепортнон
 - Passeportn °
    
 ## <a name="canada-personal-health-identification-number-phin"></a>Персональный идентификационный номер службы здравоохранения для Канады (PHIN)
@@ -1707,8 +1707,8 @@ Registro de identidade (RIC) (новый формат):
 
 ### <a name="definition"></a>Определение
 
-Политика защиты от потери данных — 75% уверенности в том, что этот тип конфиденциальной информации обнаружен, если в пределах близости от 300 символов: регулярное выражение Режекс_канада_фин находит содержимое, которое соответствует шаблону.
-Найдены по крайней мере два ключевых слова от Кэйворд_канада_фин или Кэйворд_канада_провинцес.
+Политика защиты от потери данных — 75% уверенности в том, что этот тип конфиденциальной информации обнаружен, если в пределах близости от 300 символов: регулярное выражение Regex_canada_phin находит содержимое, которое соответствует шаблону.
+Найдены по крайней мере два ключевых слова от Keyword_canada_phin или Keyword_canada_provinces.
 
 ```
 <!-- Canada PHIN -->
@@ -1725,7 +1725,7 @@ Registro de identidade (RIC) (новый формат):
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordcanadaphin"></a>Кэйворд_канада_фин
+#### <a name="keyword_canada_phin"></a>Keyword_canada_phin
 
 - social insurance number
 - health information act
@@ -1743,9 +1743,9 @@ Registro de identidade (RIC) (новый формат):
 - patient referral
 - health and wellness
 
-#### <a name="keywordcanadaprovinces"></a>Кэйворд_канада_провинцес
+#### <a name="keyword_canada_provinces"></a>Keyword_canada_provinces
 
-- Нунавут
+- нунавут
 - Квебека
 - Northwest Territories
 - Онтарио
@@ -1816,7 +1816,7 @@ Registro de identidade (RIC) (новый формат):
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordsin"></a>Кэйворд_син
+#### <a name="keyword_sin"></a>Keyword_sin
 
 - sin 
 - social insurance 
@@ -1828,17 +1828,17 @@ Registro de identidade (RIC) (новый формат):
 - numero d'assurance social 
 - national identification number 
 - national id 
-- Синус 
+- Синус # 
 - soc ins 
 - social ins 
 
-#### <a name="keywordsincollaborative"></a>Кэйворд_син_коллаборативе
+#### <a name="keyword_sin_collaborative"></a>Keyword_sin_collaborative
 
 - driver's license 
 - drivers license 
 - driver's licence 
 - drivers licence 
-- ДОБ 
+- доб 
 - Birthdate 
 - День рождения  
 - Date of Birth 
@@ -1890,7 +1890,7 @@ Registro de identidade (RIC) (новый формат):
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordchileidcard"></a>Кэйворд_чиле_ид_кард
+#### <a name="keyword_chile_id_card"></a>Keyword_chile_id_card
 
 - National Identification Number 
 - Identity card 
@@ -1903,7 +1903,7 @@ Registro de identidade (RIC) (новый формат):
 - Cédula de Identidad 
 - Número De Identificación Nacional 
 - Tarjeta de identificación 
-- ИдентификаЦиóн 
+- идентификаЦиóн 
    
 ## <a name="china-resident-identity-card-prc-number"></a>	Номер удостоверения личности жителя Китая (КНР)
 
@@ -1949,7 +1949,7 @@ Registro de identidade (RIC) (новый формат):
 
 ### <a name="keywords"></a>Ключевые слова
 
-### <a name="keywordchinaresidentid"></a>Кэйворд_чина_ресидент_ид
+### <a name="keyword_china_resident_id"></a>Keyword_china_resident_id
 
 - Resident Identity Card 
 - NO7 
@@ -2009,11 +2009,11 @@ Registro de identidade (RIC) (новый формат):
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordccverification"></a>Кэйворд_кк_верификатион
+#### <a name="keyword_cc_verification"></a>Keyword_cc_verification
 
 - card verification
 - card identification number
-- КВН
+- квн
 - cid
 - cvc2
 - cvv2
@@ -2040,7 +2040,7 @@ Registro de identidade (RIC) (новый формат):
 - n autorizzazione
 - кóдиго
 - кодиго
-- наложен. СЕГ
+- наложен. сег
 - cod seg
 - código de segurança
 - codigo de seguranca
@@ -2066,18 +2066,18 @@ Registro de identidade (RIC) (новый формат):
 - венЦимиенто
 - válido hasta
 - valido hasta
-- ВТО
+- вто
 - data de expiração
 - data de expiracao
 - data em que expira
 - валидаде
-- Валор
+- валор
 - венЦименто
-- Венк 
+- венк 
 
-#### <a name="keywordccname"></a>Кэйворд_кк_наме
+#### <a name="keyword_cc_name"></a>Keyword_cc_name
 
-- АМЕКС
+- амекс
 - american express
 - американекспресс
 - Visa
@@ -2097,7 +2097,7 @@ Registro de identidade (RIC) (новый формат):
 - carte blanche
 - картебланче
 - credit card
-- Центральной
+- Центральной #
 - CC #:
 - expiration date
 - exp date
@@ -2238,7 +2238,7 @@ Registro de identidade (RIC) (новый формат):
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordcroatiaidcard"></a>Кэйворд_кроатиа_ид_кард
+#### <a name="keyword_croatia_id_card"></a>Keyword_croatia_id_card
 
 - Croatian identity card
 - Osobna iskaznica
@@ -2286,7 +2286,7 @@ Registro de identidade (RIC) (новый формат):
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordcroatiaoibnumber"></a>Кэйворд_кроатиа_оиб_нумбер
+#### <a name="keyword_croatia_oib_number"></a>Keyword_croatia_oib_number
 
 - Personal Identification Number
 - Osobni identifikacijski broj 
@@ -2325,7 +2325,7 @@ OR
 
 ### <a name="definition"></a>Определение
 
-Политика защиты от потери данных — 85% уверенности, что она обнаружила этот тип конфиденциальной информации, если в пределах близости от 300 символов: функция Функ_кзеч_ид_кард находит содержимое, которое соответствует шаблону;
+Политика защиты от потери данных — 85% уверенности, что она обнаружила этот тип конфиденциальной информации, если в пределах близости от 300 символов: функция Func_czech_id_card находит содержимое, которое соответствует шаблону;
 находится ключевое слово из Keyword_czech_id_card;
 Контрольная сумма проходит проверку.
 
@@ -2362,7 +2362,7 @@ OR
 
 ### <a name="definition"></a>Определение
 
-Политика защиты от потери данных — 75% уверенности в том, что этот тип конфиденциальной информации обнаружен, если в пределах близости от 300 символов: регулярное выражение Режекс_денмарк_ид находит содержимое, которое соответствует шаблону.
+Политика защиты от потери данных — 75% уверенности в том, что этот тип конфиденциальной информации обнаружен, если в пределах близости от 300 символов: регулярное выражение Regex_denmark_id находит содержимое, которое соответствует шаблону.
 находится ключевое слово из Keyword_denmark_id;
 Контрольная сумма проходит проверку.
 
@@ -2378,12 +2378,12 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keyworddenmarkid"></a>Кэйворд_денмарк_ид
+#### <a name="keyword_denmark_id"></a>Keyword_denmark_id
 
 - Personal Identification Number
 - CPR
 - Det Centrale Personregister
-- Персоннуммер
+- персоннуммер
    
 ## <a name="drug-enforcement-agency-dea-number"></a>Номер Управления по борьбе с наркотиками США (DEA)
 
@@ -2466,15 +2466,15 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordeudebitcard"></a>Кэйворд_еу_дебит_кард
+#### <a name="keyword_eu_debit_card"></a>Keyword_eu_debit_card
 
 - account number 
 - card number 
 - card no. 
 - security number 
-- Центральной 
+- Центральной # 
 
-#### <a name="keywordcardtermsdict"></a>Кэйворд_кард_термс_дикт
+#### <a name="keyword_card_terms_dict"></a>Keyword_card_terms_dict
 
 - acct nbr 
 - acct num 
@@ -2482,7 +2482,7 @@ OR
 - american express 
 - американекспресс 
 - americano espresso 
-- АМЕКС 
+- амекс 
 - atm card 
 - atm cards 
 - atm kaart 
@@ -2578,7 +2578,7 @@ OR
 - кредиткартенинститут 
 - кредиткартеннуммер 
 - кредиткартентип 
-- Маестро 
+- маестро 
 - master card 
 - master cards 
 - MasterCard 
@@ -2655,7 +2655,7 @@ OR
 - висум 
 - впай   
 
-#### <a name="keywordcardsecuritytermsdict"></a>Кэйворд_кард_секурити_термс_дикт
+#### <a name="keyword_card_security_terms_dict"></a>Keyword_card_security_terms_dict
 
 - card identification number
 - card verification 
@@ -2665,7 +2665,7 @@ OR
 - cod seguranca 
 - cod segurança 
 - cod sicurezza 
-- наложен. СЕГ 
+- наложен. сег 
 - наложен. сегуранка 
 - наложен. сегуранçа 
 - наложен. сикурезза 
@@ -2678,10 +2678,10 @@ OR
 - криптограм 
 - криптограмме 
 - cv2 
-- КВК 
+- квк 
 - cvc2 
-- КВН 
-- КВВ 
+- квн 
+- квв 
 - cvv2 
 - cód seguranca 
 - cód segurança 
@@ -2727,7 +2727,7 @@ OR
 - веилигхеидснуммер 
 - верфаллдатум 
 
-#### <a name="keywordcardexpirationtermsdict"></a>Кэйворд_кард_експиратион_термс_дикт
+#### <a name="keyword_card_expiration_terms_dict"></a>Keyword_card_expiration_terms_dict
 
 - аблауф 
 - data de expiracao 
@@ -2761,14 +2761,14 @@ OR
 - валабле 
 - валидаде 
 - valido hasta 
-- Валор 
-- Венк 
+- валор 
+- венк 
 - венЦименто 
 - венЦимиенто 
 - верлупт 
 - вервалдаг 
 - вервалдатум 
-- ВТО 
+- вто 
 - válido hasta 
    
 ## <a name="eu-drivers-license-number"></a>Номер водительского удостоверения для драйвера ЕС
@@ -2828,20 +2828,20 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-- Кэйворд_финниш_натионал_ид
-- Сосиаалитурватуннус
+- Keyword_finnish_national_id
+- сосиаалитурватуннус
 - SOTU Henkilötunnus HETU
-- Персонбетеккнинг
-- Персоннуммер
+- персонбетеккнинг
+- персоннуммер
    
 ## <a name="finland-passport-number"></a>Номер паспорта для Финляндии
 
-Комбинация, состоящая из девяти букв и цифр, комбинация из девяти букв и цифр: две буквы (без учета регистра) семь цифр контрольная сумма нет определения политика защиты от потери данных — 75% уверенности в том, что этот тип конфиденциальной информации определен, если в близость от 300 символов: регулярное выражение Режекс_финланд_пасспорт_нумбер находит содержимое, которое соответствует шаблону.
+Комбинация, состоящая из девяти букв и цифр, комбинация из девяти букв и цифр: две буквы (без учета регистра) семь цифр контрольная сумма нет определения политика защиты от потери данных — 75% уверенности в том, что этот тип конфиденциальной информации определен, если в близость от 300 символов: регулярное выражение Regex_finland_passport_number находит содержимое, которое соответствует шаблону.
 находится ключевое слово из Keyword_finland_passport_number.
 <!-- Finland Passport Number -->
 <Entity id="d1685ac3-1d3a-40f8-8198-32ef5669c7a5" recommendedConfidence="75" patternsProximity="300"> <Pattern confidenceLevel="75"> <IdMatch idRef="Regex_finland_passport_number"/> <Match idRef="Keyword_finland_passport_number"/> </Pattern>
 </Entity>
-Ключевые слова Кэйворд_финланд_пасспорт_нумбер Passport Пасси
+Ключевые слова Keyword_finland_passport_number Passport Пасси
    
 ## <a name="france-drivers-license-number"></a>Номер водительского удостоверения для Франции
 
@@ -2880,7 +2880,7 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordfrenchdriverslicense"></a>Кэйворд_френч_дриверс_лиценсе
+#### <a name="keyword_french_drivers_license"></a>Keyword_french_drivers_license
 
 - drivers licence
 - drivers license
@@ -2959,14 +2959,14 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordpassport"></a>Кэйворд_пасспорт
+#### <a name="keyword_passport"></a>Keyword_passport
 
 - Passport Number
 - Passport No
 - Passport#
-- Службу
-- Пасспортид
-- Пасспортно
+- Службу #
+- пасспортид
+- пасспортно
 - пасспортнумбер
 - パスポート
 - パスポート番号
@@ -2976,8 +2976,8 @@ OR
 - Passeport n °
 - Passeport Non
 - Passeport#
-- Пассепорт #
-- Пассепортнон
+- пассепорт #
+- пассепортнон
 - Passeportn °
 
       
@@ -3001,12 +3001,12 @@ OR
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 95 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Функ_френч_инси или Функ_фр_инси находит содержимое, которое соответствует шаблону.
+- Функция Func_french_insee или Func_fr_insee находит содержимое, которое соответствует шаблону.
 - находится ключевое слово из Keyword_fr_insee;
 - Контрольная сумма проходит проверку.
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Функ_френч_инси или Функ_фр_инси находит содержимое, которое соответствует шаблону.
+- Функция Func_french_insee или Func_fr_insee находит содержимое, которое соответствует шаблону.
 - ни одно ключевое слово из Keyword_fr_insee не находится;
 - Контрольная сумма проходит проверку.
 
@@ -3032,7 +3032,7 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordfrinsee"></a>Кэйворд_фр_инси
+#### <a name="keyword_fr_insee"></a>Keyword_fr_insee
 
 - INSEE
 - securité sociale
@@ -3101,35 +3101,35 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordgermandriverslicensenumber"></a>Кэйворд_жерман_дриверс_лиценсе_нумбер
+#### <a name="keyword_german_drivers_license_number"></a>Keyword_german_drivers_license_number
 
-- Фüхрерсчеин
-- Фухрерсчеин
-- Фуехрерсчеин
-- Фüхрерсчеиннуммер
-- Фухрерсчеиннуммер
-- Фуехрерсчеиннуммер
+- фüхрерсчеин
+- фухрерсчеин
+- фуехрерсчеин
+- фüхрерсчеиннуммер
+- фухрерсчеиннуммер
+- фуехрерсчеиннуммер
 - Фüхрерсчеин — 
 - Фухрерсчеин — 
 - Фуехрерсчеин — 
-- Фüхрерсчеиннуммернр
-- Фухрерсчеиннуммернр
-- Фуехрерсчеиннуммернр
-- Фüхрерсчеиннуммерклассе
-- Фухрерсчеиннуммерклассе
-- Фуехрерсчеиннуммерклассе
+- фüхрерсчеиннуммернр
+- фухрерсчеиннуммернр
+- фуехрерсчеиннуммернр
+- фüхрерсчеиннуммерклассе
+- фухрерсчеиннуммерклассе
+- фуехрерсчеиннуммерклассе
 - Führerschein- Nr
 - Fuhrerschein- Nr
 - Fuehrerschein- Nr 
 - Führerschein- Klasse 
 - Fuhrerschein- Klasse 
 - Fuehrerschein- Klasse
-- Фüхрерсчеиннуммернр 
-- Фухрерсчеиннуммернр 
-- Фуехрерсчеиннуммернр 
-- Фüхрерсчеиннуммерклассе 
-- Фухрерсчеиннуммерклассе 
-- Фуехрерсчеиннуммерклассе 
+- фüхрерсчеиннуммернр 
+- фухрерсчеиннуммернр 
+- фуехрерсчеиннуммернр 
+- фüхрерсчеиннуммерклассе 
+- фухрерсчеиннуммерклассе 
+- фуехрерсчеиннуммерклассе 
 - Führerschein- Nr 
 - Fuhrerschein- Nr 
 - Fuehrerschein- Nr 
@@ -3169,7 +3169,7 @@ OR
 - Driving Licence 
 - Driving Licences
 
-#### <a name="keywordgermandriverslicensecollaborative"></a>Кэйворд_жерман_дриверс_лиценсе_коллаборативе
+#### <a name="keyword_german_drivers_license_collaborative"></a>Keyword_german_drivers_license_collaborative
 
 - НР — Фüхрерсчеин 
 - НР — Фухрерсчеин 
@@ -3190,7 +3190,7 @@ OR
 - N — Фухрерсчеин 
 - N — Фуехрерсчеин 
 
-#### <a name="keywordgermandriverslicense"></a>Кэйворд_жерман_дриверс_лиценсе
+#### <a name="keyword_german_drivers_license"></a>Keyword_german_drivers_license
 
 - аусстеллунгсдатум
 - аусстеллунгсорт
@@ -3256,7 +3256,7 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordgermanpassport"></a>Кэйворд_жерман_пасспорт
+#### <a name="keyword_german_passport"></a>Keyword_german_passport
 
 - реисепасс
 - реисепассе
@@ -3264,21 +3264,21 @@ OR
 - службу
 - паспорты
 
-#### <a name="keywordgermanpassportcollaborative"></a>Кэйворд_жерман_пасспорт_коллаборативе
+#### <a name="keyword_german_passport_collaborative"></a>Keyword_german_passport_collaborative
 
 - жебуртсдатум
 - аусстеллунгсдатум
 - аусстеллунгсорт
 
-#### <a name="keywordgermanpassportnumber"></a>Кэйворд_жерман_пасспорт_нумбер
+#### <a name="keyword_german_passport_number"></a>Keyword_german_passport_number
 
 No — Реисепасс НР — Реисепасс
 
-#### <a name="keywordgermanpassport1"></a>Keyword_german_passport1
+#### <a name="keyword_german_passport1"></a>Keyword_german_passport1
 
 Реисепасс — НР
 
-#### <a name="keywordgermanpassport2"></a>Keyword_german_passport2
+#### <a name="keyword_german_passport2"></a>Keyword_german_passport2
 
 бнатионалит. t
    
@@ -3321,15 +3321,15 @@ No — Реисепасс НР — Реисепасс
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordgermanyidcard"></a>Кэйворд_жермани_ид_кард
+#### <a name="keyword_germany_id_card"></a>Keyword_germany_id_card
 
 - Identity Card
 - ID
 - Процедура
-- Персоналаусвеис
-- Идентифизиерунгснуммер
-- Аусвеис
-- Идентификатион
+- персоналаусвеис
+- идентифизиерунгснуммер
+- аусвеис
+- идентификатион
    
 ## <a name="greece-national-id-card"></a>Номер внутреннего удостоверения личности для Греции
 
@@ -3371,12 +3371,12 @@ No — Реисепасс НР — Реисепасс
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordgreeceidcard"></a>Кэйворд_грице_ид_кард
+#### <a name="keyword_greece_id_card"></a>Keyword_greece_id_card
 
 - Greek identity Card
-- Таутотита
+- таутотита
 - Δελτίο αστυνομικής ταυτότητας
-- Ταυτότητα
+- ταυτότητα
    
 ## <a name="hong-kong-identity-card-hkid-number"></a>Номер удостоверения личности для Гонконга (HKID)
 
@@ -3421,10 +3421,10 @@ No — Реисепасс НР — Реисепасс
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordhongkongidcard"></a>Кэйворд_хонг_конг_ид_кард
+#### <a name="keyword_hong_kong_id_card"></a>Keyword_hong_kong_id_card
 
 - идентификационная карточка Гонконг
-- ХКИДК
+- хкидк
 - id card
 - identity card
 - идентификационная карточка HK
@@ -3496,7 +3496,7 @@ No — Реисепасс НР — Реисепасс
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordindiapermanentaccountnumber"></a>Кэйворд_индиа_перманент_аккаунт_нумбер
+#### <a name="keyword_india_permanent_account_number"></a>Keyword_india_permanent_account_number
 
 - Permanent Account Number 
 - ПАНОРАМИРОВАНИЕ 
@@ -3522,10 +3522,10 @@ No — Реисепасс НР — Реисепасс
 
 ### <a name="definition"></a>Определение
 
-Политика защиты от потери данных — 85% уверенности, что она обнаружила этот тип конфиденциальной информации, если в пределах близости от 300 символов: функция Функ_индиа_аадхаар находит содержимое, которое соответствует шаблону;
+Политика защиты от потери данных — 85% уверенности, что она обнаружила этот тип конфиденциальной информации, если в пределах близости от 300 символов: функция Func_india_aadhaar находит содержимое, которое соответствует шаблону;
 находится ключевое слово из Keyword_india_aadhar;
 Контрольная сумма проходит проверку.
-Политика защиты от потери данных — 75% уверенности, что она обнаружила этот тип конфиденциальной информации, если в пределах близости от 300 символов: функция Функ_индиа_аадхаар находит содержимое, которое соответствует шаблону;
+Политика защиты от потери данных — 75% уверенности, что она обнаружила этот тип конфиденциальной информации, если в пределах близости от 300 символов: функция Func_india_aadhaar находит содержимое, которое соответствует шаблону;
 Контрольная сумма проходит проверку.
 <!-- India Unique Identification (Aadhaar) number -->
 <Entity id="1ca46b29-76f5-4f46-9383-cfa15e91048f" recommendedConfidence="85" patternsProximity="300"> <Pattern confidenceLevel="85"> <IdMatch idRef="Func_india_aadhaar"/> <Match idRef="Keyword_india_aadhar"/> </Pattern> <Pattern confidenceLevel="75"> <IdMatch idRef="Func_india_aadhaar"/> </Pattern>
@@ -3533,8 +3533,8 @@ No — Реисепасс НР — Реисепасс
 
 ### <a name="keywords"></a>Ключевые слова
    
-#### <a name="keywordindiaaadhar"></a>Кэйворд_индиа_аадхар
-- Аадхар
+#### <a name="keyword_india_aadhar"></a>Keyword_india_aadhar
+- аадхар
 - Aadhaar
 - UID
 - आधार
@@ -3585,7 +3585,7 @@ No — Реисепасс НР — Реисепасс
 
 ### <a name="keywords"></a>Ключевые слова
    
-#### <a name="keywordindonesiaidcard"></a>Кэйворд_индонесиа_ид_кард
+#### <a name="keyword_indonesia_id_card"></a>Keyword_indonesia_id_card
 
 - KTP
 - Kartu Tanda Penduduk 
@@ -3689,7 +3689,7 @@ ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, dk, do, ee, es, fi, fo, 
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordipaddress"></a>Кэйворд_ипаддресс
+#### <a name="keyword_ipaddress"></a>Keyword_ipaddress
 
 - IP (ключевое слово с учетом регистра)
 - ip address 
@@ -3817,15 +3817,15 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordirelandpps"></a>Кэйворд_иреланд_ппс
+#### <a name="keyword_ireland_pps"></a>Keyword_ireland_pps
 
 - Personal Public Service Number 
 - PPS Number 
 - PPS Num 
 - PPS No. 
 - PPS # 
-- PPS 
-- ППСН 
+- PPS # 
+- ппсн 
 - Public Services Card 
 - Uimhir Phearsanta Seirbhíse Poiblí 
 - Уимх. НАСТРОЕН 
@@ -3873,7 +3873,7 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordisraelbankaccountnumber"></a>Кэйворд_исраел_банк_аккаунт_нумбер
+#### <a name="keyword_israel_bank_account_number"></a>Keyword_israel_bank_account_number
 
 - Bank Account Number 
 - Bank Account 
@@ -3915,7 +3915,7 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordisraelnationalid"></a>Кэйворд_исраел_натионал_ид
+#### <a name="keyword_israel_national_id"></a>Keyword_Israel_National_ID
 
 - מספר זהות 
 - National ID Number
@@ -3958,7 +3958,7 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keyworditalydriverslicensenumber"></a>Кэйворд_итали_дриверс_лиценсе_нумбер
+#### <a name="keyword_italy_drivers_license_number"></a>Keyword_italy_drivers_license_number
 
 - numero di patente di guida 
 - patente di guida 
@@ -4017,7 +4017,7 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordjpbankaccount"></a>Кэйворд_жп_банк_аккаунт
+#### <a name="keyword_jp_bank_account"></a>Keyword_jp_bank_account
 
 - Checking Account Number 
 - Checking Account 
@@ -4074,9 +4074,9 @@ Dictionary
 - デビットакктの番号 
 - デビット口座番号 
 
-#### <a name="keywordjpbankbranchcode"></a>Кэйворд_жп_банк_бранч_коде
+#### <a name="keyword_jp_bank_branch_code"></a>Keyword_jp_bank_branch_code
 
-Отемачи
+отемачи
 
 ## <a name="japan-drivers-license-number"></a>Номер водительского удостоверения для Японии
 
@@ -4110,11 +4110,11 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordjpdriverslicensenumber"></a>Кэйворд_жп_дриверс_лиценсе_нумбер
+#### <a name="keyword_jp_drivers_license_number"></a>Keyword_jp_drivers_license_number
 
+- DL # 
 - DL 
-- DL 
-- библиотек 
+- библиотек # 
 - БИБЛИОТЕК 
 - driver license 
 - driver licenses 
@@ -4123,7 +4123,7 @@ Dictionary
 - drivers licenses 
 - driver's licenses 
 - driving licence 
-- Лик # 
+- лик # 
 - Лик # 
 - ликс # 
 - state id 
@@ -4170,7 +4170,7 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordjppassport"></a>Кэйворд_жп_пасспорт
+#### <a name="keyword_jp_passport"></a>Keyword_jp_passport
 
 - パスポート 
 - パスポート番号 
@@ -4209,7 +4209,7 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordjpresidentregistrationnumber"></a>Кэйворд_жп_ресидент_регистратион_нумбер
+#### <a name="keyword_jp_resident_registration_number"></a>Keyword_jp_resident_registration_number
 
 - Resident Registration Number
 - Resident Register Number 
@@ -4268,7 +4268,7 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordjpsin"></a>Кэйворд_жп_син
+#### <a name="keyword_jp_sin"></a>Keyword_jp_sin
 
 - Social Insurance No. 
 - Social Insurance Num 
@@ -4296,8 +4296,8 @@ Dictionary
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение Режекс_жп_ресиденце_кард_нумбер находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Кэйворд_жп_ресиденце_кард_нумбер.
+- Регулярное выражение Regex_jp_residence_card_number находит содержимое, которое соответствует шаблону;
+- Найдено ключевое слово из Keyword_jp_residence_card_number.
 
 ```
 <!--Japan Residence Card Number-->
@@ -4311,11 +4311,11 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordjpresidencecardnumber"></a>Кэйворд_жп_ресиденце_кард_нумбер
+#### <a name="keyword_jp_residence_card_number"></a>Keyword_jp_residence_card_number
 
 - Номер карточки проживания
 - Номер карточки проживания
-- Номер карточки проживания
+- Карточка проживания #
 - 在留カード番号
    
 ## <a name="malaysia-id-card-number"></a>Номер удостоверения личности для Малайзии
@@ -4357,7 +4357,7 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
    
-#### <a name="keywordmalaysiaidcardnumber"></a>Кэйворд_малайсиа_ид_кард_нумбер
+#### <a name="keyword_malaysia_id_card_number"></a>Keyword_malaysia_id_card_number
 
 - карточка цифрового приложения
 - i/c
@@ -4375,9 +4375,9 @@ Dictionary
 - ключев
 - ключевой номер
 - микад
-- Микас
+- микас
 - микид
-- МИПР
+- мипр
 - митентера
 - идентификационная карточка Малайзии
 - идентификационная карточка малайсиан
@@ -4424,14 +4424,14 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordnetherlandsbsn"></a>Кэйворд_несерландс_бсн
+#### <a name="keyword_netherlands_bsn"></a>Keyword_netherlands_bsn
 
 - Citizen service number 
 - BSN 
-- Буржерсервиценуммер 
-- Софинуммер 
+- буржерсервиценуммер 
+- софинуммер 
 - Persoonsgebonden nummer 
-- Персунснуммер    
+- персунснуммер    
 
    
 ## <a name="new-zealand-ministry-of-health-number"></a>Номер министерства здравоохранения для Новой Зеландии
@@ -4469,9 +4469,9 @@ Dictionary
 
 Ключевые слова
 
-Кэйворд_нз_термс
+Keyword_nz_terms
 
-- НХИ 
+- нхи 
 - Новая Зеландия 
 - Работоспособность 
 - обращения 
@@ -4518,14 +4518,14 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordnorwayidnumber"></a>Кэйворд_норвай_ид_нумбер
+#### <a name="keyword_norway_id_number"></a>Keyword_norway_id_number
 
 - Personal identification number
 - Norwegian ID Number
 - ID Number
 - Процедура
-- Персоннуммер
-- Фøдселснуммер
+- персоннуммер
+- фøдселснуммер
 
    
 ## <a name="philippines-unified-multi-purpose-id-number"></a>Единый многофункциональный идентификационный номер для Филиппин
@@ -4565,10 +4565,10 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
    
-#### <a name="keywordphilippinesid"></a>Кэйворд_филиппинес_ид
+#### <a name="keyword_philippines_id"></a>Keyword_philippines_id
 
 - Unified Multi-Purpose ID 
-- Умид 
+- умид 
 - Identity Card 
 - Pinag-isang Multi-Layunin ID
    
@@ -4588,7 +4588,7 @@ Dictionary
 
 ### <a name="definition"></a>Определение
 
-Политика защиты от потери данных — 75% уверенности, что она обнаружила этот тип конфиденциальной информации, если в пределах близости от 300 символов: функция Функ_полиш_натионал_ид находит содержимое, которое соответствует шаблону;
+Политика защиты от потери данных — 75% уверенности, что она обнаружила этот тип конфиденциальной информации, если в пределах близости от 300 символов: функция Func_polish_national_id находит содержимое, которое соответствует шаблону;
 находится ключевое слово из Keyword_polish_national_id_passport_number;
 Контрольная сумма проходит проверку.
 
@@ -4604,7 +4604,7 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordpolishnationalidpassportnumber"></a>Кэйворд_полиш_натионал_ид_пасспорт_нумбер
+#### <a name="keyword_polish_national_id_passport_number"></a>Keyword_polish_national_id_passport_number
 
 - Довóд особисти
 - Нумер доводу особистего
@@ -4648,7 +4648,7 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordpeselidentificationnumber"></a>Кэйворд_песел_идентификатион_нумбер
+#### <a name="keyword_pesel_identification_number"></a>Keyword_pesel_identification_number
 
 - Nr PESEL
 - PESEL   
@@ -4688,11 +4688,11 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordpolishnationalidpassportnumber"></a>Кэйворд_полиш_натионал_ид_пасспорт_нумбер
+#### <a name="keyword_polish_national_id_passport_number"></a>Keyword_polish_national_id_passport_number
 
 - Нумер пасзпорту
-- НР. Пасзпорту
-- Пасзпорт
+- НР. пасзпорту
+- пасзпорт
 
    
 ## <a name="portugal-citizen-card-number"></a>Номер карты гражданина Португалии
@@ -4727,7 +4727,7 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordportugalcitizencard"></a>Кэйворд_португал_Цитизен_кард
+#### <a name="keyword_portugal_citizen_card"></a>Keyword_portugal_citizen_card
 
 - Citizen Card
 - National ID Card
@@ -4769,7 +4769,7 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordsaudiarabianationalid"></a>Кэйворд_сауди_арабиа_натионал_ид
+#### <a name="keyword_saudi_arabia_national_id"></a>Keyword_saudi_arabia_national_id
 
 - Identification Card 
 - I card number 
@@ -4820,7 +4820,7 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
    
-#### <a name="keywordsingaporenric"></a>Кэйворд_сингапоре_нрик
+#### <a name="keyword_singapore_nric"></a>Keyword_singapore_nric
 
 - National Registration Identity Card 
 - Identity Card Number 
@@ -4869,7 +4869,7 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
    
-#### <a name="keywordsouthafricaidentificationnumber"></a>Кэйворд_саус_африка_идентификатион_нумбер
+#### <a name="keyword_south_africa_identification_number"></a>Keyword_south_africa_identification_number
 
 - Identity card
 - ID
@@ -4921,12 +4921,12 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
    
-#### <a name="keywordsouthkorearesidentnumber"></a>Кэйворд_саус_кореа_ресидент_нумбер
+#### <a name="keyword_south_korea_resident_number"></a>Keyword_south_korea_resident_number
 
 - National ID card 
 - Citizen's Registration Number 
 - Jumin deungnok beonho 
-- РРН 
+- ррн 
 - 주민등록번호
    
 ## <a name="spain-social-security-number-ssn"></a>Страховой номер для Испании (SSN)
@@ -4990,10 +4990,10 @@ Dictionary
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение Цеп_режекс_склсерверконнектионстринг находит содержимое, которое соответствует шаблону;
-- **Не** найдено ключевое слово из цеп_глобалфилтер.
-- Регулярное выражение Цеп_пассвордплацехолдер не **** находит содержимое, которое соответствует шаблону.
-- Регулярное выражение Цеп_коммонексамплекэйвордс не **** находит содержимое, которое соответствует шаблону.
+- Регулярное выражение CEP_Regex_SQLServerConnectionString находит содержимое, которое соответствует шаблону;
+- **Не** найдено ключевое слово из CEP_GlobalFilter.
+- Регулярное выражение CEP_PasswordPlaceHolder не **** находит содержимое, которое соответствует шаблону.
+- Регулярное выражение CEP_CommonExampleKeywords не **** находит содержимое, которое соответствует шаблону.
 
 ```
 <!---SQL Server Connection String>
@@ -5011,14 +5011,14 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="cepglobalfilter"></a>Цеп_глобалфилтер
+#### <a name="cep_globalfilter"></a>CEP_GlobalFilter
 
 - Некоторые пароли
 - сомепассворд
-- Секретпассворд
+- секретпассворд
 - примером
 
-#### <a name="ceppasswordplaceholder"></a>Цеп_пассвордплацехолдер
+#### <a name="cep_passwordplaceholder"></a>CEP_PasswordPlaceHolder
 
 (Технически, обратите внимание, что этот тип конфиденциальной информации определяет эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
 
@@ -5029,7 +5029,7 @@ Dictionary
     - Любое сочетание 1-200 символов, которые являются буквами верхнего или нижнего регистра, цифрами, звездочкой (*), дефисом (-), подчеркиванием (_) или символом пробела
     - Символ "больше" (>)
 
-#### <a name="cepcommonexamplekeywords"></a>Цеп_коммонексамплекэйвордс
+#### <a name="cep_commonexamplekeywords"></a>CEP_CommonExampleKeywords
 
 (Технически, обратите внимание, что этот тип конфиденциальной информации определяет эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
 
@@ -5117,7 +5117,7 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
    
-#### <a name="keywordswedenpassport"></a>Кэйворд_сведен_пасспорт
+#### <a name="keyword_sweden_passport"></a>Keyword_sweden_passport
 
 - visa requirements 
 - Alien Registration Card 
@@ -5129,14 +5129,14 @@ Dictionary
 - Multiple Entry 
 - G3 Processing Fees 
 
-#### <a name="keywordpassport"></a>Кэйворд_пасспорт
+#### <a name="keyword_passport"></a>Keyword_passport
 
 - Passport Number 
 - Passport No 
 - Passport# 
-- Службу 
-- Пасспортид 
-- Пасспортно 
+- Службу # 
+- пасспортид 
+- пасспортно 
 - пасспортнумбер 
 - パスポート 
 - パスポート番号 
@@ -5146,8 +5146,8 @@ Dictionary
 - Passeport n ° 
 - Passeport Non 
 - Passeport# 
-- Пассепорт # 
-- Пассепортнон 
+- пассепорт # 
+- пассепортнон 
 - Passeportn ° 
    
 ## <a name="swift-code"></a>Код SWIFT
@@ -5186,7 +5186,7 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
    
-#### <a name="keywordswift"></a>Кэйворд_свифт
+#### <a name="keyword_swift"></a>Keyword_swift
 
 - international organization for standardization 9362 
 - iso 9362 
@@ -5205,11 +5205,11 @@ Dictionary
 - bank identifier code 
 - 標準化 9362 
 - 迅速 # 
-- Свифтコード 
-- Свифт番号 
+- свифтコード 
+- свифт番号 
 - 迅速なルーティング番号 
-- Бик番号 
-- Бикコード 
+- бик番号 
+- бикコード 
 - 銀行識別コードのための国際組織 
 - Organisation internationale de normalisation 9362 
 - Быстрая\# 
@@ -5256,7 +5256,7 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordtaiwanesenationalid"></a>Кэйворд_таиванесе_натионал_ид
+#### <a name="keyword_taiwanese_national_id"></a>Keyword_taiwanese_national_id
 
 - 身份證字號 
 - 身份證 
@@ -5310,7 +5310,7 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordtaiwanpassport"></a>Кэйворд_таиван_пасспорт
+#### <a name="keyword_taiwan_passport"></a>Keyword_taiwan_passport
 
 - ROC passport number 
 - Passport number 
@@ -5355,7 +5355,7 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordtaiwanresidentcertificate"></a>Кэйворд_таиван_ресидент_цертификате
+#### <a name="keyword_taiwan_resident_certificate"></a>Keyword_taiwan_resident_certificate
 
 - Resident Certificate 
 - Resident Cert 
@@ -5388,11 +5388,11 @@ Dictionary
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Функ_саи_Цитизен_ид обнаружила содержимое, соответствующее шаблону.
-- Найдено ключевое слово из Кэйворд_саи_Цитизен_ид.
+- Функция Func_Thai_Citizen_Id обнаружила содержимое, соответствующее шаблону.
+- Найдено ключевое слово из Keyword_Thai_Citizen_Id.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Функ_саи_Цитизен_ид обнаружила содержимое, соответствующее шаблону.
+- Функция Func_Thai_Citizen_Id обнаружила содержимое, соответствующее шаблону.
 
 ```
 <!-- Thai Citizen ID -->
@@ -5409,7 +5409,7 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordthaicitizenid"></a>Кэйворд_саи_Цитизен_ид
+#### <a name="keyword_thai_citizen_id"></a>Keyword_Thai_Citizen_Id
 
 - ID Number
 - Идентификационный номер
@@ -5435,11 +5435,11 @@ Dictionary
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Функ_туркиш_натионал_ид обнаружила содержимое, соответствующее шаблону.
-- Найдено ключевое слово из Кэйворд_туркиш_натионал_ид.
+- Функция Func_Turkish_National_Id обнаружила содержимое, соответствующее шаблону.
+- Найдено ключевое слово из Keyword_Turkish_National_Id.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Функ_туркиш_натионал_ид обнаружила содержимое, соответствующее шаблону.
+- Функция Func_Turkish_National_Id обнаружила содержимое, соответствующее шаблону.
 
 ```
 <!-- Turkish National Identity -->
@@ -5456,7 +5456,7 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordturkishnationalid"></a>Кэйворд_туркиш_натионал_ид
+#### <a name="keyword_turkish_national_id"></a>Keyword_Turkish_National_Id
 
 - TC Кимлик No
 - TC Кимлик нумарасı
@@ -5501,9 +5501,9 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordukdriverslicense"></a>Кэйворд_ук_дриверс_лиценсе
+#### <a name="keyword_uk_drivers_license"></a>Keyword_uk_drivers_license
 
-- ДВЛА 
+- двла 
 - light vans 
 - куадбикес 
 - motor cars 
@@ -5553,7 +5553,7 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordukelectoral"></a>Кэйворд_ук_електорал
+#### <a name="keyword_uk_electoral"></a>Keyword_uk_electoral
 
 - council nomination 
 - nomination form 
@@ -5606,24 +5606,24 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
    
-#### <a name="keyworduknhsnumber"></a>Кэйворд_ук_нхс_нумбер
+#### <a name="keyword_uk_nhs_number"></a>Keyword_uk_nhs_number
 
 - national health service 
 - NHS 
 - health services authority 
 - health authority
 
-#### <a name="keyworduknhsnumber1"></a>Keyword_uk_nhs_number1
+#### <a name="keyword_uk_nhs_number1"></a>Keyword_uk_nhs_number1
 
 - patient id 
 - patient identification 
 - patient no 
 - patient number
 
-#### <a name="keyworduknhsnumberdob"></a>Кэйворд_ук_нхс_нумбер_доб
+#### <a name="keyword_uk_nhs_number_dob"></a>Keyword_uk_nhs_number_dob
 
 - ГРУПП 
-- ДОБ 
+- доб 
 - D. O. B 
 - Date of Birth 
 - Birth Date 
@@ -5688,7 +5688,7 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keyworduknino"></a>Кэйворд_ук_нино
+#### <a name="keyword_uk_nino"></a>Keyword_uk_nino
 
 - national insurance number 
 - national insurance contributions 
@@ -5734,14 +5734,14 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordpassport"></a>Кэйворд_пасспорт
+#### <a name="keyword_passport"></a>Keyword_passport
 
 - Passport Number 
 - Passport No 
 - Passport# 
-- Службу 
-- Пасспортид 
-- Пасспортно 
+- Службу # 
+- пасспортид 
+- пасспортно 
 - пасспортнумбер 
 - パスポート 
 - パスポート番号 
@@ -5751,8 +5751,8 @@ OR
 - Passeport n ° 
 - Passeport Non 
 - Passeport# 
-- Пассепорт # 
-- Пассепортнон 
+- пассепорт # 
+- пассепортнон 
 - Passeportn ° 
    
 ## <a name="us-bank-account-number"></a>Номер банковского счета для США
@@ -5787,7 +5787,7 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordusabankaccount"></a>Кэйворд_уса_банк_аккаунт
+#### <a name="keyword_usa_bank_account"></a>Keyword_usa_Bank_Account
 
 - Checking Account Number 
 - Checking Account 
@@ -5864,39 +5864,39 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordusdriverslicenseabbreviations"></a>Кэйворд_ус_дриверс_лиценсе_аббревиатионс
+#### <a name="keyword_us_drivers_license_abbreviations"></a>Keyword_us_drivers_license_abbreviations
 
 - DL 
 - БИБЛИОТЕК 
-- КДЛ 
-- КДЛС 
+- кдл 
+- кдлс 
 - ID 
 - Идентификаторы 
-- DL 
-- БИБЛИОТЕК 
-- КДЛ # 
-- КДЛС # 
-- КОДОВ
-- Идентификаторы 
+- DL # 
+- БИБЛИОТЕК # 
+- кдл # 
+- кдлс # 
+- КОДОВ #
+- Идентификаторы # 
 - ID number 
 - ID numbers 
-- Лик 
-- Лик # 
+- лик 
+- лик # 
 
-#### <a name="keywordusdriverslicense"></a>Кэйворд_ус_дриверс_лиценсе
+#### <a name="keyword_us_drivers_license"></a>Keyword_us_drivers_license
 
-- Дриверлик 
-- Дриверликс 
-- Дриверлиценсе 
-- Дриверлиценсес 
+- дриверлик 
+- дриверликс 
+- дриверлиценсе 
+- дриверлиценсес 
 - Driver Lic 
 - Driver Lics 
 - Driver License 
 - Driver Licenses 
-- Дриверслик 
-- Дриверсликс 
-- Дриверслиценсе 
-- Дриверслиценсес 
+- дриверслик 
+- дриверсликс 
+- дриверслиценсе 
+- дриверслиценсес 
 - Drivers Lic 
 - Drivers Lics 
 - Drivers License 
@@ -5909,10 +5909,10 @@ OR
 - Driver' Lics 
 - Driver' License 
 - Driver' Licenses
-- Дривер'слик 
-- Дривер'сликс 
-- Дривер'слиценсе 
-- Дривер'слиценсес 
+- дривер'слик 
+- дривер'сликс 
+- дривер'слиценсе 
+- дривер'слиценсес 
 - Driver's Lic 
 - Driver's Lics 
 - Driver's License 
@@ -5924,34 +5924,34 @@ OR
 - id cards 
 - identification card 
 - identification cards 
-- Дриверлик # 
-- Дриверликс # 
-- Дриверлиценсе # 
-- Дриверлиценсес # 
+- дриверлик # 
+- дриверликс # 
+- дриверлиценсе # 
+- дриверлиценсес # 
 - Driver Lic# 
 - Driver Lics# 
 - Driver License# 
 - Driver Licenses# 
-- Дриверслик # 
-- Дриверсликс # 
-- Дриверслиценсе # 
-- Дриверслиценсес # 
+- дриверслик # 
+- дриверсликс # 
+- дриверслиценсе # 
+- дриверслиценсес # 
 - Drivers Lic# 
 - Drivers Lics# 
 - Drivers License# 
 - Drivers Licenses# 
-- Driver ' LIC 
-- Driver ' LICS 
-- Driver ' License 
-- Driver ' Licenses 
+- Driver ' LIC # 
+- Driver ' LICS # 
+- Driver ' License # 
+- Driver ' Licenses # 
 - Driver' Lic# 
 - Driver' Lics# 
 - Driver' License# 
 - Driver' Licenses# 
-- Дривер'слик # 
-- Дривер'сликс # 
-- Дривер'слиценсе # 
-- Дривер'слиценсес # 
+- дривер'слик # 
+- дривер'сликс # 
+- дривер'слиценсе # 
+- дривер'слиценсес # 
 - Driver's Lic# 
 - Driver's Lics# 
 - Driver's License# 
@@ -5962,7 +5962,7 @@ OR
 - identification cards# 
 
 
-#### <a name="keywordstatenamedriverslicensename"></a>Кэйворд_ [стате_наме] _дриверс_лиценсе_наме
+#### <a name="keyword_state_name_drivers_license_name"></a>Keyword_[state_name]_drivers_license_name
 
 - Аббревиатура штата (например, NY) 
 - Название штата (например, New York)    
@@ -6037,7 +6037,7 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keyworditin"></a>Кэйворд_итин
+#### <a name="keyword_itin"></a>Keyword_itin
 
 - дубликат 
 - tax id 
@@ -6051,11 +6051,11 @@ OR
 - такси 
 - individual taxpayer 
 
-#### <a name="keyworditincollaborative"></a>Кэйворд_итин_коллаборативе
+#### <a name="keyword_itin_collaborative"></a>Keyword_itin_collaborative
 
 - Лицензия 
 - DL 
-- ДОБ 
+- доб 
 - Birthdate 
 - День рождения  
 - Date of Birth 
@@ -6132,15 +6132,15 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordssn"></a>Кэйворд_ссн
+#### <a name="keyword_ssn"></a>Keyword_ssn
 
 - Social Security 
 - Social Security# 
 - Soc Sec 
 - SSN 
 - SSNS 
-- SSN 
-- НН 
+- SSN # 
+- НН # 
 - SSID 
    
 

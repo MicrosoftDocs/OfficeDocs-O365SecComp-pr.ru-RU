@@ -1,7 +1,7 @@
 ---
 title: Создание, тестирование и настройка политики защиты от потери данных
-ms.author: deniseb
-author: denisebmsft
+ms.author: chrfox
+author: chrfox
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
 description: 'Самый простой и распространенный способ приступить к работе с политиками защиты от потери данных — использовать один из шаблонов, включенных в Office 365. '
-ms.openlocfilehash: 32b0b4baa058fda031a58681e107b01bf207da55
-ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
+ms.openlocfilehash: 5d2bbc32c98341607ce630717924d8b16cf2879c
+ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34077965"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36230913"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>Создание, тестирование и настройка политики защиты от потери данных
 

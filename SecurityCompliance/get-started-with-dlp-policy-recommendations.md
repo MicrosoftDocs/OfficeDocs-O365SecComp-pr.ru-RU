@@ -1,7 +1,7 @@
 ---
 title: Рекомендации по началу работы с политикой DLP
-ms.author: deniseb
-author: denisebmsft
+ms.author: chrfox
+author: chrfox
 manager: laurawi
 ms.date: 8/7/2017
 audience: Admin
@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: Normal
 description: Эта рекомендация поможет вашей организации защитить конфиденциальный контент, если он хранится и предоставляется в Office 365, выполнив сведения о возможном разрыве политики защиты от потери данных. Вы увидите эту рекомендацию на домашней странице центра безопасности &amp; и соответствия требованиям, если ваши документы содержат любой из пяти наиболее распространенных типов конфиденциальной информации, но не защищены политикой DLP.
-ms.openlocfilehash: 326efb7591ba75ada9eec6a5e61e39e2a1fc09f9
-ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
+ms.openlocfilehash: 37292d1496fb9217b2c3d77fadff18ae002e14d7
+ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34077975"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36230663"
 ---
 # <a name="get-started-with-dlp-policy-recommendations"></a>Рекомендации по началу работы с политикой DLP
 

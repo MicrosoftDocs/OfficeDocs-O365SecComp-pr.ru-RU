@@ -1,7 +1,7 @@
 ---
 title: Настройка настраиваемого списка заблокированных URL-адресов с помощью безопасных ссылок Office 365 ATP
-ms.author: deniseb
-author: denisebmsft
+ms.author: tracyp
+author: msfttracyp
 manager: dansimp
 audience: Admin
 ms.topic: article
@@ -15,12 +15,12 @@ ms.assetid: 896a7efb-1683-465e-a394-261349e5d866
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как настроить список заблокированных URL-адресов для Организации с помощью Office 365 Advanced Threat protection. Заблокированные URL-адреса будут применяться к сообщениям электронной почты и документам Office в соответствии с политиками безопасных ссылок ATP.
-ms.openlocfilehash: e032d19c519b797936b90a94729534c73606a1a8
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+ms.openlocfilehash: 8d2b93fca599359ec1c6f4b4b3794ee2ccb466fe
+ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35598765"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36230333"
 ---
 # <a name="set-up-a-custom-blocked-urls-list-using-office-365-atp-safe-links"></a>Настройка настраиваемого списка заблокированных URL-адресов с помощью безопасных ссылок Office 365 ATP
 

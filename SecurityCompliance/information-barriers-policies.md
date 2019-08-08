@@ -1,7 +1,7 @@
 ---
 title: Определение политик барьера информации
-ms.author: deniseb
-author: denisebmsft
+ms.author: chrfox
+author: chrfox
 manager: laurawi
 ms.date: 07/08/2019
 audience: ITPro
@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Узнайте, как определить политики для барьеров информации в Microsoft Teams.
-ms.openlocfilehash: 527f059eb0bccb97429c649d055496c06710c2a9
-ms.sourcegitcommit: a6f046f1529b0515f4f0e918a19ec83f4138b871
+ms.openlocfilehash: 8ad6dd5e098438de0904fb511c631afbc761ff5b
+ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "35587088"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36230433"
 ---
 # <a name="define-policies-for-information-barriers"></a>Определение политик для барьеров информации
 

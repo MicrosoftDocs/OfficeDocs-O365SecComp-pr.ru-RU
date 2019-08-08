@@ -1,7 +1,7 @@
 ---
 title: Безопасные вложения Office 365 ATP
-ms.author: deniseb
-author: denisebmsft
+ms.author: tracyp
+author: MSFTTracyP
 manager: dansimp
 audience: Admin
 ms.date: 05/17/2019
@@ -15,12 +15,12 @@ ms.assetid: 6e13311e-92ae-495e-a619-56d770199170
 ms.collection:
 - M365-security-compliance
 description: Функция "безопасные вложения" обеспечивает проверку подлинности вложений электронной почты при нажатии этой кнопки. Используйте безопасные вложения, чтобы защитить организацию от вредоносных файлов, отправляемых и получаемых в сообщениях электронной почты.
-ms.openlocfilehash: 9077a555ca7f753448b866ce26f6ff4af5a165bd
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+ms.openlocfilehash: 387f14da591f2979ed15f0a6c7a29eb4bfd5689e
+ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35598575"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36231123"
 ---
 # <a name="office-365-atp-safe-attachments"></a>Безопасные вложения Office 365 ATP
 
