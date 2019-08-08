@@ -1,7 +1,7 @@
 ---
 title: Создание пользовательских типов конфиденциальной информации с помощью точного совпадения данных
-ms.author: deniseb
-author: denisebmsft
+ms.author: chrfox
+author: chrfox
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Создание пользовательских типов конфиденциальной информации с помощью классификации на основе точного совпадения данных.
-ms.openlocfilehash: 3b15bf0197918d6bbc3897f9fa578c40b70d3f4e
-ms.sourcegitcommit: 4eb4ca899adcf4d86501530f875eb49af8cdaeb7
+ms.openlocfilehash: be86f22ec20d36aaf12ae253028d0896f885267e
+ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "34083192"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36230843"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification-preview"></a>Создание пользовательских типов конфиденциальной информации с помощью классификации на основе точного совпадения данных (предварительная версия)
 
@@ -83,9 +83,11 @@ ms.locfileid: "34083192"
     
     (Вы можете скопировать, изменить и использовать наш пример.)
     
-    ```<?xml version="1.0" encoding="utf-8"?> <EdmSchema xmlns="http://schemas.microsoft.com/office/2018/edm">
-        <DataStore name="PatientRecords" description="Схема для записей пациентов" version="1">
-            <Field name="PatientID" unique="false" searchable="true" /> <Field name="MRN" unique="false" searchable="true" />
+    ```<?xml version="1.0" encoding="utf-8"?>
+    <EdmSchema xmlns="http://schemas.microsoft.com/office/2018/edm">
+        <DataStore name="PatientRecords" description="Schema for patient records" version="1">
+            <Field name="PatientID" unique="false" searchable="true" />
+            <Field name="MRN" unique="false" searchable="true" />
             <Field name="FirstName" unique="false" searchable="false" />
             <Field name="LastName" unique="false" searchable="false" />
             <Field name="SSN" unique="false" searchable="true" />
@@ -97,15 +99,15 @@ ms.locfileid: "34083192"
     </EdmSchema>
     ```
 
-4. [Connect to Office 365 Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
+4. [Подключитесь к PowerShell Центра безопасности и соответствия требованиям Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
 
-5. To upload the database schema, run the following cmdlets, one at a time:
+5. Чтобы добавить схему базы данных, выполните по отдельности указанные ниже командлеты.
 
     `$edmSchemaXml=Get-Content .\edm.xml -Encoding Byte -ReadCount 0`
 
     `New-DlpEdmSchema -FileData $edmSchemaXml -Confirm:$true`
 
-    You will be prompted to confirm, as follows:
+    Подтвердите действие при появлении соответствующего запроса, как показано ниже.
 
        Confirm
        Are you sure you want to perform this action?
@@ -113,25 +115,25 @@ ms.locfileid: "34083192"
        [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [?] Help (default is "Y"):
 
     > [!TIP]
-    > If you want your changes to occur without confirmation, in Step 5, use this cmdlet instead: `New-DlpEdmSchema -FileData $edmSchemaXml`
+    > Чтобы изменения вносились без запроса подтверждения, используйте вместо указанного в действии 5 комадлета следующий: `New-DlpEdmSchema -FileData $edmSchemaXml`
     
-Now that the schema for your database of sensitive information is defined, the next step is to set up a rule package. Proceed to the section [Set up a rule package](#set-up-a-rule-package).
+Теперь, когда схема базы данных конфиденциальной информации определена, нужно настроить пакет правил. Перейдите к разделу [Настройка пакета правил](#set-up-a-rule-package).
 
-#### Editing the schema for EDM-based classification 
+#### <a name="editing-the-schema-for-edm-based-classification"></a>Редактирование схемы для классификации на основе EDM 
 
-(As needed) If you want to make changes to your edm.xml file, such as changing which fields are used for EDM-based classification, follow these steps:
+(При необходимости) Если нужно внести изменения в файл edm.xml, например изменить поля, используемые для классификации на основе EDM, выполните указанные ниже действия.
 
-1. Edit your edm.mxl file (this is the file discussed in the [Define the schema](#define-the-schema-for-your-database-of-sensitive-information) section of this article).
+1. Внесите изменения в файл edm.mxl (он рассматривается в разделе [Определение схемы](#define-the-schema-for-your-database-of-sensitive-information) в этой статье).
 
-2. [Connect to Office 365 Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
+2. [Подключитесь к PowerShell Центра безопасности и соответствия требованиям Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
 
-3. To update your database schema, run the following cmdlets, one at a time:
+3. Чтобы обновить схему базы данных, выполните по отдельности указанные ниже командлеты.
 
     `$edmSchemaXml=Get-Content .\edm.xml -Encoding Byte -ReadCount 0`
 
     `Set-DlpEdmSchema -FileData $edmSchemaXml -Confirm:$true`
 
-    You will be prompted to confirm, as follows:
+    Подтвердите действие при появлении соответствующего запроса, как показано ниже.
 
        Confirm
        Are you sure you want to perform this action?
@@ -139,19 +141,19 @@ Now that the schema for your database of sensitive information is defined, the n
        [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [?] Help (default is "Y"):
 
     > [!TIP]
-    > If you want your changes to occur without confirmation, in Step 3, use this cmdlet instead: `Set-DlpEdmSchema -FileData $edmSchemaXml`
+    > Чтобы изменения вносились без запроса подтверждения, используйте вместо указанного в действии 3 комадлета следующий: `Set-DlpEdmSchema -FileData $edmSchemaXml`
 
-#### Removing the schema for EDM-based classification
+#### <a name="removing-the-schema-for-edm-based-classification"></a>Удаление схемы для классификации на основе EDM
 
-(As needed) If you want to remove the schema you're using for EDM-based classification, follow these steps:
+(При необходимости) Чтобы удалить схему, используемую для классификации на основе EDM, выполните указанные ниже действия.
 
-1. [Connect to Office 365 Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
+1. [Подключитесь к PowerShell Центра безопасности и соответствия требованиям Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
 
-2. Run the following PowerShell cmdlet, substituting the data store name of "patientrecords" with the one you want to remove:
+2. Выполните приведенный ниже командлет PowerShell, заменив имя хранилища данных "patientrecords" на нужное.
 
     `Remove-DlpEdmSchema -Identity patientrecords`
 
-     You will be prompted to confirm, as follows:
+     Подтвердите действие при появлении соответствующего запроса, как показано ниже.
     
        Confirm
        Are you sure you want to perform this action?
@@ -159,25 +161,29 @@ Now that the schema for your database of sensitive information is defined, the n
        [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [?] Help (default is "Y"):
     
     > [!TIP]
-    > If you want your changes to occur without confirmation, in Step 2, use this cmdlet instead: `Remove-DlpEdmSchema -Identity patientrecords -Confirm:$false`
+    > Чтобы изменения вносились без запроса подтверждения, используйте вместо указанного в действии 2 комадлета следующий: `Remove-DlpEdmSchema -Identity patientrecords -Confirm:$false`
 
-### Set up a rule package
+### <a name="set-up-a-rule-package"></a>Настройка пакета правил
 
-1. Create a rule package in .xml format (with Unicode encoding), similar to the following example. (You can copy, modify, and use our example.) 
+1. Создайте пакет правил в формате XML (в кодировке Unicode), как показано в примере ниже. (Вы можете скопировать, изменить и использовать наш пример.) 
 
-   Recall from the previous procedure that our PatientRecords schema defines five fields as searchable: *PatientID*, *MRN*, *SSN*, *Phone*, and *DOB*. Our example rule package includes those fields and references the database schema file (edm.xml), with one *ExactMatch* items per searchable field. Consider the following ExactMatch item:
+   Хотим еще раз напомнить, что схема PatientRecords определяет пять полей как доступные для поиска: *PatientID*, *MRN*, *SSN*, *Phone* и *DOB*. Наш пакет правил, созданный для примера, включает эти пять полей и ссылается на файл схемы базы данных (edm.xml), предусматривая один элемент *ExactMatch* для каждого доступного для поиска поля. Рассмотрим приведенный ниже элемент ExactMatch.
 
    ```
-    <ExactMatch id = "E1CC861E-3FE9-4A58-82DF-4BD259EAB371" patternsProximity = "300" dataStore ="PatientRecords" recommendedConfidence = "65" > <Pattern confidenceLevel="65"> <idMatch matches = "SSN" classification = "U.S. Social Security Number (SSN)" /> </Pattern> </ExactMatch>
+    <ExactMatch id = "E1CC861E-3FE9-4A58-82DF-4BD259EAB371" patternsProximity = "300" dataStore ="PatientRecords" recommendedConfidence = "65" >
+      <Pattern confidenceLevel="65">
+        <idMatch matches = "SSN" classification = "U.S. Social Security Number (SSN)" />
+      </Pattern>
+    </ExactMatch>
    ```
 
-    In this example, note the following:
+    В этом примере обратите внимание на следующее:
 
-    - The dataStore name references the .csv file we created earlier: **dataStore = "PatientRecords"**.
-    - The idMatch value references a searchable field that is listed in the database schema file: **idMatch matches = "SSN"**.
-    - The classification value references an existing or custom sensitive information type: **classification = "U.S. Social Security Number (SSN)"**. (In this case, we use the existing sensitive information type of U.S. Social Security Number.)
+    - Имя хранилища данных dataStore ссылается на ранее созданный файл CSV: **dataStore = "PatientRecords"**.
+    - Значение idMatch ссылается на доступное для поиска поле, которое указано в файле схемы базы данных: **idMatch matches = "SSN"**.
+    - Значение классификации ссылается на существующий или пользовательский тип конфиденциальной информации: **classification = "U.S. Social Security Number (SSN)"**. (В этом случае используется существующий тип конфиденциальной информации, содержащий номер социального страхования США.)
 
-    When you set up your rule package, make sure to correctly reference your .csv file and edm.xml file. (You can copy, modify, and use our example.) 
+    Настраивая пакет правил, убедитесь, что ссылки на файл CSV и файл edm.xml настроены правильно. (Вы можете скопировать, изменить и использовать наш пример.) 
 
     ```<?xml version="1.0" encoding="utf-8"?>
     <RulePackage xmlns="http://schemas.microsoft.com/office/2018/edm">
@@ -219,7 +225,7 @@ Now that the schema for your database of sensitive information is defined, the n
     </RulePackage>
     ```
     
-2. Отправьте пакет правил, выполнив по отдельности указанные ниже командлеты PowerShell:
+2. Отправьте пакет правил, выполнив по отдельности указанные ниже командлеты PowerShell.
 
     `$rulepack=Get-Content .\rulepack.xml -Encoding Byte -ReadCount 0`
 
