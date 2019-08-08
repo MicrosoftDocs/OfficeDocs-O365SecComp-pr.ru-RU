@@ -1,7 +1,7 @@
 ---
 title: Настройка встроенных типов конфиденциальных данных
-ms.author: deniseb
-author: denisebmsft
+ms.author: chrfox
+author: chrfox
 manager: laurawi
 ms.date: 07/08/2019
 audience: Admin
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: При поиске конфиденциальных данных в содержимом необходимо описать эти данные в правиле. Коллекция для защиты от потери данных (DLP) содержит правила для самых распространенных типов конфиденциальных данных, которые вы можете сразу использовать, включив их в политику. Иногда эти встроенные правила требуется скорректировать в соответствии с потребностями организации. Чтобы сделать это, нужно создать специальный тип конфиденциальных данных. В этой статье показано, как изменить XML-файл, содержащий существующую коллекцию правил, для обнаружения более широкого круга данных кредитных карт.
-ms.openlocfilehash: 8a621e3f1b24a8cea9cd263e44dc2def8a8b95b7
-ms.sourcegitcommit: a6f046f1529b0515f4f0e918a19ec83f4138b871
+ms.openlocfilehash: 2944202bf0f44c1a46834dce580abaf4f04aa40b
+ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "35587108"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36230733"
 ---
 # <a name="customize-a-built-in-sensitive-information-type"></a>Настройка встроенных типов конфиденциальных данных
 
