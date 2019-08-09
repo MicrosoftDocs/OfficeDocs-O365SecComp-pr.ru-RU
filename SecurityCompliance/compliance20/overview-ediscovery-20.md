@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: В этой статье описывается новая версия расширенного обнаружения электронных данных в Microsoft 365.
-ms.openlocfilehash: 45c7a35a27fea3891270ee72b1fd528a357ad825
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+ms.openlocfilehash: d3abd49d3ba336f5896887732ea0c37b59265bc9
+ms.sourcegitcommit: c8ea7c0900e69e69bd5c735960df70aae27690a5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35598735"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36258562"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Обзор расширенного решения обнаружения электронных данных в Microsoft 365
 
@@ -94,4 +94,4 @@ ms.locfileid: "35598735"
 
 ## <a name="configuring-case-settings"></a>Настройка параметров регистра
 
-С помощью вкладки **Параметры** можно настроить параметры на уровне всего в наличии. Это включает в себя добавление элементов к случаю, закрытие или удаление обращения, а также настройку параметров поиска и аналитики. Дополнительные сведения см в разделе [Настройка параметров обращений в Advanced eDiscovery](configuring-case-settings-ediscovery20.md).
+С помощью вкладки **Параметры** можно настроить параметры на уровне всего в наличии. Это включает в себя добавление элементов к случаю, закрытие или удаление обращения, а также настройку параметров поиска и аналитики.
