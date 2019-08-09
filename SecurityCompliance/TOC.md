@@ -6,10 +6,10 @@
 ## [Новый Центр безопасности Microsoft 365 и Центр соответствия требованиям Microsoft 365](microsoft-security-and-compliance.md)
 ### [Центр соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md)
 ### [Центр безопасности Microsoft 365](overview-security-center.md)
+### [Разрешения в Центре соответствия требованиям Microsoft 365 и Центре безопасности Microsoft 365](permissions-microsoft-365-compliance-security.md)
 ### [Оценка безопасности (Майкрософт)](microsoft-secure-score.md)
 ## [Переход в Центр безопасности и соответствия требованиям](go-to-the-securitycompliance-center.md)
 ### [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md)
-### [Разрешения в Центре соответствия требованиям Microsoft 365 и Центре безопасности Microsoft 365](permissions-microsoft-365-compliance-security.md)
 ### [Предоставление пользователям доступа к Центру безопасности и соответствия требованиям](grant-access-to-the-security-and-compliance-center.md)
 ## [Использование бесплатной подписки на Azure Active Directory](use-your-free-azure-ad-subscription-in-office-365.md)
 ## [Планирование безопасности и соответствия требованиям в Office 365](plan-for-security-and-compliance.md)
@@ -345,7 +345,7 @@
 #### [Добавление данных в другой набор для проверки](compliance20/add-data-to-review-set-from-another-review-set.md)
 #### [Управление наборами загрузки](compliance20/manage-load-sets.md)
 
-### [Просмотр данных дела](compliance20/reviewing-data-in-review-set.md)
+### Просмотр данных дела
 #### [Просмотр документов в наборе для проверки](compliance20/view-documents-in-review-set.md)
 #### [Запрос данных в наборе для проверки](compliance20/review-set-search.md)
 #### [Добавление тегов к документам в наборе для проверки](compliance20/tagging-documents.md)
@@ -363,7 +363,7 @@
 
 ### [Управление заданиями](compliance20/managing-jobs-ediscovery20.md)
 
-### [Настройка параметров дела](compliance20/configuring-case-settings-ediscovery20.md)
+### Настройка параметров дела
 #### [Закрытие или удаление дела](compliance20/close-or-delete-case.md)
 #### [Добавление и удаление участников дела](compliance20/add-remove-members.md)
 #### [Настройка параметров поиска и аналитики](compliance20/configure-search-analytics-settings.md)
