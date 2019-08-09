@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 06af70f3-e7dc-4ee2-a385-fb4d61a5e93b
 description: Сводка. Создание общедоступных, частных, конфиденциальных и строго конфиденциальных сайтов групп SharePoint Online в среде разработки и тестирования.
-ms.openlocfilehash: 148db19c8902735829a5849901723b5f2f200b74
-ms.sourcegitcommit: 3ffd188a7fd547ae343ccf14361c1e4300f88de0
+ms.openlocfilehash: bc17f5a4009b7a967a395084e8a058c45bbad82e
+ms.sourcegitcommit: 6122eb026c558a5126c40845e656fbb0c40cb32a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/18/2019
-ms.locfileid: "35059547"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36053136"
 ---
 # <a name="secure-sharepoint-online-sites-in-a-devtest-environment"></a>Защита сайтов SharePoint Online в среде разработки и тестирования
 
@@ -183,7 +183,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
   
 1. На вкладке браузера **Домашняя страница Microsoft Office** щелкните плитку **Администрирование**.
     
-2. На новой вкладке браузера**Центр администрирования Office** щелкните **Пользователи**.
+2. На новой вкладке браузера**Центр администрирования Microsoft 365** щелкните **Пользователи**.
     
 3. В списке пользователей выберите **Генеральный директор**.
     
