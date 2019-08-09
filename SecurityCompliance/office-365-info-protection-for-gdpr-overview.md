@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Ознакомьтесь с защитой информации в Office 365 в соответствии с регламентом GDPR. Узнайте, как искать, классифицировать, защищать и отслеживать персональные данные.
-ms.openlocfilehash: 0231951aa4fde3075dc525707fc7cac98e8f7a45
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 0c1c43bdbe16b82a1fe85222b2faf9c76dfc6fe0
+ms.sourcegitcommit: 6122eb026c558a5126c40845e656fbb0c40cb32a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34152491"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36165665"
 ---
 # <a name="overview-of-office-365-information-protection-for-gdpr"></a>Общие сведения о защите информации в Office 365 в соответствии с регламентом GDPR
 
@@ -35,7 +35,7 @@ ms.locfileid: "34152491"
 
 Цель этого решения — помочь организациям обнаруживать и защищать персональные данные в Office 365, на которые может распространяться регламент GDPR. Это решение не используется для подтверждения соответствия требованиям регламента GDPR. Организации несут ответственность за обеспечение своего соответствия требованиям этого регламента. Им рекомендуется обратиться к собственным юристам и группам по обеспечению соответствия требованиям либо к третьим лицам, которые специализируются на обеспечении соответствия требованиям.
 
-[GDPR Assessment](https://assessment.microsoft.com/gdpr-compliance) — это простое в использовании сетевое средство самостоятельной проверки, с помощью которой ваша организация может бесплатно проверить свое соответствие требованиям регламента GDPR (<http://aka.ms/gdprassessment>).
+[GDPR Assessment](https://www.microsoft.com/cyberassessment/en/gdpr/uso365?ls=Email&mkt_tok=eyJpIjoiTTJFeE5USXlOR1EwTWpJMiIsInQiOiJQTmdCYWR5NTlOd3JLWHZlb2NzNldKclQ4ZVBzVmhGeUhoUlFcL1pvSDIyXC9Ka05iTUR1aGpxT0YxQ0FUeGNDOUlkbWZLM1U4SUZWZmEyaGF6XC9ueUxkTHJzZnB3VDRMZlhPdkR4MzRLWkF5ckRNdWwxUkgzXC9yRU8yNkttSHhTb3VpZjNyVlJrNm9TTVZRYU5HR240a0FRPT0ifQ%3D%3D) — это простое в использовании сетевое средство самостоятельной проверки, с помощью которой ваша организация может бесплатно проверить свое соответствие требованиям регламента GDPR.
 
 ## <a name="assess-and-manage-your-compliance-risk"></a>Оценка рисков, связанных с соответствием требованиям, и управление ими
 
@@ -47,7 +47,7 @@ ms.locfileid: "34152491"
 
 ![Просмотр требований и отслеживание прогресса в диспетчере соответствия требованиям](Media/Overview-image1.png)
 
-Дополнительные сведения см. в статье [Использование предварительной версии диспетчера соответствия требованиям на портале Service Trust Portal](https://support.office.com/ru-RU/article/Use-Compliance-Manager-in-the-Service-Trust-Portal-Preview-5756d342-5af9-4496-82e8-4dd50fa39942). 
+Дополнительные сведения см. в статье [Использование предварительной версии диспетчера соответствия требованиям на портале Service Trust Portal](https://servicetrust.microsoft.com/ComplianceManager). 
 
 ### <a name="step-2--use-content-search-and-sensitive-information-types-to-find-personal-data"></a>Шаг 2. Поиск персональных данных с помощью веб-части "Поиск контента" и типов конфиденциальной информации 
 
