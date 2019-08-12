@@ -52,7 +52,7 @@
 ### [Расширенный обзор настройки защиты от потери данных](https://go.microsoft.com/fwlink/?linkid=852306)
 ### [Настройка встроенных типов конфиденциальной информации](customize-a-built-in-sensitive-information-type.md)
 ### [Пользовательские типы конфиденциальной информации](custom-sensitive-info-types.md)
-### [Создание пользовательского типа конфиденциальной информации с помощью точного совпадения данных (предварительная версия)](create-custom-sensitive-info-type-edm.md)
+### [Создание пользовательских типов конфиденциальной информации с помощью классификации на основе точного совпадения данных](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
 ### [Создание пользовательского типа конфиденциальной информации в Центре безопасности и соответствия требованиям](create-a-custom-sensitive-information-type.md)
 ### [Создание пользовательского типа конфиденциальной информации с помощью PowerShell](create-a-custom-sensitive-information-type-in-scc-powershell.md)
 ### [Создание словаря ключевых слов](create-a-keyword-dictionary.md)
