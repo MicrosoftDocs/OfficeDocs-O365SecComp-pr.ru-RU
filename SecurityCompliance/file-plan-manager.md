@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: Диспетчер плана хранения предоставляет расширенные функции управления для меток хранения и связанных с ними политик, а также встроенные возможности просмотра меток и действий от меток до содержимого для всего жизненного цикла содержимого — создания, совместной работы, объявления записей, хранения и окончательного удаления.
-ms.openlocfilehash: b7d80ff6a7f78e592462fe2723a87383e046015f
-ms.sourcegitcommit: 6eb51931242d07abde2e37f1bd57d13bc724f0de
+ms.openlocfilehash: 38bfb1e6a6cde931804e518660ddf6c2b45205b0
+ms.sourcegitcommit: f443de08971da2fe200a159b8efbed40effba125
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34547974"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36430016"
 ---
 # <a name="overview-of-file-plan-manager"></a>Общие сведения о диспетчере плана файлов
 
@@ -123,7 +123,28 @@ ms.locfileid: "34547974"
 
 ![Пустой шаблон плана файлов, открытый в Excel](media/file-plan-blank-template.png)
 
-Заполните шаблон (в скором времени появятся сведения о допустимых сочетаниях значений для одной метки хранения).
+Заполните шаблон. Эта таблица содержит допустимые значения.
+
+|**Свойство**|**Тип**|**Допустимые значения**|
+|:-----|:-----|:-----|
+|LabelName|String|Если значение содержит пробелы, заключите его в кавычки (").|
+|Comment|String|Если значение содержит пробелы, заключите его в кавычки ("). |
+|Notes|String|Настраиваемое|
+|IsRecordLabel|String|$true: метка является меткой записи.</br>$false: метка не является меткой записи. Это значение установлено по умолчанию.|
+|RetentionAction|String|Delete</br>Keep</br>KeepAndDelete |
+|RetentionDuration|String|Это свойство указывает срок хранения содержимого (в днях). Допускаются следующие значения:</br>Положительное целое число.</br>Значение не ограничено.|
+|RetentionType|String|Это свойство указывает, рассчитывается ли срок хранения с даты создания содержимого, даты пометки (присвоения тега) или даты последнего изменения. Допускаются следующие значения:</br>CreationAgeInDays</br>EventAgeInDays</br>ModificationAgeInDays</br>TaggedAgeInDays |
+|ReviewerEmail|SmtpAddress[]|Это свойство указывает адрес электронной почты проверяющего для действий хранения Delete и KeepAndDelete. Можно указать несколько адресов электронной почты, разделив их запятыми.|
+|ReferenceId|String|Настраиваемое|
+|DepartmentName|String|Настраиваемое|
+|Category|String|Настраиваемое|
+|SubCategory|String|Настраиваемое|
+|AuthorityType|String|Настраиваемое|
+|CitationName|String|Настраиваемое|
+|CitationUrl|String|Настраиваемое|
+|CitationJurisdiction|String|Настраиваемое|
+|Regulatory|String|Настраиваемое|
+|EventType|String|Это свойство указывает правило хранения, связанное с меткой. Можно использовать любое значение, уникальным образом идентифицирующее правило. Пример:</br>имя;</br>различающееся имя (DN);</br>GUID. </br>Чтобы просмотреть доступные правила хранения, можно использовать командлет [Get-RetentionComplianceRule](https://docs.microsoft.com/ru-RU/powershell/module/exchange/policy-and-compliance-retention/get-retentioncompliancerule?view=exchange-ps).|
 
 ![Шаблон плана файлов с заполненной информацией](media/file-plan-filled-out-template.png)
 
