@@ -1,5 +1,5 @@
 ---
-title: Обозреватель угроз и обнаружение в режиме реального времени, новые возможности обозревателя угроз, изменения в обозревателе угроз, новые возможности для Office 365, безопасность, облачная безопасность, новые возможности для обеспечения безопасности в ATP
+title: Обозреватель угроз и обнаружение в режиме реального времени, новые возможности в обозревателе угроз, изменения в обозревателе угроз, новые возможности для Office 365, безопасность, облачная безопасность, новые возможности для обеспечения безопасности в ATP, новые функции ATP
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -15,12 +15,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: Сведения о Explorer и обнаружения в режиме реального времени в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: 4e2a11162d3b67dd92cdcc1a7c0342ec861543ab
-ms.sourcegitcommit: d4acce11a26536b9d6ca71ba4933fc95136198a4
+ms.openlocfilehash: 049d26a328074be5e209ddecd959cd888a34b650
+ms.sourcegitcommit: dbcb3df3b313f7a9ea6669425e0a0498be844ae9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36407958"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36444889"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Обозреватель угроз и обнаружение в режиме реального времени
 
