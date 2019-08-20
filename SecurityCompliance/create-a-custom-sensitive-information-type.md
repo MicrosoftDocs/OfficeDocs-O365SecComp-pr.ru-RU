@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте, как создавать, редактировать, удалять и тестировать собственные типы конфиденциальной информации для DLP в графическом пользовательском интерфейсе Центра безопасности и соответствия требованиям.
-ms.openlocfilehash: 62a08b4978e7e962f46a1de43c3d3160a44dd46e
-ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
+ms.openlocfilehash: e7b2d07c64d97eafee5b269bbc0e395855c2ab44
+ms.sourcegitcommit: 0a0d9c1325b4b0581018c31037dcc707d3d679b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36230903"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36279161"
 ---
 # <a name="create-a-custom-sensitive-information-type-in-the-security--compliance-center"></a>Создание пользовательского типа конфиденциальной информации в Центре безопасности и соответствия требованиям
 
@@ -29,7 +29,7 @@ ms.locfileid: "36230903"
 
 Вы также можете создавать пользовательские типы конфиденциальной информации с помощью PowerShell и функций точного совпадения данных. Дополнительные сведения об этих методах см. в следующих статьях:
 - [Создание пользовательского типа конфиденциальной информации в PowerShell Центра безопасности и соответствия требованиям](create-a-custom-sensitive-information-type-in-scc-powershell.md)
-- [Создание пользовательского типа конфиденциальной информации для защиты от потери данных с помощью точного совпадения данных (EDM)](create-custom-sensitive-info-type-edm.md)
+- [Создание пользовательского типа конфиденциальной информации для защиты от потери данных с помощью точного совпадения данных (EDM)](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
 
 ## <a name="before-you-begin"></a>Подготовка
 
