@@ -1,5 +1,5 @@
 ---
-title: Обеспечение безопасности Office 365 для пользователей с помощью Office 365 Threat расследования и возможности реагирования
+title: Защита Организации от угроз Office 365 и возможностей реагирования на них
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -15,14 +15,14 @@ ms.assetid: 3387bfc3-028a-42f4-8133-4cbecfaab812
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как исследование угроз для Office 365 и возможности реагирования могут помочь вашей организации обнаруживать проникновения и угрозы, а также быстро устранять угрозы и восстанавливать их от угроз.
-ms.openlocfilehash: 2170bf53247412ecf0ae1b9ca13286a6df8a6336
-ms.sourcegitcommit: a5a7e43822336ed18d8f5879167766686cf6b2a3
+ms.openlocfilehash: baedfb1ff74117bd2ed36cdf4551f898d377a971
+ms.sourcegitcommit: 4fd64e1811ae96633035cbc9cab1dbef3cbba34d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "36478178"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36484402"
 ---
-# <a name="keep-your-office-365-users-safe-with-office-365-threat-investigation-and-response-capabilities"></a>Обеспечение безопасности Office 365 для пользователей с помощью Office 365 Threat расследования и возможности реагирования
+# <a name="keep-your-organization-safe-with-office-365-threat-investigation-and-response-capabilities"></a>Защита Организации от угроз Office 365 и возможностей реагирования на них
 
 ## <a name="overview"></a>Обзор
 
