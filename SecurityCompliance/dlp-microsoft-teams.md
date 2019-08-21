@@ -13,17 +13,18 @@ ms.collection:
 search.appverid:
 - MET150
 description: Теперь политики защиты от потери данных можно применять к разговорам и каналам Microsoft Teams. Прочтите эту статью, чтобы узнать больше о том, как она работает.
-ms.openlocfilehash: 8ac8f4e2a4189ca83772775a96067d0b5fc3a24b
-ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
+ms.openlocfilehash: 4edc05a2e0759884570239a038d0869e15240d17
+ms.sourcegitcommit: a5a7e43822336ed18d8f5879167766686cf6b2a3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36230743"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "36478228"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>Защита от потери данных и Microsoft Teams
+<!-- the note duplicates the first sentence of the overview, delete one or the other- -->
 
 > [!NOTE]
-> Возможности защиты от потери данных были недавно добавлены в беседы Microsoft Teams и каналы для пользователей, лицензированных для Office 365, который доступен как отдельный вариант и включен в Office 365 в "е" и "Майкрософт 365" для обеспечения соответствия требованиям. Для получения дополнительных сведений о требованиях к лицензированию ознакомьтесь [с руководством по лицензированию служб на уровне клиента Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance).
+> Возможности защиты от потери данных были недавно добавлены в беседы Microsoft Teams и каналы для пользователей, лицензированных для Office 365, который доступен в виде отдельного варианта и включен в Office 365 и Microsoft 365 для обеспечения соответствия нормативным требованиям. Для получения дополнительных сведений о требованиях к лицензированию ознакомьтесь [с руководством по лицензированию служб на уровне клиента Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance).
 
 ## <a name="overview-of-dlp-for-microsoft-teams"></a>Общие сведения о защите от потери данных для Microsoft Teams
 
@@ -38,7 +39,7 @@ ms.locfileid: "36230743"
 
 ## <a name="policy-tips-help-educate-users"></a>Подсказки политики помогают обучать пользователям
 
-Подобно тому, как DLP работает в [Exchange, Outlook и Outlook в Интернете](data-loss-prevention-policies.md#policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web), на [сайтах SharePoint и OneDrive для бизнеса](data-loss-prevention-policies.md#policy-evaluation-in-onedrive-for-business-and-sharepoint-online-sites), а также на [клиентах Office](data-loss-prevention-policies.md#policy-evaluation-in-the-office-desktop-programs)для настольных ПК, подсказки политики появляются, когда действие конфликтует с политикой защиты от потери данных. Ниже приведен пример подсказки политики:
+Аналогично работе защиты от потери данных в [Exchange, Outlook, Outlook в Интернете, на](data-loss-prevention-policies.md#policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web) [сайтах SharePoint Online, OneDrive для бизнеса](data-loss-prevention-policies.md#policy-evaluation-in-onedrive-for-business-and-sharepoint-online-sites)и настольных [клиентах Office](data-loss-prevention-policies.md#policy-evaluation-in-the-office-desktop-programs), подсказки политики появляются, когда действие конфликтует с политикой защиты от потери данных. Ниже приведен пример подсказки политики:
 
 ![Уведомление о заблокированных сообщениях в Teams](media/dlp-teams-blockedmessage-notification.png)
 
@@ -46,7 +47,7 @@ ms.locfileid: "36230743"
 
 ![Параметры разрешения заблокированного сообщения](media/dlp-teams-blockedmessage-possibleactions.png)
 
-В Организации можно выбрать, следует ли разрешить пользователям переопределять политику защиты от потери данных. При настройке политик защиты от потери данных можно использовать подсказки политики по умолчанию или [настроить подсказки политики](#to-customize-policy-tips) для Организации. 
+В Организации можно разрешить пользователям переопределять политику защиты от потери данных. При настройке политик защиты от потери данных можно использовать подсказки политики по умолчанию или [настроить подсказки политики](#to-customize-policy-tips) для Организации. 
 
 В нашем примере показано, где отправитель предоставил номер социального страхования в канале teams:
 
@@ -73,7 +74,7 @@ ms.locfileid: "36230743"
 7. На вкладке **Параметры политики** нажмите кнопку **сохранить**.
 
 Разрешите примерно один час, чтобы изменения работали через центр обработки данных и выполняли синхронизацию с учетными записями пользователей.
- 
+ <!-- why are these syncing to user accounts? -->
 ## <a name="add-microsoft-teams-as-a-location-to-existing-dlp-policies"></a>Добавление Microsoft Teams в качестве местоположения к существующим политикам защиты от потери данных
 
 Для выполнения этой задачи необходимо назначить роль с разрешениями на изменение политик защиты от потери данных. Дополнительные сведения см. в статье [Разрешения](data-loss-prevention-policies.md#permissions).
@@ -91,7 +92,7 @@ ms.locfileid: "36230743"
 6. Нажмите кнопку **Сохранить**.
 
 Разрешите примерно один час, чтобы изменения работали через центр обработки данных и выполняли синхронизацию с учетными записями пользователей.
-
+<!-- again, why user accounts? -->
 ## <a name="define-a-new-dlp-policy-for-microsoft-teams"></a>Определение новой политики защиты от потери данных для Microsoft Teams
 
 Для выполнения этой задачи необходимо назначить роль с разрешениями на изменение политик защиты от потери данных. Дополнительные сведения см. в статье [Разрешения](data-loss-prevention-policies.md#permissions).
@@ -104,7 +105,7 @@ ms.locfileid: "36230743"
 
 4. На вкладке **назвать политику** укажите имя и описание политики, а затем нажмите кнопку **Далее**. 
 
-5. На вкладке **Выбор расположений** оставьте параметр по умолчанию для всех расположений или выберите пункт **Разрешить мне выбор определенных расположений**, а затем нажмите кнопку **Далее**.<br/>Если вы выбрали вариант для определенных расположений, выберите расположения для политики защиты от потери данных, а затем нажмите кнопку **Далее**.<br/>![Расположения политик защиты от потери данных](media/dlp-teams-selectlocationsnewpolicy.png)<br/>
+5. На вкладке **Выбор расположений** оставьте параметр по умолчанию для всех расположений или выберите пункт **Разрешить мне выбор определенных расположений**, а затем нажмите кнопку **Далее**.<br/>Если выбраны определенные расположения, выберите их для политики защиты от потери данных, а затем нажмите кнопку **Далее**.<br/>![Расположения политик защиты от потери данных](media/dlp-teams-selectlocationsnewpolicy.png)<br/>
     > [!NOTE]
     > Если вы хотите убедиться, что документы, содержащие конфиденциальные сведения, не являются несоответствующими общими, убедитесь, что **сайты SharePoint** и **учетные записи OneDrive** включены, а также сообщения, отправляемые в **Teams и**в каналах.
 <br/>
