@@ -206,8 +206,6 @@
 #### [Создание настраиваемого списка блокируемых URL-адресов](set-up-a-custom-blocked-urls-list-wtih-atp.md)
 ### Задачи настройки администратора ролей
 #### [Включение ATP для SharePoint, OneDrive и Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md)
-#### [ATP для SharePoint, OneDrive и Microsoft Teams](atp-for-spo-odb-and-teams.md)
-## Управление безопасностью — ATP после настройки
 ## [Использование аналитики угроз для знакомства с последними атаками](latest-attack-campaigns.md)
 ## [Выслеживание в Microsoft 365](hunting.md)
 ## [Просмотр и чтение отчетов ATP](view-reports-for-atp.md)
@@ -218,17 +216,18 @@
 ## [Ищите и изучайте нежелательную почту, которая была доставлена](investigate-malicious-email-that-was-delivered.md)
 ## [Обозреватель угроз (и обнаружение в режиме реального времени)](threat-explorer.md)
 ### [Представления обозревателя угроз](threat-explorer-views.md)
+### [Определение подозрительных сообщений в Outlook.com и Outlook в Интернете](unverified-sender-feature.md)
 ## Интеграция для повышения безопасности
 ### [Интеграция ATP Office 365 с ATP в Microsoft Defender](integrate-office-365-ti-with-wdatp.md)
 ### [Интеграция SIEM с ATP Office 365](siem-integration-with-office-365-ti.md)
 ## Как работает ATP
 ### [Как работают безопасные ссылки ATP](how-atp-safe-links-works.md)
 ### [Как работают безопасные вложения ATP](how-atp-safe-attachments-works.md)
-#### [Сведения о динамической доставке и предварительном просмотре](dynamic-delivery-and-previewing.md)
-### [Как работает анализ угроз и реагирование на них](get-started-with-ti.md)
-#### [Сведения об анализе угроз и реагировании на них](office-365-ti.md)
+### [Сведения о динамической доставке и предварительном просмотре](dynamic-delivery-and-previewing.md)
+### [ATP для SharePoint, OneDrive и Microsoft Teams](atp-for-spo-odb-and-teams.md)
+### [Как работает анализ угроз и реагирование на них](office-365-ti.md)
 ### [Как работает автоматизированный анализ угроз и реагирование на них](automated-investigation-response-office.md)
-### [Определение подозрительных сообщений в Outlook.com и Outlook в Интернете](unverified-sender-feature.md)
+
 
 # Управление инцидентами, связанными с безопасностью
 ## [Реагирование на инциденты, связанные с безопасностью, в Office 365](office365-security-incident-response-overview.md)
