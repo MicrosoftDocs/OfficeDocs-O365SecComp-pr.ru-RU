@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Организация может работать с партнером корпорации Майкрософт, чтобы настроить настраиваемый соединитель для импорта сторонних данных из источников данных, таких как Salesforce chatter;, Yahoo Messenger или Yammer. Это позволяет архивировать данные из сторонних источников данных в Office 365, чтобы можно было использовать функции соответствия требованиям Office 365, такие как юридические удержания, поиск контента и политики хранения, для управления данными сторонних организаций.
-ms.openlocfilehash: 99596953ce0f18c0cd7220f0955d251dbccb0e37
-ms.sourcegitcommit: 372691a3a886e5cc299961032ee334aef26fb904
+ms.openlocfilehash: a22b4226efb582969072bbd92149080cca9b749c
+ms.sourcegitcommit: 59039d3bf479c4b2c1d2e2556a0adc755f431a1f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464702"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "36473429"
 ---
 # <a name="work-with-a-partner-to-archive-third-party-data-in-office-365"></a>Работа с партнером для архивации сторонних данных в Office 365
 
@@ -71,7 +71,7 @@ ms.locfileid: "36464702"
   
 ### <a name="17a-4-llc"></a>17a-4 LLC
 
-17a-4 LLC поддерживает следующие сторонние источники данных:
+[17A – 4 LLC](https://www.17a-4.com) поддерживает следующие сторонние источники данных:
   
 - BlackBerry
     
