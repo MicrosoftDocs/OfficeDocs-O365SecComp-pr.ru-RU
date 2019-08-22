@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Сведения о политиках контроля в Office 365
-ms.openlocfilehash: 6480c3ccb069e5e16618739303d71df115074baf
-ms.sourcegitcommit: 6122eb026c558a5126c40845e656fbb0c40cb32a
+ms.openlocfilehash: 3259620e16b626c81c9c0f71f7be1f627e9c6bc9
+ms.sourcegitcommit: 3f3f3ecb28ef65d023f3573f9a4e09a0586d8f53
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36165655"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36490766"
 ---
 # <a name="supervision-policies-in-office-365"></a>Политики контроля в Office 365
 
@@ -144,6 +144,7 @@ ms.locfileid: "36165655"
 | **Замаскированные выражения** | Выражения, для которых значение или произношение совпадают с другим нежелательным термином. |
 
 #### <a name="conditional-settings"></a>Условные параметры
+<a name="ConditionalSettings"> </a>
 
 Условия, которые вы выбираете для политики, применяются к связям как от электронной почты, так и от сторонних источников в Организации (например, из Facebook или DropBox).
 

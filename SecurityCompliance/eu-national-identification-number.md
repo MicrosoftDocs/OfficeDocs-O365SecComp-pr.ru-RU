@@ -3,19 +3,19 @@ title: Национальный идентификационный номер Е
 ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
-ms.date: 8/17/2018
+ms.date: ''
 audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: В этом разделе показано, как будет выглядеть политика защиты от потери данных (DLP), когда она обнаруживает тип конфиденциальной информации ЕС по национальному идентификационному номеру. Этот тип конфиденциальной информации определяет различные шаблоны, ключевые слова и другие доказательства для каждой страны.
-ms.openlocfilehash: 205019d040648f0600f3dbf4403063edf9f31c41
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: cbcacb3f85877f5a84238468fb52d612d90f5f0b
+ms.sourcegitcommit: 3f3f3ecb28ef65d023f3573f9a4e09a0586d8f53
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34154466"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36490776"
 ---
 # <a name="eu-national-identification-number"></a>Национальный идентификационный номер ЕС
 
@@ -59,7 +59,7 @@ ms.locfileid: "34154466"
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordsaustriaeunationalidcard"></a>Кэйвордс_аустриа_еу_натионал_ид_кард
+#### <a name="keywords_austria_eu_national_id_card"></a>Keywords_austria_eu_national_id_card
 
 Австрийский номер удостоверения
   
@@ -123,11 +123,11 @@ national id
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordsbulgarianationalnumber"></a>Кэйвордс_булгариа_натионал_нумбер
+#### <a name="keywords_bulgaria_national_number"></a>Keywords_bulgaria_national_number
 
-ЕГН
+егн
   
-ЕГН #
+егн #
   
 Национальный номер для болгарского языка
   
@@ -137,15 +137,15 @@ social security number
   
 натионалнумбер #
   
-SSN
+SSN #
   
 SSN
   
 натионалнумбер
   
-БНН #
+бнн #
   
-БНН
+бнн
   
 личный идентификационный номер
   
@@ -155,9 +155,9 @@ SSN
   
 единен граздански номер
   
-ЕГН
+егн
   
-ЕГН #
+егн #
   
 ## <a name="croatia"></a>Хорватия
 
@@ -197,7 +197,7 @@ SSN
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordscypruseunationalidcard"></a>Кэйвордс_ципрус_еу_натионал_ид_кард
+#### <a name="keywords_cyprus_eu_national_id_card"></a>Keywords_cyprus_eu_national_id_card
 
 идентификационный номер карточки
   
@@ -266,7 +266,7 @@ national identification number
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordsestoniaeunationalidcard"></a>Кэйвордс_естониа_еу_натионал_ид_кард
+#### <a name="keywords_estonia_eu_national_id_card"></a>Keywords_estonia_eu_national_id_card
 
 персональный идентификационный код
   
@@ -350,7 +350,7 @@ ID — каарт
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordshungaryeunationalidcard"></a>Кэйвордс_хунгари_еу_натионал_ид_кард
+#### <a name="keywords_hungary_eu_national_id_card"></a>Keywords_hungary_eu_national_id_card
 
 персональный идентификационный номер
   
@@ -417,7 +417,7 @@ identification number
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordsirelandeunationalidcard"></a>Кэйвордс_иреланд_еу_натионал_ид_кард
+#### <a name="keywords_ireland_eu_national_id_card"></a>Keywords_ireland_eu_national_id_card
 
 номер личной общедоступной службы
   
@@ -491,7 +491,7 @@ identification number
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordsitalyeunationalidcard"></a>Кэйвордс_итали_еу_натионал_ид_кард
+#### <a name="keywords_italy_eu_national_id_card"></a>Keywords_italy_eu_national_id_card
 
 персональный код
   
@@ -519,7 +519,7 @@ identification number
   
 финансовый отчет по сокостям
   
-## <a name="italy"></a>Италия
+## <a name="latvia"></a>Латвия
 
 ### <a name="format"></a>Format
 
@@ -567,7 +567,7 @@ identification number
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordslatviaeunationalidcard"></a>Кэйвордс_латвиа_еу_натионал_ид_кард
+#### <a name="keywords_latvia_eu_national_id_card"></a>Keywords_latvia_eu_national_id_card
 
 персональный код
   
@@ -632,7 +632,7 @@ identification number
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordslithuaniaeunationalidcard"></a>Кэйвордс_лисуаниа_еу_натионал_ид_кард
+#### <a name="keywords_lithuania_eu_national_id_card"></a>Keywords_lithuania_eu_national_id_card
 
 персональный числовой код
   
@@ -656,7 +656,7 @@ identification number
   
 асменс кодас.
   
-## <a name="luxemburg"></a>Луксембург
+## <a name="luxemburg"></a>луксембург
 
 ### <a name="format"></a>Format
 
@@ -697,7 +697,7 @@ identification number
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordsluxemburgeunationalidcard"></a>Кэйвордс_луксембург_еу_натионал_ид_кард
+#### <a name="keywords_luxemburg_eu_national_id_card"></a>Keywords_luxemburg_eu_national_id_card
 
 личный идентификатор
   
@@ -778,7 +778,7 @@ ID персоннелле
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordsmaltaeunationalidcard"></a>Кэйвордс_малта_еу_натионал_ид_кард
+#### <a name="keywords_malta_eu_national_id_card"></a>Keywords_malta_eu_national_id_card
 
 персональный числовой код
   
@@ -839,7 +839,7 @@ ID персоннелле
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordsnetherlandseunationalidcard"></a>Кэйвордс_несерландс_еу_натионал_ид_кард
+#### <a name="keywords_netherlands_eu_national_id_card"></a>Keywords_netherlands_eu_national_id_card
 
 персональный числовой код
   
@@ -853,7 +853,7 @@ ID персоннелле
   
 BSN
   
-BSN
+BSN #
   
 персунлижке нумериеке код
   
@@ -912,19 +912,19 @@ BSN
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordsromaniaeunationalidcard"></a>Кэйвордс_романиа_еу_натионал_ид_кард
+#### <a name="keywords_romania_eu_national_id_card"></a>Keywords_romania_eu_national_id_card
 
 персональный числовой код
   
 уникальный идентификационный номер
   
-КНП
+кнп
   
-КНП #
-  
-крепления
+кнп #
   
 крепления
+  
+крепления #
   
 страховой номер
   
@@ -993,7 +993,7 @@ BSN
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordsslovakiaeunationalidcard"></a>Кэйвордс_словакиа_еу_натионал_ид_кард
+#### <a name="keywords_slovakia_eu_national_id_card"></a>Keywords_slovakia_eu_national_id_card
 
 номер рождения
   
@@ -1005,7 +1005,7 @@ social security number
   
 натионалнумбер #
   
-SSN
+SSN #
   
 SSN
   
@@ -1070,7 +1070,7 @@ SSN
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordssloveniaeunationalidcard"></a>Кэйвордс_словениа_еу_натионал_ид_кард
+#### <a name="keywords_slovenia_eu_national_id_card"></a>Keywords_slovenia_eu_national_id_card
 
 персональный числовой код
   
@@ -1130,7 +1130,7 @@ SSN
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywordsspaineunationalidcard"></a>Кэйвордс_спаин_еу_натионал_ид_кард
+#### <a name="keywords_spain_eu_national_id_card"></a>Keywords_spain_eu_national_id_card
 
 DNI
   
@@ -1150,9 +1150,9 @@ national identification number
   
 натионалидно #
   
-уникальным
+уникальным #
   
-DNI
+DNI #
   
 натионалид #
   
