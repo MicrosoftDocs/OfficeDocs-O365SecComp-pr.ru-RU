@@ -15,12 +15,12 @@ ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как использовать функции расследования и реагирования на угрозы для поиска и изучения вредоносных сообщений электронной почты.
-ms.openlocfilehash: 2049b3b8e0d7b9173639af3c48f75a072744fb7f
-ms.sourcegitcommit: dbcb3df3b313f7a9ea6669425e0a0498be844ae9
+ms.openlocfilehash: 25eb1f4a13ad698d7b6817ea7917ccabea7210ae
+ms.sourcegitcommit: f473bf7f215ba4eb2f49e0dd23a9d2e39fa512c9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36444877"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36566227"
 ---
 # <a name="find-and-investigate-malicious-email-that-was-delivered-in-office-365"></a>Поиск и исследование вредоносных сообщений электронной почты, которые были доставлены в Office 365
 
@@ -88,6 +88,9 @@ ms.locfileid: "36444877"
 > Помните, что "Preview" — это роль, а не RoleGroup, и эта роль должна быть добавлена в RoleGroup позже.
 
 ![Всплывающее окно обозревателя угроз с ссылками загрузить и просмотреть на странице.](media/ThreatExplorerDownloadandPreview.PNG)
+
+> [!IMPORTANT]
+> Эта возможность не отображается для сообщений электронной почты, которые не были найдены в почтовом ящике пользователя, что может произойти, если сообщение было пропущено или его доставка закончилась неудачей. В случаях, когда электронные сообщения были удалены из почтовых ящиков пользователей, администраторы увидят сообщение об ошибке "mail not found".
 
 ### <a name="check-the-delivery-action-and-location"></a>Проверка действия и расположения доставки
 

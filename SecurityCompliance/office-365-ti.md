@@ -3,7 +3,7 @@ title: Анализ угроз и реагирование на них в Office
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 08/20/2019
+ms.date: 08/22/2019
 audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: 32405da5-bee1-4a4b-82e5-8399df94c512
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как функции интеллектуального анализа в Office 365 Advanced Threat protection помогают находить угрозы в Организации, отвечать на вредоносные программы, фишингы и другие атаки, обнаруженные в Office 365 от вашего имени, и искать угрозу показател.
-ms.openlocfilehash: c99712553646a6ceff22005952289b2ca3e1dbf4
-ms.sourcegitcommit: a5a7e43822336ed18d8f5879167766686cf6b2a3
+ms.openlocfilehash: 774d3d5c6a1ff71c105c3778458cf2a0d0cbed94
+ms.sourcegitcommit: f473bf7f215ba4eb2f49e0dd23a9d2e39fa512c9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "36478188"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36566217"
 ---
 # <a name="office-365-threat-investigation-and-response"></a>Анализ угроз и реагирование на них в Office 365
 
@@ -81,7 +81,7 @@ ms.locfileid: "36478188"
 Исследование угроз для Office 365 и возможности реагирования включены в план Office 365 Advanced Threat protection (план 2) и корпоративный "/д". 
 
 > [!TIP]
-> Если в вашей организации есть подписка на Office 365, не включающая эти возможности для расследования и реагирования на угрозы, вы можете приобрести их в качестве надстройки вместе с Office 365 Advanced Threat protection. Дополнительные сведения о параметрах Plan приведены в статье [Описание службы платформы office 365: центр соответствия &amp; требованиям безопасности Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center) и [приобретение или изменение надстройки для Office 365 для бизнеса](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/buy-or-edit-an-add-on).
+> Если в вашей организации есть подписка на Office 365, не включающая в себя такие функции расследования и реагирования на угрозы, вы можете приобрести надстройку Office 365 Advanced Threat Protection Plan 2 в качестве надстройки. Дополнительные сведения о параметрах Plan приведены в статье [Описание службы office 365 Advanced Threat protection Description](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) и [приобретении или редактировании надстройки для Office 365 для бизнеса](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/buy-or-edit-an-add-on).
   
 1. Как глобальный администратор Office 365, войдите в систему [https://admin.microsoft.com](https://admin.microsoft.com) , используя рабочую или учебную учетную запись для Office 365. 
     
