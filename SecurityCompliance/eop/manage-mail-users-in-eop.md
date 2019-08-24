@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: "Определение почтовых пользователей \x97 важный этап управления службой Exchange Online Protection (EOP)."
-ms.openlocfilehash: 6d982b635513050d931397bbc517ae3d76ee3752
-ms.sourcegitcommit: bc25ea19c0b6d318751eadc4f27902b0054d5e2b
+ms.openlocfilehash: 69ed6460966a399ac5b1e3cf71bd985917bec82c
+ms.sourcegitcommit: f57d411e06c955d648dfa1a2a473aa45416e1377
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "36054731"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "36620493"
 ---
 # <a name="manage-mail-users-in-eop"></a>Управление почтовыми пользователями в EOP
 
@@ -53,20 +53,20 @@ ms.locfileid: "36054731"
   
 Получите необходимые разрешения и подготовьтесь к синхронизации службы каталогов, как описано в статье [Подготовка к синхронизации службы каталогов](https://go.microsoft.com/fwlink/p/?LinkId=308908).
   
-### <a name="to-synchronize-user-directories"></a>Синхронизация каталогов пользователей
+### <a name="to-synchronize-user-directories-with-azure-active-directory-connect-aad-connect"></a>Синхронизация каталогов пользователей с помощью Azure Active Directory Connect (AAD Connect)
 
-1. Активируйте синхронизацию службы каталогов, как описано в статье, посвященной [активации синхронизации службы каталогов](https://go.microsoft.com/fwlink/p/?LinkId=308909).
-    
-2. Настройте свой компьютер для синхронизации службы каталогов, как описано в статье о [настройке компьютера для синхронизации службы каталогов](http://go.microsoft.com/fwlink/p/?LinkId=308911).
-    
-3. Синхронизируйте каталоги, как описано в статье, посвященной [синхронизации каталогов с помощью мастера настройки](http://go.microsoft.com/fwlink/?LinkId=308912).
-    
-    > [!IMPORTANT]
-    > Когда Мастер настройки средства синхронизации Azure Active Directory завершит работу, учетная запись **MSOL_AD_SYNC** будет создана в вашем лесу Active Directory. Она используется для чтения и синхронизации локальных данных Active Directory. Чтобы каталоги синхронизировались правильно, убедитесь, что порт TCP 443 на локальном сервере синхронизации службы каталогов открыт. 
-  
-  4. Управляйте синхронизацией службы каталогов, как описано в статье [Управление синхронизацией службы каталогов](http://go.microsoft.com/fwlink/p/?LinkId=308915).
-    
-  5. Убедитесь, что синхронизация в службе EOP выполняется правильно. В Центре администрирования Exchange перейдите в раздел **Получатели** \> **Контакты** и убедитесь, что список пользователей с локальной среды должным образом синхронизирован. 
+Чтобы синхронизировать пользователей с Azure Active Directory (AAD), необходимо сначала **активировать синхронизацию службы каталогов**, как описано в разделе [Активация синхронизации службы каталогов](https://go.microsoft.com/fwlink/p/?LinkId=308909).
+
+Далее это установка и настройка локального компьютера для запуска AAD Connect (если у вас еще нет еще одной проверки времени). В этой статье рассказывается, как настроить и синхронизировать учетные записи из локальной среды в Azure AD с помощью AAD Connect.
+
+[Настройка подключения AAD, Экспресс и наоборот.](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-express)
+
+Прежде чем выполнять эту работу, выполните определенные действия [вы отвечаете предварительныеhttps://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-prerequisitesтребования] (и [выберите тип установки](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-select-installation). Приведенная выше ссылка содержит краткую статью об экспресс-установках. Кроме того, при необходимости можно [](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-custom)найти статьи по настраиваемым установкам или [пройти проверку](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-pta-quick-start) подлинности.
+
+> [!IMPORTANT]
+> Когда Мастер настройки средства синхронизации Azure Active Directory завершит работу, учетная запись **MSOL_AD_SYNC** будет создана в вашем лесу Active Directory. Она используется для чтения и синхронизации локальных данных Active Directory. Для правильной работы синхронизации службы каталогов убедитесь, что TCP 443 на локальном сервере синхронизации каталогов открыт. 
+
+После настройки синхронизации обязательно убедитесь, что EOP правильно синхронизируется. В Центре администрирования Exchange перейдите в раздел **Получатели** \> **Контакты** и убедитесь, что список пользователей с локальной среды должным образом синхронизирован.
     
 ## <a name="use-the-eac-to-manage-mail-users"></a>Управление почтовыми пользователями с помощью Центра администрирования Exchange
 
