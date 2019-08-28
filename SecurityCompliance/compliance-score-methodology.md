@@ -1,7 +1,7 @@
 ---
 title: Методология оценки соответствия требованиям
-ms.author: robmazz
-author: robmazz
+ms.author: chvukosw
+author: chvukosw
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Диспетчер соответствия требованиям Майкрософт — бесплатное средство оценки рисков на основе рабочих процессов на портале доверия службы Майкрософт. Диспетчер соответствия требованиям позволяет отслеживать, назначать и проверять нормативные действия, связанные с облачными службами Майкрософт.
-ms.openlocfilehash: 55f90996997a60fd95347941bdcad7707c890166
-ms.sourcegitcommit: f0d23e57b00f07cef5b1b2d366eaeeeacda37e3e
+ms.openlocfilehash: 148920fac825dab9f67a79bc11907b72218e47bc
+ms.sourcegitcommit: 1947ad3c0dde9163ba9b6834d8b38bd04b4264a5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35786644"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36643231"
 ---
 # <a name="compliance-score-methodology-preview"></a>Методология оценки соответствия требованиям (Предварительная версия)
 
