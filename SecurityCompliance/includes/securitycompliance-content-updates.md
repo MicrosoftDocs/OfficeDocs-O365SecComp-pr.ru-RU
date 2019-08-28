@@ -3,46 +3,6 @@
 
 
 
-## <a name="week-of-july-15-2019"></a>Неделя с 15 июля 2019 г.
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
-| 7/16/2019 | [Поиск в облачных почтовых ящиках для локальных пользователей в Office 365](/Office365/SecurityCompliance/search-cloud-based-mailboxes-for-on-premises-users) | Изменено |
-| 7/16/2019 | [Поиск в журнале аудита в центре безопасности & соответствия требованиям](/Office365/SecurityCompliance/search-the-audit-log-in-security-and-compliance) | Изменено |
-| 7/16/2019 | [Set up Information Rights Management (IRM) in SharePoint admin center](/Office365/SecurityCompliance/set-up-irm-in-sp-admin-center) | Изменено |
-| 7/16/2019 | [Использование поиска контента в Office 365 для целевых коллекций](/Office365/SecurityCompliance/use-content-search-for-targeted-collections) | Изменено |
-| 7/17/2019 | [Обзор меток хранения](/Office365/SecurityCompliance/labels) | Изменено |
-| 7/17/2019 | [Обеспечение устойчивости данных в Office 365 SharePoint](/Office365/SecurityCompliance/office-365-sharepoint-data-resiliency) | Изменено |
-| 7/17/2019 | [Обзор политик хранения](/Office365/SecurityCompliance/retention-policies) | Изменено |
-| 7/17/2019 | Обеспечение устойчивости данных в Office 365 SharePoint | удалены |
-| 7/18/2019 | [Семинар по информационному директоре по безопасности (ЦИСО), модуль 3: идентификация и управление доступом](/Office365/SecurityCompliance/ciso-workshop-module-3) | Изменено |
-| 7/18/2019 | [Семинар по информационному директоре по безопасности (ЦИСО), Module 4A: стратегия защиты от угроз](/Office365/SecurityCompliance/ciso-workshop-module-4a) | Изменено |
-| 7/18/2019 | [Семинар по информационному директоре по безопасности (ЦИСО), Module 4b: стратегия защиты от угроз](/Office365/SecurityCompliance/ciso-workshop-module-4b) | Изменено |
-| 7/18/2019 | [Семинар по информационному директоре по безопасности (ЦИСО), модуль 5: защита информации](/Office365/SecurityCompliance/ciso-workshop-module-5) | Изменено |
-| 7/18/2019 | [Диспетчер соответствия требованиям (Майкрософт) и GDPR](/Office365/SecurityCompliance/compliance-manager-and-the-gdpr) | Изменено |
-| 7/18/2019 | [Обзор диспетчера соответствия требованиям Майкрософт](/Office365/SecurityCompliance/compliance-manager-overview) | Изменено |
-| 7/18/2019 | [Методология оценки соответствия требованиям](/Office365/SecurityCompliance/compliance-score-methodology) | Изменено |
-| 7/18/2019 | [Запросы защищенного хранилища для Office 365](/Office365/SecurityCompliance/customer-lockbox-requests) | Изменено |
-| 7/18/2019 | [Применение диспетчера соответствия требованиям для соблюдения требований к защите данных и нормативных требований при использовании облачных служб (Майкрософт)](/Office365/SecurityCompliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud) | Изменено |
-| 7/18/2019 | [Устойчивость данных в Office 365](/Office365/SecurityCompliance/office-365-data-resiliency-overview) | Изменено |
-| 7/18/2019 | [Office 365 работа с повреждением данных](/Office365/SecurityCompliance/office-365-dealing-with-data-corruption) | Изменено |
-| 7/18/2019 | [Office 365: защита облачных служб от атак типа "отказ в обслуживании"](/Office365/SecurityCompliance/office-365-defending-cloud-services-against-dos-attacks) | Изменено |
-| 7/18/2019 | [Устойчивость данных Exchange 365 в Office](/Office365/SecurityCompliance/office-365-exchange-data-resiliency) | Изменено |
-| 7/18/2019 | [Удаление данных в Office 365 Exchange Online](/Office365/SecurityCompliance/office-365-exchange-online-data-deletion) | Изменено |
-| 7/18/2019 | [Добавление фирменной символики Организации в зашифрованные сообщения](/Office365/SecurityCompliance/add-your-organization-brand-to-encrypted-messages) | Изменено |
-| 7/18/2019 | [Управление удержаниями в Advanced eDiscovery](/Office365/SecurityCompliance/compliance20/managing-holds) | Изменено |
-| 7/18/2019 | [Определение правил потока обработки почты для шифрования сообщений электронной почты в Office 365](/Office365/SecurityCompliance/define-mail-flow-rules-to-encrypt-email) | Изменено |
-| 7/18/2019 | [Шифрование в Office 365](/Office365/SecurityCompliance/encryption) | Изменено |
-| 7/18/2019 | [GDPR для Office Online Server и сервера Office Web Apps](/Office365/SecurityCompliance/gdpr-for-office-online-server) | Изменено |
-| 7/18/2019 | [Предоставление пользователям доступа к центру безопасности & соответствия требованиям Office 365](/Office365/SecurityCompliance/grant-access-to-the-security-and-compliance-center) | Изменено |
-| 7/18/2019 | [Как работают безопасные ссылки Office 365 ATP](/Office365/SecurityCompliance/how-atp-safe-links-works) | Изменено |
-| 7/18/2019 | [Среда разработки и тестирования изолированного сайта группы SharePoint Online](/Office365/SecurityCompliance/isolated-sharepoint-online-team-site-dev-test-environment) | Изменено |
-| 7/18/2019 | [Set up Information Rights Management (IRM) in SharePoint admin center](/Office365/SecurityCompliance/set-up-irm-in-sp-admin-center) | Изменено |
-| 7/18/2019 | [Настройка новых возможностей шифрования сообщений Office 365](/Office365/SecurityCompliance/set-up-new-message-encryption-capabilities) | Изменено |
-| 7/18/2019 | [Обзор бесед в Advanced eDiscovery](/Office365/SecurityCompliance/compliance20/conversation-review-sets) | Изменено |
-
-
 ## <a name="week-of-july-22-2019"></a>Неделя с 22 июля 2019 г.
 
 
@@ -218,3 +178,41 @@
 | 8/16/2019 | [Обозреватель угроз и обнаружение в режиме реального времени, новые возможности в обозревателе угроз, изменения в обозревателе угроз, новые возможности для Office 365, безопасность, облачная безопасность, новые возможности для обеспечения безопасности в ATP, новые функции ATP](/Office365/SecurityCompliance/threat-explorer) | Изменено |
 | 8/16/2019 | [Запросы ключевых слов и условия поиска контента](/Office365/SecurityCompliance/keyword-queries-and-search-conditions) | Изменено |
 | 8/16/2019 | [Аудит общего доступа с помощью журнала аудита Office 365](/Office365/SecurityCompliance/use-sharing-auditing) | Изменено |
+
+
+## <a name="week-of-august-19-2019"></a>Неделя с 19 августа 2019 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 8/19/2019 | [Запросы ключевых слов и условия поиска контента](/Office365/SecurityCompliance/keyword-queries-and-search-conditions) | Изменено |
+| 8/19/2019 | [Работа с партнером для архивации сторонних данных в Office 365](/Office365/SecurityCompliance/work-with-partner-to-archive-third-party-data) | Изменено |
+| 8/20/2019 | [Поиск контента в Office 365](/Office365/SecurityCompliance/content-search) | Изменено |
+| 8/20/2019 | [Работа с партнером для архивации сторонних данных в Office 365](/Office365/SecurityCompliance/work-with-partner-to-archive-third-party-data) | Изменено |
+| 8/20/2019 | Начало исследования и реагирования на угрозу безопасности Office 365 | удалены |
+| 8/20/2019 | [Анализ угроз и реагирование на них в Office 365](/Office365/SecurityCompliance/office-365-ti) | Изменено |
+| 8/20/2019 | [Настройка фильтрации разрешений для поиска контента](/Office365/SecurityCompliance/permissions-filtering-for-content-search) | Изменено |
+| 8/20/2019 | [Обеспечение безопасности Office 365 для пользователей с помощью Office 365 Threat расследования и возможности реагирования](/Office365/SecurityCompliance/keep-users-safe-with-office-365-ti) | Изменено |
+| 8/20/2019 | [Создание пользовательского типа конфиденциальной информации в PowerShell центра безопасности & соответствия требованиям](/Office365/SecurityCompliance/create-a-custom-sensitive-information-type-in-scc-powershell) | Изменено |
+| 8/20/2019 | [Создание пользовательского типа конфиденциальной информации в центре безопасности & соответствия требованиям](/Office365/SecurityCompliance/create-a-custom-sensitive-information-type) | Изменено |
+| 8/20/2019 | [Создание пользовательских типов конфиденциальной информации с точным совпадением данных](/Office365/SecurityCompliance/create-custom-sensitive-information-types-with-exact-data-match-based-classification) | Изменено |
+| 8/20/2019 | [Настройка встроенных типов конфиденциальных данных](/Office365/SecurityCompliance/customize-a-built-in-sensitive-information-type) | Изменено |
+| 8/20/2019 | [Обзор защиты от потери данных](/Office365/SecurityCompliance/data-loss-prevention-policies) | Изменено |
+| 8/20/2019 | [Защита от потери данных и Microsoft Teams](/Office365/SecurityCompliance/dlp-microsoft-teams) | Изменено |
+| 8/20/2019 | [Что позволяют искать типы конфиденциальной информации](/Office365/SecurityCompliance/what-the-sensitive-information-types-look-for) | Изменено |
+| 8/20/2019 | [Защита Организации от угроз Office 365 и возможностей реагирования на них](/Office365/SecurityCompliance/keep-users-safe-with-office-365-ti) | Изменено |
+| 8/21/2019 | [Устойчивость данных в Office 365](/Office365/SecurityCompliance/office-365-data-resiliency-overview) | Изменено |
+| 8/21/2019 | [Исправление ошибок при обработке данных](/Office365/SecurityCompliance/compliance20/error-remediation) | Изменено |
+| 8/21/2019 | [Устранение ошибок при обработке данных для расследования](/Office365/SecurityCompliance/datainvestigations/error-remediation) | Изменено |
+| 8/21/2019 | [Национальный идентификационный номер ЕС](/Office365/SecurityCompliance/eu-national-identification-number) | Изменено |
+| 8/21/2019 | [Настройка политик контроля для организации](/Office365/SecurityCompliance/configure-supervision-policies) | Изменено |
+| 8/21/2019 | [Политики контроля в Office 365](/Office365/SecurityCompliance/supervision-policies) | Изменено |
+| 8/21/2019 | [Поиск контента в Office 365](/Office365/SecurityCompliance/content-search) | Изменено |
+| 8/21/2019 | [Как определить тип удержания, примененного для почтового ящика Exchange Online](/Office365/SecurityCompliance/identify-a-hold-on-an-exchange-online-mailbox) | Изменено |
+| 8/22/2019 | [Поиск и исследование вредоносных сообщений электронной почты, которые были доставлены в Office 365, Тимаилдата-Inline, происшествии безопасности, инциденты, PowerShell, вредоносные программы, вредоносные программы, опасные пользователи, фишинг электронной почты, вредоносные программы электронной почты, чтение заголовков электронной почты, чтение заголовков](/Office365/SecurityCompliance/investigate-malicious-email-that-was-delivered) | Изменено |
+| 8/22/2019 | [Анализ угроз и реагирование на них в Office 365](/Office365/SecurityCompliance/office-365-ti) | Изменено |
+| 8/22/2019 | [Обзор Exchange Online Protection](/Office365/SecurityCompliance/eop/exchange-online-protection-overview) | Изменено |
+| 8/23/2019 | [Массовые значения уровня жалоб, массовые почтовые ящики, уровни BCL, принципы работы BCL, оценки BCL, защиты от спама, заголовок защиты от спама, фильтрация массовых сообщений, остановка массовой почты](/Office365/SecurityCompliance/bulk-complaint-level-values) | Изменено |
+| 8/23/2019 | [Управление почтовыми пользователями в EOP](/Office365/SecurityCompliance/eop/manage-mail-users-in-eop) | Изменено |
+| 8/23/2019 | [Использование уведомлений пользователей о спаме для освобождения сообщений из карантина и создания отчетов о них в Office 365](/Office365/SecurityCompliance/use-spam-notifications-to-release-and-report-quarantined-messages) | Изменено |
+| 8/23/2019 | [Обзор Exchange Online Protection](/Office365/SecurityCompliance/eop/exchange-online-protection-overview) | Изменено |
