@@ -235,50 +235,6 @@
 ## [Обнаружение атак с внедрением правил и пользовательских форм Outlook и устранение их последствий в Office 365](detect-and-remediate-outlook-rules-forms-attack.md)
 ## [Реагирование на компрометацию учетной записи электронной почты в Office 365](responding-to-a-compromised-email-account.md)
 
-# Управление данными
-## [Импорт данных](importing-pst-files-to-office-365.md)
-### [Импорт PST-файлов с помощью отправки по сети](use-network-upload-to-import-pst-files.md)
-### [Импорт PST-файлов с помощью отправки дисков](use-drive-shipping-to-import-pst-files-to-office-365.md)
-### [Поиск, копирование и удаление PST-файлов с помощью средства сбора PST-файлов](find-copy-and-delete-pst-files-in-your-organization.md)
-### [Фильтрация данных при импорте PST-файлов](filter-data-when-importing-pst-files.md)
-### [Импорт зашифрованных с использованием RMS PST-файлов с помощью отправки по сети](use-network-upload-to-import-rms-encrypted-pst-files.md)
-### [Вопросы и ответы об импорте PST-файлов](faqimporting-pst-files-to-office-365.md)
-### [Архивация сторонних данных в Office 365](archiving-third-party-data.md)
-#### [Использование образца соединителя для архивации данных Facebook](archive-facebook-data-with-sample-connector.md)
-#### [Использование примера соединителя для архивации данных Twitter](archive-twitter-data-with-sample-connector.md)
-#### [Настройка соединителя для архивации данных LinkedIn](archive-linkedin-data.md)
-#### [Настройка соединителя для архивации данных Instant Bloomberg](archive-instant-bloomberg-data.md)
-#### [Архивация сторонних данных при помощи партнера](work-with-partner-to-archive-third-party-data.md)
-## Сохранение данных
-### [Включение архивных почтовых ящиков](enable-archive-mailboxes.md)
-### [Общие сведения о неограниченной архивации](unlimited-archiving.md)
-### [Включение неограниченной архивации](enable-unlimited-archiving.md)
-### [Настройка политики архивации и удаления для почтовых ящиков](set-up-an-archive-and-deletion-policy-for-mailboxes.md)
-## Хранение данных
-### [Политики хранения](retention-policies.md)
-### [Диспетчер планов хранения](file-plan-manager.md)
-### [Метки хранения](labels.md)
-### [Соблюдение правила 17a-4 SEC](use-exchange-online-to-comply-with-sec-rule-17a-4.md)
-### [Создание и публикация меток хранения с помощью PowerShell](https://docs.microsoft.com/ru-RU/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
-### [Хранение на основе событий](event-driven-retention.md)
-### [Автоматизация хранения на основе событий](automate-event-driven-retention.md)
-## [Удаление данных](disposition-reviews.md)
-## Контроль взаимодействия
-### [Политики контроля](supervision-policies.md)
-### [Настройка политик контроля для организации](configure-supervision-policies.md)
-## [Управление неактивными почтовыми ящиками](inactive-mailboxes-in-office-365.md)
-### [Создание неактивных почтовых ящиков и управление ими](create-and-manage-inactive-mailboxes.md)
-### [Изменение срока хранения неактивного почтового ящика](change-the-hold-duration-for-an-inactive-mailbox.md)
-### [Возврат неактивного почтового ящика](recover-an-inactive-mailbox.md)
-### [Восстановление неактивного почтового ящика](restore-an-inactive-mailbox.md)
-### [Удаление неактивного почтового ящика](delete-an-inactive-mailbox.md)
-## Контроль управления данными
-### [Просмотр действий с метками для документов](view-label-activity-for-documents.md)
-### [Просмотр использования меток с помощью Аналитики меток](label-analytics.md)
-### [Просмотр отчетов об управлении данными](view-the-data-governance-reports.md)
-## Дополнительные сведения об управлении данными
-### [Просмотр видеороликов от группы управления данными Майкрософт](https://go.microsoft.com/fwlink/?linkid=867039)
-
 # [Поиск контента](search-for-content.md)
 ## [Использование поиска контента](content-search.md)
 ### [Запросы ключевых слов и условия поиска контента](keyword-queries-and-search-conditions.md)
@@ -441,7 +397,6 @@
 ### [Сохранение скрытых копий и получателей расширенной группы рассылки](preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md)
 
 # [Управление исследованиями данных](datainvestigations/overview-data-investigations.md)
-## [Заметки о выпуске](datainvestigations/data-investigations-release-notes.md)
 ## [Управление инцидентом утечки данных](datainvestigations/manage-data-spillage-incidents.md)
 ## [Создание нового исследования](datainvestigations/create-new-investigation.md)
 ## [Назначение разрешений для исследований данных](datainvestigations/permissions.md)
@@ -456,6 +411,7 @@
 ### [Заметки и внесение исправлений в документы](datainvestigations/annotate-and-redact-documents.md)
 ### [Загрузка данных не из Office 365](datainvestigations/load-non-office365-data.md)
 ### [Исправление ошибок при обработке данных](datainvestigations/error-remediation.md)
+### [Удаление элементов из исходного расположения](datainvestigations/delete-items-from-original-locations.md)
 
 ## [Запуск аналитики для ускорения исследования](datainvestigations/run-analytics-to-investigate-faster.md)
 ### [Потоки почты](datainvestigations/email-threading.md)
@@ -477,6 +433,7 @@
 ### [Закрытие или удаление исследования](datainvestigations/close-or-delete-investigation.md)
 
 ## Справочные материалы по исследованиям данных
+### [Заметки о выпуске](datainvestigations/data-investigations-release-notes.md)
 ### [Лимиты для исследований данных](datainvestigations/limits-datainvestigations.md)
 ### [Поддерживаемые типы файлов](datainvestigations/supported-filetypes-datainvestigations.md)
 ### [Поля метаданных документа](datainvestigations/document-metadata-fields.md)
