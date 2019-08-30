@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: С помощью меток конфиденциальности вы можете классифицировать и защищать конфиденциальное содержимое, не мешая совместной работе и производительности пользователей. Метки конфиденциальности можно использовать для применения параметров защиты, например шифрования или подложек для содержимого с метками.
-ms.openlocfilehash: 5e6ece4358362a3b32ad3b8b0b30f923e6d872cb
-ms.sourcegitcommit: 82ee560bf3ac84079764cbb4a2d858c321f65145
+ms.openlocfilehash: 7ec9b2d171e4ddbe8a923161e503bb813dfc6813
+ms.sourcegitcommit: d55dab629ce1f8431b8370afde4131498dfc7471
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35840891"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36675460"
 ---
 # <a name="overview-of-sensitivity-labels"></a>Обзор меток конфиденциальности
 
@@ -237,7 +237,7 @@ ms.locfileid: "35840891"
 Прежде чем метки конфиденциальности смогут использовать WIP, требуется выполнить предварительные условия, описанные в статье [Как Windows Information Protection защищает файлы с метками конфиденциальности](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/how-wip-works-with-labels?branch=vsts17546553). В ней описаны следующие предварительные условия.
 
 - Подтверждение использования операционной системы Windows 10 версии 1809 или более поздней версии.
-- [Настройка защиты Advanced Threat Protection в Защитнике Windows (ATP в Защитнике Windows)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/get-started), которая проверяет контент на наличие метки и применяет соответствующую защиту WIP. ATP выполняет некоторые действия независимо от WIP, например сообщает об аномалиях.
+- [Настройка защиты Advanced Threat Protection в Защитнике Windows (ATP в Защитнике Windows)](https://docs.microsoft.com/windows/security/threat-protection/), которая проверяет контент на наличие метки и применяет соответствующую защиту WIP. ATP выполняет некоторые действия независимо от WIP, например сообщает об аномалиях.
 - Создание политики Windows Information Protection (WIP), применяемой к устройствам конечных точек. Это можно выполнить в любом из этих расположений:
     - [Создание политики Windows Information Protection (WIP) с использованием MDM с помощью портала Azure для Microsoft Intune](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure)
     - [Создание и развертывание политики Windows Information Protection (WIP) с помощью System Center Configuration Manager](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/create-wip-policy-using-sccm)
