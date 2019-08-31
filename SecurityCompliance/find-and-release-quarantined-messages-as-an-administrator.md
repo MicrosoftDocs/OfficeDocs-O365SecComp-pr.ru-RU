@@ -14,12 +14,12 @@ ms.assetid: ab95bf17-bb09-4dd1-9990-ddd02ddecf05
 ms.collection:
 - M365-security-compliance
 description: В этой статье описывается, как администраторы Exchange Online и Exchange Online Protection (EOP) могут находить и разблокировать сообщения в карантине, а также создавать по ним отчеты в Центре администрирования Exchange.
-ms.openlocfilehash: 1f2b3733cbba3c09e1ec7ca25377ac96d5c89147
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+ms.openlocfilehash: 9bf821885ad8d4ec89aa3c349a6c072f78f6c57a
+ms.sourcegitcommit: 769b506c828c475c713dbb337e115714dcc7f17c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35599385"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "36699354"
 ---
 # <a name="find-and-release-quarantined-messages-as-an-administrator"></a>Поиск и освобождение сообщений на карантине для администратора
 
@@ -42,10 +42,10 @@ ms.locfileid: "35599385"
     
 - Разблокировать несколько сообщений за раз, а также сообщить о ложном срабатывании можно на странице **Карантин**. Вы также можете создать удаленный сценарий Оболочка Windows PowerShell для выполнения этой задачи. Используйте командлет [Get-QuarantineMessage](http://technet.microsoft.com/library/88026da1-8dbc-49e7-80e8-112a32773c34.aspx) для поиска сообщений и командлет [Release-QuarantineMessage](http://technet.microsoft.com/library/4a3aa05c-238f-46f2-b8dd-b0e3c38eab3e.aspx) для их разблокировки. 
     
-- Сочетания клавиш для процедур, описанных в этой статье, приведены в статье **Keyboard shortcuts in Exchange 2013**.
+- Дополнительные сведения о сочетаниях клавиш, которые могут применяться к процедурам, описанным в этой статье, приведены в статье [сочетания клавиш для центра администрирования Exchange в Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).
     
 > [!TIP]
-> Возникли проблемы? Обратитесь за помощью к участникам форумов, посвященных Exchange. Посетите форумы по таким продуктам: [Exchange Server](https://go.microsoft.com/fwlink/p/?linkId=60612), [Exchange Online](https://go.microsoft.com/fwlink/p/?linkId=267542) или [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351). 
+> Возникли проблемы? Обратитесь за помощью к участникам форумов Exchange. Посетите форумы по таким продуктам: [Exchange Server](https://go.microsoft.com/fwlink/p/?linkId=60612), [Exchange Online](https://go.microsoft.com/fwlink/p/?linkId=267542) или [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351). 
   
 ## <a name="use-advanced-search-to-filter-and-locate-quarantined-messages"></a>Использование расширенного поиска для фильтрации и поиска сообщений на карантине
 <a name="BKMK_UseAdvancedSearchtoFilterMessages"> </a>
