@@ -81,12 +81,10 @@ ms.locfileid: "35854723"
 
 [Реагирование на компрометацию учетной записи электронной почты в Office 365](responding-to-a-compromised-email-account.md)
 
-
-  [Удаление пользователя с портала "Пользователи с ограниченным доступом" после отправки нежелательной почты](https://docs.microsoft.com/ru-RU/office365/securitycompliance/alert-policies)
+[Удаление пользователя с портала "Пользователи с ограниченным доступом" после отправки нежелательной почты](https://docs.microsoft.com/ru-RU/office365/securitycompliance/alert-policies)
 
 [Пул доставки сообщений с высоким уровнем опасности](high-risk-delivery-pool-for-outbound-messages.md)
 
 [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md)
 
-
-  [Политики оповещений в центре безопасности и соответствия требованиям](https://docs.microsoft.com/ru-RU/office365/securitycompliance/alert-policies)
+[Политики оповещений в центре безопасности и соответствия требованиям](https://docs.microsoft.com/ru-RU/office365/securitycompliance/alert-policies)

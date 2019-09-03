@@ -81,22 +81,17 @@ ms.locfileid: "35597955"
 
 Дополнительные сведения о политиках оповещений и поиске в журнале аудита:
 
--   
-  [Политики оповещений в Центре безопасности и соответствия требованиям Microsoft 365](https://support.office.com/ru-RU/article/Alert-policies-in-the-Office-365-Security-Compliance-Center-8927B8B9-C5BC-45A8-A9F9-96C732E58264)
+-   [Политики оповещений в Центре безопасности и соответствия требованиям Microsoft 365](https://support.office.com/ru-RU/article/Alert-policies-in-the-Office-365-Security-Compliance-Center-8927B8B9-C5BC-45A8-A9F9-96C732E58264)
 
--   
-  [Поиск действий пользователей и администраторов в журнале аудита в Office 365](https://support.office.com/ru-RU/article/Search-the-audit-log-for-user-and-admin-activity-in-Office-365-57CA5138-0AE0-4D34-BD40-240441EF2FB6) (введение)
+-   [Поиск действий пользователей и администраторов в журнале аудита в Office 365](https://support.office.com/ru-RU/article/Search-the-audit-log-for-user-and-admin-activity-in-Office-365-57CA5138-0AE0-4D34-BD40-240441EF2FB6) (введение)
 
--   
-  [Включение и отключение поиска в журнале аудита Office 365](https://support.office.com/ru-RU/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)
+-   [Включение и отключение поиска в журнале аудита Office 365](https://support.office.com/ru-RU/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)
 
--   
-  [Поиск в журнале аудита](https://support.office.com/ru-RU/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US)
+-   [Поиск в журнале аудита](https://support.office.com/ru-RU/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US)
 
 -   [Search-UnifiedAuditLog](https://technet.microsoft.com/en-us/library/mt238501(v=exchg.160).aspx) (командлет) 
 
--   
-  [Подробные свойства в журнале аудита Office 365](https://support.office.com/ru-RU/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3)
+-   [Подробные свойства в журнале аудита Office 365](https://support.office.com/ru-RU/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3)
 
 ## <a name="microsoft-cloud-app-security"></a>Microsoft Cloud App Security
 
@@ -130,13 +125,11 @@ Microsoft Cloud App Security — это полнофункциональная 
 
 Дополнительные сведения:
 
--   
-  [Развертывание Cloud App Security](https://docs.microsoft.com/ru-RU/cloud-app-security/getting-started-with-cloud-app-security)
+-   [Развертывание Cloud App Security](https://docs.microsoft.com/ru-RU/cloud-app-security/getting-started-with-cloud-app-security)
 
--   [Дополнительные сведения о Microsoft Cloud App Security](https://www.microsoft.com/en-us/cloud-platform/cloud-app-security)
+-   [Дополнительные сведения о Microsoft Cloud App Security](https://www.microsoft.com/ru-RU/cloud-platform/cloud-app-security)
 
--   
-  [Блокировка скачивания конфиденциальных данных с помощью прокси-сервера Microsoft Cloud App Security](https://docs.microsoft.com/ru-RU/cloud-app-security/use-case-proxy-block-session-aad)
+-   [Блокировка скачивания конфиденциальных данных с помощью прокси-сервера Microsoft Cloud App Security](https://docs.microsoft.com/ru-RU/cloud-app-security/use-case-proxy-block-session-aad)
 
 ## <a name="example-file-and-activity-policies-to-detect-sharing-of-personal-data"></a>Примеры политик файлов и действий для обнаружения случаев предоставления общего доступа к персональным данным
 

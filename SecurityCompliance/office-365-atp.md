@@ -98,10 +98,8 @@ AIR включает сборники схем безопасности, кот�
 |Роль или группа ролей  |Дополнительные ресурсы  |
 |---------|---------|
 |Глобальный администратор Office 365 |[Роли администраторов в Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|
-|Администратор безопасности |
-  [Разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/ru-RU/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
-|Управление организациями в Exchange Online |
-  [Разрешения в Exchange Online](https://docs.microsoft.com/ru-RU/exchange/permissions-exo/permissions-exo) <br>и<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)|
+|Администратор безопасности |[Разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/ru-RU/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
+|Управление организациями в Exchange Online |[Разрешения в Exchange Online](https://docs.microsoft.com/ru-RU/exchange/permissions-exo/permissions-exo) <br>и<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)|
 
 Дополнительные сведения см. в указанных ниже статьях.
 

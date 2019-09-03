@@ -47,14 +47,13 @@ ms.locfileid: "35854803"
 Дополнительные сведения см. в указанных ниже статьях.
 
 - [Какие подписки необходимо использовать для новых возможностей OME?](ome-faq.md#what-subscriptions-do-i-need-to-use-the-new-ome-capabilities) Эта статья поможет вам убедиться, что ваш план подписки включает службу Azure Information Protection (которая включает функции Azure RMS).
-- Сведения о приобретении соответствующей подписки см. в статье [Azure Information Protection](https://azure.microsoft.com/en-us/services/information-protection/).  
+- Сведения о приобретении соответствующей подписки см. в статье [Azure Information Protection](https://azure.microsoft.com/ru-RU/services/information-protection/).  
 
 ### <a name="manually-activating-azure-rights-management"></a>Активация службы управления правами Azure вручную
 
 Если вы отключили службу Azure RMS или по какой-либо причине она не была активирована автоматически, вы можете активировать ее вручную, используя одно из указанных ниже средств.
 
-- 
-  **Центр администрирования Microsoft 365**. Инструкции см. в статье [Активация службы управления правами Azure в Центре администрирования](https://docs.microsoft.com/ru-RU/azure/information-protection/activate-office365).
+- **Центр администрирования Microsoft 365**. Инструкции см. в статье [Активация службы управления правами Azure в Центре администрирования](https://docs.microsoft.com/ru-RU/azure/information-protection/activate-office365).
 - **Портал Azure**. Инструкции см. в статье [Активация службы управления правами Azure на портале Azure](https://docs.microsoft.com/en-gb/azure/information-protection/activate-azure).
 
 ## <a name="configure-management-of-your-azure-information-protection-tenant-key"></a>Настройка управления ключом клиента для службы Azure Information Protection
@@ -67,8 +66,7 @@ ms.locfileid: "35854803"
 
 Вы можете убедиться, что клиент Office 365 настроен для использования новых возможностей OME, с помощью [Exchange Online PowerShell](https://docs.microsoft.com/ru-RU/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps).
   
-1. 
-  [Подключитесь к Exchange Online PowerShell](https://docs.microsoft.com/ru-RU/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) с помощью учетной записи с разрешениями глобального администратора в клиенте Office 365.
+1. [Подключитесь к Exchange Online PowerShell](https://docs.microsoft.com/ru-RU/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) с помощью учетной записи с разрешениями глобального администратора в клиенте Office 365.
 
 2. Запустите командлет Get-IRMConfiguration.
 

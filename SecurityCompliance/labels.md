@@ -283,14 +283,12 @@ ms.locfileid: "36676659"
 
 Дополнительные сведения о синтаксисе запросов см. в статье:
 
-- 
-  [Руководство по синтаксису языка запросов по ключевым словам (KQL)](https://docs.microsoft.com/ru-RU/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
+- [Руководство по синтаксису языка запросов по ключевым словам (KQL)](https://docs.microsoft.com/ru-RU/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
 
 Метки на основе запросов используют индекс поиска для определения контента. Дополнительные сведения о допустимых свойствах, доступных для поиска, см. в статьях:
 
 - [Запросы ключевых слов и условия поиска контента](keyword-queries-and-search-conditions.md)
-- 
-  [Обзор свойств для обхода и управляемых свойств в SharePoint Server](https://docs.microsoft.com/ru-RU/SharePoint/technical-reference/crawled-and-managed-properties-overview)
+- [Обзор свойств для обхода и управляемых свойств в SharePoint Server](https://docs.microsoft.com/ru-RU/SharePoint/technical-reference/crawled-and-managed-properties-overview)
 
 Примеры запросов:
 

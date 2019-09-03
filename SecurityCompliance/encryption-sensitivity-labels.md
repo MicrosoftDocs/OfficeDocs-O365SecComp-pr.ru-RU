@@ -88,8 +88,7 @@ ms.locfileid: "35199792"
 
 При выборе того, какие разрешения следует предоставить определенным пользователям или группам, вы можете выбрать один из приведенных ниже вариантов.
 
-- 
-  [Заранее определенный уровень разрешений](https://docs.microsoft.com/ru-RU/azure/information-protection/configure-usage-rights#rights-included-in-permissions-levels) с предварительно заданной группой прав, например "Соавтор" или "Рецензент".
+- [Заранее определенный уровень разрешений](https://docs.microsoft.com/ru-RU/azure/information-protection/configure-usage-rights#rights-included-in-permissions-levels) с предварительно заданной группой прав, например "Соавтор" или "Рецензент".
 - Настраиваемая группа прав, в которой вы можете выбрать, какие разрешения вам нужны.
 
 Дополнительные сведения по каждому конкретному виду разрешений см. в статье [Права на использование и их описание](https://docs.microsoft.com/ru-RU/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions).  

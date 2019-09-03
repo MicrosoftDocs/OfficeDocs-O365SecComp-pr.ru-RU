@@ -248,11 +248,9 @@ ms.locfileid: "35598715"
 
 Дополнительные сведения:
 
--   
-  [Уровни разрешений в SharePoint](https://support.office.com/ru-RU/article/Understanding-permission-levels-in-SharePoint-87ecbb0e-6550-491a-8826-c075e4859848)
+-   [Уровни разрешений в SharePoint](https://support.office.com/ru-RU/article/Understanding-permission-levels-in-SharePoint-87ecbb0e-6550-491a-8826-c075e4859848)
 
--   
-  [Общие сведения о группах SharePoint](https://support.office.com/ru-RU/article/Understanding-SharePoint-groups-94d9b261-161e-4ace-829e-eca1c8cd2eb8)
+-   [Общие сведения о группах SharePoint](https://support.office.com/ru-RU/article/Understanding-SharePoint-groups-94d9b261-161e-4ace-829e-eca1c8cd2eb8)
 
 ### <a name="external-sharing-policies-for-sharepoint-and-onedrive-for-business-libraries"></a>Политики внешнего общего доступа для библиотек SharePoint и OneDrive для бизнеса
 
@@ -302,11 +300,9 @@ ms.locfileid: "35598715"
 
 Дополнительные сведения:
 
--   
-  [Управление внешним доступом для среды SharePoint Online](https://support.office.com/ru-RU/article/Manage-external-sharing-for-your-SharePoint-Online-environment-C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85?ui=en-US&rs=en-US&ad=US)
+-   [Управление внешним доступом для среды SharePoint Online](https://support.office.com/ru-RU/article/Manage-external-sharing-for-your-SharePoint-Online-environment-C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85?ui=en-US&rs=en-US&ad=US)
 
--   
-  [Предоставление общего доступа к сайтам и документам пользователям за пределами организации](https://support.office.com/ru-RU/article/Share-sites-or-documents-with-people-outside-your-organization-80e49744-e30f-44db-8d51-16661b1d4232)
+-   [Предоставление общего доступа к сайтам и документам пользователям за пределами организации](https://support.office.com/ru-RU/article/Share-sites-or-documents-with-people-outside-your-organization-80e49744-e30f-44db-8d51-16661b1d4232)
 
 ### <a name="site-level-device-access-policies"></a>Политики доступа к устройствам на уровне сайта
 

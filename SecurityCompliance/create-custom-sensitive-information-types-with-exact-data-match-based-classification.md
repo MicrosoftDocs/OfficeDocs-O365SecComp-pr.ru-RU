@@ -25,8 +25,7 @@ ms.locfileid: "36478198"
 
 ## <a name="overview"></a>Обзор
 
-
-  [Пользовательские типы конфиденциальной информации](https://docs.microsoft.com/ru-RU/office365/securitycompliance/custom-sensitive-info-types) используются для предотвращения непреднамеренного или неприемлемого предоставления общего доступа к конфиденциальной информации. Администратор может использовать  [Центр безопасности и соответствия требованиям](https://docs.microsoft.com/ru-RU/office365/securitycompliance/create-a-custom-sensitive-information-type) или [PowerShell](https://docs.microsoft.com/ru-RU/office365/securitycompliance/create-a-custom-sensitive-information-type-in-scc-powershell), чтобы определить пользовательский тип конфиденциальной информации на основе шаблонов, признаков (ключевых слов, например *сотрудник*, *эмблема*, *идентификатор* и т. д), расстояния между символами (как близко располагается признак к символам в определенном шаблоне) и доверительных уровней. Такие пользовательские типы конфиденциальной информации соответствуют бизнес-требованиям большинства организаций.
+[Пользовательские типы конфиденциальной информации](https://docs.microsoft.com/ru-RU/office365/securitycompliance/custom-sensitive-info-types) используются для предотвращения непреднамеренного или неприемлемого предоставления общего доступа к конфиденциальной информации. Администратор может использовать  [Центр безопасности и соответствия требованиям](https://docs.microsoft.com/ru-RU/office365/securitycompliance/create-a-custom-sensitive-information-type) или [PowerShell](https://docs.microsoft.com/ru-RU/office365/securitycompliance/create-a-custom-sensitive-information-type-in-scc-powershell), чтобы определить пользовательский тип конфиденциальной информации на основе шаблонов, признаков (ключевых слов, например *сотрудник*, *эмблема*, *идентификатор* и т. д), расстояния между символами (как близко располагается признак к символам в определенном шаблоне) и доверительных уровней. Такие пользовательские типы конфиденциальной информации соответствуют бизнес-требованиям большинства организаций.
 
 Но что если вам нужен пользовательский тип конфиденциальной информации для сопоставления с точными значениями данных, а не универсальными шаблонами? С помощью классификации на основе точного совпадения данных (EDM) вы можете создать пользовательский тип конфиденциальной информации с такими характеристиками:
 
@@ -187,8 +186,7 @@ Remove-DlpEdmSchema -Identity patientrecords
 
 Настраивая пакет правил, убедитесь, что в нем используются правильные ссылки на CSV-файл и файл edm.xml. Вы можете скопировать, изменить и использовать наш пример. В этом примере XML для создания типа конфиденциальной информации EDM должны быть настроены перечисленные ниже поля.
 
-- 
-  **Идентификаторы RulePack и ExactMatch**. Используйте командлет [New-GUID](https://docs.microsoft.com/ru-RU/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) для создания GUID.
+- **Идентификаторы RulePack и ExactMatch**. Используйте командлет [New-GUID](https://docs.microsoft.com/ru-RU/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) для создания GUID.
 
 - **Datastore**. В этом поле указывается, какое хранилище данных подстановки EDM будет использоваться. Вы указываете имя источника данных для настроенной схемы EDM.
 
@@ -482,19 +480,15 @@ Register-ScheduledTask -TaskName $taskName -InputObject $scheduledTask -User $us
 
 ## <a name="related-articles"></a>Статьи по теме
 
+[Встроенные типы конфиденциальной информации и что они позволяют искать](https://docs.microsoft.com/ru-RU/office365/securitycompliance/what-the-sensitive-information-types-look-for)
 
-  [Встроенные типы конфиденциальной информации и что они позволяют искать](https://docs.microsoft.com/ru-RU/office365/securitycompliance/what-the-sensitive-information-types-look-for)
+[Пользовательские типы конфиденциальной информации](https://docs.microsoft.com/ru-RU/office365/securitycompliance/custom-sensitive-info-types)
 
-
-  [Пользовательские типы конфиденциальной информации](https://docs.microsoft.com/ru-RU/office365/securitycompliance/custom-sensitive-info-types)
-
-
-  [Обзор политик защиты от потери данных](https://docs.microsoft.com/ru-RU/office365/securitycompliance/data-loss-prevention-policies)
+[Обзор политик защиты от потери данных](https://docs.microsoft.com/ru-RU/office365/securitycompliance/data-loss-prevention-policies)
 
 [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)
 
-
-  [New-DlpEdmSchema](https://docs.microsoft.com/ru-RU/powershell/module/exchange/policy-and-compliance-dlp/new-dlpedmschema?view=exchange-ps)
+[New-DlpEdmSchema](https://docs.microsoft.com/ru-RU/powershell/module/exchange/policy-and-compliance-dlp/new-dlpedmschema?view=exchange-ps)
 
 ## <a name="feedback"></a>Обратная связь
 В GitHub включена обратная связь, но добавлять проблемы можно только на общедоступном сайте.
