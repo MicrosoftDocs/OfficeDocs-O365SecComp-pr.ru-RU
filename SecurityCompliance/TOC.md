@@ -227,7 +227,7 @@
 ### [Сведения о динамической доставке и предварительном просмотре](dynamic-delivery-and-previewing.md)
 ### [ATP для SharePoint, OneDrive и Microsoft Teams](atp-for-spo-odb-and-teams.md)
 ### [Как работает анализ угроз и реагирование на них](office-365-ti.md)
-### [Как работает автоматизированный анализ угроз и реагирование на них](automated-investigation-response-office.md)
+### [Как работает автоматическое реагирование на инциденты](automated-investigation-response-office.md)
 
 
 # Управление инцидентами, связанными с безопасностью
