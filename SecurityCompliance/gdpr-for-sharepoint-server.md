@@ -35,9 +35,7 @@ ms.locfileid: "34152741"
 
 Рекомендуемый подход для общих папок, а также сайтов и библиотек SharePoint включает следующие действия:
 
-1.  
-  **
-  [Установите и настройте сканер Azure Information Protection.](https://docs.microsoft.com/ru-RU/azure/information-protection/rms-client/client-admin-guide-install#options-to-install-the-azure-information-protection-client-for-users)**
+1.  **[Установите и настройте сканер Azure Information Protection.](https://docs.microsoft.com/ru-RU/azure/information-protection/rms-client/client-admin-guide-install#options-to-install-the-azure-information-protection-client-for-users)**
 
     -   Выберите необходимые типы конфиденциальных данных.
 

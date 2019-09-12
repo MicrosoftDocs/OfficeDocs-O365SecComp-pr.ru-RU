@@ -141,11 +141,9 @@ ms.locfileid: "34153741"
 
 Для формулирования и оптимизации запросов с помощью KQL используйте эти ресурсы:
 
--   
-  [Руководство по синтаксису языка запросов по ключевым словам (KQL)](https://docs.microsoft.com/ru-RU/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
+-   [Руководство по синтаксису языка запросов по ключевым словам (KQL)](https://docs.microsoft.com/ru-RU/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
 
--   
-  [Выполнение поиска контента](https://support.office.com/ru-RU/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a) 
+-   [Выполнение поиска контента](https://support.office.com/ru-RU/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a) 
 
 Поиск контента предоставляет еще один ресурс, который помогает создавать запросы KQL и типы конфиденциальной информации, — ключевые слова. Зачем использовать список ключевых слов? Вы можете получить статистические данные о том, сколько элементов соответствуют каждому ключевому слову. Это поможет быстро определить наиболее (и наименее) эффективные ключевые слова. Дополнительные сведения о статистике поиска см. в статье [Просмотр статистики ключевых слов для результатов поиска контента](https://support.office.com/ru-RU/article/View-keyword-statistics-for-Content-Search-results-9701a024-c52e-43f0-b545-9a53478aec04).
 
