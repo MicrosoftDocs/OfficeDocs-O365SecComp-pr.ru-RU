@@ -1,7 +1,7 @@
 ---
 title: Интеграция Office 365 Advanced Threat protection с Advanced Threat Protection в защитнике Майкрософт
-ms.author: deniseb
-author: denisebmsft
+ms.author: tracyp
+author: msfttracyp
 manager: dansimp
 ms.date: 01/22/2019
 audience: ITPro
@@ -15,12 +15,12 @@ ms.assetid: 414fa693-d7b7-4a1d-a387-ebc3b6a52889
 ms.collection:
 - M365-security-compliance
 description: Интеграция Office 365 Advanced Threat protection с Advanced Threat Protection в защитнике Майкрософт для просмотра подробных сведений об управлении угрозами.
-ms.openlocfilehash: 640c073e9ef5b32ffaa8d38a426d86b60d80d2aa
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+ms.openlocfilehash: 5ab849b833f71868d9b08fd1af76ee6d904f5d59
+ms.sourcegitcommit: ff370e93b792204547694139ef99bc0848304570
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35599055"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36852811"
 ---
 # <a name="integrate-office-365-advanced-threat-protection-with-microsoft-defender-advanced-threat-protection"></a>Интеграция Office 365 Advanced Threat protection с Advanced Threat Protection в защитнике Майкрософт
 
@@ -38,7 +38,7 @@ ms.locfileid: "35599055"
     
 - Необходимо быть глобальным администратором Office 365 или иметь роль администратора безопасности (например, администратора безопасности), назначенную в [центре &amp; безопасности и соответствия требованиям](https://protection.office.com). (См. [разрешения в центре безопасности &amp; и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md))
     
-- Необходимо иметь доступ к проводнику [(или обнаружениям в режиме реального времени)](threat-explorer.md) в центре безопасности & соответствия требованиям и центре безопасности защитника Майкрософт.
+- Необходимо иметь доступ к [проводнику (или обнаружениям в режиме реального времени)](threat-explorer.md) в центре безопасности & соответствия требованиям и центре безопасности защитника Майкрософт.
     
 ## <a name="to-integrate-office-365-atp-with-microsoft-defender-atp"></a>Интеграция Office 365 ATP с защитником Microsoft для пакета ATP
 
@@ -46,7 +46,7 @@ ms.locfileid: "35599055"
   
 1. Как глобальный администратор Office 365 или администратор безопасности перейдите к [https://protection.office.com](https://protection.office.com) рабочей или учебной учетной записи для Office 365 с помощью рабочей или учебной учетной записи.
     
-2. Выберите **Обозреватель** **управления** \> угрозами.<br>![Проводник в меню "Управление угрозами"](media/ThreatMgmt-Explorer-nav.png)<br>
+2. Выберите \> **Обозреватель** **управления угрозами** .<br>![Проводник в меню "Управление угрозами"](media/ThreatMgmt-Explorer-nav.png)<br>
     
 3. В правом верхнем углу экрана выберите **Параметры вдатп**.
     

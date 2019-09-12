@@ -1,7 +1,7 @@
 ---
 title: Защита Организации от угроз Office 365 и возможностей реагирования на них
-ms.author: deniseb
-author: denisebmsft
+ms.author: tracyp
+author: msfttracyp
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -14,12 +14,12 @@ ms.assetid: 3387bfc3-028a-42f4-8133-4cbecfaab812
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как исследование угроз для Office 365 и возможности реагирования могут помочь вашей организации обнаруживать проникновения и угрозы, а также быстро устранять угрозы и восстанавливать их от угроз.
-ms.openlocfilehash: 217203c0bfa29352bc7e1b2b3976f11966034fb0
-ms.sourcegitcommit: 4a2bde56178609e75c1ad7ecad2db5e049fc0c45
+ms.openlocfilehash: 22d2b7e0aa1495c0eca0cc7db8eea58b59a73654
+ms.sourcegitcommit: ff370e93b792204547694139ef99bc0848304570
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36761695"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36852821"
 ---
 # <a name="keep-your-organization-safe-with-office-365-threat-investigation-and-response-capabilities"></a>Защита Организации от угроз Office 365 и возможностей реагирования на них
 

@@ -1,7 +1,7 @@
 ---
 title: Анализ угроз и реагирование на них в Office 365
-ms.author: deniseb
-author: denisebmsft
+ms.author: tracyp
+author: msfttracyp
 manager: dansimp
 ms.date: 08/23/2019
 audience: Admin
@@ -15,12 +15,12 @@ ms.assetid: 32405da5-bee1-4a4b-82e5-8399df94c512
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как функции интеллектуального анализа в Office 365 Advanced Threat protection помогают находить угрозы в Организации, отвечать на вредоносные программы, фишингы и другие атаки, обнаруженные в Office 365 от вашего имени, и искать угрозу показател.
-ms.openlocfilehash: 1d31f3a464060f5b72730e15895d918e61aa09a1
-ms.sourcegitcommit: 4a2bde56178609e75c1ad7ecad2db5e049fc0c45
+ms.openlocfilehash: 0edf68f3383759a4cffd9cb7c25260a51913beb0
+ms.sourcegitcommit: ff370e93b792204547694139ef99bc0848304570
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36761655"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36852771"
 ---
 # <a name="office-365-threat-investigation-and-response"></a>Анализ угроз и реагирование на них в Office 365
 
@@ -74,7 +74,7 @@ ms.locfileid: "36761655"
 
 ### <a name="automated-investigation-and-response"></a>Автоматизированный анализ угроз и реакция на угрозы
 
-Используйте возможности автоматического исследования и реагирования (AIR), чтобы сэкономить время и усилия при взаимосвязи контента, устройств и людей с угрозами в вашей организации. Процессы AIR могут начаться при срабатывании определенных оповещений или при запуске группы "Управление средствами безопасности". Чтобы узнать больше, ознакомьтесь [со статьей автоматизированное исследование и ответ (AIR) с Office 365](automated-investigation-response-office.md). 
+Используйте возможности автоматического исследования и реагирования (AIR), чтобы сэкономить время и усилия при взаимосвязи контента, устройств и людей с угрозами в вашей организации. Процессы AIR могут начаться при срабатывании определенных оповещений или при запуске группы "Управление средствами безопасности". Дополнительные сведения см. в разделе [автоматизированное реагирование на инциденты (AIR) с Office 365](automated-investigation-response-office.md). 
   
 ## <a name="threat-intelligence-widgets"></a>Мини-элементы аналитики для защиты от угроз
 
