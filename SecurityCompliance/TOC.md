@@ -2,6 +2,7 @@
 
 # Начало работы
 ## [Новые возможности Центра соответствия требованиям](whats-new.md)
+## [Последние обновления сведений о соответствии требованиям](new-updated-compliance-content.md)
 ## [Схема обеспечения безопасности Office 365](security-roadmap.md)
 ## [Настройка клиента Office 365 для улучшения безопасности](tenant-wide-setup-for-increased-security.md)
 ## [Новый Центр безопасности Microsoft 365 и Центр соответствия требованиям Microsoft 365](microsoft-security-and-compliance.md)
