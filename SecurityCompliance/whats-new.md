@@ -16,12 +16,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: Мы постоянно добавляем новые функции в центр соответствия требованиям Microsoft 365, устранять проблемы, которые мы будем изучать, и вносить изменения в соответствии с вашими отзывами. Узнайте, что мы использовали до этого месяца.
-ms.openlocfilehash: 06c1292138ef7ca4c8421c169555454686ef8858
-ms.sourcegitcommit: 72ee6feaa0e0fd6bf01bfb855ad6e3bef370bf89
+ms.openlocfilehash: b3adf13fe662640c2dbc21eea6a48e2629a1113c
+ms.sourcegitcommit: 9fd606e8d912f4507fbcd9f1fcb9dfcfd20de08b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "36393338"
+ms.lasthandoff: 09/13/2019
+ms.locfileid: "36980435"
 ---
 # <a name="whats-new-in-the-microsoft-365-compliance-center"></a>Новые возможности центра соответствия требованиям Microsoft 365
 
@@ -29,6 +29,12 @@ ms.locfileid: "36393338"
 
 > [!TIP]
 > Хотите узнать, что происходит в других центрах администрирования? Ознакомьтесь со следующими статьями:<br>[Новые возможности центра администрирования Microsoft 365](https://docs.microsoft.com/office365/admin/whats-new-in-preview?view=o365-worldwide)<br>[Новые возможности в центре администрирования SharePoint](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
+
+## <a name="august-2019"></a>Август 2019
+
+### <a name="data-investigations"></a>Расследования данных
+
+При проведении расследования данных теперь можно удалять элементы из их исходных расположений. Это означает, что вы можете удалять элементы из почтовых ящиков Exchange, сайтов SharePoint и учетных записей OneDrive в Организации. Так как вы собрали элементы в качестве свидетельства, у вас будут копии, сохраненные в наборе свидетельств, вы сможете исследовать дальнейшие действия или просто хранить их в качестве справочных материалов. [Подробнее](datainvestigations/delete-items-from-original-locations.md)
 
 ## <a name="july-2019"></a>2019 июля
 
