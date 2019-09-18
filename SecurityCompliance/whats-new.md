@@ -16,12 +16,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: Мы постоянно добавляем новые функции в центр соответствия требованиям Microsoft 365, устранять проблемы, которые мы будем изучать, и вносить изменения в соответствии с вашими отзывами. Узнайте, что мы использовали до этого месяца.
-ms.openlocfilehash: b3adf13fe662640c2dbc21eea6a48e2629a1113c
-ms.sourcegitcommit: 9fd606e8d912f4507fbcd9f1fcb9dfcfd20de08b
+ms.openlocfilehash: c5abb71c21e6c65d46768d584101f6902c0422c2
+ms.sourcegitcommit: 30fc793d3e77e223dee6c96a94e50cda2de34bb6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/13/2019
-ms.locfileid: "36980435"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "37011721"
 ---
 # <a name="whats-new-in-the-microsoft-365-compliance-center"></a>Новые возможности центра соответствия требованиям Microsoft 365
 
@@ -31,6 +31,8 @@ ms.locfileid: "36980435"
 > Хотите узнать, что происходит в других центрах администрирования? Ознакомьтесь со следующими статьями:<br>[Новые возможности центра администрирования Microsoft 365](https://docs.microsoft.com/office365/admin/whats-new-in-preview?view=o365-worldwide)<br>[Новые возможности в центре администрирования SharePoint](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
 
 ## <a name="august-2019"></a>Август 2019
+
+Хотите узнать, почему она скрыта в выпуске за этот месяц? Мы празднуем создание новых, инновационных решений для обеспечения соответствия требованиям, которые будут представили в [Microsoft Ignite](https://www.microsoft.com/ignite) в ноябре. Оставайтесь в курсе.
 
 ### <a name="data-investigations"></a>Расследования данных
 
